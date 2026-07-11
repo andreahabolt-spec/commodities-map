@@ -6,6 +6,7 @@ one <Folder> per category, each <Folder> holding <Placemark> elements that are
 either Point (marker) or LineString (route).
 """
 
+import re
 import xml.etree.ElementTree as ET
 
 NS = {"kml": "http://www.opengis.net/kml/2.2"}
@@ -35,8 +36,9 @@ def parse_kml(path):
 
     for folder in document.findall("kml:Folder", NS):
         raw_name = _text(folder, "name", "Uncategorised")
-        # strip the auto-generated count, e.g. "Refineries (57)" -> "Refineries"
-        category = raw_name.rsplit(" (", 1)[0].strip()
+        # strip only an auto-generated numeric count, e.g. "Refineries (57)" -> "Refineries",
+        # while preserving descriptive parentheses like "Ports (fuel demand sites)".
+        category = re.sub(r"\s*\(\d+\)\s*$", "", raw_name).strip()
         if category not in categories:
             categories.append(category)
 

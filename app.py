@@ -8,28 +8,27 @@ st.set_page_config(page_title="Commodities Trading Map", layout="wide")
 
 KML_PATH = "Commodities_Trading_EN.kml"
 
-# Marker colour per category. Keep these in sync with the folder names in the KML.
+# Point categories -> marker colour. Names must match the KML folder names.
 CATEGORY_COLORS = {
     "Refineries": "#8d6e63",
     "Mega-refineries": "#5d4037",
-    "Ports & Storage": "#d32f2f",
-    "Terminals & Strategic Reserves": "#ef5350",
-    "Ports / Cities / Mines": "#1976d2",
-    "Oil Fields & Production": "#388e3c",
-    "Offshore Oil & Gas Fields": "#66bb6a",
-    "Power Plants & Offshore Fields": "#00796b",
-    "Power Plants & LNG": "#5c6bc0",
+    "Terminals": "#d32f2f",
+    "Ports, aviation, defense (fuel demand sites)": "#1976d2",
+    "Oil Fields": "#388e3c",
+    "Ammonia production sites": "#fbc02d",
     "Petrochemical Plants": "#000000",
-    "Ammonia & Renewables": "#fbc02d",
-    "Storage & Refineries (Asia)": "#7b1fa2",
-    "Straits & Strategic Hubs": "#ffee58",
-    "Geopolitical Points": "#ab47bc",
-    "Rivers & Waterways": "#757575",
-    "Uncategorised": "#9e9e9e",
+    "Strategic Transport Infrastructure": "#757575",
 }
-ROUTE_CATEGORY = "Transport Routes"
-ROUTE_COLOR = "#2dc0fb"
 DEFAULT_COLOR = "#3388ff"
+
+# Route categories (LineString folders) -> line colour.
+# Crude / refined-product / maritime flows are shown in distinct colours.
+ROUTE_COLORS = {
+    "Pipelines crude": "#e65100",          # dark orange - crude pipelines
+    "Pipelines refined products": "#fbc02d", # yellow - refined products pipelines
+    "Maritime routes": "#2dc0fb",          # light blue - sea routes
+}
+DEFAULT_ROUTE_COLOR = "#2dc0fb"
 
 
 @st.cache_data
@@ -38,24 +37,35 @@ def load_data(path):
 
 
 data = load_data(KML_PATH)
-point_categories = [c for c in data["categories"] if c != ROUTE_CATEGORY]
+route_categories = list(ROUTE_COLORS.keys())
+point_categories = [c for c in data["categories"] if c not in route_categories]
 
 st.title("Global Energy Infrastructure Map")
 st.caption(
-    "Refineries, storage, ports, production fields and logistics routes "
-    "into the European hubs (Rotterdam / ARA)."
+    "Refineries, storage, terminals, production fields and logistics flows "
+    "(crude pipelines, product pipelines, maritime routes) into the European hubs "
+    "(Rotterdam / ARA)."
 )
 
 # --- Sidebar filters ---
 st.sidebar.header("Filters")
 
 selected_categories = st.sidebar.multiselect(
-    "Categories to display",
+    "Point categories to display",
     options=point_categories,
     default=point_categories,
 )
 
-show_routes = st.sidebar.checkbox("Show transport routes", value=True)
+st.sidebar.markdown("**Transport flows**")
+show_crude = st.sidebar.checkbox("Crude pipelines", value=True)
+show_refined = st.sidebar.checkbox("Refined-product pipelines", value=True)
+show_maritime = st.sidebar.checkbox("Maritime routes", value=True)
+
+route_visibility = {
+    "Pipelines crude": show_crude,
+    "Pipelines refined products": show_refined,
+    "Maritime routes": show_maritime,
+}
 
 search = st.sidebar.text_input("Search a location by name")
 
@@ -70,8 +80,6 @@ st.sidebar.markdown(
 )
 
 # --- Map ---
-# tiles=None + an explicit TileLayer lets us set no_wrap, which stops Leaflet
-# from repeating the world horizontally at low zoom levels.
 m = folium.Map(
     location=[30, 15],
     zoom_start=3,
@@ -79,12 +87,9 @@ m = folium.Map(
     max_bounds=True,
     tiles=None,
 )
-folium.TileLayer(
-    "cartodbpositron",
-    no_wrap=True,
-    control=False,  # hide the single-basemap radio button from the layer control
-).add_to(m)
+folium.TileLayer("cartodbpositron", no_wrap=True, control=False).add_to(m)
 
+# Point layers, one FeatureGroup per category
 for category in point_categories:
     if category not in selected_categories:
         continue
@@ -104,23 +109,27 @@ for category in point_categories:
             fill=True,
             fill_color=color,
             fill_opacity=0.9,
-            tooltip=point["name"],                            # shown on hover
-            popup=folium.Popup(popup_html, max_width=300),    # shown on click
+            tooltip=point["name"],
+            popup=folium.Popup(popup_html, max_width=320),
         ).add_to(group)
 
     group.add_to(m)
 
-if show_routes:
-    routes = folium.FeatureGroup(name=ROUTE_CATEGORY, show=True)
-    for line in data["lines"]:
+# Route layers, one FeatureGroup per route type, coloured distinctly
+for route_cat in route_categories:
+    if not route_visibility.get(route_cat, True):
+        continue
+    color = ROUTE_COLORS.get(route_cat, DEFAULT_ROUTE_COLOR)
+    group = folium.FeatureGroup(name=route_cat, show=True)
+    for line in (l for l in data["lines"] if l["category"] == route_cat):
         folium.PolyLine(
             locations=line["coords"],
-            color=ROUTE_COLOR,
+            color=color,
             weight=3,
-            opacity=0.8,
+            opacity=0.85,
             tooltip=line["name"] if line["name"] != "(unnamed)" else None,
-        ).add_to(routes)
-    routes.add_to(m)
+        ).add_to(group)
+    group.add_to(m)
 
 folium.LayerControl(collapsed=False).add_to(m)
 
