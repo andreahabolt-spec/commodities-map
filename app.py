@@ -68,6 +68,106 @@ def line_swatch(color, dashed=False):
     )
 
 
+# Known labels used in the KML descriptions. Each is put on its own line (bold)
+# when it appears in a description, turning a dense block into an airy fact sheet.
+# Longer labels come first so they match before their shorter prefixes.
+DESCRIPTION_LABELS = [
+    "Owner/Operator",
+    "Main feedstocks",
+    "Main products",
+    "Main export markets",
+    "Main commodities",
+    "Main markets",
+    "Recent development",
+    "Recent operations",
+    "Recent data",
+    "Strategic role",
+    "Renewable capacity",
+    "Nominal capacity",
+    "Planned capacity",
+    "Storage capacity",
+    "Current capacity",
+    "Connected infrastructure",
+    "Industrial integration",
+    "Berths / vessel size",
+    "Classification",
+    "Configuration",
+    "Infrastructure",
+    "Integration",
+    "Capacity",
+    "Feedstocks",
+    "Feedstock",
+    "Location",
+    "Refinery",
+    "Terminal",
+    "Facility",
+    "Markets",
+    "Vessels",
+    "Pricing",
+    "Transit",
+    "Origin",
+    "Sulfur",
+    "Sulphur",
+    "Status",
+    "Crude",
+    "Owner",
+    "Type",
+    "Risks",
+    "Route",
+    "Used for",
+    "Handles",
+    "Process",
+    "Output",
+    "Input",
+    "Site",
+    "Role",
+]
+
+# Precompiled regex: a label from the list, followed by a colon.
+import re as _re
+_LABEL_RE = _re.compile(
+    r"\s*(" + "|".join(_re.escape(l) for l in DESCRIPTION_LABELS) + r")\s*:",
+)
+
+
+def format_description(text):
+    """Turn a dense labelled description into an airy, line-per-field block.
+
+    Inserts a line break before each known label and bolds the label. Works at
+    display time only — the KML itself is never modified. Free-text descriptions
+    without known labels are returned essentially unchanged.
+    """
+    if not text:
+        return ""
+    # normalise existing HTML line breaks and nbsp to plain spaces first
+    cleaned = _re.sub(r"<br\s*/?>", " ", text, flags=_re.I)
+    cleaned = cleaned.replace("&nbsp;", " ")
+    cleaned = _re.sub(r"\s+", " ", cleaned).strip()
+
+    # put each label on its own line, bolded
+    def _repl(m):
+        return f"<br><b>{m.group(1)}:</b> "
+
+    formatted = _LABEL_RE.sub(_repl, cleaned)
+    # remove a leading <br> if the text started with a label
+    formatted = _re.sub(r"^\s*<br>\s*", "", formatted)
+    return formatted
+
+
+def popup_html(name, description):
+    """Build a scrollable popup: title + formatted, height-capped body."""
+    body = format_description(description) if description else ""
+    inner = f"<div style='font-family:Arial,sans-serif;font-size:13px;line-height:1.45'>"
+    inner += f"<div style='font-weight:bold;font-size:14px;margin-bottom:4px'>{name}</div>"
+    if body:
+        inner += (
+            "<div style='max-height:260px;overflow-y:auto;padding-right:6px'>"
+            f"{body}</div>"
+        )
+    inner += "</div>"
+    return inner
+
+
 data = load_data(KML_PATH)
 route_categories = list(ROUTE_COLORS.keys())
 point_categories = [c for c in data["categories"] if c not in route_categories]
@@ -154,9 +254,6 @@ for category in point_categories:
     group = folium.FeatureGroup(name=category, show=True)
     color = CATEGORY_COLORS.get(category, DEFAULT_COLOR)
     for point in (p for p in filtered_points if p["category"] == category):
-        popup_html = f"<b>{point['name']}</b>"
-        if point["description"]:
-            popup_html += f"<br>{point['description']}"
         folium.CircleMarker(
             location=[point["lat"], point["lon"]],
             radius=6,
@@ -165,7 +262,7 @@ for category in point_categories:
             fill_color=color,
             fill_opacity=0.9,
             tooltip=point["name"],
-            popup=folium.Popup(popup_html, max_width=320),
+            popup=folium.Popup(popup_html(point["name"], point["description"]), max_width=320),
         ).add_to(group)
     group.add_to(m)
 
@@ -185,11 +282,9 @@ for route_cat in route_categories:
         else:
             tooltip_text = name if name != "(unnamed)" else ""
 
-        popup_html = None
+        popup_content = None
         if name != "(unnamed)":
-            popup_html = f"<b>{name}</b>"
-            if line.get("description"):
-                popup_html += f"<br>{line['description']}"
+            popup_content = popup_html(name, line.get("description", ""))
 
         geojson = {
             "type": "Feature",
@@ -210,8 +305,8 @@ for route_cat in route_categories:
         )
         if tooltip_text:
             gj.add_child(folium.Tooltip(tooltip_text))
-        if popup_html:
-            gj.add_child(folium.Popup(popup_html, max_width=340))
+        if popup_content:
+            gj.add_child(folium.Popup(popup_content, max_width=340))
         gj.add_to(group)
     group.add_to(m)
 
