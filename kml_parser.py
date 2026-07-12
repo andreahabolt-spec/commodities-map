@@ -70,6 +70,7 @@ def parse_kml(path):
                         coords.append((float(lat), float(lon)))
                     lines.append({
                         "name": name,
+                        "description": description,
                         "coords": coords,
                         "category": category,
                     })
