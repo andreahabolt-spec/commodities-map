@@ -1,3 +1,7 @@
+import glob
+import os
+import re
+
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
@@ -6,27 +10,44 @@ from kml_parser import parse_kml
 
 st.set_page_config(page_title="Commodities Trading Map", layout="wide")
 
-KML_PATH = "Commodities_Trading_Eng.kml"
+# Expected data file. If it is missing (e.g. Google Earth exported under another
+# name), fall back to any .kml present in the folder so the app still runs.
+KML_PATH = "Commodities_Trading.kml"
+
+
+def resolve_kml_path(preferred):
+    if os.path.exists(preferred):
+        return preferred, None
+    candidates = sorted(glob.glob("*.kml"))
+    if not candidates:
+        return None, "No .kml file found in the app folder."
+    return candidates[0], (
+        f"'{preferred}' not found — using '{candidates[0]}' instead. "
+        f"Rename your export to '{preferred}' to silence this warning."
+    )
+
 
 # Point categories -> marker colour. Names must match the KML folder names.
 CATEGORY_COLORS = {
-    "Mega-refineries": "#5d4037",
-    "Refineries": "#8d6e63",
-    "Terminals": "#d32f2f",
-    "Ports, aviation, defense (fuel demand sites)": "#1976d2",
-    "Oil Fields": "#388e3c",
-    "Renewable Fuels & Low-Carbon Production Sites": "#00c853",
-    "Ammonia production sites": "#fbc02d",
-    "Petrochemical Plants": "#000000",
-    "Strategic Transport Infrastructure": "#757575",
+    "Mega-refineries": "#5d4037",                              # dark brown
+    "Refineries": "#8d6e63",                                   # brown
+    "Major Oil Storage & Distribution Terminals": "#d32f2f",   # red
+    "Ports & Maritime Logistics Hubs": "#1976d2",              # blue
+    "Offshore tanker loading terminal": "#ad1457",             # magenta
+    "Oil Fields": "#388e3c",                                   # green
+    "Renewable Fuels & Low-Carbon Production Sites": "#00c853",  # bright green
+    "Ammonia production sites": "#fbc02d",                     # yellow
+    "Petrochemical Plants": "#000000",                         # black
+    "Major Industrial & Energy Hubs": "#7b1fa2",               # purple
+    "Aviation Fuel Demand": "#00acc1",                         # cyan
 }
 DEFAULT_COLOR = "#3388ff"
 
 # Route categories (LineString folders) -> line colour.
 ROUTE_COLORS = {
-    "Pipelines crude": "#e65100",            # dark orange - crude pipelines
-    "Pipelines refined products": "#fbc02d", # yellow - refined-product pipelines
-    "Maritime routes": "#2dc0fb",            # light blue - sea routes
+    "Pipelines crude": "#e65100",             # dark orange - crude pipelines
+    "Pipelines refined products": "#fdd835",  # yellow - refined-product pipelines
+    "Maritime routes": "#2dc0fb",             # light blue - sea routes
 }
 DEFAULT_ROUTE_COLOR = "#2dc0fb"
 
@@ -36,7 +57,7 @@ ROUTE_NAME_COLORS = {
 }
 NON_OPERATIONAL_ROUTES = {"Kirkuk–Ceyhan Oil Pipeline"}
 
-# Human-readable labels for the route categories (used in legend + filters)
+# Human-readable labels for the route categories (legend + filters)
 ROUTE_LABELS = {
     "Pipelines crude": "Crude pipelines",
     "Pipelines refined products": "Refined-product pipelines",
@@ -50,7 +71,7 @@ def load_data(path):
 
 
 def color_dot(color):
-    """Return an inline HTML dot of the given colour, for the sidebar legend."""
+    """Inline HTML dot of the given colour, for the sidebar legend."""
     return (
         f"<span style='display:inline-block;width:12px;height:12px;"
         f"border-radius:50%;background:{color};margin-right:8px;"
@@ -59,7 +80,7 @@ def color_dot(color):
 
 
 def line_swatch(color, dashed=False):
-    """Return an inline HTML line swatch for the route legend."""
+    """Inline HTML line swatch for the route legend."""
     style = "dashed" if dashed else "solid"
     return (
         f"<span style='display:inline-block;width:22px;height:0;"
@@ -68,96 +89,116 @@ def line_swatch(color, dashed=False):
     )
 
 
-# Known labels used in the KML descriptions. Each is put on its own line (bold)
-# when it appears in a description, turning a dense block into an airy fact sheet.
-# Longer labels come first so they match before their shorter prefixes.
+# Labels used in the KML descriptions. Each is put on its own line (bold) when
+# found, turning a dense block into an airy fact sheet. Longer/more specific
+# labels are listed first so they win over their shorter prefixes.
 DESCRIPTION_LABELS = [
-    "Owner/Operator",
-    "Main feedstocks",
-    "Main products",
+    "Latitude / Longitude",
+    "Coordinate confidence",
+    "Connected infrastructure",
+    "Industrial integration",
+    "Storage infrastructure",
+    "Energy-transition role",
+    "Berths / vessel size",
     "Main export markets",
-    "Main commodities",
-    "Main markets",
+    "Operating history",
     "Recent development",
     "Recent operations",
-    "Recent data",
-    "Strategic role",
+    "Nearest settlement",
+    "Crude-import role",
     "Renewable capacity",
+    "Alternative name",
+    "Pipeline capacity",
     "Nominal capacity",
     "Planned capacity",
     "Storage capacity",
     "Current capacity",
-    "Connected infrastructure",
-    "Industrial integration",
-    "Berths / vessel size",
+    "Main feedstocks",
+    "Main facilities",
+    "Main activities",
+    "Main commodities",
+    "Main functions",
+    "Main products",
+    "Refining cluster",
+    "Strategic role",
+    "Bunkering role",
+    "Owner/Operator",
     "Classification",
-    "Configuration",
     "Infrastructure",
+    "Configuration",
+    "Connectivity",
+    "Connected to",
+    "Recent data",
+    "Main markets",
+    "Export role",
+    "Marine role",
+    "Crude flows",
+    "Operated by",
     "Integration",
-    "Capacity",
+    "Asset type",
     "Feedstocks",
     "Feedstock",
+    "Logistics",
+    "Operator",
+    "Capacity",
     "Location",
     "Refinery",
     "Terminal",
     "Facility",
     "Markets",
+    "Sulphur",
+    "Used for",
     "Vessels",
     "Pricing",
     "Transit",
-    "Origin",
-    "Sulfur",
-    "Sulphur",
-    "Status",
-    "Crude",
-    "Owner",
-    "Type",
-    "Risks",
-    "Route",
-    "Used for",
     "Handles",
     "Process",
+    "Country",
+    "Region",
+    "Origin",
+    "Sulfur",
+    "Status",
+    "Source",
     "Output",
+    "Crude",
+    "Owner",
     "Input",
+    "Risks",
+    "Route",
     "Site",
     "Role",
+    "Type",
+    "Hub",
+    "API",
 ]
 
-# Precompiled regex: a label from the list, followed by a colon.
-import re as _re
-_LABEL_RE = _re.compile(
-    r"\s*(" + "|".join(_re.escape(l) for l in DESCRIPTION_LABELS) + r")\s*:",
+# A label must start at a word boundary and be followed by a colon.
+_LABEL_RE = re.compile(
+    r"\s*(?<![A-Za-z])(" + "|".join(re.escape(l) for l in DESCRIPTION_LABELS) + r")\s*:"
 )
 
 
 def format_description(text):
-    """Turn a dense labelled description into an airy, line-per-field block.
+    """Turn a dense labelled description into an airy, one-field-per-line block.
 
-    Inserts a line break before each known label and bolds the label. Works at
-    display time only — the KML itself is never modified. Free-text descriptions
-    without known labels are returned essentially unchanged.
+    Runs at display time only — the KML itself is never modified. Free-text
+    descriptions without known labels are returned essentially unchanged.
     """
     if not text:
         return ""
-    # normalise existing HTML line breaks and nbsp to plain spaces first
-    cleaned = _re.sub(r"<br\s*/?>", " ", text, flags=_re.I)
+    cleaned = re.sub(r"<br\s*/?>", " ", text, flags=re.I)
     cleaned = cleaned.replace("&nbsp;", " ")
-    cleaned = _re.sub(r"\s+", " ", cleaned).strip()
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
 
-    # put each label on its own line, bolded
-    def _repl(m):
-        return f"<br><b>{m.group(1)}:</b> "
-
-    formatted = _LABEL_RE.sub(_repl, cleaned)
-    # remove a leading <br> if the text started with a label
-    formatted = _re.sub(r"^\s*<br>\s*", "", formatted)
+    formatted = _LABEL_RE.sub(lambda m: f"<br><b>{m.group(1)}:</b> ", cleaned)
+    formatted = re.sub(r"^\s*<br>\s*", "", formatted)
     return formatted
 
 
 def popup_html(name, description):
-    """Build a scrollable popup: title + formatted, height-capped body."""
+    """Scrollable popup: title + formatted, height-capped body."""
     body = format_description(description) if description else ""
-    inner = f"<div style='font-family:Arial,sans-serif;font-size:13px;line-height:1.45'>"
+    inner = "<div style='font-family:Arial,sans-serif;font-size:13px;line-height:1.45'>"
     inner += f"<div style='font-weight:bold;font-size:14px;margin-bottom:4px'>{name}</div>"
     if body:
         inner += (
@@ -168,25 +209,36 @@ def popup_html(name, description):
     return inner
 
 
-data = load_data(KML_PATH)
-route_categories = list(ROUTE_COLORS.keys())
-point_categories = [c for c in data["categories"] if c not in route_categories]
+# ---------------------------------------------------------------------------
+# Data
+# ---------------------------------------------------------------------------
+kml_file, kml_warning = resolve_kml_path(KML_PATH)
+if kml_file is None:
+    st.error(kml_warning)
+    st.stop()
+
+data = load_data(kml_file)
+route_categories = [c for c in data["categories"] if c in ROUTE_COLORS]
+point_categories = [c for c in data["categories"] if c not in ROUTE_COLORS]
 
 st.title("Global Energy Infrastructure Map")
 st.caption(
-    "Refineries, storage, terminals, production fields and logistics flows "
+    "Refineries, storage, terminals, ports, production fields and logistics flows "
     "(crude pipelines, product pipelines, maritime routes) into the European hubs "
     "(Rotterdam / ARA)."
 )
+if kml_warning:
+    st.warning(kml_warning)
 
-# =========================================================================
-# SIDEBAR: filters + legend combined. Each row shows a colour swatch next to
-# a checkbox, so the filter panel doubles as the map legend.
-# =========================================================================
+# ---------------------------------------------------------------------------
+# SIDEBAR: filters + legend combined (colour swatch next to each checkbox)
+# ---------------------------------------------------------------------------
 st.sidebar.header("Map controls")
-st.sidebar.caption("Use the arrow at the top-left of the sidebar to collapse this panel and view the map full-width.")
+st.sidebar.caption(
+    "Use the arrow at the top-left of the sidebar to collapse this panel "
+    "and view the map full-width."
+)
 
-# --- Point categories ---
 st.sidebar.subheader("Infrastructure (points)")
 selected_categories = []
 for category in point_categories:
@@ -200,7 +252,6 @@ for category in point_categories:
     if checked:
         selected_categories.append(category)
 
-# --- Transport flows ---
 st.sidebar.subheader("Transport flows (routes)")
 route_visibility = {}
 for route_cat in route_categories:
@@ -211,17 +262,18 @@ for route_cat in route_categories:
     with cols[0]:
         st.markdown(line_swatch(color), unsafe_allow_html=True)
     with cols[1]:
-        route_visibility[route_cat] = st.checkbox(f"{label}  ({count})", value=True, key=f"route_{route_cat}")
+        route_visibility[route_cat] = st.checkbox(
+            f"{label}  ({count})", value=True, key=f"route_{route_cat}"
+        )
 
-# --- Legend note for non-operational infrastructure ---
 st.sidebar.markdown(
-    line_swatch("#b71c1c", dashed=True) + "<span style='vertical-align:middle'>Non-operational (e.g. Kirkuk–Ceyhan)</span>",
+    line_swatch("#b71c1c", dashed=True)
+    + "<span style='vertical-align:middle'>Non-operational (e.g. Kirkuk–Ceyhan)</span>",
     unsafe_allow_html=True,
 )
 
 st.sidebar.divider()
 
-# --- Search ---
 search = st.sidebar.text_input("Search a location by name")
 
 filtered_points = [
@@ -234,10 +286,9 @@ st.sidebar.markdown(
     f"**{len(filtered_points)}** markers shown out of {len(data['points'])} total."
 )
 
-# =========================================================================
+# ---------------------------------------------------------------------------
 # MAP
-# =========================================================================
-# CartoDB Positron has clean, discreet, English-language labels.
+# ---------------------------------------------------------------------------
 m = folium.Map(
     location=[30, 15],
     zoom_start=3,
@@ -247,7 +298,7 @@ m = folium.Map(
 )
 folium.TileLayer("cartodbpositron", no_wrap=True, control=False).add_to(m)
 
-# Point layers, one FeatureGroup per category
+# Points, one FeatureGroup per category
 for category in point_categories:
     if category not in selected_categories:
         continue
@@ -266,7 +317,7 @@ for category in point_categories:
         ).add_to(group)
     group.add_to(m)
 
-# Route layers, native Leaflet highlight_function (hover thickens the line)
+# Routes, native Leaflet highlight_function (hover thickens the line)
 for route_cat in route_categories:
     if not route_visibility.get(route_cat, True):
         continue
