@@ -174,16 +174,6 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
-	<StyleMap id="msn_R8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_R7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_R</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_R">
 		<Pair>
 			<key>normal</key>
@@ -274,6 +264,16 @@
 			<styleUrl>#sh_R3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_R8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_airports">
 		<Pair>
 			<key>normal</key>
@@ -294,16 +294,6 @@
 			<styleUrl>#sh_blu-stars</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ferry0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ferry</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ferry</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ferry">
 		<Pair>
 			<key>normal</key>
@@ -312,6 +302,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ferry0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ferry0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ferry</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ferry</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=40">
@@ -337,6 +337,16 @@
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 		</Pair>
 		<Pair>
@@ -347,7 +357,7 @@
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -521,7 +531,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
+			<styleUrl>#sh_red-circle1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle1">
@@ -531,7 +541,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle1</styleUrl>
+			<styleUrl>#sh_red-circle</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle0">
@@ -544,14 +554,14 @@
 			<styleUrl>#sh_red-circle0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano2">
+	<StyleMap id="msn_red-circle10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano</styleUrl>
+			<styleUrl>#sn_red-circle00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano0</styleUrl>
+			<styleUrl>#sh_red-circle10</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano">
@@ -582,6 +592,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_volcano</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_volcano2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano20">
@@ -636,16 +656,6 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="scic_oil_field1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="scic_oil_field0">
 		<IconStyle>
 			<color>ff7fff55</color>
@@ -658,6 +668,16 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="scic_oil_field1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_R">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -666,8 +686,6 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
@@ -878,10 +896,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>6</width>
@@ -922,10 +936,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_ferry0">
 		<IconStyle>
@@ -935,10 +945,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>6</width>
@@ -984,6 +990,24 @@
 		</PolyStyle>
 	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1087,8 +1111,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>6</width>
@@ -1105,8 +1127,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>6</width>
@@ -1226,8 +1246,6 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<Style id="sh_icon?color=ef5350&amp;id=2000&amp;scale=4">
 		<IconStyle>
@@ -1261,10 +1279,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_ranger_station">
 		<IconStyle>
@@ -1281,25 +1295,6 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
-	</Style>
-	<Style id="sh_red-circle0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<Style id="sh_red-circle">
 		<IconStyle>
@@ -1331,28 +1326,44 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_volcano2">
+	<Style id="sh_red-circle0">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
 	<Style id="sh_volcano">
@@ -1403,6 +1414,18 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sh_volcano2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sh_volcano20">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -1418,8 +1441,6 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<Style id="sh_volcano3">
 		<IconStyle>
@@ -1445,8 +1466,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ffc80154</color>
 		</LineStyle>
@@ -1463,32 +1482,6 @@
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
-	</Style>
-	<Style id="sn_R7">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>4</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
 	</Style>
 	<Style id="sn_R">
 		<IconStyle>
@@ -1681,8 +1674,30 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
+	</Style>
+	<Style id="sn_R7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="sn_R70">
 		<IconStyle>
@@ -1707,8 +1722,6 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<Style id="sn_airports">
 		<IconStyle>
@@ -1721,10 +1734,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>4</width>
@@ -1768,10 +1777,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_ferry0">
 		<IconStyle>
@@ -1784,10 +1789,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>4</width>
@@ -1837,7 +1838,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1855,7 +1856,27 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=401">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2010,8 +2031,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>4</width>
@@ -2031,8 +2050,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>4</width>
@@ -2149,10 +2166,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_ranger_station">
 		<IconStyle>
@@ -2173,25 +2186,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_red-circle1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_red-circle">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2203,8 +2197,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -2230,20 +2222,38 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_volcano1">
+	<Style id="sn_red-circle00">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
 	<Style id="sn_volcano">
@@ -2283,6 +2293,18 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
+	</Style>
+	<Style id="sn_volcano1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="sn_volcano10">
 		<IconStyle>
@@ -2362,19 +2384,59 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
-	<Style id="style5">
+	<Style id="style">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style10">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style4">
+	<Style id="style11">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style15">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -2392,49 +2454,7 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style8">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style7">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style13">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="style18">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style9">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style3">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style2">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -2446,13 +2466,7 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style1">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style10">
+	<Style id="style2">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -2464,21 +2478,33 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style12">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style14">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="style21">
 		<LineStyle>
 			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style22">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
@@ -2488,27 +2514,21 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style0">
+	<Style id="style7">
 		<LineStyle>
 			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style11">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style15">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style22">
+	<Style id="style8">
 		<LineStyle>
 			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
@@ -2522,16 +2542,6 @@
 			<styleUrl>#style22</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style12</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="stylemap_id00">
 		<Pair>
 			<key>normal</key>
@@ -2540,6 +2550,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#style21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style12</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="stylemap_id02">
@@ -2552,16 +2572,6 @@
 			<styleUrl>#style4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id21">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style17</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style18</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="stylemap_id2">
 		<Pair>
 			<key>normal</key>
@@ -2570,6 +2580,26 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#style11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style18</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="stylemap_id22">
@@ -2590,16 +2620,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#style13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style5</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="stylemap_id24">
@@ -2634,6 +2654,14 @@
 	</StyleMap>
 	<Folder>
 		<name>Mega-refineries</name>
+		<Placemark id="ADDPCK00000000000001">
+			<name>PCK Schwedt Refinery</name>
+			<description><![CDATA[Refinery: PCK Raffinerie Schwedt<br>Classification: Major inland refinery — critical German supply infrastructure<br>Location: Schwedt/Oder, Brandenburg, Germany, near the Polish border<br>Owner: Rosneft ~54% effective (via Rosneft Deutschland and the AET holding — under German federal trusteeship through the Federal Network Agency since September 2022; permanent state control cleared by the European Commission in 2026), Shell ~37.5%, Eni ~8%<br>Capacity: ~11.6 million tonnes per year (~230,000 b/d nameplate); running at reduced utilisation since the loss of Russian pipeline crude<br>Main feedstocks: Historically Russian Urals via the Druzhba pipeline (ended January 2023); since then seaborne crude via the Rostock–Schwedt pipeline and Gdansk, plus Kazakh crude transiting Druzhba — halted by Russia from May 2026<br>Main products: Gasoline, diesel, jet fuel, heating oil, bitumen<br>Markets: Supplies roughly 90% of fuels for Berlin and Brandenburg, including Berlin airport (BER)<br>Recent data: Russia announced the halt of Kazakh transit deliveries from May 2026; Germany secured a US sanctions exemption for the site; a ~€400 million upgrade of the Rostock supply route has been pursued to raise seaborne capacity<br>Strategic role: The centrepiece of Germany's post-2022 crude rerouting — the refinery that turned the Druzhba cutoff into a live logistics problem<br>Risks: Structural dependence on the small Rostock pipeline; ownership limbo (sanctioned majority shareholder under trusteeship); feedstock diversification costs; utilisation and margin pressure]]></description>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<Point>
+				<coordinates>14.2365,53.0745,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="0BAD6318AD3E92734D19">
 			<name>Gazprom Neft Omsk Refinery</name>
 			<description>Refinery: Gazprom Neft Omsk Refinery
@@ -4163,8 +4191,7 @@ Markets: Southern and southeastern France, local airports, the Rhône Valley and
 Configuration: Highly integrated coastal refinery–petrochemical complex with extensive crude-import and product-export jetties, large storage infrastructure, pipeline connections and downstream petrochemical units producing olefins, aromatics, polymers and chemical intermediates.
 Recent development: In April 2024, INEOS completed the acquisition of TotalEnergies’ interests in several adjacent Lavéra petrochemical assets, including the Naphtachimie steam cracker, the Appryl polypropylene business, the Gexaro aromatics business and associated naphtha storage, strengthening integration across the wider industrial complex.
 Strategic role: The largest refinery in southern France, one of the largest refining sites in southern Europe and a major regional producer of transport fuels, aviation fuel, marine fuels and bitumen. Following the end of crude refining at Grangemouth in April 2025, Lavéra became Petroineos’ principal operating crude-refining asset.
-Risks: Mediterranean crude-import or maritime disruption, refinery and petrochemical-unit outages, dependence on integrated downstream chemical facilities, pipeline interruptions, labour action, fires, emissions restrictions, high European energy and carbon costs and declining demand for conventional road and marine fuels.
-</description>
+Risks: Mediterranean crude-import or maritime disruption, refinery and petrochemical-unit outages, dependence on integrated downstream chemical facilities, pipeline interruptions, labour action, fires, emissions restrictions, high European energy and carbon costs and declining demand for conventional road and marine fuels.</description>
 			<LookAt>
 				<longitude>4.9973598</longitude>
 				<latitude>43.38874029999999</latitude>
@@ -4194,8 +4221,7 @@ Markets: Primarily the Auvergne-Rhône-Alpes region and wider eastern France. Th
 Configuration: Integrated inland refining and petrochemical complex combining fuel-production units, a steam cracker, bitumen facilities, crude and product storage sites and more than 1,000 kilometres of pipelines. Products can be distributed by pipeline, rail, road and barge.
 Recent development: TotalEnergies reports that nearly €550 million has been invested in the platform over a ten-year period to improve safety, product quality, operational performance and market adaptability, including more than €150 million dedicated to reducing its environmental impact.
 Strategic role: One of TotalEnergies’ three operating crude-oil refineries in metropolitan France and a major fuel and petrochemical supplier for southeastern and eastern France.
-Risks: Dependence on the Fos-sur-Mer–Feyzin crude-pipeline system, refinery and petrochemical-unit outages, pipeline disruptions, labour action, fires or explosions, environmental restrictions, high European energy and carbon costs and declining regional demand for conventional road fuels.
-</description>
+Risks: Dependence on the Fos-sur-Mer–Feyzin crude-pipeline system, refinery and petrochemical-unit outages, pipeline disruptions, labour action, fires or explosions, environmental restrictions, high European energy and carbon costs and declining regional demand for conventional road fuels.</description>
 			<LookAt>
 				<longitude>4.847133199999999</longitude>
 				<latitude>45.6737966</latitude>
@@ -4541,8 +4567,40 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 	</Folder>
 	<Folder>
 		<name>Major Oil Storage &amp; Distribution Terminals</name>
+		<Placemark id="ADDGOR00000000000001">
+			<name>Rostock Oil Harbour &amp; GÖR Tank Farm (Euroports)</name>
+			<description><![CDATA[Terminal: Rostock Oil Harbour &amp; GÖR Tank Farm (Großtanklager-Ölhafen Rostock)<br>Classification: Baltic crude and products import terminal — head of the Rostock–Schwedt pipeline (MVL)<br>Location: Peez, Port of Rostock, Mecklenburg-Vorpommern, Germany<br>Owner/Operator: Großtanklager-Ölhafen Rostock GmbH (GÖR), subsidiary of Euroports Germany — sole owner since acquiring Total Deutschland's stake in the former joint venture; GÖR also operates the on-site tanks of PCK Raffinerie Schwedt and Dow Olefinverbund Böhlen; PCK owns its own crude tank farm and a dedicated pier<br>Infrastructure: Six tanker berths for vessels up to 100,000 tonnes, discharge capacity up to 6,000 tonnes per hour; ~700,000 m³ of storage; rail loading (7 tracks), automated truck loading; on-site biodiesel plant (~200,000 t/y)<br>Handles: Crude oil, mineral oil products, heavy fuel oil, VGO, biodiesel, HVO, methanol, ethanol, vegetable oils<br>Connectivity: Crude pipeline to the PCK Schwedt refinery (MVL, ~200 km) and product pipeline to Böhlen (Dow); rail and road distribution across eastern Germany<br>Recent data: Around 6 million tonnes of crude per year pumped from tankers into the Schwedt pipeline since Germany ended Russian pipeline imports — securing fuel supply for eastern Germany and Berlin<br>Strategic role: The seaborne entry point that replaced Druzhba for the Schwedt refinery; the first link of the chain tanker → GÖR → MVL → Schwedt → Berlin fuel market<br>Risks: Berth size limit (~100,000 t — Aframax scale, no larger); throughput bottleneck relative to Schwedt's nameplate capacity; Baltic weather and single-corridor dependence]]></description>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<coordinates>12.14519945455248,54.14954764676539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ADDDAL00000000000001">
+			<name>Dalmeny Tank Farm (FPS)</name>
+			<description><![CDATA[Terminal: Dalmeny Tank Farm (FPS crude storage)<br>Classification: Crude oil storage — the buffer between the Forties Pipeline System and the Hound Point export jetty<br>Location: Dalmeny, South Queensferry, Firth of Forth, Scotland<br>Owner/Operator: INEOS FPS<br>Infrastructure: Six floating-roof tanks, ~3 million barrels of storage; fed from Kinneil (Grangemouth) by a 19 km, 30-inch line; connected to Hound Point by 48-inch and 40-inch loading lines (~5 km)<br>Handles: Stabilised Forties Blend crude<br>Strategic role: Decouples continuous pipeline flow from batch tanker liftings — the pipeline never stops, ships load on schedule<br>Risks: Modest storage relative to system throughput (~3 million barrels against flows of several hundred thousand b/d) — limited slack if liftings are delayed]]></description>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<coordinates>-3.38,55.99,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ADDHPT00000000000001">
+			<name>Hound Point Marine Terminal</name>
+			<description><![CDATA[Terminal: Hound Point Marine Terminal<br>Classification: Deep-water crude export terminal — the loading point of Forties Blend<br>Location: Firth of Forth, ~3 km east of the Forth Bridge, near Edinburgh, Scotland<br>Owner/Operator: INEOS FPS (within the Forth Ports Authority area); opened 1975<br>Infrastructure: Offshore island structure with two deep-water jetties and a vapour recovery platform; loading up to 8,000 m³/hour per berth; dedicated escort tug fleet<br>Vessels: Berths accommodate tankers up to ~350,000 dwt — one of the few UK terminals able to load VLCCs; roughly 200 vessels per year<br>Handles: Forties Blend (typically ~38–41° API, ~0.6–0.8% sulphur) — a Dated Brent benchmark grade<br>Strategic role: The exact point where the Forties chain on this map goes from pipeline to ship — wellhead → FPS → Kinneil → Dalmeny → Hound Point → Rotterdam<br>Risks: Benchmark sensitivity — outages here feed directly into Dated Brent assessments; weather and tidal constraints in the Firth]]></description>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<coordinates>-3.359,56.005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ADDSIOT0000000000001">
+			<name>SIOT Trieste Marine Terminal</name>
+			<description><![CDATA[Terminal: SIOT Trieste Marine Terminal (Società Italiana per l'Oleodotto Transalpino)<br>Classification: Crude import terminal — head of the TAL pipeline system<br>Location: Bay of Muggia, Port of Trieste, Italy<br>Owner/Operator: SIOT / TAL Group (shareholders include OMV, Shell, Eni, ExxonMobil, MERO ČR, Gunvor, TotalEnergies, Phillips 66 and Rosneft)<br>Infrastructure: Marine piers with tanker berths — first Suezmax berthed in May 2025 after the Fincantieri revamp — plus a tank farm feeding the TAL pipeline<br>Capacity: ~37 million tonnes of crude received per year (~400 tankers annually)<br>Connectivity: Sea-side entry of the entire Alpine corridor — TAL to Bavaria (Bayernoil, Gunvor Ingolstadt), Karlsruhe (MiRO), Austria (AWP branch) and the Czech Republic (via IKL)<br>Strategic role: The single most important crude gateway for landlocked Central Europe; the physical starting point of the Czech Republic's post-Russia supply route<br>Risks: Corridor concentration — an outage at Trieste ripples into refineries in four countries; Adriatic weather and port constraints]]></description>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<coordinates>13.76228349369942,45.64661359195608,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark>
-			<name>Brofjorden Terminal </name>
+			<name>Brofjorden Terminal</name>
 			<description>Role: Deep-water discharge (Suezmax unrestricted; VLCC part-laden)
 Operator: Preem (VAROPreem)</description>
 			<LookAt>
@@ -5800,7 +5858,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Skikda Oil Terminal </name>
+			<name>Skikda Oil Terminal</name>
 			<description>Facility: Skikda Hydrocarbon Storage &amp; Tank Farm Complex
 Classification: Major integrated crude-oil, refined-products, LNG and petrochemical storage complex
 Location: Skikda Industrial Zone, between the RA1K refinery, LNG facilities and Port El Djedid, Algeria
@@ -5821,14 +5879,14 @@ Risks: Tank fires, vapour release, product contamination, spills, overfilling, p
 				<range>5045.080083596493</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle1</styleUrl>
+			<styleUrl>#msn_red-circle10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>6.946337962101885,36.8805841519012,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Es Sider (As Sidra) Export terminal </name>
+			<name>Es Sider (As Sidra) Export terminal</name>
 			<description>Role: Libya&apos;s largest crude export terminal (2 SBMs); loads the Es Sider blend
 Operator: Waha Oil Co / NOC</description>
 			<Camera>
@@ -5847,7 +5905,7 @@ Operator: Waha Oil Co / NOC</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Bonny terminal tank farm </name>
+			<name>Bonny terminal tank farm</name>
 			<description>Official name: Bonny Terminal (Shell Bonny Oil &amp; Gas Terminal)
 Asset type: Onshore crude oil storage tank farm and terminal facility
 Country: Nigeria
@@ -6302,7 +6360,7 @@ Risks: Strait of Hormuz disruption, military or drone attacks, offshore loading-
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Yanbu Industrial Port </name>
+			<name>Yanbu Industrial Port</name>
 			<description>Hub: Yanbu Industrial Port – Red Sea Crude, Refining &amp; Petrochemical Export Hub
 Classification: Major crude-oil, refined-product, petrochemical and industrial export complex
 Location: Yanbu Industrial City, western Saudi Arabia, on the Red Sea
@@ -6732,7 +6790,7 @@ Risks: Earthquakes, avalanches, extreme weather, tanker accidents, oil spills, p
 			<styleUrl>#msn_ferry</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-146.3825607494269,61.10120391920577,0</coordinates>
+				<coordinates>-146.3825607494269,61.10120391920578,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -7235,7 +7293,7 @@ Coordinate confidence: Approximate</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Gialo Oil Field </name>
+			<name>Gialo Oil Field</name>
 			<Camera>
 				<longitude>21.41730238096121</longitude>
 				<latitude>28.67981021896902</latitude>
@@ -7551,6 +7609,39 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 	</Folder>
 	<Folder>
 		<name>Pipelines crude</name>
+		<Placemark id="ADDMVL00000000000001">
+			<name>Rostock–Schwedt Pipeline (MVL)</name>
+			<description><![CDATA[Classification: Crude oil pipeline — Baltic import route (Mineralölverbundleitung, MVL)<br>Route: Rostock oil port (Baltic Sea) → PCK Schwedt refinery, ~200 km<br>Owner/Operator: PCK Raffinerie GmbH<br>Capacity: Limited — historically able to load the refinery at roughly half its nameplate; a ~€400 million upgrade has been pursued to raise throughput<br>Status: Operational — became Schwedt's lifeline after Germany ended Russian pipeline crude imports in January 2023<br>Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades; seaborne barrels landed at Rostock reach the Berlin fuel market through this line<br>Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics]]></description>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.12,54.13650000000001,0 12.52,53.90000000000001,0 13.05,53.65000000000001,0 13.6,53.42,0 14.02,53.21999999999999,0 14.2365,53.0745,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="ADDFPS00000000000001">
+			<name>Forties Pipeline System (FPS)</name>
+			<description><![CDATA[Classification: Integrated crude oil and NGL transport system<br>Route: Forties Unity platform (central North Sea) → Cruden Bay landfall (169 km offshore) → Kinneil, Grangemouth (209 km onshore) → Dalmeny tank farm → Hound Point export jetty<br>Owner/Operator: INEOS (acquired from BP in 2017)<br>Capacity: Nominal ~575,000–610,000 b/d; carries liquids from ~85 UK and Norwegian fields — roughly 40% of UK North Sea oil<br>Main products: Stabilised Forties Blend crude delivered at Hound Point (a Dated Brent benchmark grade); gas liquids to Grangemouth<br>Strategic role: The upstream leg of the Forties chain on this map — wellhead to Hound Point loading to Rotterdam; a single-system chokepoint for a large share of UK production<br>Risks: Single-system concentration — outages at Kinneil or on the main line ripple directly into the Dated Brent benchmark; ageing infrastructure; declining North Sea throughput]]></description>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					0.9,57.73,0 -1.855,57.418,0 -2.27,57.03,0 -2.66,56.73,0 -3.32,56.44,0 -3.7,56.02,0 -3.38,55.99,0 -3.359,56.005,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="ADDIKL00000000000001">
+			<name>IKL pipeline (Ingolstadt–Kralupy–Litvínov) — TAL extension</name>
+			<description><![CDATA[Classification: Crude oil pipeline — continuation of the TAL system (IKL: Ingolstadt–Kralupy–Litvínov)<br>Route: Vohburg/Ingolstadt (junction with TAL) → Czech border → Nelahozeves central tank farm near Kralupy, supplying the Kralupy and Litvínov refineries; 347 km<br>Owner/Operator: MERO ČR (Czech state pipeline company)<br>Capacity: ~200,000 b/d usable for the Czech Republic (~10 Mt/y design)<br>Status: Operational — since the TAL-PLUS expansion went live in 2025, TAL + IKL can deliver up to 8 Mt/y, covering the entire Czech crude demand<br>Recent data: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour<br>Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region<br>Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand]]></description>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=450</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.46181430714684,48.80694359842674,0 11.621,48.76800000000001,0 12.35,49.17999999999999,0 12.9,49.50000000000001,0 13.55,49.78,0 14.1,50.08,0 14.31,50.24000000000001,0 14.295,50.26,0 13.61,50.60000000000001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
 		<Placemark>
 			<name>Trans Niger Pipeline (TNP): Bomu -&gt; Rumuekpe -&gt; Bonny (SPDC, since 1965, 180,000 bpd)</name>
 			<styleUrl>#stylemap_id3</styleUrl>
@@ -7989,7 +8080,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>OK1 pipeline </name>
+			<name>OK1 pipeline</name>
 			<description>646km</description>
 			<styleUrl>#stylemap_id00</styleUrl>
 			<LineString>
@@ -8010,12 +8101,12 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>Gialo-Waha pipeline </name>
+			<name>Gialo-Waha pipeline</name>
 			<styleUrl>#stylemap_id0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
-					21.41375616812475,28.6894359166971,0 19.92278524568038,28.29901033529409,0 
+					21.41375616812475,28.6894359166971,0 19.92278524568038,28.29901033529408,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
@@ -8032,6 +8123,17 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 	</Folder>
 	<Folder>
 		<name>Pipelines refined products</name>
+		<Placemark id="ADDRRB00000000000001">
+			<name>Rostock–Böhlen product pipeline (RRB)</name>
+			<description><![CDATA[Classification: Refined products / petrochemical feedstock pipeline (Rohstoffpipeline Rostock–Böhlen, RRB)<br>Route: Rostock oil port (GÖR terminal) → Leuna → Dow Böhlen cracker complex, ~430 km, up to 16-inch; in service since 1997<br>Owner/Operator: Dow Olefinverbund (Dow Chemical)<br>Handles: Naphtha, pyrolysis gasoline and condensate; also approved for pentane, benzene, crude oil (Rostock to Leuna) and C3+ LPG<br>Connectivity: Feeds the Böhlen naphtha cracker (ethylene and propylene for the Schkopau and Leuna plants); part of Dow's ~1,300 km Central German pipeline network<br>Recent data: Dow has applied to extend the approved cargo list to bio-based and recycled feedstocks (HVO-type and plastic-waste-derived) — an energy-transition signal<br>Strategic role: The petrochemical twin of the Schwedt crude line — the second artery that makes Rostock the seaborne supply gateway for eastern Germany's refining and chemical industry<br>Risks: Single-line dependence for the Böhlen cracker's feedstock supply; cracker margin exposure]]></description>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=400</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.12,54.13650000000001,0 12.18,53.79,0 12.17,53.39999999999999,0 12.15,53.09999999999999,0 12.02,52.75,0 11.85,52.55,0 11.65,52.15,0 11.9,51.6,0 12,51.31999999999999,0 12.386,51.20200000000001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
 		<Placemark id="0D7B0B4A7E3F6266D6D6">
 			<name>NATO pipeline</name>
 			<description>The Central Europe Pipeline System, or CEPS, is NATO’s largest fuel pipeline network. It connects ports, refineries, storage depots, military bases and major civil airports across France, Belgium, Luxembourg, Germany and the Netherlands. The system transports refined petroleum products—including jet fuel, diesel, gasoline and naphtha—but does not normally carry crude oil. Originally developed to secure military fuel supplies, it is also used for civilian distribution during peacetime. The CEPS remains operational and plays a strategic role in European fuel security and military logistics.</description>
@@ -8149,10 +8251,10 @@ Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading de
 				<range>40011.55875130557</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
 			<LineString>
 				<coordinates>
-					0.9103702936206326,57.73633851187225,0 -1.798044439765726,57.49519346352766,0 -3.686547216704526,56.01905944161051,0 -3.143069616519386,56.01630370323091,0 -2.501747590983237,56.15451260494337,0 4.130799410605411,51.94944354803467,0 
+					-3.356181009372454,56.0072756934243,0 -3.143069616519386,56.01630370323091,0 -2.501747590983237,56.15451260494337,0 4.130799410605411,51.94944354803467,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
@@ -8364,7 +8466,7 @@ Risks: Libyan political instability — field shutdowns, port blockades and forc
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>Girassol route </name>
+			<name>Girassol route</name>
 			<description>API: ~30° (medium)
 Sulfur: ~0.34% (sweet)
 Type: Medium, sweet crude — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO.
@@ -8405,7 +8507,7 @@ Risks: Offshore-loading delays, Atlantic weather, piracy risk in the Gulf of Gui
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>Liza route </name>
+			<name>Liza route</name>
 			<description>API: ~32° (medium)
 Sulfur: ~0.59% (sweet)
 Type: Medium, sweet crude — a single-development stream from the Liza Destiny FPSO (distinct from Unity Gold and Payara Gold).
@@ -8425,7 +8527,7 @@ Risks: North Atlantic and North Sea weather, Dover Strait/Channel traffic densit
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>Bonny light route </name>
+			<name>Bonny light route</name>
 			<description>Crude: Bonny Light
 API: ~32.9°
 Sulfur: ~0.16%
@@ -8590,7 +8692,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Marseille airport </name>
+			<name>Marseille airport</name>
 			<LookAt>
 				<longitude>5.203902826188582</longitude>
 				<latitude>43.46101201027555</latitude>
@@ -8607,7 +8709,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Charles de Gaulle aireport </name>
+			<name>Charles de Gaulle aireport</name>
 			<LookAt>
 				<longitude>2.586182828293779</longitude>
 				<latitude>48.99997207435537</latitude>
