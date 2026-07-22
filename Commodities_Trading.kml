@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1deeDrvBnSFPUaa_ase6UOkNRfq9IY-jB">
 	<name>Commodities Trading</name>
-	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
 	<Schema name="__managed_schema" id="__managed_schema0">
 		<SimpleField type="int" name="09149BB14C3FE5E87566">
@@ -344,16 +343,6 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<Pair>
 			<key>normal</key>
@@ -372,6 +361,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=440</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4110">
@@ -534,16 +533,6 @@
 			<styleUrl>#sh_red-circle1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_red-circle0">
 		<Pair>
 			<key>normal</key>
@@ -552,6 +541,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_red-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle10">
@@ -577,7 +576,7 @@
 	<StyleMap id="msn_volcano0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano0</styleUrl>
+			<styleUrl>#sn_volcano00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -602,6 +601,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_volcano0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_volcano21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano20">
@@ -997,24 +1006,6 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1049,6 +1040,22 @@
 		</IconStyle>
 		<LineStyle>
 			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
@@ -1307,15 +1314,13 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle1">
+	<Style id="sh_red-circle0">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1332,7 +1337,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle0">
+	<Style id="sh_red-circle1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1367,6 +1372,22 @@
 		</ListStyle>
 	</Style>
 	<Style id="sh_volcano">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_volcano00">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1838,24 +1859,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<IconStyle>
 			<Icon>
@@ -1866,8 +1869,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1876,7 +1877,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=401">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1906,6 +1907,24 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>e618a8fb</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=401">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
@@ -2214,8 +2233,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -2276,6 +2293,25 @@
 		</PolyStyle>
 	</Style>
 	<Style id="sn_volcano0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_volcano00">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2654,6 +2690,7 @@
 	</StyleMap>
 	<Folder>
 		<name>Mega-refineries</name>
+		<open>1</open>
 		<Placemark id="ADDPCK00000000000001">
 			<name>PCK Schwedt Refinery</name>
 			<description><![CDATA[Refinery: PCK Raffinerie Schwedt<br>Classification: Major inland refinery — critical German supply infrastructure<br>Location: Schwedt/Oder, Brandenburg, Germany, near the Polish border<br>Owner: Rosneft ~54% effective (via Rosneft Deutschland and the AET holding — under German federal trusteeship through the Federal Network Agency since September 2022; permanent state control cleared by the European Commission in 2026), Shell ~37.5%, Eni ~8%<br>Capacity: ~11.6 million tonnes per year (~230,000 b/d nameplate); running at reduced utilisation since the loss of Russian pipeline crude<br>Main feedstocks: Historically Russian Urals via the Druzhba pipeline (ended January 2023); since then seaborne crude via the Rostock–Schwedt pipeline and Gdansk, plus Kazakh crude transiting Druzhba — halted by Russia from May 2026<br>Main products: Gasoline, diesel, jet fuel, heating oil, bitumen<br>Markets: Supplies roughly 90% of fuels for Berlin and Brandenburg, including Berlin airport (BER)<br>Recent data: Russia announced the halt of Kazakh transit deliveries from May 2026; Germany secured a US sanctions exemption for the site; a ~€400 million upgrade of the Rostock supply route has been pursued to raise seaborne capacity<br>Strategic role: The centrepiece of Germany's post-2022 crude rerouting — the refinery that turned the Druzhba cutoff into a live logistics problem<br>Risks: Structural dependence on the small Rostock pipeline; ownership limbo (sanctioned majority shareholder under trusteeship); feedstock diversification costs; utilisation and margin pressure]]></description>
@@ -2829,7 +2866,7 @@ Risks: Drone attacks, unit damage, sanctions, Baltic export disruption, pipeline
 				<range>12236.68886283296</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano2</styleUrl>
+			<styleUrl>#msn_volcano21</styleUrl>
 			<Point>
 				<coordinates>32.05590868165775,59.48546610128013,29.77185591988754</coordinates>
 			</Point>
@@ -7609,6 +7646,17 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 	</Folder>
 	<Folder>
 		<name>Pipelines crude</name>
+		<Placemark id="ADDBPS00000000000001">
+			<name>Baltic Pipeline System (BPS-1)</name>
+			<description><![CDATA[Classification: Crude oil pipeline system — Russia's Baltic export artery (BPS-1)<br>Route: Timan-Pechora / West Siberia / Urals-Volga networks → Yaroslavl → Kirishi (KINEF refinery) → Primorsk oil terminal, Gulf of Finland<br>Owner/Operator: Transneft<br>Capacity: Up to ~75 million tonnes per year (~1.5 million b/d system capacity); Primorsk loads ~1 million b/d of Urals crude plus ~300,000 b/d of diesel; commissioned December 2001<br>Crude: Urals — Russia's flagship export grade, since 2022 shipped largely via the sanctions-era 'shadow fleet' under the G7 price-cap regime<br>Status: Operational but repeatedly disrupted — Ukrainian long-range drones forced the first loading suspension at Primorsk in September 2025, with renewed strikes in March and May 2026 halting exports again; at the peak, roughly 40% of Russia's oil export capacity was assessed offline<br>Strategic role: Built to bypass the Baltic transit states and concentrate exports at a Russian-controlled port; the single most important outlet for seaborne Urals<br>Risks: Primary target of the Ukrainian deep-strike campaign on energy infrastructure; sanctions and price-cap enforcement; winter ice navigation in the Gulf of Finland; single-corridor concentration]]></description>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					39.87,57.63,0 38.6,58.35,0 37.9,59.10000000000001,0 36,59.35000000000001,0 34,59.45,0 32.05590868165775,59.48546610128013,0 30.9,59.85,0 29.9,60.1,0 28.72205088671118,60.33991086572199,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
 		<Placemark id="ADDMVL00000000000001">
 			<name>Rostock–Schwedt Pipeline (MVL)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — Baltic import route (Mineralölverbundleitung, MVL)<br>Route: Rostock oil port (Baltic Sea) → PCK Schwedt refinery, ~200 km<br>Owner/Operator: PCK Raffinerie GmbH<br>Capacity: Limited — historically able to load the refinery at roughly half its nameplate; a ~€400 million upgrade has been pursued to raise throughput<br>Status: Operational — became Schwedt's lifeline after Germany ended Russian pipeline crude imports in January 2023<br>Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades; seaborne barrels landed at Rostock reach the Berlin fuel market through this line<br>Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics]]></description>
