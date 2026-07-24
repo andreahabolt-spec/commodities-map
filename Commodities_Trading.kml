@@ -4,7 +4,7 @@
 	<name>Commodities Trading</name>
 	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
-	<Schema name="__managed_schema" id="__managed_schema0">
+	<Schema name="__managed_schema" id="__managed_schema00">
 		<SimpleField type="int" name="09149BB14C3FE5E87566">
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
@@ -174,477 +174,477 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
-	<StyleMap id="msn_R">
+	<StyleMap id="msn_R00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R4</styleUrl>
+			<styleUrl>#sn_R00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R0</styleUrl>
+			<styleUrl>#sh_R000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R0">
+	<StyleMap id="msn_R10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R0</styleUrl>
+			<styleUrl>#sn_R30</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R00</styleUrl>
+			<styleUrl>#sh_R70</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R1">
+	<StyleMap id="msn_R20">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R3</styleUrl>
+			<styleUrl>#sn_R8</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R7</styleUrl>
+			<styleUrl>#sh_R40</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R2">
+	<StyleMap id="msn_R30">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R</styleUrl>
+			<styleUrl>#sn_R60</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R4</styleUrl>
+			<styleUrl>#sh_R50</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R3">
+	<StyleMap id="msn_R40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R6</styleUrl>
+			<styleUrl>#sn_R700</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R5</styleUrl>
+			<styleUrl>#sh_R10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R4">
+	<StyleMap id="msn_R50">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R70</styleUrl>
+			<styleUrl>#sn_R50</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R1</styleUrl>
+			<styleUrl>#sh_R20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R5">
+	<StyleMap id="msn_R60">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R5</styleUrl>
+			<styleUrl>#sn_R10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R2</styleUrl>
+			<styleUrl>#sh_R60</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R6">
+	<StyleMap id="msn_R70">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R1</styleUrl>
+			<styleUrl>#sn_R20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R6</styleUrl>
+			<styleUrl>#sh_R30</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R7">
+	<StyleMap id="msn_R80">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R2</styleUrl>
+			<styleUrl>#sn_R71</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R3</styleUrl>
+			<styleUrl>#sh_R8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R8">
+	<StyleMap id="msn_R9">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R7</styleUrl>
+			<styleUrl>#sn_R40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_R</styleUrl>
+			<styleUrl>#sh_R01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_airports">
+	<StyleMap id="msn_airports0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_airports</styleUrl>
+			<styleUrl>#sn_airports0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_airports</styleUrl>
+			<styleUrl>#sh_airports0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_blu-stars">
+	<StyleMap id="msn_blu-stars0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_blu-stars</styleUrl>
+			<styleUrl>#sn_blu-stars0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_blu-stars</styleUrl>
+			<styleUrl>#sh_blu-stars0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ferry">
+	<StyleMap id="msn_ferry00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ferry0</styleUrl>
+			<styleUrl>#sn_ferry1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ferry0</styleUrl>
+			<styleUrl>#sh_ferry1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ferry0">
+	<StyleMap id="msn_ferry1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ferry</styleUrl>
+			<styleUrl>#sn_ferry00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ferry</styleUrl>
+			<styleUrl>#sh_ferry00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=40">
+	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=400">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=00796b&amp;id=2000&amp;scale=400">
+	<StyleMap id="msn_icon?color=00796b&amp;id=2000&amp;scale=4000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=00796b&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sn_icon?color=00796b&amp;id=2000&amp;scale=400</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=00796b&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sh_icon?color=00796b&amp;id=2000&amp;scale=400</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=401">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4010</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=400">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=410">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=440</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=42</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41100">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4110">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41200">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=450</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41500</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=450</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41500</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4120">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4171">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4150</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4201</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4150</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4301</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=417">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=402</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=430</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=420">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4200">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4120</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=490</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4900</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=430">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4300">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4140</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41400</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4110</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=440">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=44000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=430</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=43000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4201</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4400">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4401">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4300</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4301</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=42000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=450">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4500">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=416</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4160</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=47">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=470">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=48</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=480</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=480">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4800">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4700</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=480</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4800</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=490">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4900">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=417</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4170</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=416</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4160</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=5d4037&amp;id=2000&amp;scale=400">
+	<StyleMap id="msn_icon?color=5d4037&amp;id=2000&amp;scale=4000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=5d4037&amp;id=2000&amp;scale=410</styleUrl>
+			<styleUrl>#sn_icon?color=5d4037&amp;id=2000&amp;scale=4100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=5d4037&amp;id=2000&amp;scale=410</styleUrl>
+			<styleUrl>#sh_icon?color=5d4037&amp;id=2000&amp;scale=4100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=ef5350&amp;id=2000&amp;scale=40">
+	<StyleMap id="msn_icon?color=ef5350&amp;id=2000&amp;scale=400">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=ef5350&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#sn_icon?color=ef5350&amp;id=2000&amp;scale=400</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=ef5350&amp;id=2000&amp;scale=4</styleUrl>
+			<styleUrl>#sh_icon?color=ef5350&amp;id=2000&amp;scale=40</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_marina">
+	<StyleMap id="msn_marina0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_marina</styleUrl>
+			<styleUrl>#sn_marina0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_marina</styleUrl>
+			<styleUrl>#sh_marina0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ranger_station">
+	<StyleMap id="msn_ranger_station0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ranger_station</styleUrl>
+			<styleUrl>#sn_ranger_station0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ranger_station</styleUrl>
+			<styleUrl>#sh_ranger_station0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle">
+	<StyleMap id="msn_red-circle00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle</styleUrl>
+			<styleUrl>#sn_red-circle10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle1</styleUrl>
+			<styleUrl>#sh_red-circle00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle0">
+	<StyleMap id="msn_red-circle100">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle1</styleUrl>
+			<styleUrl>#sn_red-circle000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle0</styleUrl>
+			<styleUrl>#sh_red-circle100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle1">
+	<StyleMap id="msn_red-circle11">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle0</styleUrl>
+			<styleUrl>#sn_red-circle01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
+			<styleUrl>#sh_red-circle2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle10">
+	<StyleMap id="msn_red-circle2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle00</styleUrl>
+			<styleUrl>#sn_red-circle2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle10</styleUrl>
+			<styleUrl>#sh_red-circle11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano">
+	<StyleMap id="msn_volcano00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano1</styleUrl>
+			<styleUrl>#sn_volcano01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano2</styleUrl>
+			<styleUrl>#sh_volcano200</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano0">
+	<StyleMap id="msn_volcano10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano0</styleUrl>
+			<styleUrl>#sn_volcano20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano20</styleUrl>
+			<styleUrl>#sh_volcano4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano1">
+	<StyleMap id="msn_volcano200">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano2</styleUrl>
+			<styleUrl>#sn_volcano100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano</styleUrl>
+			<styleUrl>#sh_volcano10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano2">
+	<StyleMap id="msn_volcano22">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano</styleUrl>
+			<styleUrl>#sn_volcano4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano0</styleUrl>
+			<styleUrl>#sh_volcano01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano20">
+	<StyleMap id="msn_volcano30">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano10</styleUrl>
+			<styleUrl>#sn_volcano30</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano1</styleUrl>
+			<styleUrl>#sh_volcano30</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano3">
+	<StyleMap id="msn_volcano4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano3</styleUrl>
+			<styleUrl>#sn_volcano11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano3</styleUrl>
+			<styleUrl>#sh_volcano21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
+	<StyleMap id="msn_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="scic_oil_field">
+	<Style id="scic_oil_field00">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -656,7 +656,17 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field0">
+	<StyleMap id="scic_oil_field10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="scic_oil_field2">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -668,17 +678,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="scic_oil_field1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_R">
+	<Style id="sh_R000">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -699,7 +699,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R0">
+	<Style id="sh_R01">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -720,7 +720,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R00">
+	<Style id="sh_R10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -741,7 +741,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R1">
+	<Style id="sh_R20">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -762,7 +762,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R2">
+	<Style id="sh_R30">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -783,7 +783,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R3">
+	<Style id="sh_R40">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -804,7 +804,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R4">
+	<Style id="sh_R50">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -825,7 +825,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R5">
+	<Style id="sh_R60">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -846,7 +846,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R6">
+	<Style id="sh_R70">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -867,7 +867,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_R7">
+	<Style id="sh_R8">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -888,7 +888,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_airports">
+	<Style id="sh_airports0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -904,7 +904,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_blu-stars">
+	<Style id="sh_blu-stars0">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -925,19 +925,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ferry">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_ferry0">
+	<Style id="sh_ferry00">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -953,7 +941,19 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=000000&amp;id=2000&amp;scale=40">
+	<Style id="sh_ferry1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_icon?color=000000&amp;id=2000&amp;scale=400">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -968,7 +968,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=00796b&amp;id=2000&amp;scale=40">
+	<Style id="sh_icon?color=00796b&amp;id=2000&amp;scale=400">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -989,7 +989,23 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4000">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=401">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1005,7 +1021,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=40">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=410">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1021,7 +1037,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=400">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41100">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1037,7 +1053,39 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41500">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4160">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=42">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1053,71 +1101,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4110">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4150">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=416">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=420">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4200">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=42000">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1133,7 +1117,23 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=430">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4201">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4301">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1149,7 +1149,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=440">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4400">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1165,7 +1165,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=450">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4500">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1181,7 +1181,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=47">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=470">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1197,7 +1197,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=480">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4800">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1213,7 +1213,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=490">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4900">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1229,7 +1229,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=410">
+	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=4100">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1245,7 +1245,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=ef5350&amp;id=2000&amp;scale=4">
+	<Style id="sh_icon?color=ef5350&amp;id=2000&amp;scale=40">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1266,7 +1266,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_marina">
+	<Style id="sh_marina0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1278,7 +1278,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ranger_station">
+	<Style id="sh_ranger_station0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1294,7 +1294,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_red-circle">
+	<Style id="sh_red-circle00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1311,7 +1311,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle0">
+	<Style id="sh_red-circle100">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1328,7 +1328,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle1">
+	<Style id="sh_red-circle11">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1345,7 +1345,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle10">
+	<Style id="sh_red-circle2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1362,7 +1362,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_volcano">
+	<Style id="sh_volcano01">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1378,7 +1378,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_volcano0">
+	<Style id="sh_volcano10">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1394,7 +1394,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_volcano1">
+	<Style id="sh_volcano200">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1410,7 +1410,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_volcano2">
+	<Style id="sh_volcano21">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1422,7 +1422,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_volcano20">
+	<Style id="sh_volcano30">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1438,7 +1438,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_volcano3">
+	<Style id="sh_volcano4">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1454,19 +1454,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffc80154</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin0">
+	<Style id="sh_ylw-pushpin00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1479,7 +1467,19 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_R">
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffc80154</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_R00">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1503,7 +1503,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R0">
+	<Style id="sn_R10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1527,7 +1527,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R1">
+	<Style id="sn_R20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1551,7 +1551,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R2">
+	<Style id="sn_R30">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1575,7 +1575,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R3">
+	<Style id="sn_R40">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1599,7 +1599,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R4">
+	<Style id="sn_R50">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1623,7 +1623,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R5">
+	<Style id="sn_R60">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1647,7 +1647,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R6">
+	<Style id="sn_R700">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1671,7 +1671,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R7">
+	<Style id="sn_R71">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1695,7 +1695,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_R70">
+	<Style id="sn_R8">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1719,7 +1719,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_airports">
+	<Style id="sn_airports0">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1738,7 +1738,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_blu-stars">
+	<Style id="sn_blu-stars0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1762,19 +1762,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ferry">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_ferry0">
+	<Style id="sn_ferry00">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1793,7 +1781,19 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=000000&amp;id=2000&amp;scale=40">
+	<Style id="sn_ferry1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_icon?color=000000&amp;id=2000&amp;scale=400">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
@@ -1810,7 +1810,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=00796b&amp;id=2000&amp;scale=40">
+	<Style id="sn_icon?color=00796b&amp;id=2000&amp;scale=400">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1834,43 +1834,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=400">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4000">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1888,7 +1852,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=401">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4010">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1906,7 +1870,43 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4120">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=402">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41200">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1924,7 +1924,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4140">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41400">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1942,7 +1942,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4150">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41500">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1960,7 +1960,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=416">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4160">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1978,7 +1978,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=417">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4170">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1996,7 +1996,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=420">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4201">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2014,26 +2014,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=430">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>4</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4300">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=43000">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2052,7 +2033,26 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=450">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4301">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4500">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2070,7 +2070,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=470">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4700">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2088,7 +2088,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=48">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=480">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2106,7 +2106,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=5d4037&amp;id=2000&amp;scale=410">
+	<Style id="sn_icon?color=5d4037&amp;id=2000&amp;scale=4100">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2125,7 +2125,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=ef5350&amp;id=2000&amp;scale=40">
+	<Style id="sn_icon?color=ef5350&amp;id=2000&amp;scale=400">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2149,7 +2149,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_marina">
+	<Style id="sn_marina0">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2161,7 +2161,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ranger_station">
+	<Style id="sn_ranger_station0">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2180,7 +2180,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_red-circle">
+	<Style id="sn_red-circle000">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2197,7 +2197,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_red-circle0">
+	<Style id="sn_red-circle01">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2214,7 +2214,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_red-circle00">
+	<Style id="sn_red-circle10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2231,7 +2231,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_red-circle1">
+	<Style id="sn_red-circle2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2248,7 +2248,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_volcano">
+	<Style id="sn_volcano01">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2267,7 +2267,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_volcano0">
+	<Style id="sn_volcano100">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2286,7 +2286,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_volcano1">
+	<Style id="sn_volcano11">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2298,7 +2298,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_volcano10">
+	<Style id="sn_volcano20">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2317,7 +2317,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_volcano2">
+	<Style id="sn_volcano30">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2336,7 +2336,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_volcano3">
+	<Style id="sn_volcano4">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2355,20 +2355,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin0">
+	<Style id="sn_ylw-pushpin00">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2380,268 +2367,281 @@
 			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
-	<Style id="style">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style0">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style10">
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style11">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style12">
+	<Style id="style00">
 		<LineStyle>
 			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style13">
+	<Style id="style100">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style110">
 		<LineStyle>
 			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style14">
+	<Style id="style111">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style120">
 		<LineStyle>
 			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style15">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style16">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style17">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style18">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style19">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style2">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style20">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style21">
+	<Style id="style130">
 		<LineStyle>
 			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style22">
+	<Style id="style140">
 		<LineStyle>
 			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style3">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style4">
+	<Style id="style150">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style5">
+	<Style id="style160">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style6">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style7">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style8">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style9">
+	<Style id="style170">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="stylemap_id0">
+	<Style id="style180">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style190">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style200">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style210">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style220">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style23">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style24">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style30">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style40">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style50">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style60">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style70">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style80">
+		<LineStyle>
+			<color>e60fdff1</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="style90">
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="stylemap_id000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style14</styleUrl>
+			<styleUrl>#style23</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style22</styleUrl>
+			<styleUrl>#style210</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id00">
+	<StyleMap id="stylemap_id010">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style</styleUrl>
+			<styleUrl>#style70</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style21</styleUrl>
+			<styleUrl>#style120</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id01">
+	<StyleMap id="stylemap_id020">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style7</styleUrl>
+			<styleUrl>#style90</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style12</styleUrl>
+			<styleUrl>#style40</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id02">
+	<StyleMap id="stylemap_id03">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style9</styleUrl>
+			<styleUrl>#style140</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style4</styleUrl>
+			<styleUrl>#style220</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id2">
+	<StyleMap id="stylemap_id200">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style2</styleUrl>
+			<styleUrl>#style100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style11</styleUrl>
+			<styleUrl>#style50</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id20">
+	<StyleMap id="stylemap_id210">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style10</styleUrl>
+			<styleUrl>#style170</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style5</styleUrl>
+			<styleUrl>#style180</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id21">
+	<StyleMap id="stylemap_id220">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style17</styleUrl>
+			<styleUrl>#style150</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style18</styleUrl>
+			<styleUrl>#style160</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id22">
+	<StyleMap id="stylemap_id230">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style15</styleUrl>
+			<styleUrl>#style80</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style16</styleUrl>
+			<styleUrl>#style130</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id23">
+	<StyleMap id="stylemap_id240">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style8</styleUrl>
+			<styleUrl>#style190</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style13</styleUrl>
+			<styleUrl>#style200</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id24">
+	<StyleMap id="stylemap_id25">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style19</styleUrl>
+			<styleUrl>#style24</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style20</styleUrl>
+			<styleUrl>#style111</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id3">
+	<StyleMap id="stylemap_id30">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style0</styleUrl>
+			<styleUrl>#style00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style1</styleUrl>
+			<styleUrl>#style110</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id4">
+	<StyleMap id="stylemap_id40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style6</styleUrl>
+			<styleUrl>#style60</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style3</styleUrl>
+			<styleUrl>#style30</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder>
@@ -2649,7 +2649,7 @@
 		<Placemark id="ADDPCK00000000000001">
 			<name>PCK Schwedt Refinery</name>
 			<description><![CDATA[Refinery: PCK Raffinerie Schwedt<br>Classification: Major inland refinery — critical German supply infrastructure<br>Location: Schwedt/Oder, Brandenburg, Germany, near the Polish border<br>Owner: Rosneft ~54% effective (via Rosneft Deutschland and the AET holding — under German federal trusteeship through the Federal Network Agency since September 2022; permanent state control cleared by the European Commission in 2026), Shell ~37.5%, Eni ~8%<br>Capacity: ~11.6 million tonnes per year (~230,000 b/d nameplate); running at reduced utilisation since the loss of Russian pipeline crude<br>Main feedstocks: Historically Russian Urals via the Druzhba pipeline (ended January 2023); since then seaborne crude via the Rostock–Schwedt pipeline and Gdansk, plus Kazakh crude transiting Druzhba — halted by Russia from May 2026<br>Main products: Gasoline, diesel, jet fuel, heating oil, bitumen<br>Markets: Supplies roughly 90% of fuels for Berlin and Brandenburg, including Berlin airport (BER)<br>Recent data: Russia announced the halt of Kazakh transit deliveries from May 2026; Germany secured a US sanctions exemption for the site; a ~€400 million upgrade of the Rostock supply route has been pursued to raise seaborne capacity<br>Strategic role: The centrepiece of Germany's post-2022 crude rerouting — the refinery that turned the Druzhba cutoff into a live logistics problem<br>Risks: Structural dependence on the small Rostock pipeline; ownership limbo (sanctioned majority shareholder under trusteeship); feedstock diversification costs; utilisation and margin pressure]]></description>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>14.2365,53.0745,0</coordinates>
 			</Point>
@@ -2677,7 +2677,7 @@ Risks: Long-range drone attacks, unit fires, pipeline disruption, sanctions, equ
 				<range>25845.59989350848</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano2</styleUrl>
+			<styleUrl>#msn_volcano22</styleUrl>
 			<Point>
 				<coordinates>73.23182490608777,55.0636869098589,121.4742082917068</coordinates>
 			</Point>
@@ -2706,7 +2706,7 @@ Risks: Dependence on the TAL pipeline, refinery-unit outages, Rhine logistics di
 				<range>1573.597768357931</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano3</styleUrl>
+			<styleUrl>#msn_volcano30</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>8.336358799999999,49.0530041,0</coordinates>
@@ -2736,7 +2736,7 @@ Risks: Chronic equipment failures, power outages, fires, insufficient maintenanc
 				<range>6459.276534434175</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano2</styleUrl>
+			<styleUrl>#msn_volcano22</styleUrl>
 			<Point>
 				<coordinates>-70.22578419359186,11.63155965959824,21.0681920978475</coordinates>
 			</Point>
@@ -2764,7 +2764,7 @@ Risks: Labour disruption, refinery-unit outages, Antwerp port congestion, Rhine 
 				<range>2113.435120219365</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano20</styleUrl>
+			<styleUrl>#msn_volcano200</styleUrl>
 			<Point>
 				<coordinates>4.340578162287001,51.25641690622821,2.515883136095622</coordinates>
 			</Point>
@@ -2793,7 +2793,7 @@ Risks: High European energy and carbon costs, weak petrochemical margins, refine
 				<range>4533.922255816288</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano20</styleUrl>
+			<styleUrl>#msn_volcano200</styleUrl>
 			<Point>
 				<coordinates>4.317788229043041,51.26549001148745,6.355669823855868</coordinates>
 			</Point>
@@ -2821,7 +2821,7 @@ Risks: Drone attacks, unit damage, sanctions, Baltic export disruption, pipeline
 				<range>12236.68886283296</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano2</styleUrl>
+			<styleUrl>#msn_volcano22</styleUrl>
 			<Point>
 				<coordinates>32.05590868165775,59.48546610128013,29.77185591988754</coordinates>
 			</Point>
@@ -2849,7 +2849,7 @@ Risks: Refinery-unit outages, Rotterdam port congestion, Rhine logistics disrupt
 				<range>4701.185904776794</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano1</styleUrl>
+			<styleUrl>#msn_volcano10</styleUrl>
 			<Point>
 				<coordinates>4.367106929802704,51.88380538879633,3.084271584066616</coordinates>
 			</Point>
@@ -2876,7 +2876,7 @@ Risks: Crude-supply constraints, unit outages, logistics bottlenecks, regulatory
 				<range>5524.058916901122</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>4.01895141048376,6.455546218835619,16.41382754321085</coordinates>
 			</Point>
@@ -2903,7 +2903,7 @@ Risks: Dependence on imported crude, Atlantic weather, refinery outages, U.S.–
 				<range>6423.506431494476</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-66.01049418254463,45.28217110784749,0</coordinates>
@@ -2931,7 +2931,7 @@ Risks: Gulf Coast hurricanes, flooding, refinery outages, pipeline or marine-log
 				<range>1000.000000000311</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-94.07299999999998,30.067,0</coordinates>
@@ -2959,7 +2959,7 @@ Risks: Gulf Coast hurricanes, Mississippi River logistics disruption, refinery o
 				<range>8956.616388362769</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-90.59575235303197,30.05976522535071,0</coordinates>
@@ -2988,7 +2988,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Asian shipping disrupt
 				<range>13283.53273852548</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>126.3655634051624,37.00010505273524,0</coordinates>
@@ -3016,7 +3016,7 @@ Risks: Heavy dependence on imported crude, Strait of Hormuz disruptions, typhoon
 				<range>12101.46074460528</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>120.1928759574278,23.79623271130031,0</coordinates>
@@ -3044,7 +3044,7 @@ Risks: Strait of Hormuz disruption, drone or missile attacks, regional conflict,
 				<range>11857.98789791042</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>50.09664256528943,26.69494080188317,0</coordinates>
@@ -3073,7 +3073,7 @@ Risks: Strait of Hormuz closure, drone or missile attacks, regional conflict, ma
 				<range>21699.63097092463</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>52.71984146568987,24.13048759325198,15.71163098468269</coordinates>
 			</Point>
@@ -3101,7 +3101,7 @@ Risks: Gulf Coast hurricanes, flooding, industrial outages, marine and pipeline 
 				<range>10164.76723353728</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>-93.96036743564372,29.87960021734543,1.593709217031947</coordinates>
 			</Point>
@@ -3129,7 +3129,7 @@ Risks: Gulf Coast hurricanes, flooding, fires and unit outages, labor disruption
 				<range>19076.807843016</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>-94.91822445037437,29.3740854621725,6.977861871635184</coordinates>
 			</Point>
@@ -3157,7 +3157,7 @@ Risks: Strait of Hormuz disruption, regional conflict, unit outages, heavy-crude
 				<range>26897.64781631995</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>48.33404623647145,28.71461908901462,5.571952574035597</coordinates>
 			</Point>
@@ -3185,7 +3185,7 @@ Risks: Dependence on imported crude, Strait of Malacca congestion, South China S
 				<range>7031.367921485798</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>103.7066291049394,1.28024302186643,6.231730153402672</coordinates>
 			</Point>
@@ -3214,7 +3214,7 @@ Risks: Dependence on imported crude, Strait of Hormuz disruption, sanctions and 
 				<range>11174.15131481364</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>69.8121815144945,22.34354721421086,65.70027103610086</coordinates>
 			</Point>
@@ -3242,7 +3242,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Malacca disruptions, r
 				<range>11037.38716156106</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>129.3374113962711,35.4938004454673,21.70874728906801</coordinates>
 			</Point>
@@ -3270,7 +3270,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Malacca disruptions, r
 				<range>19544.71944394056</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>127.7171367410682,34.88195143771404,30.7218130058324</coordinates>
 			</Point>
@@ -3298,7 +3298,7 @@ Risks: Dependence on imported Middle Eastern crude, Strait of Hormuz disruption,
 				<range>7897.530755748739</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>129.3485984299735,35.43280280980805,13.98351357031621</coordinates>
 			</Point>
@@ -3326,7 +3326,7 @@ Risks: Dependence on imported Middle Eastern crude, Strait of Hormuz disruption,
 				<range>11617.66376418178</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>-95.01330897614595,29.74959010799134,7.009113872390471</coordinates>
 			</Point>
@@ -3354,9 +3354,9 @@ Risks: Dependence on imported crude, Strait of Hormuz and Malacca disruptions, N
 				<range>18863.75638296828</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="1EA10E865E3F337D9842">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -3389,9 +3389,9 @@ Risks: Permanent closure or delayed restart, regulatory uncertainty, sanctions a
 				<range>5640.814312178409</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="15A5AC85B23F337E4686">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -3423,7 +3423,7 @@ Risks: European refining-margin pressure, high energy and carbon costs, Rhine lo
 				<range>40781.24195421115</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>6.975424289879701,50.84259863180696,56.05817580335501</coordinates>
 			</Point>
@@ -3451,7 +3451,7 @@ Risks: Pipeline-supply disruption, industrial fires and unit outages, high Europ
 				<range>1583.46802428994</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>11.7617685,48.7842741,0</coordinates>
@@ -3481,7 +3481,7 @@ Risks: North Sea weather, pipeline interruption, terminal congestion, refinery o
 				<range>483.6623905889701</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano0</styleUrl>
+			<styleUrl>#msn_volcano00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>5.0301652,60.8083766,0</coordinates>
@@ -3511,7 +3511,7 @@ Risks: Refinery-unit outages, fires, ageing infrastructure, pipeline interruptio
 				<range>7246.144538804271</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano</styleUrl>
+			<styleUrl>#msn_volcano4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>6.977019030816507,36.86879868738053,0</coordinates>
@@ -3542,7 +3542,7 @@ Risks: Aging equipment, unplanned unit outages, dependence on domestic pipeline 
 				<range>1645.684714611283</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R4</styleUrl>
+			<styleUrl>#msn_R40</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>51.92558859999999,47.0735428,0</coordinates>
@@ -3570,7 +3570,7 @@ Risks: TAL pipeline disruption, refinery outages, high European energy and carbo
 				<range>1583.136136304032</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R3</styleUrl>
+			<styleUrl>#msn_R30</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>11.4804791,48.7933211,0</coordinates>
@@ -3600,7 +3600,7 @@ Risks: Imported-feedstock dependence, Malacca and Singapore Strait congestion, u
 				<range>6459.415970871923</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R2</styleUrl>
+			<styleUrl>#msn_R20</styleUrl>
 			<Point>
 				<coordinates>103.7668729626669,1.233288599538126,6.555920423163444</coordinates>
 			</Point>
@@ -3629,7 +3629,7 @@ Risks: Druzhba pipeline disruption, dependence on Russian crude, Adria capacity 
 				<range>3935.049430835643</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R0</styleUrl>
+			<styleUrl>#msn_R00</styleUrl>
 			<Point>
 				<coordinates>18.89370419822317,47.28394950929512,157.6343872242244</coordinates>
 			</Point>
@@ -3657,7 +3657,7 @@ Risks: Druzhba supply disruption, dependence on Russian crude, Adria pipeline co
 				<range>6448.531770212576</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R1</styleUrl>
+			<styleUrl>#msn_R10</styleUrl>
 			<Point>
 				<coordinates>17.17419516414537,48.11828399989759,135.5476730853717</coordinates>
 			</Point>
@@ -3685,7 +3685,7 @@ Risks: TAL/IKL pipeline disruption, power-grid failures, refinery outages, inlan
 				<range>5143.212021053187</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R1</styleUrl>
+			<styleUrl>#msn_R10</styleUrl>
 			<Point>
 				<coordinates>13.61230467861704,50.55890348158168,241.3583716678835</coordinates>
 			</Point>
@@ -3713,7 +3713,7 @@ Risks: TAL/IKL pipeline disruption, inland logistics constraints, power outages,
 				<range>5823.923280586023</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R1</styleUrl>
+			<styleUrl>#msn_R10</styleUrl>
 			<Point>
 				<coordinates>14.32616514723769,50.258517202616,175.8536708314978</coordinates>
 			</Point>
@@ -3741,7 +3741,7 @@ Risks: Rhine and port logistics disruption, refinery outages, high European ener
 				<range>497.9542197939008</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R0</styleUrl>
+			<styleUrl>#msn_R00</styleUrl>
 			<Point>
 				<coordinates>4.289804629067476,51.87614115886368,3.032522165490025</coordinates>
 			</Point>
@@ -3769,7 +3769,7 @@ Risks: Drone attacks, fires, prolonged unit shutdowns, sanctions, difficulty sou
 				<range>11703.47873310093</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<coordinates>49.90785013877145,53.09873298263044,77.00854680292835</coordinates>
 			</Point>
@@ -3796,9 +3796,9 @@ Risks: Drone and missile attacks, Black Sea security, sanctions, terminal shutdo
 				<range>1400.787211478139</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R0</styleUrl>
+			<styleUrl>#msn_R00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="052D11D80C3F23806BD6">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -3832,7 +3832,7 @@ Risks: Drone attacks, regional instability, interruptions to crude supply, local
 				<range>833.6125569674979</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>43.7905316,36.13533049999999,0</coordinates>
@@ -3861,7 +3861,7 @@ Risks: Regional political instability, crude-supply disruption, infrastructure c
 				<range>838.9738133519746</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R5</styleUrl>
+			<styleUrl>#msn_R50</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>45.0190115,35.6738575,0</coordinates>
@@ -3890,7 +3890,7 @@ Risks: Power outages, ageing infrastructure, operational interruptions, regional
 				<range>895.7480488083368</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.6669321,30.4506934,0</coordinates>
@@ -3920,7 +3920,7 @@ Risks: Ageing and war-damaged infrastructure, fires, power failures, pipeline in
 				<range>846.6429661067937</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>43.49331249999999,35.0054375,0</coordinates>
@@ -3951,7 +3951,7 @@ Risks: Ageing infrastructure, limited conversion capacity, electricity failures,
 				<range>865.9233338120932</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>44.4249823,33.2780469,0</coordinates>
@@ -3980,7 +3980,7 @@ Risks: Uncertain expansion timetable, differences between existing and planned c
 				<range>857.1814450962986</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>42.3616246,34.0700113,0</coordinates>
@@ -4010,7 +4010,7 @@ Risks: Expansion delays, ageing existing units, power interruptions, pipeline de
 				<range>877.2044275909125</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>44.2597868,32.2328188,0</coordinates>
@@ -4040,7 +4040,7 @@ Risks: Ageing equipment, limited conversion capacity, power interruptions, maint
 				<range>887.5767382436487</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>45.2541875,31.2464375,0</coordinates>
@@ -4071,7 +4071,7 @@ Risks: Ageing equipment, low conversion complexity, electricity interruptions, m
 				<range>890.1847795734978</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R6</styleUrl>
+			<styleUrl>#msn_R60</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>46.2199375,30.9943125,0</coordinates>
@@ -4102,7 +4102,7 @@ Risks: Ageing infrastructure, uncertain crude availability, pipeline damage, mai
 				<range>844.2367658019648</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R6</styleUrl>
+			<styleUrl>#msn_R60</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>35.9594271,35.2162342,0</coordinates>
@@ -4135,7 +4135,7 @@ Risks: Pipeline disruption, shortages of crude or utilities, maintenance and com
 				<range>875.7327668659553</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R6</styleUrl>
+			<styleUrl>#msn_R60</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>44.0799074,32.3707476,0</coordinates>
@@ -4164,7 +4164,7 @@ Risks: Dependence on domestic crude availability, exposure to imported-crude fre
 				<range>2492.143188807066</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R7</styleUrl>
+			<styleUrl>#msn_R70</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>108.8220273,15.3540319,0</coordinates>
@@ -4194,7 +4194,7 @@ Risks: Mediterranean crude-import or maritime disruption, refinery and petrochem
 				<range>1775.672380432744</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R8</styleUrl>
+			<styleUrl>#msn_R80</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.9973598,43.38874029999999,0</coordinates>
@@ -4224,7 +4224,7 @@ Risks: Dependence on the Fos-sur-Mer–Feyzin crude-pipeline system, refinery an
 				<range>1695.744047812515</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R8</styleUrl>
+			<styleUrl>#msn_R80</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.8471332,45.6737966,0</coordinates>
@@ -4254,7 +4254,7 @@ Risks: Atlantic marine-logistics disruption, refinery outages, labour action, fi
 				<range>1636.92020139366</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>-2.0674723,47.3163743,0</coordinates>
@@ -4285,7 +4285,7 @@ Risks: Refinery fires, Seine and Le Havre logistics disruption, ageing equipment
 				<range>1557.985120529115</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>0.5509828,49.476651,0</coordinates>
@@ -4315,7 +4315,7 @@ Risks: Refinery-unit outages, labour strikes, Seine and Le Havre logistics disru
 				<range>1557.629793689049</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>0.2249381,49.4862735,0</coordinates>
@@ -4345,7 +4345,7 @@ Risks: Milford Haven marine disruption, refinery-unit outages, labour or mainten
 				<range>1475.78096486535</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>-5.0238087,51.6813794,0</coordinates>
@@ -4375,7 +4375,7 @@ Risks: Ownership-transition uncertainty, European refining overcapacity, high en
 				<range>7933.802029959625</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R7</styleUrl>
+			<styleUrl>#msn_R70</styleUrl>
 			<Point>
 				<coordinates>7.047603258144561,51.53819523473279,28.58942788441671</coordinates>
 			</Point>
@@ -4402,7 +4402,7 @@ Risks: Dependence on the Fos-sur-Mer and pipeline supply chain, Alpine and inlan
 				<range>1646.893266842444</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R7</styleUrl>
+			<styleUrl>#msn_R70</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>7.033661299999999,47.04000649999999,0</coordinates>
@@ -4430,7 +4430,7 @@ Risks: St. Lawrence marine disruption, severe winter weather, refinery-unit outa
 				<range>4114.414264280712</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-71.19020861742359,46.75998669578361,0</coordinates>
@@ -4460,7 +4460,7 @@ Risks: Enbridge Line 9 disruption, marine-logistics constraints, refinery outage
 				<range>7405.722320944164</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-73.52371464061943,45.63610703792909,0</coordinates>
@@ -4489,7 +4489,7 @@ Risks: Enbridge Line 5 or other pipeline disruption, Great Lakes logistics const
 				<range>6345.527307144902</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-82.416587967076,42.95221097748494,0</coordinates>
@@ -4519,7 +4519,7 @@ Risks: Permanent loss of refining activity, terminal mothballing, weak European 
 				<range>1466.330070491477</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R0</styleUrl>
+			<styleUrl>#msn_R00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.1680186,51.9322926,0</coordinates>
@@ -4550,7 +4550,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 				<range>2158.075711590774</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R9</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>29.8576038,31.0988889,0</coordinates>
@@ -4562,7 +4562,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 		<Placemark id="ADDEILT000000000001">
 			<name>EAPC Eilat Oil Terminal</name>
 			<description><![CDATA[Terminal: EAPC Eilat Oil Terminal<br>Classification: Red Sea crude terminal — southern gate of the Trans-Israel pipeline<br>Location: Gulf of Aqaba, south of Eilat, Israel<br>Owner/Operator: Europe Asia Pipeline Company (Israeli state-owned)<br>Infrastructure: Oil jetty within the Eilat port area and a tank farm; storage up to ~1.4 million m³<br>Berths / vessel size: Tankers up to ~350,000 dwt (VLCC-capable)<br>Strategic role: Entry/exit point letting Gulf-origin crude reach the Mediterranean without transiting Suez — and vice versa for reverse flows to Asia<br>Recent data: Activity constrained by the Environment Ministry's 'Zero Additional Risk' policy (Nov 2021) protecting the Gulf's coral reefs, which froze the UAE Red-Med ramp-up; the Red Sea shipping crisis since late 2023 further curtailed calls<br>Risks: A single spill next to a fragile coral ecosystem would be a national disaster — EAPC already caused the 2014 Arava spill and a 2016 coral-damage case; Bab el-Mandeb security; regulatory cap on growth]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>34.94,29.523,0</coordinates>
 			</Point>
@@ -4570,7 +4570,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 		<Placemark id="ADDASHK000000000001">
 			<name>EAPC Ashkelon Oil Terminal &amp; Tank Farm</name>
 			<description><![CDATA[Terminal: EAPC Ashkelon Oil Terminal &amp; Tank Farm<br>Classification: Mediterranean crude terminal — northern gate of the Trans-Israel pipeline and Israel's main crude import point<br>Location: Ashkelon coast, ~10 km north of the Gaza Strip, Israel<br>Owner/Operator: Europe Asia Pipeline Company<br>Infrastructure: Offshore moorings and a large tank farm — crude storage up to ~2.3 million m³ plus ~410,000 m³ of refined products across two product terminals; pipeline connections onward to the Ashdod and Haifa refineries<br>Berths / vessel size: Tankers up to ~250,000 dwt<br>Crude flows: Seaborne imports (Azeri BTC and Kazakh CPC grades prominent among them) feeding Israel's two refineries; potential reverse flows toward Eilat<br>Strategic role: The hinge between seaborne crude supply and Israel's refining system<br>Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and precautionary measures followed October 2023; war-risk insurance costs; single-point concentration of Israeli crude imports]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>34.543,31.642,0</coordinates>
 			</Point>
@@ -4578,7 +4578,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 		<Placemark id="ADDGOR00000000000001">
 			<name>Rostock Oil Harbour &amp; GÖR Tank Farm (Euroports)</name>
 			<description><![CDATA[Terminal: Rostock Oil Harbour &amp; GÖR Tank Farm (Großtanklager-Ölhafen Rostock)<br>Classification: Baltic crude and products import terminal — head of the Rostock–Schwedt pipeline (MVL)<br>Location: Peez, Port of Rostock, Mecklenburg-Vorpommern, Germany<br>Owner/Operator: Großtanklager-Ölhafen Rostock GmbH (GÖR), subsidiary of Euroports Germany — sole owner since acquiring Total Deutschland's stake in the former joint venture; GÖR also operates the on-site tanks of PCK Raffinerie Schwedt and Dow Olefinverbund Böhlen; PCK owns its own crude tank farm and a dedicated pier<br>Infrastructure: Six tanker berths for vessels up to 100,000 tonnes, discharge capacity up to 6,000 tonnes per hour; ~700,000 m³ of storage; rail loading (7 tracks), automated truck loading; on-site biodiesel plant (~200,000 t/y)<br>Handles: Crude oil, mineral oil products, heavy fuel oil, VGO, biodiesel, HVO, methanol, ethanol, vegetable oils<br>Connectivity: Crude pipeline to the PCK Schwedt refinery (MVL, ~200 km) and product pipeline to Böhlen (Dow); rail and road distribution across eastern Germany<br>Recent data: Around 6 million tonnes of crude per year pumped from tankers into the Schwedt pipeline since Germany ended Russian pipeline imports — securing fuel supply for eastern Germany and Berlin<br>Strategic role: The seaborne entry point that replaced Druzhba for the Schwedt refinery; the first link of the chain tanker → GÖR → MVL → Schwedt → Berlin fuel market<br>Risks: Berth size limit (~100,000 t — Aframax scale, no larger); throughput bottleneck relative to Schwedt's nameplate capacity; Baltic weather and single-corridor dependence]]></description>
-			<styleUrl>#msn_red-circle1</styleUrl>
+			<styleUrl>#msn_red-circle11</styleUrl>
 			<Point>
 				<coordinates>12.14519945455248,54.14954764676539,0</coordinates>
 			</Point>
@@ -4586,7 +4586,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 		<Placemark id="ADDDAL00000000000001">
 			<name>Dalmeny Tank Farm (FPS)</name>
 			<description><![CDATA[Terminal: Dalmeny Tank Farm (FPS crude storage)<br>Classification: Crude oil storage — the buffer between the Forties Pipeline System and the Hound Point export jetty<br>Location: Dalmeny, South Queensferry, Firth of Forth, Scotland<br>Owner/Operator: INEOS FPS<br>Infrastructure: Six floating-roof tanks, ~3 million barrels of storage; fed from Kinneil (Grangemouth) by a 19 km, 30-inch line; connected to Hound Point by 48-inch and 40-inch loading lines (~5 km)<br>Handles: Stabilised Forties Blend crude<br>Strategic role: Decouples continuous pipeline flow from batch tanker liftings — the pipeline never stops, ships load on schedule<br>Risks: Modest storage relative to system throughput (~3 million barrels against flows of several hundred thousand b/d) — limited slack if liftings are delayed]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-3.38,55.99,0</coordinates>
 			</Point>
@@ -4594,7 +4594,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 		<Placemark id="ADDHPT00000000000001">
 			<name>Hound Point Marine Terminal</name>
 			<description><![CDATA[Terminal: Hound Point Marine Terminal<br>Classification: Deep-water crude export terminal — the loading point of Forties Blend<br>Location: Firth of Forth, ~3 km east of the Forth Bridge, near Edinburgh, Scotland<br>Owner/Operator: INEOS FPS (within the Forth Ports Authority area); opened 1975<br>Infrastructure: Offshore island structure with two deep-water jetties and a vapour recovery platform; loading up to 8,000 m³/hour per berth; dedicated escort tug fleet<br>Vessels: Berths accommodate tankers up to ~350,000 dwt — one of the few UK terminals able to load VLCCs; roughly 200 vessels per year<br>Handles: Forties Blend (typically ~38–41° API, ~0.6–0.8% sulphur) — a Dated Brent benchmark grade<br>Strategic role: The exact point where the Forties chain on this map goes from pipeline to ship — wellhead → FPS → Kinneil → Dalmeny → Hound Point → Rotterdam<br>Risks: Benchmark sensitivity — outages here feed directly into Dated Brent assessments; weather and tidal constraints in the Firth]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-3.359,56.005,0</coordinates>
 			</Point>
@@ -4602,7 +4602,7 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 		<Placemark id="ADDSIOT0000000000001">
 			<name>SIOT Trieste Marine Terminal</name>
 			<description><![CDATA[Terminal: SIOT Trieste Marine Terminal (Società Italiana per l'Oleodotto Transalpino)<br>Classification: Crude import terminal — head of the TAL pipeline system<br>Location: Bay of Muggia, Port of Trieste, Italy<br>Owner/Operator: SIOT / TAL Group (shareholders include OMV, Shell, Eni, ExxonMobil, MERO ČR, Gunvor, TotalEnergies, Phillips 66 and Rosneft)<br>Infrastructure: Marine piers with tanker berths — first Suezmax berthed in May 2025 after the Fincantieri revamp — plus a tank farm feeding the TAL pipeline<br>Capacity: ~37 million tonnes of crude received per year (~400 tankers annually)<br>Connectivity: Sea-side entry of the entire Alpine corridor — TAL to Bavaria (Bayernoil, Gunvor Ingolstadt), Karlsruhe (MiRO), Austria (AWP branch) and the Czech Republic (via IKL)<br>Strategic role: The single most important crude gateway for landlocked Central Europe; the physical starting point of the Czech Republic's post-Russia supply route<br>Risks: Corridor concentration — an outage at Trieste ripples into refineries in four countries; Adriatic weather and port constraints]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>13.76228349369942,45.64661359195608,0</coordinates>
 			</Point>
@@ -4620,7 +4620,7 @@ Operator: Preem (VAROPreem)</description>
 				<range>4141.522219496441</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>11.42874615173534,58.35060771290087,0</coordinates>
@@ -4648,7 +4648,7 @@ Risks: Strait congestion, marine collision, oil spills, berth outages, severe th
 				<range>6459.415970871923</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>103.7450915580899,1.235462070826827,3.704244327194541</coordinates>
 			</Point>
@@ -4656,7 +4656,7 @@ Risks: Strait congestion, marine collision, oil spills, berth outages, severe th
 		<Placemark>
 			<name>Haoud El Hamra Gathering &amp; Pump Station</name>
 			<description><![CDATA[<b>Role:</b> Central gathering hub; origin of the northbound export trunklines<br/><b>Operator:</b> Sonatrach TRC<br/><b>Coordinate confidence:</b> Exact<br/><b>Lat, Lon:</b> 31.88944, 5.97306]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>5.97306,31.88944,0</coordinates>
 			</Point>
@@ -4674,7 +4674,7 @@ Operator:SPSE</description>
 				<range>11513.31548162729</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>4.912289359287117,43.45863683908951,0</coordinates>
@@ -4692,7 +4692,7 @@ Operator:SPSE</description>
 				<range>3170.650227834174</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-113.3650499560921,53.54435480570139,0</coordinates>
@@ -4723,7 +4723,7 @@ Risks: Oil-spill risk in Burrard Inlet and the Salish Sea, tanker restrictions t
 				<range>2584.723897560875</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.9538833088552,49.28900761066111,0</coordinates>
@@ -4754,7 +4754,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>3568.651648474527</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.9294342714177,49.26977697679428,0</coordinates>
@@ -4773,7 +4773,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>3613.133342857473</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>103.5351680670497,1.349556947913845,4.193988666707633</coordinates>
 			</Point>
@@ -4791,7 +4791,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>2159.751833661487</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>29.6719218,31.0374431,0</coordinates>
@@ -4810,7 +4810,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>8605.38724881015</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>104.1819971036788,1.344458901664911,2.970455479897451</coordinates>
 			</Point>
@@ -4827,9 +4827,9 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>9553.644769163802</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="08BBF2E27F3F1D289C3A">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -4850,9 +4850,9 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>8528.162454476114</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="173EEA12AD3F1D2A5045">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -4886,9 +4886,9 @@ Risks: Drone and missile attacks, temporary port closures, damage to tanks and l
 				<range>7890.417272374034</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="0A686630D63F2360CAA3">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -4910,9 +4910,9 @@ Risks: Drone and missile attacks, temporary port closures, damage to tanks and l
 				<range>5930.788330664509</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="07CB78FB7C3F23629A63">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -4933,9 +4933,9 @@ Risks: Drone and missile attacks, temporary port closures, damage to tanks and l
 				<range>15313.09946442023</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="07CFE706053F23645018">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -4970,9 +4970,9 @@ Risks: Iraq–Türkiye political and contractual disputes, pipeline sabotage, re
 				<range>11152.58242627024</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="039A63B3463F2D0D4069">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -5008,9 +5008,9 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>7571.767927960027</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="003F5D15A33F2D0EA8F5">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -5031,7 +5031,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>5637.609870001324</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-95.18297718190327,29.61418322687845,11.48587133223509</coordinates>
 			</Point>
@@ -5048,9 +5048,9 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>18025.52978734486</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="1F8EAC76B33F33B507D9">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -5071,7 +5071,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>1697.810766376264</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>5.1149018,45.6155196,0</coordinates>
@@ -5089,7 +5089,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>1537.549630437695</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>8.5559148,50.0286872,0</coordinates>
@@ -5107,7 +5107,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>5752.594125845936</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-73.88462355019486,7.073652529560514,73.42292414192707</coordinates>
 			</Point>
@@ -5125,7 +5125,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>3623.704182373476</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>28.72205088671118,60.33991086572199,46.51861622035126</coordinates>
 			</Point>
@@ -5143,7 +5143,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>15413.04423959227</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>28.43259113123285,59.69419730896802,0.5303039684784627</coordinates>
 			</Point>
@@ -5161,7 +5161,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>14891.64541449398</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>14.53429138844205,45.21817548052175,20.86324727075943</coordinates>
 			</Point>
@@ -5191,7 +5191,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>23013.69924402796</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>4.2828162,51.8913455,0.2735449984056348</coordinates>
 			</Point>
@@ -5209,7 +5209,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>3000</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>4.786598134495219,52.41053286954726,2</coordinates>
 			</Point>
@@ -5227,7 +5227,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>15750.88389459299</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>4.141333829543958,51.94799525328288,12.57155851531995</coordinates>
 			</Point>
@@ -5244,7 +5244,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>2243.808004093299</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>4.354385179949142,51.24937599132093,2.513679747653361</coordinates>
 			</Point>
@@ -5272,7 +5272,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1914.193430132582</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>4.369067045891983,51.25177384885958,3.305894788988312</coordinates>
 			</Point>
@@ -5289,7 +5289,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>28352.26356857456</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>69.73743014797641,22.40961010503757,41.92808448890527</coordinates>
 			</Point>
@@ -5306,7 +5306,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>28352.26356857456</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>69.86144878898733,22.42791702842539,45.29004567147437</coordinates>
 			</Point>
@@ -5323,7 +5323,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>26088.67023856379</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>69.71974913349248,22.38237003393534,37.5947003003249</coordinates>
 			</Point>
@@ -5341,7 +5341,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1845.695836351079</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>57.48908302397544,-20.14461293115252,6.373579975660162</coordinates>
 			</Point>
@@ -5359,7 +5359,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>3620.237184350844</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>57.4947021908326,-20.14141803191107,4.18707365313888</coordinates>
 			</Point>
@@ -5377,7 +5377,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>3241.859351807507</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>32.56336455789477,-25.96982451454338,5.677996084971806</coordinates>
 			</Point>
@@ -5395,7 +5395,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1718.658487156208</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>32.49949090624551,-25.95965481985363,5.284837326036451</coordinates>
 			</Point>
@@ -5413,7 +5413,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>2519.468649739575</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>29.04438675583706,-26.05027122129684,1586.762756987893</coordinates>
 			</Point>
@@ -5431,9 +5431,9 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>10361.16271442268</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="040A1F85F73F2D52D689">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -5455,7 +5455,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>28905.05784266163</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-95.05123838639194,29.73566277101162,5.693053647793374</coordinates>
 			</Point>
@@ -5473,7 +5473,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>12456.51559872553</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-94.89773417913777,29.84779574732718,26.72588759351757</coordinates>
 			</Point>
@@ -5490,7 +5490,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>899.6743359934181</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.9336339,30.061982,0</coordinates>
@@ -5508,7 +5508,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>899.7202419663954</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.9287344,30.0574125,0</coordinates>
@@ -5526,7 +5526,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>898.5032577756459</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.88729410000001,30.1783967,0</coordinates>
@@ -5545,7 +5545,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1927.914198111976</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>34.96799563995901,29.38178999956056,33.40967143232309</coordinates>
 			</Point>
@@ -5562,7 +5562,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>5785.393581093522</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>35.96653381958463,35.22235976149776,36.24013392066996</coordinates>
 			</Point>
@@ -5579,7 +5579,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>7475.071725114249</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>52.21994947792797,54.92568048328462,135.0925367481317</coordinates>
 			</Point>
@@ -5596,7 +5596,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>4643.867886980879</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>25.12478137865085,50.07026397362587,225.7785784856151</coordinates>
 			</Point>
@@ -5613,7 +5613,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>18384.48961256538</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>140.0214638468653,35.49237444730526,6.897529595340323</coordinates>
 			</Point>
@@ -5630,7 +5630,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1774.084589935238</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.916040499999999,43.434797,0</coordinates>
@@ -5648,7 +5648,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1774.580562634262</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.8928764,43.4204139,0</coordinates>
@@ -5666,7 +5666,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1774.951888646208</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.834054,43.409643,0</coordinates>
@@ -5684,7 +5684,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1374.209322501265</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>6.101515340222317,46.21589967767904,409.7536698553555</coordinates>
 			</Point>
@@ -5701,7 +5701,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>12446.22251956026</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>0.1591582776677547,49.4651087863507,8.434378666648374</coordinates>
 			</Point>
@@ -5718,7 +5718,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>2958.330745572166</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>1.020805475571909,49.40961317838162,5.318006394642103</coordinates>
 			</Point>
@@ -5735,7 +5735,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>3566.298645962379</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>2.185023301465163,48.90105116833551,25.9229733781971</coordinates>
 			</Point>
@@ -5752,7 +5752,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>2851.57249787153</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>7.070367879298738,51.52976345771804,33.83028083796033</coordinates>
 			</Point>
@@ -5769,9 +5769,9 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>15074.52520279912</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="09149BB14C3FE5E87566">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -5792,7 +5792,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1583.083454155143</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>11.4737874,48.7947571,0</coordinates>
@@ -5810,7 +5810,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>10162.32116241124</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-1.166645189471853,54.61107030415113,5.678885366906616</coordinates>
 			</Point>
@@ -5827,7 +5827,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>3901.259457701817</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>5.031485608870081,60.81532178571573,12.73050171949453</coordinates>
 			</Point>
@@ -5843,7 +5843,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>9605.853158531982</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-54.00016554845473,47.78721988677749,0</coordinates>
@@ -5861,7 +5861,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>8075.648938041413</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>-97.43805172032799,27.80986235338777,12.18912578746996</coordinates>
 			</Point>
@@ -5888,7 +5888,7 @@ Risks: Tank fires, vapour release, product contamination, spills, overfilling, p
 				<range>5045.080083596493</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle10</styleUrl>
+			<styleUrl>#msn_red-circle100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>6.946337962101885,36.8805841519012,0</coordinates>
@@ -5907,7 +5907,7 @@ Operator: Waha Oil Co / NOC</description>
 				<roll>55.43042773308764</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>18.34965819337705,30.62876828330338,0</coordinates>
@@ -5936,7 +5936,7 @@ Source: NUPRC crude oil terminal operations register; port-registry coordinate c
 				<range>2911.857564424163</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle</styleUrl>
+			<styleUrl>#msn_red-circle2</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>7.160021945461112,4.419963160069129,0</coordinates>
@@ -5948,7 +5948,7 @@ Source: NUPRC crude oil terminal operations register; port-registry coordinate c
 		<Placemark id="ADDEPRT000000000001">
 			<name>Port of Eilat</name>
 			<description><![CDATA[Hub: Port of Eilat<br>Classification: Israel's only Red Sea commercial port<br>Location: Head of the Gulf of Aqaba, Eilat, Israel<br>Owner/Operator: Privatised in 2013 — operated under concession (Papo Maritime); the EAPC oil jetty sits within the port area<br>Main activities: Vehicle imports from Asia, potash and mineral exports, general cargo — Israel's only maritime gateway that avoids both the Mediterranean and the Suez Canal<br>Recent data: The Houthi campaign against Red Sea shipping from late 2023 collapsed traffic (revenues down on the order of 85–90%), pushing the port into insolvency proceedings in 2024; activity has remained far below pre-war levels since<br>Strategic role: A live case study of chokepoint economics — the port's paralysis is the direct cost of Bab el-Mandeb insecurity, visible on one map with the strait itself<br>Risks: Chokepoint dependence (Bab el-Mandeb); financial fragility; competition from Jordan's Aqaba next door]]></description>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>34.947,29.533,0</coordinates>
 			</Point>
@@ -5979,7 +5979,7 @@ Risks: Regional military escalation, tanker incidents in the Gulf of Oman, fires
 				<range>11775.76243409305</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<coordinates>56.36724116055368,25.19688629922907,-2.974494977984209</coordinates>
 			</Point>
@@ -6009,7 +6009,7 @@ Risks: Chemical accidents, fires, hazardous-material incidents, pipeline disrupt
 				<range>6407.930886732011</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.577957365454042,51.68968851761457,0</coordinates>
@@ -6040,7 +6040,7 @@ Risks: Refinery outages, power failures, labour disruption, Rhine water-level co
 				<range>21217.00154639744</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>4.077710428450578,51.95220308822209,0</coordinates>
@@ -6072,7 +6072,7 @@ Risks: Chemical accidents, refinery and cracker outages, labour strikes, Scheldt
 				<range>5820.799404738244</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>4.406594830615392,51.24459764145874,0</coordinates>
@@ -6103,7 +6103,7 @@ Risks: Product contamination, tank fires, North Sea Canal access restrictions, l
 				<range>21779.39991787036</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>4.852542663949368,52.40566625470677,0</coordinates>
@@ -6121,7 +6121,7 @@ Risks: Product contamination, tank fires, North Sea Canal access restrictions, l
 				<range>8181.594601650593</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4401</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>3.593076247179727,51.44244807117862,0</coordinates>
@@ -6153,7 +6153,7 @@ Risks: Strait of Malacca congestion, dependence on imported feedstocks, refinery
 				<range>5528.928139201044</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>103.6993701,1.2851399,0</coordinates>
@@ -6184,7 +6184,7 @@ Risks: Typhoons, port congestion, refinery outages, petrochemical overcapacity, 
 				<roll>12.74333055256658</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>121.9564607870615,29.91236548885821,0</coordinates>
@@ -6215,7 +6215,7 @@ Risks: Dependence on imported crude, Strait of Hormuz exposure, typhoons, refine
 				<range>20459.67868858752</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>129.3811408015499,35.47195816426572,0</coordinates>
@@ -6246,7 +6246,7 @@ Risks: Imported-crude dependence, typhoons, industrial accidents, refinery outag
 				<range>2311.8871297994</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>127.6721213856946,34.9070910461819,0</coordinates>
@@ -6277,7 +6277,7 @@ Risks: Dependence on imported crude, Gulf shipping disruptions, cyclones, refine
 				<range>26422.78730449968</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>69.79087712061691,22.4042730429398,0</coordinates>
@@ -6308,7 +6308,7 @@ Risks: Drone and missile attacks, Black Sea security risks, Turkish Straits cong
 				<range>26654.91023600761</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>37.81314960031346,44.69897981660175,0</coordinates>
@@ -6339,7 +6339,7 @@ Risks: Strait of Hormuz disruption, container congestion, cyberattacks, extreme 
 				<range>23306.73843396847</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>55.02748067823565,25.02684153047192,0</coordinates>
@@ -6370,7 +6370,7 @@ Risks: Strait of Hormuz disruption, military or drone attacks, offshore loading-
 				<range>49283.03103410581</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>50.10895927883966,26.63170639897436,0</coordinates>
@@ -6401,7 +6401,7 @@ Risks: Disruption to the East–West Pipeline, Bab el-Mandeb and Red Sea securit
 				<range>36033.17962264606</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.20990952868375,23.93638980758382,0</coordinates>
@@ -6432,7 +6432,7 @@ Risks: Strait of Hormuz disruption, LNG-train outages, military attacks, offshor
 				<range>30069.19130335255</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>51.57061380662287,25.92631529916464,0</coordinates>
@@ -6463,7 +6463,7 @@ Risks: Strait of Gibraltar congestion, strong winds, container-network disruptio
 				<range>10502.09351953525</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-5.515828994314563,35.88927781581516,0</coordinates>
@@ -6494,7 +6494,7 @@ Risks: Refinery outages, crude-feedstock constraints, port-access congestion, fo
 				<range>118721.049242761</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>3.927775282108958,6.394092182625094,0</coordinates>
@@ -6525,7 +6525,7 @@ Risks: Container congestion, road and rail bottlenecks, flooding, power failures
 				<range>11933.82989754231</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>31.04165933072623,-29.8792031926853,0</coordinates>
@@ -6556,7 +6556,7 @@ Risks: Atlantic weather, iron-ore railway disruption, storage-system failures, c
 				<range>16020.30639756658</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>18.01215943064502,-33.03668808327561,0</coordinates>
@@ -6587,7 +6587,7 @@ Risks: Red Sea military activity, attacks on commercial shipping, disruption at 
 				<range>13799.22741915543</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>43.08715138531706,11.60179768221023,0</coordinates>
@@ -6618,7 +6618,7 @@ Risks: Hurricanes, fog, channel closures, pipeline outages, terminal concentrati
 				<range>63076.54934695265</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-97.30857753554886,27.77388729298766,0</coordinates>
@@ -6649,7 +6649,7 @@ Risks: Hurricanes, flooding, fog, ship-channel collisions, refinery accidents, p
 				<range>58130.15842990537</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-94.88877826156423,29.63048674314824,0</coordinates>
@@ -6680,7 +6680,7 @@ Risks: Hurricanes, flooding, refinery fires and explosions, hazardous-material r
 				<range>32735.06676078657</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-93.85924868027439,29.92656018135756,0</coordinates>
@@ -6711,7 +6711,7 @@ Risks: Hurricanes, offshore equipment failures, subsea-pipeline incidents, oil s
 				<range>125516.6760459274</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-90.14741524227848,30.19062721127204,0</coordinates>
@@ -6742,7 +6742,7 @@ Risks: Hurricanes, channel closures, pipeline disruptions, oil spills, competiti
 				<range>12998.03709890112</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-95.29705627738726,28.92902643735854,0</coordinates>
@@ -6773,7 +6773,7 @@ Risks: Hurricanes, storm surge, refinery accidents, ship-channel disruption, oil
 				<range>11409.79126806121</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-94.86806129341794,29.39035251356221,0</coordinates>
@@ -6804,7 +6804,7 @@ Risks: Earthquakes, avalanches, extreme weather, tanker accidents, oil spills, p
 				<range>9444.149433161489</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry</styleUrl>
+			<styleUrl>#msn_ferry1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-146.3825607494269,61.10120391920578,0</coordinates>
@@ -6835,7 +6835,7 @@ Risks: Tanker accidents, oil spills, LNG incidents, industrial fires, berth outa
 				<range>7246.144538800975</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ferry0</styleUrl>
+			<styleUrl>#msn_ferry00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>6.947275281876221,36.89217556336559,0</coordinates>
@@ -6848,7 +6848,7 @@ Risks: Tanker accidents, oil spills, LNG incidents, industrial fires, berth outa
 			<name>Bomu Oil Field</name>
 			<description>Role: Ogoniland field; historic source field of the Trans Niger Pipeline system
 Operator: SPDC / Renaissance</description>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>7.2835,4.6605,0</coordinates>
 			</Point>
@@ -6857,7 +6857,7 @@ Operator: SPDC / Renaissance</description>
 			<name>Nembe Field Area (OML 29)</name>
 			<description>Role: OML 29 fields (Nembe, Santa Barbara, Okoroba, Oloibiri); source of the Nembe Creek Trunk Line
 Operator: Aiteo</description>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>6.35,4.53,0</coordinates>
 			</Point>
@@ -6866,7 +6866,7 @@ Operator: Aiteo</description>
 			<name>Liza Field / FPSO Station</name>
 			<description>Role: Producing field, ~190 km offshore, 1500-1900 m water depth
 Operator: ExxonMobil (Esso Guyana)</description>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>-56.917,8.016999999999999,0</coordinates>
 			</Point>
@@ -6875,7 +6875,7 @@ Operator: ExxonMobil (Esso Guyana)</description>
 			<name>Hassi Messaoud Oil Field</name>
 			<description>Role: Principal producing field feeding the Saharan Blend export blend
 Operator: Sonatrach</description>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>6.072899999999999,31.6804,0</coordinates>
 			</Point>
@@ -6885,7 +6885,7 @@ Operator: Sonatrach</description>
 			<description>Role: Producing field &amp; FPSO (~200 kb/d); commingled Girassol+Jasmim+Rosa stream
 Operator: TotalEnergies
 Coordinate confidence: Approximate</description>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>11.683,-7.652999999999999,0</coordinates>
 			</Point>
@@ -6902,7 +6902,7 @@ Coordinate confidence: Approximate</description>
 				<range>629.4335268571252</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<coordinates>144,51.4,0</coordinates>
@@ -6920,7 +6920,7 @@ Coordinate confidence: Approximate</description>
 				<range>619.0072124953833</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<coordinates>144.2,52.09999999999999,0</coordinates>
@@ -6938,9 +6938,9 @@ Coordinate confidence: Approximate</description>
 				<range>10596.13610420725</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="0C71B641FF3F2D15737B">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -6961,9 +6961,9 @@ Coordinate confidence: Approximate</description>
 				<range>8023.972904192051</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="108A3C7DC63F2D28A0C3">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -6984,7 +6984,7 @@ Coordinate confidence: Approximate</description>
 				<range>3364.727699850337</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>42.79533850917564,37.13455384915873,570.2466207505971</coordinates>
 			</Point>
@@ -7001,7 +7001,7 @@ Coordinate confidence: Approximate</description>
 				<range>1910.304970643192</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>43.26382573337291,36.82832234899749,591.5106136316049</coordinates>
 			</Point>
@@ -7018,7 +7018,7 @@ Coordinate confidence: Approximate</description>
 				<range>897.977559363571</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.41108860000001,30.2304687,0</coordinates>
@@ -7036,7 +7036,7 @@ Coordinate confidence: Approximate</description>
 				<range>892.7272802933054</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.27040980000001,30.746856,0</coordinates>
@@ -7054,7 +7054,7 @@ Coordinate confidence: Approximate</description>
 				<range>894.62584680199</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.3655281,30.5609741,0</coordinates>
@@ -7072,7 +7072,7 @@ Coordinate confidence: Approximate</description>
 				<range>883.1037221287936</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.4323452,31.6749414,0</coordinates>
@@ -7091,7 +7091,7 @@ Coordinate confidence: Approximate</description>
 				<range>705.0070574178768</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>53.4062187167094,46.15216146839361,0</coordinates>
@@ -7109,7 +7109,7 @@ Coordinate confidence: Approximate</description>
 				<range>874.4207686807406</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>45.6657142,32.4933051,0</coordinates>
@@ -7127,7 +7127,7 @@ Coordinate confidence: Approximate</description>
 				<range>865.1073099074351</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>44.6484347,33.3526498,0</coordinates>
@@ -7144,7 +7144,7 @@ Coordinate confidence: Approximate</description>
 				<range>537383.3624242913</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-48.50164494640178,46.52184234093943,0</coordinates>
@@ -7161,7 +7161,7 @@ Coordinate confidence: Approximate</description>
 				<range>5847.445808746465</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-110.5356938911647,55.07062982057658,0</coordinates>
@@ -7180,7 +7180,7 @@ Coordinate confidence: Approximate</description>
 				<range>2235.956018491528</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>33.2756409,28.1316192,0</coordinates>
@@ -7199,7 +7199,7 @@ Coordinate confidence: Approximate</description>
 				<range>3642.746898007463</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>33.57398443307559,27.80800299911596,5.868974768868116</coordinates>
 			</Point>
@@ -7216,7 +7216,7 @@ Coordinate confidence: Approximate</description>
 				<range>532.5658184417654</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<coordinates>0.9187,57.7308,0</coordinates>
@@ -7235,7 +7235,7 @@ Coordinate confidence: Approximate</description>
 				<range>2006.279144913715</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<coordinates>50.6310207433263,40.31494372331125,-29.26632843024284</coordinates>
 			</Point>
@@ -7251,7 +7251,7 @@ Coordinate confidence: Approximate</description>
 				<range>2026.933591324901</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>2.911074482369678,56.76988925135856,0</coordinates>
@@ -7269,7 +7269,7 @@ Coordinate confidence: Approximate</description>
 				<range>158378.8510473134</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>11.76547008379531,-7.681598380267438,0</coordinates>
@@ -7286,7 +7286,7 @@ Coordinate confidence: Approximate</description>
 				<range>402631.0193810959</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>2.060689510003799,59.04554284978791,0</coordinates>
@@ -7303,7 +7303,7 @@ Coordinate confidence: Approximate</description>
 				<range>43904.8512875589</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-103.0073252126223,32.54926396341951,0</coordinates>
@@ -7320,7 +7320,7 @@ Coordinate confidence: Approximate</description>
 				<roll>-1.994574620987538</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>21.41472772816507,28.68823231403621,0</coordinates>
@@ -7339,7 +7339,7 @@ Operator: Waha Oil Co (NOC+partners)</description>
 				<roll>-1.092325945202973</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#scic_oil_field1</styleUrl>
+			<styleUrl>#scic_oil_field10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>19.92182096596482,28.29870047645361,0</coordinates>
@@ -7372,7 +7372,7 @@ Risks: Seaborne-feedstock dependence, refinery outages, North Sea weather, high 
 				<range>1219.33616712355</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ranger_station</styleUrl>
+			<styleUrl>#msn_ranger_station0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>11.4172029,58.3484121,0</coordinates>
@@ -7402,7 +7402,7 @@ Risks: Dependence on seaborne crude and renewable feedstocks, refinery outages, 
 				<range>1244.359535702669</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ranger_station</styleUrl>
+			<styleUrl>#msn_ranger_station0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>11.8323886,57.70834980000001,0</coordinates>
@@ -7424,7 +7424,7 @@ Risks: Dependence on seaborne crude and renewable feedstocks, refinery outages, 
 				<range>3207.545008665767</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=00796b&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=00796b&amp;id=2000&amp;scale=4000</styleUrl>
 			<Point>
 				<coordinates>82.28033268426049,17.01535870957651,26.30636801461603</coordinates>
 			</Point>
@@ -7442,9 +7442,9 @@ Risks: Dependence on seaborne crude and renewable feedstocks, refinery outages, 
 				<range>3095.601653857157</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=00796b&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=00796b&amp;id=2000&amp;scale=4000</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="12383F7AA63F22C64405">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -7482,9 +7482,9 @@ Risks: Natural-gas supply curtailment, ageing plants, port-access disputes, ammo
 				<range>14101.08531345148</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_blu-stars</styleUrl>
+			<styleUrl>#msn_blu-stars0</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="099F3373BC3F22D4E305">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -7519,9 +7519,9 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>13196.79106356344</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_blu-stars</styleUrl>
+			<styleUrl>#msn_blu-stars0</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema0">
+				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="0251EC974A3F382D045D">0</SimpleData>
 				</SchemaData>
 			</ExtendedData>
@@ -7546,7 +7546,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>10795.78979930026</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 			<Point>
 				<coordinates>104.169107161563,1.358405746407063,5.486147625727451</coordinates>
 			</Point>
@@ -7564,7 +7564,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>6673.615556481527</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 			<Point>
 				<coordinates>21.02832293073626,47.89420784451342,93.98698311388492</coordinates>
 			</Point>
@@ -7582,7 +7582,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>7707.195568123134</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 			<Point>
 				<coordinates>3.786962797359981,51.34445943366449,3.911769979405457</coordinates>
 			</Point>
@@ -7600,7 +7600,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>4850.543096734327</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 			<Point>
 				<coordinates>4.267771448412327,51.36534927375749,19.10874670620181</coordinates>
 			</Point>
@@ -7618,7 +7618,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>6042.380869329209</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
 			<Point>
 				<coordinates>4.262152203735479,51.36047499017207,7.21164629532076</coordinates>
 			</Point>
@@ -7629,7 +7629,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDEAPC000000000001">
 			<name>Eilat–Ashkelon Pipeline (EAPC, Trans-Israel)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — reversible Red Sea ↔ Mediterranean land bridge (Trans-Israel / EAPC line)<br>Route: Eilat oil port (Gulf of Aqaba) → Arava valley → Negev → Ashkelon oil port (Mediterranean); 254 km, 42-inch — the backbone of a ~747 km EAPC network that also feeds the Haifa and Ashdod refineries<br>Owner/Operator: Europe Asia Pipeline Company (EAPC) — Israeli state-owned; operations historically under strict confidentiality dating from the company's origins<br>Capacity: ~30 million tonnes/year of crude; cited at ~400,000 b/d northbound and up to ~1.2 million b/d in reverse flow (reverse project completed 2003)<br>Operating history: Built 1968 as a covert 50/50 Israeli–Iranian venture (via Liechtenstein shell companies) to move Iranian crude to Europe bypassing Suez; the partnership collapsed with the 1979 revolution and international arbitration later ruled in Iran's favour for over a billion dollars — never paid; the 49-year concession expired in 2017 and activities passed to the renamed Europe Asia Pipeline Company<br>Recent data: The 2020 MED-RED Land Bridge MOU with UAE interests (post-Abraham Accords) was frozen by Israel's Environment Ministry — a 'Zero Additional Risk' policy for the Gulf of Eilat (Nov 2021) blocks any increase in tanker calls; a January 2025 State Comptroller report flagged the company's challenges at Eilat; EAPC is diversifying, including a 260 km fibre-optic corridor along the pipeline<br>Strategic role: The only Suez-bypass land bridge under a single state's control, connecting Red Sea and Mediterranean tanker markets in both directions<br>Risks: War exposure at both ends (rocket range of Gaza at Ashkelon, Red Sea shipping crisis at Eilat); environmental veto on expansion — the 2014 Arava spill from this line remains one of Israel's worst ecological disasters; opacity of actual flows]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7640,7 +7640,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDBPS00000000000001">
 			<name>Baltic Pipeline System (BPS-1)</name>
 			<description><![CDATA[Classification: Crude oil pipeline system — Russia's Baltic export artery (BPS-1)<br>Route: Timan-Pechora / West Siberia / Urals-Volga networks → Yaroslavl → Kirishi (KINEF refinery) → Primorsk oil terminal, Gulf of Finland<br>Owner/Operator: Transneft<br>Capacity: Up to ~75 million tonnes per year (~1.5 million b/d system capacity); Primorsk loads ~1 million b/d of Urals crude plus ~300,000 b/d of diesel; commissioned December 2001<br>Crude: Urals — Russia's flagship export grade, since 2022 shipped largely via the sanctions-era 'shadow fleet' under the G7 price-cap regime<br>Status: Operational but repeatedly disrupted — Ukrainian long-range drones forced the first loading suspension at Primorsk in September 2025, with renewed strikes in March and May 2026 halting exports again; at the peak, roughly 40% of Russia's oil export capacity was assessed offline<br>Strategic role: Built to bypass the Baltic transit states and concentrate exports at a Russian-controlled port; the single most important outlet for seaborne Urals<br>Risks: Primary target of the Ukrainian deep-strike campaign on energy infrastructure; sanctions and price-cap enforcement; winter ice navigation in the Gulf of Finland; single-corridor concentration]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7651,7 +7651,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDMVL00000000000001">
 			<name>Rostock–Schwedt Pipeline (MVL)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — Baltic import route (Mineralölverbundleitung, MVL)<br>Route: Rostock oil port (Baltic Sea) → PCK Schwedt refinery, ~200 km<br>Owner/Operator: PCK Raffinerie GmbH<br>Capacity: Limited — historically able to load the refinery at roughly half its nameplate; a ~€400 million upgrade has been pursued to raise throughput<br>Status: Operational — became Schwedt's lifeline after Germany ended Russian pipeline crude imports in January 2023<br>Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades; seaborne barrels landed at Rostock reach the Berlin fuel market through this line<br>Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7662,7 +7662,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDFPS00000000000001">
 			<name>Forties Pipeline System (FPS)</name>
 			<description><![CDATA[Classification: Integrated crude oil and NGL transport system<br>Route: Forties Unity platform (central North Sea) → Cruden Bay landfall (169 km offshore) → Kinneil, Grangemouth (209 km onshore) → Dalmeny tank farm → Hound Point export jetty<br>Owner/Operator: INEOS (acquired from BP in 2017)<br>Capacity: Nominal ~575,000–610,000 b/d; carries liquids from ~85 UK and Norwegian fields — roughly 40% of UK North Sea oil<br>Main products: Stabilised Forties Blend crude delivered at Hound Point (a Dated Brent benchmark grade); gas liquids to Grangemouth<br>Strategic role: The upstream leg of the Forties chain on this map — wellhead to Hound Point loading to Rotterdam; a single-system chokepoint for a large share of UK production<br>Risks: Single-system concentration — outages at Kinneil or on the main line ripple directly into the Dated Brent benchmark; ageing infrastructure; declining North Sea throughput]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7673,7 +7673,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDIKL00000000000001">
 			<name>IKL pipeline (Ingolstadt–Kralupy–Litvínov) — TAL extension</name>
 			<description><![CDATA[Classification: Crude oil pipeline — continuation of the TAL system (IKL: Ingolstadt–Kralupy–Litvínov)<br>Route: Vohburg/Ingolstadt (junction with TAL) → Czech border → Nelahozeves central tank farm near Kralupy, supplying the Kralupy and Litvínov refineries; 347 km<br>Owner/Operator: MERO ČR (Czech state pipeline company)<br>Capacity: ~200,000 b/d usable for the Czech Republic (~10 Mt/y design)<br>Status: Operational — since the TAL-PLUS expansion went live in 2025, TAL + IKL can deliver up to 8 Mt/y, covering the entire Czech crude demand<br>Recent data: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour<br>Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region<br>Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=450</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7683,7 +7683,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>Trans Niger Pipeline (TNP): Bomu -&gt; Rumuekpe -&gt; Bonny (SPDC, since 1965, 180,000 bpd)</name>
-			<styleUrl>#stylemap_id3</styleUrl>
+			<styleUrl>#stylemap_id30</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7693,7 +7693,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>Nembe Creek Trunk Line (NCTL): Nembe -&gt; Cawthorne Channel -&gt; Bonny (Aiteo, 97 km, up to 600,000 bpd)</name>
-			<styleUrl>#stylemap_id4</styleUrl>
+			<styleUrl>#stylemap_id40</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7714,7 +7714,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>15074.4970188383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=480</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4800</styleUrl>
 			<LineString>
 				<coordinates>
 					44.33474759149754,35.5451810771893,0 43.4951408465128,35.00766179438595,0 43.08336590020788,36.35289993742235,0 42.37788406566046,37.06792066428955,0 42.52903547315096,37.2605205344187,0 42.45091368584317,37.52174867323686,0 41.36011134968219,37.42137113676481,0 41.12813651200533,37.89901738957821,0 40.18919207412354,37.94404964904086,0 36.49308784070777,37.44036959456425,0 35.92646971526913,36.89016245838856,0 
@@ -7723,7 +7723,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>East–West Crude Oil Pipeline - Petroline</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=430</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4300</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7744,7 +7744,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>11924.52108772472</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					52.29990292501337,54.9052707640474,0 50.15033085955546,53.20489616269013,0 32.66743234438189,52.84439365501422,0 29.21733433700696,52.03704679591238,0 
@@ -7763,7 +7763,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>2225576.62013948</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					29.21754394721011,52.03685252949513,0 25.1485680856082,50.07990026978116,0 22.28977125832482,48.61992385846033,0 21.26122226862614,48.71678199252374,0 19.13197806405164,48.57903633301455,0 19.04764682130156,48.05013630184206,0 18.91044315179261,47.30865432225288,0 18.89365671906606,47.2843033463522,0 
@@ -7782,7 +7782,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>416049.4698652626</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4120</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
 			<LineString>
 				<coordinates>
 					19.13204410982115,48.57912333221441,0 17.15211866797532,48.13930914330198,0 17.01917262475285,48.43848783045535,0 16.98022360801785,48.82497284655466,0 16.61041892993576,49.19780108536567,0 14.3247580989402,50.26037483035882,0 13.61237653056719,50.55898040725489,0 
@@ -7801,7 +7801,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>9210.575506064342</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4120</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
 			<LineString>
 				<coordinates>
 					14.53513269792746,45.21889665414806,0 14.44116927479243,45.32783869025283,0 16.37218449263825,45.48819008561012,0 16.98913806621053,46.06941856474209,0 17.05950749505125,46.19793017893215,0 18.89344451856273,47.28189983112755,0 
@@ -7820,7 +7820,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>12886.26166659873</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4120</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
 			<LineString>
 				<coordinates>
 					22.29005123521799,48.61767116092241,0 22.18488495632627,48.40598279950381,0 21.0384066107509,47.91272170555143,0 18.89818775180878,47.28624050771544,0 
@@ -7839,7 +7839,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>135552.9490196519</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
 			<LineString>
 				<coordinates>
 					32.49960800162238,-25.95937431606155,0 31.94044843041256,-25.45388269156171,0 30.9658917053511,-25.47056644272303,0 29.04486522022536,-26.05031795979596,0 29.15584442063949,-26.54838320055666,0 
@@ -7858,7 +7858,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>56667.48451243155</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
 			<LineString>
 				<coordinates>
 					37.85511059714604,44.70439708990956,0 39.73729883594243,45.6458886952411,0 43.53375679844635,44.7093247800702,0 48.0893279255278,46.38305507577343,0 51.86571577255853,47.19111996459998,0 53.40677921822671,46.15949522517931,0 
@@ -7884,7 +7884,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>18677.42480114568</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4120</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
 			<LineString>
 				<coordinates>
 					43.74906965403268,35.91722813772751,0 43.97011261459917,36.26161849000645,0 43.87505058118854,36.73273675766753,0 42.97508234516481,36.86081837989593,0 42.38166639082129,37.06737164631899,0 
@@ -7903,7 +7903,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>5832.583173390012</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4120</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
 			<LineString>
 				<coordinates>
 					49.47895908056742,40.19397207348265,0 47.14712328482333,40.61143453007453,0 46.35978091087933,40.69055924844518,0 45.12919889883766,41.37755172107329,0 44.81703479322612,41.71587945414381,0 43.39737074215103,41.83743430943995,0 42.75982501181274,41.54796570466853,0 43.09633406581796,40.60381228423965,0 41.24055449530074,39.90770014326324,0 39.49460103452531,39.7589376072257,0 37.00346419455616,39.76985625716755,0 35.45765603225085,38.75200882869947,0 35.38141258332312,37.01972442499936,0 35.98229425859964,36.91881977422849,0 
@@ -7922,7 +7922,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>75320.69187439978</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=490</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4900</styleUrl>
 			<LineString>
 				<coordinates>
 					44.32687766769802,35.52830776446496,0 43.49542794529953,35.00734139409213,0 42.36186393132665,34.0702185650199,0 44.08046924407459,32.37046985496429,0 44.48625366380889,30.88319538185899,0 47.66742819577102,30.449485045301,0 47.88766120465856,30.18069907419827,0 47.8935998513963,30.15922693330585,0 
@@ -7941,7 +7941,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>16877.12535258383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=417</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4171</styleUrl>
 			<LineString>
 				<coordinates>
 					4.137409820052738,51.94509293269365,0 4.282228515040885,51.87508908739839,0 6.17508815568244,51.37277578836751,0 7.05321813066935,51.53416003942817,0 6.974812076765177,50.83930619871892,0 
@@ -7960,7 +7960,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>840530.9162601829</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=47</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
 			<LineString>
 				<coordinates>
 					4.92557948620727,43.43825690609796,0 5.118449866937858,45.61475136882601,0 6.144605842394435,47.24561129173847,0 7.033156232720252,47.03991812889477,0 
@@ -7969,7 +7969,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark>
 			<name>Trans Mountain Pipeline</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=450</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7990,7 +7990,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>60827.07518829033</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=417</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4171</styleUrl>
 			<LineString>
 				<coordinates>
 					29.67384348728239,31.03842348580901,0 32.34013685664577,29.6632277127853,0 
@@ -8023,7 +8023,7 @@ Key Facts:
 • Main destination: Southern Germany, Austria, Czech Republic
 • Transported product: Crude Oil
 • Strategic role: Primary crude oil supply route for Central European refineries</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=450</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8034,7 +8034,7 @@ Key Facts:
 		<Placemark>
 			<name>Abu Dhabi Crude Oil Pipeline</name>
 			<description>The Abu Dhabi Crude Oil Pipeline, also known as the Habshan–Fujairah Pipeline or ADCOP, transports crude oil from the Habshan production and collection hub in Abu Dhabi to storage and offshore loading facilities at Fujairah on the Gulf of Oman. By reaching a port located outside the Persian Gulf, the pipeline allows UAE crude exports to bypass the Strait of Hormuz. The approximately 380-kilometre pipeline is operational and has a capacity of around 1.5–1.8 million barrels per day.</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8110,7 +8110,7 @@ Japan already owns minority stakes through:
 Mitsui &amp; Co.
 Mitsubishi Corporation
 So the US and G7 created a specific exemption allowing Japan to continue importing Sakhalin-related crude and LNG.</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=490</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4900</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8121,7 +8121,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		<Placemark>
 			<name>OK1 pipeline</name>
 			<description>646km</description>
-			<styleUrl>#stylemap_id00</styleUrl>
+			<styleUrl>#stylemap_id000</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8131,7 +8131,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Es Sider submarine sea-line: tank farm -&gt; offshore SBM</name>
-			<styleUrl>#stylemap_id23</styleUrl>
+			<styleUrl>#stylemap_id230</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8141,7 +8141,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Gialo-Waha pipeline</name>
-			<styleUrl>#stylemap_id0</styleUrl>
+			<styleUrl>#stylemap_id03</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8151,7 +8151,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Samah/Dahra-Es Sider pipeline</name>
-			<styleUrl>#stylemap_id01</styleUrl>
+			<styleUrl>#stylemap_id010</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8165,7 +8165,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		<Placemark id="ADDRRB00000000000001">
 			<name>Rostock–Böhlen product pipeline (RRB)</name>
 			<description><![CDATA[Classification: Refined products / petrochemical feedstock pipeline (Rohstoffpipeline Rostock–Böhlen, RRB)<br>Route: Rostock oil port (GÖR terminal) → Leuna → Dow Böhlen cracker complex, ~430 km, up to 16-inch; in service since 1997<br>Owner/Operator: Dow Olefinverbund (Dow Chemical)<br>Handles: Naphtha, pyrolysis gasoline and condensate; also approved for pentane, benzene, crude oil (Rostock to Leuna) and C3+ LPG<br>Connectivity: Feeds the Böhlen naphtha cracker (ethylene and propylene for the Schkopau and Leuna plants); part of Dow's ~1,300 km Central German pipeline network<br>Recent data: Dow has applied to extend the approved cargo list to bio-based and recycled feedstocks (HVO-type and plastic-waste-derived) — an energy-transition signal<br>Strategic role: The petrochemical twin of the Schwedt crude line — the second artery that makes Rostock the seaborne supply gateway for eastern Germany's refining and chemical industry<br>Risks: Single-line dependence for the Böhlen cracker's feedstock supply; cracker margin exposure]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4000</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8186,7 +8186,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 				<range>1612162.811618149</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4000</styleUrl>
 			<LineString>
 				<coordinates>
 					4.921680785015545,43.43801509487142,0 5.114046333517912,45.61251176374816,0 4.848414688104381,45.67329867238519,0 6.066010544628362,47.23885261393072,0 8.336974643112791,49.05161535405065,0 4.326103875413474,51.257664035781,0 
@@ -8206,7 +8206,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 				<range>6313.104130049469</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4110</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41100</styleUrl>
 			<LineString>
 				<coordinates>
 					0.161741819663912,49.46591572736156,0 0.2355659154056977,49.48538082349847,0 0.551879070832999,49.47601521049219,0 1.021912843999624,49.40774866164431,0 1.485673673829357,49.0926376897902,0 1.716009287104956,48.99004917845182,0 2.184800725864973,48.90114397102835,0 2.077315151283288,49.03583418104252,0 2.133626700165048,49.23454375113567,0 2.112985984074953,49.45884771404089,0 
@@ -8229,7 +8229,7 @@ Pricing: Usually valued at a discount to WTI and Brent because of its high densi
 Vessels: Aframax tanker from Westridge; larger onward cargoes may require transshipment
 Transit: Around 30–40 days to Rotterdam via the Pacific, Panama Canal, Atlantic, English Channel and Dover Strait
 Risks: Pipeline congestion, diluent costs, wildfires and operational outages in Alberta, Vancouver loading limits, Panama delays, long-distance freight and dense Channel traffic</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8260,7 +8260,7 @@ Risks: North Sea weather, Norpipe or terminal outages, loading delays and conges
 				<range>28671.90825181548</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
 			<LineString>
 				<coordinates>
 					2.911076805092712,56.76963028741567,0 -1.168152721554321,54.63734695072589,0 -0.3279124691368429,54.55358581764124,0 4.130196276137921,51.9493576412693,0 
@@ -8290,7 +8290,7 @@ Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading de
 				<range>40011.55875130557</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
 			<LineString>
 				<coordinates>
 					-3.356181009372454,56.0072756934243,0 -3.143069616519386,56.01630370323091,0 -2.501747590983237,56.15451260494337,0 4.130799410605411,51.94944354803467,0 
@@ -8320,7 +8320,7 @@ Risks: North Sea weather, pipeline or terminal outages, loading delays and conge
 				<range>43446.99073781725</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
 			<LineString>
 				<coordinates>
 					2.099170268198662,59.00078377370205,0 4.844711446108905,60.84283480123754,0 5.027039607707393,60.81667100163991,0 4.836817720843445,60.84157951314158,0 4.635550344100561,60.71376640080043,0 4.135001774504474,51.94943400494363,0 
@@ -8350,7 +8350,7 @@ Risks: Permian pipeline constraints, Gulf Coast hurricanes, terminal congestion,
 				<range>105387.8634237126</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
 			<LineString>
 				<coordinates>
 					-103.0058872149083,32.54796735929243,0 -94.99402018082355,29.48017704683931,0 -80.01848112766386,24.77716459815412,0 -51.29572388033871,45.01403269393709,0 -5.283560155080528,49.6212484646782,0 0.9590478230107591,50.76923381833073,0 4.134642877007093,51.94239082545266,0 
@@ -8373,7 +8373,7 @@ Strategic note: Cressier is owned and operated by VAROPreem Energy. SPSE officia
 Alternative route: Cargoes may continue by sea from Ceyhan through Gibraltar, around Spain and France, through the English Channel and onward to Rotterdam
 Transit: Approximately 5–7 days to Fos-sur-Mer; around 12–16 days to Rotterdam
 Risks: BTC pipeline outages, Ceyhan loading disruption, Turkish and Mediterranean geopolitical risk, Gibraltar and English Channel congestion, and possible crude-quality contamination</description>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8394,7 +8394,7 @@ Pricing: Usually trades at a variable differential to Dated Brent, depending on 
 Vessels: Typically Aframax or Suezmax tankers loaded through offshore single-point moorings
 Transit: Around 10–14 days to Rotterdam via the Bosporus, Dardanelles, Mediterranean, Gibraltar and English Channel
 Risks: Black Sea security, sanctions exposure, CPC pipeline or terminal outages, weather-related loading delays and congestion in the Turkish Straits</description>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8415,7 +8415,7 @@ Pricing: Usually assessed against Dubai/Oman or regional Asia-Pacific light-crud
 Vessels: Typically loaded on Aframax tankers at Prigorodnoye
 Transit: Around 4–7 days to northern Japan, depending on destination and weather
 Risks: Ice, severe winter weather, sanctions, payment restrictions and navigation constraints around Sakhalin and northern Japan</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8436,7 +8436,7 @@ Pricing: Monthly Saudi Aramco OSP; Northwest European cargoes are priced at a va
 Vessels: Usually VLCC from Saudi export terminals; Suezmax may be used depending on cargo size, routing and terminal restrictions.
 Transit: Around 25–35 days to Rotterdam via the Red Sea and Suez; longer if routed around the Cape of Good Hope.
 Risks: Strait of Hormuz disruption, Red Sea security, Bab el-Mandeb and Suez congestion, piracy, war-risk premiums and possible Cape rerouting.]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8456,7 +8456,7 @@ Pricing: Variable discount to Dated Brent
 Vessels: Ice-strengthened Aframax shuttle tanker, then Aframax/Suezmax to Rotterdam
 Transit: 9–12 days
 Risks: Icebergs, Atlantic storms, loading delays and Dover Strait congestion</description>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8476,7 +8476,7 @@ Pricing: Monthly Sonatrach OSP set as a variable differential to Dated Brent, fr
 Vessels: Usually Aframax; Suezmax for larger cargoes.
 Transit: Around 2 days / ~450 nm from Skikda to Fos-sur-Mer across the western Mediterranean; ~5–6 days to Rotterdam via the Strait of Gibraltar.
 Risks: Low — no major chokepoints; mainly Gulf of Lion mistral weather, port congestion and occasional Algerian loading or pipeline disruptions (Gibraltar transit only if routed to the Atlantic).</description>
-			<styleUrl>#stylemap_id02</styleUrl>
+			<styleUrl>#stylemap_id020</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8496,7 +8496,7 @@ Pricing: Monthly NOC/Waha OSP set as a variable differential to Dated Brent, wit
 Vessels: Usually Suezmax or Aframax, loaded offshore at the SBMs.
 Transit: Around 5–6 days / ~1,300–1,450 nm from Es Sider to Fos-sur-Mer via the Strait of Sicily; ~7–9 days to Rotterdam via the Strait of Gibraltar.
 Risks: Libyan political instability — field shutdowns, port blockades and force majeure at the Es Sider terminal, plus militia/security risk; Strait of Sicily traffic density en route.</description>
-			<styleUrl>#stylemap_id2</styleUrl>
+			<styleUrl>#stylemap_id25</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8516,7 +8516,7 @@ Pricing: Variable differential to Dated Brent, in line with West African officia
 Vessels: Suezmax to Europe; VLCC for the long-haul Asian trade — vessel size affects the discharge port, as a laden VLCC is draft-limited to the deepest terminals.
 Transit: Around 20–24 days / ~6,400–6,900 nm from Block 17 up the Atlantic around West Africa to Lysekil; longer to Asia via the Cape of Good Hope.
 Risks: Gulf of Guinea piracy and armed-robbery risk at the loading end; long Atlantic and North Sea weather exposure; VLCC draft limits at discharge. No Suez, Hormuz or Gibraltar transit.</description>
-			<styleUrl>#stylemap_id24</styleUrl>
+			<styleUrl>#stylemap_id240</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8537,7 +8537,7 @@ Pricing: Traded at a variable differential to Dated Brent; premium or discount d
 Vessels: Loaded offshore from the Dalia FPSO, typically on Suezmax or VLCC tankers; Suezmax is suitable for Rotterdam
 Transit: Approximately 17–21 days to Rotterdam
 Risks: Offshore-loading delays, Atlantic weather, piracy risk in the Gulf of Guinea, and congestion in the English Channel and Dover Strait</description>
-			<styleUrl>#stylemap_id22</styleUrl>
+			<styleUrl>#stylemap_id220</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8557,7 +8557,7 @@ Pricing: Variable differential to Dated Brent (the &quot;Latin Dated Brent&quot;
 Vessels: Usually Suezmax; some Aframax, loaded offshore via tandem transfer.
 Transit: Around 13–16 days / ~4,400–4,800 nm transatlantic from the Liza field to Lysekil via the English Channel (or north-about Scotland), North Sea and Skagerrak.
 Risks: North Atlantic and North Sea weather, Dover Strait/Channel traffic density and the Skagerrak approach; offshore-loading weather windows. No piracy or chokepoint exposure on the route.</description>
-			<styleUrl>#stylemap_id20</styleUrl>
+			<styleUrl>#stylemap_id200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8578,7 +8578,7 @@ Pricing: Usually priced at a premium or discount to Dated Brent; during the Marc
 Vessels: Typically loaded in standard cargoes of about 950,000 barrels, generally on Suezmax tankers
 Transit: Around 14–18 days from Bonny Terminal to Rotterdam
 Risks: Pipeline theft and sabotage, loading disruptions, Niger Delta security, Gulf of Guinea piracy, Atlantic weather and congestion in the English Channel</description>
-			<styleUrl>#stylemap_id21</styleUrl>
+			<styleUrl>#stylemap_id210</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8615,7 +8615,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>13651.86412865064</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=ef5350&amp;id=2000&amp;scale=40</styleUrl>
+			<styleUrl>#msn_icon?color=ef5350&amp;id=2000&amp;scale=400</styleUrl>
 			<Point>
 				<coordinates>29.15981090467059,-26.5512404127436,1588.166896837618</coordinates>
 			</Point>
@@ -8635,7 +8635,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>1559.343537544582</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>7.5964366,49.4398562,0</coordinates>
@@ -8653,7 +8653,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>16155.05371856183</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>8.559255799999999,50.0377252,0</coordinates>
@@ -8671,7 +8671,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>7689.862848302019</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.7401699,52.31278660000001,0</coordinates>
@@ -8688,7 +8688,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>1033.032044548523</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>2.112999806139586,49.45889362701349,0</coordinates>
@@ -8706,7 +8706,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>7932.079709198912</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.4859439,50.90024,0</coordinates>
@@ -8724,7 +8724,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>8504.22362764342</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>8.550859899999999,47.4617142,0</coordinates>
@@ -8741,7 +8741,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>28819.78486148693</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>5.21707365311721,43.43171227922502,0</coordinates>
@@ -8758,7 +8758,7 @@ Risks: Declining Mozambican gas availability, coal-supply constraints, very high
 				<range>17160.34693415708</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_airports</styleUrl>
+			<styleUrl>#msn_airports0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>2.570549718845594,49.00648307635816,0</coordinates>
@@ -8780,7 +8780,7 @@ Configuration: One CLP plus three SPMs; SPM1 and SPM2 load crude fed by submarin
 Role in the supply chain: This is the actual loading point — the place a tanker moors, connects floating hoses, and takes on Bonny Light. Because the water close to Bonny Island is too shallow for a laden tanker to come alongside, loading happens here, offshore, rather than at the tank farm itself. Same mechanism as the Es Sider terminal in Libya: onshore storage, offshore buoy loading.
 Typical vessel: Suezmax, some VLCC
 Source: findaport.com Port of Bonny Offshore Terminal navigational register (CLP/SPM coordinates); ShipNext/port registries for terminal configuration</description>
-			<styleUrl>#msn_marina</styleUrl>
+			<styleUrl>#msn_marina0</styleUrl>
 			<Point>
 				<coordinates>7.2367,4.1867,0</coordinates>
 			</Point>
@@ -8789,7 +8789,7 @@ Source: findaport.com Port of Bonny Offshore Terminal navigational register (CLP
 			<name>Es Sider SBM Offshore Loading Buoys</name>
 			<description>Role: The 2 offshore Single Buoy Moorings where tankers actually moor &amp; load Es Sider crude (~3 km offshore)
 Operator: Waha Oil Co / NOC</description>
-			<styleUrl>#msn_marina</styleUrl>
+			<styleUrl>#msn_marina0</styleUrl>
 			<Point>
 				<coordinates>18.356,30.688,0</coordinates>
 			</Point>
@@ -8799,7 +8799,7 @@ Operator: Waha Oil Co / NOC</description>
 			<description>Role: Offshore tanker loading point (80k-400k DWT); no pipeline to shore
 Operator: TotalEnergies
 Coordinate confidence: Representative</description>
-			<styleUrl>#msn_marina</styleUrl>
+			<styleUrl>#msn_marina0</styleUrl>
 			<Point>
 				<coordinates>11.68,-7.65,0</coordinates>
 			</Point>
