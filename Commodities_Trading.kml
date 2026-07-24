@@ -374,26 +374,6 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=41200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41500</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41500</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4171">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4201</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4301</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42">
 		<Pair>
 			<key>normal</key>
@@ -414,16 +394,6 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4900</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4300">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41400</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=41100</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=44000">
 		<Pair>
 			<key>normal</key>
@@ -442,46 +412,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=42000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4500">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4160</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=470">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=480</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4800">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4700</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4800</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4900">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4170</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4160</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=5d4037&amp;id=2000&amp;scale=4000">
@@ -989,22 +919,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4000">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=401">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1031,54 +945,6 @@
 		</IconStyle>
 		<LineStyle>
 			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41100">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=41500">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4160">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
@@ -1133,22 +999,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4301">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4400">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1181,38 +1031,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=470">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4800">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6222457</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4900">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1222,7 +1040,7 @@
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>e60fdff1</color>
+			<color>e603efff</color>
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
@@ -1917,97 +1735,7 @@
 			<scale>0</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41400">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41500">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4160">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4170">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4201">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
+			<color>e603efff</color>
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
@@ -2064,42 +1792,6 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>e618a8fb</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4700">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6222457</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=480">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
@@ -2380,45 +2072,15 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style00">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="style100">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style110">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="style111">
 		<LineStyle>
 			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style120">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style130">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style140">
-		<LineStyle>
-			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
@@ -2458,33 +2120,9 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style210">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style220">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style23">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="style24">
 		<LineStyle>
 			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style30">
-		<LineStyle>
-			<color>e60fdff1</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
@@ -2500,50 +2138,12 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="style60">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style70">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style80">
-		<LineStyle>
-			<color>e60fdff1</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="style90">
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="stylemap_id000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style23</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style210</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id010">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style70</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style120</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="stylemap_id020">
 		<Pair>
 			<key>normal</key>
@@ -2552,16 +2152,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#style40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id03">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style140</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style220</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="stylemap_id200">
@@ -2594,16 +2184,6 @@
 			<styleUrl>#style160</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id230">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style80</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style130</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="stylemap_id240">
 		<Pair>
 			<key>normal</key>
@@ -2622,26 +2202,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#style111</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id30">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style60</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style30</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder>
@@ -7651,7 +7211,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDMVL00000000000001">
 			<name>Rostock–Schwedt Pipeline (MVL)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — Baltic import route (Mineralölverbundleitung, MVL)<br>Route: Rostock oil port (Baltic Sea) → PCK Schwedt refinery, ~200 km<br>Owner/Operator: PCK Raffinerie GmbH<br>Capacity: Limited — historically able to load the refinery at roughly half its nameplate; a ~€400 million upgrade has been pursued to raise throughput<br>Status: Operational — became Schwedt's lifeline after Germany ended Russian pipeline crude imports in January 2023<br>Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades; seaborne barrels landed at Rostock reach the Berlin fuel market through this line<br>Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7662,7 +7222,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDFPS00000000000001">
 			<name>Forties Pipeline System (FPS)</name>
 			<description><![CDATA[Classification: Integrated crude oil and NGL transport system<br>Route: Forties Unity platform (central North Sea) → Cruden Bay landfall (169 km offshore) → Kinneil, Grangemouth (209 km onshore) → Dalmeny tank farm → Hound Point export jetty<br>Owner/Operator: INEOS (acquired from BP in 2017)<br>Capacity: Nominal ~575,000–610,000 b/d; carries liquids from ~85 UK and Norwegian fields — roughly 40% of UK North Sea oil<br>Main products: Stabilised Forties Blend crude delivered at Hound Point (a Dated Brent benchmark grade); gas liquids to Grangemouth<br>Strategic role: The upstream leg of the Forties chain on this map — wellhead to Hound Point loading to Rotterdam; a single-system chokepoint for a large share of UK production<br>Risks: Single-system concentration — outages at Kinneil or on the main line ripple directly into the Dated Brent benchmark; ageing infrastructure; declining North Sea throughput]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7673,7 +7233,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDIKL00000000000001">
 			<name>IKL pipeline (Ingolstadt–Kralupy–Litvínov) — TAL extension</name>
 			<description><![CDATA[Classification: Crude oil pipeline — continuation of the TAL system (IKL: Ingolstadt–Kralupy–Litvínov)<br>Route: Vohburg/Ingolstadt (junction with TAL) → Czech border → Nelahozeves central tank farm near Kralupy, supplying the Kralupy and Litvínov refineries; 347 km<br>Owner/Operator: MERO ČR (Czech state pipeline company)<br>Capacity: ~200,000 b/d usable for the Czech Republic (~10 Mt/y design)<br>Status: Operational — since the TAL-PLUS expansion went live in 2025, TAL + IKL can deliver up to 8 Mt/y, covering the entire Czech crude demand<br>Recent data: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour<br>Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region<br>Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7683,7 +7243,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>Trans Niger Pipeline (TNP): Bomu -&gt; Rumuekpe -&gt; Bonny (SPDC, since 1965, 180,000 bpd)</name>
-			<styleUrl>#stylemap_id30</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7693,7 +7253,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>Nembe Creek Trunk Line (NCTL): Nembe -&gt; Cawthorne Channel -&gt; Bonny (Aiteo, 97 km, up to 600,000 bpd)</name>
-			<styleUrl>#stylemap_id40</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7714,7 +7274,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>15074.4970188383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4800</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					44.33474759149754,35.5451810771893,0 43.4951408465128,35.00766179438595,0 43.08336590020788,36.35289993742235,0 42.37788406566046,37.06792066428955,0 42.52903547315096,37.2605205344187,0 42.45091368584317,37.52174867323686,0 41.36011134968219,37.42137113676481,0 41.12813651200533,37.89901738957821,0 40.18919207412354,37.94404964904086,0 36.49308784070777,37.44036959456425,0 35.92646971526913,36.89016245838856,0 
@@ -7723,7 +7283,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>East–West Crude Oil Pipeline - Petroline</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4300</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7782,7 +7342,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>416049.4698652626</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					19.13204410982115,48.57912333221441,0 17.15211866797532,48.13930914330198,0 17.01917262475285,48.43848783045535,0 16.98022360801785,48.82497284655466,0 16.61041892993576,49.19780108536567,0 14.3247580989402,50.26037483035882,0 13.61237653056719,50.55898040725489,0 
@@ -7801,7 +7361,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>9210.575506064342</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					14.53513269792746,45.21889665414806,0 14.44116927479243,45.32783869025283,0 16.37218449263825,45.48819008561012,0 16.98913806621053,46.06941856474209,0 17.05950749505125,46.19793017893215,0 18.89344451856273,47.28189983112755,0 
@@ -7820,7 +7380,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>12886.26166659873</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					22.29005123521799,48.61767116092241,0 22.18488495632627,48.40598279950381,0 21.0384066107509,47.91272170555143,0 18.89818775180878,47.28624050771544,0 
@@ -7839,7 +7399,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>135552.9490196519</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					32.49960800162238,-25.95937431606155,0 31.94044843041256,-25.45388269156171,0 30.9658917053511,-25.47056644272303,0 29.04486522022536,-26.05031795979596,0 29.15584442063949,-26.54838320055666,0 
@@ -7858,7 +7418,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>56667.48451243155</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					37.85511059714604,44.70439708990956,0 39.73729883594243,45.6458886952411,0 43.53375679844635,44.7093247800702,0 48.0893279255278,46.38305507577343,0 51.86571577255853,47.19111996459998,0 53.40677921822671,46.15949522517931,0 
@@ -7884,7 +7444,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>18677.42480114568</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					43.74906965403268,35.91722813772751,0 43.97011261459917,36.26161849000645,0 43.87505058118854,36.73273675766753,0 42.97508234516481,36.86081837989593,0 42.38166639082129,37.06737164631899,0 
@@ -7903,7 +7463,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>5832.583173390012</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					49.47895908056742,40.19397207348265,0 47.14712328482333,40.61143453007453,0 46.35978091087933,40.69055924844518,0 45.12919889883766,41.37755172107329,0 44.81703479322612,41.71587945414381,0 43.39737074215103,41.83743430943995,0 42.75982501181274,41.54796570466853,0 43.09633406581796,40.60381228423965,0 41.24055449530074,39.90770014326324,0 39.49460103452531,39.7589376072257,0 37.00346419455616,39.76985625716755,0 35.45765603225085,38.75200882869947,0 35.38141258332312,37.01972442499936,0 35.98229425859964,36.91881977422849,0 
@@ -7922,7 +7482,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>75320.69187439978</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4900</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					44.32687766769802,35.52830776446496,0 43.49542794529953,35.00734139409213,0 42.36186393132665,34.0702185650199,0 44.08046924407459,32.37046985496429,0 44.48625366380889,30.88319538185899,0 47.66742819577102,30.449485045301,0 47.88766120465856,30.18069907419827,0 47.8935998513963,30.15922693330585,0 
@@ -7941,7 +7501,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>16877.12535258383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4171</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					4.137409820052738,51.94509293269365,0 4.282228515040885,51.87508908739839,0 6.17508815568244,51.37277578836751,0 7.05321813066935,51.53416003942817,0 6.974812076765177,50.83930619871892,0 
@@ -7960,7 +7520,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>840530.9162601829</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=470</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					4.92557948620727,43.43825690609796,0 5.118449866937858,45.61475136882601,0 6.144605842394435,47.24561129173847,0 7.033156232720252,47.03991812889477,0 
@@ -7969,7 +7529,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark>
 			<name>Trans Mountain Pipeline</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7990,7 +7550,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>60827.07518829033</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4171</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<coordinates>
 					29.67384348728239,31.03842348580901,0 32.34013685664577,29.6632277127853,0 
@@ -8023,7 +7583,7 @@ Key Facts:
 • Main destination: Southern Germany, Austria, Czech Republic
 • Transported product: Crude Oil
 • Strategic role: Primary crude oil supply route for Central European refineries</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4500</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8110,7 +7670,7 @@ Japan already owns minority stakes through:
 Mitsui &amp; Co.
 Mitsubishi Corporation
 So the US and G7 created a specific exemption allowing Japan to continue importing Sakhalin-related crude and LNG.</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4900</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8121,7 +7681,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		<Placemark>
 			<name>OK1 pipeline</name>
 			<description>646km</description>
-			<styleUrl>#stylemap_id000</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8131,7 +7691,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Es Sider submarine sea-line: tank farm -&gt; offshore SBM</name>
-			<styleUrl>#stylemap_id230</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8141,7 +7701,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Gialo-Waha pipeline</name>
-			<styleUrl>#stylemap_id03</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -8151,7 +7711,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Samah/Dahra-Es Sider pipeline</name>
-			<styleUrl>#stylemap_id010</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
