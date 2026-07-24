@@ -192,6 +192,8 @@ DESCRIPTION_LABELS = [
     "Connectivity",
     "Connected to",
     "Recent data",
+    "Recent news",
+    "Strategic value",
     "Main markets",
     "Export role",
     "Marine role",

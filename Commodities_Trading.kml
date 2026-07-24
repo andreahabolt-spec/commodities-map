@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1deeDrvBnSFPUaa_ase6UOkNRfq9IY-jB">
 	<name>Commodities Trading</name>
+	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
 	<Schema name="__managed_schema" id="__managed_schema0">
 		<SimpleField type="int" name="09149BB14C3FE5E87566">
@@ -576,7 +577,7 @@
 	<StyleMap id="msn_volcano0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano00</styleUrl>
+			<styleUrl>#sn_volcano0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -601,16 +602,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_volcano0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_volcano21">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_volcano0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_volcano00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano20">
@@ -1372,22 +1363,6 @@
 		</ListStyle>
 	</Style>
 	<Style id="sh_volcano">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_volcano00">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -2311,25 +2286,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_volcano00">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>4</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sn_volcano1">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -2690,7 +2646,6 @@
 	</StyleMap>
 	<Folder>
 		<name>Mega-refineries</name>
-		<open>1</open>
 		<Placemark id="ADDPCK00000000000001">
 			<name>PCK Schwedt Refinery</name>
 			<description><![CDATA[Refinery: PCK Raffinerie Schwedt<br>Classification: Major inland refinery — critical German supply infrastructure<br>Location: Schwedt/Oder, Brandenburg, Germany, near the Polish border<br>Owner: Rosneft ~54% effective (via Rosneft Deutschland and the AET holding — under German federal trusteeship through the Federal Network Agency since September 2022; permanent state control cleared by the European Commission in 2026), Shell ~37.5%, Eni ~8%<br>Capacity: ~11.6 million tonnes per year (~230,000 b/d nameplate); running at reduced utilisation since the loss of Russian pipeline crude<br>Main feedstocks: Historically Russian Urals via the Druzhba pipeline (ended January 2023); since then seaborne crude via the Rostock–Schwedt pipeline and Gdansk, plus Kazakh crude transiting Druzhba — halted by Russia from May 2026<br>Main products: Gasoline, diesel, jet fuel, heating oil, bitumen<br>Markets: Supplies roughly 90% of fuels for Berlin and Brandenburg, including Berlin airport (BER)<br>Recent data: Russia announced the halt of Kazakh transit deliveries from May 2026; Germany secured a US sanctions exemption for the site; a ~€400 million upgrade of the Rostock supply route has been pursued to raise seaborne capacity<br>Strategic role: The centrepiece of Germany's post-2022 crude rerouting — the refinery that turned the Druzhba cutoff into a live logistics problem<br>Risks: Structural dependence on the small Rostock pipeline; ownership limbo (sanctioned majority shareholder under trusteeship); feedstock diversification costs; utilisation and margin pressure]]></description>
@@ -2866,7 +2821,7 @@ Risks: Drone attacks, unit damage, sanctions, Baltic export disruption, pipeline
 				<range>12236.68886283296</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano21</styleUrl>
+			<styleUrl>#msn_volcano2</styleUrl>
 			<Point>
 				<coordinates>32.05590868165775,59.48546610128013,29.77185591988754</coordinates>
 			</Point>
@@ -4604,6 +4559,22 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 	</Folder>
 	<Folder>
 		<name>Major Oil Storage &amp; Distribution Terminals</name>
+		<Placemark id="ADDEILT000000000001">
+			<name>EAPC Eilat Oil Terminal</name>
+			<description><![CDATA[Terminal: EAPC Eilat Oil Terminal<br>Classification: Red Sea crude terminal — southern gate of the Trans-Israel pipeline<br>Location: Gulf of Aqaba, south of Eilat, Israel<br>Owner/Operator: Europe Asia Pipeline Company (Israeli state-owned)<br>Infrastructure: Oil jetty within the Eilat port area and a tank farm; storage up to ~1.4 million m³<br>Berths / vessel size: Tankers up to ~350,000 dwt (VLCC-capable)<br>Strategic role: Entry/exit point letting Gulf-origin crude reach the Mediterranean without transiting Suez — and vice versa for reverse flows to Asia<br>Recent data: Activity constrained by the Environment Ministry's 'Zero Additional Risk' policy (Nov 2021) protecting the Gulf's coral reefs, which froze the UAE Red-Med ramp-up; the Red Sea shipping crisis since late 2023 further curtailed calls<br>Risks: A single spill next to a fragile coral ecosystem would be a national disaster — EAPC already caused the 2014 Arava spill and a 2016 coral-damage case; Bab el-Mandeb security; regulatory cap on growth]]></description>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<coordinates>34.94,29.523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ADDASHK000000000001">
+			<name>EAPC Ashkelon Oil Terminal &amp; Tank Farm</name>
+			<description><![CDATA[Terminal: EAPC Ashkelon Oil Terminal &amp; Tank Farm<br>Classification: Mediterranean crude terminal — northern gate of the Trans-Israel pipeline and Israel's main crude import point<br>Location: Ashkelon coast, ~10 km north of the Gaza Strip, Israel<br>Owner/Operator: Europe Asia Pipeline Company<br>Infrastructure: Offshore moorings and a large tank farm — crude storage up to ~2.3 million m³ plus ~410,000 m³ of refined products across two product terminals; pipeline connections onward to the Ashdod and Haifa refineries<br>Berths / vessel size: Tankers up to ~250,000 dwt<br>Crude flows: Seaborne imports (Azeri BTC and Kazakh CPC grades prominent among them) feeding Israel's two refineries; potential reverse flows toward Eilat<br>Strategic role: The hinge between seaborne crude supply and Israel's refining system<br>Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and precautionary measures followed October 2023; war-risk insurance costs; single-point concentration of Israeli crude imports]]></description>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<coordinates>34.543,31.642,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="ADDGOR00000000000001">
 			<name>Rostock Oil Harbour &amp; GÖR Tank Farm (Euroports)</name>
 			<description><![CDATA[Terminal: Rostock Oil Harbour &amp; GÖR Tank Farm (Großtanklager-Ölhafen Rostock)<br>Classification: Baltic crude and products import terminal — head of the Rostock–Schwedt pipeline (MVL)<br>Location: Peez, Port of Rostock, Mecklenburg-Vorpommern, Germany<br>Owner/Operator: Großtanklager-Ölhafen Rostock GmbH (GÖR), subsidiary of Euroports Germany — sole owner since acquiring Total Deutschland's stake in the former joint venture; GÖR also operates the on-site tanks of PCK Raffinerie Schwedt and Dow Olefinverbund Böhlen; PCK owns its own crude tank farm and a dedicated pier<br>Infrastructure: Six tanker berths for vessels up to 100,000 tonnes, discharge capacity up to 6,000 tonnes per hour; ~700,000 m³ of storage; rail loading (7 tracks), automated truck loading; on-site biodiesel plant (~200,000 t/y)<br>Handles: Crude oil, mineral oil products, heavy fuel oil, VGO, biodiesel, HVO, methanol, ethanol, vegetable oils<br>Connectivity: Crude pipeline to the PCK Schwedt refinery (MVL, ~200 km) and product pipeline to Böhlen (Dow); rail and road distribution across eastern Germany<br>Recent data: Around 6 million tonnes of crude per year pumped from tankers into the Schwedt pipeline since Germany ended Russian pipeline imports — securing fuel supply for eastern Germany and Berlin<br>Strategic role: The seaborne entry point that replaced Druzhba for the Schwedt refinery; the first link of the chain tanker → GÖR → MVL → Schwedt → Berlin fuel market<br>Risks: Berth size limit (~100,000 t — Aframax scale, no larger); throughput bottleneck relative to Schwedt's nameplate capacity; Baltic weather and single-corridor dependence]]></description>
@@ -5563,6 +5534,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 		</Placemark>
 		<Placemark id="09F771CFD83F3A0A2DFF">
 			<name>Aqaba storage</name>
+			<description><![CDATA[Terminal: Aqaba oil terminal &amp; storage<br>Classification: Jordan's sole maritime energy gateway<br>Location: Gulf of Aqaba, south of Aqaba city, Jordan<br>Owner/Operator: Jordanian state port entities (Aqaba Development Corporation area); serves national fuel imports<br>Handles: Crude and refined-product imports for the Jordanian market, LPG, and LNG via a floating import terminal berth<br>Connectivity: Crude and products move onward largely by road toward the Zarqa refinery region and inland demand centres<br>Strategic role: Virtually all of Jordan's hydrocarbon imports enter through this short stretch of coast — the country's single energy artery<br>Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance costs spiked during the Red Sea crisis); single-gateway dependence; limited storage depth]]></description>
 			<LookAt>
 				<longitude>34.9696079145146</longitude>
 				<latitude>29.38012319358461</latitude>
@@ -5973,6 +5945,14 @@ Source: NUPRC crude oil terminal operations register; port-registry coordinate c
 	</Folder>
 	<Folder>
 		<name>Ports &amp; Maritime Logistics Hubs</name>
+		<Placemark id="ADDEPRT000000000001">
+			<name>Port of Eilat</name>
+			<description><![CDATA[Hub: Port of Eilat<br>Classification: Israel's only Red Sea commercial port<br>Location: Head of the Gulf of Aqaba, Eilat, Israel<br>Owner/Operator: Privatised in 2013 — operated under concession (Papo Maritime); the EAPC oil jetty sits within the port area<br>Main activities: Vehicle imports from Asia, potash and mineral exports, general cargo — Israel's only maritime gateway that avoids both the Mediterranean and the Suez Canal<br>Recent data: The Houthi campaign against Red Sea shipping from late 2023 collapsed traffic (revenues down on the order of 85–90%), pushing the port into insolvency proceedings in 2024; activity has remained far below pre-war levels since<br>Strategic role: A live case study of chokepoint economics — the port's paralysis is the direct cost of Bab el-Mandeb insecurity, visible on one map with the strait itself<br>Risks: Chokepoint dependence (Bab el-Mandeb); financial fragility; competition from Jordan's Aqaba next door]]></description>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<Point>
+				<coordinates>34.947,29.533,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="0D87D3F4054051EE7A6E">
 			<name>Port of Fujairah – Oil Trading, Storage &amp; Bunkering Hub</name>
 			<description>Hub: Port of Fujairah – Oil Trading, Storage &amp; Bunkering Hub
@@ -7646,6 +7626,17 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 	</Folder>
 	<Folder>
 		<name>Pipelines crude</name>
+		<Placemark id="ADDEAPC000000000001">
+			<name>Eilat–Ashkelon Pipeline (EAPC, Trans-Israel)</name>
+			<description><![CDATA[Classification: Crude oil pipeline — reversible Red Sea ↔ Mediterranean land bridge (Trans-Israel / EAPC line)<br>Route: Eilat oil port (Gulf of Aqaba) → Arava valley → Negev → Ashkelon oil port (Mediterranean); 254 km, 42-inch — the backbone of a ~747 km EAPC network that also feeds the Haifa and Ashdod refineries<br>Owner/Operator: Europe Asia Pipeline Company (EAPC) — Israeli state-owned; operations historically under strict confidentiality dating from the company's origins<br>Capacity: ~30 million tonnes/year of crude; cited at ~400,000 b/d northbound and up to ~1.2 million b/d in reverse flow (reverse project completed 2003)<br>Operating history: Built 1968 as a covert 50/50 Israeli–Iranian venture (via Liechtenstein shell companies) to move Iranian crude to Europe bypassing Suez; the partnership collapsed with the 1979 revolution and international arbitration later ruled in Iran's favour for over a billion dollars — never paid; the 49-year concession expired in 2017 and activities passed to the renamed Europe Asia Pipeline Company<br>Recent data: The 2020 MED-RED Land Bridge MOU with UAE interests (post-Abraham Accords) was frozen by Israel's Environment Ministry — a 'Zero Additional Risk' policy for the Gulf of Eilat (Nov 2021) blocks any increase in tanker calls; a January 2025 State Comptroller report flagged the company's challenges at Eilat; EAPC is diversifying, including a 260 km fibre-optic corridor along the pipeline<br>Strategic role: The only Suez-bypass land bridge under a single state's control, connecting Red Sea and Mediterranean tanker markets in both directions<br>Risks: War exposure at both ends (rocket range of Gaza at Ashkelon, Red Sea shipping crisis at Eilat); environmental veto on expansion — the 2014 Arava spill from this line remains one of Israel's worst ecological disasters; opacity of actual flows]]></description>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					34.94,29.523,0 35.03,29.95,0 35.14,30.4,0 35.22,30.75,0 35.05,30.95,0 34.8,31.2,0 34.63,31.45,0 34.543,31.642,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
 		<Placemark id="ADDBPS00000000000001">
 			<name>Baltic Pipeline System (BPS-1)</name>
 			<description><![CDATA[Classification: Crude oil pipeline system — Russia's Baltic export artery (BPS-1)<br>Route: Timan-Pechora / West Siberia / Urals-Volga networks → Yaroslavl → Kirishi (KINEF refinery) → Primorsk oil terminal, Gulf of Finland<br>Owner/Operator: Transneft<br>Capacity: Up to ~75 million tonnes per year (~1.5 million b/d system capacity); Primorsk loads ~1 million b/d of Urals crude plus ~300,000 b/d of diesel; commissioned December 2001<br>Crude: Urals — Russia's flagship export grade, since 2022 shipped largely via the sanctions-era 'shadow fleet' under the G7 price-cap regime<br>Status: Operational but repeatedly disrupted — Ukrainian long-range drones forced the first loading suspension at Primorsk in September 2025, with renewed strikes in March and May 2026 halting exports again; at the peak, roughly 40% of Russia's oil export capacity was assessed offline<br>Strategic role: Built to bypass the Baltic transit states and concentrate exports at a Russian-controlled port; the single most important outlet for seaborne Urals<br>Risks: Primary target of the Ukrainian deep-strike campaign on energy infrastructure; sanctions and price-cap enforcement; winter ice navigation in the Gulf of Finland; single-corridor concentration]]></description>
