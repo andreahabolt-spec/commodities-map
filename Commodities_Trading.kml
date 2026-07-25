@@ -394,10 +394,20 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4200">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42001">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=49001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=412000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -407,7 +417,7 @@
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=412000</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4120000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -438,6 +448,16 @@
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_icon?color=5d4037&amp;id=2000&amp;scale=4100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=5d4037&amp;id=2000&amp;scale=41000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=5d4037&amp;id=2000&amp;scale=40000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=5d4037&amp;id=2000&amp;scale=41000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -474,16 +494,6 @@
 			<styleUrl>#sh_ranger_station0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_red-circle">
 		<Pair>
 			<key>normal</key>
@@ -492,6 +502,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_red-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle00">
@@ -906,10 +926,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_ferry00">
 		<IconStyle>
@@ -1087,6 +1103,22 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=49001">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e603efff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4900">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1114,6 +1146,22 @@
 		<LineStyle>
 			<color>e603efff</color>
 			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=41000">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>40ffffff</color>
@@ -1195,8 +1243,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -1214,8 +1260,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -1701,10 +1745,6 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_ferry00">
 		<IconStyle>
@@ -1886,6 +1926,24 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4120000">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>e603efff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=43000">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1961,6 +2019,25 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_icon?color=5d4037&amp;id=2000&amp;scale=41000">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_icon?color=ef5350&amp;id=2000&amp;scale=400">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2016,25 +2093,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_red-circle0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_red-circle">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2046,8 +2104,23 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -2391,7 +2464,7 @@
 		<Placemark id="ADDPCK00000000000001">
 			<name>PCK Schwedt Refinery</name>
 			<description><![CDATA[Refinery: PCK Raffinerie Schwedt<br>Classification: Major inland refinery — critical German supply infrastructure<br>Location: Schwedt/Oder, Brandenburg, Germany, near the Polish border<br>Owner: Rosneft ~54% effective (via Rosneft Deutschland and the AET holding — under German federal trusteeship through the Federal Network Agency since September 2022; permanent state control cleared by the European Commission in 2026), Shell ~37.5%, Eni ~8%<br>Capacity: ~11.6 million tonnes per year (~230,000 b/d nameplate); running at reduced utilisation since the loss of Russian pipeline crude<br>Main feedstocks: Historically Russian Urals via the Druzhba pipeline (ended January 2023); since then seaborne crude via the Rostock–Schwedt pipeline and Gdansk, plus Kazakh crude transiting Druzhba — halted by Russia from May 2026<br>Main products: Gasoline, diesel, jet fuel, heating oil, bitumen<br>Markets: Supplies roughly 90% of fuels for Berlin and Brandenburg, including Berlin airport (BER)<br>Recent data: Russia announced the halt of Kazakh transit deliveries from May 2026; Germany secured a US sanctions exemption for the site; a ~€400 million upgrade of the Rostock supply route has been pursued to raise seaborne capacity<br>Strategic role: The centrepiece of Germany's post-2022 crude rerouting — the refinery that turned the Druzhba cutoff into a live logistics problem<br>Risks: Structural dependence on the small Rostock pipeline; ownership limbo (sanctioned majority shareholder under trusteeship); feedstock diversification costs; utilisation and margin pressure]]></description>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>14.2365,53.0745,0</coordinates>
 			</Point>
@@ -2618,7 +2691,7 @@ Risks: Crude-supply constraints, unit outages, logistics bottlenecks, regulatory
 				<range>5524.058916901122</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>4.01895141048376,6.455546218835619,16.41382754321085</coordinates>
 			</Point>
@@ -2645,7 +2718,7 @@ Risks: Dependence on imported crude, Atlantic weather, refinery outages, U.S.–
 				<range>6423.506431494476</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-66.01049418254463,45.28217110784749,0</coordinates>
@@ -2673,7 +2746,7 @@ Risks: Gulf Coast hurricanes, flooding, refinery outages, pipeline or marine-log
 				<range>1000.000000000311</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-94.07299999999998,30.067,0</coordinates>
@@ -2701,7 +2774,7 @@ Risks: Gulf Coast hurricanes, Mississippi River logistics disruption, refinery o
 				<range>8956.616388362769</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-90.59575235303197,30.05976522535071,0</coordinates>
@@ -2730,7 +2803,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Asian shipping disrupt
 				<range>13283.53273852548</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>126.3655634051624,37.00010505273524,0</coordinates>
@@ -2758,7 +2831,7 @@ Risks: Heavy dependence on imported crude, Strait of Hormuz disruptions, typhoon
 				<range>12101.46074460528</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>120.1928759574278,23.79623271130031,0</coordinates>
@@ -2786,7 +2859,7 @@ Risks: Strait of Hormuz disruption, drone or missile attacks, regional conflict,
 				<range>11857.98789791042</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>50.09664256528943,26.69494080188317,0</coordinates>
@@ -2815,7 +2888,7 @@ Risks: Strait of Hormuz closure, drone or missile attacks, regional conflict, ma
 				<range>21699.63097092463</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>52.71984146568987,24.13048759325198,15.71163098468269</coordinates>
 			</Point>
@@ -2843,7 +2916,7 @@ Risks: Gulf Coast hurricanes, flooding, industrial outages, marine and pipeline 
 				<range>10164.76723353728</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>-93.96036743564372,29.87960021734543,1.593709217031947</coordinates>
 			</Point>
@@ -2871,7 +2944,7 @@ Risks: Gulf Coast hurricanes, flooding, fires and unit outages, labor disruption
 				<range>19076.807843016</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>-94.91822445037437,29.3740854621725,6.977861871635184</coordinates>
 			</Point>
@@ -2899,7 +2972,7 @@ Risks: Strait of Hormuz disruption, regional conflict, unit outages, heavy-crude
 				<range>26897.64781631995</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>48.33404623647145,28.71461908901462,5.571952574035597</coordinates>
 			</Point>
@@ -2927,7 +3000,7 @@ Risks: Dependence on imported crude, Strait of Malacca congestion, South China S
 				<range>7031.367921485798</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>103.7066291049394,1.28024302186643,6.231730153402672</coordinates>
 			</Point>
@@ -2956,7 +3029,7 @@ Risks: Dependence on imported crude, Strait of Hormuz disruption, sanctions and 
 				<range>11174.15131481364</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>69.8121815144945,22.34354721421086,65.70027103610086</coordinates>
 			</Point>
@@ -2984,7 +3057,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Malacca disruptions, r
 				<range>11037.38716156106</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>129.3374113962711,35.4938004454673,21.70874728906801</coordinates>
 			</Point>
@@ -3012,7 +3085,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Malacca disruptions, r
 				<range>19544.71944394056</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>127.7171367410682,34.88195143771404,30.7218130058324</coordinates>
 			</Point>
@@ -3040,7 +3113,7 @@ Risks: Dependence on imported Middle Eastern crude, Strait of Hormuz disruption,
 				<range>7897.530755748739</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>129.3485984299735,35.43280280980805,13.98351357031621</coordinates>
 			</Point>
@@ -3068,7 +3141,7 @@ Risks: Dependence on imported Middle Eastern crude, Strait of Hormuz disruption,
 				<range>11617.66376418178</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>-95.01330897614595,29.74959010799134,7.009113872390471</coordinates>
 			</Point>
@@ -3096,7 +3169,7 @@ Risks: Dependence on imported crude, Strait of Hormuz and Malacca disruptions, N
 				<range>18863.75638296828</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="1EA10E865E3F337D9842">0</SimpleData>
@@ -3131,7 +3204,7 @@ Risks: Permanent closure or delayed restart, regulatory uncertainty, sanctions a
 				<range>5640.814312178409</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="15A5AC85B23F337E4686">0</SimpleData>
@@ -3165,7 +3238,7 @@ Risks: European refining-margin pressure, high energy and carbon costs, Rhine lo
 				<range>40781.24195421115</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=4000</styleUrl>
+			<styleUrl>#msn_icon?color=5d4037&amp;id=2000&amp;scale=40000</styleUrl>
 			<Point>
 				<coordinates>6.975424289879701,50.84259863180696,56.05817580335501</coordinates>
 			</Point>
@@ -3175,14 +3248,14 @@ Risks: European refining-margin pressure, high energy and carbon costs, Rhine lo
 			<description>Refinery: Bayernoil Refinery – Neustadt/Vohburg
 Classification: Large refinery — not a mega-refinery
 Location: Neustadt an der Donau and Vohburg, Bavaria, Germany
-Owner: Joint venture; majority-owned by VARO Energy, with additional stakes held by Eni and Rosneft Deutschland under German trusteeship arrangements
+Owner: Joint venture;VAROPreem 51.43% (majority shareholder and operator-side lead; VARO also acquired BP&apos;s polymer-modified bitumen plant at Vohburg and BP&apos;s 9% stake in the TAL pipeline in the same deal), Rosneft Deutschland 28.57% (under German federal trusteeship via the Federal Network Agency since September 2022), Eni 20%
 Capacity: Up to 10 million tonnes per year, equivalent to roughly 200,000–210,000 b/d for the two-site refinery system
 Main feedstocks: Imported crude delivered through the Transalpine Pipeline system and regional pipeline connections
 Main products: Gasoline, diesel, heating oil, jet fuel components, LPG and bitumen
-Markets: Bavaria and northern Austria, including regional road-fuel, aviation and industrial demand
-Recent data: A major fire occurred at the Neustadt site in January 2025, injuring two people and temporarily disrupting operations; the company’s 2025 environmental report confirms continued operation of the two-site complex
+Markets: Supplies roughly half of Bavaria&apos;s fuel demand plus northern Austria; jet fuel to Munich airport
+Recent data: Explosion and fire at Vohburg site in 2018 (ten injured), activity restarted in 2020 + Fire occurred at the Neustadt site in January 2025 (2 injured) and temporarily disrupting operations; the company’s 2025 environmental report confirms continued operation of the two-site complex
 Strategic role: Bavaria’s largest refining company and an important inland fuel supplier for southern Germany and Austria
-Risks: Pipeline-supply disruption, industrial fires and unit outages, high European energy and carbon costs, declining regional fuel demand and Rhine/Alpine logistics constraints</description>
+Risks: Pipeline-supply disruption (full dependance on Trieste/TAL), industrial fires and unit outages, high European energy and carbon costs, declining regional fuel demand and Rhine/Alpine logistics constraints</description>
 			<LookAt>
 				<longitude>11.7617685</longitude>
 				<latitude>48.7842741</latitude>
@@ -7412,7 +7485,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDBPS00000000000001">
 			<name>Baltic Pipeline System (BPS-1)</name>
 			<description><![CDATA[Classification: Crude oil pipeline system — Russia's Baltic export artery (BPS-1)<br>Route: Timan-Pechora / West Siberia / Urals-Volga networks → Yaroslavl → Kirishi (KINEF refinery) → Primorsk oil terminal, Gulf of Finland<br>Owner/Operator: Transneft<br>Capacity: Up to ~75 million tonnes per year (~1.5 million b/d system capacity); Primorsk loads ~1 million b/d of Urals crude plus ~300,000 b/d of diesel; commissioned December 2001<br>Crude: Urals — Russia's flagship export grade, since 2022 shipped largely via the sanctions-era 'shadow fleet' under the G7 price-cap regime<br>Status: Operational but repeatedly disrupted — Ukrainian long-range drones forced the first loading suspension at Primorsk in September 2025, with renewed strikes in March and May 2026 halting exports again; at the peak, roughly 40% of Russia's oil export capacity was assessed offline<br>Strategic role: Built to bypass the Baltic transit states and concentrate exports at a Russian-controlled port; the single most important outlet for seaborne Urals<br>Risks: Primary target of the Ukrainian deep-strike campaign on energy infrastructure; sanctions and price-cap enforcement; winter ice navigation in the Gulf of Finland; single-corridor concentration]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7423,7 +7496,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDMVL00000000000001">
 			<name>Rostock–Schwedt Pipeline (MVL)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — Baltic import route (Mineralölverbundleitung, MVL)<br>Route: Rostock oil port (Baltic Sea) → PCK Schwedt refinery, ~200 km<br>Owner/Operator: PCK Raffinerie GmbH<br>Capacity: Limited — historically able to load the refinery at roughly half its nameplate; a ~€400 million upgrade has been pursued to raise throughput<br>Status: Operational — became Schwedt's lifeline after Germany ended Russian pipeline crude imports in January 2023<br>Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades; seaborne barrels landed at Rostock reach the Berlin fuel market through this line<br>Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7434,7 +7507,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDFPS00000000000001">
 			<name>Forties Pipeline System (FPS)</name>
 			<description><![CDATA[Classification: Integrated crude oil and NGL transport system<br>Route: Forties Unity platform (central North Sea) → Cruden Bay landfall (169 km offshore) → Kinneil, Grangemouth (209 km onshore) → Dalmeny tank farm → Hound Point export jetty<br>Owner/Operator: INEOS (acquired from BP in 2017)<br>Capacity: Nominal ~575,000–610,000 b/d; carries liquids from ~85 UK and Norwegian fields — roughly 40% of UK North Sea oil<br>Main products: Stabilised Forties Blend crude delivered at Hound Point (a Dated Brent benchmark grade); gas liquids to Grangemouth<br>Strategic role: The upstream leg of the Forties chain on this map — wellhead to Hound Point loading to Rotterdam; a single-system chokepoint for a large share of UK production<br>Risks: Single-system concentration — outages at Kinneil or on the main line ripple directly into the Dated Brent benchmark; ageing infrastructure; declining North Sea throughput]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7445,7 +7518,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		<Placemark id="ADDIKL00000000000001">
 			<name>IKL pipeline (Ingolstadt–Kralupy–Litvínov) — TAL extension</name>
 			<description><![CDATA[Classification: Crude oil pipeline — continuation of the TAL system (IKL: Ingolstadt–Kralupy–Litvínov)<br>Route: Vohburg/Ingolstadt (junction with TAL) → Czech border → Nelahozeves central tank farm near Kralupy, supplying the Kralupy and Litvínov refineries; 347 km<br>Owner/Operator: MERO ČR (Czech state pipeline company)<br>Capacity: ~200,000 b/d usable for the Czech Republic (~10 Mt/y design)<br>Status: Operational — since the TAL-PLUS expansion went live in 2025, TAL + IKL can deliver up to 8 Mt/y, covering the entire Czech crude demand<br>Recent data: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour<br>Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region<br>Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand]]></description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7455,7 +7528,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>Trans Niger Pipeline (TNP): Bomu -&gt; Rumuekpe -&gt; Bonny (SPDC, since 1965, 180,000 bpd)</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7465,7 +7538,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>Nembe Creek Trunk Line (NCTL): Nembe -&gt; Cawthorne Channel -&gt; Bonny (Aiteo, 97 km, up to 600,000 bpd)</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7486,7 +7559,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>15074.4970188383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<coordinates>
 					44.33474759149754,35.5451810771893,0 43.4951408465128,35.00766179438595,0 43.08336590020788,36.35289993742235,0 42.37788406566046,37.06792066428955,0 42.52903547315096,37.2605205344187,0 42.45091368584317,37.52174867323686,0 41.36011134968219,37.42137113676481,0 41.12813651200533,37.89901738957821,0 40.18919207412354,37.94404964904086,0 36.49308784070777,37.44036959456425,0 35.92646971526913,36.89016245838856,0 
@@ -7495,6 +7568,21 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark>
 			<name>East–West Crude Oil Pipeline - Petroline</name>
+			<description>Classification: Crude oil pipeline — Gulf → Red Sea trans-Arabian land bridge; the largest Hormuz bypass in existence and the backbone of Saudi export resilience
+
+Route: Abqaiq processing complex (Eastern Province) → ~1,200 km westward across the peninsula through a chain of pumping stations → Yanbu terminals and refining hub on the Red Sea; runs as parallel lines (48-inch and 56-inch), with the IPSA line built for Iraq tracking part of the corridor
+
+Owner/Operator: Saudi Aramco — wholly state-controlled, operated as an integral part of the kingdom&apos;s export system
+
+Capacity: ~5 million b/d nameplate; one of the two parallel lines spent years converted to gas service before being returned to crude to restore full capacity, and reported plans would expand the system by a further 2 million b/d; normal peacetime utilization was modest — the line existed primarily as insurance
+
+Operating history: Built in the early 1980s during the Iran–Iraq &quot;Tanker War&quot; precisely to hedge Hormuz risk; the insurance was tested before — Houthi drones struck two of its pumping stations in May 2019, and the Abqaiq processing plant at its inlet was hit that September — but 2026 is the first time the line has become the kingdom&apos;s primary export artery rather than its backup
+
+Recent data: Since the March 2026 Hormuz closure, Aramco pivoted loadings to Yanbu, keeping Saudi Arabia at 57% of its 2025 export rate in May — versus 82% for the UAE and 8% for Iraq — and lifting Suez Canal flows by about 30%; roughly 62% of Yanbu&apos;s direct exports head to Asian buyers; after the July Houthi threat to Saudi port traffic put the Bab el-Mandeb exit at risk, Yanbu barrels increasingly route north into SUMED — 1.8 million b/d in late July, 46% of Yanbu exports — for Mediterranean loading and Cape of Good Hope voyages to Asia
+
+Strategic role: The reason Saudi Arabia has options and Iraq has none — converts Gulf-basin production into Red Sea supply at the turn of a valve, feeding Yanbu&apos;s own refineries, direct Red Sea exports, and the SUMED land bridge beyond; in the 2026 crisis, the first link in the only chain (Petroline → Yanbu → SUMED → Sidi Kerir → Cape) that avoids both chokepoints entirely
+
+Risks: Capacity ceiling — 5 million b/d against far larger Gulf-coast production means the line cannot carry the kingdom&apos;s full export program; midline vulnerability — pumping stations in open desert, already struck by drones in 2019; destination risk — Yanbu itself now sits inside the Houthi threat perimeter, which is what pushed flows onward into SUMED; and dependence on downstream links (SUMED capacity, Egyptian transit, Cape freight economics) that Aramco does not control</description>
 			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
@@ -7505,7 +7593,21 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark id="062176C7573EB75DB130">
 			<name>Druzhba pipeline</name>
-			<description><![CDATA[<div>Pre splits</div>]]></description>
+			<description>Classification: Crude oil pipeline network — Russia → Central Europe; the world&apos;s largest oil pipeline system, the last Russian crude artery into the EU, and the clearest case on your map of a pipeline functioning as a geopolitical weapon in both directions
+
+Route: Almetyevsk (Tatarstan) gathering Urals crude → Samara → Bryansk → Mozyr (Belarus), where it splits: the northern branch through Poland (Adamowo, Płock) to Germany&apos;s Schwedt and Leuna refineries; the southern branch through Ukraine (past the Brody hub) into Slovakia (Slovnaft, Bratislava) and Hungary (MOL&apos;s Duna refinery, Százhalombatta); the Czech spur off the southern leg fell silent in 2025 when TAL-PLUS made Prague independent. Total network roughly 5,500 km, in service since 1964 — &quot;Druzhba&quot; means &quot;friendship&quot;
+
+Owner/Operator: No single owner — Transneft on the Russian trunk, with national operators segment by segment (Belarus, Ukraine&apos;s Ukrtransnafta, Poland&apos;s PERN); that fragmentation is exactly why every border on the route is a leverage point
+
+Capacity: Northern branch designed for well over 1 million b/d, southern branch in the low hundreds of thousands b/d serving Hungary and Slovakia; the cargo has diverged politically — the north now moves Kazakh-branded barrels to Germany (Poland and Germany quit Russian crude voluntarily in January 2023), while the south still moves Russian Urals under the EU&apos;s pipeline exemption from the seaborne import ban
+
+Operating history: A Cold War artery that outlived its era and became a bargaining chip: the 2019 organic-chloride contamination crisis poisoned the line for weeks; after 2022 it survived sanctions as the carve-out for landlocked members; through 2025, repeated Ukrainian strikes on its Russian infrastructure halted southbound flows three times, drawing formal complaints from Budapest and Bratislava to the European Commission
+
+Recent data: The 2026 crisis was the system&apos;s worst: a drone strike on January 27 damaged infrastructure near the Brody hub, totally cutting Russian crude transit on the southern leg — most critical for Slovakia, which depends on the single Slovnaft refinery configured specifically for Russian crude, and which declared a national energy state of emergency. The three-month outage became a full diplomatic war: Hungary blocked the EU&apos;s 20th sanctions package and a €90 billion loan for Ukraine until oil deliveries resumed, Slovakia halted emergency electricity supplies to Ukraine, and both governments accused Kyiv of slow-walking repairs. Flows restarted on April 22 — unblocking the EU loan for Kyiv — with the political ground shifted by Orbán&apos;s election defeat on April 12. The lasting consequence: a permanent expansion of the Adria pipeline from Croatia, so Slovakia is never 100% dependent on Druzhba again
+
+Strategic role: The inverse of every other asset on your map: elsewhere, infrastructure is attacked despite its cargo; here the cargo is the conflict — Russian oil revenue on one side, EU-member energy security on the other, and Ukraine holding the valve between them. Druzhba in 2026 proved a pipeline can be simultaneously a sanctions loophole, a war target, a veto generator inside the EU, and a hostage exchanged for a €90 billion loan
+
+Risks: War damage from either side, with attribution itself contested; transit leverage stacked at every border (Ukraine over the south, Belarus over everything); policy extinction risk — the EU exemption is meant to be temporary, and each crisis strengthens the case for ending it; refinery lock-in, since Slovnaft and Duna are optimized for Urals and switching crude slates costs time and money; alternative-route inadequacy — the Adria line from the Croatian coast is the only substitute and needed emergency expansion; aging Soviet-era steel; and the 2019 precedent that quality, not just quantity, can be weaponized</description>
 			<LookAt>
 				<longitude>29.25067063132974</longitude>
 				<latitude>52.02993399437838</latitude>
@@ -7535,7 +7637,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>2225576.62013948</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<coordinates>
 					29.21754394721011,52.03685252949513,0 25.1485680856082,50.07990026978116,0 22.28977125832482,48.61992385846033,0 21.26122226862614,48.71678199252374,0 19.13197806405164,48.57903633301455,0 19.04764682130156,48.05013630184206,0 18.91044315179261,47.30865432225288,0 18.89365671906606,47.2843033463522,0 
@@ -7554,7 +7656,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>416049.4698652626</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<coordinates>
 					19.13204410982115,48.57912333221441,0 17.15211866797532,48.13930914330198,0 17.01917262475285,48.43848783045535,0 16.98022360801785,48.82497284655466,0 16.61041892993576,49.19780108536567,0 14.3247580989402,50.26037483035882,0 13.61237653056719,50.55898040725489,0 
@@ -7563,6 +7665,21 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark id="0A8D0C235F3EB7ABB22C">
 			<name>Adria pipeline</name>
+			<description>Classification: Crude oil import pipeline — Adriatic → Central and Southeastern Europe; the designated non-Russian supply route for the region&apos;s landlocked refineries, and the most fiercely disputed backup on your map
+
+Route: Omišalj deep-water terminal on the island of Krk (Croatia) → Sisak, where the system splits: the northern branch runs via Virje (with a spur to Lendava, Slovenia) to Gola on the Hungarian border and on to MOL&apos;s Duna refinery at Százhalombatta — where it physically connects to the southern Druzhba system and onward to Slovnaft in Slovakia; the eastern branch runs from Sisak toward Slavonski Brod (spur into Bosnia) and the Serbian border, serving the NIS refineries; a short spur feeds Croatia&apos;s own Rijeka refinery
+
+Owner/Operator: JANAF (Jadranski naftovod) — Croatian state-controlled; a Yugoslav-era project commissioned around 1980, built to import seaborne crude for the federation&apos;s refineries, disrupted by the 1990s wars, and reborn after 2022 as the region&apos;s strategic alternative to Russian pipeline supply
+
+Capacity: The number at the heart of the fight: the Croatian side puts annual capacity toward Hungary at 11 to 15 million tonnes, but no more than about 2.2 million tonnes have ever actually been transported; sectional ratings tell the same story — roughly 10 million tonnes per year on the Hungarian leg and a maximum of 3.68 million tonnes on the Slovak section — while MOL&apos;s actual contract ran to only ~2.1 million tonnes
+
+Operating history: Three lives: Yugoslav import artery, war casualty, and now geopolitical pivot. JANAF halted deliveries to Serbia&apos;s NIS in March 2022 as sanctions closed in, and since the EU&apos;s Russian-oil restrictions the line has been the theoretical answer to Hungarian and Slovak dependence — theoretical being the operative word, since proving sustained throughput is exactly what&apos;s now underway
+
+Recent data: The 2026 Druzhba outage turned the dispute white-hot. With Russian flows cut for three months, MOL pressed JANAF to forward seaborne Russian crude, while Croatia assessed whether sanctions law even allowed it; MOL filed a formal complaint with the European Commission on March 4 accusing JANAF of abusing a dominant market position, alleging tariffs at multiples of the European average. The resolution mechanism: a roughly ten-month series of capacity tests that began March 11, run in phases with independent experts across seasons, weather and crude grades — reaching test rates of 40,000 tonnes per day by autumn, with clarity expected by early 2027. The deadline making it all urgent: Russian crude supplies are set to stop at the end of 2027, and the Druzhba crisis already produced a decision to permanently expand Adria&apos;s capacity so Slovakia is never fully dependent on Druzhba again
+
+Strategic role: The same lesson as BTC, at the other end of Europe: an alternative that exists on the map but not yet in the physics — nominal capacity 15 million tonnes, demonstrated 2.2. And a second lesson layered on top: here the bottleneck isn&apos;t even steel — it&apos;s tariffs, contracts, sanctions interpretation and trust between two EU members. Adria proves that a route&apos;s true capacity is hydraulic and commercial and political, and it only counts when all three clear
+
+Risks: Unproven sustained throughput until the tests conclude — with barely a year&apos;s margin before the 2027 cutoff; monopoly-pricing and access disputes now in Brussels&apos; hands; refinery lock-in on the demand side, since Duna and Slovnaft are configured for Urals and full conversion takes investment and time; single-terminal concentration at Omišalj; sanctions-interpretation risk that can freeze cargoes even when capacity exists; and the political triangle — Zagreb, Budapest, Bratislava — in which every technical question becomes a negotiation</description>
 			<LookAt>
 				<longitude>18.8718405690427</longitude>
 				<latitude>47.27185982556875</latitude>
@@ -7592,7 +7709,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>12886.26166659873</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<coordinates>
 					22.29005123521799,48.61767116092241,0 22.18488495632627,48.40598279950381,0 21.0384066107509,47.91272170555143,0 18.89818775180878,47.28624050771544,0 
@@ -7611,7 +7728,7 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>135552.9490196519</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<coordinates>
 					32.49960800162238,-25.95937431606155,0 31.94044843041256,-25.45388269156171,0 30.9658917053511,-25.47056644272303,0 29.04486522022536,-26.05031795979596,0 29.15584442063949,-26.54838320055666,0 
@@ -7620,6 +7737,21 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 		</Placemark>
 		<Placemark id="0B66F491DC3F2390C62D">
 			<name>Caspian Pipeline Consortium</name>
+			<description>Classification: Crude oil pipeline — Caspian → Black Sea export system; landlocked Kazakhstan&apos;s main outlet and the only major oil pipeline crossing Russia not fully controlled by the Russian state
+
+Route: Tengiz field (western Kazakhstan) → ~1,500 km across Kazakh and Russian territory via a chain of pumping stations → CPC Marine Terminal at Yuzhnaya Ozereevka near Novorossiysk (Russian Black Sea coast), loading tankers offshore through SPM buoys; carries the light sweet CPC Blend grade
+
+Owner/Operator: Caspian Pipeline Consortium — a genuinely multinational shareholding: Transneft (Russia) as largest holder, KazMunayGas and Kazakhstan Pipeline Ventures, Chevron, Lukoil, Mobil Caspian (ExxonMobil), Rosneft-Shell Caspian Ventures, BG, Eni and Oryx; the consortium itself is not under Western sanctions
+
+Capacity: ~1.5 million b/d; deliveries averaged 1.48 million b/d in 2026, with foreign shippers accounting for over 75% of the 70.5 million tonnes moved in 2025 — the barrels are mostly Kazakh (Chevron-led Tengizchevroil, Kashagan&apos;s NCOC), lifted by Western majors, exiting via a Russian port
+
+Operating history: Commissioned in 2001 as the export solution for Tengiz; repeatedly disrupted since 2022 — storm damage to the mooring buoys, Russian regulatory suspension threats, a Ukrainian drone strike on the Kropotkinskaya pumping station in early 2025, and an attack on the SPM-2 loading buoy in November 2025 that previewed the current escalation
+
+Recent data: Four tankers attacked by Ukrainian drones in four days in July 2026 while loading at the terminal — including vessels carrying Tengiz and Kashagan crude for Chevron- and Exxon-linked liftings, plus one sanctioned shadow-fleet tanker loading Rosneft Urals — forcing repeated suspensions; CPC Blend assessed at a $2.65/b discount to Dated Brent, with analysts seeing $1–2/b of differential upside and firmer Black Sea freight only if disruption stretches into weeks, heavy August West African and Latin American supply into the Mediterranean capping the move; traders&apos; core concern is behavioral — the terminal is undamaged, but vessels hesitate to berth under drones
+
+Strategic role: The single artery carrying ~80% of the exports of Central Asia&apos;s largest producer — and the map&apos;s clearest case of collateral chokepoint risk: infrastructure targeted not for its own cargo but for its address, with Western-operated Kazakh barrels exposed to a war between two other states; the mirror of the Houthi playbook at Bab el-Mandeb — no blockade needed, one strike per few days keeps the route commercially unsafe
+
+Risks: Drone and naval attack risk at the loading zone; war-risk insurance premiums and berthing refusals throttling liftings independently of physical damage; single-terminal concentration with no equivalent alternative — the fallback routes (Atyrau–Samara into the Russian system, Caspian barging toward Baku and the BTC line, the China pipeline) are fractions of CPC&apos;s capacity; Russian transit and regulatory leverage over the consortium; and differential risk for Kazakh producers whose netbacks price every one of these threats</description>
 			<LookAt>
 				<longitude>53.40740630895382</longitude>
 				<latitude>46.15943276069549</latitude>
@@ -7656,7 +7788,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 				<range>18677.42480114568</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<coordinates>
 					43.74906965403268,35.91722813772751,0 43.97011261459917,36.26161849000645,0 43.87505058118854,36.73273675766753,0 42.97508234516481,36.86081837989593,0 42.38166639082129,37.06737164631899,0 
@@ -7665,6 +7797,21 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark id="03F676C2DF3F2D848ACF">
 			<name>BTC pipeline (Baku–Tbilisi–Ceyhan)</name>
+			<description>Classification: Crude oil pipeline — Caspian → Mediterranean corridor; the only large westbound export route that bypasses Russian territory entirely, and the designated fallback for Kazakh barrels when CPC is hit
+
+Route: Sangachal terminal near Baku (Azerbaijan) → Georgia via Tbilisi → Ceyhan export terminal on Turkey&apos;s Mediterranean coast; ~1,770 km through eight pumping stations, crossing two mountain ranges; carries Azeri Light (BTC blend) from the ACG offshore complex plus transit volumes — Kazakh crude arrives by small tanker across the Caspian from Aktau to Baku before entering the line
+
+Owner/Operator: BTC Co — operated by BP (~30%), with SOCAR (~25%), and minority stakes held by MOL, Equinor, TPAO, Eni, TotalEnergies, ITOCHU, INPEX, ExxonMobil and ONGC
+
+Capacity: ~1.2 million b/d nameplate; structurally underutilized as Azerbaijan&apos;s ACG production declines — and that spare capacity is precisely what makes it available as the region&apos;s escape route
+
+Operating history: Born of the 1994 &quot;Contract of the Century,&quot; commissioned in 2006 as the geopolitical project of its era — moving Caspian crude to market without touching Russia or adding tankers to the congested Bosphorus; stress-tested repeatedly: a 2008 explosion on the Turkish section during the Russia–Georgia war, and proximity to the 2020 Karabakh conflict, without long-term interruption
+
+Recent data: The CPC drone campaign made BTC the active plan B — after the November 2025 strikes on CPC&apos;s moorings, Kazakhstan redirected some 300,000 tons of crude in December via BTC, the China line and Atyrau–Samara, and is targeting an increase in BTC-route exports in 2026, with a stated goal of 1.5–2.2 million tons for the year versus roughly 1.2 million tons in 2025. January–April 2026 flows ran 106,000–115,000 tons a month. Scale check: all of Kazakhstan&apos;s alternatives combined — BTC, Druzhba to Germany, the China pipeline — moved about 4.1 million tons, against roughly 60 million tons a year through CPC.
+
+Strategic role: The insurance policy that can&apos;t cover the loss — politically the perfect route (no Russia, no Bosphorus, Mediterranean delivery), but physically capped not by the pipe, which has room, rather by the weakest link upstream: the fleet of small Caspian tankers shuttling Aktau to Baku. BTC proves a rule your whole map illustrates — a route&apos;s capacity is its narrowest segment, not its widest
+
+Risks: The Caspian crossing as bottleneck — port capacity at Aktau and limited shuttle tonnage cap Kazakh transit at a fraction of CPC volumes; commercial dependence on Azerbaijan (SOCAR terms, tariff negotiations) for barrels that compete with Azeri crude; transit exposure across Georgia and eastern Turkey, with the 2008 sabotage as precedent; declining Azeri equity production, which frees capacity but weakens the line&apos;s own economics; and Ceyhan concentration risk — the terminal also serves the Iraq–Turkey line, stacking two countries&apos; contingency plans on one Mediterranean outlet</description>
 			<LookAt>
 				<longitude>35.9612614623785</longitude>
 				<latitude>36.92713776930547</latitude>
@@ -7684,6 +7831,21 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark id="0C351F9C1A3F3A1EDA6E">
 			<name>Southern Iraq Crude Oil Pipeline Network</name>
+			<description>Classification: Crude oil gathering and export system — onshore trunk network + subsea loading lines; Iraq&apos;s primary (near-sole) export outlet
+
+Route: Southern giant fields (Rumaila, West Qurna 1 &amp; 2, Zubair, Majnoon) → pumping stations and Zubair/Fao storage depots → Fao peninsula tank farm → subsea pipelines → Al-Basra Oil Terminal (ABOT) and SPM buoys in the Gulf; the Khor al-Amaya terminal sits largely idle alongside
+
+Owner/Operator: Basra Oil Company (state, Ministry of Oil); exports marketed by state marketer SOMO; fields operated under technical service contracts with IOCs (BP at Rumaila, Lukoil at West Qurna 2, Eni at Zubair)
+
+Capacity: Nominal export capacity ~3.4 million b/d; normal exports ~3.3 million b/d — about 93% of Iraq&apos;s crude exports — with oil funding roughly 90% of the state budget; grades: Basrah Medium, Basrah Heavy
+
+Operating history: Built up from the 1950s–70s; terminals repeatedly bombed in the Iran–Iraq war and again in 1991, with Khor al-Amaya never fully restored; the 1975 north–south &quot;Strategic Pipeline&quot; linking Basra to the Kirkuk–Ceyhan corridor is long inoperative, and the IPSA line through Saudi Arabia was confiscated in 1990 and converted to gas — leaving the system with no functioning bypass to any other sea
+
+Recent data: Seaborne exports collapsed to a dataset-low 260,000 b/d in May 2026 — 8% of the 2025 average — versus Saudi Arabia retaining 57% and the UAE 82% of export rates via pipeline reroutes; production halved to 1.9 million b/d in June from 4.2 million b/d in February; storage filled within days of the March closure, forcing shut-ins of southern fields, and tankers were struck in Iraqi waters near Basra; emergency workaround: 500–700 tanker trucks/day into Syria, feeding ~130,000 b/d of exports from Baniyas
+
+Strategic role: Sole outlet for OPEC&apos;s second-largest producer, 100% Hormuz-dependent — the structural counter-example to Saudi Arabia&apos;s Yanbu/SUMED and the UAE&apos;s Fujairah bypass; in the 2026 crisis, the market&apos;s clearest proof that routes, not reserves, set supply
+
+Risks: Hormuz transit as single point of failure; tanker strikes at the loading zone; storage saturation at Fao forcing field shut-ins; fiscal exposure (~90% of budget); no relief until a bypass is built — Basra–Haditha (2.5 million b/d, 700 km, toward Ceyhan and Baniyas) or the revived Basra–Aqaba line with Jordan (2.25 million b/d, ~$18 billion) — both years away</description>
 			<LookAt>
 				<longitude>47.94141138954485</longitude>
 				<latitude>30.20497600386194</latitude>
@@ -7703,6 +7865,21 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark id="0F4DDE01573FA0A395D9">
 			<name>Rotterdam - Rhine Pipeline (RRP)</name>
+			<description>Classification: Crude oil and products pipeline system — North Sea → Rhine-Ruhr corridor; the Atlantic-gateway counterpart to TAL and SPSE, feeding Germany&apos;s industrial west from Europe&apos;s largest port
+
+Route: Two systems totaling 457 km. Crude: a 36-inch, 177 km main line from Europoort via the Rozenburg pumping station to a tank terminal at Venlo (~210,000 m³ of storage), where it splits — north via a 43 km, 24-inch line toward Wesel and the Gelsenkirchen refinery in the Ruhr, and south via a 103 km, 24-inch line to Shell&apos;s Rheinland refinery near Cologne (Godorf and Wesseling plants), Germany&apos;s largest. Products: a separate 155 km line from Pernis to the German border near Venlo, moving petrol, naphtha, diesel, heating oil and jet fuel onward into the German product network
+
+Owner/Operator: Rotterdam-Rijn Pijpleiding Maatschappij (RRP) — founded in 1958 as a joint venture of the majors; shareholders today are Shell, Ruhr Oel and bp. Intake comes from the big tank terminals at Botlek, Europoort and Maasvlakte plus the two Rotterdam refineries
+
+Capacity: The system delivers around 25 million tonnes a year — roughly 16 million tonnes of crude and 9 million tonnes of products — entirely underground, running continuously since the early 1960s
+
+Operating history: Built as the original artery of the Rotterdam model: crude lands at the deepest harbor in Europe and flows east to the refineries of the Rhine and Ruhr. Started as a 24-inch line, upgraded to 36-inch as demand grew — and now aging into a new role: its right-of-way is the backbone of the proposed Delta Corridor, a pipeline bundle along the existing route studied with the Port of Rotterdam for hydrogen toward the Chemelot cluster and North Rhine-Westphalia, with the long-term vision of hydrogen flowing east and captured CO2 returning west for North Sea storage
+
+Recent data: RRP&apos;s world is being reshaped from both ends: downstream, its customer base is consolidating as German refining shrinks — Shell has been converting parts of the Rheinland complex away from crude processing — while upstream, Rotterdam&apos;s crude slate is the Atlantic Basin pool: North Sea, US and West African barrels that don&apos;t transit a single Middle East chokepoint. In the 2026 crisis that made the Rhine corridor structurally calmer on feedstock than the Med-fed south — while its product line runs hot, moving fuels inland from the ARA hub in a record-crack European diesel market
+
+Strategic role: The third gateway on your map&apos;s European side — and the contrast that completes the picture: Bayernoil drinks from Trieste, Cressier from Fos, both priced off the disrupted Mediterranean; the Rhine-Ruhr refineries drink from Rotterdam, priced off the well-supplied Atlantic. Same continent, two crude pools, two very different 2026 stories — and VAROPreem&apos;s Rotterdam SAF plant is being built at the mouth of this system, where the port&apos;s logic is pivoting from moving crude east to moving new molecules both ways
+
+Risks: Demand-side decline as its captive refineries convert or close — a pipeline&apos;s fate is its customers&apos;; concentration on two delivery points; energy-transition timing risk, with the Delta Corridor needing to mature before the crude business fades; port dependence on Rotterdam operations (congestion, strikes, North Sea weather); and the strategic footnote of 2026 — &quot;safe&quot; Atlantic supply still prices off a global market, so even Rotterdam barrels feel Hormuz in the flat price, just not in the freight</description>
 			<LookAt>
 				<longitude>6.974314404879616</longitude>
 				<latitude>50.85543913705191</latitude>
@@ -7722,6 +7899,21 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark id="0732962C843FE62A3117">
 			<name>SPSE (south european pipeline)</name>
+			<description>Classification: Crude oil pipeline system — Mediterranean → inland Western Europe; the western twin of TAL, moving seaborne crude from the Rhône delta into France, Switzerland and historically Germany
+
+Route: Fos-sur-Mer / Lavéra port complex (near Marseille) → Rhône and Saône valleys → delivery terminals at Lyon (St-Quentin-Fallavier, feeding the Feyzin refinery) and Besançon (Gennes) — where the crude passes into the Jura pipeline, owned by VARO, crossing into Switzerland to the Cressier refinery. The original main line ran 769 km to Karlsruhe; the network peaked at three lines totaling ~1,850 km
+
+Owner/Operator: Société du Pipeline Sud-Européen — founded in 1958 by sixteen oil companies from the major world groups, still owned by its refiner-shippers; also a storage operator, running 40 floating-roof tanks totaling 2.26 million m³ — over 14 million barrels — at the Fos maritime terminal, holding around twenty crude grades in transit, with berths discharging tankers up to 400,000 tonnes at 15,000 m³/hour
+
+Capacity: The living system today ships about 8 million tonnes of crude per year through five pumping stations to its two remaining customers; the terminal&apos;s scale — grade variety, VLCC-capable discharge, million-cubic-meter storage — is the real asset
+
+Operating history: A monument to European refining&apos;s rise and retreat: first 34-inch line commissioned in December 1962 to feed the Rhine&apos;s refineries, two more lines added in 1971–72 at the industry&apos;s peak — then decades of refinery closures shrank the network. Today the 34-inch line operates only Fos-to-Besançon and is nitrogen-inerted beyond; the 40-inch Strasbourg line and 24-inch Lyon line are both inactive. Karlsruhe&apos;s MiRO now drinks exclusively from TAL
+
+Recent data: The strategic pivot is the story: SPSE plans to convert its existing Lyon–Fos line to CO2 transport, with at least 4 million tonnes per year of capacity from 2030 — turning a declining crude artery into carbon-removal infrastructure for the industrial basin it once supplied. Meanwhile its remaining crude mission runs through the 2026 disruption like everything else on this map: the barrels discharged at Fos come from the same Mediterranean pool — Saharan Blend, Libyan, Azeri, CPC, Sidi Kerir loadings — that the crisis is repricing
+
+Strategic role: For VAROPreem specifically, this is Cressier&apos;s lifeline — the only crude path to Switzerland&apos;s only refinery: tanker to Fos, SPSE to Gennes, VARO&apos;s own Jura line over the mountains. Put beside Bayernoil (tanker to Trieste, TAL over the Alps), a striking fact emerges: both of the group&apos;s landlocked refineries depend entirely on Mediterranean tanker arrivals, at opposite ends of the same sea
+
+Risks: Structural decline — a two-customer system carries concentration risk in its purest form: if Feyzin ever stops refining crude, Cressier becomes the sole reason the line exists, and fixed costs land on fewer tonnes; single-corridor dependence for Cressier with no alternative supply route; Fos port exposure (strikes at the French Mediterranean terminals are a recurring feature, and NATO-region tensions now touch even domestic infrastructure); Mediterranean supply-pool risk in crisis years like this one; and transition-timing risk on the CO2 conversion — the new business must arrive before the old one fades</description>
 			<LookAt>
 				<longitude>6.959846501591789</longitude>
 				<latitude>46.26850616385907</latitude>
@@ -7741,7 +7933,7 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark>
 			<name>Trans Mountain Pipeline</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7751,7 +7943,21 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark id="006A208CDA406775DAEF">
 			<name>Sumed pipeline</name>
-			<description><![CDATA[<p style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-width: normal; font-size: 17px; line-height: normal; font-family: system-ui; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family:system-ui"><span class="size" style="font-size:17px">when a tanker is too big for Suez, or the canal is congested/risky, crude gets pumped overland between these two points instead of transiting the canal.</span></span></span><br></p><div><br></div>]]></description>
+			<description>Classification: Crude oil pipeline — Red Sea → Mediterranean land bridge; Suez Canal complement and, in crisis, the only export path avoiding both Hormuz and Bab el-Mandeb
+
+Route: Ain Sokhna terminal (Gulf of Suez) → twin 42-inch lines, ~320 km overland across Egypt → Sidi Kerir terminal (Mediterranean, near Alexandria); Sidi Kerir holds ~19.5 million barrels of storage across 28 tanks and loads via SBM buoys serving tankers up to 500,000 DWT
+
+Owner/Operator: Arab Petroleum Pipelines Company (SUMED) — EGPC (Egypt) 50%, Saudi Aramco 15%, UAE interests 15%, Kuwaiti interests 15%, Qatar 5%; a rare multi-Gulf-state joint venture on Egyptian soil
+
+Capacity: ~2.5 million b/d combined; normal function is northbound Gulf-to-Europe flow paired with the Suez Canal — fully laden VLCCs cannot transit the canal, so they lighten at Ain Sokhna, pump the difference overland, and reload at Sidi Kerir
+
+Operating history: Commissioned 1977 as the response to the canal&apos;s closure after the 1967 war and to the growth of supertankers too large for it; has served for decades as the structural link between Red Sea and Mediterranean crude markets, with utilization historically swinging with canal economics, freight rates and Gulf export patterns
+
+Recent data: Flows surged after the March 2026 Hormuz closure pushed Saudi loadings to Yanbu via the 5 million b/d East-West pipeline, and the July Houthi threat to Saudi port traffic then endangered the Bab el-Mandeb exit; Yanbu crude bound for SUMED jumped to 1.8 million b/d in late July — up 66% week-on-week, nearly triple two weeks earlier, and 46% of Yanbu&apos;s exports — with Bab el-Mandeb transits falling ~30% in a single day; Asia-bound cargoes now load at Sidi Kerir and sail via the Cape of Good Hope
+
+Strategic role: The escape valve of the 2026 crisis — the one route that turns Saudi barrels into Mediterranean barrels without touching either chokepoint; the structural counterpart to Iraq&apos;s bypass-less Basra system and the UAE&apos;s Fujairah line, and the reason Saudi Arabia retained 57% of exports while Iraq fell to 8%
+
+Risks: Ceiling risk — utilization approaching the 2.5 million b/d capacity with limited headroom; upstream dependence on the Red Sea leg from Yanbu to Ain Sokhna, which is itself within Houthi reach; single-country transit exposure (Egypt) and multi-state ownership politics; demand-side risk that Asian buyers reject the longer, costlier Cape routing in favor of closer barrels; and reversion risk — if Hormuz normalizes, flows can collapse back toward canal-paired volumes as fast as they surged</description>
 			<LookAt>
 				<longitude>32.33991604469095</longitude>
 				<latitude>29.66363795652754</latitude>
@@ -7771,30 +7977,21 @@ Exports of crude from northern Iraq and the Kurdistan Region through Türkiye re
 		</Placemark>
 		<Placemark>
 			<name>TAL pipeline</name>
-			<description>Trans Alpine Pipeline (TAL)
-The Transalpine Pipeline (TAL) is one of Europe’s most important crude oil transportation systems. It transports imported crude oil from the Port of Trieste, Italy, across the Alps to refineries in Austria, Germany, and the Czech Republic.
+			<description>Classification: Crude oil pipeline — Adriatic → Central Europe trunk line; the single artery supplying the landlocked refining heart of the continent, and the line that ends, literally, at Bayernoil&apos;s gates
 
+Route: SIOT Marine Terminal, Port of Trieste (Italy) → Friuli plain → over the Alps → Austria (with the AWP branch at Würmlach serving OMV&apos;s Schwechat refinery near Vienna) → Bavaria, where the system splits at the Ingolstadt/Vohburg hub: the western branch ends at Karlsruhe, the eastern branch at Neustadt — the two ends of VAROPreem&apos;s Bayernoil network — while at Vohburg the line connects to the Czech IKL pipeline feeding the tank farm at Nelahozeves and the Kralupy and Litvínov refineries; 753 km, 13 pumping stations
 
+Owner/Operator: The TAL Group — three national companies (SIOT in Italy, TAL Österreich, Deutsche Transalpine Oelleitung) owned by a shipper consortium: OMV as largest holder with 32% and Shell with 19%, alongside Eni, ExxonMobil, Gunvor (C-Blue), Phillips 66, TotalEnergies, Czech MERO (5%), and Rosneft&apos;s ~11% German stake — held under German federal trusteeship since 2022
 
-Crude oil arrives at Trieste by tanker from producing regions including Kazakhstan, Azerbaijan, the Middle East, the North Sea, the United States, and Africa. After being unloaded at the Trieste Marine Terminal, the crude is pumped through the TAL pipeline network to inland storage facilities and refineries.
+Capacity: ~43 million tonnes per year (roughly 850,000 b/d design); actual throughput runs near 37 million tonnes, with 2023 seeing 36.7 million tonnes discharged from 395 tankers at the Marine Terminal, and cumulative volumes past 1.7 billion tonnes; the system covers 100% of southern Germany&apos;s crude needs, 90% of Austria&apos;s, and — since the expansion — the whole of Czechia&apos;s
 
+Operating history: A Cold War-era engineering feat — built in 1,000 days from December 1964, financed by a syndicate of 83 banks, commissioned in 1967 — that has quietly become more strategic with age: first as Bavaria and Austria&apos;s lifeline, then, after 2022, as the instrument of Czech independence from Russian oil. The TAL-PLUS project raised deliveries to Czechia by 4 million tonnes per year, bringing the IKL&apos;s supply to 8 million tonnes annually — achieved with no new pipe, just upgraded pumps and motors for around €44 million — completed in April 2025, with North Sea crude delivered to Trieste and pumped north as Druzhba imports ended
 
+Recent data: In the 2026 crisis, TAL is the demand side of the Mediterranean story your map tells: every barrel it moves arrives by tanker at Trieste from the same repriced pool — Azeri, Saharan, Libyan, CPC reroutes, Sidi Kerir loadings, Atlantic Basin cargoes — meaning the feedstock costs of eight inland refineries in three countries, Bayernoil included, are set by Mediterranean freight, differentials and war-risk premiums decided a thousand kilometers south
 
-This section of the pipeline supplies the Bayernoil refining complex (Vohburg and Neustadt), helping provide transportation fuels and petrochemical feedstocks to southern Germany.
+Strategic role: For VAROPreem, this is the umbilical: both Bayernoil sites sit at the eastern terminus, so the group&apos;s largest conventional asset runs entirely on TAL barrels — the mirror of Cressier on SPSE, one refinery per Mediterranean gateway; for Europe, it&apos;s the continent&apos;s quiet single point of dependence — the only crude source for southern Germany, nearly all of Austria, and now all of Czechia, which traded Druzhba risk for Trieste concentration
 
-
-
-Route:
-Global Crude Supply → Port of Trieste → TAL Pipeline → Lenting Tank Farm → Bayernoil Refinery (Vohburg / Neustadt)
-
-
-
-Key Facts:
-• Pipeline length: approximately 465 km
-• Starting point: Trieste, Italy
-• Main destination: Southern Germany, Austria, Czech Republic
-• Transported product: Crude Oil
-• Strategic role: Primary crude oil supply route for Central European refineries</description>
+Risks: Concentration by design — 100% supply shares mean a prolonged outage has no substitute for three countries&apos; refining; Trieste as maritime single point of entry (port strikes, Adriatic weather, and the Med&apos;s 2026 security environment); allocation tension as Czech volumes added since 2025 push utilization toward the ceiling, putting eight refineries in competition for space; Alpine transit with high environmental stakes; and governance friction baked into the shareholder table, where a trusteed Russian stake sits alongside the states that engineered independence from Russian oil</description>
 			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
@@ -7805,7 +8002,21 @@ Key Facts:
 		</Placemark>
 		<Placemark>
 			<name>Abu Dhabi Crude Oil Pipeline</name>
-			<description>The Abu Dhabi Crude Oil Pipeline, also known as the Habshan–Fujairah Pipeline or ADCOP, transports crude oil from the Habshan production and collection hub in Abu Dhabi to storage and offshore loading facilities at Fujairah on the Gulf of Oman. By reaching a port located outside the Persian Gulf, the pipeline allows UAE crude exports to bypass the Strait of Hormuz. The approximately 380-kilometre pipeline is operational and has a capacity of around 1.5–1.8 million barrels per day.</description>
+			<description>Classification: Crude oil pipeline — Gulf → Gulf of Oman trans-UAE bypass; the only purpose-built export line whose sole function is to avoid the Strait of Hormuz entirely
+
+Route: Habshan processing hub (Abu Dhabi onshore, gathering the Murban system) → ~380 km eastward across the emirates and the Hajar mountains → Fujairah export terminal on the Gulf of Oman, seaward of the Strait; the terminal sits inside one of the world&apos;s largest bunkering and storage hubs, including underground rock caverns
+
+Owner/Operator: ADNOC — Abu Dhabi state oil company; the line was developed with strategic intent by the government and folded into ADNOC&apos;s export infrastructure
+
+Capacity: ~1.5 million b/d nameplate; loads principally the Murban grade — Abu Dhabi&apos;s flagship crude and the underlying of the IFAD Murban futures contract, making Fujairah both a physical outlet and a pricing point beyond the chokepoint
+
+Operating history: Commissioned in 2012, explicitly as chokepoint insurance after years of Iranian threats to close Hormuz; the logic was validated early — the 2019 tanker sabotage incidents occurred off Fujairah itself — but like Petroline, the line ran for over a decade as a hedge before 2026 turned it into the UAE&apos;s primary export artery
+
+Recent data: The pipeline is why the UAE outperformed every Gulf producer in the crisis — the country maintained 82% of its 2025 export rate in May, versus 57% for Saudi Arabia and 8% for Iraq, rerouting volumes via pipeline and adding a shuttle service moving barrels to ship-to-ship transfers offshore Oman; the UAE now plans to double its export capacity outside Hormuz with a second pipeline to Fujairah
+
+Strategic role: The cleanest solution to the chokepoint problem on the map — where Saudi barrels need a three-link chain (Petroline → Yanbu → SUMED) to escape both straits, Emirati barrels need one pipe; Fujairah&apos;s storage, bunkering and futures-delivery infrastructure compounds the advantage, letting Abu Dhabi not just export through the crisis but trade through it
+
+Risks: Capacity ceiling — 1.5 million b/d against much larger UAE production means everything above the pipe still needs Hormuz; single-corridor concentration — one line, pumping stations and a single terminal zone form an obvious target set, and Fujairah has been attacked before (2019); congestion risk as the whole region&apos;s diverted volumes, STS operations and bunker demand converge on one small stretch of coast; and the standing reality that the Gulf of Oman is beyond the Strait but not beyond Iranian reach</description>
 			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
@@ -7882,7 +8093,7 @@ Japan already owns minority stakes through:
 Mitsui &amp; Co.
 Mitsubishi Corporation
 So the US and G7 created a specific exemption allowing Japan to continue importing Sakhalin-related crude and LNG.</description>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7892,7 +8103,21 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>OK1 pipeline</name>
-			<description>646km</description>
+			<description>Classification: Crude oil trunk pipeline — Sahara → Mediterranean; one of the north-flowing arteries of Algeria&apos;s export system, feeding the country&apos;s largest refinery and the Skikda loading terminal
+
+Route: Haoud El Hamra dispatching hub (25 km northeast of Hassi Messaoud, where Algeria&apos;s Saharan crude production converges) → ~645 km north across the desert and the Atlas ranges via a chain of pumping stations → Skikda industrial and port complex on the Mediterranean coast; a 34-inch line in service since 1972. The Sonatrach naming code reads route-by-letter: K for Skikda, Z for Arzew, B for Bejaïa — OK1 is the Skikda crude line, alongside sisters OZ1 (Arzew, the country&apos;s first, 805 km) and OB1 (Bejaïa)
+
+Owner/Operator: Sonatrach — Algerian state hydrocarbons company, via its Transport par Canalisation (TRC) division; at Haoud El Hamra the OK1 system runs eight 51,200 m³ floating-roof crude tanks plus condensate tankage, and a parallel condensate line (NK1) also serves Skikda
+
+Capacity: Sized to feed the Skikda refinery — Algeria&apos;s largest — plus crude export loadings at the terminal; the line has undergone pumping-station extension and renovation works specifically to raise transport capacity, part of a broader rehabilitation of Sonatrach&apos;s aging northern network
+
+Operating history: Commissioned in 1972 as part of the buildout that made Skikda Algeria&apos;s eastern energy gateway — refinery, LNG plant and export port in one complex; the line has run for five decades through the same challenges as the rest of the network: desert conditions, aging steel, and the security legacy of the 1990s–2010s, managed through successive ENAC/Sarpi rehabilitation campaigns rather than replacement
+
+Recent data: The crude it carries is Saharan Blend — light, sweet, very low sulfur, among the highest-quality export grades in the Mediterranean basin. In the 2026 market that matters twice over: Saharan Blend sits in exactly the Med light sweet pool — alongside Libya&apos;s Es Sider, rerouted CPC Blend and Azeri barrels — that European refiners lean on while Gulf supply is constrained by Hormuz, and the Skikda refinery sells products into the same record European cracks; short pipeline distance, no chokepoint transit, and a two-day sail to European ports make Algerian barrels among the most logistics-advantaged crude in the basin right now
+
+Strategic role: The quiet winner on the map — Algeria&apos;s export system touches no strait, no canal, no war zone: field to Mediterranean water entirely within one country, days from the customer; in a year when the market prices routes over reserves, OK1 is what a de-risked route looks like, and the counterweight to every stressed asset on this project
+
+Risks: Infrastructure age — the rehabilitation programs exist because the steel demands them, and sister line OB1 needed 164 km rebuilt to recover its design capacity; concentration at Haoud El Hamra, the single hub through which the country&apos;s crude dispatching flows; upstream dependence on the mature Hassi Messaoud basin, where decline rates rather than transit risk cap volumes; desert transit security as a managed but permanent condition; and allocation tension between feeding the domestic refinery and maximizing export barrels when Mediterranean prices reward the latter</description>
 			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
@@ -7903,7 +8128,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Es Sider submarine sea-line: tank farm -&gt; offshore SBM</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7913,7 +8138,7 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Gialo-Waha pipeline</name>
-			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
+			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42001</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -7923,6 +8148,21 @@ So the US and G7 created a specific exemption allowing Japan to continue importi
 		</Placemark>
 		<Placemark>
 			<name>Samah/Dahra-Es Sider pipeline</name>
+			<description>Classification: Crude oil trunk pipeline — Sirte Basin gathering line; the artery connecting the Waha field cluster to Libya&apos;s largest export terminal, and a chronic single point of failure in the country&apos;s supply
+
+Route: Samah field (Al Wahat district) and Dahra field (Sirte district), deep in the Sirte Basin desert → 32-inch line running north → Es Sider terminal on the Gulf of Sirte, Libya&apos;s biggest oil port with ~350,000 b/d of export capacity; the crude loads as Es Sider, the country&apos;s flagship grade
+
+Owner/Operator: Waha Oil Company — Libyan NOC 59.2%, ConocoPhillips 16.3%, TotalEnergies 16.3% (acquired from Marathon in 2018), Hess 8.2%; one of the last places US majors still lift equity crude in Libya
+
+Capacity: The Waha fields can pump around 300,000 b/d, with production recently cited near 285,000 b/d; pipeline shutdowns have historically cut national output by up to 200,000 b/d at a stroke — the line, not the fields, sets the ceiling
+
+Operating history: A study in infrastructure decay: NOC has described the line as dilapidated, plagued by leaks and starved of maintenance budget through a decade of civil war, militia attacks and terminal battles — Es Sider&apos;s tank farm burned in the 2014–16 &quot;Oil Crescent&quot; fighting, and the system has cycled through blockades (2020, 2022), Petroleum Facilities Guard strikes, and emergency repair shutdowns in 2021 and 2022, each time knocking out roughly 200,000 b/d
+
+Recent data: Libya&apos;s relevance in 2026 runs through the Mediterranean light sweet market: Es Sider&apos;s high middle-distillate yield makes it a favorite of Mediterranean and Northwest European refiners — exactly the barrel pool competing with rerouted CPC Blend and the August wave of West African and Latin American supply that analysts cite as the cap on Black Sea differentials; with Gulf supply constrained by Hormuz, every reliable Libyan cargo is worth more, and every outage on this line tightens the same pool
+
+Strategic role: The map&apos;s reminder that chokepoints aren&apos;t only maritime — this is an onshore chokepoint, where one corroded 32-inch pipe in the desert moves a fifth of a country&apos;s production; in a year when the market prices routes over reserves, Libya&apos;s risk sits not in a strait but in its own unmaintained steel
+
+Risks: Mechanical failure as the base case — leak-driven shutdowns are routine, not exceptional; militia and political risk at both ends (field blockades upstream, PFG action and NOC–Central Bank revenue feuds at the terminal); force majeure frequency that makes Es Sider supply structurally unreliable for term buyers; underinvestment locked in by Libya&apos;s fiscal chaos; and concentration risk — the same Gulf of Sirte cluster (Es Sider, Ras Lanuf) can be blockaded as a unit, as history has repeatedly shown</description>
 			<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4200</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
