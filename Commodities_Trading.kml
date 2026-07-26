@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1deeDrvBnSFPUaa_ase6UOkNRfq9IY-jB">
 	<name>Commodities Trading</name>
-	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
 	<Schema name="__managed_schema" id="__managed_schema00">
 		<SimpleField type="int" name="09149BB14C3FE5E87566">
@@ -174,6 +173,16 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
+	<StyleMap id="msn_R">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_R00">
 		<Pair>
 			<key>normal</key>
@@ -324,14 +333,34 @@
 			<styleUrl>#sh_ferry00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=400">
+	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#sn_icon?color=000000&amp;id=2000&amp;scale=4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=000000&amp;id=2000&amp;scale=41</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=000000&amp;id=2000&amp;scale=41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=41</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=00796b&amp;id=2000&amp;scale=4000">
@@ -394,16 +423,6 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=49001</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4200">
 		<Pair>
 			<key>normal</key>
@@ -422,6 +441,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=49000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=49001</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=44000">
@@ -554,6 +583,16 @@
 			<styleUrl>#sh_red-circle11</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_volcano">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_volcano00">
 		<Pair>
 			<key>normal</key>
@@ -634,7 +673,295 @@
 			<styleUrl>#sh_ylw-pushpin00</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="scic_oil_field0015">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0021">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field005">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0012">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0022">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0013">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field001">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field006">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field000">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field007">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0017">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="scic_oil_field00">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0016">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0014">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field004">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0018">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0020">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0011">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0019">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field003">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field002">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field009">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0010">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field008">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0000">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -649,6 +976,26 @@
 	<StyleMap id="scic_oil_field10">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#scic_oil_field0000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field220</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1009">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#scic_oil_field00</styleUrl>
 		</Pair>
 		<Pair>
@@ -656,6 +1003,238 @@
 			<styleUrl>#scic_oil_field2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="scic_oil_field10010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0015</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0017</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field213</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0021</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field218</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field007</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10014">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0022</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field222</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field006</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field003</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field221</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field005</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10015">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0019</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field214</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10016">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field212</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10017">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0016</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field217</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10018">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field211</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10019">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0018</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field216</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field10022">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0014</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field219</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1004">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field009</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1005">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field008</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1007">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1008">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0013</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field215</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="scic_oil_field27">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="scic_oil_field2">
 		<IconStyle>
 			<color>ff7fff55</color>
@@ -667,6 +1246,305 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field20">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field25">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field221">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field21">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field22">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field23">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field219">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field216">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field217">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field215">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field24">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field26">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field218">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field214">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field211">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field210">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field220">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field213">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field212">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field222">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field28">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field29">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field200">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_R">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="sh_R000">
 		<IconStyle>
@@ -955,7 +1833,37 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_icon?color=000000&amp;id=2000&amp;scale=400">
+	<Style id="sh_icon?color=000000&amp;id=2000&amp;scale=4">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=000000&amp;id=2000&amp;scale=40">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=000000&amp;id=2000&amp;scale=41">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1103,22 +2011,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=49001">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e603efff</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4900">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1151,7 +2043,23 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=41000">
+	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=49001">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e603efff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=4100">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1167,7 +2075,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=4100">
+	<Style id="sh_icon?color=5d4037&amp;id=2000&amp;scale=41000">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1334,6 +2242,22 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sh_volcano">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sh_volcano01">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -1450,6 +2374,32 @@
 		<LineStyle>
 			<color>ffc80154</color>
 		</LineStyle>
+	</Style>
+	<Style id="sn_R">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="sn_R00">
 		<IconStyle>
@@ -1777,7 +2727,42 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_icon?color=000000&amp;id=2000&amp;scale=400">
+	<Style id="sn_icon?color=000000&amp;id=2000&amp;scale=4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=000000&amp;id=2000&amp;scale=40">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon?color=000000&amp;id=2000&amp;scale=41">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
@@ -1890,7 +2875,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=412000">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41200">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -1908,7 +2893,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41200">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=412000">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2194,6 +3179,25 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sn_volcano">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2dc0fb</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="sn_volcano01">
 		<IconStyle>
@@ -3332,6 +4336,34 @@ Risks: Refinery-unit outages, fires, ageing infrastructure, pipeline interruptio
 				<coordinates>6.977019030816507,36.86879868738053,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>RAPID Refinery</name>
+			<description>Refinery: RAPID Refinery, Pengerang Integrated Complex
+Classification: Mega-refinery
+Location: Pengerang, Johor, Malaysia — within the Pengerang Integrated Petroleum Complex on the Johor Strait, facing Singapore
+Owner: Pengerang Refining and Petrochemical Sdn Bhd (PRefChem). Formerly a 50:50 Petronas–Saudi Aramco joint venture; on 25 May 2026 the partners agreed to transfer Aramco&apos;s stake to Petronas, making PRefChem wholly Petronas-owned
+Capacity: 300,000 barrels per day of crude distillation, with atmospheric residue desulphurisation, two gasoline-making units, hydrocrackers and a hydrogen plant; around 9 million tonnes a year of petroleum products
+Main feedstocks: Imported crude, historically split between Saudi Aramco term barrels and Petronas supply, landed through the Pengerang deepwater terminal
+Main products: Euro 4 and Euro 5 gasoline and diesel, jet fuel, LPG, and naphtha and other streams transferred to the adjacent petrochemical complex
+Markets: Malaysia and Southeast Asia, with exports across Asia-Pacific; competes directly with Singapore&apos;s Jurong refining hub
+Recent data: One of the two gasoline-making units was down from January to May 2025 for repairs, and a gasoline unit was shut again from February to April 2026, forcing a cut in crude runs. Full commercial operation was only reached in 2022 after a 2019 fire and a 2020 explosion. Aramco&apos;s exit in May 2026 removes its guaranteed crude supply arrangement, though both parties said they would explore continued coordinated crude supply.
+Strategic role: Malaysia&apos;s largest refinery and the anchor unit of the country&apos;s flagship downstream project, supplying domestic clean fuels and feeding the integrated petrochemical chain next door.
+Risks: Repeated unplanned outages and unit reliability problems, loss of Aramco&apos;s crude offtake certainty, volatile Asian refining margins and new competing capacity in China and the Middle East, freight and feedstock cost exposure on 100% imported crude, and process-safety and environmental risk at a site with a history of fire and explosion.</description>
+			<LookAt>
+				<longitude>104.173959524285</longitude>
+				<latitude>1.369043572799601</latitude>
+				<altitude>0</altitude>
+				<heading>0.00404357389608191</heading>
+				<tilt>8.021265484862365</tilt>
+				<range>12044.48650734411</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_volcano</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>104.1497294355222,1.358072528302383,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Refineries</name>
@@ -4369,6 +5401,145 @@ Risks: Ageing infrastructure, relatively low conversion complexity, refinery out
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>29.8576038,31.0988889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3DB7582FB24C12451556">
+			<name>Mozyr Oil Refinery</name>
+			<description>Refinery: Mozyr Oil Refinery
+Classification: Large refinery — not a mega-refinery
+Location: Mazyr, Gomel Region, Belarus, on the Pripyat River, about 30 km from the Ukrainian border. Coordinates are an approximate placement on the refinery/tank-farm complex on the city’s southeastern edge; not independently verified against a numbered survey source, so worth nudging onto the exact plant footprint once you’re zoomed in.
+Owner: Belarusian state, via the Belneftekhim concern, with a substantial minority stake historically held by Russia’s Slavneft (a Gazprom Neft–Rosneft joint venture)
+Capacity: Approximately 12 million tonnes per year (roughly 240,000 barrels per day) nameplate; actual throughput has run below capacity since 2022 amid sanctions-related disruption
+Main feedstocks: Russian crude delivered via the southern branch of the Druzhba pipeline
+Main products: Gasoline, diesel, jet fuel, fuel oil, LPG, bitumen and petrochemical intermediates
+Markets: Domestic Belarusian market, with historical exports to Ukraine, the Baltic states, Poland and other European destinations largely curtailed since 2022
+Recent data: Under EU, US, UK, Swiss, Canadian and Ukrainian sanctions since 2022; 2026 satellite-imagery reporting noted Russian-supplied air-defense equipment deployed at the site given its proximity to the border; a 2024 storm also forced a temporary outage
+Strategic role: One of Belarus’s two major refineries (with Naftan), central to national fuel self-sufficiency and to sustaining Russian crude processing despite Western sanctions
+Risks: Sanctions, loss of Western export markets, proximity to the war (~30 km from Ukraine), feedstock dependence on Russia via Druzhba, and equipment/parts access constraints</description>
+			<LookAt>
+				<longitude>29.25</longitude>
+				<latitude>52.018</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>5000</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_R00</styleUrl>
+			<Point>
+				<coordinates>29.25,52.018,130</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3C25956D108FB1189A11">
+			<name>Naftan Oil Refinery</name>
+			<description>Refinery: Naftan Oil Refinery
+Classification: Large refinery — not a mega-refinery
+Location: Novopolotsk (Navapolatsk), Vitebsk Region, northern Belarus, on the Western Dvina River. Coordinates are an approximate placement on the refinery complex on the city’s southern side; not independently verified against a numbered survey source.
+Owner: Belarusian state (99.83%), via the Belneftekhim concern
+Capacity: Approximately 12 million tonnes per year primary processing (roughly 240,000 barrels per day); a delayed-coking complex commissioned in 2022 lifted processing depth to about 97.5%
+Main feedstocks: Russian crude delivered via the northern branch of the Druzhba pipeline
+Main products: Diesel, gasoline, fuel oil, LPG, bitumen, sulfur and petrochemical intermediates
+Markets: Domestic Belarus, with historical exports to Russia, Ukraine, the Baltic states, the Netherlands and the UK, though most Western outlets have closed since 2021–2022 sanctions
+Recent data: Added to EU, US, UK, Swiss, Canadian and Ukrainian sanctions lists in 2021–2022; the LLK-Naftan joint venture was renamed/restructured (to “EddyTek”) to work around US sanctions; roughly $1.6 billion invested in modernization as of 2021
+Strategic role: One of Belarus’s two major refineries (with Mozyr), critical to national fuel supply and a continuing outlet for Russian crude
+Risks: Sanctions, loss of Western export markets and technology access, feedstock dependence on Russia via Druzhba, and workforce instability following mass firings after the 2020 political unrest</description>
+			<LookAt>
+				<longitude>28.605</longitude>
+				<latitude>55.517</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>5000</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_R10</styleUrl>
+			<Point>
+				<coordinates>28.605,55.517,130</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="C1307EEFEAE7C33C308B">
+			<name>Kuibyshev Refinery (Rosneft)</name>
+			<description>Refinery: Kuibyshev Refinery (Rosneft)
+Classification: Conventional refinery — not a mega-refinery
+Location: Groznenskaya Street 25, Samara, Samara Oblast, Russia
+Owner: Rosneft, via JSC Kuibyshev Refinery
+Capacity: About 7 million tonnes per year primary processing, equivalent to roughly 140,000 barrels per day; part of Rosneft’s three-refinery Samara hub alongside Novokuibyshevsk and Syzran
+Main feedstocks: Crude from Western Siberia and the Samara region
+Main products: Euro-5 gasoline and diesel, aviation kerosene, bitumen, LPG
+Markets: Volga region and Russia’s domestic market
+Recent data: A drone strike on 10 June 2026 hit both primary crude distillation units (CDU-4 and CDU-5, each around 73,000 barrels per day), forcing a full shutdown and starting fires; sister plants Syzran and Novokuibyshevsk have also been struck in the same campaign
+Strategic role: One of three Rosneft refineries in the Samara hub, a major Volga-region fuel supplier established in 1945
+Risks: Drone attacks, prolonged unit outages, sanctions, difficulty sourcing replacement equipment and catalysts, and fires</description>
+			<LookAt>
+				<longitude>50.13100153917697</longitude>
+				<latitude>53.1428679938745</latitude>
+				<altitude>0</altitude>
+				<heading>0.4402289781667563</heading>
+				<tilt>5.30243913541806</tilt>
+				<range>40875.53749948324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_R</styleUrl>
+			<Point>
+				<coordinates>50.06007733770959,53.10200646167157,35</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="D5AF86E4D683B6C4439F">
+			<name>Yaya Oil Refinery (Yaysky NPZ)</name>
+			<description>Refinery: Yaya Oil Refinery (Yaysky NPZ)
+Classification: Conventional refinery — not a mega-refinery
+Location: Anzhero-Sudzhensk, Kemerovo Oblast (Kuzbass), southwestern Siberia, Russia, in the Sudzhenka railway-station industrial area on the city’s edge. Coordinates are an approximate placement based on the plant’s registered address; not independently verified against a numbered survey source.
+Owner: JSC NefteKhimServis, a privately held Russian company (outside the Rosneft, Gazprom Neft and Lukoil groups)
+Capacity: 3.3 million tonnes per year primary crude processing (roughly 66,000 barrels per day), plus 1.6 million tonnes/year vacuum distillation and 0.7 million tonnes/year hydrotreating; a third-phase expansion (delayed coking and a depolarization complex, about 98 billion rubles) is under construction, targeting completion in 2027
+Main feedstocks: Crude oil and gas condensate delivered by rail
+Main products: AI-92/95/98 gasoline, diesel fuel, fuel oil and atmospheric gas oil
+Markets: Regional Siberian market (Kuzbass and West Siberia)
+Recent data: As of mid-2026 not reported among the roughly ten largest Russian refineries hit by the Ukrainian drone campaign, likely reflecting its distance from Ukraine (over 4,000 km) and smaller scale; Phase 3 construction reported on schedule in 2026
+Strategic role: A significant independent (non-major-oil-company) refinery serving the Kuzbass coal and industrial region
+Risks: Rail-logistics dependence for feedstock, market and margin exposure as an independent refiner without upstream production, execution risk on the Phase 3 expansion, and exposure to broader sanctions on Russian refined-product exports</description>
+			<LookAt>
+				<longitude>86.06</longitude>
+				<latitude>56.06</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>4000</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_R30</styleUrl>
+			<Point>
+				<coordinates>86.06,56.06,233</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="84EE0B6A38381F792A47">
+			<name>Kulevi Oil Refinery</name>
+			<description>Refinery: Kulevi Oil Refinery
+Classification: Conventional refinery — not a mega-refinery
+Location: Village of Kulevi, Khobi Municipality, Samegrelo-Zemo Svaneti Region, Georgia, Black Sea coast. Sources disagree on the exact distance from the SOCAR-owned Kulevi Oil Terminal (~2 km, ~3 km and ~5 km have all been reported); the plotted point is an approximate placement near the terminal and has not been independently verified against a numbered survey source or dated satellite imagery. Worth confirming visually once zoomed in — look for tall distillation towers, pipe racks and a flare stack, which distinguish it from the terminal’s plain cylindrical storage tanks.
+Owner: Black Sea Petroleum LLC; principal beneficial owners reported as Maka Asatiani and Konstantin Gogelia, alongside Dunamis LLC (29.34%) and bank/state financing (Georgian Development Fund, Cartu Bank, Basisbank, Khaliqbank)
+Capacity: First phase approximately 1.1 million tonnes per year (about 22,000 barrels per day); a second phase is planned to expand output to roughly 2.9–3.5 million tonnes per year by 2026–2027
+Main feedstocks: Crude oil received via the adjacent Kulevi terminal, including — per EU and investigative reporting — Russian-origin crude
+Main products: Refined petroleum products including diesel and gasoline
+Markets: Georgian domestic market and regional export
+Recent data: Construction began 2023–2024 and operations started around 2025; named in the EU’s 21st sanctions package (adopted 23 July 2026) for processing Russian crude, with an unprecedented six-month grace period before restrictions take effect; the operator has said it will stop processing Russian oil by August–September 2026; Transparency International Georgia and OCCRP have alleged the plant may function as a sanctions-evasion channel, citing ownership links to sanctioned Russian oligarch Mikhail Gutseriev and an October 2025 delivery via the sanctioned tanker Kayseri
+Strategic role: Georgia’s first and only oil refinery, built as a Black Sea processing hub for Caspian and (per sanctions findings) Russian crude
+Risks: EU/Western sanctions exposure, reputational and legal risk from Russian-crude-laundering allegations, ownership opacity, and dependence on the adjacent SOCAR terminal for feedstock</description>
+			<LookAt>
+				<longitude>41.66</longitude>
+				<latitude>42.255</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>3000</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_R40</styleUrl>
+			<Point>
+				<coordinates>41.66,42.255,4.999999999999999</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
@@ -5780,6 +6951,35 @@ Source: NUPRC crude oil terminal operations register; port-registry coordinate c
 				<coordinates>7.160021945461112,4.419963160069129,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="DD4F791C5111D38B2695">
+			<name>Kulevi Oil Terminal</name>
+			<description>Terminal: Kulevi Oil Terminal
+Alternative name: Kulevi Port / Black Sea Petroleum Terminal
+Classification: Major crude and refined-products storage, transshipment and export terminal — a combined port and tank-farm facility
+Location: Kulevi, Khobi Municipality, Samegrelo-Zemo Svaneti Region, Georgia, Black Sea coast, north of Poti
+Owner/Operator: SOCAR (State Oil Company of Azerbaijan Republic), via SOCAR Georgia Petroleum
+Main commodities: Crude oil and refined petroleum products, delivered mainly by rail from Azerbaijan and, per EU and OCCRP reporting, Russia; stored and loaded onto tankers for export
+Storage capacity: A large multi-tank crude and refined-products tank farm — one of the largest oil storage and loading facilities in Georgia
+Connected infrastructure: Rail link to Baku/Azerbaijan, marine loading berths and jetty on the Black Sea, and — since 2024–2025 — the adjacent but separately owned Kulevi Oil Refinery, for which it also handles cargo
+Main export markets: Black Sea and Mediterranean export markets via tanker
+Recent operations: Continued receiving and transshipping crude — including cargoes linked to Russian origin — through 2025–2026 despite Western sanctions scrutiny; unlike the neighboring refinery, the terminal itself was not named in the EU’s 21st sanctions package as of July 2026; a 2024 Black Sea oil spill was linked to operations in the area
+Strategic role: Georgia’s principal Black Sea oil import/export gateway and SOCAR’s main Georgian transshipment hub, now doubling as the feedstock-receiving point for the country’s first refinery
+Risks: Sanctions-evasion scrutiny (EU/OCCRP/Transparency International reporting), oil-spill risk, Black Sea shipping-security exposure, and reputational risk from handling Russian-linked crude</description>
+			<LookAt>
+				<longitude>41.64</longitude>
+				<latitude>42.27</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>6000</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle00</styleUrl>
+			<Point>
+				<coordinates>41.64,42.27,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Ports &amp; Maritime Logistics Hubs</name>
@@ -6689,48 +7889,68 @@ Risks: Tanker accidents, oil spills, LNG incidents, industrial fires, berth outa
 	</Folder>
 	<Folder>
 		<name>Oil Fields</name>
+		<open>1</open>
 		<Placemark>
 			<name>Bomu Oil Field</name>
-			<description>Role: Ogoniland field; historic source field of the Trans Niger Pipeline system
-Operator: SPDC / Renaissance</description>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<description>Operational status: Not operational, per available reporting — shut in since 1993. I&apos;m not fully certain this still holds as of mid-2026: Renaissance announced in July 2026 that it had revived &quot;a previously dormant Nigerian field,&quot; and separately Nigerian officials have discussed resuming Ogoniland production, but no source I found names Bomu specifically as restarted, so I can&apos;t confirm either way with confidence.
+Role: Ogoniland field (OML 11), Eastern Niger Delta, Gokana LGA, Rivers State — discovered 1958, shut in since 1993 amid community unrest; historic source field of the Trans Niger Pipeline system; comprises 96 wells, 5 flow stations and the Bomu Manifold, one of Africa&apos;s largest crude/gas gathering points
+Operator: Renaissance Africa Energy Company (RAEC, formerly SPDC — acquired March 2025); JV partners NNPC 55%, Renaissance 30%, TotalEnergies 10%, Eni 5%
+Capacity: Historic peak of about 75,000 barrels per day (26 oil-producing wells) before the Nigerian Civil War; effectively zero output while shut in
+Recent data: Renaissance&apos;s July 2026 announcement (NOG Energy Week, Abuja) of reviving a dormant field, and government statements about Ogoniland (&gt;40% of OML 11&apos;s recoverable reserves) potentially resuming production with 30 Ogoni workers to be hired from January 2026 — neither confirmed as applying to Bomu by name
+Risks: Community unrest and sabotage risk tied to the field&apos;s history (1995 execution of the &quot;Ogoni Nine,&quot; including Ken Saro-Wiwa, remains a live grievance); unresolved HYPREP remediation and UNEP-documented soil/groundwater contamination; oil theft and illegal refining common across the wider Niger Delta; reputational risk for any operator restarting without Ogoni community buy-in</description>
+			<styleUrl>#scic_oil_field10011</styleUrl>
 			<Point>
 				<coordinates>7.2835,4.6605,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nembe Field Area (OML 29)</name>
-			<description>Role: OML 29 fields (Nembe, Santa Barbara, Okoroba, Oloibiri); source of the Nembe Creek Trunk Line
-Operator: Aiteo</description>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<description>Operational status: Operational — currently producing, though reported output varies noticeably by source (see Capacity/Recent data below), likely reflecting real swings from pipeline vandalism and crude theft rather than a data error on my part.
+Role: OML 29 fields (Nembe, Santa Barbara, Okoroba, Oloibiri — Nigeria&apos;s first commercial oil discovery, 1956), southeastern Niger Delta, Bayelsa State; 983 km² block with 11 oil and gas fields; source field for the Nembe Creek Trunk Line (100 km, 600,000 bpd nameplate pipeline capacity)
+Operator: Nembe E&amp;P Limited (rebranded from Aiteo Eastern E&amp;P Company, which bought the block from SPDC/Shell in 2015 for $1.7bn), in joint venture with NNPC
+Capacity: Reported production figures diverge by source and date — Vanguard (July 2025) cites ~150,000 bopd + 250 MMscf/d gas with a 200,000 bopd target via a new Central Processing Facility and 17 new wells; Guardian (July 2025) cites only ~60,000 bopd with a 100,000–120,000 bopd target, attributing the shortfall to pipeline vandalism and theft that has at times cut volumes by up to 90%. Reserve base is estimated at 2.2 billion barrels of oil equivalent. I can&apos;t reconcile which current figure is more accurate.
+Recent data: New Central Processing Facility targeted for Q3 2025; Nigerian officials describe Nembe&apos;s recovery as &quot;critical&quot; to the national 2 million bpd production target (actual national output ~1.4 million bpd as of mid-2025)
+Risks: Pipeline vandalism and large-scale crude theft (the dominant risk per recent reporting); major well-blowout risk demonstrated by the November 2021 Santa Barbara Well 1 blowout, which spilled crude for weeks, hit ~40 communities across Bayelsa and Rivers States, and drew criticism over slow federal/regulatory response; community and environmental-compensation pressure; reserve/production volatility tied to security conditions in the wider Niger Delta</description>
+			<styleUrl>#scic_oil_field1000</styleUrl>
 			<Point>
 				<coordinates>6.35,4.53,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Liza Field / FPSO Station</name>
-			<description>Role: Producing field, ~190 km offshore, 1500-1900 m water depth
-Operator: ExxonMobil (Esso Guyana)</description>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<description>Operational status: Operational — Stabroek Block producing 900,000 bopd (Nov 2025) across 4 FPSOs, including both Liza phases
+Role: Deepwater field, Stabroek Block, offshore Guyana, ~190 km out, 1,500–1,900 m water depth; developed via two FPSOs, Liza Destiny (Phase 1) and Liza Unity (Phase 2)
+Operator: ExxonMobil 45% (operator); Chevron 30% (via Hess acquisition); CNOOC 25%
+Capacity: Liza Destiny ~120,000 bopd; Liza Unity up to 220,000 bopd (peak reported at 252,000 bopd)
+Recent data: Stabroek Block hit 900,000 bopd in Nov 2025; targeting 1.7 million bopd by 2030 across 8 developments
+Risks: Venezuela–Guyana Essequibo/maritime dispute, now before the ICJ; March 2025 Venezuelan naval incursion near the Prosperity FPSO (Payara, not Liza); standard deepwater FPSO operational and spill risk</description>
+			<styleUrl>#scic_oil_field100</styleUrl>
 			<Point>
 				<coordinates>-56.917,8.016999999999999,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Hassi Messaoud Oil Field</name>
-			<description>Role: Principal producing field feeding the Saharan Blend export blend
-Operator: Sonatrach</description>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<description>Operational status: Operational — Algeria&apos;s largest producing oil field, still flowing since 1956
+Role: Onshore field, Ouargla Province, Sahara Desert, Algeria; anchor field feeding the Saharan Blend export crude
+Operator: Sonatrach (state-owned, sole operator)
+Capacity: ~350,000 bopd currently; reserves estimated at ~6.4 billion barrels
+Recent data: Part of Sonatrach&apos;s 2025–30 investment plan (500 exploratory + 950 development wells nationally, incl. a new 60,000 bopd separation/compression center at Hassi Messaoud); Algeria&apos;s overall reserves (~13 billion bbl) could deplete within ~30 years without new discoveries, per officials
+Risks: Natural decline from a mature 1956-vintage field, requiring ongoing enhanced-oil-recovery investment; broader Sahel security concerns near Algeria&apos;s borders (though no attacks on this field specifically found); reliance on continued state investment to offset output decline</description>
+			<styleUrl>#scic_oil_field1007</styleUrl>
 			<Point>
 				<coordinates>6.072899999999999,31.6804,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Girassol Field / FPSO</name>
-			<description>Role: Producing field &amp; FPSO (~200 kb/d); commingled Girassol+Jasmim+Rosa stream
-Operator: TotalEnergies
-Coordinate confidence: Approximate</description>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<description>Operational status: Operational — producing since 2001, still active as of July 2026
+Role: Deepwater FPSO field, Block 17, offshore Angola, ~150 km out in 600–1,400 m water depth; commingles the Girassol, Jasmim and Rosa streams (aka the &quot;GirRI&quot; — Girassol/Rosa/Jasmim Resource Initiative)
+Operator: TotalEnergies 38% (operator); partners Equinor 22%, ExxonMobil 19%, Azule Energy 15%, Sonangol 5%
+Capacity: Peaked around 200,000+ bopd in the 2000s–2010s, down to roughly 90,000 boe/d by 2021 as the field matures; one of four FPSOs on Block 17 (with Dalia, Pazflor, CLOV) that together produce ~440,000 boe/d
+Recent data: Block 17 has produced ~3 billion barrels since 2001, with over 1 billion barrels still estimated recoverable (2019 estimate); no field-specific 2025–26 developments found
+Risks: Natural production decline from a maturing 20+ year-old field; standard deepwater operational and spill risk; long-term reserve/output sustained mainly via infill drilling and the wider GirRI redevelopment effort</description>
+			<styleUrl>#scic_oil_field10014</styleUrl>
 			<Point>
 				<coordinates>11.683,-7.652999999999999,0</coordinates>
 			</Point>
@@ -6747,7 +7967,7 @@ Coordinate confidence: Approximate</description>
 				<range>629.4335268571252</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10018</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<coordinates>144,51.4,0</coordinates>
@@ -6765,7 +7985,7 @@ Coordinate confidence: Approximate</description>
 				<range>619.0072124953833</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10018</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<coordinates>144.2,52.09999999999999,0</coordinates>
@@ -6773,6 +7993,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="06E2D3E90A3F2D157379">
 			<name>Kirkuk Oil Field (Baba Gurgur)</name>
+			<description>Operational status: Operational, but far below historical capacity — producing ~350,000–360,000 bopd, with a major redevelopment underway
+Role: One of the world&apos;s oldest and largest oil fields, near Kirkuk, northern Iraq; discovered at Baba Gurgur in 1927 by the Turkish Petroleum Company, onstream 1934; disputed territory between Baghdad and the Kurdistan Regional Government; feeds the Kirkuk–Ceyhan pipeline to Turkey
+Operator: North Oil Company (NOC, Iraqi state) operates the Baba/Avanah domes plus adjacent Bai Hassan, Jambur and Khabbaz fields (98% of Kirkuk&apos;s reserves); BP signed a finalized contract (March 2025, MoU Jan 2025) to operate a new joint NOC/North Gas Company/BP redevelopment unit
+Capacity: Historical peak near 1 million bopd with reserves once estimated over 20 billion barrels; both have fallen sharply from decades of underinvestment — current reserves ~8.9 billion barrels; BP&apos;s initial redevelopment phase targets combined production/reserves of 3+ billion boe (up to 20 billion boe across the wider contract area), aiming to push output toward ~500,000 bopd
+Recent data: As of March 2026, Iraq was racing to revive the dormant Kirkuk–Ceyhan pipeline (only ~100 km left to hydrotest, targeting 200,000–250,000 bopd capacity) after southern export routes were disrupted by a Strait of Hormuz closure and Iranian strikes on export infrastructure — national Iraqi output reportedly collapsed from ~4.3 million to ~1.4 million bopd amid that crisis, elevating Kirkuk&apos;s strategic importance
+Risks: Nine decades of underinvestment leaving aging, poorly-maintained infrastructure and gas flaring; Kirkuk&apos;s disputed Baghdad–KRG status; broader 2026 regional conflict risk (Hormuz closure, Iranian strikes) disrupting Iraq&apos;s main southern export routes and elevating reliance on this more vulnerable northern corridor; execution risk on the new BP-operated redevelopment</description>
 			<LookAt>
 				<longitude>44.33388451020458</longitude>
 				<latitude>35.51952125389722</latitude>
@@ -6783,7 +8009,7 @@ Coordinate confidence: Approximate</description>
 				<range>10596.13610420725</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10019</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="0C71B641FF3F2D15737B">0</SimpleData>
@@ -6796,6 +8022,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="072AC446C03F2D28A0C3">
 			<name>Taq Taq oil field</name>
+			<description>Operational status: Not operating — production ceased before the 2023 KRG export-pipeline closure, and Genel produced nothing from the field in 2024; Genel formally agreed exit terms with the KRG in January 2025, so as of the most recent reporting the field is shut in with no confirmed operator or restart plan
+Role: Onshore field near the town of Taq Taq, Kurdistan Region, Iraq; PSC first signed by Genel Energy in 2002; was once the largest internationally-operated field in Kurdistan
+Operator: Genel Energy (operator, historically ~44% — exiting); partners historically included Sinopec/Addax Petroleum (~36%) and the Kurdistan Regional Government (~20%); I couldn&apos;t independently re-confirm these exact percentages as still current, given the exit is underway
+Capacity: Peaked at 116,000 bopd in 2015; fell sharply after 2017 due to geological complications and reserve downgrades, down to under 5,000 bopd before the 2023 pipeline closure, then to zero
+Recent data: Genel exited the Taq Taq PSC (terms agreed Jan 2025) to shed residual decommissioning liability, leaving its Kurdistan presence reduced to a 25% non-operated stake in DNO&apos;s Tawke field; separately, the wider KRG–Turkey export pipeline (Kirkuk–Ceyhan) reopened in September 2025 after a 2.5-year halt, with the export deal since extended to March 2026 — a development that could theoretically support a Taq Taq restart under a new operator, though none has been confirmed
+Risks: Field abandonment/decommissioning liability now shifting to remaining/incoming partners; steep, poorly-understood geological decline that ended Genel&apos;s operatorship; Kurdistan-Baghdad political and pipeline-access risk; no confirmed path back to production</description>
 			<LookAt>
 				<longitude>43.97388591362881</longitude>
 				<latitude>36.25606542224983</latitude>
@@ -6806,7 +8038,7 @@ Coordinate confidence: Approximate</description>
 				<range>8023.972904192051</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10015</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="108A3C7DC63F2D28A0C3">0</SimpleData>
@@ -6819,6 +8051,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="07C24C13813F39F143AC">
 			<name>Tawke oil field</name>
+			<description>Operational status: Uncertain/volatile — as of the last confirmed report (March 13, 2026), DNO had shut down production as a precaution amid the Iran-Israel-US war (following earlier damaging drone strikes in July 2025); I found no more recent confirmation of whether production has resumed since then
+Role: Onshore field complex (Tawke + Peshkabir), Kurdistan Region, Iraq; includes a gas-capture/reinjection project cutting Peshkabir&apos;s emissions intensity roughly in half
+Operator: DNO ASA 75% (operator); Genel Energy 25%
+Capacity: 2025 average gross production ~70,100 boe/d, rising to ~77,300 boe/d by Q4 2025 after maintenance; target of 100,000 boe/d from Tawke+Peshkabir combined; historical run-rate had been over 100,000–120,000 bopd in 2019–2020
+Recent data: Production resumed/ramped in Feb 2026 after a 30-month drilling hiatus tied to the 2023–2025 KRG export-pipeline closure, backed by a two-rig (soon three-rig), eight-well 2026 drilling program and $100 million planned Kurdistan capex (vs. $22 million in 2025) — before the March 2026 war-related shutdown described above; license runs to 2026 with an automatic 5-year extension option to 2031 (potentially to 2036)
+Risks: Direct exposure to the 2025–26 regional war (drone strikes, precautionary shutdowns); recurring KRG–Baghdad export-pipeline disputes/closures; Kurdistan political and security risk generally; execution risk on the newly restarted drilling campaign</description>
 			<LookAt>
 				<longitude>42.79620380482646</longitude>
 				<latitude>37.13612164673467</latitude>
@@ -6829,13 +8067,19 @@ Coordinate confidence: Approximate</description>
 				<range>3364.727699850337</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1003</styleUrl>
 			<Point>
 				<coordinates>42.79533850917564,37.13455384915873,570.2466207505971</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="00FD4B720E3F39F9EB09">
 			<name>Shaikan oil filed</name>
+			<description>Operational status: Currently suspended (as of late July 2026) — precautionary shutdown amid Iran-Israel-US conflict spillover into the region; this is the field&apos;s second shut-in this year (also halted briefly in Feb 2026).
+Role: Onshore oil field ~60 km northwest of Erbil, Kurdistan Region, northern Iraq; producing since 2013.
+Operator: Gulf Keystone Petroleum (80% working interest, operator); MOL Group holds the remaining 20%.
+Capacity: Two production facilities, ~60,000 bopd total processing capacity; gross 2P reserves of 416 million bbl (as of Dec 2025), ~27 years of reserve life at current rates.
+Recent data: Averaged ~41,560 bopd in 2025 (briefly exceeded 45,000 bopd just before the July suspension); cumulative production over 150 million bbl since 2013; ~$269m revenue on 9.6 million bbl produced in the first 8 months of 2025.
+Risks: Sole export route is the Iraq-Turkey (Ceyhan) pipeline system with no redundancy; recurring shutdowns tied to Iran-related regional conflict; unresolved Baghdad-Erbil payment disputes; scheduled US troop withdrawal from Kurdistan by Sept 30, 2026 removes an implicit security backstop.</description>
 			<LookAt>
 				<longitude>43.26884624947994</longitude>
 				<latitude>36.82751206699264</latitude>
@@ -6846,7 +8090,7 @@ Coordinate confidence: Approximate</description>
 				<range>1910.304970643192</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10017</styleUrl>
 			<Point>
 				<coordinates>43.26382573337291,36.82832234899749,591.5106136316049</coordinates>
 			</Point>
@@ -6863,7 +8107,7 @@ Coordinate confidence: Approximate</description>
 				<range>897.977559363571</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10018</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.41108860000001,30.2304687,0</coordinates>
@@ -6881,7 +8125,7 @@ Coordinate confidence: Approximate</description>
 				<range>892.7272802933054</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10018</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.27040980000001,30.746856,0</coordinates>
@@ -6899,7 +8143,7 @@ Coordinate confidence: Approximate</description>
 				<range>894.62584680199</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10018</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.3655281,30.5609741,0</coordinates>
@@ -6917,7 +8161,7 @@ Coordinate confidence: Approximate</description>
 				<range>883.1037221287936</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10018</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.4323452,31.6749414,0</coordinates>
@@ -6925,7 +8169,11 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="0C734745E640214C7E68">
 			<name>Tengiz, Drilling oil filed (CPC blend)</name>
-			<description><![CDATA[<p style="margin: 0px 0px 16.4px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 16.4px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-style: normal; font-kerning: none;"><b><span class="font" style="font-family: TimesNewRomanPS-BoldMT;"><span class="size" style="font-size: 16.43px;">One of the</span></span></b></span><br></p><p style="margin: 0px 0px 14px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 21px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-style: normal; font-kerning: none;"><b><span class="font" style="font-family: TimesNewRomanPS-BoldMT;"><span class="size" style="font-size: 21px;">largest oil fields in the world</span></span></b></span><br></p><ul style="list-style-type: disc;"><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Discovered: 1979 (Soviet era)</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Production: ~600,000–700,000 barrels/day</span></span></span><br></li></ul><p style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(128, 128, 128); min-height: 13.8px;"><br></p><div>&nbsp;&nbsp;&nbsp; Oil is extracted from deep reservoirs<br></div><div>* Sent to processing plants (CPF – Central Processing Facilities)<br></div><div>* Gas and sulfur removed (very important at Tengiz)<br></div><div>* Oil is stabilized (made safe for transport)<br></div><div><br></div><div>👉 Then:<br></div><div><br></div><div>* It enters gathering pipelines<br></div><div>* Flows to the CPC pipeline inlet<br></div><div><br></div><div><br></div><div><br></div><p style="margin: 0px 0px 14px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 21px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-style: normal; font-kerning: none;"><b><span class="font" style="font-family: TimesNewRomanPS-BoldMT;"><span class="size" style="font-size: 21px;">🔹 Extremely rich but technically complex</span></span></b></span><br></p><ul style="list-style-type: disc;"><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Very high reservoir pressure</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">High sulfur content (H₂S gas)</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Requires advanced processing</span></span></span><br></li></ul><p style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(128, 128, 128); min-height: 13.8px;"><br></p><p style="margin: 0px 0px 14px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 21px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-style: normal; font-kerning: none;"><b><span class="font" style="font-family: TimesNewRomanPS-BoldMT;"><span class="size" style="font-size: 21px;">🔹 Operated by:</span></span></b></span><br></p><ul style="list-style-type: disc;"><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Chevron (major stakeholder)</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">With partners:</span></span></span><br></li><ul style="list-style-type: circle;"><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">ExxonMobil</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">KazMunayGas</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Lukoil</span></span></span><br></li></ul></ul><p style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(128, 128, 128); min-height: 13.8px;"><br></p><p style="margin: 0px 0px 14.9px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 18px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-style: normal; font-kerning: none;"><b><span class="font" style="font-family: TimesNewRomanPS-BoldMT;"><span class="size" style="font-size: 18px;">⚙️ What happens there</span></span></b></span><br></p><ul style="list-style-type: disc;"><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Oil is extracted and partially processed</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Stabilized crude is sent into the CPC pipeline</span></span></span><br></li><li style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-size: 20px; line-height: normal; font-family: &quot;Times New Roman&quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family: &quot;Times New Roman&quot;;"><span class="size" style="font-size: 20px;">Then transported ~1,500 km to the Black Sea</span></span></span><br></li></ul><div><br></div>]]></description>
+			<description>Operational status: Operational — recovered from a major January 2026 power-facility fire that forced a near-total shutdown for most of that month; full production (~950,000 bopd) was targeted for restoration by Feb 23, 2026, and no further disruption reports found since
+Role: Kazakhstan&apos;s largest oil field, onshore near the Caspian Sea; crude blended into &quot;CPC Blend&quot; and exported via the Caspian Pipeline Consortium (CPC) pipeline to the Black Sea (Novorossiysk)
+Operator: Tengizchevroil (TCO) — Chevron 50% (operator), ExxonMobil 25%, KazMunayGas 20%, LukArco 5%; JV formed 1993 under a 40-year development agreement
+Capacity: ~950,000 bopd (~120,000 tonnes/day) following completion of the Future Growth Project–Wellhead Pressure Management Project (FGP-WPMP) expansion (WPMP started April 2024; FGP first oil January 2025) — roughly 50% higher than pre-expansion output
+Recent data: January 2026 fires at onsite power facilities forced a near-complete shutdown; CPC loadings</description>
 			<LookAt>
 				<longitude>53.3912354</longitude>
 				<latitude>46.14843079999999</latitude>
@@ -6936,7 +8184,7 @@ Coordinate confidence: Approximate</description>
 				<range>705.0070574178768</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1009</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>53.4062187167094,46.15216146839361,0</coordinates>
@@ -6944,6 +8192,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="0B5E62717C3F3CCE416C">
 			<name>Ahdab Oil Field ( Al-Waha Petroleum Company)</name>
+			<description>Operational status: Operational — producing since 2011, with output ramping up sharply in 2025
+Role: Onshore field, Wasit Governorate, Iraq (32.42°N, 45.71°E); discovered 1979, developed under one of Iraq&apos;s earliest post-2008 technical service contracts
+Operator: China National Petroleum Corporation (CNPC), via its Iraq subsidiary Al-Waha Petroleum Company; partners Midland Oil Company (MdOC, Iraqi state) and China ZhenHua Oil
+Capacity: ~43.8 million bbl/year (~120,000 bopd) in 2025, up sharply from ~16.8 million bbl/year (~46,000 bopd) in 2023; ~1 billion barrels of oil reserves plus substantial associated gas (~21.2 bcm reserves, ~5 bcm cumulative gas production by 2024)
+Recent data: April 2025 — MdOC and Al-Waha restarted a previously idle vertical well (ADR3-3ST) using horizontal drilling, yielding strong output with low water cut; framed as a repeatable model for reviving other idle wells across the field
+Risks: Reliance on aging/idle wells requiring workover investment to sustain the recent production growth; Iraqi political, security and contractual (service-fee vs. profit-sharing) risk typical of CNPC&apos;s Iraq portfolio; water-handling/reservoir-management challenges in older wells</description>
 			<LookAt>
 				<longitude>45.6657142</longitude>
 				<latitude>32.4933051</latitude>
@@ -6954,7 +8208,7 @@ Coordinate confidence: Approximate</description>
 				<range>874.4207686807406</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10021</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>45.6657142,32.4933051,0</coordinates>
@@ -6962,6 +8216,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="054A8A275C3F3CCF9266">
 			<name>East Baghdad Field</name>
+			<description>Operational status: Not yet clearly confirmed as producing — as of the most recent reporting, first oil was targeted for June 2026 and first gas for September 2026 (drilling of 18 planned wells was underway); I could not confirm whether that startup has actually occurred as of today
+Role: Iraqi &quot;super-giant&quot; oil (and gas) field literally underlying populated parts of eastern Baghdad, 11 km wide x 64 km long; historically stranded because of its urban location and, for years, a lack of international bidder interest (JAPEX talks fell through in 2009)
+Operator: Midland Oil Company (MdOC, Iraqi state), developing jointly with EBS Petroleum (representing China&apos;s ZhenHua Oil); Iraqi Drilling Company (IDC) handling well drilling
+Capacity: Original 2009-era estimate was 8 billion barrels recoverable / up to 400,000 bopd potential; reserves have since been revised up to 15 billion barrels (from 13bn) following new discoveries, making it central Iraq&apos;s largest oil resource; near-term target is 120,000 bopd oil plus 25–50 MMcf/d gas
+Recent data: Contract area expanded by 95 km² west of the Diyala River in February 2025, adding ~710 million barrels of estimated resources; part of Iraq&apos;s broader 2026 wave of major oil-project startups
+Risks: Urban/populated-area development constraints (drilling and infrastructure under inhabited Baghdad neighborhoods); Iraqi political and security risk; execution risk on an aggressive 2026 startup timeline; historical precedent of stalled development due to lack of investor interest</description>
 			<LookAt>
 				<longitude>44.6484347</longitude>
 				<latitude>33.3526498</latitude>
@@ -6972,7 +8232,7 @@ Coordinate confidence: Approximate</description>
 				<range>865.1073099074351</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1005</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>44.6484347,33.3526498,0</coordinates>
@@ -6980,6 +8240,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Hebron-Ben Nevis oil field</name>
+			<description>Operational status: Operational, though it experienced production curtailments in 2025 — a January 2025 shuttle-tanker collision at the Whiffen Head terminal jetty plus a shuttle-tanker shortage and bad weather cut output for weeks; Wikipedia also notes the platform &quot;under maintenance since 2025,&quot; which I couldn&apos;t independently confirm as an extended shutdown versus normal turnaround maintenance
+Role: Gravity-based structure (GBS) platform, Jeanne d&apos;Arc Basin, offshore Newfoundland, ~350 km SE of St. John&apos;s, 92 m water depth; Canada&apos;s largest offshore oil platform
+Operator: ExxonMobil Canada 36% (operator); Chevron 27%; Suncor Energy 23%; Equinor 10%; Newfoundland and Labrador Hydro 4%
+Capacity: Platform designed for ~150,000 bopd average over a 30-year life, with peak capacity around 250,000 bopd; ~700 million barrels of producible hydrocarbons in place
+Recent data: Discovered 1980, onstream 2017; a December 2023 regulatory approval added previously excluded Jeanne d&apos;Arc formation sands with reserves revised sharply upward (Jeanne d&apos;Arc formation 132→165 MMboe; Pool 1 560→596 MMbbl; Hibernia formation 15→59 MMbbl), using existing infrastructure with no new drill centers
+Risks: Harsh North Atlantic weather affecting shuttle-tanker logistics and export; shared exposure to shuttle-tanker/terminal incidents (as in the Jan 2025 Whiffen Head collision); standard GBS/deepwater operational risk; multi-partner JV coordination</description>
 			<LookAt>
 				<longitude>-48.48480172021237</longitude>
 				<latitude>46.45951239102587</latitude>
@@ -6989,7 +8255,7 @@ Coordinate confidence: Approximate</description>
 				<range>537383.3624242913</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10012</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-48.50164494640178,46.52184234093943,0</coordinates>
@@ -6997,6 +8263,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Cold Lake Blend Production Facility</name>
+			<description>Operational status: Operational — continuously producing since 1985 (pilot since 1975), currently ramping up via new SAGD conversion projects
+Role: In-situ oil sands complex, Cold Lake region, Alberta, Canada, extracting bitumen from the Clearwater formation across multiple pad areas (Kirby, Mahihkan, Leming, Maskwa, Mahkeses, Nabiye); produces the &quot;Cold Lake Blend&quot; (CL) heavy crude, moved via the Cold Lake Pipeline to Edmonton/Hardisty
+Operator: Imperial Oil, 100% owned and operated
+Capacity: ~190,000 bbl/d design capacity; current output ~150,000 bbl/d, targeted to reach 165,000 bbl/d by 2030
+Recent data: Transitioning from legacy Cyclic Steam Stimulation (CSS) to Solvent-Assisted SAGD — Grand Rapids SA-SAGD onstream since 2024; Leming SAGD began steam injection summer 2025 with first oil expected end-2025; Mahihkan SA-SAGD targeted for 2029; combined projects expected to add ~50,000 bbl/d by 2030 while cutting the steam-to-oil ratio from 4.4 to a targeted 3.5
+Risks: Natural-gas price exposure (steam generation is gas-intensive); Cold Lake Blend/heavy-oil price discount to WTI; execution risk converting decades-old CSS infrastructure to SA-SAGD; Canadian oil-sands emissions-cap and carbon-pricing regulatory exposure; pipeline egress/takeaway capacity dependence</description>
 			<LookAt>
 				<longitude>-110.5356938911647</longitude>
 				<latitude>55.07062982057658</latitude>
@@ -7006,7 +8278,7 @@ Coordinate confidence: Approximate</description>
 				<range>5847.445808746465</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1006</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-110.5356938911647,55.07062982057658,0</coordinates>
@@ -7014,7 +8286,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="0F0D10EA6840677FCB7A">
 			<name>Ras Shukier oil field</name>
-			<description><![CDATA[<p style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-width: normal; font-size: 23px; line-height: normal; font-family: system-ui; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family:system-ui"><span class="size" style="font-size:23px">This is where Egypt actually </span></span></span><span style="font-weight: normal; font-kerning: none;"><i><span class="font" style="font-family:system-ui"><span class="size" style="font-size:17px">pumps its own oil out of the ground</span></span></i></span><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family:system-ui"><span class="size" style="font-size:23px"> — its domestic production, in the Gulf of Suez.<span class="Apple-converted-space">&nbsp;</span></span></span></span><br></p><div><br></div>]]></description>
+			<description>Operational status: Operational — active field and Egypt&apos;s key Gulf of Suez export hub
+Role: Field and major crude-export terminal, Ras Shukheir, Red Sea Governorate, ~north of Hurghada, Gulf of Suez, Egypt; terminal aggregates and loads crude from multiple GUPCO-area fields (incl. Morgan, discovered 1967); feeds the 340 km Ras Shukeir–Asyut pipeline (operator: EGPC&apos;s Petroleum Pipeline Company) to inland refineries
+Operator: GUPCO (Gulf of Suez Petroleum Company), a 50/50 BP–EGPC joint venture; a separate, smaller adjacent concession (the 40 km² Offshore Shukheir Marine Concession) is run by OSOCO, currently farmed out to PETZED Investments
+Capacity: Field/terminal-specific bpd figures weren&apos;t available in current sourcing; GUPCO&apos;s wider Gulf of Suez operations were producing ~71,250 bopd as of a 2026 report (highest since July 2019), with incremental additions from fields like North Safa
+Recent data: GUPCO&apos;s Gulf of Suez concession was extended in 2005 for 20 more years (through ~2025), alongside $1.4bn of past infrastructure/exploration investment; I could not confirm a Ras Shukheir-specific 2025–26 update beyond this general GUPCO-area activity
+Risks: Mature, decades-old Gulf of Suez basin with natural decline risk; concession-renewal/political risk tied to EGPC terms; fragmented multi-operator concession structure (GUPCO vs. OSOCO) around the same area adds some ownership complexity; standard marine-terminal and pipeline spill/operational risk</description>
 			<LookAt>
 				<longitude>33.2756409</longitude>
 				<latitude>28.1316192</latitude>
@@ -7025,7 +8302,7 @@ Coordinate confidence: Approximate</description>
 				<range>2235.956018491528</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10016</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>33.2756409,28.1316192,0</coordinates>
@@ -7033,7 +8310,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark id="0B88D3B248406780BADA">
 			<name>Zeit Bay oil field</name>
-			<description><![CDATA[<p style="margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-width: normal; font-size: 23px; line-height: normal; font-family: system-ui; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;"><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family:system-ui"><span class="size" style="font-size:23px">This is where Egypt actually </span></span></span><span style="font-weight: normal; font-kerning: none;"><i><span class="font" style="font-family:system-ui"><span class="size" style="font-size:17px">pumps its own oil out of the ground</span></span></i></span><span style="font-weight: normal; font-style: normal; font-kerning: none;"><span class="font" style="font-family:system-ui"><span class="size" style="font-size:23px"> — its domestic production, in the Gulf of Suez.<span class="Apple-converted-space">&nbsp;</span></span></span></span><br></p><div><br></div>]]></description>
+			<description>Operational status: Operational — mature, declining field still producing as of the mid-2010s onward (no evidence of shut-in)
+Role: Onshore/coastal field, Gulf of Suez, Egypt, ~80 km north of Hurghada; one of three core concessions (with Ras Fanar and Ras Budran) run by Suez Oil Company (SUCO); has an associated Zeit Bay export terminal; notable for producing from a fractured basement reservoir
+Operator: Suez Oil Company (SUCO), a 1979 JV between EGPC (Egypt&apos;s state oil company) and the German DEA stake — now held by Harbour Energy following its 2024 acquisition of Wintershall Dea&apos;s E&amp;P business
+Capacity: Reserves ~215 million boe (1996 estimate); by the mid-2010s roughly 80% of existing-well resources were already extracted; Zeit Bay-specific output was small (~4,850–5,500 bopd) from 19 wells, sustained via artificial lift and secondary recovery
+Recent data: Ownership transferred from Wintershall Dea to Harbour Energy in 2024 as part of an $11.2bn global asset-portfolio deal; no Zeit Bay-specific 2025–26 news found — broader GUPCO-area Gulf of Suez fields (a separate JV) have seen incremental new-well additions in 2026
+Risks: Deep field maturity/depletion (~80%+ of accessible reserves already produced), requiring continued secondary-recovery investment just to hold output; relatively high lifting costs (~$9.60/bbl) typical of a declining mature basin; ownership-transition integration risk following the Harbour Energy takeover</description>
 			<LookAt>
 				<longitude>33.57398443307559</longitude>
 				<latitude>27.80800299911596</latitude>
@@ -7044,13 +8326,19 @@ Coordinate confidence: Approximate</description>
 				<range>3642.746898007463</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10010</styleUrl>
 			<Point>
 				<coordinates>33.57398443307559,27.80800299911596,5.868974768868116</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="0501746E9A402134DD91">
 			<name>Forties field</name>
+			<description>Operational status: Still operational, but in active wind-down — very low output (~10,000 bopd as of 2025) and decommissioning contracts already being let for some wells, even though Apache disputes reports of an imminent 2026 full shutdown
+Role: Historic North Sea field, UK sector, 110 miles ENE of Aberdeen, 350 ft water depth; first oil discovered by BP in 1970, onstream 1975; feeds the Forties Pipeline System (FPS), sold by BP to INEOS in 2017
+Operator: Apache/APA Corporation (bought BP&apos;s 96% stake in 2003 for $812m); pipeline system separately owned by INEOS FPS
+Capacity: Peaked at 500,000 bopd in 1979; fell to ~41,700 bopd (2013), ~20,000 bopd (2021), and ~10,000 bopd (2025); oil-in-place was 4.2 billion barrels at the 2003 BP sale, plus ~800 million barrels found since by Apache
+Recent data: A 2025 court dispute over a Decommissioning Security Agreement (with BP, Shell, Esso/ExxonMobil, NEO Energy) modeled a 2026 cessation date; Apache disputes this as a mischaracterization and is seeking to push the modeled cessation to 2030+, while cutting capex sharply and halting new North Sea drilling; a multi-year plug-and-abandonment campaign with Well-Safe Solutions began in 2026
+Risks: Imminent end-of-field-life/decommissioning risk regardless of exact COP date; UK windfall tax cited by Apache as a deterrent to further investment; legal/financial dispute risk among JV partners over decommissioning liability; 50-year-old infrastructure integrity risk</description>
 			<LookAt>
 				<longitude>0.9186999999999999</longitude>
 				<latitude>57.73079999999998</latitude>
@@ -7061,15 +8349,20 @@ Coordinate confidence: Approximate</description>
 				<range>532.5658184417654</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10022</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<coordinates>0.9187,57.7308,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="041F6D2F9A3F2D8A9E60">
-			<name>Offshore fields</name>
-			<description><![CDATA[<div>Oil -&nbsp;Azeri–Chirag–Gunashli (ACG) offshore fields<br></div><li><br></li><li>Gas -&nbsp;Shah Deniz field<br></li><div><br></div>]]></description>
+			<name>Azeri–Chirag–Gunashli (ACG) offshore fields</name>
+			<description>Operational status: Operational — producing since November 1997, now also entering gas production as of 2026
+Role: Giant offshore oil (and now gas) complex, Caspian Sea, ~120 km off Azerbaijan&apos;s coast (40°01&apos;N, 51°16&apos;E); comprises the Azeri, Chirag and Deepwater Gunashli fields across a 432 km² development area; oil evacuated via existing Sangachal Terminal infrastructure
+Operator: BP 30.37% (operator, as AIOC consortium); SOCAR 31.66%; MOL 9.57%; INPEX 9.31%; ExxonMobil 6.79%; TPAO 5.73%; Itochu 3.65%; ONGC Videsh 2.93% (Q1 2024 shares)
+Capacity: Peaked at 885,000 bopd in 2010; down to ~339,000 bopd by Q1 2024 as the field matures; oil in place ~5 billion bbl with 5–6 billion bbl recoverable; newly confirmed non-associated gas resource of ~4 Tcf (up to 6 Tcf potential)
+Recent data: PSA extended in 2017 to run until 2049; BP began first commercial non-associated gas production in 2026 (from West Chirag, Qirmaki Upper/Lower Sand reservoirs), repositioning ACG as an integrated oil-and-gas asset partly to support gas supply to Europe
+Risks: Long-term oil-output decline from a mature (peaked 2010) field; execution and reservoir risk on the new gas development; geopolitical exposure tied to Caspian/Azerbaijan energy relations with Europe; concentration risk given BP&apos;s operatorship and multinational partner structure</description>
 			<LookAt>
 				<longitude>50.62925810575383</longitude>
 				<latitude>40.31495926866652</latitude>
@@ -7087,6 +8380,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Ekofisk oil field</name>
+			<description>Operational status: Operational — producing continuously since June 1971, with license life extended to 2048
+Role: Norway&apos;s first major North Sea oil discovery (1969) and hub of the &quot;Greater Ekofisk Area&quot;; Norwegian sector, ~70 m water depth; chalk reservoir field famous for seabed subsidence and a platform-jacking fix
+Operator: ConocoPhillips Skandinavia AS 35.11% (operator); TotalEnergies 39.90% (largest stakeholder); Vår Energi 12.39%; Equinor 7.60%; Petoro (Norwegian state) 5%
+Capacity: Original recovery expected at only 17% via pressure depletion; sustained water injection has lifted expected final recovery to over 50%; total investment through 2024 was NOK 167.6 billion, with NOK 13.5 billion more planned from 2025
+Recent data: Production licenses extended through 2048 (from a 2028 expiry), enabling up to ~80 years of output; a $1.8bn &quot;PPF&quot; project sanctioned Dec 2025 will revive three shut-in gas-condensate fields (Albuskjell, Vest Ekofisk, Tommeliten Gamma) tied back to the Ekofisk Complex, targeting 90–120 MMboe and first production Q4 2028; Eldfisk North development plan also in progress
+Risks: Chalk-reservoir compaction/subsidence — seabed sank several meters in the 1980s, requiring a record-setting 1987 jack-up of five platforms by ~6 m; historical major-incident precedent (1977 Bravo blowout, the North Sea&apos;s largest, ~80,000–126,000 bbl spilled); reliance on continuous water injection and infill drilling to sustain output from a 50+ year-old field</description>
 			<LookAt>
 				<longitude>2.919449452013105</longitude>
 				<latitude>56.76901949887971</latitude>
@@ -7096,7 +8395,7 @@ Coordinate confidence: Approximate</description>
 				<range>2026.933591324901</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1001</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>2.911074482369678,56.76988925135856,0</coordinates>
@@ -7104,7 +8403,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Dalia oil field</name>
-			<description>Deepwater oil production field in Angola’s Block 17, operated by TotalEnergies. Subsea wells are connected to the Dalia FPSO for production, processing, storage and offshore loading.</description>
+			<description>Operational status: Operational — producing since 2006, now in decline as a mature deepwater field
+Role: Deepwater FPSO field, Block 17, offshore Angola, ~4,116 ft (1,255 m) water depth; one of four FPSOs on Block 17 alongside Girassol, Pazflor and CLOV
+Operator: TotalEnergies (Total E&amp;P Angola); partners include Equinor, ExxonMobil, Azule Energy (BP/Eni JV) and Sonangol — same consortium structure as Girassol (TotalEnergies 38%, Equinor 22%, ExxonMobil 19%, Azule 15%, Sonangol 5%)
+Capacity: Peaked around 240,000 bopd (2010); ~487 million barrels of remaining recoverable reserves (68% already recovered); production guided to continue to an economic limit around 2046
+Recent data: Block 17 output is declining from peak levels overall; TotalEnergies is offsetting this with the Begonia subsea tieback (~30,000 bopd) and a CLOV Phase 3 infill project to extend plateau production — both block-wide rather than Dalia-specific boosts
+Risks: Natural decline from a maturing 20-year-old field; standard deepwater operational and spill risk; reliance on subsea tiebacks/infill drilling rather than new discoveries to sustain block output</description>
 			<LookAt>
 				<longitude>11.86216451188587</longitude>
 				<latitude>-7.705044123770327</latitude>
@@ -7114,7 +8418,7 @@ Coordinate confidence: Approximate</description>
 				<range>158378.8510473134</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10013</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>11.76547008379531,-7.681598380267438,0</coordinates>
@@ -7122,6 +8426,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Johan Sverdrup</name>
+			<description><![CDATA[Operational status: Operational — producing since October 2019, though now entering natural decline
+Role: Giant offshore field, Utsira High, Norwegian North Sea; Norway's largest producing oil field and the North Sea's 3rd largest ever; supplies power to neighboring Edvard Grieg, Gina Krog and Ivar Aasen fields
+Operator: Equinor 42.63% (operator); Aker BP 31.57%; Petoro (Norwegian state) 17.36%; TotalEnergies 8.44%
+Capacity: Plateau capacity of 755,000 boe/d — up to 30% of total Norwegian Continental Shelf oil output; ~2.7 billion boe recoverable resources, targeting a 70%+ recovery factor; exceptionally low carbon intensity (0.67 kg CO2/barrel vs. ~15 kg global average, via shore-power electrification)
+Recent data: Equinor guided (Feb 2026) to output declining >10% but <20% in 2026 as the field matures; Phase 3 sanctioned July 2025 ($1.3bn, 8+ new wells, 40–50 MMboe, startup 2027) to slow the decline; Phase 4 now being pursued around the new Tonjer/Geitungen discoveries (20–30 MMboe), targeting 2029 startup as a subsea tieback
+Risks: Natural field decline now underway despite mitigation drilling; execution risk on sequential Phase 3/Phase 4 tie-backs; North Sea mature-basin cost inflation; otherwise low ESG/regulatory risk given the field's low-emissions profile]]></description>
 			<LookAt>
 				<longitude>3.737277919179471</longitude>
 				<latitude>58.46995167175224</latitude>
@@ -7131,7 +8441,7 @@ Coordinate confidence: Approximate</description>
 				<range>402631.0193810959</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>2.060689510003799,59.04554284978791,0</coordinates>
@@ -7139,6 +8449,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>WTI midland basin oil fields</name>
+			<description>Operational status: Operational — actively drilled, high-volume producing basin as of 2026
+Role: Sub-basin of the Permian Basin, West Texas (Midland, Ector, Martin, Howard, Reagan, Upton counties etc.); source of the WTI Midland crude grade, now the world&apos;s largest freely traded oil grade by volume and a Platts Dated Brent benchmark component since May 2023
+Operator: Fragmented among many producers; dominant Midland-Basin footprints held by ExxonMobil (via its 2024 Pioneer Natural Resources acquisition) and Diamondback Energy
+Capacity: Texas-side Permian output (Midland-dominated) ran ~5.8 million bopd in February 2026 vs. ~2.3 million bopd on the New Mexico/Delaware side; Diamondback alone produced 521 Mboe/d in Q1 2026 at the basin&apos;s lowest operating costs
+Recent data: Midland described as &quot;the more mature acreage&quot; with a finite Tier 1 drilling inventory, while growth is increasingly shifting to the Delaware Basin; large-scale 2024–25 consolidation (Exxon-Pioneer, Diamondback-Endeavor) has concentrated Midland output among fewer, larger operators
+Risks: Tier 1 drilling-inventory exhaustion limiting future growth; WTI Midland–Brent/Cushing differential volatility affecting drilling economics; produced-water disposal and induced seismicity in West Texas; associated-gas takeaway/flaring constraints; exposure to OPEC+ supply decisions and global price swings</description>
 			<LookAt>
 				<longitude>-103.0210578797266</longitude>
 				<latitude>32.53548346821631</latitude>
@@ -7148,7 +8464,7 @@ Coordinate confidence: Approximate</description>
 				<range>43904.8512875589</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1008</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-103.0073252126223,32.54926396341951,0</coordinates>
@@ -7156,6 +8472,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Gialo Oil Field</name>
+			<description>Operational status: Operational — producing since 1961, still active as of 2026
+Role: Onshore field, Sirte Basin, Libya (28.71°N, 21.38°E); one of the original Waha concession fields, linked to Es Sider export terminal via the Gialo-Waha pipeline
+Operator: Waha Oil Company (NOC/ConocoPhillips/TotalEnergies JV — same ownership as the wider Waha concessions: NOC 59.16%, ConocoPhillips 20.42%, TotalEnergies 20.42%)
+Capacity: ~130,000 bopd design capacity (2020); actual output has run well above that historically (~245,000 bopd in 2012) and likely below it more recently as the field matures
+Recent data: Adjacent North Gialo field (separate, in-development, FID 2019) is the ~100,000 boe/d expansion project tied to Waha&apos;s January 2026 concession-extension deal — not part of Gialo&apos;s own output, but directly next to it
+Risks: Libya&apos;s recurring political fragmentation and force-majeure/blockade risk (resurfaced as recently as May 2025); mature-field natural decline; shared exposure with the wider Waha system to national oil-sector disruption</description>
 			<Camera>
 				<longitude>21.41730238096121</longitude>
 				<latitude>28.67981021896902</latitude>
@@ -7165,7 +8487,7 @@ Coordinate confidence: Approximate</description>
 				<roll>-1.994574620987538</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field1002</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>21.41472772816507,28.68823231403621,0</coordinates>
@@ -7173,8 +8495,12 @@ Coordinate confidence: Approximate</description>
 		</Placemark>
 		<Placemark>
 			<name>Waha Oil Field</name>
-			<description>Role: Principal producing field &amp; gathering hub feeding the Es Sider blend
-Operator: Waha Oil Co (NOC+partners)</description>
+			<description>Operational status: Operational — ~370,000 boe/d across the Waha concessions as of January 2026
+Role: Onshore oil field/concession complex, Sirte Basin, Libya (28.74°N, 21.44°E); producing since 1963; feeds the Es Sider export terminal
+Operator: Waha Oil Company — JV of NOC (Libya) 59.16%, ConocoPhillips 20.42%, TotalEnergies 20.42%
+Capacity: ~370,000 boe/d currently; ~630 million barrels remaining oil reserves (2020); North Gialo field development could add another ~100,000 boe/d
+Recent data: Concessions extended to December 2050 via a January 2026 agreement with revised fiscal terms meant to boost output; 7 exploration wells and seismic work planned for 2026
+Risks: Libya&apos;s recurring political fragmentation between rival governments, with force-majeure/blockade risk resurfacing as recently as May 2025; historical precedent of eastern-faction oil blockades sharply cutting national output; standard mature-field decline risk</description>
 			<Camera>
 				<longitude>19.93105785447903</longitude>
 				<latitude>28.28919675167925</latitude>
@@ -7184,7 +8510,7 @@ Operator: Waha Oil Co (NOC+partners)</description>
 				<roll>-1.092325945202973</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#scic_oil_field10</styleUrl>
+			<styleUrl>#scic_oil_field10020</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>19.92182096596482,28.29870047645361,0</coordinates>
@@ -7378,27 +8704,18 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 	</Folder>
 	<Folder>
 		<name>Petrochemical Plants</name>
-		<Placemark id="0F1F0F17C93EAF2579A4">
-			<name>RAPID refinery + Petrochemical plants</name>
-			<description><![CDATA[<li>RAPID = Refinery and Petrochemical Integrated Development<br></li><li>A major project inside <b><span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">Pengerang Integrated Petroleum Complex</span></span> (PIPC)</b><br></li><li><b></b><br></li><li>Operated by <span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">Petronas</span></span><br></li><li>Processes crude oil into fuels (diesel, jet, gasoline).<br></li><li>Produce chemicals used in plastics<br></li><div><br></div>]]></description>
-			<LookAt>
-				<longitude>104.1563407049735</longitude>
-				<latitude>1.371237804447899</latitude>
-				<altitude>6.541143430388033</altitude>
-				<heading>0</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>10795.78979930026</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
-			<Point>
-				<coordinates>104.169107161563,1.358405746407063,5.486147625727451</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="00C02568723EB7B9A5C6">
 			<name>MOL Petrochemicals Tiszaújváros</name>
-			<description><![CDATA[<div><div>What it does:&nbsp;Uses <b>refinery outputs (like naphtha, propylene)</b><br></div></div><li><div>Turns them into : plastics,&nbsp;industrial chemicals<br></div></li><div><br></div><div>Produces:<br></div><ul><li><ul><li>plastics (polyethylene, polypropylene)<br></li><li>synthetic rubber<br></li><li>chemical intermediates (polyols, propylene, etc.)<br></li></ul></li><li>Part of <b><span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">MOL Group</span></span></b><br></li></ul><p>👉 It’s one of MOL’s <b>two main chemical production sites in Hungary</b><br></p><div><br></div><div><br></div><div><br></div>]]></description>
+			<description>Classification: Integrated petrochemical complex / cracker and polymers site
+Location: Tiszaújváros, Borsod-Abaúj-Zemplén county, northeastern Hungary, on the Tisza river
+Owner: MOL Petrochemicals Co. Ltd., part of MOL Group; the synthetic rubber unit is run by ENEOS MOL Synthetic Rubber, a joint venture with Japan&apos;s ENEOS
+Capacity: Two steam crackers with about 660,000 tonnes per year of ethylene and roughly 130,000 t/y of butadiene, five polymer units totalling about 765,000 t/y of polyethylene and polypropylene, a 200,000 t/y polyether polyol complex with integrated hydrogen peroxide, propylene oxide and propylene glycol plants, and a synthetic rubber (SSBR) unit; a 100,000 t/y olefins conversion technology unit for polymer-grade propylene is due on stream in 2026 after delays
+Main feedstocks: Naphtha and LPG piped from MOL&apos;s Duna refinery at Százhalombatta and Slovnaft in Bratislava, plus imported feedstock; the cracker processed its first ISCC PLUS-certified circular feedstock from post-consumer plastic waste in September 2025
+Main products: Ethylene, propylene, butadiene, HDPE, LDPE and polypropylene, polyether polyols, propylene glycol, hydrogen peroxide and solution SBR synthetic rubber
+Markets: Hungary and Central and Eastern Europe, with exports to Germany, Italy, Austria and the wider EU converter, automotive and furniture industries
+Recent data: On 22 May 2026 an explosion during the restart of the Olefin 1 unit after life-extension maintenance killed one worker and injured nine, four of them severely; MOL said hydrocarbon detonated in a pipeline and found no sign of external interference. The €1.3 billion polyol complex — MOL&apos;s largest ever organic investment, supported by about €131.5 million of Hungarian state aid — was inaugurated in May 2024 and is expected to add close to €150 million a year to group results.
+Strategic role: MOL&apos;s principal petrochemical site and the centre of its shift from fuels into chemicals under the SHAPE TOMORROW strategy, which targets processing up to 1.5 million tonnes a year of alternative feedstock by 2030; the polyol complex makes MOL the only company in Central and Eastern Europe covering the full chain from crude refining to polyols. The site employs around 1,100 people and has operated since 1953.
+Risks: Process-safety exposure at ageing cracker units, as shown by the 2026 Olefin 1 explosion, weak European polyolefin and polyol margins against imports, high energy and carbon costs, dependence on refinery-supplied naphtha and on Russian-linked crude logistics through the Druzhba pipeline system feeding MOL&apos;s refineries, project delays on the OCT unit, and landlocked inland logistics with no direct seaborne feedstock access.</description>
 			<LookAt>
 				<longitude>21.0491307468206</longitude>
 				<latitude>47.89381560823652</latitude>
@@ -7409,14 +8726,23 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>6673.615556481527</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=41</styleUrl>
 			<Point>
 				<coordinates>21.02832293073626,47.89420784451342,93.98698311388492</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="0C008C1AB53EB8584258">
 			<name>Dow Terneuzen</name>
-			<description><![CDATA[<h1>🧪 What it is<br></h1><ul><li>Operated by: <span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">Dow</span></span><br></li><li><div>Often referred to as:<br></div><ul><li><b>Dow Terneuzen</b><br></li><li><b>Dow Benelux site</b><br></li></ul></li></ul><p>👉 It’s one of <b>Dow’s largest production sites outside the US</b><br></p><div><hr><br></div><h1>⚙️ What happens there<br></h1><p>It’s a <b>fully integrated petrochemical complex</b>, producing:<br></p><ul><li>Plastics (polyethylene, polystyrene)<br></li><li>Chemical intermediates<br></li><li>Industrial materials<br></li></ul><p>👉 Think:<br></p><blockquote><p>Raw hydrocarbons → chemicals → plastics → industrial products<br></p></blockquote><div><hr><br></div><h1>🌍 Why it’s so big<br></h1><ul><li>Located inside <b><span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">North Sea Port</span></span></b><br></li><li><div>Connected to:<br></div><ul><li>Antwerp petrochemical cluster<br></li><li>Rotterdam refining hub<br></li></ul></li><li><div>Access to:<br></div><ul><li>Ships (via canal)<br></li><li>Pipelines<br></li><li>European markets<br></li></ul></li></ul><div><br></div>]]></description>
+			<description>Classification: Mega petrochemical complex / integrated steam-cracker site
+Location: Terneuzen, Zeeland, Netherlands — on the Western Scheldt, roughly 30 km north of Antwerp
+Owner: Dow Benelux B.V., part of Dow Inc.
+Capacity: Approximately 1.8 million tonnes per year of ethylene from three steam crackers (LHC1, LHC2, LHC3), plus about 900,000 t/y propylene, 240,000 t/y butadiene and 900,000 t/y aromatics
+Main feedstocks: Naphtha and LPG (propane/butane) in roughly equal shares, delivered by pipeline from Rotterdam and Antwerp as well as by ship and rail, with small volumes of bio-naphtha and pyrolysis oil from recycled plastics
+Main products: Ethylene, propylene, butadiene, benzene/toluene/xylene, LLDPE and LDPE, ethylene oxide and glycols, polyols, latex, plus styrene, ethylbenzene and cumene from co-located third-party units (Trinseo, Olin) — around 800 products in total across 16 plants
+Markets: Netherlands, Belgium, Germany, France and the wider Northwest European converter and specialty-chemicals industry
+Recent data: The 600,000 t/y LHC3 cracker was idled from June 2025 because of weak European demand and restarted in June 2026 as polyethylene and polyurethane chains tightened. In June 2026 Dow announced roughly 605 job cuts in the Netherlands — Terneuzen, Delfzijl and Dordrecht — as part of a global reduction of about 4,500 posts. Terneuzen was spared in Dow&apos;s July 2025 European shutdown package, which instead closed the Böhlen cracker and Schkopau assets in Germany and the Barry siloxanes plant in the UK.
+Strategic role: Dow&apos;s largest site outside the United States and its second largest worldwide, with about 3,200–3,500 employees, a 90 MW cogeneration plant, an R&amp;D centre and a service centre covering Europe, the Middle East, Africa and India; it accounts for roughly 45% of Dutch steam-cracking capacity and anchors the Zeeland–Antwerp chemical cluster.
+Risks: Structurally weak European cracker margins against low-cost US and Middle East ethane, high gas, power and carbon costs, cheap imports, cracker idling and further restructuring, dependence on delayed hydrogen and CO2 infrastructure (Delta Rhine Corridor, Carbon Connect Delta) for its decarbonisation roadmap, site emissions of about 3.9 Mt CO2/yr, tightening EU environmental rules and Scheldt/Rhine logistics disruption.</description>
 			<LookAt>
 				<longitude>3.787764908666296</longitude>
 				<latitude>51.34081760073316</latitude>
@@ -7427,14 +8753,23 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>7707.195568123134</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=41</styleUrl>
 			<Point>
 				<coordinates>3.786962797359981,51.34445943366449,3.911769979405457</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="05EE12FD073EB86434EF">
 			<name>BASF Antwerp</name>
-			<description><![CDATA[<div>One of the largest chemical sites in Europe :<br></div><div><br></div><div>BASF Antwerp is one of the largest integrated petrochemical complexes in Europe, operated by <b><span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">BASF</span></span></b>. It functions as a <b>“Verbund” site</b>, meaning that multiple production units are physically and operationally interconnected to maximize efficiency.<br></div><p>At the core of the site is a <b>steam cracker</b>, which converts hydrocarbon feedstocks (mainly naphtha) into basic petrochemicals such as ethylene and propylene. These molecules are then processed on-site into a wide range of intermediate and specialty chemicals, including plastics, performance materials, coatings, and industrial inputs.<br></p><p>A defining feature of BASF Antwerp is its <b>high level of internal integration</b>: by-products from one process are reused as inputs for another, minimizing waste and reducing costs. The site is designed to handle the full value chain—from basic chemicals to higher-value finished products—within a single industrial ecosystem.<br></p><h2>🔑 Key characteristics<br></h2><ul><li>Fully integrated <b>end-to-end chemical production site</b><br></li><li>Produces both <b>base chemicals and high-value downstream products</b><br></li><li>Strong internal reuse of materials and energy (Verbund system)<br></li><li>Highly complex and diversified production structure<br></li></ul>]]></description>
+			<description>Classification: Mega integrated chemical complex / Verbund site
+Location: Port of Antwerp, Scheldeland, Belgium — about 6 km² on the right bank of the Scheldt
+Owner: BASF Antwerpen N.V., part of BASF SE
+Capacity: Around 50 production plants organised into some 15 integrated value chains, anchored by a steam cracker with roughly 1.1 million tonnes per year of ethylene, plus propylene and C4s; ethylene oxide and derivatives capacity was expanded by about 400,000 t/y in 2023
+Main feedstocks: Naphtha and LPG sourced globally and delivered by ship, plus natural gas; small volumes of pyrolysis oil from recycled plastics can be co-processed in the cracker
+Main products: Ethylene, propylene, butenes, benzene, ammonia, ethylene oxide and glycols, alkoxylates, acrylic acid and superabsorbents, amines, aniline, caprolactam, MDI, polyetherols and surfactants
+Markets: Belgium, the Netherlands, Germany, France and the wider European automotive, construction, detergents, packaging and agricultural chemicals sectors
+Recent data: In October 2025 BASF Antwerpen raised its structural cost-cutting target from €100 million to €150 million by the end of 2028 and announced roughly 600 job cuts by that date — about one in six positions on the site — including the removal of a third of senior management roles, with no forced redundancies planned and no plant closures announced. In 2025 the Flemish government granted the steam cracker a renewed, indefinite-duration operating permit conditional on selective catalytic reduction on several furnaces and boilers, cutting NOx by about 30% (roughly 220 tonnes a year).
+Strategic role: BASF&apos;s second-largest production site worldwide after Ludwigshafen and the largest chemical site in Belgium, employing over 3,000 people; the cracker is described by the company as the beating heart of the site, feeding every downstream value chain, and it forms the core of the Antwerp port chemical cluster with deep-sea, inland waterway, rail and pipeline links to Rotterdam and the Ruhr.
+Risks: Weak European chemical demand and margin pressure from low-cost US, Middle East and Chinese capacity — including BASF&apos;s own new Zhanjiang Verbund site — high energy and carbon costs, further cost-cutting and possible additional job losses, tightening Flemish permitting on NOx, nitrogen deposition and PFAS, dependence on still-uncertain CCS and electrification infrastructure for its 2050 climate-neutrality target, and Scheldt/Rhine logistics and port congestion.</description>
 			<LookAt>
 				<longitude>4.27482130396456</longitude>
 				<latitude>51.36300578009773</latitude>
@@ -7445,14 +8780,23 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>4850.543096734327</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=41</styleUrl>
 			<Point>
 				<coordinates>4.267771448412327,51.36534927375749,19.10874670620181</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="0467A13A993EB8752C2C">
 			<name>INEOS Antwerp</name>
-			<description><![CDATA[<p>INEOS Antwerp is a major petrochemical production site operated by <b><span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline"><span class="whitespace-normal">INEOS</span></span></b>, specializing in the manufacture of <b>core petrochemical building blocks</b>. The site focuses primarily on the production of olefins such as ethylene and propylene, as well as polymers and intermediate chemical products.<br></p><p>Unlike fully integrated complexes, INEOS Antwerp follows a more <b>specialized production model</b>, concentrating on large-scale, efficient output of key chemical intermediates. These products are then supplied via pipelines and logistics networks to other industrial sites—both within the Antwerp cluster and across Europe—including companies like BASF.<br></p><p>The site is tightly integrated into the wider Antwerp petrochemical network, with extensive pipeline connections to refineries and neighboring chemical plants. This allows INEOS to operate as a <b>critical supplier of feedstocks</b> within a highly interconnected industrial ecosystem.<br></p><h2>🔑 Key characteristics<br></h2><ul><li>Focus on <b>core petrochemical production (olefins, polymers)</b><br></li><li>Large-scale, <b>high-efficiency steam cracking operations</b><br></li><li>Supplies intermediates to other chemical producers<br></li><li>Strong integration into regional pipeline and industrial networks<br></li></ul><div><br></div>]]></description>
+			<description>Classification: Multi-site petrochemical cluster (existing derivatives plants plus the Project ONE cracker complex under construction)
+Location: Port of Antwerp, Belgium — INEOS Oxide at Zwijndrecht on the left bank, INEOS Phenol at Doel, and Project ONE at Lillo/Zandvliet on the right bank
+Owner: INEOS Group Holdings (INEOS Oxide, INEOS Phenol, INEOS Olefins Belgium)
+Capacity: INEOS Phenol Antwerp runs about 680,000 t/y of phenol with co-product acetone, historically the world&apos;s largest single phenol plant; INEOS Oxide Zwijndrecht produces ethylene oxide and derivatives alongside an ENB unit and its own INESCO combined heat and power plant; Project ONE will add 1,450,000 t/y of ethylene plus a propane dehydrogenation unit
+Main feedstocks: Imported US ethane delivered by dedicated gas carriers for Project ONE, propane for the PDH unit, plus benzene, propylene and ethylene supplied by pipeline and the deep-sea ethylene terminal at Antwerp
+Main products: Ethylene, propylene, phenol, acetone, ethylene oxide, glycols, glycol ethers, ethanolamines and ethylidene norbornene
+Markets: Belgium, the Netherlands, Germany and the wider European polymers, engineering plastics, coatings, surfactants and pharmaceutical intermediates industries
+Recent data: Project ONE, a roughly €4 billion investment financed with about €3.5 billion of debt, passed 70% completion in mid-2025 and is designed for CO2 intensity of about 0.29 tonnes per tonne of product — under half that of a typical naphtha cracker. Start-up has slipped repeatedly: the Flemish permit was suspended in 2023 and reissued, and in April 2026 two large cracker modules were stranded in the Persian Gulf by the Strait of Hormuz blockade, missing their scheduled second-quarter delivery. On 10 July 2026 INEOS filed a multi-billion-euro damages claim against the Flemish government over permitting delays.
+Strategic role: INEOS is one of the largest employers in Belgian chemicals with around 3,150 staff across 12 sites; Project ONE is the first new steam cracker built in Europe in some 30 years and is positioned as the continent&apos;s lowest-carbon cracker, intended to replace older, less efficient European capacity and anchor INEOS&apos;s olefins position in Northwest Europe. It will create roughly 300 direct permanent jobs plus around 150 contractor roles.
+Risks: Further construction and commissioning delays and cost overruns, litigation and permitting uncertainty in Flanders including nitrogen deposition rules, exposure to shipping disruption and freight rates for transatlantic ethane, dependence on the US ethane price advantage and export capacity, weak European ethylene and phenol margins with structural overcapacity, and high electricity and carbon costs for an electrified, power-intensive site.</description>
 			<LookAt>
 				<longitude>4.273925657437596</longitude>
 				<latitude>51.36379448949879</latitude>
@@ -7463,9 +8807,36 @@ Risks: High capital costs, renewable-power intermittency, electrolyser availabil
 				<range>6042.380869329209</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=400</styleUrl>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=40</styleUrl>
 			<Point>
 				<coordinates>4.262152203735479,51.36047499017207,7.21164629532076</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RAPID Petrochemical Complex</name>
+			<description>Classification: Mega petrochemical complex / integrated cracker and derivatives site
+Location: Pengerang, Johor, Malaysia — co-located with the RAPID refinery inside the 2,000-hectare RAPID footprint
+Owner: PRefChem (Petronas) for the cracker, with downstream units held by Petronas Chemicals and joint ventures including LyondellBasell, BASF, Evonik, Itochu and PTT Global Chemical
+Capacity: A mixed-feed steam cracker complex of roughly 3 million tonnes a year of olefins (ethylene, propylene, C4 and C5), feeding about 4.5 million tonnes a year of petrochemicals; downstream units include 900,000 t/y polypropylene (LyondellBasell technology), LLDPE and HDPE, monoethylene glycol, 220,000 t/y isononanol, 110,000 t/y 1-butene, up to 250,000 t/y hydrogen peroxide with Evonik, plus BASF units for polyisobutylene, non-ionic surfactants and methanesulfonic acid
+Main feedstocks: Naphtha and other refinery streams from the RAPID refinery, supplemented by imported LPG and ethane-range feed, plus natural gas and power from the on-site 1.22 GW cogeneration plant and air separation units
+Main products: Ethylene, propylene, polyethylene, polypropylene, glycols, isononanol and C4 derivatives, hydrogen peroxide, surfactants and other specialty chemicals; synthetic rubber and elastomer projects have been proposed but not built
+Markets: Southeast Asia, China, India and other Asia-Pacific polymer and specialty chemical converters
+Recent data: The complex was completed in December 2019 but only reached sustained operation from 2022 after the refinery incidents; cracker output has since tracked refinery availability, with maintenance halts and feed cuts during the 2025 and 2026 gasoline-unit outages. A previously shelved elastomers project has been discussed for revival.
+Strategic role: The higher-value half of RAPID, designed to shift Petronas from a fuels producer into specialty chemicals and to capture Asian demand growth for polymers; its integration with the refinery is the main source of the project&apos;s margin uplift.
+Risks: Severe regional overcapacity in ethylene and polyolefins driven by Chinese additions, thin or negative cracker margins, complete dependence on the adjacent refinery for feedstock so that any refinery outage cascades downstream, high naphtha feed costs against ethane-advantaged competitors in the Middle East and North America, and delayed or cancelled downstream JV phases.</description>
+			<LookAt>
+				<longitude>104.173959524285</longitude>
+				<latitude>1.369043572799601</latitude>
+				<altitude>0</altitude>
+				<heading>0.00404357389608191</heading>
+				<tilt>8.021265484862365</tilt>
+				<range>12044.48650734411</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_icon?color=000000&amp;id=2000&amp;scale=4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>104.1730854479987,1.371470785966274,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
