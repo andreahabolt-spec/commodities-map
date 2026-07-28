@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1deeDrvBnSFPUaa_ase6UOkNRfq9IY-jB">
 	<name>Commodities Trading</name>
+	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
 	<Schema name="__managed_schema" id="__managed_schema00">
 		<SimpleField type="int" name="09149BB14C3FE5E87566">
@@ -173,6 +174,16 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_R">
 		<Pair>
 			<key>normal</key>
@@ -303,10 +314,20 @@
 			<styleUrl>#sh_blu-stars0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ferry">
+	<StyleMap id="msn_ferry0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ferry</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ferry0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ferry">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ferry0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -673,91 +694,35 @@
 			<styleUrl>#sh_ylw-pushpin00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="scic_oil_field0015">
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
-			<color>ff7fff55</color>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<Style id="scic_oil_field0021">
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<Style id="scic_oil_field005">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0012">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0022">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0013">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field001">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field006">
+	<Style id="scic_oil_field00">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -781,7 +746,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field007">
+	<Style id="scic_oil_field0000">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -793,139 +758,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field0017">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field00">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0016">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0014">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field004">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0018">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0020">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0011">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field0019">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field003">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field002">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field009">
+	<Style id="scic_oil_field001">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -949,6 +782,222 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="scic_oil_field0011">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0012">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0013">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0014">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0015">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0016">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0017">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0018">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0019">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field002">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0020">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0021">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field0022">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field003">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field004">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field005">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field006">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field007">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="scic_oil_field008">
 		<IconStyle>
 			<color>ff7fff55</color>
@@ -961,7 +1010,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field0000">
+	<Style id="scic_oil_field009">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -983,24 +1032,34 @@
 			<styleUrl>#scic_oil_field200</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="scic_oil_field1006">
+	<StyleMap id="scic_oil_field100">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#scic_oil_field0020</styleUrl>
+			<styleUrl>#scic_oil_field006</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#scic_oil_field220</styleUrl>
+			<styleUrl>#scic_oil_field26</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="scic_oil_field1009">
+	<StyleMap id="scic_oil_field1000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#scic_oil_field00</styleUrl>
+			<styleUrl>#scic_oil_field0010</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#scic_oil_field2</styleUrl>
+			<styleUrl>#scic_oil_field222</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field003</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field221</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="scic_oil_field10010">
@@ -1033,16 +1092,6 @@
 			<styleUrl>#scic_oil_field213</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="scic_oil_field1003">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field0021</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field218</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="scic_oil_field10013">
 		<Pair>
 			<key>normal</key>
@@ -1061,46 +1110,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#scic_oil_field22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="scic_oil_field1000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field0010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field222</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="scic_oil_field100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field006</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field26</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="scic_oil_field1001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field003</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field221</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="scic_oil_field1002">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#scic_oil_field005</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#scic_oil_field25</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="scic_oil_field10015">
@@ -1153,6 +1162,16 @@
 			<styleUrl>#scic_oil_field216</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="scic_oil_field1002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field005</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field25</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="scic_oil_field10020">
 		<Pair>
 			<key>normal</key>
@@ -1183,6 +1202,16 @@
 			<styleUrl>#scic_oil_field219</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="scic_oil_field1003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0021</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field218</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="scic_oil_field1004">
 		<Pair>
 			<key>normal</key>
@@ -1201,6 +1230,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#scic_oil_field29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="scic_oil_field1006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field0020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field220</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="scic_oil_field1007">
@@ -1223,18 +1262,16 @@
 			<styleUrl>#scic_oil_field215</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="scic_oil_field27">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
+	<StyleMap id="scic_oil_field1009">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#scic_oil_field00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#scic_oil_field2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="scic_oil_field2">
 		<IconStyle>
 			<color>ff7fff55</color>
@@ -1259,19 +1296,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field25">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field221">
+	<Style id="scic_oil_field200">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1295,7 +1320,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field22">
+	<Style id="scic_oil_field210">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1307,7 +1332,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field23">
+	<Style id="scic_oil_field211">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1319,7 +1344,43 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field219">
+	<Style id="scic_oil_field212">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field213">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field214">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field215">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1355,42 +1416,6 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field215">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field24">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field26">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="scic_oil_field218">
 		<IconStyle>
 			<color>ff7fff55</color>
@@ -1403,7 +1428,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field214">
+	<Style id="scic_oil_field219">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1415,19 +1440,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field211">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field210">
+	<Style id="scic_oil_field22">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1451,19 +1464,7 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field213">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="scic_oil_field212">
+	<Style id="scic_oil_field221">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1476,6 +1477,66 @@
 		</LabelStyle>
 	</Style>
 	<Style id="scic_oil_field222">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field23">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field24">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field25">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field26">
+		<IconStyle>
+			<color>ff7fff55</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="scic_oil_field27">
 		<IconStyle>
 			<color>ff7fff55</color>
 			<scale>1.1</scale>
@@ -1511,18 +1572,6 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="scic_oil_field200">
-		<IconStyle>
-			<color>ff7fff55</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="sh_R">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1531,8 +1580,6 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
@@ -1792,6 +1839,19 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
+	</Style>
+	<Style id="sh_ferry0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_ferry">
 		<IconStyle>
@@ -2386,8 +2446,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
@@ -2684,7 +2742,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ferry">
+	<Style id="sn_ferry0">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2695,6 +2753,19 @@
 		<LabelStyle>
 			<scale>0.8</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sn_ferry">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sn_ferry00">
 		<IconStyle>
@@ -6279,57 +6350,6 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<coordinates>4.369067045891983,51.25177384885958,3.305894788988312</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="0D928AD1443EBE2D43E8">
-			<name>Oil Storage</name>
-			<LookAt>
-				<longitude>69.82683449874999</longitude>
-				<latitude>22.41789996760724</latitude>
-				<altitude>25.69180540331035</altitude>
-				<heading>0</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>28352.26356857456</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-circle00</styleUrl>
-			<Point>
-				<coordinates>69.73743014797641,22.40961010503757,41.92808448890527</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="0F903CA19C3EBE2DAD03">
-			<name>Oil Storage</name>
-			<LookAt>
-				<longitude>69.82683449874999</longitude>
-				<latitude>22.41789996760724</latitude>
-				<altitude>25.69180540331035</altitude>
-				<heading>0</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>28352.26356857456</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-circle00</styleUrl>
-			<Point>
-				<coordinates>69.86144878898733,22.42791702842539,45.29004567147437</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="08627634D63EBE2DF7DC">
-			<name>Oil Storage</name>
-			<LookAt>
-				<longitude>69.77294459981889</longitude>
-				<latitude>22.3817500983598</latitude>
-				<altitude>25.26265651505547</altitude>
-				<heading>0</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>26088.67023856379</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-circle00</styleUrl>
-			<Point>
-				<coordinates>69.71974913349248,22.38237003393534,37.5947003003249</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="0162C7DA0B3ED2BC8880">
 			<name>Mer Rouge Oil Storage Terminal</name>
 			<description><![CDATA[<li>Main <b>fuel storage and distribution terminal</b> in Mauritius<br></li><li><div>Stores:<br></div><ul><li>Gasoline<br></li><li>Diesel<br></li><li>LPG<br></li></ul></li><li>Supplies fuel to the entire country via distribution network<br></li><div><br></div>]]></description>
@@ -6978,6 +6998,56 @@ Risks: Sanctions-evasion scrutiny (EU/OCCRP/Transparency International reporting
 			<styleUrl>#msn_red-circle00</styleUrl>
 			<Point>
 				<coordinates>41.64,42.27,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vadinar Terminal (Nayara Energy)</name>
+			<description>Classification: Deep-water crude import &amp; products export terminal — captive port of the Vadinar refinery
+Location: Gulf of Kutch, Gujarat, west coast of India
+Owner/Operator: Nayara Energy (Rosneft ~49.13%, Kesani Enterprises ~49.13%)
+Infrastructure: Single point mooring (SPM) buoys for crude receipt, product jetties, and one of India&apos;s largest tank farms; direct pipeline link to the 400,000 b/d (20 mtpa) Vadinar refinery
+Berths / vessel size: VLCC-capable via SPM (up to ~350,000 dwt); products loaded at jetty berths on MR/LR tankers
+Strategic role: Main entry gate for discounted Russian Urals crude into India since 2022; major gasoline/diesel export hub toward Africa, the Middle East and Asia; sits ~30 km from Reliance&apos;s Jamnagar complex, making the Gulf of Kutch the world&apos;s densest refining zone (~1.8 million b/d combined)
+Recent data: First confirmed Indian fuel shipment TO Russia (Jul 2026) — 356,000 bbl of gasoline loaded at Vadinar on the Agni (Jun 24), transshipped STS off Port Said (Jul 7) onto the Garnet, delivered Vitino, White Sea (Jul 25-26); a rare reversal of the usual India→West products flow
+Risks: Sanctions exposure via the Rosneft stake (EU sanctions on Nayara) pushing exports toward shadow-fleet logistics and non-Western buyers; payment/shipping/insurance frictions; cyclone exposure in the Arabian Sea</description>
+			<LookAt>
+				<longitude>69.87652005038156</longitude>
+				<latitude>22.43068468714882</latitude>
+				<altitude>0</altitude>
+				<heading>0.006173644074275999</heading>
+				<tilt>0</tilt>
+				<range>60202.05664683969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>69.7276281862008,22.40079188475431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vitino Terminal </name>
+			<description>Classification: Small Russian oil terminal on the White Sea — cargo arrives by train, leaves by tanker
+Location: Western shore of the Kandalaksha Gulf, White Sea, Murmansk region, Russia (~28 km south of the town of Kandalaksha)
+Owner/Operator: Bought with the nearby Belomorsk terminal by the oil trading firm Rusneftekhim in 2009 (~$50 million); restarted recently in the sanctions era
+Infrastructure: Connected to the rail network; storage tanks for fuel oil, refined products and gas condensate; one deep-water berth plus two smaller ones — up to three tankers can load at the same time
+Berths / vessel size: Can receive tankers up to 230 m long, needing up to 10.9 m of water depth, carrying up to ~80,000 tons of cargo (a mid-size tanker — for comparison, a VLCC carries ~300,000 tons and would be far too big here)
+Strategic role: The only oil transshipment port in the White Sea region. In its best years (before 2014) it exported over 4 million tons/year of products from Lukoil and Gazprom Neft, plus Novatek&apos;s gas condensate. Then the flows moved to pipelines and Baltic ports, the port stopped operating entirely and went bankrupt. Today it is coming back to life as a discreet Arctic entry/exit point, far from the closely-watched Baltic routes
+Recent data: Under modernization to bring capacity back to at least 4 million tons/year of products (diesel, naphtha). Destination of the first confirmed Indian fuel delivery to Russia: 356,000 barrels of gasoline loaded at Vadinar, transferred to the tanker Garnet near Port Said, delivered here on July 25-26, 2026
+Risks: Sanctions logistics (old &quot;shadow fleet&quot; ships, unclear insurance); hard winter navigation in Arctic ice; everything depends on one single rail line; fragile business — the port already died once when the oil flows chose other routes</description>
+			<LookAt>
+				<longitude>32.31585934190645</longitude>
+				<latitude>67.08239562526722</latitude>
+				<altitude>0</altitude>
+				<heading>0.4708836544006041</heading>
+				<tilt>13.76904897848691</tilt>
+				<range>6011.758783748465</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.30003652066684,67.08175339588146,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
@@ -7886,10 +7956,34 @@ Risks: Tanker accidents, oil spills, LNG incidents, industrial fires, berth outa
 				<coordinates>6.947275281876221,36.89217556336559,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Port Said Anchorage - STS Transfer Zone </name>
+			<description>Classification: Offshore ship-to-ship (STS) cargo transfer zone — northern waiting area of the Suez Canal
+Location: Mediterranean Sea, off Port Said, Egypt, at the northern entrance of the Suez Canal
+Owner/Operator: No single operator — it&apos;s an anchorage (a designated waiting area where ships drop anchor), managed by Egyptian port and canal authorities
+Infrastructure: None fixed — that&apos;s the point. Transfers happen ship-to-ship at anchor: two tankers moor side by side with fenders (protective buffers) between them and pump the cargo across with hoses
+Why here: Hundreds of ships anchor here every week waiting for their Suez Canal convoy, so two tankers sitting side by side attract no attention; the location sits exactly on the crossroads between Europe, Asia and Africa
+Strategic role: One of the main STS hubs of the sanctions era. Tankers loaded with naphtha at Russia&apos;s Baltic port of Ust-Luga carried out STS operations at the Port Said anchorage before delivering to Singapore, and volumes of naphtha and fuel oil transferred at Port Said and Al Hoceima (Morocco) exceeded 200,000 tons in a single month. The logic: scarce ice-class tankers shuttle short trips out of Russian ports and hand the cargo to ordinary tankers in the Mediterranean, which carry it on to Asia — a relay race that saves the specialized ships for where they&apos;re truly needed
+Recent data: Transfer point of the Agni → Garnet gasoline cargo (356,000 bbl, Jul 7, 2026) on the first confirmed India → Russia fuel shipment; traders have increasingly turned to STS operations near Port Said as major buyers step back from Russian supplies, with barrels then blended and resold into Asian and African markets
+Risks: Cargo origin becomes hard to trace after transfer (that&apos;s the goal for some users, a compliance nightmare for others); aging shadow-fleet tankers with unclear insurance mean any collision or spill could go uncompensated; growing Western scrutiny of exactly these zones</description>
+			<LookAt>
+				<longitude>32.28886124833391</longitude>
+				<latitude>31.27124196764706</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004717363555099366</heading>
+				<tilt>6.055262526878829</tilt>
+				<range>24640.1175537966</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ferry0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.38628852176898,31.27596503999487,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Oil Fields</name>
-		<open>1</open>
 		<Placemark>
 			<name>Bomu Oil Field</name>
 			<description>Operational status: Not operational, per available reporting — shut in since 1993. I&apos;m not fully certain this still holds as of mid-2026: Renaissance announced in July 2026 that it had revived &quot;a previously dormant Nigerian field,&quot; and separately Nigerian officials have discussed resuming Ogoniland production, but no source I found names Bomu specifically as restarted, so I can&apos;t confirm either way with confidence.
