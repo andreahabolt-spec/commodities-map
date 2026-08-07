@@ -326,12 +326,6 @@ for route_cat in route_categories:
             f"{label}  ({count})", value=True, key=f"route_{route_cat}"
         )
 
-st.sidebar.markdown(
-    line_swatch("#b71c1c", dashed=True)
-    + "<span style='vertical-align:middle'>Non-operational (e.g. Kirkuk–Ceyhan)</span>",
-    unsafe_allow_html=True,
-)
-
 st.sidebar.divider()
 
 search = st.sidebar.text_input("Search a location by name")
