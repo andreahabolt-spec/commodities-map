@@ -39,6 +39,7 @@ CATEGORY_COLORS = {
     "Petrochemical Plants": "#000000",
     "Major Industrial & Energy Hubs": "#7b1fa2",
     "Aviation Fuel Demand": "#00acc1",
+    "Inland Waterways": "#00897b",   # points inside the waterways folder (e.g. Kaub gauge)
 }
 DEFAULT_COLOR = "#3388ff"
 
@@ -85,6 +86,11 @@ GLYPHS = {
     "Major Industrial & Energy Hubs":
         "<path d='M12 2.5l2.8 5.9 6.4.8-4.7 4.4 1.2 6.3L12 16.9l-5.7 3 1.2-6.3"
         "L2.8 9.2l6.4-.8L12 2.5z' fill='{c}'/>",
+    # water-level gauge (staff gauge with tick marks) - used for points in Inland Waterways
+    "Inland Waterways":
+        "<rect x='10.6' y='3' width='2.8' height='18' fill='{c}'/>"
+        "<path d='M8 6h4M8 10h4M8 14h4M8 18h4' stroke='{c}' stroke-width='1.8' stroke-linecap='round'/>"
+        "<path d='M3 20c2-1.6 4-1.6 6 0s4 1.6 6 0 4-1.6 6 0' stroke='{c}' stroke-width='1.8' fill='none'/>",
     # plane
     "Aviation Fuel Demand":
         "<path d='M21.5 15.2l-8.3-4.2V4.6a1.2 1.2 0 0 0-2.4 0V11l-8.3 4.2v2.3"
@@ -122,19 +128,21 @@ ROUTE_COLORS = {
     "Pipelines crude": "#e65100",
     "Pipelines refined products": "#fdd835",
     "Maritime routes": "#2dc0fb",
+    "Inland Waterways": "#00897b",   # teal - rivers / barge corridors
 }
 DEFAULT_ROUTE_COLOR = "#2dc0fb"
 CASING_COLOR = "#37474f"  # dark under-stroke giving pipelines a "tube" look
 
 ROUTE_NAME_COLORS = {
-    "Kirkuk–Ceyhan Oil Pipeline": "#b71c1c",  # dark red - currently NOT operational
+    "Kirkuk-Fishkhabur Pipeline (federal Iraqi leg)": "#b71c1c",  # dark red - currently NOT operational
 }
-NON_OPERATIONAL_ROUTES = {"Kirkuk–Ceyhan Oil Pipeline"}
+NON_OPERATIONAL_ROUTES = {"Kirkuk-Fishkhabur Pipeline (federal Iraqi leg)"}
 
 ROUTE_LABELS = {
     "Pipelines crude": "Crude pipelines",
     "Pipelines refined products": "Refined-product pipelines",
     "Maritime routes": "Maritime routes",
+    "Inland Waterways": "Inland waterways (barge corridors)",
 }
 
 
@@ -192,8 +200,6 @@ DESCRIPTION_LABELS = [
     "Connectivity",
     "Connected to",
     "Recent data",
-    "Recent news",
-    "Strategic value",
     "Main markets",
     "Export role",
     "Marine role",
@@ -276,8 +282,12 @@ if kml_file is None:
     st.stop()
 
 data = load_data(kml_file)
-route_categories = [c for c in data["categories"] if c in ROUTE_COLORS]
-point_categories = [c for c in data["categories"] if c not in ROUTE_COLORS]
+# A folder may hold routes, points, or both (e.g. "Inland Waterways" holds the
+# Rhine line AND the Kaub gauge point). Build the two lists from actual content.
+route_categories = [c for c in data["categories"]
+                    if c in ROUTE_COLORS and any(l["category"] == c for l in data["lines"])]
+point_categories = [c for c in data["categories"]
+                    if any(p["category"] == c for p in data["points"])]
 
 st.title("Global Energy Infrastructure Map")
 st.caption(
@@ -325,6 +335,12 @@ for route_cat in route_categories:
         route_visibility[route_cat] = st.checkbox(
             f"{label}  ({count})", value=True, key=f"route_{route_cat}"
         )
+
+st.sidebar.markdown(
+    line_swatch("#b71c1c", dashed=True)
+    + "<span style='vertical-align:middle'>Non-operational",
+    unsafe_allow_html=True,
+)
 
 st.sidebar.divider()
 
@@ -378,6 +394,7 @@ for route_cat in route_categories:
         continue
     default_color = ROUTE_COLORS.get(route_cat, DEFAULT_ROUTE_COLOR)
     is_pipeline = "Pipelines" in route_cat
+    is_waterway = route_cat == "Inland Waterways"
     group = folium.FeatureGroup(name=route_cat, show=True)
     for line in (l for l in data["lines"] if l["category"] == route_cat):
         name = line["name"]
@@ -409,7 +426,7 @@ for route_cat in route_categories:
                 control=False,
             ).add_to(group)
 
-        base_style = {"color": color, "weight": 3.2, "opacity": 0.95}
+        base_style = {"color": color, "weight": 4.2 if is_waterway else 3.2, "opacity": 0.85 if is_waterway else 0.95}
         if dash:
             base_style["dashArray"] = dash
 
