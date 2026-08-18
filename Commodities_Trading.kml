@@ -174,7 +174,7 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
@@ -187,27 +187,27 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
+			<styleUrl>#s_ylw-pushpin10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="m_ylw-pushpin01">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
+	<StyleMap id="m_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -215,6 +215,16 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_R">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_R1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_R</styleUrl>
@@ -554,104 +564,14 @@
 			<styleUrl>#sh_ranger_station0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle">
+	<StyleMap id="msn_volcano1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle1</styleUrl>
+			<styleUrl>#sn_volcano1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle02</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle001</styleUrl>
+			<styleUrl>#sh_volcano00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano">
@@ -661,7 +581,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano0</styleUrl>
+			<styleUrl>#sh_volcano</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano0">
@@ -671,7 +591,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_volcano</styleUrl>
+			<styleUrl>#sh_volcano0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano00">
@@ -737,21 +657,21 @@
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin00">
@@ -764,37 +684,38 @@
 			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin1">
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e600ffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin0">
@@ -809,9 +730,30 @@
 			<color>e600ffff</color>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin00">
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e600ffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
@@ -825,30 +767,14 @@
 	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl01">
+	<Style id="s_ylw-pushpin_hl000">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -860,7 +786,7 @@
 			<color>e600ffff</color>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00">
+	<Style id="s_ylw-pushpin_hl01">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1722,6 +1648,22 @@
 			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_R1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sh_R">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2240,8 +2182,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>6</width>
@@ -2266,163 +2206,14 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_red-circle">
+	<Style id="sh_volcano0">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
 			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle000">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle001">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle100">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle11">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle3">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<Style id="sh_volcano">
 		<IconStyle>
@@ -2432,8 +2223,12 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_volcano0">
+	<Style id="sh_volcano00">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -2554,6 +2349,20 @@
 			<width>2.5</width>
 		</LineStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>e600ffff</color>
+		</LineStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2614,6 +2423,22 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
+	</Style>
+	<Style id="sn_R1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sn_R0">
 		<IconStyle>
@@ -3173,8 +2998,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ff2dc0fb</color>
 			<width>4</width>
@@ -3202,165 +3025,20 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_red-circle">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle000">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle01">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle02">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle20">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_volcano">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_volcano1">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -3495,6 +3173,20 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>e600ffff</color>
+		</LineStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -3532,7 +3224,7 @@
 			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin1">
+	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -3924,6 +3616,33 @@ Risks: Naphtha/LPG price exposure; energy costs vs US and Middle East crackers; 
 	</Folder>
 	<Folder>
 		<name>Mega-refineries</name>
+		<Placemark>
+			<name>OMV Schwechat refinery</name>
+			<description>Refinery: OMV Schwechat Refinery
+Classification: Austria&apos;s only refinery and one of Central Europe&apos;s largest inland refineries — integrated with petrochemicals
+Location: Schwechat, immediately south-east of Vienna, adjacent to Vienna Airport, on the Danube plain, Austria
+Owner: OMV (Austrian state ~31.5% via ÖBAG, ADNOC ~24.9%)
+Capacity: ~9.6 Mt/year (~200,000 b/d) — verify current figure; integrated with Borealis polyolefins (OMV-controlled) on the same site
+Main feedstocks: Crude delivered by the Adria-Wien Pipeline (AWP), a branch of the TAL system from Trieste — no seaborne access; some Danube barge supply
+Main products: Diesel, gasoline, jet fuel (Vienna Airport is next door), heating oil, petrochemical feedstocks
+Recent data: A distillation column collapsed during a pressure test in June 2022, knocking out much of the plant for months and forcing Austria to release strategic reserves and import products; repaired and back at full rates since; OMV is co-processing renewable feedstocks and building sustainable-fuel capacity on site
+Strategic role: A landlocked refinery entirely dependent on the Trieste/TAL corridor — the Austrian twin of Bayernoil&apos;s supply logic; the fuel source for Vienna Airport
+Risks: Single-corridor crude supply (TAL/AWP); operational incident history (2022); Danube low-water limits barge alternatives; European refining margins</description>
+			<LookAt>
+				<longitude>16.50303504586184</longitude>
+				<latitude>48.1457321431847</latitude>
+				<altitude>0</altitude>
+				<heading>0.002709167331172165</heading>
+				<tilt>0</tilt>
+				<range>5254.806530115478</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_volcano</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>16.50303504586183,48.1457321431847,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark>
 			<name>Godorf refinery</name>
 			<description>Refinery: Shell Rheinland — Godorf refinery (crude processing site)
@@ -4817,7 +4536,7 @@ Risks: Repeated unplanned outages and unit reliability problems, loss of Aramco&
 				<range>12044.48650734411</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_volcano</styleUrl>
+			<styleUrl>#msn_volcano1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>104.1497294355222,1.358072528302383,0</coordinates>
@@ -5967,7 +5686,7 @@ Risks: Drone attacks, prolonged unit outages, sanctions, difficulty sourcing rep
 				<range>40875.53749948324</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_R</styleUrl>
+			<styleUrl>#msn_R1</styleUrl>
 			<Point>
 				<coordinates>50.06007733770959,53.10200646167157,35</coordinates>
 			</Point>
@@ -6028,9 +5747,59 @@ Risks: EU/Western sanctions exposure, reputational and legal risk from Russian-c
 				<coordinates>41.66,42.255,4.999999999999999</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Pancevo refinery </name>
+			<description>Refinery: NIS Pančevo Refinery
+Classification: Serbia&apos;s only crude refinery — supplies ~80% of the country&apos;s diesel and gasoline
+Location: Pančevo, on the Danube just north-east of Belgrade, Serbia
+Owner: NIS (Naftna Industrija Srbije) — Russian-controlled since 2008 (Gazprom Neft 44.9%, Gazprom 11.3%, Serbian state 29.9%); MOL agreed in January 2026 to buy the 56.15% Russian stake (~€1bn), with ADNOC as possible minority partner — pending OFAC approval, talks in final stage as of August 2026
+Capacity: ~4.8 Mt/year (~96,000 b/d); Euro-5 diesel and gasoline, jet, LPG, bitumen; modernised with a hydrocracker (2012) and delayed coker (2020)
+Main feedstocks: Imported crude via Croatia&apos;s JANAF pipeline from the Omišalj terminal (Krk) — the refinery&apos;s only supply route; ~20% from NIS&apos;s own Serbian fields; Russian crude excluded since EU sanctions in 2022
+Recent data: US sanctions on NIS took effect 9 October 2025 — JANAF halted deliveries and the refinery went to hot standby on 25 November; restarted January 2026 under successive OFAC waivers; MOL has committed to keep it running for at least ten years at pre-sanctions capacity
+Strategic role: A landlocked country&apos;s single point of fuel supply — and one of Russia&apos;s last energy assets in Europe, now being transferred to MOL, which plans to link Pančevo with Bratislava and Százhalombatta as one integrated system
+Risks: Single supply route (JANAF); sanctions and ownership uncertainty until the MOL deal closes; Danube-side location exposes it to low-water constraints for barge alternatives</description>
+			<LookAt>
+				<longitude>20.69284586244759</longitude>
+				<latitude>44.82453254161618</latitude>
+				<altitude>0</altitude>
+				<heading>4.190707197252693</heading>
+				<tilt>8.044512368415258</tilt>
+				<range>8394.06393768126</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_R</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>20.67821921047792,44.83187049969924,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Major Oil Storage &amp; Distribution Terminals</name>
+		<Placemark>
+			<name>Novi Sad NIS site</name>
+			<description>Terminal: NIS Novi Sad Headquarters, Major Oil Storage &amp; Distribution Terminals
+Classification: Former crude refinery, no longer processing fuels — now NIS&apos;s head office, a lubricants/oil-products operation and a Danube logistics base
+Location: Novi Sad, Vojvodina, on the Danube, Serbia
+Owner: NIS (Naftna Industrija Srbije)
+Recent data: The Novi Sad refinery was heavily damaged in the 1999 NATO bombing and never returned to full crude refining; NIS concentrated all refining at Pančevo and kept Novi Sad for lubricants, storage and corporate functions
+Strategic role: A reminder that Serbia went from two refineries to one — which is why the Pančevo sanctions crisis had no domestic fallback
+Risks: N/A as a production asset; noted for context only</description>
+			<LookAt>
+				<longitude>19.86802091458377</longitude>
+				<latitude>45.27519971406137</latitude>
+				<altitude>0</altitude>
+				<heading>-0.5870989562253861</heading>
+				<tilt>12.86049340360877</tilt>
+				<range>3708.395036660953</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>19.86391819970226,45.27467057240916,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="ADDEILT000000000001">
 			<name>EAPC Eilat Oil Terminal</name>
 			<description>Terminal: EAPC Eilat Oil Terminal
@@ -6042,7 +5811,7 @@ Berths / vessel size: Tankers up to ~350,000 dwt (VLCC-capable)
 Strategic role: Entry/exit point letting Gulf-origin crude reach the Mediterranean without transiting Suez — and vice versa for reverse flows to Asia
 Recent data: Activity constrained by the Environment Ministry&apos;s &apos;Zero Additional Risk&apos; policy (Nov 2021) protecting the Gulf&apos;s coral reefs, which froze the UAE Red-Med ramp-up; the Red Sea shipping crisis since late 2023 further curtailed calls
 Risks: A single spill next to a fragile coral ecosystem would be a national disaster — EAPC already caused the 2014 Arava spill and a 2016 coral-damage case; Bab el-Mandeb security; regulatory cap on growth</description>
-			<styleUrl>#msn_red-circle3</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>34.93477390244553,29.52766276554422,0</coordinates>
 			</Point>
@@ -6058,7 +5827,7 @@ Berths / vessel size: Tankers up to ~250,000 dwt
 Crude flows: Seaborne imports (Azeri BTC and Kazakh CPC grades prominent among them) feeding Israel&apos;s two refineries; potential reverse flows toward Eilat
 Strategic role: The hinge between seaborne crude supply and Israel&apos;s refining system
 Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and precautionary measures followed October 2023; war-risk insurance costs; single-point concentration of Israeli crude imports</description>
-			<styleUrl>#msn_red-circle01</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>34.543,31.642,0</coordinates>
 			</Point>
@@ -6066,7 +5835,7 @@ Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and
 		<Placemark id="ADDGOR00000000000001">
 			<name>Rostock Oil Harbour &amp; GÖR Tank Farm (Euroports)</name>
 			<description><![CDATA[Terminal: Rostock Oil Harbour &amp; GÖR Tank Farm (Großtanklager-Ölhafen Rostock)<br>Classification: Baltic crude and products import terminal — head of the Rostock–Schwedt pipeline (MVL)<br>Location: Peez, Port of Rostock, Mecklenburg-Vorpommern, Germany<br>Owner/Operator: Großtanklager-Ölhafen Rostock GmbH (GÖR), subsidiary of Euroports Germany — sole owner since acquiring Total Deutschland's stake in the former joint venture; GÖR also operates the on-site tanks of PCK Raffinerie Schwedt and Dow Olefinverbund Böhlen; PCK owns its own crude tank farm and a dedicated pier<br>Infrastructure: Six tanker berths for vessels up to 100,000 tonnes, discharge capacity up to 6,000 tonnes per hour; ~700,000 m³ of storage; rail loading (7 tracks), automated truck loading; on-site biodiesel plant (~200,000 t/y)<br>Handles: Crude oil, mineral oil products, heavy fuel oil, VGO, biodiesel, HVO, methanol, ethanol, vegetable oils<br>Connectivity: Crude pipeline to the PCK Schwedt refinery (MVL, ~200 km) and product pipeline to Böhlen (Dow); rail and road distribution across eastern Germany<br>Recent data: Around 6 million tonnes of crude per year pumped from tankers into the Schwedt pipeline since Germany ended Russian pipeline imports — securing fuel supply for eastern Germany and Berlin<br>Strategic role: The seaborne entry point that replaced Druzhba for the Schwedt refinery; the first link of the chain tanker → GÖR → MVL → Schwedt → Berlin fuel market<br>Risks: Berth size limit (~100,000 t — Aframax scale, no larger); throughput bottleneck relative to Schwedt's nameplate capacity; Baltic weather and single-corridor dependence]]></description>
-			<styleUrl>#msn_red-circle11</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>12.14519945455248,54.14954764676539,0</coordinates>
 			</Point>
@@ -6074,7 +5843,7 @@ Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and
 		<Placemark id="ADDDAL00000000000001">
 			<name>Dalmeny Tank Farm (FPS)</name>
 			<description><![CDATA[Terminal: Dalmeny Tank Farm (FPS crude storage)<br>Classification: Crude oil storage — the buffer between the Forties Pipeline System and the Hound Point export jetty<br>Location: Dalmeny, South Queensferry, Firth of Forth, Scotland<br>Owner/Operator: INEOS FPS<br>Infrastructure: Six floating-roof tanks, ~3 million barrels of storage; fed from Kinneil (Grangemouth) by a 19 km, 30-inch line; connected to Hound Point by 48-inch and 40-inch loading lines (~5 km)<br>Handles: Stabilised Forties Blend crude<br>Strategic role: Decouples continuous pipeline flow from batch tanker liftings — the pipeline never stops, ships load on schedule<br>Risks: Modest storage relative to system throughput (~3 million barrels against flows of several hundred thousand b/d) — limited slack if liftings are delayed]]></description>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-3.38,55.99,0</coordinates>
 			</Point>
@@ -6082,7 +5851,7 @@ Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and
 		<Placemark id="ADDHPT00000000000001">
 			<name>Hound Point Marine Terminal</name>
 			<description><![CDATA[Terminal: Hound Point Marine Terminal<br>Classification: Deep-water crude export terminal — the loading point of Forties Blend<br>Location: Firth of Forth, ~3 km east of the Forth Bridge, near Edinburgh, Scotland<br>Owner/Operator: INEOS FPS (within the Forth Ports Authority area); opened 1975<br>Infrastructure: Offshore island structure with two deep-water jetties and a vapour recovery platform; loading up to 8,000 m³/hour per berth; dedicated escort tug fleet<br>Vessels: Berths accommodate tankers up to ~350,000 dwt — one of the few UK terminals able to load VLCCs; roughly 200 vessels per year<br>Handles: Forties Blend (typically ~38–41° API, ~0.6–0.8% sulphur) — a Dated Brent benchmark grade<br>Strategic role: The exact point where the Forties chain on this map goes from pipeline to ship — wellhead → FPS → Kinneil → Dalmeny → Hound Point → Rotterdam<br>Risks: Benchmark sensitivity — outages here feed directly into Dated Brent assessments; weather and tidal constraints in the Firth]]></description>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-3.359,56.005,0</coordinates>
 			</Point>
@@ -6090,7 +5859,7 @@ Risks: Within rocket range of Gaza — loadings were interrupted in May 2021 and
 		<Placemark id="ADDSIOT0000000000001">
 			<name>SIOT Trieste Marine Terminal</name>
 			<description><![CDATA[Terminal: SIOT Trieste Marine Terminal (Società Italiana per l'Oleodotto Transalpino)<br>Classification: Crude import terminal — head of the TAL pipeline system<br>Location: Bay of Muggia, Port of Trieste, Italy<br>Owner/Operator: SIOT / TAL Group (shareholders include OMV, Shell, Eni, ExxonMobil, MERO ČR, Gunvor, TotalEnergies, Phillips 66 and Rosneft)<br>Infrastructure: Marine piers with tanker berths — first Suezmax berthed in May 2025 after the Fincantieri revamp — plus a tank farm feeding the TAL pipeline<br>Capacity: ~37 million tonnes of crude received per year (~400 tankers annually)<br>Connectivity: Sea-side entry of the entire Alpine corridor — TAL to Bavaria (Bayernoil, Gunvor Ingolstadt), Karlsruhe (MiRO), Austria (AWP branch) and the Czech Republic (via IKL)<br>Strategic role: The single most important crude gateway for landlocked Central Europe; the physical starting point of the Czech Republic's post-Russia supply route<br>Risks: Corridor concentration — an outage at Trieste ripples into refineries in four countries; Adriatic weather and port constraints]]></description>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>13.76228349369942,45.64661359195608,0</coordinates>
 			</Point>
@@ -6117,7 +5886,7 @@ Risks: Strait congestion, marine collision, oil spills, berth outages, severe th
 				<range>6459.415970871923</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>103.7450915580899,1.235462070826827,3.704244327194541</coordinates>
 			</Point>
@@ -6125,7 +5894,7 @@ Risks: Strait congestion, marine collision, oil spills, berth outages, severe th
 		<Placemark>
 			<name>Haoud El Hamra Gathering &amp; Pump Station</name>
 			<description><![CDATA[<b>Role:</b> Central gathering hub; origin of the northbound export trunklines<br/><b>Operator:</b> Sonatrach TRC<br/><b>Coordinate confidence:</b> Exact<br/><b>Lat, Lon:</b> 31.88944, 5.97306]]></description>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>5.97306,31.88944,0</coordinates>
 			</Point>
@@ -6143,7 +5912,7 @@ Operator:SPSE</description>
 				<range>11513.31548162729</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>4.912289359287117,43.45863683908951,0</coordinates>
@@ -6161,7 +5930,7 @@ Operator:SPSE</description>
 				<range>3170.650227834174</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-113.3650499560921,53.54435480570139,0</coordinates>
@@ -6192,7 +5961,7 @@ Risks: Oil-spill risk in Burrard Inlet and the Salish Sea, tanker restrictions t
 				<range>2584.723897560875</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.9538833088552,49.28900761066111,0</coordinates>
@@ -6223,7 +5992,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>3568.651648474527</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.9294342714177,49.26977697679428,0</coordinates>
@@ -6242,7 +6011,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>3613.133342857473</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>103.5351680670497,1.349556947913845,4.193988666707633</coordinates>
 			</Point>
@@ -6260,7 +6029,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>2159.751833661487</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>29.6719218,31.0374431,0</coordinates>
@@ -6279,7 +6048,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>8605.38724881015</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>104.1819971036788,1.344458901664911,2.970455479897451</coordinates>
 			</Point>
@@ -6296,7 +6065,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>9553.644769163802</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="08BBF2E27F3F1D289C3A">0</SimpleData>
@@ -6319,7 +6088,7 @@ Risks: Tank fires, crude spills, pipeline interruption, seismic risk, wildfire e
 				<range>8528.162454476114</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="173EEA12AD3F1D2A5045">0</SimpleData>
@@ -6355,7 +6124,7 @@ Risks: Drone and missile attacks, temporary port closures, damage to tanks and l
 				<range>7890.417272374034</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="0A686630D63F2360CAA3">0</SimpleData>
@@ -6379,7 +6148,7 @@ Risks: Drone and missile attacks, temporary port closures, damage to tanks and l
 				<range>5930.788330664509</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="07CB78FB7C3F23629A63">0</SimpleData>
@@ -6402,7 +6171,7 @@ Risks: Drone and missile attacks, temporary port closures, damage to tanks and l
 				<range>15313.09946442023</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="07CFE706053F23645018">0</SimpleData>
@@ -6439,7 +6208,7 @@ Risks: Iraq–Türkiye political and contractual disputes, pipeline sabotage, re
 				<range>11152.58242627024</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="039A63B3463F2D0D4069">0</SimpleData>
@@ -6477,7 +6246,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>7571.767927960027</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="003F5D15A33F2D0EA8F5">0</SimpleData>
@@ -6500,7 +6269,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>5637.609870001324</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-95.18297718190327,29.61418322687845,11.48587133223509</coordinates>
 			</Point>
@@ -6517,7 +6286,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>18025.52978734486</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="1F8EAC76B33F33B507D9">0</SimpleData>
@@ -6540,7 +6309,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>1697.810766376264</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>5.1149018,45.6155196,0</coordinates>
@@ -6558,7 +6327,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>1537.549630437695</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>8.5559148,50.0286872,0</coordinates>
@@ -6576,7 +6345,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>5752.594125845936</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-73.88462355019486,7.073652529560514,73.42292414192707</coordinates>
 			</Point>
@@ -6594,7 +6363,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>3623.704182373476</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>28.72205088671118,60.33991086572199,46.51861622035126</coordinates>
 			</Point>
@@ -6612,7 +6381,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>15413.04423959227</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>28.43259113123285,59.69419730896802,0.5303039684784627</coordinates>
 			</Point>
@@ -6630,7 +6399,7 @@ Risks: Pipeline sabotage or security incidents, earthquakes and landslides, crud
 				<range>14891.64541449398</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>14.53429138844205,45.21817548052175,20.86324727075943</coordinates>
 			</Point>
@@ -6660,7 +6429,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>23013.69924402796</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>4.2828162,51.8913455,0.2735449984056348</coordinates>
 			</Point>
@@ -6678,7 +6447,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>3000</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>4.786598134495219,52.41053286954726,2</coordinates>
 			</Point>
@@ -6696,7 +6465,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>15750.88389459299</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>4.141333829543958,51.94799525328288,12.57155851531995</coordinates>
 			</Point>
@@ -6713,7 +6482,7 @@ Risks: Fire and contamination risk, Rhine and port-logistics disruption, product
 				<range>2243.808004093299</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>4.354385179949142,51.24937599132093,2.513679747653361</coordinates>
 			</Point>
@@ -6741,7 +6510,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1914.193430132582</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>4.369067045891983,51.25177384885958,3.305894788988312</coordinates>
 			</Point>
@@ -6759,7 +6528,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1845.695836351079</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>57.48908302397544,-20.14461293115252,6.373579975660162</coordinates>
 			</Point>
@@ -6777,7 +6546,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>3620.237184350844</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>57.4947021908326,-20.14141803191107,4.18707365313888</coordinates>
 			</Point>
@@ -6795,7 +6564,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>3241.859351807507</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>32.56336455789477,-25.96982451454338,5.677996084971806</coordinates>
 			</Point>
@@ -6813,7 +6582,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>1718.658487156208</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>32.49949090624551,-25.95965481985363,5.284837326036451</coordinates>
 			</Point>
@@ -6831,7 +6600,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>2519.468649739575</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>29.04438675583706,-26.05027122129684,1586.762756987893</coordinates>
 			</Point>
@@ -6849,7 +6618,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>10361.16271442268</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="040A1F85F73F2D52D689">0</SimpleData>
@@ -6873,7 +6642,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>28905.05784266163</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-95.05123838639194,29.73566277101162,5.693053647793374</coordinates>
 			</Point>
@@ -6891,7 +6660,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>12456.51559872553</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-94.89773417913777,29.84779574732718,26.72588759351757</coordinates>
 			</Point>
@@ -6908,7 +6677,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>899.6743359934181</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.9336339,30.061982,0</coordinates>
@@ -6926,7 +6695,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>899.7202419663954</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.9287344,30.0574125,0</coordinates>
@@ -6944,7 +6713,7 @@ Itinéraire : Vers ce lieu - À partir de ce lieu</description>
 				<range>898.5032577756459</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>47.88729410000001,30.1783967,0</coordinates>
@@ -6970,7 +6739,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>1927.914198111976</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle3</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>34.96799563995901,29.38178999956056,33.40967143232309</coordinates>
 			</Point>
@@ -6987,7 +6756,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>5785.393581093522</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>35.96653381958463,35.22235976149776,36.24013392066996</coordinates>
 			</Point>
@@ -7004,7 +6773,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>7475.071725114249</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>52.21994947792797,54.92568048328462,135.0925367481317</coordinates>
 			</Point>
@@ -7021,7 +6790,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>4643.867886980879</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>25.12478137865085,50.07026397362587,225.7785784856151</coordinates>
 			</Point>
@@ -7038,7 +6807,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>18384.48961256538</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>140.0214638468653,35.49237444730526,6.897529595340323</coordinates>
 			</Point>
@@ -7055,7 +6824,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>1774.084589935238</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.916040499999999,43.434797,0</coordinates>
@@ -7073,7 +6842,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>1774.580562634262</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.8928764,43.4204139,0</coordinates>
@@ -7091,7 +6860,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>1774.951888646208</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>4.834054,43.409643,0</coordinates>
@@ -7109,7 +6878,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>1374.209322501265</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>6.101515340222317,46.21589967767904,409.7536698553555</coordinates>
 			</Point>
@@ -7126,7 +6895,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>12446.22251956026</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>0.1591582776677547,49.4651087863507,8.434378666648374</coordinates>
 			</Point>
@@ -7143,7 +6912,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>2958.330745572166</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>1.020805475571909,49.40961317838162,5.318006394642103</coordinates>
 			</Point>
@@ -7160,7 +6929,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>3566.298645962379</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>2.185023301465163,48.90105116833551,25.9229733781971</coordinates>
 			</Point>
@@ -7177,7 +6946,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>2851.57249787153</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>7.070367879298738,51.52976345771804,33.83028083796033</coordinates>
 			</Point>
@@ -7194,7 +6963,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>15074.52520279912</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema00">
 					<SimpleData name="09149BB14C3FE5E87566">0</SimpleData>
@@ -7217,7 +6986,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>1583.083454155143</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<coordinates>11.4737874,48.7947571,0</coordinates>
@@ -7235,7 +7004,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>10162.32116241124</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-1.166645189471853,54.61107030415113,5.678885366906616</coordinates>
 			</Point>
@@ -7252,7 +7021,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>3901.259457701817</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>5.031485608870081,60.81532178571573,12.73050171949453</coordinates>
 			</Point>
@@ -7268,7 +7037,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>9605.853158531982</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-54.00016554845473,47.78721988677749,0</coordinates>
@@ -7286,7 +7055,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 				<range>8075.648938041413</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>-97.43805172032799,27.80986235338777,12.18912578746996</coordinates>
 			</Point>
@@ -7313,7 +7082,7 @@ Risks: Tank fires, vapour release, product contamination, spills, overfilling, p
 				<range>5045.080083596493</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle100</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>6.946337962101885,36.8805841519012,0</coordinates>
@@ -7332,7 +7101,7 @@ Operator: Waha Oil Co / NOC</description>
 				<roll>55.43042773308764</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>18.34965819337705,30.62876828330338,0</coordinates>
@@ -7361,7 +7130,7 @@ Source: NUPRC crude oil terminal operations register; port-registry coordinate c
 				<range>2911.857564424163</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle2</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>7.160021945461112,4.419963160069129,0</coordinates>
@@ -7391,7 +7160,7 @@ Risks: Sanctions-evasion scrutiny (EU/OCCRP/Transparency International reporting
 				<range>6000</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<coordinates>41.64,42.27,4.999999999999999</coordinates>
 			</Point>
@@ -7415,7 +7184,7 @@ Risks: Sanctions exposure via the Rosneft stake (EU sanctions on Nayara) pushing
 				<range>60202.05664683969</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>69.7276281862008,22.40079188475431,0</coordinates>
@@ -7440,7 +7209,7 @@ Risks: Sanctions logistics (old &quot;shadow fleet&quot; ships, unclear insuranc
 				<range>6011.758783748465</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>32.30003652066684,67.08175339588146,0</coordinates>
@@ -7467,7 +7236,7 @@ Risks: Rhine navigability (recurring droughts 2018, 2022, 2026); Seveso sites 10
 				<range>3728.000555799524</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle00</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>7.803447355785695,48.60168919049215,0</coordinates>
@@ -7494,7 +7263,7 @@ Risks: Total dependence on Rhine navigability (2018, 2022 and record 2026 low wa
 				<range>1840.506306391863</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>7.637289037624486,47.55480931641503,0</coordinates>
@@ -7520,7 +7289,7 @@ Risks: Rhine low-water dependence; Seveso-class hazardous-site constraints in a 
 				<range>1800.782002598348</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle0</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>7.658912232872749,47.54331506122355,0</coordinates>
@@ -7547,7 +7316,7 @@ Risks: Concentration of one airport&apos;s fuel supply on a small number of depo
 				<range>2240.367061950285</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-circle1</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>8.470888570319858,50.02471829397918,0</coordinates>
@@ -9275,7 +9044,7 @@ Recent data: Turkey terminated the 1973 agreement on 27 July 2026 with a twelve-
 Strategic role: The Hormuz hedge. With southern Iraqi exports exposed to Gulf closure, this is the country&apos;s only Mediterranean outlet — and it shares Ceyhan with BTC, stacking Iraqi and Caspian contingency plans on a single coastline
 
 Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of Turkish strength; security across southeastern Anatolia; seismic exposure — the 2023 Kahramanmaraş earthquake suspended Ceyhan loadings; and terminal concentration, where one damaged outlet removes two countries&apos; backup routes simultaneously</description>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9286,7 +9055,7 @@ Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of
 		<Placemark id="ADDEAPC000000000001">
 			<name>Eilat–Ashkelon Pipeline (EAPC, Trans-Israel)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — reversible Red Sea ↔ Mediterranean land bridge (Trans-Israel / EAPC line)<br>Route: Eilat oil port (Gulf of Aqaba) → Arava valley → Negev → Ashkelon oil port (Mediterranean); 254 km, 42-inch — the backbone of a ~747 km EAPC network that also feeds the Haifa and Ashdod refineries<br>Owner/Operator: Europe Asia Pipeline Company (EAPC) — Israeli state-owned; operations historically under strict confidentiality dating from the company's origins<br>Capacity: ~30 million tonnes/year of crude; cited at ~400,000 b/d northbound and up to ~1.2 million b/d in reverse flow (reverse project completed 2003)<br>Operating history: Built 1968 as a covert 50/50 Israeli–Iranian venture (via Liechtenstein shell companies) to move Iranian crude to Europe bypassing Suez; the partnership collapsed with the 1979 revolution and international arbitration later ruled in Iran's favour for over a billion dollars — never paid; the 49-year concession expired in 2017 and activities passed to the renamed Europe Asia Pipeline Company<br>Recent data: The 2020 MED-RED Land Bridge MOU with UAE interests (post-Abraham Accords) was frozen by Israel's Environment Ministry — a 'Zero Additional Risk' policy for the Gulf of Eilat (Nov 2021) blocks any increase in tanker calls; a January 2025 State Comptroller report flagged the company's challenges at Eilat; EAPC is diversifying, including a 260 km fibre-optic corridor along the pipeline<br>Strategic role: The only Suez-bypass land bridge under a single state's control, connecting Red Sea and Mediterranean tanker markets in both directions<br>Risks: War exposure at both ends (rocket range of Gaza at Ashkelon, Red Sea shipping crisis at Eilat); environmental veto on expansion — the 2014 Arava spill from this line remains one of Israel's worst ecological disasters; opacity of actual flows]]></description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9297,7 +9066,7 @@ Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of
 		<Placemark id="ADDBPS00000000000001">
 			<name>Baltic Pipeline System (BPS-1)</name>
 			<description><![CDATA[Classification: Crude oil pipeline system — Russia's Baltic export artery (BPS-1)<br>Route: Timan-Pechora / West Siberia / Urals-Volga networks → Yaroslavl → Kirishi (KINEF refinery) → Primorsk oil terminal, Gulf of Finland<br>Owner/Operator: Transneft<br>Capacity: Up to ~75 million tonnes per year (~1.5 million b/d system capacity); Primorsk loads ~1 million b/d of Urals crude plus ~300,000 b/d of diesel; commissioned December 2001<br>Crude: Urals — Russia's flagship export grade, since 2022 shipped largely via the sanctions-era 'shadow fleet' under the G7 price-cap regime<br>Status: Operational but repeatedly disrupted — Ukrainian long-range drones forced the first loading suspension at Primorsk in September 2025, with renewed strikes in March and May 2026 halting exports again; at the peak, roughly 40% of Russia's oil export capacity was assessed offline<br>Strategic role: Built to bypass the Baltic transit states and concentrate exports at a Russian-controlled port; the single most important outlet for seaborne Urals<br>Risks: Primary target of the Ukrainian deep-strike campaign on energy infrastructure; sanctions and price-cap enforcement; winter ice navigation in the Gulf of Finland; single-corridor concentration]]></description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9308,7 +9077,7 @@ Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of
 		<Placemark id="ADDMVL00000000000001">
 			<name>Rostock–Schwedt Pipeline (MVL)</name>
 			<description><![CDATA[Classification: Crude oil pipeline — Baltic import route (Mineralölverbundleitung, MVL)<br>Route: Rostock oil port (Baltic Sea) → PCK Schwedt refinery, ~200 km<br>Owner/Operator: PCK Raffinerie GmbH<br>Capacity: Limited — historically able to load the refinery at roughly half its nameplate; a ~€400 million upgrade has been pursued to raise throughput<br>Status: Operational — became Schwedt's lifeline after Germany ended Russian pipeline crude imports in January 2023<br>Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades; seaborne barrels landed at Rostock reach the Berlin fuel market through this line<br>Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics]]></description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9319,7 +9088,7 @@ Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of
 		<Placemark id="ADDFPS00000000000001">
 			<name>Forties Pipeline System (FPS)</name>
 			<description><![CDATA[Classification: Integrated crude oil and NGL transport system<br>Route: Forties Unity platform (central North Sea) → Cruden Bay landfall (169 km offshore) → Kinneil, Grangemouth (209 km onshore) → Dalmeny tank farm → Hound Point export jetty<br>Owner/Operator: INEOS (acquired from BP in 2017)<br>Capacity: Nominal ~575,000–610,000 b/d; carries liquids from ~85 UK and Norwegian fields — roughly 40% of UK North Sea oil<br>Main products: Stabilised Forties Blend crude delivered at Hound Point (a Dated Brent benchmark grade); gas liquids to Grangemouth<br>Strategic role: The upstream leg of the Forties chain on this map — wellhead to Hound Point loading to Rotterdam; a single-system chokepoint for a large share of UK production<br>Risks: Single-system concentration — outages at Kinneil or on the main line ripple directly into the Dated Brent benchmark; ageing infrastructure; declining North Sea throughput]]></description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9327,20 +9096,9 @@ Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark id="ADDIKL00000000000001">
-			<name>IKL pipeline (Ingolstadt–Kralupy–Litvínov) — TAL extension</name>
-			<description><![CDATA[Classification: Crude oil pipeline — continuation of the TAL system (IKL: Ingolstadt–Kralupy–Litvínov)<br>Route: Vohburg/Ingolstadt (junction with TAL) → Czech border → Nelahozeves central tank farm near Kralupy, supplying the Kralupy and Litvínov refineries; 347 km<br>Owner/Operator: MERO ČR (Czech state pipeline company)<br>Capacity: ~200,000 b/d usable for the Czech Republic (~10 Mt/y design)<br>Status: Operational — since the TAL-PLUS expansion went live in 2025, TAL + IKL can deliver up to 8 Mt/y, covering the entire Czech crude demand<br>Recent data: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour<br>Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region<br>Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand]]></description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.46181430714684,48.80694359842674,0 11.621,48.76800000000001,0 12.35,49.17999999999999,0 12.9,49.50000000000001,0 13.55,49.78,0 14.1,50.08,0 14.31,50.24000000000001,0 14.295,50.26,0 13.61,50.60000000000001,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
 		<Placemark>
 			<name>Trans Niger Pipeline (TNP): Bomu -&gt; Rumuekpe -&gt; Bonny (SPDC, since 1965, 180,000 bpd)</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9350,7 +9108,7 @@ Risks: Treaty vacuum after July 2026 and tariff renegotiation from a position of
 		</Placemark>
 		<Placemark>
 			<name>Nembe Creek Trunk Line (NCTL): Nembe -&gt; Cawthorne Channel -&gt; Bonny (Aiteo, 97 km, up to 600,000 bpd)</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9385,7 +9143,7 @@ Risks: Chronic schedule slippage; security across Nineveh and Salahaddin; fundin
 				<range>15074.4970188383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<LineString>
 				<coordinates>
 					44.33474759149754,35.5451810771893,0 43.4951408465128,35.00766179438595,0 43.08336590020788,36.35289993742235,0 42.37788406566046,37.06792066428955,0 
@@ -9409,83 +9167,11 @@ Recent data: Since the March 2026 Hormuz closure, Aramco pivoted loadings to Yan
 Strategic role: The reason Saudi Arabia has options and Iraq has none — converts Gulf-basin production into Red Sea supply at the turn of a valve, feeding Yanbu&apos;s own refineries, direct Red Sea exports, and the SUMED land bridge beyond; in the 2026 crisis, the first link in the only chain (Petroline → Yanbu → SUMED → Sidi Kerir → Cape) that avoids both chokepoints entirely
 
 Risks: Capacity ceiling — 5 million b/d against far larger Gulf-coast production means the line cannot carry the kingdom&apos;s full export program; midline vulnerability — pumping stations in open desert, already struck by drones in 2019; destination risk — Yanbu itself now sits inside the Houthi threat perimeter, which is what pushed flows onward into SUMED; and dependence on downstream links (SUMED capacity, Egyptian transit, Cape freight economics) that Aramco does not control</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
 					38.24954936159315,23.97143160378243,0 38.50472567373777,24.15734388750042,0 49.66990672911108,25.92952433707718,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark id="062176C7573EB75DB130">
-			<name>Druzhba pipeline</name>
-			<description>Classification: Crude oil pipeline network — Russia → Central Europe; the world&apos;s largest oil pipeline system, the last Russian crude artery into the EU, and the clearest case on your map of a pipeline functioning as a geopolitical weapon in both directions
-
-Route: Almetyevsk (Tatarstan) gathering Urals crude → Samara → Bryansk → Mozyr (Belarus), where it splits: the northern branch through Poland (Adamowo, Płock) to Germany&apos;s Schwedt and Leuna refineries; the southern branch through Ukraine (past the Brody hub) into Slovakia (Slovnaft, Bratislava) and Hungary (MOL&apos;s Duna refinery, Százhalombatta); the Czech spur off the southern leg fell silent in 2025 when TAL-PLUS made Prague independent. Total network roughly 5,500 km, in service since 1964 — &quot;Druzhba&quot; means &quot;friendship&quot;
-
-Owner/Operator: No single owner — Transneft on the Russian trunk, with national operators segment by segment (Belarus, Ukraine&apos;s Ukrtransnafta, Poland&apos;s PERN); that fragmentation is exactly why every border on the route is a leverage point
-
-Capacity: Northern branch designed for well over 1 million b/d, southern branch in the low hundreds of thousands b/d serving Hungary and Slovakia; the cargo has diverged politically — the north now moves Kazakh-branded barrels to Germany (Poland and Germany quit Russian crude voluntarily in January 2023), while the south still moves Russian Urals under the EU&apos;s pipeline exemption from the seaborne import ban
-
-Operating history: A Cold War artery that outlived its era and became a bargaining chip: the 2019 organic-chloride contamination crisis poisoned the line for weeks; after 2022 it survived sanctions as the carve-out for landlocked members; through 2025, repeated Ukrainian strikes on its Russian infrastructure halted southbound flows three times, drawing formal complaints from Budapest and Bratislava to the European Commission
-
-Recent data: The 2026 crisis was the system&apos;s worst: a drone strike on January 27 damaged infrastructure near the Brody hub, totally cutting Russian crude transit on the southern leg — most critical for Slovakia, which depends on the single Slovnaft refinery configured specifically for Russian crude, and which declared a national energy state of emergency. The three-month outage became a full diplomatic war: Hungary blocked the EU&apos;s 20th sanctions package and a €90 billion loan for Ukraine until oil deliveries resumed, Slovakia halted emergency electricity supplies to Ukraine, and both governments accused Kyiv of slow-walking repairs. Flows restarted on April 22 — unblocking the EU loan for Kyiv — with the political ground shifted by Orbán&apos;s election defeat on April 12. The lasting consequence: a permanent expansion of the Adria pipeline from Croatia, so Slovakia is never 100% dependent on Druzhba again
-
-Strategic role: The inverse of every other asset on your map: elsewhere, infrastructure is attacked despite its cargo; here the cargo is the conflict — Russian oil revenue on one side, EU-member energy security on the other, and Ukraine holding the valve between them. Druzhba in 2026 proved a pipeline can be simultaneously a sanctions loophole, a war target, a veto generator inside the EU, and a hostage exchanged for a €90 billion loan
-
-Risks: War damage from either side, with attribution itself contested; transit leverage stacked at every border (Ukraine over the south, Belarus over everything); policy extinction risk — the EU exemption is meant to be temporary, and each crisis strengthens the case for ending it; refinery lock-in, since Slovnaft and Duna are optimized for Urals and switching crude slates costs time and money; alternative-route inadequacy — the Adria line from the Croatian coast is the only substitute and needed emergency expansion; aging Soviet-era steel; and the 2019 precedent that quality, not just quantity, can be weaponized</description>
-			<LookAt>
-				<longitude>29.25067063132974</longitude>
-				<latitude>52.02993399437838</latitude>
-				<altitude>198.1364416280397</altitude>
-				<heading>0</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>11924.52108772472</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<LineString>
-				<coordinates>
-					52.29990292501337,54.9052707640474,0 50.15033085955546,53.20489616269013,0 32.66743234438189,52.84439365501422,0 29.21733433700696,52.03704679591238,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark id="022741BE1B3EB7758A31">
-			<name>Druzhba via Slovakia</name>
-			<LookAt>
-				<longitude>19.83697583482294</longitude>
-				<latitude>48.66048047147333</latitude>
-				<altitude>672.6058239103678</altitude>
-				<heading>359.9952776999139</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>2225576.62013948</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<LineString>
-				<coordinates>
-					29.21754394721011,52.03685252949513,0 25.1485680856082,50.07990026978116,0 22.28977125832482,48.61992385846033,0 21.26122226862614,48.71678199252374,0 19.13197806405164,48.57903633301455,0 19.04764682130156,48.05013630184206,0 18.91044315179261,47.30865432225288,0 18.89365671906606,47.2843033463522,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark id="09C9307ECD3EB7997811">
-			<name>Druzhba pipeline</name>
-			<LookAt>
-				<longitude>14.04879026216731</longitude>
-				<latitude>51.22361550655494</latitude>
-				<altitude>353.0574361792079</altitude>
-				<heading>2.192718487425448</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>416049.4698652626</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<LineString>
-				<coordinates>
-					19.13204410982115,48.57912333221441,0 17.15211866797532,48.13930914330198,0 17.01917262475285,48.43848783045535,0 16.98022360801785,48.82497284655466,0 16.61041892993576,49.19780108536567,0 14.3247580989402,50.26037483035882,0 13.61237653056719,50.55898040725489,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
@@ -9516,29 +9202,10 @@ Risks: Unproven sustained throughput until the tests conclude — with barely a 
 				<range>9210.575506064342</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<LineString>
 				<coordinates>
-					14.53513269792746,45.21889665414806,0 14.44116927479243,45.32783869025283,0 16.37218449263825,45.48819008561012,0 16.98913806621053,46.06941856474209,0 17.05950749505125,46.19793017893215,0 18.89344451856273,47.28189983112755,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark id="050AE575173EB7BE4CBB">
-			<name>Druzhba pipeline Ukraine - Hungaria</name>
-			<LookAt>
-				<longitude>18.94419650847751</longitude>
-				<latitude>47.29162803361616</latitude>
-				<altitude>95.46515733982076</altitude>
-				<heading>0</heading>
-				<tilt>0</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>12886.26166659873</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<LineString>
-				<coordinates>
-					22.29005123521799,48.61767116092241,0 22.18488495632627,48.40598279950381,0 21.0384066107509,47.91272170555143,0 18.89818775180878,47.28624050771544,0 
+					14.53513269792746,45.21889665414806,0 14.44116927479243,45.32783869025283,0 16.37218449263825,45.48819008561012,0 16.98913806621053,46.06941856474209,0 17.05950749505125,46.19793017893215,0 18.89344451856273,47.28189983112755,0 18.8938765966986,48.09955658444144,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
@@ -9554,7 +9221,7 @@ Risks: Unproven sustained throughput until the tests conclude — with barely a 
 				<range>135552.9490196519</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					32.49960800162238,-25.95937431606155,0 31.94044843041256,-25.45388269156171,0 30.9658917053511,-25.47056644272303,0 29.04486522022536,-26.05031795979596,0 29.15584442063949,-26.54838320055666,0 
@@ -9588,7 +9255,7 @@ Risks: Drone and naval attack risk at the loading zone; war-risk insurance premi
 				<range>56667.48451243155</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					37.85511059714604,44.70439708990956,0 39.73729883594243,45.6458886952411,0 43.53375679844635,44.7093247800702,0 48.0893279255278,46.38305507577343,0 51.86571577255853,47.19111996459998,0 53.40677921822671,46.15949522517931,0 
@@ -9622,7 +9289,7 @@ Risks: Militia drone strikes on upstream facilities — Tawke installations were
 				<range>18677.42480114568</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<LineString>
 				<coordinates>
 					43.74906965403268,35.91722813772751,0 43.97011261459917,36.26161849000645,0 43.87505058118854,36.73273675766753,0 42.97508234516481,36.86081837989593,0 42.38166639082129,37.06737164631899,0 
@@ -9656,7 +9323,7 @@ Risks: The Caspian crossing as bottleneck — port capacity at Aktau and limited
 				<range>5832.583173390012</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					49.47895908056742,40.19397207348265,0 47.14712328482333,40.61143453007453,0 46.35978091087933,40.69055924844518,0 45.12919889883766,41.37755172107329,0 44.81703479322612,41.71587945414381,0 43.39737074215103,41.83743430943995,0 42.75982501181274,41.54796570466853,0 43.09633406581796,40.60381228423965,0 41.24055449530074,39.90770014326324,0 39.49460103452531,39.7589376072257,0 37.00346419455616,39.76985625716755,0 35.45765603225085,38.75200882869947,0 35.38141258332312,37.01972442499936,0 35.98229425859964,36.91881977422849,0 
@@ -9690,7 +9357,7 @@ Risks: Hormuz transit as single point of failure; tanker strikes at the loading 
 				<range>75320.69187439978</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					44.32687766769802,35.52830776446496,0 43.49542794529953,35.00734139409213,0 42.36186393132665,34.0702185650199,0 44.08046924407459,32.37046985496429,0 44.48625366380889,30.88319538185899,0 47.66742819577102,30.449485045301,0 47.88766120465856,30.18069907419827,0 47.8935998513963,30.15922693330585,0 
@@ -9724,7 +9391,7 @@ Risks: Demand-side decline as its captive refineries convert or close — a pipe
 				<range>16877.12535258383</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					4.137409820052738,51.94509293269365,0 4.282228515040885,51.87508908739839,0 6.17508815568244,51.37277578836751,0 7.05321813066935,51.53416003942817,0 6.974812076765177,50.83930619871892,0 
@@ -9758,7 +9425,7 @@ Risks: Structural decline — a two-customer system carries concentration risk i
 				<range>840530.9162601829</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					4.92557948620727,43.43825690609796,0 5.118449866937858,45.61475136882601,0 6.144605842394435,47.24561129173847,0 7.033156232720252,47.03991812889477,0 
@@ -9767,7 +9434,7 @@ Risks: Structural decline — a two-customer system carries concentration risk i
 		</Placemark>
 		<Placemark>
 			<name>Trans Mountain Pipeline</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9802,7 +9469,7 @@ Risks: Ceiling risk — utilization approaching the 2.5 million b/d capacity wit
 				<range>60827.07518829033</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<coordinates>
 					29.67384348728239,31.03842348580901,0 32.34013685664577,29.6632277127853,0 
@@ -9834,6 +9501,35 @@ Risks: Concentration by design — 100% supply shares mean a prolonged outage ha
 				</coordinates>
 			</LineString>
 		</Placemark>
+		<Placemark id="ADDIKL00000000000001">
+			<name>TAL extension - IKL pipeline (Ingolstadt–Kralupy–Litvínov)</name>
+			<description><![CDATA[Classification: Crude oil pipeline — continuation of the TAL system (IKL: Ingolstadt–Kralupy–Litvínov)<br>Route: Vohburg/Ingolstadt (junction with TAL) → Czech border → Nelahozeves central tank farm near Kralupy, supplying the Kralupy and Litvínov refineries; 347 km<br>Owner/Operator: MERO ČR (Czech state pipeline company)<br>Capacity: ~200,000 b/d usable for the Czech Republic (~10 Mt/y design)<br>Status: Operational — since the TAL-PLUS expansion went live in 2025, TAL + IKL can deliver up to 8 Mt/y, covering the entire Czech crude demand<br>Recent data: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour<br>Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region<br>Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand]]></description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.46181430714684,48.80694359842674,0 11.621,48.76800000000001,0 12.35,49.17999999999999,0 12.9,49.50000000000001,0 13.55,49.78,0 14.1,50.08,0 14.31,50.24000000000001,0 14.295,50.26,0 13.61,50.60000000000001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>TAL extension - Adria-Wien Pipeline (AWP)</name>
+			<description>Classification: Crude oil pipeline — the Austrian branch of the TAL system (Trieste-fed)
+Route: Branches off the TAL at Würmlach (Carinthia, Italian border) → Gail, Drau and Jaun valleys → over the Koralpe (highest point 1,350 m) → Styria (Wettmannstätten, Wildon across the Mur) → over the Wechsel → OMV Schwechat refinery near Vienna; 420 km, 18-inch, 12 pump stations, ~12,000 m of cumulative elevation change; 14 km spur to the Lannach strategic-reserve depot
+Owner/Operator: Adria-Wien Pipeline GmbH — OMV ~76% (with BP, Shell, Esso Austria, Agip); commissioned 1970
+Capacity: ~8 Mt/year (up to ~11 Mt/year technical); crude takes about three days from Trieste to Schwechat via TAL + AWP
+Connectivity: Sea-side entry at the SIOT Trieste terminal; feeds Schwechat, Austria&apos;s only refinery, and the Lannach emergency-reserve tanks
+Status: Operational — Austria&apos;s sole crude supply route; the planned Bratislava–Schwechat link to the Druzhba system (BSP, 62 km) was abandoned in March 2022 after 20 years without Slovak permits
+Strategic role: A landlocked country&apos;s single crude artery — the Austrian counterpart of the Bavarian and Czech branches of the same TAL system, all hanging off one Adriatic port
+Risks: Single-corridor dependence on Trieste/TAL; mountain terrain and pump-station reliability; no fallback route now that BSP is dead</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.96411449908723,46.67634798858781,0 13.2350285973468,46.63053603898008,0 14.61578106871371,46.65880412172955,0 15.0724056431886,46.68053409329877,0 15.38341720120278,46.82897912936291,0 15.51891791186514,46.88585921872622,0 14.89363714833805,47.26628990727352,0 16.49518508727679,48.14614265557879,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
 		<Placemark>
 			<name>Abu Dhabi Crude Oil Pipeline</name>
 			<description>Classification: Crude oil pipeline — Gulf → Gulf of Oman trans-UAE bypass; the only purpose-built export line whose sole function is to avoid the Strait of Hormuz entirely
@@ -9851,7 +9547,7 @@ Recent data: The pipeline is why the UAE outperformed every Gulf producer in the
 Strategic role: The cleanest solution to the chokepoint problem on the map — where Saudi barrels need a three-link chain (Petroline → Yanbu → SUMED) to escape both straits, Emirati barrels need one pipe; Fujairah&apos;s storage, bunkering and futures-delivery infrastructure compounds the advantage, letting Abu Dhabi not just export through the crisis but trade through it
 
 Risks: Capacity ceiling — 1.5 million b/d against much larger UAE production means everything above the pipe still needs Hormuz; single-corridor concentration — one line, pumping stations and a single terminal zone form an obvious target set, and Fujairah has been attacked before (2019); congestion risk as the whole region&apos;s diverted volumes, STS operations and bunker demand converge on one small stretch of coast; and the standing reality that the Gulf of Oman is beyond the Strait but not beyond Iranian reach</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9927,7 +9623,7 @@ Japan already owns minority stakes through:
 Mitsui &amp; Co.
 Mitsubishi Corporation
 So the US and G7 created a specific exemption allowing Japan to continue importing Sakhalin-related crude and LNG.</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9952,7 +9648,7 @@ Recent data: The crude it carries is Saharan Blend — light, sweet, very low su
 Strategic role: The quiet winner on the map — Algeria&apos;s export system touches no strait, no canal, no war zone: field to Mediterranean water entirely within one country, days from the customer; in a year when the market prices routes over reserves, OK1 is what a de-risked route looks like, and the counterweight to every stressed asset on this project
 
 Risks: Infrastructure age — the rehabilitation programs exist because the steel demands them, and sister line OB1 needed 164 km rebuilt to recover its design capacity; concentration at Haoud El Hamra, the single hub through which the country&apos;s crude dispatching flows; upstream dependence on the mature Hassi Messaoud basin, where decline rates rather than transit risk cap volumes; desert transit security as a managed but permanent condition; and allocation tension between feeding the domestic refinery and maximizing export barrels when Mediterranean prices reward the latter</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9962,7 +9658,7 @@ Risks: Infrastructure age — the rehabilitation programs exist because the stee
 		</Placemark>
 		<Placemark>
 			<name>Es Sider submarine sea-line: tank farm -&gt; offshore SBM</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9972,7 +9668,7 @@ Risks: Infrastructure age — the rehabilitation programs exist because the stee
 		</Placemark>
 		<Placemark>
 			<name>Gialo-Waha pipeline</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -9997,11 +9693,98 @@ Recent data: Libya&apos;s relevance in 2026 runs through the Mediterranean light
 Strategic role: The map&apos;s reminder that chokepoints aren&apos;t only maritime — this is an onshore chokepoint, where one corroded 32-inch pipe in the desert moves a fifth of a country&apos;s production; in a year when the market prices routes over reserves, Libya&apos;s risk sits not in a strait but in its own unmaintained steel
 
 Risks: Mechanical failure as the base case — leak-driven shutdowns are routine, not exceptional; militia and political risk at both ends (field blockades upstream, PFG action and NOC–Central Bank revenue feuds at the terminal); force majeure frequency that makes Es Sider supply structurally unreliable for term buyers; underinvestment locked in by Libya&apos;s fiscal chaos; and concentration risk — the same Gulf of Sirte cluster (Es Sider, Ras Lanuf) can be blockaded as a unit, as history has repeatedly shown</description>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
 					19.92222383965017,28.2988436855565,0 18.35009919981376,30.63009210825657,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="062176C7573EB75DB130">
+			<name>Druzhba pipeline</name>
+			<description>Classification: Crude oil pipeline network — Russia → Central Europe; the world&apos;s largest oil pipeline system, the last Russian crude artery into the EU, and the clearest case on your map of a pipeline functioning as a geopolitical weapon in both directions
+
+Route: Almetyevsk (Tatarstan) gathering Urals crude → Samara → Bryansk → Mozyr (Belarus), where it splits: the northern branch through Poland (Adamowo, Płock) to Germany&apos;s Schwedt and Leuna refineries; the southern branch through Ukraine (past the Brody hub) into Slovakia (Slovnaft, Bratislava) and Hungary (MOL&apos;s Duna refinery, Százhalombatta); the Czech spur off the southern leg fell silent in 2025 when TAL-PLUS made Prague independent. Total network roughly 5,500 km, in service since 1964 — &quot;Druzhba&quot; means &quot;friendship&quot;
+
+Owner/Operator: No single owner — Transneft on the Russian trunk, with national operators segment by segment (Belarus, Ukraine&apos;s Ukrtransnafta, Poland&apos;s PERN); that fragmentation is exactly why every border on the route is a leverage point
+
+Capacity: Northern branch designed for well over 1 million b/d, southern branch in the low hundreds of thousands b/d serving Hungary and Slovakia; the cargo has diverged politically — the north now moves Kazakh-branded barrels to Germany (Poland and Germany quit Russian crude voluntarily in January 2023), while the south still moves Russian Urals under the EU&apos;s pipeline exemption from the seaborne import ban
+
+Operating history: A Cold War artery that outlived its era and became a bargaining chip: the 2019 organic-chloride contamination crisis poisoned the line for weeks; after 2022 it survived sanctions as the carve-out for landlocked members; through 2025, repeated Ukrainian strikes on its Russian infrastructure halted southbound flows three times, drawing formal complaints from Budapest and Bratislava to the European Commission
+
+Recent data: The 2026 crisis was the system&apos;s worst: a drone strike on January 27 damaged infrastructure near the Brody hub, totally cutting Russian crude transit on the southern leg — most critical for Slovakia, which depends on the single Slovnaft refinery configured specifically for Russian crude, and which declared a national energy state of emergency. The three-month outage became a full diplomatic war: Hungary blocked the EU&apos;s 20th sanctions package and a €90 billion loan for Ukraine until oil deliveries resumed, Slovakia halted emergency electricity supplies to Ukraine, and both governments accused Kyiv of slow-walking repairs. Flows restarted on April 22 — unblocking the EU loan for Kyiv — with the political ground shifted by Orbán&apos;s election defeat on April 12. The lasting consequence: a permanent expansion of the Adria pipeline from Croatia, so Slovakia is never 100% dependent on Druzhba again
+
+Strategic role: The inverse of every other asset on your map: elsewhere, infrastructure is attacked despite its cargo; here the cargo is the conflict — Russian oil revenue on one side, EU-member energy security on the other, and Ukraine holding the valve between them. Druzhba in 2026 proved a pipeline can be simultaneously a sanctions loophole, a war target, a veto generator inside the EU, and a hostage exchanged for a €90 billion loan
+
+Risks: War damage from either side, with attribution itself contested; transit leverage stacked at every border (Ukraine over the south, Belarus over everything); policy extinction risk — the EU exemption is meant to be temporary, and each crisis strengthens the case for ending it; refinery lock-in, since Slovnaft and Duna are optimized for Urals and switching crude slates costs time and money; alternative-route inadequacy — the Adria line from the Croatian coast is the only substitute and needed emergency expansion; aging Soviet-era steel; and the 2019 precedent that quality, not just quantity, can be weaponized</description>
+			<LookAt>
+				<longitude>29.25067063132974</longitude>
+				<latitude>52.02993399437838</latitude>
+				<altitude>198.1364416280397</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>11924.52108772472</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<coordinates>
+					52.29990292501337,54.9052707640474,0 50.15033085955546,53.20489616269013,0 32.66743234438189,52.84439365501422,0 29.21733433700696,52.03704679591238,0 25.12070272207665,50.06833073870391,0 22.28998353156627,48.61991228708972,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Druzhba - 1</name>
+			<description>Classification: Crude pipeline — the Slovak/Czech line of the southern Druzhba branch
+Route: Uzhhorod (Ukraine border) → Budkovce → Šahy → Bučany junction near Bratislava → Slovnaft Bratislava refinery; second branch from Bučany north-west to the Czech Republic (Kralupy, Litvínov)
+Owner/Operator: Transpetrol (Slovakia, state-owned) on Slovak territory; Ukrtransnafta in Ukraine; MERO ČR for the Czech branch
+Capacity: Part of a southern branch of ~16.7 Mt/yr; normal southern flows were ~300,000–400,000 b/d before 2026
+Handles: Russian Urals crude (Slovakia); the Czech branch stopped taking Russian crude in March 2025 (now supplied via TAL/IKL)
+Status: Operational but fragile — flows to Slovakia stopped 27 January 2026 after a Russian drone strike on the Brody hub; Slovakia declared an oil emergency on 18 February and released 250,000 t of state reserves; flows resumed ~23 April 2026 after Ukrtransnafta lifted force majeure
+Strategic role: Slovnaft&apos;s main artery — Slovakia is almost entirely dependent on this line, which is why the 2026 outage hit it harder than Hungary; the political flashpoint of the Kyiv–Bratislava dispute
+Risks: War exposure on Ukrainian territory; EU exemption for Russian pipeline crude is time-limited; single-supplier dependence — the Adria (JANAF) route via Croatia is the only fallback, now being expanded</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					22.28976343564294,48.61992789489562,0 20.99688532122327,48.61391615952766,0 20.01437275802945,48.3815099605818,0 18.89401760534808,48.10102925276468,0 17.18942276657055,48.12583823371172,0 17.01912076660748,48.43838894762172,0 16.98230697138875,48.82528302607331,0 16.60951564351005,49.1990484396637,0 14.32744048507515,50.26164467097204,0 13.60622674186807,50.55385837947349,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Druzhba - 2</name>
+			<description>Classification: Crude pipeline — the Hungarian line of the southern Druzhba branch
+Route: Uzhhorod (Ukraine border) → Fényeslitke receiving station → MOL Danube (Duna) refinery at Százhalombatta; supplies the Duna and Tisza refineries; connects to the Adria pipeline at Százhalombatta
+Owner/Operator: MOL (Hungarian section) / Ukrtransnafta (Ukraine)
+Capacity: Part of the ~16.7 Mt/yr southern branch; Russia supplied Hungary ~95,000 b/d via this route in 2024
+Handles: Russian Urals crude — Hungary is one of the last two EU states still receiving Russian pipeline crude
+Status: Operational but repeatedly disrupted — halted 27 Jan–23 Apr 2026 after the Brody strike (MOL drew on strategic reserves and arranged seaborne cargoes via Croatia); earlier interruptions in August 2025 and March 2026 from Ukrainian strikes on Russian pumping stations
+Strategic role: MOL Danube&apos;s primary feed and the centre of Hungary&apos;s energy politics — the outage was met with Hungarian vetoes on EU aid to Ukraine and a diesel-export ban
+Risks: War-zone transit; the EU exemption is expected to end; over-reliance means every strike on the line becomes a national supply event</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					22.28977414663623,48.6199364799245,0 22.18500847381948,48.40607158377315,0 22.0981529278279,48.26799998992538,0 21.04331632081675,47.90631151199197,0 18.89620582162216,47.28347597758287,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Druzhba - 1 Hungary connection</name>
+			<description>Classification: Crude pipeline — the cross-link joining Druzhba-1 (Slovakia) and Druzhba-2 (Hungary)
+Route: Šahy (southern Slovakia, on the Ipeľ) → Hungarian border at Drégelypalánk → Százhalombatta (MOL Danube refinery)
+Owner/Operator: Transpetrol / MOL
+Handles: Crude in either direction between the two southern Druzhba lines — lets Slovak and Hungarian supply back each other up
+Status: Operational
+Strategic role: The reason the two lines behave as one system: crude reaching Hungary via Adria/JANAF from Croatia can flow up to Slovakia through Százhalombatta and Šahy — the route that supplied Slovnaft during the 2026 Druzhba outage. MOL&apos;s plan to run Százhalombatta, Bratislava and Pančevo as one network rests on links like this
+Risks: Limited capacity relative to full refinery demand; both ends depend on the same Adria fallback</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.89570939202307,48.09946984976899,0 18.89485913630352,47.28352425876178,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
@@ -10715,7 +10498,7 @@ Risks: Third major low-water shock since 2018; heat waves and low soil moisture 
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Rhin</name>
+			<name>Rhin River</name>
 			<description>Classification: Inland waterway — the barge corridor linking the ARA hub to southern Germany, Alsace and Switzerland
 Route: Rotterdam (Europoort) → Duisburg → Cologne → Koblenz → Kaub → Mainz → Ludwigshafen/Mannheim → Karlsruhe → Strasbourg → Basel; ~800 km of navigable Rhine
 Handles: Diesel, gasoline, heating oil, jet fuel and chemical feedstocks moving inland from ARA refineries and storage; coal, grains, ores and containers
@@ -10724,11 +10507,21 @@ Status: Record low water in August 2026 — the Kaub gauge fell to ~21 cm on 3�
 Recent data: Barges limited to roughly a third of normal cargo (~460 t through Kaub instead of ~1,200 t); Rotterdam–south Germany product freight up ~400% in two months; shippers switching to rail and road — about 60 trucks to replace one 1,500 t barge
 Strategic role: The physical link between the ARA pricing hub and inland demand — when the river drops, freight surges and inland product prices decouple from Rotterdam (in 2018 the Rotterdam–Basel fuel transport cost went from ~$5/bbl to over $35/bbl)
 Risks: Recurring summer droughts (2018, 2022, 2026); Kaub as a single shallow chokepoint; limited pipeline and rail substitution capacity for Switzerland and Alsace (Strasbourg city)</description>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
 					4.174254364833942,51.94933629072808,0 4.224463498358489,51.92839265940516,0 4.23970011763444,51.91658141455372,0 4.276754260663402,51.90106693133533,0 4.330533940305738,51.89465623333663,0 4.364791893576765,51.89932930036355,0 4.396398798430681,51.89630279011394,0 4.424438562556996,51.90158213800495,0 4.456309210142266,51.89955688560906,0 4.480243476884307,51.90464552994541,0 4.487416766246273,51.91167793086593,0 4.497478952685117,51.91750166240182,0 4.506007361009205,51.91692567815124,0 4.511160972355402,51.91523122515759,0 4.516486300808751,51.90860955510977,0 4.519666125654704,51.90168760806312,0 4.531847117656989,51.90088780900863,0 4.550936278890109,51.90544986092881,0 4.570970500326005,51.90370689784196,0 4.584225865935889,51.90132612167083,0 4.591529216611933,51.89558709359273,0 4.602662368396464,51.89207953241966,0 4.613510614262277,51.89047345429076,0 4.623377750771594,51.88485412253148,0 4.626111009345526,51.88101999379031,0 4.632431900508227,51.87274138741515,0 4.645118596386187,51.8641407703247,0 4.655237027981263,51.8559835627783,0 4.663465588847028,51.84720488701964,0 4.669750723551895,51.84242709335565,0 4.672967963171888,51.83838714168331,0 4.66897620041443,51.82937286266635,0 4.671720735510599,51.82176540145275,0 4.697252121573435,51.82282231361628,0 4.729936044997219,51.8229046124166,0 4.748572134621769,51.82190240289513,0 4.75692307267386,51.81921477173653,0 4.767771015100739,51.81535108980709,0 4.783200328371051,51.81476011686981,0 4.795330821976391,51.81671361915523,0 4.811225809222384,51.81942131655394,0 4.832909032429771,51.81877760288107,0 4.846013798234847,51.81887570559207,0 4.86797130792604,51.81734912657178,0 4.891141188675658,51.81999426036731,0 4.891914396286436,51.81979336053516,0 4.906971755360486,51.82504752384818,0 4.931709089764156,51.82808579032678,0 4.967865943731486,51.82363925540783,0 5.015966253673274,51.82095346291408,0 5.044684231966256,51.81804485242062,0 5.081487472846602,51.82713835538042,0 5.09875456742235,51.82559203051528,0 5.132655971225246,51.81329778794508,0 5.163111512324605,51.81719686532962,0 5.189205547363811,51.81350996962188,0 5.202093096209368,51.80947924074722,0 5.216004478451389,51.80991824301827,0 5.234949092528785,51.81498681814679,0 5.253842350896556,51.8183110787793,0 5.301187145571915,51.8238820806917,0 5.314889817383857,51.82275539205224,0 5.32400031437859,51.81790524763632,0 5.324927838256952,51.81760468834866,0 5.333174804845164,51.81066999452766,0 5.34140285392122,51.80511357567708,0 5.35295821092136,51.80392840217245,0 5.364167435748096,51.80637832164405,0 5.383248337544901,51.82526199682086,0 5.39719485805076,51.83575319234497,0 5.408399772443426,51.84271318512749,0 5.418971852720662,51.86133770008123,0 5.435093083079778,51.87743999471355,0 5.446740413742804,51.88493994666297,0 5.463742016510514,51.88858185527286,0 5.481845420455698,51.88940725016564,0 5.513204858667875,51.89021753142127,0 5.542020068238108,51.89773441524222,0 5.562936337531497,51.901804151764,0 5.582144969634914,51.90080529081111,0 5.601056338478485,51.89932442065258,0 5.619340022390724,51.8989015748466,0 5.637515297776807,51.89888187252767,0 5.66495791940959,51.89566192690314,0 5.685618363377635,51.89543809260955,0 5.702344675963835,51.89518969246139,0 5.708408603115607,51.89293250372324,0 5.709273745602117,51.89275939282538,0 5.727973197810867,51.88705849477812,0 5.744679603697178,51.88498337775986,0 5.772906476042392,51.87843319415345,0 5.802175518177592,51.87508290375388,0 5.832618174271569,51.86230418418863,0 5.853196920521484,51.85317793086503,0 5.874250137780662,51.85331036375001,0 5.888988294693966,51.86729450460336,0 5.902290690336138,51.87214102910461,0 5.926749150103685,51.8734600611831,0 5.926684372685836,51.87304970932126,0 5.937695789638251,51.8703124858457,0 5.947512775088441,51.86317211152931,0 5.959381267259614,51.85600402563083,0 5.973737522040102,51.8557571835839,0 5.984498186576285,51.86607074681051,0 5.992776526920631,51.87592557482532,0 6.001914774690302,51.88018844135563,0 6.010537818018244,51.88141042657535,0 6.017927104210772,51.88082182861509,0 6.025234228739766,51.87782144865712,0 6.033912826287073,51.873326299615,0 6.046400198280574,51.87001642919738,0 6.069884326340526,51.86309587409184,0 6.083355794039893,51.85531109432119,0 6.097319949688577,51.85027679725679,0 6.108079193427742,51.84792202869342,0 6.132808860452901,51.84719652891189,0 6.151356207728222,51.84436291247661,0 6.170045880499933,51.83938087384318,0 6.192815201008635,51.83223434856927,0 6.219885799802123,51.82809038591818,0 6.242374121771348,51.82759390613413,0 6.279787834147088,51.81459750034861,0 6.299237218180817,51.80629812106142,0 6.313837110340357,51.79831269907816,0 6.324603528407373,51.78178137444714,0 6.332785891089161,51.75999608077408,0 6.353753985889536,51.75531915255597,0 6.379330977629167,51.75385007222475,0 6.401957220969696,51.75436460776869,0 6.418065426579174,51.74927754818481,0 6.422584691353799,51.74221552337715,0 6.418420056121885,51.73434123843722,0 6.411354945607759,51.72845973311614,0 6.407730813145327,51.71993062124571,0 6.414983645622447,51.71271816260198,0 6.42962178574928,51.70877260577844,0 6.444442384512532,51.70756338215417,0 6.458214411991663,51.70364182737902,0 6.465044521532088,51.69596959155541,0 6.470791616672214,51.68546083160585,0 6.475158024312668,51.6751984799286,0 6.480032848275885,51.66799607907203,0 6.490019202668287,51.66321050646962,0 6.50949784951393,51.66088694408988,0 6.521143152106463,51.66261809325786,0 6.535716804951221,51.66057820480118,0 6.553262945264127,51.65829570877088,0 6.568112703573156,51.65910098502005,0 6.582662511622517,51.65957633368126,0 6.594044010574578,51.65609884805726,0 6.602655442233214,51.65001408617063,0 6.604996217842938,51.64176461818187,0 6.600479622143334,51.63554669588452,0 6.593087016313661,51.6302481234429,0 6.589124129647481,51.62388114055684,0 6.587785806805533,51.61663927747482,0 6.592959992928531,51.60711511149,0 6.596467352603943,51.59979982367633,0 6.599113837610824,51.5930216111031,0 6.599105635260925,51.58513760436499,0 6.596964235547793,51.57635609336772,0 6.600599085352719,51.57267327725533,0 6.603811444769969,51.57047252907692,0 6.615439933219365,51.56675642871949,0 6.625591828132078,51.56779679209113,0 6.635727181302016,51.57193333989307,0 6.653756515569469,51.57734397203753,0 6.671104204026966,51.57739959264261,0 6.681311663142937,51.57359130810812,0 6.686012364067766,51.56729037984478,0 6.684271127727113,51.55756911979007,0 6.678772592004176,51.54855213567736,0 6.675749874520962,51.53974152912067,0 6.677674001892216,51.53397331484177,0 6.691651280407673,51.52791133193855,0 6.70701596151976,51.52076421880201,0 6.708661391165755,51.51997344956954,0 6.709489037805598,51.51963142773005,0 6.710274332156705,51.51886382918095,0 6.719842408619813,51.51307429370319,0 6.720705531663411,51.49813899411287,0 6.708042852800668,51.49458434987736,0 6.695545600128172,51.49061507721213,0 6.682558036426578,51.48646051766949,0 6.682520548124575,51.48604408960687,0 6.681390052907736,51.48482206167987,0 6.682131862012159,51.47607079264162,0 6.695272655181208,51.47158663775021,0 6.714614567612641,51.46859873405851,0 6.722088124344694,51.46292487485581,0 6.723740022124998,51.45650063357085,0 6.716628942780649,51.44748492735691,0 6.712717230829155,51.44249530181985,0 6.712857179114815,51.43819175871288,0 6.716741087654396,51.43021687184115,0 6.725303551213118,51.42505318850694,0 6.73356872402306,51.41822656151877,0 6.743332034976244,51.41030397454249,0 6.745617389452246,51.40304621264944,0 6.743402033156816,51.39553659460377,0 6.74035608373341,51.39093733335166,0 6.733596661449813,51.38609983581689,0 6.71980481278357,51.37801017005945,0 6.706545244477276,51.37364954356474,0 6.68920037402289,51.37195834713087,0 6.679442872857997,51.37089146034112,0 6.670124926756491,51.36895704652585,0 6.662402248618373,51.36654286864329,0 6.65937288739628,51.36457338753912,0 6.654092016965453,51.35971952481448,0 6.654130819668104,51.3564494088459,0 6.658146082038458,51.34962123677604,0 6.685981101843856,51.34212258301594,0 6.710518032072432,51.33480688880634,0 6.725120981565138,51.32798430206945,0 6.73165592698316,51.32317156408704,0 6.734843686472476,51.31200581542835,0 6.732371969501258,51.3041082786061,0 6.722870641504404,51.29472423930715,0 6.706884931715054,51.27970965361872,0 6.702804191065401,51.27300945663126,0 6.703475558994471,51.26763753902429,0 6.712366749981191,51.26213569743715,0 6.752720270024892,51.25045868787068,0 6.763447013915624,51.24312333450013,0 6.768640328612527,51.23480940404613,0 6.766834337156745,51.2235631331141,0 6.760050317173009,51.2196652912437,0 6.744755292485252,51.2250027904123,0 6.736624892750529,51.22896697991364,0 6.726948236997801,51.22746959169077,0 6.7229229240712,51.22226012840654,0 6.725892827922626,51.2165460792294,0 6.731079059556093,51.20584639924911,0 6.730539898435783,51.1950340128746,0 6.732358727656738,51.18692130005687,0 6.741365801904844,51.18193390312963,0 6.753332067247975,51.18043088904214,0 6.774861463641435,51.18541456880504,0 6.788453764478897,51.18413176760195,0 6.793824892759996,51.18015435399258,0 6.79752422385447,51.17371698741347,0 6.797258445725824,51.16231050776276,0 6.793093341312098,51.15751641725437,0 6.792084737019513,51.15105962524511,0 6.795467686647321,51.14637227494568,0 6.804072612977501,51.14328339049293,0 6.811251772310635,51.14308268159802,0 6.818203904968312,51.14496489862189,0 6.826227914554643,51.15337297184151,0 6.83572786238182,51.1604587099615,0 6.843467376351207,51.16239585471391,0 6.850444316164772,51.16227852769515,0 6.856054578485821,51.15932673359656,0 6.857354851829958,51.15556443012147,0 6.85460866607432,51.1495997560319,0 6.848495912027561,51.14019774069878,0 6.850401389203366,51.13188240327452,0 6.857057771491828,51.12520189742885,0 6.870144494539736,51.11923234983228,0 6.879087371497219,51.11351763782331,0 6.884063419511078,51.10712008695296,0 6.880882419296981,51.09948860334149,0 6.878798935523514,51.09737482482635,0 6.868724640514263,51.09410710591912,0 6.857696262600093,51.08958585515037,0 6.853793348983159,51.08321819283773,0 6.854838390673484,51.07747040294399,0 6.864126626747171,51.07321594608737,0 6.880691821731311,51.06938185220618,0 6.896054760779964,51.06495218025069,0 6.92445984364316,51.05093785081961,0 6.956186075790902,51.03622803600216,0 6.970435657781269,51.02792407255333,0 6.974616435435122,51.02011786616703,0 6.96829540720832,51.00900581693175,0 6.962908811518506,51.00487797055155,0 6.96269689306612,50.99685589367913,0 6.969204926431695,50.98758805391475,0 6.98678679688083,50.98242885689483,0 6.997937105799375,50.9761393385998,0 6.998733290615071,50.97016327756128,0 6.992471765585879,50.96202343801077,0 6.977169128175628,50.95555942468812,0 6.96988322357361,50.94988004077289,0 6.966998078992006,50.94226612255007,0 6.967095271591974,50.93491485658865,0 6.972352317742532,50.92016943512576,0 6.980618345434799,50.90779887278219,0 6.993430591663454,50.89794081776432,0 7.014423152531442,50.89399096424535,0 7.033717920942745,50.89440680116861,0 7.045207801039886,50.89251055605425,0 7.051095191827789,50.88672947844047,0 7.050603527242345,50.87784738357816,0 7.041135154854552,50.87371173520805,0 7.026254364314058,50.86937632539401,0 7.016944982381965,50.86129481100542,0 7.003430068479384,50.85273716094247,0 6.983576522755879,50.84590653941066,0 6.979602171302379,50.83759421531349,0 6.982196002436978,50.82946410694979,0 6.993261810454106,50.8257795366932,0 7.010194753218473,50.8233343159586,0 7.022119315047942,50.82081424861197,0 7.028275798524836,50.81435037327482,0 7.030258836771807,50.80345966592414,0 7.034157660463343,50.78682858874257,0 7.053323091195701,50.77602832975698,0 7.091083643106133,50.76016739965114,0 7.103039434281191,50.75459689324878,0 7.109505423375621,50.74186642757176,0 7.116461671372267,50.72674143797884,0 7.137924322950033,50.71925723066866,0 7.162806981483794,50.70887196116772,0 7.175500964307959,50.689274771521,0 7.191255266495169,50.67046770136177,0 7.210990692017294,50.6486717108766,0 7.213343828574004,50.62023840590301,0 7.214029577264077,50.60340423717563,0 7.211281742154285,50.59370756700943,0 7.218849848851676,50.58474235353383,0 7.245124670710197,50.57997701933424,0 7.267751613881059,50.57319732820589,0 7.276013510938133,50.56493037621134,0 7.287305337055756,50.53613155759852,0 7.301787611215116,50.5150266584715,0 7.321401008988335,50.49597179267317,0 7.344632243835736,50.47541470184044,0 7.37633527195462,50.45172511247522,0 7.402611231999825,50.44362645181706,0 7.429936085096744,50.44365878903079,0 7.442710093938222,50.43936352222556,0 7.449855931636627,50.42968801479007,0 7.460169674173962,50.41638824033569,0 7.4770543387537,50.41140400928376,0 7.50593146795929,50.41400845059468,0 7.519317844849378,50.41890794877676,0 7.537449384792874,50.42151204519402,0 7.566848244262136,50.41362697586749,0 7.578441470048163,50.40429581556735,0 7.614648322149106,50.38079850882571,0 7.604324025313456,50.35172554839755,0 7.589497724860104,50.32460769689522,0 7.588993190551252,50.31526047529207,0 7.600680005780993,50.29957164427339,0 7.644203925768689,50.27032586775046,0 7.651720159234429,50.25673591046342,0 7.64381728623542,50.24733960795313,0 7.621118542285055,50.24782367639257,0 7.594618315627448,50.2494379996083,0 7.583328892735723,50.24618963287718,0 7.57950261312523,50.24120051540123,0 7.586435280349861,50.23371771016152,0 7.599504697538963,50.23226750432056,0 7.615142296170894,50.22647866320892,0 7.620503739322755,50.21606285731218,0 7.642112206729392,50.20435382705807,0 7.645461049348583,50.19166563399991,0 7.645579413204439,50.18017282529396,0 7.661517489272402,50.1732949183479,0 7.6908785412606,50.16952899439378,0 7.702499941941642,50.16460325954655,0 7.7117494766734,50.15406452647305,0 7.724603860733279,50.14808831704847,0 7.724818749565907,50.14078336329138,0 7.729040839487746,50.13778254593643,0 7.736910060107234,50.13589408704863,0 7.737425196785209,50.1337697139717,0 7.738494027479319,50.12957493438086,0 7.735595697761113,50.12460416514146,0 7.729119354573259,50.12064947766787,0 7.723988747969075,50.11691320489469,0 7.722899606485274,50.11377825190815,0 7.726183876356776,50.11049510032388,0 7.742449792147368,50.10195968923964,0 7.761335248553022,50.08543641511333,0 7.772545688617489,50.07493928901632,0 7.773722878733276,50.06005863603062,0 7.776489599130181,50.05462400853441,0 7.79756583514356,50.04272836789297,0 7.820454512324108,50.02750543220213,0 7.837991871616623,50.0187571553245,0 7.852324836022582,50.01277649388261,0 7.858839690629629,50.00458649748121,0 7.865005546072568,49.98275880162133,0 7.872254581018039,49.97662266229584,0 7.879360337417762,49.97378393742049,0 7.894725426363197,49.97242045000053,0 7.91501174979749,49.9725719300629,0 7.935706785569057,49.97192956136158,0 7.966204959956775,49.97793978281031,0 7.992070045142505,49.98574503585338,0 8.018293224040278,49.99557818187967,0 8.040985227364006,50.0054003218047,0 8.065616977836038,50.00618700101475,0 8.092285694033166,50.01168456617273,0 8.112939127236402,50.01853215128327,0 8.136450301328848,50.0256752628454,0 8.176241508890712,50.0343972617589,0 8.213036308703352,50.03806117573926,0 8.228288223003551,50.03668826907724,0 8.239550263327782,50.03348665735587,0 8.24466023920418,50.02882275159931,0 8.265495397451211,50.01493063122495,0 8.274904986661976,50.00819641388793,0 8.285689389660398,49.9964616238446,0 8.305431054704762,49.98515141461024,0 8.327125590644339,49.97002762711462,0 8.342451667532849,49.95011214852493,0 8.343268542601056,49.94031055420484,0 8.349103000552807,49.92827638628421,0 8.355324077297956,49.9181400132233,0 8.354050652747709,49.90844119395006,0 8.344789761785956,49.89532865286216,0 8.340686796642199,49.88523559088406,0 8.344710302598287,49.87458990225986,0 8.351022506414644,49.86869291886071,0 8.357880823421514,49.86324774942169,0 8.365092662327495,49.86293787506187,0 8.374467168309561,49.86122446946796,0 8.382638698831739,49.85782383955228,0 8.384874268316091,49.85242038163462,0 8.380342531726006,49.83690195392523,0 8.377234314446909,49.82599751798183,0 8.383369226423579,49.8177788258493,0 8.400812326127738,49.80409946312844,0 8.407487124463726,49.79470184433925,0 8.413465764933061,49.78447768801031,0 8.41499221015896,49.77539192665128,0 8.423456600715642,49.76843789636473,0 8.436334723063297,49.76541796326391,0 8.461262817768983,49.76841740484197,0 8.472593051257988,49.76864133995645,0 8.47861792875589,49.76542308293195,0 8.480118955514177,49.76175232314215,0 8.47796301596545,49.75644054941272,0 8.467154891204675,49.7503624361322,0 8.453070125356383,49.73957730951198,0 8.441485636017402,49.72453095260639,0 8.423316687516117,49.71649900084267,0 8.386356477278458,49.7084660498516,0 8.369388954112429,49.70221312984423,0 8.359819323220513,49.69673378074557,0 8.356562279640594,49.68827297940929,0 8.355331121499837,49.67977088165725,0 8.36187717262975,49.66673386517985,0 8.371064578054488,49.65658977532079,0 8.38028770033298,49.63060625012393,0 8.391525811483449,49.61705694604714,0 8.401163490849179,49.61124437588584,0 8.410158493855779,49.60506080362201,0 8.413350521148786,49.59541072428388,0 8.419057951212448,49.58832608664125,0 8.424051211372355,49.58146662538805,0 8.422511208139978,49.57519087956556,0 8.417764424494269,49.56915642855017,0 8.413943738230383,49.56199413148631,0 8.414030304417302,49.55562756072898,0 8.422322444588348,49.54382892706149,0 8.42222412508371,49.54377586568775,0 8.427045332237235,49.5310943699632,0 8.437753267173454,49.5070376663425,0 8.442870142154719,49.49166705274001,0 8.450633438232648,49.48502391335716,0 8.461290934272586,49.4752477896144,0 8.464151207283827,49.4701113239763,0 8.462702481485163,49.4656359531864,0 8.454288767218225,49.46345657234754,0 8.445815274574919,49.46024404443273,0 8.441713957555919,49.45675971596118,0 8.443413824070348,49.44915380554793,0 8.44856149339317,49.44601676413966,0 8.458168641795403,49.44339780278046,0 8.484809785824861,49.44378325770115,0 8.493164302798551,49.44353109154248,0 8.498515286575605,49.44268774662287,0 8.503903697349962,49.44074920551332,0 8.506926386528797,49.43790519317027,0 8.508146732420576,49.43230885128518,0 8.497007698729544,49.40996505445892,0 8.496669961644685,49.40017717762361,0 8.50029055076128,49.39047792519412,0 8.501542516492806,49.38040577497074,0 8.499676612572934,49.37140721816893,0 8.496552714416099,49.36400409747445,0 8.485237271564468,49.34983827983068,0 8.477092999284432,49.3442264870698,0 8.459248033982414,49.33470643209805,0 8.452749494237967,49.32907089340354,0 8.450404339689573,49.32144623164804,0 8.453684812158981,49.31539130168971,0 8.461567030804105,49.31232848126237,0 8.474131067709624,49.30940709784012,0 8.483125714065016,49.30584115042551,0 8.489153057467238,49.29784308242879,0 8.488029048655331,49.29035616406072,0 8.483737682763731,49.28705906921128,0 8.479831059332623,49.28574223294936,0 8.469067763619842,49.28426129378461,0 8.454225265046604,49.27544649332197,0 8.445038279771781,49.26618540649665,0 8.432130944506262,49.25881591892935,0 8.416607621544019,49.25134513627093,0 8.39814405383698,49.24289839799513,0 8.388199361010075,49.23269678494751,0 8.387132111540456,49.22976148324503,0 8.385451846493876,49.21743787279987,0 8.386782405846812,49.21003326069651,0 8.383877920610932,49.19554272984528,0 8.381442463941616,49.18657320187112,0 8.374857117479095,49.17801474424044,0 8.368058918839791,49.16860737452431,0 8.36802670439342,49.16125137489492,0 8.372021354970942,49.15475281101605,0 8.371330881735815,49.14639396868013,0 8.36923509271095,49.13686870697374,0 8.363229051530055,49.1149747415807,0 8.357955708357725,49.09790280859131,0 8.346754490735428,49.08573207420861,0 8.323399612808572,49.06753071473331,0 8.308816234954277,49.04950713597795,0 8.302731033411117,49.03466426379623,0 8.2979817045878,49.01457042506963,0 8.28822377372383,48.99943378369335,0 8.277047134961162,48.98902901526473,0 8.252645513108391,48.97637733737614,0 8.243026410583385,48.97110268797746,0 8.230189663494309,48.9661231334391,0 8.210724798286098,48.96168132605435,0 8.20095237289523,48.95965317614738,0 8.197370211069185,48.95756143620145,0 8.193439860222123,48.95431279926913,0 8.189330006092025,48.94897388320119,0 8.181678589980885,48.93761313697803,0 8.17202097700685,48.92868290742909,0 8.161194736838961,48.9182681636962,0 8.153104158503597,48.90876858099717,0 8.148598183448977,48.90472275223155,0 8.140420954387457,48.89602263525319,0 8.134550047156932,48.88796777886034,0 8.123734255102377,48.8694577666253,0 8.116315868214416,48.85457986288979,0 8.112733793113398,48.84700585414801,0 8.110547226273848,48.84315634589269,0 8.106377916002558,48.83846796538101,0 8.102827145444797,48.83210079722886,0 8.104096302548848,48.82761072792115,0 8.104774859388947,48.8193339964514,0 8.079916822429764,48.79648235914483,0 8.066931133306184,48.79022778891412,0 8.051824050695526,48.78970371481405,0 8.041811998240068,48.79048502241826,0 8.029810842921547,48.78770427660893,0 8.025511520621155,48.78160149666369,0 8.02169027787423,48.76723259678714,0 8.016553460610499,48.76217562730582,0 8.007007781940029,48.75890011642732,0 8.000283097684687,48.75839649881,0 7.989924519102873,48.76057454043717,0 7.981888752853738,48.76127543033906,0 7.975188486821658,48.75996287645147,0 7.969786022593601,48.75533114066877,0 7.967202411748957,48.74676663688597,0 7.967797884616951,48.73705128085995,0 7.967494674358031,48.7279933827887,0 7.962386709602683,48.72180514337092,0 7.943761302279775,48.70582100392635,0 7.933128116927279,48.70078181382333,0 7.923050329196877,48.69521355442612,0 7.914517321678782,48.68813634257185,0 7.902084183499081,48.67769970034423,0 7.901219554964491,48.67220212242977,0 7.89014481225178,48.66298875262463,0 7.86793534910271,48.65349508343949,0 7.848538177262069,48.64770397922749,0 7.841990914314232,48.64364903966395,0 7.835189385909064,48.63201354343632,0 7.831088779223316,48.62157466257617,0 7.821962298706158,48.61087298603447,0 7.810308474876068,48.5981619023564,0 7.801994662909964,48.58850894847503,0 7.800785631361546,48.58324373616908,0 7.800636214571246,48.57770888189468,0 7.803173247892811,48.56859923963544,0 7.804380647751166,48.55821140232632,0 7.803748554338215,48.55485578865169,0 7.802103337861621,48.55370701953304,0 7.799166020224401,48.54537982324004,0 7.797989676456208,48.535961586121,0 7.796957872207866,48.52781867717122,0 7.795358700894535,48.52209135260279,0 7.789805559075513,48.51251654530197,0 7.777958747398001,48.50027580756448,0 7.774511507787736,48.4952555365728,0 7.767696620146092,48.48894065595017,0 7.767242998874167,48.47755813496267,0 7.766225210218072,48.46204725562169,0 7.760171412469637,48.44518591157593,0 7.754557914376477,48.43485187175385,0 7.744098463261078,48.4180650410353,0 7.736890781564252,48.41307461259458,0 7.728431981507073,48.40369396358557,0 7.723803007408003,48.39298740938263,0 7.720257435706348,48.38414170687742,0 7.722212786231923,48.37637175974273,0 7.724062132604443,48.36883632004524,0 7.731329710251929,48.3630487290026,0 7.738169887116609,48.35569549714536,0 7.743362351442857,48.34310688052401,0 7.745434845496051,48.33124849835739,0 7.74461439443674,48.32653242343095,0 7.739617475418057,48.3210422813864,0 7.732908415066364,48.3174829918891,0 7.719984030901892,48.31402834270363,0 7.703868900626134,48.30984668373403,0 7.698294049191247,48.30887083816068,0 7.689155160299261,48.30532483638037,0 7.683544629421355,48.30118141794917,0 7.680928022398142,48.29527119664783,0 7.680198635112112,48.28789710725819,0 7.675559746592677,48.27044159749708,0 7.671657742902198,48.25714814047785,0 7.669439977740023,48.24794459858362,0 7.665667016457862,48.23478711447748,0 7.659683443200709,48.22507792636008,0 7.651817587184897,48.21631436541514,0 7.64458152182603,48.20836785173596,0 7.639057287092754,48.19979248019154,0 7.631257549087689,48.18601640189603,0 7.624455998665354,48.17833242135486,0 7.616953735503866,48.17261955239779,0 7.607750286733337,48.16709740565707,0 7.597573845822989,48.16265168879016,0 7.584139110800423,48.14458985458748,0 7.577694608425296,48.13307133831493,0 7.571191188641977,48.12215037271947,0 7.569535609177835,48.1158743748687,0 7.571790331329979,48.10847323653401,0 7.577950555002069,48.10213460854155,0 7.5742357102465,48.09123330768993,0 7.569840317258382,48.0858076361969,0 7.56993662055576,48.07800398333636,0 7.572622537006071,48.06270338075817,0 7.573144270512728,48.05296872263554,0 7.570045986194545,48.04112487388422,0 7.567787302781641,48.03468217422904,0 7.566497874172016,48.02873186300625,0 7.572847093367596,48.02321614266885,0 7.591835393205182,48.00793469408765,0 7.603913970351011,47.99718946570806,0 7.608464875350256,47.9912172349139,0 7.611727742230898,47.98429749522329,0 7.612570694057858,47.97856660197303,0 7.612097743913071,47.97191110477209,0 7.611040053663947,47.96772662621692,0 7.610572898333787,47.96575021499962,0 7.603965722855513,47.95703959676936,0 7.588057810185629,47.94357557464137,0 7.582080318407995,47.93810519789507,0 7.57734575504851,47.93207191575909,0 7.575094364252378,47.92635226719192,0 7.574289977919655,47.9212121287661,0 7.566027042509238,47.90023474414494,0 7.562020172880946,47.89247706254087,0 7.557043650382356,47.88623249028701,0 7.554344163549567,47.88198007912114,0 7.55143025330729,47.87624431985681,0 7.552312121401899,47.8650241067269,0 7.554379499142798,47.85427873583988,0 7.555923460042808,47.84497403391345,0 7.55425414190265,47.83866267942862,0 7.549834155382023,47.83085570519803,0 7.544433346170889,47.82024280285952,0 7.541965681978424,47.81277373381797,0 7.537580418605174,47.80620272509088,0 7.529655380439801,47.79433661838335,0 7.525148683757124,47.78492111652984,0 7.525267340527513,47.7778366918622,0 7.528919464759626,47.75777535322955,0 7.53119902558401,47.75438720159377,0 7.534914908432031,47.74695408131809,0 7.539498201221326,47.73896485597307,0 7.540707899674555,47.73167522411119,0 7.53768564785169,47.72574206277734,0 7.53156559105113,47.72072328581619,0 7.523576897249975,47.71472985796638,0 7.516194462198382,47.70935679486643,0 7.512005313582605,47.70654672512887,0 7.509260532197029,47.7026442357072,0 7.507985944791928,47.6981780077987,0 7.510396058746577,47.69071821848424,0 7.514046780013048,47.68269534115185,0 7.512857333700524,47.67693033341694,0 7.513274623156454,47.66933562547534,0 7.515203605231586,47.66372581025612,0 7.518502346446912,47.6581140265716,0 7.538839337434937,47.64114329561818,0 7.566122431838213,47.61947037428829,0 7.579384569605652,47.61293559024033,0 7.590467715391281,47.60616213817609,0 7.593292158043461,47.59865361024217,0 7.590621992568174,47.59259392498327,0 7.586336333390675,47.58602088095595,0 7.584281141185856,47.57959715660045,0 7.585315040931793,47.57272239065929,0 7.584576905828293,47.5668296640077,0 7.589841671393039,47.55964651231996,0 7.596731744797958,47.556338685863,0 7.60655554217597,47.55646208373176,0 7.616853601593522,47.55822416458705,0 7.632360751340519,47.56189008123404,0 7.63766980913319,47.55853654310368,0 7.642614123749338,47.55547645825003,0 7.647390651748466,47.54979491402047,0 7.653469163299008,47.54660212618737,0 7.658153527829259,47.54595687050476,0 7.66224650951038,47.54397916185618,0 7.665253806924253,47.53809236002981,0 7.671868115058913,47.53475130154916,0 7.685942789582249,47.53225064969505,0 7.69392497090389,47.53292133420248,0 7.700713326053849,47.53457835428742,0 7.703229695528082,47.53662415971963,0 7.713094179057263,47.53967462423235,0 7.71759814702153,47.54187099836096,0 7.73054511602608,47.543064409759,0 7.74663240886732,47.5443011591997,0 7.753524068044593,47.54518510555878,0 7.757394231446487,47.54896557662699,0 7.770056722509113,47.55174572683019,0 7.776985775565399,47.55263500601785,0 7.781605433751388,47.55360692297388,0 7.792347010872584,47.55614296748993,0 7.798809532746944,47.56125835822549,0 7.801140893224455,47.56427352322967,0 7.806641050323584,47.56664913703897,0 7.811667140077554,47.57052649550477,0 7.814082554507822,47.57904130011644,0 7.816654906678353,47.58445985309774,0 7.819041177609128,47.58719529875052,0 7.822585187582916,47.58783151182287,0 7.829149919792052,47.58768376020249,0 7.833827989597062,47.58586392679264,0 7.836976390960899,47.58367545335368,0 7.840472436671606,47.58231589166402,0 7.847871546396821,47.5827652093516,0 7.855516445610037,47.58556389955398,0 7.860299747011805,47.58774356306735,0 7.865725041720529,47.58875716168882,0 7.873641841448649,47.58874315098713,0 7.880362712558573,47.5883597811934,0 7.887272295091545,47.58844979995808,0 7.893235785761005,47.58652705311808,0 7.898158585976434,47.5842428838771,0 7.904492767245889,47.58046298229544,0 7.907437528490719,47.57642207708861,0 7.910653978548376,47.57159158864898,0 7.910969112487701,47.56859222003786,0 7.91076960062485,47.56536581089654,0 7.908050389873143,47.56166010686994,0 7.908602998894725,47.55709819187117,0 7.91095760305941,47.55235419706552,0 7.915029390308741,47.54889740992021,0 7.920997120028033,47.54694139218785,0 7.931531308189903,47.54684791624898,0 7.9353145196866,47.54678240366824,0 7.941376393987662,47.5445314385588,0 7.947248544434238,47.54519775339161,0 7.950056670882231,47.54726890222963,0 7.95105136719193,47.55306074354958,0 7.956548040488753,47.55711737018968,0 7.96070935382259,47.55813524210654,0 7.96809971323529,47.55639946147258,0 7.977247795422901,47.55565472950638,0 7.993917377126129,47.55633623717236,0 8.002956640890888,47.55611643702206,0 8.011188927824829,47.55316414640602,0 8.015953492459717,47.55061695198626,0 8.020647119302966,47.55014065246834,0 8.025545898887749,47.5514126295181,0 8.035896008130432,47.55248274586065,0 8.049045898044778,47.55732713044245,0 8.05573314337664,47.56084995917668,0 8.059805927868259,47.56393503806207,0 8.061032641765822,47.56340403154471,0 8.063168954185906,47.56337303012221,0 8.069041677432129,47.56430862909694,0 8.073311870489004,47.56294015674313,0 8.077932697889638,47.5598499712004,0 8.084345288297417,47.55728371266252,0 8.093059864715165,47.55878295880672,0 8.0975091778643,47.56110900660712,0 8.100118425097435,47.56360395843499,0 8.102026877037895,47.5685996322571,0 8.101987392514925,47.57459372898333,0 8.104498635535096,47.57855754467981,0 8.108289585063348,47.58164811715296,0 8.111699900976594,47.58340045701163,0 8.11749239562905,47.58382765414365,0 8.12461220837298,47.583468554834,0 8.131130508336447,47.58384086586288,0 8.133573743178191,47.58355776812316,0 8.137720864013891,47.58452153017496,0 8.137770486963621,47.58767274242313,0 8.137507014890202,47.59015615213896,0 8.14354448287042,47.59321619135928,0 8.149108213603046,47.59572275919225,0 8.152738870448353,47.59575821790203,0 8.156162570152134,47.59446970093988,0 8.159460048809301,47.59374807121197,0 8.165419540365921,47.59424536166343,0 8.169678230633174,47.59686896995019,0 8.169492097115416,47.59699350912814,0 8.174102648400851,47.60084365321312,0 8.182428620703494,47.60411832526117,0 8.193768208631983,47.61584221070024,0 8.202667675850064,47.62094454290445,0 8.208351386048093,47.6210645329531,0 8.214947428599208,47.6196683644721,0 8.219375004769905,47.61759667785206,0 8.22144078160118,47.61420168935226,0 8.223015270805353,47.61011203888696,0 8.223746535832067,47.605856436591,0 8.22937242889126,47.60566645484717,0 8.23267095811582,47.60846191915384,0 8.235990225449489,47.61127470427776,0 8.246035006974283,47.61298213721562,0 8.257873719624527,47.61529828404353,0 8.261887512018639,47.61304092091287,0 8.262708488855711,47.61031641319693,0 8.265955468217815,47.60943504032021,0 8.273278649128732,47.61156649267104,0 8.281085133889752,47.61182138293173,0 8.287439629695781,47.61037695222536,0 8.292834011994351,47.60893000825007,0 8.297012650374887,47.60645002365619,0 8.297354582966367,47.60331707942348,0 8.295677341928471,47.59465400301811,0 8.29639898385075,47.59104793383707,0 8.298460245722939,47.58896021603475,0 8.302534858496845,47.5861000572498,0 8.309674045197655,47.58413528644807,0 8.317849028338184,47.57675492418208,0 8.321711441996191,47.57403322328889,0 8.324219943016056,47.57286140515347,0 8.327788100779632,47.5709899559271,0 8.339713215864981,47.57066267475192,0 8.35984569593113,47.56980229176134,0 8.375014200693231,47.56773114312221,0 8.383700444671067,47.56580004645463,0 8.389607962406899,47.5730853578354,0 8.396575730207816,47.57729352492225,0 8.404177825012436,47.57583580850239,0 8.411686897034958,47.57257377284638,0 8.420559557624401,47.56977787425173,0 8.427158043207113,47.5671698970715,0 8.434883986095421,47.56678936200667,0 8.442191177146123,47.56806508225724,0 8.449161601268083,47.5704542218778,0 8.455034900587455,47.57191637658304,0 8.460284602100893,47.57182451678154,0 8.465222647550377,47.57235152947848,0 8.471514776197468,47.5755076470419,0 8.477419535930794,47.57792761276838,0 8.484757271230487,47.57721686865688,0 8.49429332491207,47.58124789631972,0 8.500529845290712,47.58046101314687,0 8.510468356227836,47.57774355795471,0 8.52191070686221,47.57498881474599,0 8.536314239323708,47.57232952616972,0 8.545058296223573,47.56780826497207,0 8.549003509575622,47.56385532312905,0 8.55002639856659,47.55817698601307,0 8.553794610597878,47.55389369143037,0 8.557224629235696,47.55242772086199,0 8.564840102135447,47.55945902129699,0 8.568953602570344,47.56554696155454,0 8.571354446576624,47.57401031010868,0 8.575890551024266,47.57559392185037,0 8.580643084240613,47.57737233257595,0 8.577081949366928,47.58546098738354,0 8.578083622820529,47.58886708863005,0 8.580197117599278,47.59198080055242,0 8.584855610101489,47.59375988920043,0 8.590554359573964,47.59535508974752,0 8.593464785811458,47.59622047848936,0 8.59458066968716,47.5980633281108,0 8.595174472916266,47.60342362276852,0 8.596875515780054,47.60730801148476,0 8.603782171510385,47.61125281036387,0 8.60434787090901,47.61263773913361,0 8.605668644199307,47.61531652199996,0 8.601714265793824,47.62085026419065,0 8.596896671848711,47.62930248929465,0 8.596702098477216,47.63666223360359,0 8.595223528341569,47.64282216665692,0 8.599114990719785,47.64446445919097,0 8.602599447872999,47.64750798000541,0 8.604132799265976,47.65103320154742,0 8.60565018699746,47.65228991545266,0 8.61039419552961,47.65127184589495,0 8.614093821668492,47.64658745958021,0 8.613932910439031,47.64372138233415,0 8.610924426738668,47.64202815608882,0 8.606302147516971,47.64144742024365,0 8.602698845722889,47.63986164665451,0 8.603778244730684,47.63810472882921,0 8.608073272148026,47.6369224909612,0 8.617011078638443,47.63746770654695,0 8.625224820605041,47.64240231236292,0 8.628598184522804,47.65292214310889,0 8.61848144025023,47.6597207864724,0 8.611836223633237,47.66342656506675,0 8.608560587079614,47.66680570186601,0 8.610290389402735,47.67485175390051,0 8.613467491646624,47.6783066509301,0 8.619578832454058,47.67467466569653,0 8.625354698796524,47.67697159049325,0 8.627447047156556,47.68099934397032,0 8.625187437222072,47.68641044655423,0 8.623996447996012,47.68994596360662,0 8.624548110888639,47.69158458506869,0 8.627952893783901,47.69270573306284,0 8.633194871090605,47.69294119494116,0 8.638798568408735,47.69397576478498,0 8.642588723205707,47.69482663123163,0 8.64696267022774,47.69376948678496,0 8.651805041792748,47.69126420632868,0 8.655444960520596,47.68888477094537,0 8.660952962519735,47.68661041372576,0 8.667591553882643,47.68517634812387,0 8.670830202995575,47.6850149543397,0 8.676663729863654,47.68672362929271,0 8.68226252002666,47.69004928119227,0 8.688127065440053,47.69441220739612,0 8.690405963606747,47.69526317325704,0 8.693453656394425,47.69490876311944,0 8.700531959282145,47.69260607849213,0 8.70685259956459,47.68975317247887,0 8.713263656808252,47.68967070651523,0 8.719115208818051,47.69116202260272,0 8.724741762977439,47.69255393078279,0 8.732204998963436,47.69283519190675,0 8.73810675323652,47.69242257785967,0 8.741945534566714,47.69121077248751,0 8.745818868049165,47.69104512679198,0 8.751499664196793,47.69085010646348,0 8.755847671558188,47.68991943566796,0 8.76025842481752,47.68857141623308,0 8.764318864521087,47.68723068831571,0 8.767288722402247,47.68581821545452,0 8.770994564975236,47.68361960172599,0 8.77250001637162,47.68200010191168,0 8.774867729257455,47.68076929965954,0 8.7795720838135,47.67906984120053,0 8.784364218958025,47.67694275910966,0 8.790238420433546,47.67538669483973,0 8.792449383149197,47.67481069246395,0 8.796145506434032,47.67529545365655,0 8.798326097909818,47.67628871723786,0 8.800304918795669,47.67750680098422,0 8.803138446953017,47.67840117983551,0 8.810161805273921,47.67647078867839,0 8.815066901804592,47.6778087264554,0 8.818324421402217,47.67781824172083,0 8.820080398998766,47.67701358605267,0 8.825805695071601,47.67516466500874,0 8.830982817055732,47.67448861378595,0 8.83345631095985,47.67333719152582,0 8.837192554013573,47.67194436413957,0 8.839673984887153,47.6700590306393,0 8.840332270158767,47.66755235425602,0 8.841163637246218,47.66538845323477,0 8.843899415314745,47.66414843155095,0 8.850007853308767,47.66285622363681,0 8.854738847880228,47.66054726909743,0 8.859348653073875,47.65812940067313,0 8.864371440536985,47.65794075729988,0 8.868231653548166,47.6563362540893,0 8.874922849635173,47.65511677607283,0 8.883134146030365,47.65460549726089,0 8.886957622311108,47.65148988390261,0 8.896172787035805,47.64863062032894,0 8.913279494834974,47.65105667270078,0 8.928541610541851,47.6540010220309,0 8.951061063974564,47.66020119027792,0 8.982398870895402,47.67329921816212,0 9.014906154610626,47.67988228839283,0 9.049809514935173,47.68098470735401,0 9.068213110091548,47.68039098796832,0 9.090377105555721,47.67545416030315,0 9.094779874624683,47.67067431881865,0 9.098833385653517,47.66835103369867,0 9.10478236226842,47.66954391241728,0 9.10954423139885,47.66976313634298,0 9.120309432315825,47.66771561057488,0 9.127664300218933,47.66691012566543,0 9.130660492281189,47.66622280465161,0 9.134759987231293,47.66548397033614,0 9.137278141971681,47.66451733119746,0 9.139524749481847,47.66423864214021,0 9.143118591265093,47.66495192438662,0 9.14658139935986,47.66686837414196,0 9.149826445330156,47.66784431640257,0 9.1498268086377,47.66787001586403,0 9.153608511094225,47.66692156955737,0 9.155975453574579,47.66846326025224,0 9.159371774269161,47.66993522486641,0 9.162668776431143,47.67027239374935,0 9.166638032169294,47.67032487926878,0 9.169668550650037,47.66967838814245,0 9.173107491992429,47.66903323104393,0 9.174704375804833,47.66790043352347,0 9.177486887824207,47.66659265660745,0 9.180127252776904,47.6655963153407,0 9.186339602939578,47.66377349599567,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Danube River</name>
+			<styleUrl>#msn_ylw-pushpin01</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					29.78290806028053,45.14036832838756,0 29.72363781315323,45.1643667529483,0 29.71193114507081,45.16624973826346,0 29.70338680861882,45.16499991742721,0 29.68471379839673,45.16181903469746,0 29.65859699894233,45.1571944298749,0 29.63894360810963,45.15785111301707,0 29.625824926583,45.16010441568251,0 29.61268456177075,45.15950175274624,0 29.59389224244311,45.16490177300496,0 29.56919008352053,45.17289365768788,0 29.55295831633265,45.1801596013863,0 29.53872068347444,45.18367998833982,0 29.52666137945137,45.18342495715095,0 29.52003595987884,45.18156179522515,0 29.50992232288358,45.17403468164616,0 29.50516096197612,45.17253374025978,0 29.3502720609723,45.17557701951322,0 29.21914187254383,45.17938528396259,0 29.2065128548219,45.18304359498719,0 29.19033444695593,45.18267134008249,0 29.15545892706173,45.17874763083753,0 29.14143229809824,45.17390238377804,0 29.12027291211991,45.17384168714405,0 29.06022697879733,45.17512141529418,0 29.04374623087339,45.17375641204669,0 29.01971919055201,45.17158998594966,0 29.00385269612615,45.17422356006557,0 28.98071860625787,45.18780834658266,0 28.96979891336044,45.19218207649356,0 28.95541145758574,45.19401477899747,0 28.94879590943963,45.19391883870876,0 28.93118495511064,45.19100940826856,0 28.92392779254532,45.18979314887593,0 28.91754576623456,45.19039929117669,0 28.91150705962146,45.19014440799052,0 28.90454034346566,45.18825670544973,0 28.89750983946914,45.18691666498647,0 28.88930302836501,45.18809078519697,0 28.86692678857394,45.19871056468038,0 28.85123576085871,45.20266724848102,0 28.82397124663327,45.20123732921367,0 28.81517773581079,45.19579513410071,0 28.80737159120182,45.19078518514861,0 28.80429350209884,45.1865749747165,0 28.80398110231332,45.18230608194465,0 28.7975534329245,45.18139704232065,0 28.79194817065176,45.18545688721269,0 28.79112324208604,45.19050172913169,0 28.79105859256541,45.1969966846405,0 28.79410262464341,45.20613406710772,0 28.79044720083582,45.21106227233212,0 28.78266895319784,45.21450128310222,0 28.75153600460987,45.21644500694983,0 28.74583106800326,45.22111714693345,0 28.74169201357622,45.22632233540747,0 28.73408101819888,45.2277625034535,0 28.71082567392858,45.22407296527143,0 28.61667842258896,45.24431064916826,0 28.58183184699989,45.24706257751104,0 28.54675952383992,45.25437540816781,0 28.51987412812553,45.26695379984457,0 28.38359354730192,45.30860826724664,0 28.34801698609575,45.32171260631297,0 28.30980751262941,45.36868451674363,0 28.28527198490439,45.40569019291006,0 28.28391870842321,45.4382442148769,0 28.26872724351187,45.45249869942189,0 28.24762962335483,45.45996431978391,0 28.22468326201821,45.46358257448744,0 28.20576571919388,45.45788221162015,0 28.19381600098051,45.44282883314019,0 28.19175276099211,45.4183980119673,0 28.18819663051494,45.41648452085053,0 28.17032907187428,45.41929848942168,0 28.15337301975177,45.42856291482028,0 28.12635259640892,45.43940665869375,0 28.09337709251644,45.44086798190644,0 28.06373037390041,45.43067477464999,0 28.04335403114696,45.41821505884133,0 28.03037163204418,45.40131982094493,0 28.0253213293378,45.37252192344086,0 27.99951302754256,45.30030396824628,0 27.98094867813566,45.27077504518661,0 27.95474619617541,45.22249011850766,0 27.94404490204469,45.17778733051972,0 27.95225489625631,45.15570941376447,0 27.95796130510969,45.14174957863128,0 27.9095931671003,45.05731841636625,0 27.89342504728545,44.90592294821609,0 27.86885703034247,44.88314399244918,0 27.83900144218205,44.87302762090091,0 27.83596568598971,44.84857889206893,0 27.82790506990109,44.82470255329507,0 27.82636857935446,44.80927065016569,0 27.81801760864099,44.79490832199382,0 27.8294801930807,44.78160260496396,0 27.85212297927663,44.77714080907089,0 27.87046420843526,44.77242591259795,0 27.87936204290348,44.75721270688751,0 27.86474814981937,44.73159102721706,0 27.89795163253796,44.70074527988459,0 27.93267048851159,44.67846802181258,0 27.96410692223663,44.68015673900938,0 27.9859783642934,44.66878936671828,0 28.00665875485021,44.65534455789712,0 28.01869074488677,44.64138031809276,0 28.03121263623213,44.6239479336118,0 28.03432000254225,44.6102695012823,0 28.02297523389137,44.59775441212092,0 28.01448436013425,44.58525677983561,0 28.01159999691212,44.57166661534751,0 28.03495095285272,44.54762898190551,0 28.05250637148682,44.51070327652287,0 28.08117795072277,44.49581185064214,0 28.09531445307426,44.47489565783759,0 28.09758428006543,44.4559300193111,0 28.11011293932028,44.43870399488947,0 28.08968780441365,44.42044172009341,0 28.08213132842745,44.40901455395034,0 28.04665886971831,44.38625199811311,0 28.02331078403046,44.36260136100679,0 28.02095826516915,44.34874080698852,0 28.01126869629443,44.31959673146157,0 27.97963911077279,44.29242095995782,0 27.96350890348731,44.27032327822448,0 27.93611294064176,44.24973192333439,0 27.88446880130072,44.25101699788764,0 27.79378568955936,44.23868465409603,0 27.73196816291551,44.19964075152469,0 27.61791081852147,44.2014732871145,0 27.52661752500466,44.16905156145017,0 27.46034259074056,44.12883746602589,0 27.2798367138174,44.12816206671706,0 27.22032839341685,44.11513406844514,0 27.14030138188873,44.1364790755955,0 27.03456777564733,44.14249472448499,0 26.89024582906625,44.12788239598927,0 26.7400387264109,44.07199825605378,0 26.43701682499349,44.04006921639959,0 26.14415432919148,43.98692459915433,0 26.0414270217153,43.89808511476929,0 25.98893625565595,43.87656482088687,0 25.94972374162804,43.85696603975138,0 25.90426453625138,43.80778272544521,0 25.80411362164429,43.74314092439868,0 25.77404293645977,43.71043245607905,0 25.69846655237864,43.68860833262256,0 25.65802550469406,43.68615451871716,0 25.58817860979888,43.65721775965427,0 25.53859478252617,43.64343241380496,0 25.4905482310495,43.64468938558834,0 25.40201379683122,43.61918374737421,0 25.29785685045117,43.65229354970635,0 25.05359847599492,43.69614132775566,0 24.98298096513781,43.72082957760888,0 24.92181211674177,43.71460474435906,0 24.86831907530594,43.70913511244794,0 24.81300546816545,43.71106075046512,0 24.75071548922398,43.69505308052942,0 24.58670470843071,43.75323622733973,0 24.49822043592258,43.76506115188055,0 24.4475398872938,43.74191044003889,0 24.40276402784752,43.71711847390536,0 24.35966617290823,43.70378013440151,0 24.31777448228546,43.70014604270466,0 24.25395979621108,43.69300801889999,0 24.17853954136285,43.68372906034855,0 23.99128993626545,43.73940456436742,0 23.85655749029624,43.75608177494118,0 23.70315639180889,43.80441256555976,0 23.60652825750877,43.79378018611058,0 23.46966606222559,43.83902557888054,0 23.43125110465671,43.85075600875928,0 23.27810160478934,43.85092047513031,0 23.17977819737848,43.82308183261009,0 23.08828625313681,43.80246215980768,0 22.96353575995246,43.81509690677979,0 22.88014318877673,43.83537023550046,0 22.84147109788148,43.86209736860254,0 22.84897535820574,43.91303705715649,0 22.87954305385191,43.97837955940886,0 22.90376475522987,43.99798311002721,0 23.01039428969678,44.01891379618539,0 23.04093333512195,44.04945305496933,0 23.04626856780603,44.07304366951213,0 23.02431202431906,44.09170068116266,0 22.92385723370012,44.10495899792529,0 22.86431052381651,44.13413920273862,0 22.78824777516947,44.1688131011066,0 22.75095085739622,44.19763415997213,0 22.69075705868415,44.20695313709128,0 22.67338665870665,44.2191539971104,0 22.6714857776767,44.23013792047022,0 22.68504479545894,44.24965636265082,0 22.6775530205251,44.27769331862572,0 22.65739982221888,44.28712967779374,0 22.62312261600779,44.29094930822234,0 22.56467510265576,44.3056556571012,0 22.53289117730564,44.33991977044544,0 22.50293745375354,44.39059992942622,0 22.4942237029779,44.42709077989831,0 22.46263101192958,44.45503306065982,0 22.45580628584034,44.47473179141354,0 22.47294421775834,44.48233441367031,0 22.51354788286946,44.47551426163858,0 22.54368384515201,44.48168181188353,0 22.55802920326687,44.49669522091846,0 22.56006526399278,44.51622668672027,0 22.56829026528114,44.54377592834253,0 22.6193515802688,44.55396450125435,0 22.69452287467445,44.51717570736057,0 22.76174812748166,44.53975816067181,0 22.75993255788153,44.55657932130582,0 22.74452149825674,44.57728900574944,0 22.69847266948327,44.60534999566328,0 22.67661951915473,44.61760385964597,0 22.63278254788356,44.61394346636187,0 22.58160006354309,44.63121632806558,0 22.53818706636169,44.66237177035305,0 22.50048574706327,44.68932147120351,0 22.46755806018932,44.71463040355025,0 22.44387883688509,44.71492266770917,0 22.41423066501411,44.70537398382768,0 22.40378341419834,44.68964394195175,0 22.36710232255985,44.67402347937171,0 22.32686143383248,44.6715357558386,0 22.30172765198914,44.65876054396727,0 22.3003422647349,44.64024327558414,0 22.28755752369456,44.63067413530564,0 22.2781632156173,44.62565810970014,0 22.2726079428806,44.61904817558997,0 22.27274187127606,44.61295610696978,0 22.26766111959802,44.60176836645672,0 22.20436115619331,44.51680450148829,0 22.1788071493817,44.47839616471664,0 22.13173373312874,44.47231833728178,0 22.07466718395089,44.50578337551637,0 22.06846045458055,44.52862960841767,0 22.03316294518868,44.55258691073249,0 22.02754307354092,44.58712710086111,0 22.00897863124923,44.60801510929564,0 22.00293424791171,44.62301870077211,0 21.98774039255964,44.63375590995846,0 21.8331859876148,44.6537634700197,0 21.80017327338757,44.65788559750526,0 21.76725034983584,44.66007049880149,0 21.73056105674154,44.65438213299737,0 21.71003657772907,44.65562538777564,0 21.70139088327497,44.66183788231676,0 21.67910805583408,44.66514587255917,0 21.64558346129903,44.700830268785,0 21.61739072816575,44.7130787170478,0 21.59185149915019,44.7543287524949,0 21.56179205890367,44.76907868311467,0 21.4968081916214,44.77301519777249,0 21.4579962150912,44.77736278496471,0 21.39779740071918,44.77373410335555,0 21.37953431572216,44.81596303645891,0 21.34575762859657,44.82371459090979,0 21.31344542836263,44.81374833602735,0 21.21004449846975,44.78181435104209,0 21.14756620055835,44.73702718114413,0 21.10607257948332,44.73010400798594,0 21.07648789529301,44.71761836950893,0 20.99310617316158,44.72085153852185,0 20.95438953325945,44.69603416479157,0 20.92035512011012,44.67015621860847,0 20.8725999848909,44.66287751912358,0 20.81542049914723,44.65779742846767,0 20.7480044158545,44.6637510484173,0 20.69621962371401,44.70722767783437,0 20.67582037759431,44.7336980196674,0 20.63393607677453,44.7542716776212,0 20.6218937450376,44.77600171025953,0 20.64202319636269,44.8179851498885,0 20.64589378490794,44.82552057946457,0 20.63760296654348,44.83333053121164,0 20.61452744895691,44.84081010399353,0 20.59086446568783,44.84354035292309,0 20.56516770232111,44.84752264310435,0 20.52702139450367,44.82999257873141,0 20.49050244205832,44.82764437603395,0 20.4491063134422,44.83585090730084,0 20.38898300988906,44.86070454485939,0 20.36206915731526,44.88031397497713,0 20.34684175088943,44.8993036853354,0 20.32862590804639,44.92253153695532,0 20.29995068756266,44.94318092141926,0 20.28944017968221,44.97146156705526,0 20.30054662462712,44.99164279676624,0 20.34290023138285,45.00151628243316,0 20.36015840619649,45.02779223679665,0 20.35376194790659,45.05799887864772,0 20.28402318843818,45.12273193088663,0 20.23992670745069,45.16039860601968,0 20.18482274074755,45.18263223244642,0 20.15498730245495,45.18083779569827,0 20.13098643313977,45.16919388031429,0 20.0840680659763,45.17023128619399,0 20.03381498289684,45.17021462224398,0 19.97086834865641,45.18461573237578,0 19.93589868724942,45.21657343803368,0 19.91462767948401,45.24751393425088,0 19.89162398146621,45.25841809438145,0 19.87408060205585,45.26380597896393,0 19.86058334985407,45.26271826749517,0 19.85731750430254,45.2567117496268,0 19.85819164890622,45.24979581267771,0 19.85787381487543,45.24035342339416,0 19.84556440668468,45.23180663150028,0 19.82493056017799,45.22354765343524,0 19.80696074516986,45.22052200578138,0 19.75006351470882,45.2284794106407,0 19.70925138959862,45.23253726670123,0 19.6632876545432,45.2233240427945,0 19.62778958095118,45.22042126151086,0 19.60546093302786,45.21535673653824,0 19.58042423950986,45.2114079390398,0 19.56395272536047,45.22532872100826,0 19.56021492479139,45.23776453222854,0 19.55169392943284,45.24691642282499,0 19.54341602719075,45.25264658012975,0 19.52752408277502,45.2532273694812,0 19.48475260966528,45.23871216595754,0 19.4530004614515,45.23838018587409,0 19.41057697841255,45.23288180073896,0 19.33233587179467,45.23262478219534,0 19.26962416194544,45.24067152883148,0 19.22494608519127,45.25419085735597,0 19.12924220946412,45.28658598237094,0 19.1038505081689,45.29882760580051,0 19.10008934543208,45.3190305379846,0 19.09517836473022,45.33342316022888,0 19.07592811552747,45.34136567114468,0 19.04985604313655,45.34357734288183,0 19.02533506141269,45.3449156771815,0 19.00431011951057,45.35568917988595,0 18.97193263342026,45.37575752544533,0 18.96905204849075,45.38553798004956,0 18.97168627995602,45.39166174443359,0 18.98182108252372,45.39735350687673,0 18.99515400270083,45.400587729328,0 19.01433411355033,45.40085598669759,0 19.02771863308757,45.40689284670329,0 19.03127435294386,45.41326516519734,0 19.02917618366178,45.42245784829301,0 19.01371288063168,45.43122856719149,0 18.99310602344205,45.43966641142962,0 18.98674263558899,45.45428349388428,0 18.99278562187295,45.47796805822951,0 18.99869356547843,45.49330739815318,0 19.00672380312896,45.49739304486684,0 19.03824994941658,45.48549709659206,0 19.07649218597191,45.48749129462351,0 19.09398068730015,45.49362697790526,0 19.10024097906581,45.50183992799517,0 19.10126706811732,45.51151419865892,0 19.09610191601931,45.51961861638623,0 19.08205661049228,45.52531845510121,0 19.0654094969561,45.53196544490736,0 19.04738048636597,45.53293621177168,0 19.03532053967373,45.53417832023422,0 19.02515187137953,45.55472943588437,0 19.01928437233785,45.55771794181745,0 19.01007370338601,45.55709817697835,0 18.9920914284346,45.54007914165386,0 18.97563970187204,45.53498628962018,0 18.95143805960658,45.53420208237134,0 18.93705079152776,45.53946733400834,0 18.92294567171526,45.55079592202898,0 18.91698702617531,45.55505635327114,0 18.90315333797042,45.55740100839359,0 18.88807205116095,45.56570466923728,0 18.88894208678766,45.57354269465419,0 18.89800878784969,45.58483014454453,0 18.90904426364519,45.59239582999245,0 18.91376304467141,45.59687836133142,0 18.90707421253086,45.60530408408888,0 18.90526603532744,45.61462970423113,0 18.91014531393735,45.62241986154334,0 18.9318489443503,45.63044302691155,0 18.93693716602428,45.63949631395463,0 18.94503428372579,45.64908502462682,0 18.96195695979156,45.65901464805809,0 18.9660970764415,45.66891490639712,0 18.95732184196041,45.67802855449494,0 18.9339390843189,45.68724918993662,0 18.91405240731578,45.69895990751876,0 18.90284966050342,45.71589101424904,0 18.89644557218696,45.75386966493011,0 18.88936990939728,45.76920599560152,0 18.88482512406151,45.7797574050541,0 18.87256966759429,45.78554395632797,0 18.8612002957863,45.78769022925598,0 18.84735746997039,45.80660431808067,0 18.85107392132628,45.82315991694721,0 18.85736466087141,45.84437449087935,0 18.85513976433766,45.85807626611408,0 18.84909846083485,45.86389946828312,0 18.83263414106455,45.86872810238678,0 18.82373287387544,45.89827370140524,0 18.815303464159,45.90826516069232,0 18.78851355129803,45.92458541604476,0 18.76682162121964,45.94535364563767,0 18.76425642782868,45.95472729544025,0 18.7404815281788,45.96697544243005,0 18.72254513751492,45.97903391194026,0 18.7072787708381,45.98706403062521,0 18.68717247010612,46.00412457934577,0 18.68322648433844,46.02125414029999,0 18.68835989266741,46.02826983061247,0 18.71801140087337,46.04162153169934,0 18.73620262108869,46.04740764774633,0 18.75183645986949,46.06257925301652,0 18.76278860136636,46.08296390471658,0 18.77020770167638,46.09607978448567,0 18.79400044060162,46.1024375767744,0 18.81208402660597,46.11916469043219,0 18.83998396793087,46.14662032411172,0 18.84003373520987,46.16548650505283,0 18.84734341851354,46.17207286860459,0 18.85919368206262,46.17244804498093,0 18.89499828589878,46.16819032450949,0 18.91252034082904,46.17399550031331,0 18.92393976821377,46.18307424389088,0 18.92662042251907,46.19512025154862,0 18.91601705627871,46.20945960001627,0 18.90751478460543,46.220831064278,0 18.91226623603522,46.23655841052273,0 18.91113711484295,46.26832052941413,0 18.91640975588015,46.28768441135168,0 18.92245331441391,46.30639042041432,0 18.91687283014394,46.31760181783361,0 18.8990842211302,46.33393891931853,0 18.89458777631766,46.36812888496857,0 18.88551609552751,46.38739236392269,0 18.88493936521049,46.40271660179696,0 18.89969775287235,46.42407429897219,0 18.91993103777769,46.44682520206815,0 18.92220978423089,46.47155013503269,0 18.91645258424616,46.49509444550644,0 18.89761513714422,46.51603152725249,0 18.89425744377484,46.53169051578092,0 18.89677611375431,46.54467228841139,0 18.8933607208485,46.56409317980921,0 18.88263102325573,46.5786796219626,0 18.86486464131185,46.59289829674241,0 18.85924577960438,46.60679420469011,0 18.86334446026145,46.61875894020223,0 18.87606574422495,46.63007315477778,0 18.88535060353594,46.63625792771163,0 18.92357705215345,46.63515565580417,0 18.95502096882567,46.64594210563672,0 18.97412851289755,46.66396106148964,0 18.99633886014603,46.68474644444181,0 19.00813660061509,46.69793833512529,0 19.00625566138326,46.71307798524801,0 18.98794726309193,46.73217147569596,0 18.98539239412029,46.74856954686387,0 18.98604884831186,46.76052623534775,0 18.97377488170708,46.77646879610378,0 18.96122947183543,46.78835872711579,0 18.95787220346011,46.79730006118461,0 18.94816812585453,46.8022312040292,0 18.9376461301018,46.80752282986229,0 18.92467219551564,46.81928872979249,0 18.92915894495111,46.87108325111808,0 18.95040980014369,46.89376153553043,0 18.9616158384657,46.91391115647144,0 18.9664314582291,46.93785635903075,0 18.94972546547039,46.97434432914318,0 18.95045123397397,46.99225795331902,0 18.96522282044426,47.00730754926101,0 18.96957727122077,47.02045500286409,0 18.96678778590656,47.03294815445855,0 18.94453696748194,47.05021067557903,0 18.91508002388323,47.06651191931382,0 18.90121715460988,47.07324586835854,0 18.8721320662608,47.15423705109635,0 18.87788087955996,47.18680355201009,0 18.88873383541879,47.20730538976817,0 18.90654077385665,47.22600784543469,0 18.91254112653542,47.24652495198627,0 18.92014871981805,47.26063504310125,0 18.91782386962073,47.27609239714663,0 18.91719600661958,47.29112642251313,0 18.94687777519943,47.32909143002886,0 18.95087998641404,47.34399000969533,0 18.9507322218214,47.35657396187662,0 18.96125989851794,47.37494238896061,0 18.98878520907457,47.386341558403,0 19.01364551396891,47.38955280089319,0 19.03356732519215,47.39762698209859,0 19.04521035022319,47.41441744566948,0 19.04918201807191,47.43029605019706,0 19.05165422019918,47.44779122361091,0 19.05955970222325,47.45798335899481,0 19.06809833514177,47.46663009655173,0 19.06603150321211,47.47548403895328,0 19.05797241509361,47.48299412014826,0 19.04423446285381,47.49903501990227,0 19.04198273600505,47.51481052591361,0 19.04051569665671,47.52348227532875,0 19.04862424972838,47.53518417401948,0 19.06216393468862,47.55096831500783,0 19.07255023829254,47.58640369746777,0 19.0858954884337,47.60166803794323,0 19.10115574415974,47.61576733852672,0 19.1165494565131,47.64761044854029,0 19.12150161035488,47.67663769881706,0 19.12692621957162,47.7057066527142,0 19.12909860353841,47.72987336834012,0 19.13280795318895,47.73842059658072,0 19.1288043183006,47.76385104388412,0 19.11080229792307,47.78895006608359,0 19.08218548345119,47.80415480283312,0 19.06111867938377,47.81508439599006,0 19.0273012226196,47.82006357289939,0 19.00884356480012,47.81951792960638,0 18.99141760812256,47.81361643856442,0 18.9785146349351,47.80312325668867,0 18.96338903730372,47.78695089068286,0 18.95241174691606,47.77265881867634,0 18.93810020020734,47.76459742808601,0 18.9217561603828,47.76543912880362,0 18.90982088111384,47.77216192345163,0 18.9023951935229,47.80185905617502,0 18.87918571735138,47.81046760111561,0 18.83129223009866,47.81479059107748,0 18.80462213613546,47.81811330846079,0 18.77379218823134,47.81841439907457,0 18.74373701768359,47.81423849028791,0 18.73411940809088,47.80960387823734,0 18.72731643465712,47.78991864123889,0 18.69308613528554,47.77262614495362,0 18.65965787458491,47.76050616996809,0 18.62458310288614,47.75814372564792,0 18.61090664980109,47.75820869816462,0 18.57177945326433,47.76614828971127,0 18.55040652946377,47.7649953461546,0 18.53593210872301,47.76357343316663,0 18.5262192469246,47.75882221877167,0 18.49073047754118,47.75274752566367,0 18.47569483977323,47.75931715981304,0 18.45832628928265,47.7646868669872,0 18.44490271465703,47.76417020197922,0 18.43054765044085,47.76114385714651,0 18.40665573811177,47.75274582446383,0 18.38886735659718,47.75085916407312,0 18.37629159195406,47.74549363348395,0 18.32947110764944,47.73697609879896,0 18.30452211333533,47.73342576219187,0 18.28554630077408,47.73189452822935,0 18.26298775812387,47.73789949170795,0 18.24042766838411,47.7401394141164,0 18.21927673400538,47.74321310717716,0 18.18925010444307,47.74007461210177,0 18.16537021761442,47.74246664668993,0 18.15140723938026,47.74660686934479,0 18.10625377762131,47.7527981479255,0 18.08779535156857,47.7563002988121,0 18.03550438199376,47.75652382650602,0 18.02077237060764,47.75333103216308,0 18.00452165275841,47.74659073966029,0 17.98713193483809,47.75156941872253,0 17.97252418314768,47.75726204954407,0 17.95605934415764,47.75158175207647,0 17.94304697172605,47.74406007756644,0 17.91227033117045,47.74344544055811,0 17.89955642972309,47.74027340084188,0 17.88748491564419,47.74070621936982,0 17.87157982080444,47.74458402125575,0 17.86604499840084,47.7454957199054,0 17.82113324405803,47.74039619062504,0 17.79733119422797,47.74164341130849,0 17.7817613607645,47.74000019485356,0 17.76192214814196,47.74922452506899,0 17.72203670286754,47.75409942353254,0 17.70793455326427,47.75809659221655,0 17.68991432380089,47.77378433420822,0 17.65027311645483,47.79353216284833,0 17.63142760845784,47.80275034369887,0 17.54245323965386,47.87563575906845,0 17.50966669385038,47.90479491681398,0 17.44773090611672,47.94246596389497,0 17.3657836007702,47.99323059419955,0 17.31132557056393,48.00134923566058,0 17.24049132808961,48.03258782177205,0 17.22589304637708,48.04569296273379,0 17.16659544003259,48.06668678043998,0 17.13830046237896,48.10222361627481,0 17.13933434615713,48.11170116260035,0 17.1466859574276,48.12343072216568,0 17.14596878350161,48.12885595933724,0 17.137558615022,48.1353364408219,0 17.12263637999116,48.13764474602907,0 17.0907221170564,48.13928646901977,0 17.06595106602965,48.14372143711277,0 17.04707514866775,48.14175066518624,0 17.03674428333648,48.13988713381445,0 17.02747073741954,48.14195064804822,0 17.01426218721999,48.15054294745401,0 17.00944084577153,48.15402944283752,0 16.97464933438317,48.17233596115788,0 16.96491857009769,48.1729996990267,0 16.95703654778212,48.16855526501151,0 16.95068232950317,48.16243061953834,0 16.94064985315168,48.15030645902258,0 16.92697421035796,48.14845363836343,0 16.91073618009799,48.14731412994578,0 16.89579850414592,48.1404099858247,0 16.88595955671637,48.13469228799429,0 16.85485105643131,48.12622062626378,0 16.79800468005574,48.1166364060606,0 16.78496301597405,48.11769262856609,0 16.74359775902483,48.12836359462987,0 16.73323837944345,48.12843128918101,0 16.7045591597798,48.11997463870227,0 16.69176983157528,48.11860589541338,0 16.64837655731622,48.12825238347766,0 16.62249870490198,48.1306860146382,0 16.59952652746827,48.13225782746378,0 16.58112289376875,48.13446829904351,0 16.56082889185155,48.13923513336911,0 16.54462541890719,48.14307300752789,0 16.53720057565565,48.14676304801797,0 16.53118549876226,48.15190256707441,0 16.52902446025777,48.15499628703813,0 16.52541440649453,48.15730312177675,0 16.51285092806157,48.16315527324353,0 16.50584667940778,48.16638444549439,0 16.49929226692238,48.17055126396571,0 16.44003856739581,48.20899276562725,0 16.42710028262025,48.21799340056914,0 16.41417115883776,48.22656676143571,0 16.40424996627094,48.23396712217967,0 16.39864557567685,48.23851609533602,0 16.3818573745218,48.25778286297128,0 16.36783480747989,48.27399175223513,0 16.35206616837405,48.29366840550756,0 16.3460686504658,48.30109407568312,0 16.3423021699647,48.30646964131995,0 16.33845824258448,48.31882071636078,0 16.32789369612026,48.33252460430451,0 16.30442499064985,48.34301206264528,0 16.28416477730455,48.35211328629616,0 16.24268532170997,48.35437007705854,0 16.21026601917831,48.34917505439341,0 16.16729785455082,48.33958955071745,0 16.12859830975804,48.33659677455282,0 16.10111144054172,48.33425355243956,0 16.07986944482442,48.33559306878599,0 16.039453748046,48.33560249166565,0 16.01987089857816,48.33570591569818,0 16.00957752367752,48.34025736927346,0 15.99858355561996,48.34200758373521,0 15.94259796150799,48.3397090209189,0 15.91767876445406,48.34872010125673,0 15.89209885486663,48.3536908349657,0 15.88515324164934,48.35998909666756,0 15.87589941624233,48.36799022052631,0 15.86856018126971,48.37335372112119,0 15.84530132464622,48.37920322528833,0 15.82620310883749,48.38104427210812,0 15.79559533508489,48.38148159135177,0 15.77590183644949,48.37571716109745,0 15.75107039733959,48.37163488023878,0 15.74089542723936,48.37270411245363,0 15.73276231547769,48.38017511403831,0 15.71743126368931,48.38587621450968,0 15.7025380429774,48.38826799232033,0 15.68858243613202,48.38436575916934,0 15.67229772317473,48.38128543663608,0 15.65987932370562,48.38676900282718,0 15.6469453997302,48.39818649347227,0 15.63387096433369,48.40273310732036,0 15.6211886658289,48.40364594603265,0 15.6046686678161,48.40221150333527,0 15.59280109872782,48.40207976735157,0 15.57953709285495,48.39942505840879,0 15.56703973657807,48.39540302223256,0 15.55795923973962,48.3911356544702,0 15.54362766437276,48.3847251423556,0 15.53273410558272,48.38415281713775,0 15.52557319606368,48.3858972442813,0 15.51802890336456,48.3918305280279,0 15.51507526595479,48.40026760369484,0 15.50959526790585,48.40551452151132,0 15.50084935170913,48.40941751775313,0 15.49205867604601,48.40712425346531,0 15.48304627989471,48.40320675917024,0 15.47499371780038,48.39555986938324,0 15.44892488142325,48.37386340186283,0 15.44143691077118,48.37089148184441,0 15.4240907494785,48.3651188414259,0 15.41794416462141,48.36075157401785,0 15.41158780513381,48.35640344207947,0 15.40857633826366,48.35240723684023,0 15.40727744443236,48.33977500821094,0 15.40901953097926,48.32861651234007,0 15.41243377994231,48.31561381665656,0 15.40891247731343,48.30737399195157,0 15.40650183521541,48.29644910785911,0 15.40283631724058,48.28724083692707,0 15.39305587633253,48.27804400769465,0 15.38702412642426,48.27585245634175,0 15.37806201713921,48.26749289288479,0 15.37325741866346,48.26189643145213,0 15.36916735422814,48.25524794347784,0 15.3603706215238,48.25051993951278,0 15.35343979307072,48.24653217504083,0 15.33776376182702,48.23974528370535,0 15.32693536487274,48.23479721929525,0 15.31896033420181,48.22916054021167,0 15.30645069301668,48.22507988986246,0 15.28522678734971,48.2240759523249,0 15.27037818901109,48.22361834398009,0 15.25035159829864,48.22079844959632,0 15.23690814655953,48.21752557995744,0 15.22286040801498,48.21503541258519,0 15.20004227941489,48.21536584856279,0 15.171635795325,48.21533384692162,0 15.15578331476485,48.21296207586966,0 15.13522994743672,48.21115551745424,0 15.12526604722807,48.20862875563029,0 15.11738697397514,48.20522257634014,0 15.11261466249301,48.20037751154035,0 15.11105514227556,48.19482715018311,0 15.11270371416392,48.18857344953841,0 15.11686242970925,48.18191045555646,0 15.1181477575644,48.17796952593574,0 15.11601291206351,48.17526436003914,0 15.11122628891506,48.17225148485452,0 15.10480981375378,48.17177035540799,0 15.09671696771294,48.17273218909534,0 15.08828297248373,48.17613494833254,0 15.08469764849269,48.18183037966923,0 15.07530379206246,48.18652234771258,0 15.05217843790876,48.19687211391995,0 15.01912054386004,48.19418205732637,0 15.00286690562111,48.19423358921092,0 14.98271316090584,48.19634191465318,0 14.96832957792445,48.20064147711722,0 14.95902912159275,48.20538425988433,0 14.9507721218462,48.21680734528267,0 14.94557239348987,48.22573977701661,0 14.94069752907907,48.22945539518584,0 14.9343854228371,48.23161591826536,0 14.91492481639059,48.2325638614722,0 14.90703429606183,48.23174249655719,0 14.90036400127665,48.22991684672857,0 14.89499532036252,48.22782737026633,0 14.88220378037057,48.23064527019297,0 14.87416143076116,48.22968883384411,0 14.86818118751291,48.22727395360837,0 14.86106592175389,48.22691647115872,0 14.85517090566869,48.22467590794992,0 14.85607711017481,48.21842557233523,0 14.85618158243281,48.21180981881531,0 14.85261303276663,48.20629948091692,0 14.84687580235432,48.20019946074365,0 14.84026049736064,48.19298453077727,0 14.82565044615881,48.18930197637738,0 14.80702759042311,48.18759517697722,0 14.79386110216318,48.18326602380287,0 14.77924925505915,48.1816365343638,0 14.7641563437277,48.17794482786288,0 14.74910874773192,48.17532658469708,0 14.7319271615429,48.17434751916588,0 14.71626514884922,48.17460899522698,0 14.70844937991221,48.17170755086149,0 14.69221622647965,48.16745899143264,0 14.67282926997968,48.16577693930651,0 14.65514716716146,48.16937693714259,0 14.63201334592894,48.18228561575869,0 14.62732526265977,48.18737338903713,0 14.61082273893675,48.1959830830412,0 14.59816875081455,48.20956507472489,0 14.5875611822357,48.22203048340423,0 14.56013260585052,48.2307942440774,0 14.53192229098959,48.23725423308339,0 14.5149500156805,48.23880897369783,0 14.5009487699912,48.24441381762191,0 14.48916954074424,48.24231786817095,0 14.47245825947155,48.23734490810961,0 14.45778097337728,48.23508265420951,0 14.4456471632405,48.24229228101238,0 14.44066671559405,48.24629694973831,0 14.41810289319965,48.25404855810695,0 14.39732957174814,48.25959012788618,0 14.38178124162516,48.26883557696053,0 14.36419799902559,48.27279986221947,0 14.34872698829949,48.27922286304643,0 14.33794701591589,48.30117980120693,0 14.33212069963519,48.30973760558388,0 14.32154747140906,48.31848031486558,0 14.31280052636174,48.3219212673084,0 14.30454748787316,48.32221710227203,0 14.29732235518802,48.318561884124,0 14.2922065274538,48.31345534443308,0 14.2860739878828,48.30883152293718,0 14.28127535822775,48.30682550570013,0 14.27435248119878,48.30533215144847,0 14.26839010655203,48.3056846281671,0 14.25827644111488,48.30932973467804,0 14.24799143833856,48.31070099968171,0 14.23642051148043,48.30814155956624,0 14.22504208934613,48.30938265160025,0 14.21588924160867,48.31259258987664,0 14.20922269148287,48.3183584331334,0 14.2008291864036,48.32290979117798,0 14.19350083262547,48.32859246321632,0 14.1891287577638,48.33178427337162,0 14.18056726724185,48.33072156859131,0 14.1587484346461,48.32206032268464,0 14.14012453694642,48.314629689451,0 14.12986623162908,48.31109543669962,0 14.11760326956378,48.30929962343737,0 14.10285815808461,48.3128170399189,0 14.08907631450239,48.31610929047512,0 14.06970856545259,48.31792867338278,0 14.05530052525543,48.32524270615266,0 14.04039391511056,48.32972346308664,0 14.02949991589528,48.33491222495267,0 14.02279912854629,48.34229908714836,0 14.02249132614642,48.35446834673208,0 14.02760737855542,48.36635099313774,0 14.03019927045337,48.37236933415551,0 14.02746448907153,48.38011215861063,0 14.00716789193381,48.40388942753476,0 13.99928209610456,48.41531136802514,0 13.99100037486791,48.41993802922299,0 13.9826824768564,48.42179586436376,0 13.97395590807241,48.41845617269138,0 13.96744007417471,48.41708674316789,0 13.95648141350394,48.4171770403333,0 13.95236445890375,48.41430107019154,0 13.95171053306146,48.41021988454018,0 13.94944044120478,48.40574323695618,0 13.94325370547141,48.40421975566831,0 13.93817990297044,48.40483949416232,0 13.93309825373598,48.41073777101623,0 13.92857846427742,48.41544645509863,0 13.92539945591103,48.42253952451742,0 13.92601040110822,48.43072411465872,0 13.91989230595808,48.43813554448808,0 13.9194616310827,48.44890680770025,0 13.90448932921631,48.45517271263369,0 13.89207129688272,48.44699923591425,0 13.88331565891303,48.44461321651684,0 13.87489500626405,48.44525579827022,0 13.86576053455084,48.44970733379039,0 13.85944164506339,48.45041481707397,0 13.85342540804516,48.44840748467837,0 13.85377552373204,48.44623732025459,0 13.85447235303558,48.44191720918079,0 13.85918960854033,48.43846449601706,0 13.86789214527643,48.43568945003302,0 13.87281830598852,48.43225063684049,0 13.87481967288367,48.42863755753386,0 13.87064192546708,48.42607714539978,0 13.86389796406883,48.42662095762822,0 13.85302007904162,48.43088193865862,0 13.83346475739139,48.44360153381787,0 13.81648671793999,48.4565627341654,0 13.80166620435413,48.46484156034328,0 13.78200411460967,48.46790361402569,0 13.7742909521076,48.47276827347744,0 13.77287790165431,48.47599337238282,0 13.7460368712738,48.49119666811092,0 13.73305654659417,48.50854308716154,0 13.72845865837445,48.51262311165606,0 13.70735136804119,48.5176062579075,0 13.68348779596557,48.52914901527173,0 13.66392187755831,48.53466448920485,0 13.65438834540777,48.54840870412166,0 13.64396287896635,48.5518977928129,0 13.62556936858013,48.55416108877544,0 13.60375856367864,48.5672081473756,0 13.59492446575356,48.56955218510991,0 13.58766460352428,48.56581296461066,0 13.58287412498714,48.56196676276954,0 13.57792269908815,48.56000184627202,0 13.56641855653829,48.56283335266423,0 13.55446539463208,48.56801327469095,0 13.54187662277509,48.57727158112198,0 13.53240161627252,48.58325937000068,0 13.52430622827587,48.5885680660721,0 13.51344610188181,48.59048607959127,0 13.50753507061403,48.5891182447231,0 13.50477774682434,48.58657139538973,0 13.49894405230333,48.57780705119254,0 13.4946401791068,48.57552337234242,0 13.47924811033529,48.57338150402244,0 13.47764004606655,48.57465829128892,0 13.46838963486284,48.57605791210478,0 13.45926059131519,48.57709832038739,0 13.44809404424484,48.57595195429397,0 13.43777663735836,48.57442392775298,0 13.43282360350638,48.57598082669869,0 13.42141788107522,48.57450297773732,0 13.41762612772334,48.57537143681395,0 13.40692523161152,48.57788582956529,0 13.39443204484488,48.588885861313,0 13.38102508453946,48.59621426957563,0 13.36757020343961,48.59860071260866,0 13.34871692390164,48.60107838355417,0 13.33431195902623,48.60171807224002,0 13.30916992686944,48.60540628204928,0 13.28714590738541,48.61136354398431,0 13.27730188175287,48.611498158108,0 13.26229641812416,48.60676476426904,0 13.2423618759134,48.61065702841206,0 13.21107289900617,48.62564367870825,0 13.18460410086525,48.63757962169322,0 13.1694795971399,48.64725782684413,0 13.15241217829566,48.65773625681167,0 13.14516111403971,48.6608564954756,0 13.13441941505632,48.66185018629314,0 13.12380997235615,48.66200661608953,0 13.11787438835037,48.66377590426793,0 13.11304619186041,48.66973299638273,0 13.1138939942067,48.6808890717379,0 13.11201813964713,48.68451422568988,0 13.1082970600482,48.68585806417034,0 13.10472406231258,48.6855565002836,0 13.09434266091082,48.68375193046751,0 13.0894039145494,48.68417519541301,0 13.08586225405753,48.68617643094853,0 13.08532764760108,48.68926768734617,0 13.08794409326909,48.69226058074798,0 13.09485373693436,48.69738181934734,0 13.09706904493042,48.70042596966071,0 13.09765180360302,48.70343375976962,0 13.09697715742708,48.706249785772,0 13.09168198108937,48.71121613025149,0 13.08605240706329,48.71570755188062,0 13.08269550065999,48.71739573154895,0 13.0782636626669,48.71722143972271,0 13.07380838950119,48.71648420663943,0 13.06978796833673,48.71580221769161,0 13.06635438434018,48.71650331997992,0 13.06074149227015,48.72205481930366,0 13.05626288920079,48.72547518167102,0 13.05156270936771,48.72723103642044,0 13.04810932617406,48.72670055085322,0 13.04611474620575,48.72631310459532,0 13.04355268103981,48.72362695049222,0 13.04009233394826,48.71995656793059,0 13.03638789409368,48.71841286560924,0 13.02907640981094,48.71682892664966,0 13.02391526739184,48.71645477779223,0 13.01802020773056,48.71830227199315,0 13.01524961476321,48.72055517976079,0 13.0139300361849,48.72362062467796,0 13.01463421203625,48.7266364206618,0 13.01753312837957,48.72865693142703,0 13.02282852245718,48.73079959719998,0 13.02918403183186,48.73278209698723,0 13.03326097328291,48.73542043179262,0 13.03569893661239,48.73801163437123,0 13.03781403353518,48.74239109695772,0 13.03713974298664,48.74616465094033,0 13.03428494815187,48.75064803240973,0 13.02977921516382,48.75518666353908,0 13.02267774963857,48.75914968604285,0 13.0181867732411,48.76455352265599,0 13.01158366168363,48.77006572843136,0 13.00825646057636,48.77452605247073,0 13.00628101553841,48.77934620528088,0 13.00687600714977,48.78378201807238,0 13.00527404594027,48.78663886615724,0 13.00195991761663,48.78966167961877,0 12.98588101025796,48.79913749190168,0 12.97756141677789,48.80314879021236,0 12.9713095439982,48.80708504678626,0 12.9692591288095,48.81273388421367,0 12.96809631578095,48.8177719515684,0 12.96597635603852,48.82224040714101,0 12.95118002440737,48.82748007697022,0 12.90928636667595,48.84441536167679,0 12.90165673639625,48.84471219272116,0 12.87757352204928,48.84136775390618,0 12.86036329170382,48.84368824137561,0 12.85366491415521,48.84307855890908,0 12.84709937173085,48.84045861891822,0 12.84067693174964,48.83532087542233,0 12.83564910364239,48.83063657840473,0 12.82072752631511,48.82538662612514,0 12.80553239231489,48.82481288744076,0 12.79396868190578,48.82630330006739,0 12.78239502796532,48.8304947109714,0 12.76873646286397,48.83825472246855,0 12.7649919046023,48.84289594313354,0 12.76496528830068,48.85068389749856,0 12.76123905221329,48.86251570253309,0 12.75938292336919,48.86729559158347,0 12.75203326555996,48.87358448830667,0 12.74872068993201,48.87741269665138,0 12.74373084069299,48.88051040663798,0 12.7379566534337,48.88358607934079,0 12.72907828149798,48.8856001117209,0 12.71937306764033,48.88677798409316,0 12.71156063498482,48.89145318856757,0 12.7048978216684,48.89343154807386,0 12.69595301311224,48.89699772471397,0 12.6902685157485,48.90062368600221,0 12.68527629044959,48.9026613937666,0 12.67927129880507,48.9040082198227,0 12.66960864803024,48.90501575827938,0 12.66320197475932,48.90686663027894,0 12.65798165355561,48.90817054152834,0 12.65253959404334,48.90834988560381,0 12.64826867346686,48.90704644305754,0 12.64398245570634,48.90469638784085,0 12.63915229036235,48.90607705664257,0 12.63576404762031,48.90793712570434,0 12.63213126815555,48.90886921331573,0 12.62841164719103,48.90872043346808,0 12.62452418186716,48.90704190245226,0 12.6231569583495,48.90462765524848,0 12.62234551018794,48.90222365651767,0 12.62039956301244,48.89902712980624,0 12.6169050985592,48.8973999285886,0 12.61347648422999,48.8972296981085,0 12.61003255432543,48.89861503679127,0 12.60287999819594,48.9016057616543,0 12.59951707408665,48.9024524252891,0 12.59534568631495,48.9023980181891,0 12.59290178863846,48.90132516851844,0 12.59086629974455,48.89972141775281,0 12.58886987704795,48.89823163881542,0 12.58565860964058,48.89720828309488,0 12.57588802924457,48.89806363629436,0 12.56956774849251,48.89898877456579,0 12.56582809938483,48.89963289263954,0 12.55732828460077,48.89993730678808,0 12.53869023588321,48.90042208466613,0 12.52483021084592,48.90684115871302,0 12.51503393019287,48.91719088784527,0 12.50939677913406,48.9299206915691,0 12.51051189145483,48.93364149261581,0 12.5176527494464,48.93761744978493,0 12.5231819465158,48.9418498967765,0 12.52156683807677,48.94449099232671,0 12.51744092640038,48.94642222677155,0 12.5052655900289,48.9469362673642,0 12.49880922987689,48.95074611898028,0 12.49660037209317,48.95692692815545,0 12.48882866412438,48.96025253382195,0 12.48313592137418,48.95894229638034,0 12.47800293548924,48.95310496579854,0 12.47159308625949,48.95209921290117,0 12.46764213613051,48.95457834930265,0 12.46827229425411,48.95873168124145,0 12.46852914644387,48.96109156783046,0 12.46753427340989,48.96401160004818,0 12.46534938405871,48.96618427694759,0 12.46220701184723,48.96728115855306,0 12.44543225908166,48.96756594819155,0 12.43453490206217,48.97232831875112,0 12.42961634101975,48.97406036323097,0 12.41895230721067,48.97722283109656,0 12.41333421153487,48.97931141653139,0 12.40916229934187,48.9817272210973,0 12.40521831617313,48.98228799562428,0 12.38378945759636,48.9797805186973,0 12.38062255527892,48.97809700406209,0 12.37849437481018,48.97477717299881,0 12.37565985287951,48.97223934422153,0 12.37179513182773,48.97108802366361,0 12.36641769636032,48.97203412053129,0 12.36088261594527,48.97499301556783,0 12.35330625225577,48.976071263396,0 12.34124775645215,48.97567021737161,0 12.32871505809347,48.98018682943392,0 12.32626721658859,48.98431888237863,0 12.34228578006341,48.99041067743426,0 12.34426072110814,48.99657476867026,0 12.34027760214925,49.00173170426357,0 12.32267444239418,49.01127218018406,0 12.31332312913224,49.01389900875037,0 12.2941235687033,49.01538870353392,0 12.26686561864117,49.01005455933361,0 12.25635702293961,49.01977054075596,0 12.23207164428928,49.02585706212219,0 12.21640644925217,49.02841157414375,0 12.20617615378816,49.02265441152585,0 12.20182029796547,49.02121657871068,0 12.19720525031302,49.01501978244147,0 12.1950963866772,49.01066906780765,0 12.18117212088183,49.00957033064202,0 12.17374045458296,49.01322092927803,0 12.1652693075223,49.01601367147332,0 12.1587364196421,49.01649175033597,0 12.14301873154989,49.02270870498597,0 12.13725201641559,49.02324691887434,0 12.12894611207736,49.02210214324045,0 12.12038542540597,49.02036559977422,0 12.11456991905643,49.01945430858213,0 12.10760544186888,49.02010437884943,0 12.09098649890947,49.02229014269329,0 12.08347700285476,49.02360347503318,0 12.07588152411959,49.02826389283874,0 12.07308991172742,49.03006643395948,0 12.06277805981758,49.03148677379709,0 12.0535525990821,49.02929878488379,0 12.04536965722278,49.02552924760466,0 12.03200479774187,49.01596818971824,0 12.02876440240214,49.01297748018636,0 12.02801238415906,49.00973160391639,0 12.03104857967826,49.00647514280003,0 12.04009375567344,48.99950172818641,0 12.0441617608271,48.99369800173174,0 12.04576414994879,48.99138582238023,0 12.04583121466505,48.98865987264112,0 12.04398998284536,48.98555641711382,0 12.04035454795537,48.98108116453033,0 12.0323477982839,48.97375535494355,0 12.02718227130988,48.9711916076856,0 12.01979133100482,48.96890339953111,0 12.00983961980516,48.96746581386357,0 12.00120518396204,48.96533854472148,0 11.99438251144332,48.96278963578035,0 11.98961521792986,48.95939119004323,0 11.98788293283466,48.95655755159317,0 11.98739276178257,48.95452339217553,0 11.98883634053209,48.9518693852214,0 11.99381710704022,48.95025099976277,0 12.0003908561346,48.9501577274546,0 12.00439682715556,48.94954001825312,0 12.00955055051251,48.94796520895585,0 12.01543222618158,48.94545710665169,0 12.01943935439743,48.94414532918168,0 12.02285585735713,48.94221342565255,0 12.02480281695203,48.93984148195695,0 12.02569767717056,48.93808707407487,0 12.02603612199408,48.93577407402552,0 12.02534984027721,48.93376319580867,0 12.02337445867242,48.93127250606994,0 12.02063188445263,48.92945797753578,0 12.01571440412313,48.92804713806786,0 12.01103243086754,48.92778172967961,0 12.00408908534111,48.92951287336484,0 11.99412389335737,48.93106029050946,0 11.98505019526842,48.92822635504032,0 11.97443174483503,48.92296144523798,0 11.97088500901307,48.91876991461292,0 11.96976484554347,48.91566596549936,0 11.97013418995079,48.91278027908297,0 11.96958283446992,48.91016716976738,0 11.96622366439732,48.90722220238238,0 11.96337052654524,48.90588519354846,0 11.95772764352803,48.90455737747615,0 11.95366121671771,48.90447036706048,0 11.94611940485421,48.90606802650731,0 11.94068626984408,48.90870269873517,0 11.93471979605782,48.91073399930303,0 11.93017490006801,48.91154136520731,0 11.90950224701316,48.91041102994158,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
