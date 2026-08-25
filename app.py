@@ -37,7 +37,7 @@ CATEGORY_COLORS = {
     "Crude Terminals (import / export)": "#d32f2f",
     "Ports & Logistics Hubs": "#1976d2",
     # D. Storage & Pricing
-    "Product Storage & Depots": "#880e4f",
+    "Storage & Depots": "#880e4f",
     "Pricing Hubs": "#f9a825",
     # E. Demand & Constraints
     "Petrochemical Plants": "#000000",
@@ -58,6 +58,7 @@ ROUTE_COLORS = {
     "Product Pipelines": "#fdd835",
     "Maritime Routes": "#2dc0fb",
     "Inland Waterways": "#00897b",
+    "Pricing Hubs": "#c9a227",   # gold rings — market zones, not physical routes
 }
 DEFAULT_ROUTE_COLOR = "#2dc0fb"
 CASING_COLOR = "#37474f"
@@ -70,6 +71,45 @@ STAGE_LABELS = {
     "E. Demand & Constraints": "E · Demand & Constraints",
 }
 STAGE_ORDER = list(STAGE_LABELS.keys())
+
+# Short explanations shown behind the ❓ icon of each stage.
+STAGE_HELP = {
+    "A. Production": (
+        "**What it shows:** where oil physically enters the system.\n\n"
+        "**Contains:** onshore and offshore oil fields, mega- and standard refineries, "
+        "renewable-fuel units.\n\n"
+        "**Why it matters:** production geography sets which crude grades exist and where; "
+        "refinery locations decide which crudes are demanded — and which products flow out."
+    ),
+    "B. Gateways": (
+        "**What it shows:** where oil changes mode between land and sea.\n\n"
+        "**Contains:** crude export/import terminals (incl. offshore SPM buoys), ports and "
+        "logistics hubs, ship-to-ship transfer zones.\n\n"
+        "**Why it matters:** gateways are where disruptions bite — a closed terminal strands "
+        "production upstream and reroutes trade downstream."
+    ),
+    "C. Corridors": (
+        "**What it shows:** how oil moves between the nodes.\n\n"
+        "**Contains:** crude and product pipelines, maritime routes with grade fact sheets "
+        "(API, sulphur, pricing, transit times), inland waterways and their reference gauges.\n\n"
+        "**Why it matters:** freight and transit costs set regional price spreads — most of the "
+        "2026 stories on this map are corridor stories (Hormuz, Druzhba, the Rhine at Kaub)."
+    ),
+    "D. Storage & Pricing": (
+        "**What it shows:** where oil waits — and where its price is formed.\n\n"
+        "**Contains:** commercial depots, inland tank farms, strategic reserves, and the "
+        "locations of pricing benchmarks (delivery points such as ARA or Cushing).\n\n"
+        "**Why it matters:** storage depth decides how long a disruption can be absorbed; "
+        "pricing hubs are where paper markets touch physical barrels."
+    ),
+    "E. Demand & Constraints": (
+        "**What it shows:** where oil is consumed at scale — and where flows constrict.\n\n"
+        "**Contains:** standalone petrochemical plants (naphtha/LPG demand), airport jet-fuel "
+        "demand nodes, and maritime chokepoints.\n\n"
+        "**Why it matters:** demand anchors explain why the corridors exist; chokepoints "
+        "explain what happens when they fail."
+    ),
+}
 
 STATUS_VALUES = ["Operational", "Reduced", "Offline", "Planned", "Converting"]
 
@@ -109,7 +149,7 @@ GLYPHS = {
     "Crude Terminals (import / export)":
         "<rect x='5' y='7' width='14' height='11' rx='1.5' fill='{c}'/>"
         "<ellipse cx='12' cy='7' rx='7' ry='2.6' fill='{c}' stroke='white' stroke-width='0.9'/>",
-    "Product Storage & Depots":
+    "Storage & Depots":
         "<rect x='5' y='7' width='14' height='11' rx='1.5' fill='{c}'/>"
         "<ellipse cx='12' cy='7' rx='7' ry='2.6' fill='{c}' stroke='white' stroke-width='0.9'/>"
         "<path d='M8 13h8' stroke='white' stroke-width='1.6' stroke-linecap='round'/>",
@@ -302,11 +342,57 @@ def subsections_of(cat):
             subs.append(it["subsection"])
     return subs
 
+def _all_layers_on():
+    """True when every non-empty section is currently enabled."""
+    cats = [c for c in data["categories"]
+            if any(it["category"] == c for it in all_items)]
+    # unset keys mean the checkbox default (enabled) is in force
+    return all(st.session_state.get(f"cat_{c}", True) for c in cats)
+
+def _toggle_everything():
+    turn_on = not _all_layers_on()
+    for cat in data["categories"]:
+        st.session_state[f"cat_{cat}"] = turn_on
+        if turn_on:
+            for s in subsections_of(cat):
+                st.session_state[f"sub_{cat}_{s}"] = True
+    if turn_on:
+        st.session_state["status_pick"] = list(STATUS_VALUES)
+        st.session_state["renew_only"] = False
+
+_toggle_label = "🚫 Disable all layers" if _all_layers_on() else "🌐 Enable all layers"
+st.sidebar.button(
+    _toggle_label,
+    on_click=_toggle_everything,
+    use_container_width=True,
+    help="One switch for the whole map: turns every layer off for a clean start, "
+         "or everything back on (sections, sub-sections, statuses) for the full picture. "
+         "The label follows the current state.",
+)
+
+def _stage_header(stage):
+    """Stage title with a ❓ explanation (popover if available, tooltip otherwise)."""
+    help_text = STAGE_HELP.get(stage, "")
+    cols = st.sidebar.columns([0.82, 0.18])
+    with cols[0]:
+        st.subheader(STAGE_LABELS.get(stage, stage))
+    with cols[1]:
+        if help_text:
+            if hasattr(st, "popover"):
+                with st.popover("❓"):
+                    st.markdown(help_text)
+            else:  # older Streamlit: hover tooltip on an inert icon
+                st.markdown(
+                    f"<span title=\"{help_text.replace(chr(34), chr(39))}\" "
+                    f"style='cursor:help;font-size:15px'>❓</span>",
+                    unsafe_allow_html=True,
+                )
+
 for stage in STAGE_ORDER:
     cats_in_stage = [c for c in data["categories"] if data["stages"].get(c) == stage]
     if not cats_in_stage:
         continue
-    st.sidebar.subheader(STAGE_LABELS[stage])
+    _stage_header(stage)
     for cat in cats_in_stage:
         n_pts = sum(1 for p in data["points"] if p["category"] == cat)
         n_lns = sum(1 for l in data["lines"] if l["category"] == cat)
@@ -314,7 +400,7 @@ for stage in STAGE_ORDER:
         cols = st.sidebar.columns([0.13, 0.87])
         with cols[0]:
             if is_route:
-                st.markdown(line_swatch(ROUTE_COLORS[cat], casing=("Pipelines" in cat)), unsafe_allow_html=True)
+                st.markdown(line_swatch(ROUTE_COLORS[cat], dashed=(cat == "Pricing Hubs"), casing=("Pipelines" in cat)), unsafe_allow_html=True)
             else:
                 st.markdown(category_icon_svg(cat, "", 18), unsafe_allow_html=True)
         with cols[1]:
@@ -338,8 +424,8 @@ for stage in STAGE_ORDER:
 
 st.sidebar.divider()
 st.sidebar.subheader("Filters")
-status_pick = st.sidebar.multiselect("Status", STATUS_VALUES, default=STATUS_VALUES)
-renew_only = st.sidebar.checkbox("Only refineries with renewables", value=False)
+status_pick = st.sidebar.multiselect("Status", STATUS_VALUES, default=STATUS_VALUES, key="status_pick")
+renew_only = st.sidebar.checkbox("Only refineries with renewables", value=False, key="renew_only")
 search = st.sidebar.text_input("Search a location by name")
 
 def keep(it):
@@ -382,11 +468,12 @@ for cat in route_categories:
     base_color = ROUTE_COLORS.get(cat, DEFAULT_ROUTE_COLOR)
     is_pipeline = "Pipelines" in cat
     is_waterway = cat == "Inland Waterways"
+    is_hub = cat == "Pricing Hubs"
     group = folium.FeatureGroup(name=cat, show=True)
     for line in (l for l in data["lines"] if l["category"] == cat and keep(l)):
         name = line["name"]
         status = line["status"].lower()
-        dash = "8, 8" if status.startswith("off") else ("2, 6" if status.startswith("plan") else None)
+        dash = "8, 8" if status.startswith("off") else ("2, 6" if status.startswith("plan") else ("5, 9" if is_hub else None))
         opacity = 0.55 if status.startswith("red") else (0.85 if is_waterway else 0.95)
         tooltip_text = name + (f" — {line['status']}" if line["status"] != "Operational" else "")
         geojson = {"type": "Feature", "properties": {},
@@ -394,7 +481,7 @@ for cat in route_categories:
         if is_pipeline and not dash:
             folium.GeoJson(geojson, style_function=lambda _f: {"color": CASING_COLOR, "weight": 6, "opacity": 0.55},
                            control=False).add_to(group)
-        style = {"color": base_color, "weight": 4.2 if is_waterway else 3.2, "opacity": opacity}
+        style = {"color": base_color, "weight": 2.6 if is_hub else (4.2 if is_waterway else 3.2), "opacity": opacity}
         if dash:
             style["dashArray"] = dash
         gj = folium.GeoJson(geojson, style_function=lambda _f, s=dict(style): s,
