@@ -4,6 +4,7 @@ import re
 
 import streamlit as st
 import folium
+from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
 
 from kml_parser import parse_kml, get_field
@@ -112,6 +113,23 @@ STAGE_HELP = {
 }
 
 STATUS_VALUES = ["Operational", "Reduced", "Offline", "Planned", "Converting"]
+
+REGION_CHOICES = ["World", "Europe & Black Sea", "Middle East & North Africa",
+                  "Africa & Indian Ocean", "Americas", "Asia-Pacific"]
+
+def region_of(lat, lon):
+    """Approximate market region from coordinates (bounding boxes, checked in order)."""
+    if lon < -30:
+        return "Americas"
+    if (lat >= 44 and -25 <= lon <= 60) or (lat >= 35.5 and -10 <= lon <= 19) \
+            or (lat >= 38 and 19 < lon <= 29.5):
+        return "Europe & Black Sea"
+    if 10 <= lat <= 44 and -10 <= lon <= 62:
+        return "Middle East & North Africa"
+    if lat <= 12 and -20 <= lon <= 60:
+        return "Africa & Indian Ocean"
+    return "Asia-Pacific"
+
 
 
 def normalize_status(raw):
@@ -370,6 +388,19 @@ st.sidebar.button(
          "The label follows the current state.",
 )
 
+region_pick = st.sidebar.selectbox(
+    "🌍 Region", REGION_CHOICES, key="region_pick",
+    help="Isolate one market region. Boundaries are approximate trading-region "
+         "buckets (e.g. Türkiye's Mediterranean coast counts as Middle East & North "
+         "Africa, the Black Sea as Europe). The map zooms to the selected region.",
+)
+cluster_on = st.sidebar.checkbox(
+    "🔬 Group nearby assets", value=True, key="cluster_on",
+    help="Collapses dense clusters (ARA, the Gulf, Sicily…) into numbered bubbles "
+         "at low zoom — zoom in or click a bubble to expand it. Turn off to always "
+         "see every individual marker.",
+)
+
 def _stage_header(stage):
     """Stage title with a ❓ explanation (popover if available, tooltip otherwise)."""
     help_text = STAGE_HELP.get(stage, "")
@@ -429,6 +460,13 @@ renew_only = st.sidebar.checkbox("Only refineries with renewables", value=False,
 search = st.sidebar.text_input("Search a location by name")
 
 def keep(it):
+    if region_pick != "World":
+        if "lat" in it:
+            if region_of(it["lat"], it["lon"]) != region_pick:
+                return False
+        else:  # line: keep if any vertex falls in the region
+            if not any(region_of(la, lo) == region_pick for (la, lo) in it["coords"]):
+                return False
     if it["category"] in selected_subsections and it["subsection"] and it["subsection"] not in selected_subsections[it["category"]]:
         return False
     if it["status"] not in status_pick:
@@ -449,10 +487,24 @@ m = folium.Map(location=[30, 15], zoom_start=3, min_zoom=2, max_bounds=True, til
 folium.TileLayer("cartodbpositron", no_wrap=True, control=False).add_to(m)
 m.get_root().html.add_child(folium.Element("<style>.svg-marker{background:transparent;border:none;}</style>"))
 
+if region_pick != "World":
+    _pts = [(p["lat"], p["lon"]) for p in filtered_points]
+    for l in data["lines"]:
+        if route_visibility.get(l["category"], True) and keep(l):
+            _pts.extend(l["coords"])
+    if _pts:
+        _lats = [a for a, _ in _pts]; _lons = [b for _, b in _pts]
+        m.fit_bounds([[min(_lats), min(_lons)], [max(_lats), max(_lons)]], padding=(30, 30))
+
 for cat in point_categories:
     if cat not in selected_categories:
         continue
-    group = folium.FeatureGroup(name=cat, show=True)
+    if cluster_on:
+        group = MarkerCluster(name=cat, options={
+            "disableClusteringAtZoom": 7, "maxClusterRadius": 45,
+            "showCoverageOnHover": False, "spiderfyOnMaxZoom": True})
+    else:
+        group = folium.FeatureGroup(name=cat, show=True)
     for p in (x for x in filtered_points if x["category"] == cat):
         folium.Marker(
             location=[p["lat"], p["lon"]],
