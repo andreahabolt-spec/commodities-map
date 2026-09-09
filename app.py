@@ -276,7 +276,7 @@ DESCRIPTION_LABELS = [
     "Integration", "Asset type", "Renewables", "Feedstocks", "Feedstock", "Logistics", "Operator", "Capacity",
     "Location", "Refinery", "Terminal", "Facility", "Markets", "Sulphur", "Used for", "Vessels", "Pricing",
     "Transit", "Handles", "Process", "Country", "Region", "Origin", "Sulfur", "Status", "Source", "Output",
-    "Recent", "Crude", "Owner", "Input", "Risks", "Route", "Site", "Role", "Type", "Hub", "API",
+    "Recent", "Crude", "Owner", "Input", "Risks", "Route", "Site", "Role", "Type", "Hub", "API", "Recent news",
 ]
 _LABEL_RE = re.compile(r"\s*(?<![A-Za-z])(" + "|".join(re.escape(l) for l in DESCRIPTION_LABELS) + r")\s*:")
 
@@ -484,7 +484,7 @@ st.sidebar.markdown(f"**{len(filtered_points)}** markers shown out of {len(data[
 # MAP
 # ---------------------------------------------------------------------------
 m = folium.Map(location=[30, 15], zoom_start=3, min_zoom=2, max_bounds=True, tiles=None)
-folium.TileLayer("cartodbpositron", no_wrap=True, control=False).add_to(m)
+folium.TileLayer(tiles="OpenStreetMap",name="OpenStreetMap",no_wrap=True,control=False).add_to(m)
 m.get_root().html.add_child(folium.Element("<style>.svg-marker{background:transparent;border:none;}</style>"))
 
 if region_pick != "World":
