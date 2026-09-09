@@ -392,6 +392,16 @@
 			<styleUrl>#hub0</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -435,21 +445,51 @@
 	<StyleMap id="msn_R">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R</styleUrl>
+			<styleUrl>#sn_R2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_R2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R3">
+	<StyleMap id="msn_R4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R2</styleUrl>
+			<styleUrl>#sn_R</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_R</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_R0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_R00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_R1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R100</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_R2">
@@ -462,24 +502,14 @@
 			<styleUrl>#sh_R0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_R0">
+	<StyleMap id="msn_R3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_R0</styleUrl>
+			<styleUrl>#sn_R20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_R1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_R1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_R00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_R10</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_airports">
@@ -545,6 +575,16 @@
 	<StyleMap id="msn_ferry0">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#sn_ferry1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ferry0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ferry00">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#sn_ferry3</styleUrl>
 		</Pair>
 		<Pair>
@@ -569,7 +609,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ferry0</styleUrl>
+			<styleUrl>#sh_ferry01</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_firedept">
@@ -610,46 +650,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_icon?color=000000&amp;id=2000&amp;scale=41</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=401">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4010">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4010</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=410">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=41</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=42</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=42">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=402</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=44000">
@@ -722,17 +722,27 @@
 			<styleUrl>#sh_ranger_station</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle4">
+	<StyleMap id="msn_red-circle6">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle4</styleUrl>
+			<styleUrl>#sn_red-circle12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle0</styleUrl>
+			<styleUrl>#sh_red-circle7</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_red-circle8</styleUrl>
@@ -742,7 +752,17 @@
 			<styleUrl>#sh_red-circle2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle0">
+	<StyleMap id="msn_red-circle1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle02">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_red-circle</styleUrl>
@@ -782,20 +802,20 @@
 			<styleUrl>#sh_red-circle100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle1">
+	<StyleMap id="msn_red-circle12">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_red-circle11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
+			<styleUrl>#sh_red-circle0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle00</styleUrl>
+			<styleUrl>#sn_red-circle000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -815,7 +835,7 @@
 	<StyleMap id="msn_red-circle11">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle0</styleUrl>
+			<styleUrl>#sn_red-circle00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -842,10 +862,20 @@
 			<styleUrl>#sh_red-circle30</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_red-circle4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle03</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_red-circle40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle2</styleUrl>
+			<styleUrl>#sn_red-circle20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -859,7 +889,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle6</styleUrl>
+			<styleUrl>#sh_red-circle60</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-circle5">
@@ -882,7 +912,7 @@
 			<styleUrl>#sh_red-circle10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-circle6">
+	<StyleMap id="msn_red-circle60">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_red-circle70</styleUrl>
@@ -962,16 +992,6 @@
 			<styleUrl>#sh_target10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_volcano4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_volcano2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_volcano</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_volcano">
 		<Pair>
 			<key>normal</key>
@@ -980,16 +1000,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_volcano3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_volcano3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_volcano3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_volcano2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano0">
@@ -1022,6 +1032,16 @@
 			<styleUrl>#sh_volcano30</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_volcano3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_volcano30">
 		<Pair>
 			<key>normal</key>
@@ -1030,6 +1050,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_volcano00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_volcano4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin">
@@ -1042,16 +1072,6 @@
 			<styleUrl>#sh_ylw-pushpin2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin01">
 		<Pair>
 			<key>normal</key>
@@ -1060,16 +1080,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="op1">
@@ -1170,6 +1180,17 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1214,6 +1235,17 @@
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
 		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl0">
@@ -1292,7 +1324,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_R2">
+	<Style id="sh_R3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1323,6 +1355,34 @@
 		</ListStyle>
 	</Style>
 	<Style id="sh_R10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_R100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_R2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1388,7 +1448,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ferry">
+	<Style id="sh_ferry0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1397,7 +1457,18 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ferry0">
+	<Style id="sh_ferry">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ferry01">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1456,70 +1527,6 @@
 				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=401">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4010">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=410">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=42">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
 	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4201">
 		<IconStyle>
@@ -1591,20 +1598,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-circle">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_red-circle0">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1613,15 +1606,13 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle1">
+	<Style id="sh_red-circle">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1637,7 +1628,39 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle02">
+	<Style id="sh_red-circle6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle03">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1693,7 +1716,21 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-circle11">
+	<Style id="sh_red-circle02">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1722,6 +1759,20 @@
 		</ListStyle>
 	</Style>
 	<Style id="sh_red-circle100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle11">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1856,7 +1907,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-circle6">
+	<Style id="sh_red-circle60">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1906,19 +1957,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_volcano3">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sh_volcano">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -1927,10 +1965,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_volcano0">
 		<IconStyle>
@@ -1968,6 +2002,15 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_volcano3">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_volcano30">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -1990,31 +2033,6 @@
 			<width>2.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffc80154</color>
-		</LineStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2026,6 +2044,22 @@
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_R0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -2045,7 +2079,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_R0">
+	<Style id="sn_R2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2059,7 +2093,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_R2">
+	<Style id="sn_R01">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2067,8 +2101,6 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
@@ -2090,6 +2122,20 @@
 		</ListStyle>
 	</Style>
 	<Style id="sn_R1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_R20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2158,6 +2204,15 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_ferry1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_ferry">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -2166,6 +2221,8 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 	</Style>
 	<Style id="sn_ferry0">
 		<IconStyle>
@@ -2225,78 +2282,6 @@
 				<href>https://earth.google.com/earth/document/icon?color=000000&amp;id=2000&amp;scale=4</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4010">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40100">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=402">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=41">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
 	</Style>
 	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=43000">
 		<IconStyle>
@@ -2371,53 +2356,55 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-circle">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2432,6 +2419,20 @@
 		</ListStyle>
 	</Style>
 	<Style id="sn_red-circle00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle000">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2496,7 +2497,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_red-circle2">
+	<Style id="sn_red-circle20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2538,7 +2539,35 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sn_red-circle4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_red-circle40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle5">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2686,28 +2715,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_volcano1">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_volcano2">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sn_volcano">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -2716,10 +2723,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_volcano0">
 		<IconStyle>
@@ -2730,7 +2733,25 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_volcano1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_volcano10">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_volcano2">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -2770,18 +2791,6 @@
 			<width>2.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffc80154</color>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2796,152 +2805,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style100">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style111">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style150">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style160">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style170">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style180">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style190">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style200">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style24">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style40">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style50">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style90">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="stylemap_id020">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style90</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style50</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id210">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style170</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style180</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id220">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style150</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style160</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id240">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style190</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id25">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style24</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style111</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="terminal2">
+	<Style id="terminal">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -2949,12 +2813,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="terminal">
+	<Style id="terminal0">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
 			</Icon>
@@ -2969,28 +2831,7 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="terminal0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="terminal10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#terminal0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#terminal</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="terminal1">
 		<Pair>
 			<key>normal</key>
@@ -3001,6 +2842,25 @@
 			<styleUrl>#terminal2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="terminal10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#terminal0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#terminal</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="terminal2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="ww">
 		<LineStyle>
 			<color>e6ff0000</color>
@@ -5426,8 +5286,7 @@ Strategic role: One of China’s largest and most deeply integrated private refi
 
 Recent: The refinery continued operating after its owner was sanctioned by the United States in April 2026 over alleged Iranian crude transactions, which Hengli denies.
 
-Risks: International sanctions and compliance exposure, dependence on seaborne crude and cyclical petrochemical margins.
-</description>
+Risks: International sanctions and compliance exposure, dependence on seaborne crude and cyclical petrochemical margins.</description>
 					<LookAt>
 						<longitude>121.2517184579307</longitude>
 						<latitude>39.5512376754663</latitude>
@@ -5524,7 +5383,7 @@ Capacity: ~187,000 b/d NAMEPLATE; a deep-conversion upgrade project (with Chines
 Crude grades: Monagas light/medium via the Furrial line
 Role &amp; connections: Eastern domestic supply plus the terminal complex next door
 Source: EIA nameplate; industry reporting</description>
-					<styleUrl>#msn_R0</styleUrl>
+					<styleUrl>#msn_R00</styleUrl>
 					<Point>
 						<coordinates>-64.61817693778593,10.21608267706491,0</coordinates>
 					</Point>
@@ -7329,8 +7188,7 @@ Connectivity: Integrated with the Dayaowan–Xingang oil-terminal system, adjace
 
 Strategic role: Dalian’s principal operating state-controlled refinery and an important alternative processing outlet following the shutdown of the old Dalian Petrochemical refinery.
 
-Risks: Dependence on imported crude, exposure to maritime disruption and competition from newer, more deeply integrated refineries.
-</description>
+Risks: Dependence on imported crude, exposure to maritime disruption and competition from newer, more deeply integrated refineries.</description>
 					<LookAt>
 						<longitude>121.8433124869904</longitude>
 						<latitude>38.98185783461963</latitude>
@@ -7344,6 +7202,58 @@ Risks: Dependence on imported crude, exposure to maritime disruption and competi
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.8435939151084,38.98517340320976,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VTTI Fujairah Integrated Refinery &amp; Storage Complex</name>
+					<description>Status: Operational
+Owner/Operator: VTTI; integrated with the Fujairah refinery and associated crude-processing operations
+Role: Combined refining, crude processing, commercial storage, blending and marine-fuel production complex
+Capacity: 1.943 million m³ of storage across 66 tanks; 100,000-b/d refinery and 80,000-b/d crude-processing units
+Products: Crude, gasoline, naphtha, jet fuel, kerosene, gasoil, diesel, fuel oil, VGO, condensate and blending components
+Marine access: Eleven jetty connections through the Port of Fujairah; maximum listed draft 16.5 metres
+Strategic role: Converts imported crude and components into bunker fuels and other products while providing large captive and merchant storage inside the pricing hub
+Risks: Refinery-storage co-location; dependence on port pipelines and manifolds; refining-margin and bunker-demand exposure
+</description>
+					<LookAt>
+						<longitude>56.35627613606025</longitude>
+						<latitude>25.19566159782802</latitude>
+						<altitude>0</altitude>
+						<heading>0.0009471096954698721</heading>
+						<tilt>3.226522441099039</tilt>
+						<range>2973.444797491009</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35397484027382,25.19246220544491,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ecomar Energy Solutions Refinery</name>
+					<description>Status: Operational; expansion programme in development
+Owner/Operator: Ecomar Energy Solutions FZC
+Role: Modular crude-processing and petroleum-regeneration refinery with integrated product storage and marine/truck handling
+Current capacity: Approximately 20,000 b/d refining and 100,000 m³ storage
+Planned capacity: Up to 60,000 b/d refining and more than 800,000 m³ storage
+Products: Naphtha, kerosene, gasoil and fuel oil
+Strategic role: Adds flexible local conversion capacity to a hub otherwise dominated by storage, blending and bunker distribution
+Risks: Expansion execution; smaller scale than the principal Fujairah refining complex; dependence on imported feedstock and port access
+</description>
+					<LookAt>
+						<longitude>56.34546231398159</longitude>
+						<latitude>25.17953316592971</latitude>
+						<altitude>0</altitude>
+						<heading>0.0005947558276579529</heading>
+						<tilt>15.7370249623392</tilt>
+						<range>1134.669558350897</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.34430150823939,25.18011201380084,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -7389,7 +7299,7 @@ Operator: PDVSA (Bajo Grande serving the Boscán JV exports)
 Role &amp; connections: Boscán asphalt-crude exports and residual lake-field flows; constrained by channel dredging, decayed berths and the lake&apos;s chronic pollution
 Crude grades: Boscán 10.5°, heavy lake crudes
 Source: Industry reporting; status assessment</description>
-					<styleUrl>#msn_red-circle1</styleUrl>
+					<styleUrl>#msn_red-circle12</styleUrl>
 					<Point>
 						<coordinates>-71.45420931710814,10.38328428466071,0</coordinates>
 					</Point>
@@ -7403,7 +7313,7 @@ Berths / vessel size: Deep-water berths and moorings up to VLCC-scale crude deli
 Connectivity: Pipeline-linked into the three-site ISAB complex and its tank farms
 Strategic role: The heavy-lift entrance of Italy&apos;s largest refinery — the point where a fifth of the country&apos;s crude intake touches land
 Risks: Single-terminal dependence for ISAB&apos;s largest deliveries; exposed-bay weather; spill sensitivity on a tourist coast</description>
-					<styleUrl>#msn_red-circle</styleUrl>
+					<styleUrl>#msn_red-circle0</styleUrl>
 					<Point>
 						<coordinates>15.25793616711022,37.10856487298696,0</coordinates>
 					</Point>
@@ -8407,8 +8317,7 @@ Storage capacity: ~2.96 million m³ across 81 tanks — 1.864 million m³ operat
 Berths / vessel size: Three 5,000-tonne coastal berths; larger crude cargoes are received through connected deep-water terminals
 Recent news:  Under court-supervised restructuring
 Connectivity: Integrated with the Mamu–Waidiao and Cezi–Mamu pipeline network
-Strategic role: Major storage buffer between Zhoushan’s crude-import terminals, regional pipelines and downstream consumers
-</description>
+Strategic role: Major storage buffer between Zhoushan’s crude-import terminals, regional pipelines and downstream consumers</description>
 					<LookAt>
 						<longitude>121.9653093354213</longitude>
 						<latitude>30.13305461611829</latitude>
@@ -8433,8 +8342,7 @@ Storage capacity: ~3.0 million m³; approved expansion adds 705,000 m³ through 
 Throughput: ~16 million tonnes/year existing design capacity; expansion intended to add ~5 million tonnes/year
 Connectivity: Pipeline-linked to the Cezi Island crude terminal system and ZPC’s Yushan refinery
 Recent news: Expansion approved in 2026
-Strategic role: Critical feedstock buffer protecting one of China’s largest refining complexes against tanker schedules and import-supply disruptions
-</description>
+Strategic role: Critical feedstock buffer protecting one of China’s largest refining complexes against tanker schedules and import-supply disruptions</description>
 					<LookAt>
 						<longitude>121.975351205277</longitude>
 						<latitude>30.11729189873984</latitude>
@@ -8491,8 +8399,7 @@ Connectivity: Pipeline connections serve Dalian-area refineries and the wider No
 
 Strategic role: Dalian’s principal VLCC crude gateway and one of the most important oil-import and distribution nodes serving Northeast China.
 
-Risks: Concentration of large storage volumes and marine-transfer operations; the area has experienced major pipeline, fire and oil-spill incidents.
-</description>
+Risks: Concentration of large storage volumes and marine-transfer operations; the area has experienced major pipeline, fire and oil-spill incidents.</description>
 					<LookAt>
 						<longitude>121.8914624451959</longitude>
 						<latitude>38.97155301542263</latitude>
@@ -8502,7 +8409,7 @@ Risks: Concentration of large storage volumes and marine-transfer operations; th
 						<range>5076.564514729941</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle02</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9051305165223,38.96812517255272,0</coordinates>
@@ -8524,8 +8431,7 @@ Connectivity: Pipeline connections serve Changxing Island’s refinery and petro
 
 Strategic role: Northeast China’s largest concentrated public bonded crude-storage installations and an important second VLCC gateway within Dalian.
 
-Risks: Dependence on imported crude, exposure to shipping-channel disruption and concentration of terminal and storage operations.
-</description>
+Risks: Dependence on imported crude, exposure to shipping-channel disruption and concentration of terminal and storage operations.</description>
 					<LookAt>
 						<longitude>121.3402666229586</longitude>
 						<latitude>39.58457729235002</latitude>
@@ -8535,7 +8441,7 @@ Risks: Dependence on imported crude, exposure to shipping-channel disruption and
 						<range>11203.18694116811</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle02</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.3164603517722,39.5800652176806,0</coordinates>
@@ -8555,8 +8461,7 @@ Connectivity: Direct pipelines link the terminal with Hengli’s crude tanks, re
 
 Strategic role: Gives Hengli direct control of its maritime supply chain, reducing dependence on third-party terminals and supporting continuous operation of its 400,000-bpd refinery.
 
-Risks: A disruption at the captive terminal would immediately affect refinery crude supply; international sanctions may also restrict tanker, insurance and trading counterparties.
-</description>
+Risks: A disruption at the captive terminal would immediately affect refinery crude supply; international sanctions may also restrict tanker, insurance and trading counterparties.</description>
 					<LookAt>
 						<longitude>121.2677157794549</longitude>
 						<latitude>39.56474424634963</latitude>
@@ -8566,10 +8471,114 @@ Risks: A disruption at the captive terminal would immediately affect refinery cr
 						<range>6281.741345973648</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle02</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.2707338542033,39.5690941459487,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Vopak Horizon Fujairah</name>
+					<description>Status: Operational
+Owner/Operator: Joint venture of Royal Vopak, Horizon Terminals, the Government of Fujairah and Independent Petroleum Group
+Role: Large independent open-access storage, blending and cargo-consolidation terminal for crude oil and refined products
+Capacity: Approximately 2.6 million m³; tanks ranging from 6,000 to 100,000 m³
+Products: Crude, condensate, gasoline components, naphtha, jet fuel, gasoil, fuel oil and other petroleum products
+Marine access: Six berths plus SPM access; connected to the Port of Fujairah VLCC jetty and neighbouring terminals
+Strategic role: One of Fujairah’s principal merchant-storage facilities and an important physical link between crude trading, product blending and VLCC-scale movements
+Risks: Merchant-storage utilisation; port and manifold dependence; concentrated coastal exposure
+</description>
+					<LookAt>
+						<longitude>56.35861138454685</longitude>
+						<latitude>25.20383106859918</latitude>
+						<altitude>0</altitude>
+						<heading>0.001722086627464712</heading>
+						<tilt>7.337960290041309</tilt>
+						<range>3316.239105905522</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.3554614376213,25.20738236867208,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ADNOC Fujairah Crude Oil Terminal</name>
+					<description>Status: Operational; subject to intermittent security-related disruption in 2026
+Owner/Operator: ADNOC
+Role: Eastern terminus of the Habshan–Fujairah crude pipeline and export point for Murban crude on the Gulf of Oman
+Capacity: ADCOP transmission capacity up to 1.8 million b/d; offshore loading system includes three single-point moorings
+Connectivity: Habshan gathering system → ADCOP → Fujairah storage and offshore tanker-loading facilities
+Crude grades: Primarily Murban
+Strategic role: Enables a major share of UAE crude exports to bypass the Strait of Hormuz and supplies the physical delivery system supporting Fujairah’s Murban market
+Risks: Single-corridor dependence; concentration of export infrastructure; offshore-loading weather and security exposure
+</description>
+					<LookAt>
+						<longitude>56.3529213747158</longitude>
+						<latitude>25.19665443118498</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0005319368228080553</heading>
+						<tilt>1.489363586399604</tilt>
+						<range>2879.528933827699</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35511573614188,25.19558164779194,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Etihad Energy / BPGIC Fujairah Terminal</name>
+					<description>Status: Operational
+Owner/Operator: Etihad Energy Holding through BPGIC; formerly controlled by Brooge Energy
+Role: Independent crude and refined-products storage, blending and handling complex
+Capacity: Approximately 1.0 million m³ across 22 tanks — 399,324 m³ for refined products and 601,600 m³ for crude oil
+Services: Storage, heating, blending, additive injection and high-capacity cargo transfer
+Connectivity: Pipeline access to the Port of Fujairah oil-terminal system and its marine berths
+Strategic role: Large dual-service terminal linking Fujairah storage with Etihad Energy’s maritime and tanker operations
+Risks: Corporate-integration and expansion execution; port connectivity; coastal security and industrial-concentration exposure
+</description>
+					<LookAt>
+						<longitude>56.35456126482767</longitude>
+						<latitude>25.20358287331717</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002530495315486497</heading>
+						<tilt>6.149099877266876</tilt>
+						<range>1656.620757227781</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.3552324904653,25.20126644624276,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Fujairah Oil Terminal FZC</name>
+					<description>Status: Operational
+Owner/Operator: Fujairah Oil Terminal FZC; shareholder group includes the Government of Fujairah
+Role: Independent third-party storage and marine-handling terminal for crude and refined products
+Capacity: 1.177 million m³ across 36 tanks
+Products: Crude oil, fuel oil, gasoil, gasoline and related petroleum products
+Marine access: Loading and discharge of barges, product tankers and partially laden VLCCs through the Fujairah oil-terminal system
+Strategic role: Provides large-scale merchant capacity independent of the refinery operators, supporting cargo aggregation, trading and bunker-supply activity
+Risks: Commercial-storage utilisation; common-port connectivity; coastal industrial and security exposure
+</description>
+					<LookAt>
+						<longitude>56.35155114442615</longitude>
+						<latitude>25.18942064186296</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001468962244827251</heading>
+						<tilt>0</tilt>
+						<range>1430.21016467974</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.34872151498884,25.18854950195348,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -8955,7 +8964,7 @@ Operator: PDVSA
 Role &amp; connections: Crude and product berths serving the eastern system; secondary export point and import gate for the fuel the refineries fail to make
 Crude grades: Monagas crudes, products both ways
 Source: Industry data</description>
-					<styleUrl>#msn_ferry</styleUrl>
+					<styleUrl>#msn_ferry0</styleUrl>
 					<Point>
 						<coordinates>-64.62933741574903,10.24249621789956,0</coordinates>
 					</Point>
@@ -9159,30 +9168,6 @@ Role: Pakistan&apos;s historic import gate — KPT oil piers, crude berthing for
 					<styleUrl>#terminal10</styleUrl>
 					<Point>
 						<coordinates>66.97799999999999,24.812,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="0808FE82F43F33B507D9">
-					<name>Port of Fujairah – Oil Trading, Storage &amp; Bunkering Hub</name>
-					<description>Status: Operational</description>
-					<LookAt>
-						<longitude>56.3537745444428</longitude>
-						<latitude>25.18147027755067</latitude>
-						<altitude>7.004837274280868</altitude>
-						<heading>359.9999999998107</heading>
-						<tilt>0</tilt>
-						<gx:fovy>34.99999474679635</gx:fovy>
-						<range>18025.52978734486</range>
-						<altitudeMode>absolute</altitudeMode>
-					</LookAt>
-					<styleUrl>#terminal10</styleUrl>
-					<ExtendedData>
-						<SchemaData schemaUrl="#__managed_schema00">
-							<SimpleData name="1F8EAC76B33F33B507D9">0</SimpleData>
-						</SchemaData>
-					</ExtendedData>
-					<Point>
-						<extrude>1</extrude>
-						<coordinates>56.3527926838681,25.19976365584235,0.6583471024677223</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="0B2BEEDECD3F32C45703">
@@ -9836,6 +9821,55 @@ Risks: Urban-port constraints; concentration of national product imports at one 
 						<coordinates>11.87354800267882,57.68663640701111,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Dalian Oil Port </name>
+					<description>Status: Operational
+Owner/Operator: Liaoning Port Group / Liaoning Port Co.; individual terminals, storage sites and pipelines operated with PetroChina/CNPC and other companies
+Role: Northeast China’s principal seaborne oil gateway — receiving imported crude for refining, commercial and bonded storage, strategic reserves and regional redistribution
+Main facilities: Xingang deep-water crude berths capable of receiving VLCC and larger tankers, crude and product terminals, extensive tank farms, strategic-storage sites and pipeline, rail, road and coastal-shipping connections
+Connectivity: Supplies Dalian’s refining and storage cluster and connects maritime imports with the wider Liaoning, Jilin and Heilongjiang oil market; key grades include Russian ESPO and Middle Eastern crudes
+Strategic role: The main intake and buffering point between international tanker routes and Northeast China’s refining system — allowing crude to be stored, blended, redirected or released from strategic reserves according to market conditions
+Risks: Sanctions affecting Russian and Iranian crude flows; refinery closures or outages; pipeline and terminal accidents; oil spills; congestion and maritime disruption</description>
+					<LookAt>
+						<longitude>121.8911223214138</longitude>
+						<latitude>38.97207179166791</latitude>
+						<altitude>0</altitude>
+						<heading>0.03330698128018662</heading>
+						<tilt>0.1836860240805874</tilt>
+						<range>31649.23626658141</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>121.9309821764919,38.94762168454512,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Port of Fujairah</name>
+					<description>Status: Operational
+Owner/Operator: Fujairah Ports Authority — Fujairah Oil Tanker Terminals (FOTT)
+Role: Common marine interface connecting FOIZ storage terminals, refineries and processing plants with international crude, product and bunker markets
+Infrastructure: 9 main or 14 wing oil berths; 330,000-DWT VLCC jetty; bunker-barge berths; piggable pipelines; two matrix-manifold systems
+Connectivity: Directly connects participating FOIZ terminals to the oil berths and permits terminal-to-terminal transfers without chartering a vessel
+Strategic role: The UAE’s principal liquid-bulk gateway outside the Strait of Hormuz and the physical foundation of the Fujairah bunkering and pricing hub
+Risks: Concentration of tanks, pipelines and berths; Gulf of Oman security exposure; fire, spill and anchorage-congestion risk
+</description>
+					<LookAt>
+						<longitude>56.37326458878258</longitude>
+						<latitude>25.20211733732414</latitude>
+						<altitude>0</altitude>
+						<heading>-0.06204274663593989</heading>
+						<tilt>9.859498089864978</tilt>
+						<range>11420.18625713829</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ferry</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.37996470273544,25.19572237074478,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Inland ports</name>
@@ -9901,7 +9935,7 @@ Role: The Mediterranean&apos;s open-sea marketplace — ship-to-ship transfers, 
 Recent: The sanctions era made it a watchword — Russian-linked product transfers, blending and storage-afloat episodes drew enforcement attention; the third specimen of this map&apos;s STS family with Port Said and North Larak
 Strategic role: Where Mediterranean cargoes change hands, identities and destinations at anchor — the informal half of the pricing zone whose formal half is Augusta
 Risks: Jurisdictional grey zone by design; collision and spill exposure among anchored tankers; escalating scrutiny of exactly these waters</description>
-					<styleUrl>#msn_ferry0</styleUrl>
+					<styleUrl>#msn_ferry00</styleUrl>
 					<Point>
 						<coordinates>14.75,35.95,0</coordinates>
 					</Point>
@@ -9949,7 +9983,6 @@ Risks: Cargo origin becomes hard to trace (the point for some users, a complianc
 		<name>C. Corridors</name>
 		<Folder>
 			<name>Crude Pipelines</name>
-			<open>1</open>
 			<Folder>
 				<name>Trunk lines</name>
 				<open>1</open>
@@ -11129,400 +11162,6 @@ Risks: Single-system dependence for Rhine-Main jet fuel; 1991 Dinslaken rupture 
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>Maritime Routes</name>
-			<Folder>
-				<name>Crude-grade delivery routes</name>
-				<Placemark>
-					<name>Cold Lake Blend route</name>
-					<description>Status: Operational
-Crude: Cold Lake Blend
-API: ~19.5–20°
-Sulfur: ~3.5–3.9%
-Type: Heavy, sour diluted bitumen
-Origin: Cold Lake oil sands, Alberta — in-situ steam recovery, blended with diluent and moved toward Edmonton and the Trans Mountain system
-Markets: Canada and the US; growing exports to the US West Coast and Asia via Westridge; Rotterdam is a representative route rather than the grade&apos;s primary destination
-Used for: Heavy fuel components, asphalt feedstock and diesel in coker-equipped refineries
-Pricing: Discount to WTI and Brent — density, sulphur and conversion costs; varies with pipeline space, freight and heavy-crude demand
-Vessels: Aframax from Westridge; larger onward cargoes may need transshipment
-Transit: ~30–40 days to Rotterdam via the Pacific, Panama, the Atlantic and the Channel
-Risks: Pipeline congestion; diluent costs; Alberta wildfires; Vancouver loading limits; Panama delays; dense Channel traffic</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4010</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							-122.9503306837298,49.29256052822069,0 -122.9886787385938,49.297363373236,0 -123.03867969983,49.2945775599874,0 -123.1187771943973,49.30589433897714,0 -123.1461637179374,49.31678433038616,0 -123.3157237715666,49.29462827299921,0 -123.2464980090907,48.9980098556422,0 -122.7697388353561,48.77715346944888,0 -122.7262533890443,48.69318431566241,0 -122.7134233520914,48.64643781797013,0 -122.766813022603,48.60091286685455,0 -122.7448458719561,48.53580390159445,0 -122.7373946143586,48.46699870806302,0 -122.788949949047,48.37171004490007,0 -123.0738597137385,48.33852394621379,0 -123.6104329313314,48.21781843142938,0 -124.0226665501809,48.35882185193474,0 -124.8090046430334,48.49600452868943,0 -125.2559730440532,48.26864082113483,0 -124.9326941105553,43.25181559241435,0 -124.7298321360843,40.163632354479,0 -122.9891383352414,37.00777096312046,0 -121.1287351728574,34.0633036882848,0 -117.4796883128919,29.44701438068472,0 -113.5211494032913,24.44472706662589,0 -107.0012034434513,19.59265022955412,0 -99.55112964775307,16.21758790174492,0 -87.10416373764498,10.32904596717877,0 -81.84052082323973,6.910295955756708,0 -79.59441931371289,7.359359932307432,0 -79.39524412936809,8.49029399803949,0 -79.4695248540765,8.826030363233176,0 -79.51415873696435,8.880494748965363,0 -79.55894336755554,8.93668172027769,0 -79.56938900059953,8.949286554964212,0 -79.57131316453609,8.959602902474249,0 -79.57831828088172,8.971542480614055,0 -79.579988999511,8.980367983594668,0 -79.58344163249321,8.987693764917999,0 -79.58739403370637,8.993059078282316,0 -79.59182247435021,8.997079887036765,0 -79.59506934176406,9.000536286687664,0 -79.59734424778377,9.003243009184835,0 -79.60909088608125,9.014619458158132,0 -79.61054184414083,9.015402436572746,0 -79.61532422751816,9.019631849710239,0 -79.61765986322773,9.02178552777554,0 -79.62443328994713,9.025415008336486,0 -79.63293310583747,9.030791961886621,0 -79.6460599472026,9.041791602843256,0 -79.65862361248809,9.057312624870752,0 -79.67120068072187,9.068384158906449,0 -79.67781727868753,9.084156803372364,0 -79.68521064903999,9.097238479051525,0 -79.69160699741002,9.10686183948004,0 -79.70690233273524,9.114544448471269,0 -79.72880815802462,9.118780993741067,0 -79.74096714017257,9.120136587097305,0 -79.75094291740935,9.120895631887679,0 -79.76759732081263,9.115254755267697,0 -79.78161023468159,9.115739766057384,0 -79.80074069662993,9.120883678854696,0 -79.81329537941834,9.158103017485466,0 -79.82924064031904,9.175834266943784,0 -79.84104988967144,9.180545168661736,0 -79.84842589321721,9.18384084584538,0 -79.86232209927955,9.180804418826627,0 -79.88150987018969,9.189138949607367,0 -79.92315739342499,9.208923759716733,0 -79.92717351133284,9.233883456898416,0 -79.91050165982203,9.258714994413181,0 -79.91145478572123,9.265342129012668,0 -79.9130138124865,9.275865701709527,0 -79.91416143674375,9.283239129480517,0 -79.91548973236067,9.294067108574552,0 -79.91818445091312,9.323335490004402,0 -79.92052325692561,9.356054579522455,0 -79.91950705847452,9.387813465055899,0 -79.92371560742274,9.41122932776959,0 -75.43236281736988,17.8767968824456,0 -74.9145212339552,19.24660738961969,0 -73.20034219854234,20.47780946294285,0 -72.48892828571009,21.25510505572491,0 -72.70170199067319,21.99337795317785,0 -71.46748249382223,22.88127491368434,0 -42.29183723660715,46.95777899961297,0 -5.164429356850181,49.53607404515451,0 0.9447864265318651,50.74476889792429,0 4.132942043834631,51.94370740681838,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark id="0DBB3F106040213031C4">
-					<name>Ekofisk crude route</name>
-					<description>Status: Operational
-Crude: Ekofisk Blend
-API: ~38.8°
-Sulfur: ~0.20–0.21%
-Type: Light, sweet North Sea crude
-Origin: Greater Ekofisk Area, Norwegian North Sea; transported through the 354 km Norpipe system to the Teesside Oil Terminal, United Kingdom
-Markets: Mainly Northwest European refiners, including the United Kingdom, the Netherlands, Germany and France
-Used for: Gasoline, naphtha, jet fuel, diesel, gasoil and petrochemical feedstocks
-Pricing: One of the BFOET grades used in the Dated Brent benchmark; traded at a variable differential according to supply, refinery demand and freight
-Vessels: Typically Aframax or Suezmax tankers loaded at the Teesside terminal
-Transit: Around 1–3 days from Teesside to Rotterdam
-Risks: North Sea weather, Norpipe or terminal outages, loading delays and congestion in the English Channel and Rotterdam approaches</description>
-					<LookAt>
-						<longitude>4.149534459514368</longitude>
-						<latitude>51.94669074336426</latitude>
-						<altitude>-1.519473491791824</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>28671.90825181548</range>
-						<altitudeMode>absolute</altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4010</styleUrl>
-					<LineString>
-						<coordinates>
-							2.911076805092712,56.76963028741567,0 -1.168152721554321,54.63734695072589,0 -0.3279124691368429,54.55358581764124,0 4.130196276137921,51.9493576412693,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark id="0CE1A26CAC402138B5D4">
-					<name>Forties route</name>
-					<description>Status: Operational
-Crude: Forties Blend
-API: ~42.1°
-Sulfur: ~0.56%
-Type: Light, medium-sulfur North Sea crude
-Origin: UK North Sea fields; transported through the Forties Pipeline System to Dalmeny and exported from Hound Point, Scotland
-Markets: Mainly Northwest European refiners, including the United Kingdom, the Netherlands, Germany and France
-Used for: Gasoline, naphtha, jet fuel, diesel, gasoil and petrochemical feedstocks
-Pricing: One of the BFOET grades supporting Dated Brent; value is adjusted for sulfur quality through the North Sea sulfur de-escalator
-Vessels: Typically Aframax or Suezmax; Hound Point can also accommodate VLCC cargoes above 2 million barrels
-Transit: Around 2–4 days from Hound Point to Rotterdam through the North Sea
-Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading delays, variable sulfur quality and congestion near Rotterdam</description>
-					<LookAt>
-						<longitude>4.272428319770761</longitude>
-						<latitude>52.00483012429128</latitude>
-						<altitude>-1.965189424344054</altitude>
-						<heading>326.1306410518863</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>40011.55875130557</range>
-						<altitudeMode>absolute</altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
-					<LineString>
-						<coordinates>
-							-3.356181009372454,56.0072756934243,0 -3.143069616519386,56.01630370323091,0 -2.501747590983237,56.15451260494337,0 4.130799410605411,51.94944354803467,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark id="0D1381C8C640213F3148">
-					<name>Johan Sverdrup route</name>
-					<description>Status: Operational
-Crude: Johan Sverdrup
-API: ~28.0–28.7°
-Sulfur: ~0.80–0.85%
-Type: Medium, medium-sulfur North Sea crude
-Origin: Johan Sverdrup Field, Norwegian North Sea; transported by a 274 km pipeline to Mongstad Terminal
-Markets: Northwest Europe and Asia, including major demand from Chinese and other Asian refiners
-Used for: Diesel, jet fuel, gasoil, fuel oil and other middle/heavy refinery products
-Pricing: Assessed against Dated Brent; the differential varies with refining margins, freight and demand for medium-sour crude
-Vessels: Typically Aframax or Suezmax tankers loaded at Mongstad Terminal
-Transit: Around 3–5 days from Mongstad to Rotterdam
-Risks: North Sea weather, pipeline or terminal outages, loading delays and congestion in the English Channel and Rotterdam approaches</description>
-					<LookAt>
-						<longitude>4.23385883573792</longitude>
-						<latitude>51.9896468425425</latitude>
-						<altitude>-1.342437630608421</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>43446.99073781725</range>
-						<altitudeMode>absolute</altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4010</styleUrl>
-					<LineString>
-						<coordinates>
-							2.099170268198662,59.00078377370205,0 4.844711446108905,60.84283480123754,0 5.027039607707393,60.81667100163991,0 4.836817720843445,60.84157951314158,0 4.635550344100561,60.71376640080043,0 4.135001774504474,51.94943400494363,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark id="0256BA5DAA40214A3860">
-					<name>WTI Midland route</name>
-					<description>Status: Operational
-Crude: WTI Midland
-API: 40–44°
-Sulfur: Below 0.20%, typically around 0.08–0.13%
-Type: Light, sweet U.S. crude
-Origin: Permian Basin, mainly the Midland Basin in West Texas; transported by pipeline to Gulf Coast export terminals
-Markets: Mainly Northwest Europe, the Mediterranean and Asia; Rotterdam is a major pricing and delivery hub
-Used for: Gasoline, naphtha, jet fuel, diesel and petrochemical feedstocks
-Pricing: Traded against WTI Houston and Dated Brent. Since 2023, qualifying WTI Midland cargoes have been included directly in the Dated Brent benchmark basket
-Vessels: Usually Aframax or Suezmax from Texas Gulf Coast terminals; VLCCs may be used for larger export cargoes, sometimes after lightering
-Transit: Around 14–18 days from the U.S. Gulf Coast to Rotterdam
-Risks: Permian pipeline constraints, Gulf Coast hurricanes, terminal congestion, export-quality variation and dense traffic in the English Channel</description>
-					<LookAt>
-						<longitude>3.853531120987412</longitude>
-						<latitude>51.89629626623521</latitude>
-						<altitude>-19.72084454518799</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>105387.8634237126</range>
-						<altitudeMode>absolute</altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=401</styleUrl>
-					<LineString>
-						<coordinates>
-							-94.79619732647615,29.35565974678772,0 -94.70674939873602,29.34160401425848,0 -80.01848112766386,24.77716459815412,0 -51.29572388033871,45.01403269393709,0 -5.283560155080528,49.6212484646782,0 0.9590478230107591,50.76923381833073,0 4.134642877007093,51.94239082545266,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Azeri light route</name>
-					<description>Status: Operational
-Crude: Azeri Light
-API: ~35.3–35.6°
-Sulfur: ~0.18–0.20%
-Type: Light, sweet
-Origin: Azeri–Chirag–Gunashli fields, offshore Azerbaijan — BTC pipeline to Ceyhan, Türkiye
-Markets: Mediterranean and European refiners (France, Italy, Croatia, Netherlands)
-Used for: Gasoline, naphtha, jet, diesel and petrochemical feedstocks
-Pricing: Variable premium or discount to Dated Brent on Mediterranean demand, freight and availability
-Vessels: Typically Aframax or Suezmax loaded at Ceyhan
-Connectivity: Route to Cressier — Ceyhan → Fos-sur-Mer → SPSE → Jura line → Cressier (VAROPreem); alternatively by sea via Gibraltar and the Channel to Rotterdam
-Transit: ~5–7 days to Fos-sur-Mer; ~12–16 days to Rotterdam
-Risks: BTC outages; Ceyhan loading disruption; Turkish and Mediterranean geopolitics; Gibraltar and Channel congestion; crude-quality contamination</description>
-					<styleUrl>#msn_ylw-pushpin1</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							35.98573986277994,36.91702865915111,0 35.98798170504674,36.89021848134669,0 35.38945645570686,36.40383227883269,0 32.26778384422678,35.53730982776592,0 27.03265869534856,33.97909360704336,0 14.8267613294643,36.44194146480715,0 7.909933079273721,38.00634017522465,0 4.929033890896786,43.42592324667132,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>CPC blend route</name>
-					<description>Status: Operational
-Crude: CPC Blend
-API: ~45.3°
-Sulfur: ~0.56%
-Type: Very light, sweet crude
-Origin: Mainly Kazakhstan; transported by the CPC pipeline and exported from the CPC Marine Terminal near Novorossiysk, Russia
-Markets: Mainly Mediterranean and Northwest European refiners; also Turkey and selected Asian buyers
-Used for: Gasoline, naphtha, jet fuel, diesel and petrochemical feedstocks
-Pricing: Usually trades at a variable differential to Dated Brent, depending on Mediterranean demand, freight and Black Sea supply conditions
-Vessels: Typically Aframax or Suezmax tankers loaded through offshore single-point moorings
-Transit: Around 10–14 days to Rotterdam via the Bosporus, Dardanelles, Mediterranean, Gibraltar and English Channel
-Risks: Black Sea security, sanctions exposure, CPC pipeline or terminal outages, weather-related loading delays and congestion in the Turkish Straits</description>
-					<styleUrl>#msn_ylw-pushpin1</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							37.83866262542833,44.70172183363285,0 37.78233206841498,44.62130735726012,0 29.16342885802764,41.26035180641154,0 29.09344075427948,41.18601197034901,0 29.05598115851148,41.15618596463646,0 29.08097648963082,41.12382241387383,0 29.06179810080314,41.10211276718537,0 29.06084926141548,41.08193506502225,0 29.0511086413556,41.07422035782206,0 29.0474337731847,41.05947319055024,0 29.02326277409781,41.03908594398175,0 28.99822475370595,41.02061494435501,0 28.97805425703837,40.98067354185026,0 27.45316023524605,40.71773285671058,0 26.76220272304491,40.43183618333448,0 26.68122661061559,40.387410381305,0 26.60481524815661,40.30827823231867,0 26.54197509455605,40.2807856651187,0 26.42831540067805,40.21246964918598,0 26.38376083024646,40.19799563117036,0 26.38874226979294,40.15525530186876,0 26.38285513368857,40.12142273290456,0 26.34803359634338,40.10227127483115,0 26.24591903070059,40.03196636562739,0 26.13234267820692,40.02329856409648,0 25.80818711183345,39.94311138978203,0 24.57044421667583,37.88268901932735,0 24.16102201452669,37.59292177151861,0 23.25186021693145,36.05883499954927,0 21.97655649699625,35.74861942367946,0 14.66385890180048,36.18289084899617,0 7.715136497917452,37.95882191503702,0 -5.603384900478875,35.96805290473436,0 -9.532116124433026,37.07871577959747,0 -10.19872497839157,40.53489472586042,0 -9.424093093846599,43.88303426596605,0 -4.594376652480006,49.38497170888705,0 0.9338252200021091,50.69135324681216,0 4.126426013151128,51.94546062464889,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Sakhalin Blend route</name>
-					<description>Status: Operational
-Crude: Sakhalin Blend
-API: ~45.5°
-Sulfur: ~0.16%
-Type: Ultra-light, sweet crude
-Origin: Sakhalin-2 fields, Russian Far East; exported from Prigorodnoye Terminal
-Main market: Japan, with additional sales to China and other Asia-Pacific refiners
-Used for: Naphtha, gasoline, jet fuel, diesel and petrochemical feedstocks
-Pricing: Usually assessed against Dubai/Oman or regional Asia-Pacific light-crude benchmarks
-Vessels: Typically loaded on Aframax tankers at Prigorodnoye
-Transit: Around 4–7 days to northern Japan, depending on destination and weather
-Risks: Ice, severe winter weather, sanctions, payment restrictions and navigation constraints around Sakhalin and northern Japan</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							142.9006456742749,46.61873747316218,0 141.5623691943156,45.49276719485507,0 141.3827071167546,45.03869695117476,0 139.4721651446526,42.60092986480934,0 140.0151955553191,41.32495482742858,0 140.6021420849281,41.44741676103369,0 140.8071754312673,41.61090640265814,0 141.6654629314855,41.56036331282692,0 142.2561649694888,39.7629968487598,0 142.0127049640764,38.39255839523572,0 141.1780298573978,35.63681179304683,0 139.9655120818732,34.78751613795448,0 139.6450273583489,34.95764014411917,0 139.7472986431494,35.21080849318149,0 139.77140697677,35.27834299979333,0 139.7433003865024,35.34031154840779,0 139.9907621055193,35.49544581553457,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Arab Light &amp; Arab Super Light route</name>
-					<description><![CDATA[Status: Operational
-Crude: Arab Light & Arab Super Light
-API: 32–36° / >40°
-Sulfur: 1.3–2.2% / <0.5%
-Type: Medium sour / very light sweet
-Origin: Saudi Arabia — exported through the Ras Tanura and Juaymah terminals
-Markets: Mainly Asia; additional sales to NW Europe, the Mediterranean and the US
-Used for: Arab Light covers the full product slate; Super Light is prized for naphtha, gasoline, LPG and petrochemical feedstocks
-Pricing: Monthly Aramco OSPs — European cargoes vs ICE Brent, Asian cargoes vs Dubai/Oman
-Vessels: Usually VLCC; Suezmax depending on cargo size and routing
-Transit: ~25–35 days to Rotterdam via the Red Sea and Suez; longer around the Cape
-Risks: Hormuz disruption; Red Sea and Bab el-Mandeb security; Suez congestion; war-risk premiums; Cape rerouting]]></description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=42</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							38.2235246193138,23.94231259372149,0 38.0282302329905,23.96414629859088,0 37.70020921157674,24.02911398881566,0 36.96351596393912,24.51364829880196,0 34.39291538839353,27.37673517590693,0 33.68527327828495,27.89042446782199,0 32.98807075164327,28.66488331178985,0 32.57385019151319,29.55435598492914,0 32.54961454674182,29.90838019698255,0 32.55652033041477,29.92884351738388,0 32.56584196900741,29.93470552343399,0 32.57902170517404,29.94884125655324,0 32.58599504496573,29.96424752684204,0 32.58616466865184,29.98746984122631,0 32.57406048027882,30.04842688921985,0 32.57198505331025,30.06710063469729,0 32.57115613331147,30.09209022877146,0 32.56953763624596,30.1759302807739,0 32.56434065377973,30.19959356925848,0 32.54425751965725,30.23556382619178,0 32.5247451798833,30.25127289825281,0 32.50672302960047,30.26108824672934,0 32.45904581129373,30.27356647217642,0 32.4364416272234,30.28611431496632,0 32.40269221265987,30.32555797484324,0 32.36908552317167,30.376720154,0 32.36300242177953,30.40956406698428,0 32.35683009879892,30.44560341626349,0 32.35552254437275,30.46568674816457,0 32.34989877664137,30.49666421537222,0 32.33934941392614,30.54643269935801,0 32.33169342935201,30.58845315914269,0 32.33178310534191,30.60182751419818,0 32.33584007223112,30.61699489825859,0 32.34052323996645,30.63887205568179,0 32.3504072637022,30.67877358310123,0 32.35237838176911,30.69407698083245,0 32.35087877422725,30.71227207871713,0 32.34393965412421,30.72684466631457,0 32.33718131883878,30.7405801060872,0 32.33234619143612,30.75539528459786,0 32.32185744850749,30.79411385047086,0 32.31836767252459,30.80906177620657,0 32.31738110269568,30.8419568144092,0 32.31544666116933,30.88470390252139,0 32.31358069222352,30.96319539723703,0 32.30976216825098,31.05778108935652,0 32.30835674142792,31.0989617230401,0 32.31541473846298,31.12111679275451,0 32.32546261469425,31.15859002574101,0 32.33880898995957,31.20271363807505,0 32.35322311878177,31.2482524406039,0 32.36134317710033,31.31045371153951,0 32.22500594647733,31.83301431996582,0 30.25205430821753,32.39768727979695,0 26.97181683124436,33.6499877474124,0 19.24805081462737,35.33979757019226,0 14.53697826053478,36.12224000708837,0 7.802078828229357,38.07150048421929,0 -5.587689310341307,35.95388149618802,0 -9.491973442391972,37.08750625792904,0 -10.2460260660674,40.53549584470543,0 -9.559125372789772,43.94694001732616,0 -4.687187371061457,49.40157258736202,0 0.926249220056703,50.72609885444391,0 4.131288700889099,51.94646432414754,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Hebron crude route</name>
-					<description>Status: Operational
-Crude: Hebron
-API: 20.4–21.2°
-Sulfur: 0.79–0.80%
-Type: Heavy, medium-sulfur crude
-Markets: UK, Netherlands, Italy, China
-Used for: Heavy products, fuel oil and middle distillates
-Pricing: Variable discount to Dated Brent
-Vessels: Ice-strengthened Aframax shuttle tanker, then Aframax/Suezmax to Rotterdam
-Transit: 9–12 days
-Risks: Icebergs, Atlantic storms, loading delays and Dover Strait congestion</description>
-					<styleUrl>#msn_ylw-pushpin00</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							-48.5016322771715,46.52187765556718,0 -53.21742554607993,46.51733064138211,0 -54.40093562430723,46.80433046032506,0 -54.17683041284073,47.2880566476038,0 -53.99735042767081,47.53314089619842,0 -54.02721072415163,47.67417863506727,0 -54.06046506217871,47.75781478461108,0 -54.04121842191557,47.77573115661169,0 -54.27766816713239,47.60664716285682,0 -54.32621462232103,47.53837754748707,0 -54.3401995698409,47.4756253940722,0 -54.39726704063496,47.41155261986535,0 -54.38417782745593,47.32004221483278,0 -54.41324554702255,47.1039360690365,0 -54.41269550194635,46.8999986551549,0 -54.45915197427255,46.76762196275514,0 -53.16453581714178,46.44583453334544,0 -52.12473739415892,47.53097366193131,0 -44.86546803687045,49.22719316371705,0 -5.397263130075883,49.63650384023535,0 0.9827366896922274,50.77585350845393,0 4.130505119722607,51.94587472523582,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Saharan Blend route</name>
-					<description>Status: Operational
-Crude: Saharan Blend — a commingled export blend, not a single field
-API: ~45°
-Sulfur: ~0.1%
-Type: Light, sweet
-Origin: Algeria — blended from Saharan fields (dominated by Hassi Messaoud, gathered at Haoud El Hamra), exported through Skikda, Arzew or Bejaïa
-Markets: Mainly the Mediterranean and NW Europe; additional sales to the Americas
-Used for: High light-distillate yield — naphtha, gasoline, jet, diesel — plus petrochemical feed; minimal desulphurisation cost, ideal for simpler and mid-complexity refineries
-Pricing: Monthly Sonatrach OSP as a differential to Dated Brent, frequently at a premium
-Vessels: Usually Aframax; Suezmax for larger cargoes
-Transit: ~2 days / ~450 nm from Skikda to Fos-sur-Mer; ~5–6 days to Rotterdam via Gibraltar
-Risks: Low — no major chokepoints; Gulf of Lion mistral weather, port congestion, occasional Algerian loading or pipeline disruptions</description>
-					<styleUrl>#stylemap_id020</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							6.939508765107738,36.88880302234791,0 6.597759024239593,37.60688030029786,0 5.79435056388273,38.80280264287649,0 5.192549632927312,40.50242277568254,0 4.938327436476548,43.38064883167617,0 4.901126363949658,43.41450603818715,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Es Sider route</name>
-					<description>Status: Operational
-Crude: Es Sider — a commercial export blend named after its terminal, fed by several Sirte Basin fields
-API: ~37°
-Sulfur: ~0.4%
-Type: Light, sweet
-Origin: Libya — gathered from Waha, Gialo and other Sirte Basin fields, exported at Es Sider via offshore SBMs
-Markets: Mainly the Mediterranean and NW Europe (Italy, Spain, France, Germany, Netherlands); occasional Asia sales
-Used for: High gasoline and middle-distillate yield with low sulphur — suits Mediterranean and mid-complexity refineries
-Pricing: Monthly NOC/Waha OSP as a differential to Dated Brent, with a Libyan political-risk element
-Vessels: Usually Suezmax or Aframax, loaded offshore at the SBMs
-Transit: ~5–6 days / ~1,300–1,450 nm to Fos-sur-Mer via the Strait of Sicily; ~7–9 days to Rotterdam via Gibraltar
-Risks: Libyan political instability — field shutdowns, port blockades and force majeure at the terminal; militia risk; Strait of Sicily traffic</description>
-					<styleUrl>#stylemap_id25</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							18.35596912396328,30.68834646924192,0 13.54114224798351,35.22509704572018,0 13.3339340684015,36.43726026793413,0 8.117250326889776,38.11726405364553,0 4.935933745798977,43.42443173647109,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Girassol route</name>
-					<description>Status: Operational
-Crude: Girassol Blend — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO
-API: ~30°
-Sulfur: ~0.34%
-Type: Medium, sweet
-Origin: Angola, deepwater Block 17 — exported directly offshore via a CALM buoy; no onshore terminal or pipeline
-Markets: Mainly China (over half of Angolan exports) and India; material share to Europe (Spain, Netherlands)
-Used for: Good gasoil and middle-distillate yield with low sulphur — suits complex NW European and Asian cracking refineries
-Pricing: Variable differential to Dated Brent, in line with West African OSPs
-Vessels: Suezmax to Europe; VLCC for Asia — vessel size drives the discharge port via draft limits
-Transit: ~20–24 days / ~6,400–6,900 nm up the Atlantic to Lysekil; longer to Asia via the Cape
-Risks: Gulf of Guinea piracy at loading; Atlantic and North Sea weather; VLCC draft limits. No Suez, Hormuz or Gibraltar transit</description>
-					<styleUrl>#stylemap_id240</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							11.68003301331978,-7.649577622331934,0 -1.873013776979757,0.04630934251578204,0 -12.06806614713823,2.294516650441873,0 -17.9530775774571,6.433334333849768,0 -19.41022956915689,9.028844896546691,0 -20.10758865907178,9.701624060040059,0 -20.95851789014388,15.18023622844132,0 -21.910099231122,23.14525290950652,0 -19.37403363905658,32.64498855561517,0 -17.68375646879597,38.1182129512826,0 -14.5561826832905,41.62259646124227,0 -6.93492744323768,48.00313721776582,0 -4.864273874044693,49.49321026658558,0 0.9815128998333167,50.72562941224943,0 4.124782963109086,51.9479733615237,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Dalia crude route</name>
-					<description>Status: Operational
-Crude: Dalia
-API: 23.3–23.7°
-Sulfur: 0.49–0.51%
-Type: Heavy, sweet offshore crude
-Origin: Dalia Field, Block 17, offshore Angola
-Markets: Mainly China; also Spain, France and the Netherlands
-Used for: Low-sulfur fuel oil, middle distillates and heavy refinery products
-Pricing: Traded at a variable differential to Dated Brent; premium or discount depends on Asian demand, freight and refinery margins
-Vessels: Loaded offshore from the Dalia FPSO, typically on Suezmax or VLCC tankers; Suezmax is suitable for Rotterdam
-Transit: Approximately 17–21 days to Rotterdam
-Risks: Offshore-loading delays, Atlantic weather, piracy risk in the Gulf of Guinea, and congestion in the English Channel and Dover Strait</description>
-					<styleUrl>#stylemap_id220</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							11.76544131761719,-7.681535226026257,0 4.536441809271747,-2.835720222568552,0 -1.614842598021807,0.2763960812980644,0 -12.00129151352508,2.551203955325124,0 -17.70786186250704,6.581071791601223,0 -19.82995782259071,9.839589195019903,0 -21.61931288423892,23.43855453158856,0 -19.53481159370532,30.67855054242659,0 -17.52297741361756,38.04926625872795,0 -4.761200990858232,49.43662018052165,0 0.9701809793403537,50.74199319155846,0 4.131082550290229,51.9482318168594,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Liza route</name>
-					<description>Status: Operational
-Crude: Liza — a single-development stream from the Liza Destiny FPSO (distinct from Unity Gold and Payara Gold)
-API: ~32°
-Sulfur: ~0.59%
-Type: Medium, sweet
-Origin: Guyana, Stabroek Block — loaded directly from the FPSO by ship-to-ship transfer; no onshore terminal
-Markets: Predominantly Europe (~two-thirds of Guyanese exports in 2024); also the US and Asia
-Used for: Strong middle-distillate, diesel and jet yield; low sulphur makes it a favoured IMO-compliant feed for complex European refineries
-Pricing: Differential to Dated Brent (the &quot;Latin Dated Brent&quot; strip), recently around +$1.30/bbl
-Vessels: Usually Suezmax; some Aframax, loaded offshore via tandem transfer
-Transit: ~13–16 days / ~4,400–4,800 nm transatlantic to Lysekil via the Channel or north-about Scotland
-Risks: North Atlantic and North Sea weather; Channel traffic density; the Skagerrak approach; offshore-loading weather windows. No piracy or chokepoint exposure</description>
-					<styleUrl>#stylemap_id200</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							-56.9169407616409,8.017149440466609,0 -53.98962135433751,16.20685518031413,0 -35.64261635163013,39.94978219636562,0 -4.948882600512566,49.5367256147621,0 0.9926929166654497,50.74272144205962,0 4.131152803618104,51.94452678257312,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-				<Placemark>
-					<name>Bonny light route</name>
-					<description>Status: Operational
-Crude: Bonny Light
-API: ~32.9°
-Sulfur: ~0.16%
-Type: Light, very sweet Nigerian crude
-Origin: Niger Delta; exported FOB from the Bonny Terminal, Nigeria
-Markets: Mainly Europe and Asia, including the Netherlands, France, India and China
-Used for: Gasoline, diesel, gasoil, jet fuel and vacuum gasoil
-Pricing: Usually priced at a premium or discount to Dated Brent; during the March–April 2026 supply crisis, Bonny Light reached premiums of roughly +$7.50 to above +$10/bbl
-Vessels: Typically loaded in standard cargoes of about 950,000 barrels, generally on Suezmax tankers
-Transit: Around 14–18 days from Bonny Terminal to Rotterdam
-Risks: Pipeline theft and sabotage, loading disruptions, Niger Delta security, Gulf of Guinea piracy, Atlantic weather and congestion in the English Channel</description>
-					<styleUrl>#stylemap_id210</styleUrl>
-					<LineString>
-						<tessellate>1</tessellate>
-						<coordinates>
-							7.23601612836013,4.186051310318629,0 -2.029843047285954,2.486752225410701,0 -13.7248869146074,5.009875575122981,0 -17.12158071933448,8.2025552059473,0 -19.52891200513968,13.01695271688328,0 -19.9207342979282,20.26835459409283,0 -17.76730771128898,34.63708845652644,0 -16.97752476503559,38.14051706520546,0 -4.88973458264132,49.31169483701833,0 1.013132019619878,50.74425844742829,0 4.129293757455152,51.94558585600767,0 
-						</coordinates>
-					</LineString>
-				</Placemark>
-			</Folder>
-		</Folder>
-		<Folder>
 			<name>Inland Waterways</name>
 			<Folder>
 				<name>Rivers &amp; canals</name>
@@ -11604,7 +11243,6 @@ Risks: Third major low-water shock since 2018; heat and low soil moisture across
 		<name>D. Storage &amp; Pricing</name>
 		<Folder>
 			<name>Storage &amp; Depots</name>
-			<open>1</open>
 			<Folder>
 				<name>Crude Storage</name>
 				<Placemark>
@@ -11724,8 +11362,7 @@ Connectivity: Supplied from the Dalian Xingang crude terminal through the port�
 
 Strategic role: Emergency crude reserve supporting national energy security and providing a supply buffer for Northeast China during import or pipeline disruption.
 
-Risks: Geographic concentration beside other large oil terminals and tank farms, creating shared exposure to marine accidents, fire and infrastructure disruption.
-</description>
+Risks: Geographic concentration beside other large oil terminals and tank farms, creating shared exposure to marine accidents, fire and infrastructure disruption.</description>
 					<LookAt>
 						<longitude>121.8894402868394</longitude>
 						<latitude>38.97309175584683</latitude>
@@ -11735,7 +11372,7 @@ Risks: Geographic concentration beside other large oil terminals and tank farms,
 						<range>4277.491061172929</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle02</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.8814535379665,38.97495677287652,0</coordinates>
@@ -11755,8 +11392,7 @@ Connectivity: Integrated by pipeline with Xingang’s VLCC berths, PetroChina’
 
 Strategic role: Provides commercial stockholding and crude-sourcing flexibility separate from China’s government-controlled strategic petroleum reserve.
 
-Risks: Exposure to crude-price cycles, sanctions affecting particular suppliers and shared operational dependence on the Xingang terminal complex.
-</description>
+Risks: Exposure to crude-price cycles, sanctions affecting particular suppliers and shared operational dependence on the Xingang terminal complex.</description>
 					<LookAt>
 						<longitude>121.8775484183976</longitude>
 						<latitude>38.97543126461978</latitude>
@@ -11766,7 +11402,7 @@ Risks: Exposure to crude-price cycles, sanctions affecting particular suppliers 
 						<range>2589.548019375082</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle02</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.8721368611286,38.97745348104399,0</coordinates>
@@ -11775,6 +11411,39 @@ Risks: Exposure to crude-price cycles, sanctions affecting particular suppliers 
 			</Folder>
 			<Folder>
 				<name>Commercial depots &amp; tank farms</name>
+				<Placemark>
+					<name>MENA Terminals Fujairah</name>
+					<description>Status: Operational
+
+Owner/Operator: MENA Terminals Fujairah FZC — Mercantile &amp; Maritime Group; formerly GTI Fujairah
+
+Role: Independent merchant terminal providing third-party storage and handling of clean and dirty refined petroleum products
+
+Capacity: Approximately 352,000 m³ across 14 tanks
+
+Products: Fuel oil and clean refined petroleum products
+
+Connectivity: Six jetty pipelines serving nine main oil berths and two bunker-barge berths; interconnected with other Fujairah terminals
+
+Strategic role: Medium-scale commercial storage, blending and cargo-transfer node supporting Fujairah’s physical products market and marine-bunker supply chain
+
+Risks: Dependence on common port infrastructure, terminal utilization, refined-product trading conditions and regional maritime security
+</description>
+					<LookAt>
+						<longitude>56.35218979636783</longitude>
+						<latitude>25.18546986764482</latitude>
+						<altitude>0</altitude>
+						<heading>-3.630737002105855</heading>
+						<tilt>17.88664971956362</tilt>
+						<range>1775.404544777587</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35024506498836,25.1853626147726,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>PSO Zulfiqarabad Oil Terminal (ZOT)</name>
 					<description>Status: Operational
@@ -11824,7 +11493,7 @@ Storage capacity: 577,000 m³ of gasoline, diesel, fuel oil and biofuel componen
 Recent: August 2026 — the MR tanker Wendrix loaded gasoline here bound for Russia, the first identified Turkey-to-Russia seaborne gasoline route of the sanctions era; Mersin port sits on Ukraine&apos;s sanctions list over suspected Russian links
 Strategic role: A trader-owned Mediterranean blending and re-export platform — where stored molecules change direction when the market flips, as Russia&apos;s 2026 switch from fuel exporter to importer demonstrated
 Risks: Sanctions-compliance exposure on re-export flows; earthquake vulnerability of the tank farm; single-coast products dependence for the region since refining ended</description>
-					<styleUrl>#msn_red-circle6</styleUrl>
+					<styleUrl>#msn_red-circle60</styleUrl>
 					<Point>
 						<coordinates>34.70087210231715,36.8193020811484,0</coordinates>
 					</Point>
@@ -12213,24 +11882,6 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 						<coordinates>25.12478137865085,50.07026397362587,225.7785784856151</coordinates>
 					</Point>
 				</Placemark>
-				<Placemark id="0CCBA58C8F3F53AEF5B6">
-					<name>Chiba storage terminal (Japan)</name>
-					<description>Status: Operational</description>
-					<LookAt>
-						<longitude>140.0301458090232</longitude>
-						<latitude>35.49344699577473</latitude>
-						<altitude>-2.80929930445236</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>18384.48961256538</range>
-						<altitudeMode>absolute</altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin00</styleUrl>
-					<Point>
-						<coordinates>140.0214638468653,35.49237444730526,6.897529595340323</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark id="0C59D1331B3F60C12E3B">
 					<name>DEPOTS PETROLIERS DE FOS S.A.</name>
 					<description>Status: Operational</description>
@@ -12266,6 +11917,149 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 					<styleUrl>#m_ylw-pushpin00</styleUrl>
 					<Point>
 						<coordinates>7.070367879298738,51.52976345771804,33.83028083796033</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GPS Chemoil Terminals 1 </name>
+					<description>Status: Operational
+Owner/Operator: GPS Chemoil — joint venture between Gulf Petrol Supplies and HG Storage International
+Role: Two-terminal petroleum-products storage, heating, blending and handling system serving traders and bunker suppliers
+Combined capacity: More than 4.4 million barrels — approximately 699,000 m³
+Products: Fuel oil and the wider range of clean and black petroleum products
+Connectivity: Direct and common-manifold pipelines to Fujairah’s oil berths, neighbouring terminals and terminal-to-terminal transfer system
+Strategic role: Important flexible blending and logistics platform supporting Fujairah’s marine-fuel market
+Risks: Dependence on common port infrastructure; bunker-market exposure; operational concentration within FOIZ
+</description>
+					<LookAt>
+						<longitude>56.353214</longitude>
+						<latitude>25.18799299999999</latitude>
+						<altitude>0</altitude>
+						<heading>9.541664044390549e-15</heading>
+						<tilt>0</tilt>
+						<range>1000.000000002008</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35333229885505,25.18773829290274,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GPS Chemoil Terminals 2</name>
+					<description>The same as GPS Chemoil Terminals 1</description>
+					<LookAt>
+						<longitude>56.35381160039029</longitude>
+						<latitude>25.18284300877365</latitude>
+						<altitude>0</altitude>
+						<heading>0.00271719397390196</heading>
+						<tilt>26.83567529709673</tilt>
+						<range>1452.597999184393</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35460358270666,25.17986258073205,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>EPPCO and Horizon Emirates Fujairah terminals</name>
+					<description>Status: Operational
+
+Owner/Operator: ENOC Group through Horizon Terminals and EPPCO
+
+Role: Integrated petroleum-product trading, marine-receipt, storage and distribution complex
+
+Capacity: Approximately 482,600 m³ across 23 tanks for the combined Fujairah trading and distribution facilities; the newer distribution terminal accounts for approximately 240,000 m³
+
+Products: Gasoline, gasoil/diesel, fuel oil and associated refined petroleum products
+
+Connectivity: Direct pipeline connection to Port of Fujairah oil berths, supporting marine receipt, vessel loading and regional product distribution
+
+Strategic role: ENOC’s principal refined-products storage and distribution platform at Fujairah, connecting international cargo flows with bunkering demand and the Northern Emirates market
+
+Risks: Concentration within a shared terminal cluster, dependence on port pipelines and berths, regional demand exposure and maritime-security disruption
+</description>
+					<LookAt>
+						<longitude>56.35391787529507</longitude>
+						<latitude>25.18600144499944</latitude>
+						<altitude>0</altitude>
+						<heading>-0.004906803164667624</heading>
+						<tilt>11.745957351538</tilt>
+						<range>693.8581080240888</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35497522127955,25.18463438558502,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Emarat Fujairah Petroleum Terminal</name>
+					<description>Status: Operational
+
+Owner/Operator: Emirates General Petroleum Corporation — Emarat
+
+Role: State-owned petroleum-products storage, bunkering and distribution terminal
+
+Capacity: Approximately 260,000 m³ across 13 tanks
+
+Products: Gasoil/diesel, gasoline and jet fuel
+
+Connectivity: Marine receipt and delivery through Fujairah’s oil-terminal infrastructure, with onward supply to commercial vessels and domestic distribution networks
+
+Strategic role: Provides refined-product supply resilience on the UAE’s Gulf of Oman coast and supports bunkering, domestic consumption and the Northern Emirates distribution system
+
+Risks: Moderate scale compared with Fujairah’s principal merchant terminals, dependence on shared port infrastructure, domestic-demand exposure and regional security disruption
+</description>
+					<LookAt>
+						<longitude>56.35391787529507</longitude>
+						<latitude>25.18600144499944</latitude>
+						<altitude>0</altitude>
+						<heading>-0.004906803164667624</heading>
+						<tilt>11.745957351538</tilt>
+						<range>693.8581080240888</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.35379060685292,25.18597791196687,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>JSW Fujairah Liquid Storage Terminal</name>
+					<description>Status: Operational facility; one storage tank sustained damage from intercepted-drone debris in March 2026
+
+Owner/Operator: JSW Terminal Middle East FZE — wholly owned by JSW Infrastructure; formerly Marine Oil Terminal Corporation
+
+Role: Independent commercial storage and handling terminal for heavy and light petroleum products
+
+Capacity: Approximately 465,000 m³ across 15 tanks, comprising six fixed-roof heavy-fuel tanks and nine floating-roof light-product tanks
+
+Products: Fuel oil, gasoil, diesel, naphtha and other Class I–III petroleum products
+
+Connectivity: Connected to the Port of Fujairah liquid-bulk and marine-loading system for vessel receipt and dispatch
+
+Strategic role: Material merchant-storage facility supporting refined-product trading, cargo aggregation and bunker-fuel availability at the Fujairah hub
+
+Risks: Regional security exposure, dependence on common port and marine infrastructure, storage-utilization cycles and petroleum-product market volatility
+</description>
+					<LookAt>
+						<longitude>56.3481569909796</longitude>
+						<latitude>25.18264815383475</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001945840392156305</heading>
+						<tilt>6.547105663059038</tilt>
+						<range>1117.762034413201</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>56.3467390996607,25.18378824325715,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
