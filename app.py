@@ -40,12 +40,12 @@ CATEGORY_COLORS = {
     # D. Storage & Pricing
     "Storage & Depots": "#880e4f",
     "Pricing Hubs": "#f9a825",
-    # E. Demand & Constraints
+    # E. Demand Centres
     "Petrochemical Plants": "#000000",
     "Aviation Fuel Demand": "#00acc1",
-    "Chokepoints": "#b71c1c",
-    # C. Corridors — point assets that live inside corridor folders (e.g. gauges)
+    # C. Corridors — point assets that live inside corridor folders (e.g. gauges, straits)
     "Inland Waterways": "#00897b",
+    "Chokepoints": "#b71c1c",
 }
 DEFAULT_COLOR = "#3388ff"
 
@@ -69,7 +69,7 @@ STAGE_LABELS = {
     "B. Gateways": "B · Gateways",
     "C. Corridors": "C · Corridors",
     "D. Storage & Pricing": "D · Storage & Pricing",
-    "E. Demand & Constraints": "E · Demand & Constraints",
+    "E. Demand Centres": "E · Demand Centres",
 }
 STAGE_ORDER = list(STAGE_LABELS.keys())
 
@@ -90,11 +90,13 @@ STAGE_HELP = {
         "production upstream and reroutes trade downstream."
     ),
     "C. Corridors": (
-        "**What it shows:** how oil moves between the nodes.\n\n"
+        "**What it shows:** how oil moves between the nodes — and where those flows constrict.\n\n"
         "**Contains:** crude and product pipelines, maritime routes with grade fact sheets "
-        "(API, sulphur, pricing, transit times), inland waterways and their reference gauges.\n\n"
-        "**Why it matters:** freight and transit costs set regional price spreads — most of the "
-        "2026 stories on this map are corridor stories (Hormuz, Druzhba, the Rhine at Kaub)."
+        "(API, sulphur, pricing, transit times), inland waterways and their reference gauges, "
+        "and maritime chokepoints (straits and canals).\n\n"
+        "**Why it matters:** freight and transit costs set regional price spreads, and chokepoints "
+        "show what happens when they fail — most of the 2026 stories on this map are corridor "
+        "stories (Hormuz, Druzhba, the Rhine at Kaub)."
     ),
     "D. Storage & Pricing": (
         "**What it shows:** where oil waits — and where its price is formed.\n\n"
@@ -103,12 +105,13 @@ STAGE_HELP = {
         "**Why it matters:** storage depth decides how long a disruption can be absorbed; "
         "pricing hubs are where paper markets touch physical barrels."
     ),
-    "E. Demand & Constraints": (
-        "**What it shows:** where oil is consumed at scale — and where flows constrict.\n\n"
-        "**Contains:** standalone petrochemical plants (naphtha/LPG demand), airport jet-fuel "
-        "demand nodes, and maritime chokepoints.\n\n"
-        "**Why it matters:** demand anchors explain why the corridors exist; chokepoints "
-        "explain what happens when they fail."
+    "E. Demand Centres": (
+        "**What it shows:** where oil and its products are consumed at scale, as final "
+        "counterparties to the rest of the chain.\n\n"
+        "**Contains:** standalone petrochemical plants (naphtha/LPG demand) and airport "
+        "jet-fuel demand nodes — bulk, single-site consumers large enough to move a "
+        "regional balance on their own.\n\n"
+        "**Why it matters:** demand anchors explain why the corridors exist in the first place."
     ),
 }
 
