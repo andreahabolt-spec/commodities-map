@@ -45,13 +45,13 @@ CATEGORY_COLORS = {
     "Aviation Fuel Demand": "#00acc1",
     # C. Corridors — point assets that live inside corridor folders (e.g. gauges, straits)
     "Inland Waterways": "#00897b",
-    "Chokepoints": "#b71c1c",
+    "Straits": "#b71c1c",
 }
 DEFAULT_COLOR = "#3388ff"
 
 # Sub-sections that change the glyph or size within a section
 MEGA_SUBSECTION = "Mega-refineries"
-OFFSHORE_SUBSECTION = "Offshore tanker loading terminals (SPM / CALM / SBM)"
+OFFSHORE_SUBSECTION = "Offshore Tanker Loading"
 
 # Route sections -> line colour
 ROUTE_COLORS = {
@@ -189,7 +189,7 @@ GLYPHS = {
     "Aviation Fuel Demand":
         "<path d='M21.5 15.2l-8.3-4.2V4.6a1.2 1.2 0 0 0-2.4 0V11l-8.3 4.2v2.3"
         "l8.3-2.6v3.9l-2.2 1.6v1.4l3.4-1 3.4 1v-1.4l-2.2-1.6v-3.9l8.3 2.6v-2.3z' fill='{c}'/>",
-    "Chokepoints":
+    "Straits":
         "<path d='M12 3L2.5 20h19L12 3z' fill='{c}'/>"
         "<path d='M12 9v5' stroke='white' stroke-width='2.2' stroke-linecap='round'/>"
         "<circle cx='12' cy='17' r='1.2' fill='white'/>",
