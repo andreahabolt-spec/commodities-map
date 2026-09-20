@@ -39,7 +39,7 @@ CATEGORY_COLORS = {
     "Ports & Logistics Hubs": "#1976d2",
     # D. Storage & Pricing
     "Storage & Depots": "#880e4f",
-    "Pricing Hubs": "#f9a825",
+    "Pricing Hubs and Benchmarks": "#f9a825",
     # E. Demand Centres
     "Petrochemical Plants": "#000000",
     "Aviation Fuel Demand": "#00acc1",
@@ -59,7 +59,7 @@ ROUTE_COLORS = {
     "Product Pipelines": "#fdd835",
     "Maritime Routes": "#2dc0fb",
     "Inland Waterways": "#00897b",
-    "Pricing Hubs": "#c9a227",   # gold rings — market zones, not physical routes
+    "Pricing Hubs and Benchmarks": "#c9a227",   # gold rings — market zones, not physical routes
 }
 DEFAULT_ROUTE_COLOR = "#2dc0fb"
 CASING_COLOR = "#37474f"
@@ -179,7 +179,7 @@ GLYPHS = {
         "<path d='M12 7.2V19M5.2 14.2c.6 3 3 4.8 6.8 4.8s6.2-1.8 6.8-4.8' "
         "stroke='{c}' stroke-width='2.4' fill='none' stroke-linecap='round'/>"
         "<path d='M8.6 10.6h6.8' stroke='{c}' stroke-width='2' stroke-linecap='round'/>",
-    "Pricing Hubs":
+    "Pricing Hubs and Benchmarks":
         "<path d='M12 2.5l9 9.5-9 9.5-9-9.5z' fill='{c}'/>"
         "<path d='M12 7v10M9.3 9.4h4.2a1.6 1.6 0 0 1 0 3.2H10.5a1.6 1.6 0 0 0 0 3.2h4.2' "
         "stroke='white' stroke-width='1.3' fill='none' stroke-linecap='round'/>",
@@ -434,7 +434,7 @@ for stage in STAGE_ORDER:
         cols = st.sidebar.columns([0.13, 0.87])
         with cols[0]:
             if is_route:
-                st.markdown(line_swatch(ROUTE_COLORS[cat], dashed=(cat == "Pricing Hubs"), casing=("Pipelines" in cat)), unsafe_allow_html=True)
+                st.markdown(line_swatch(ROUTE_COLORS[cat], dashed=(cat == "Pricing Hubs and Benchmarks"), casing=("Pipelines" in cat)), unsafe_allow_html=True)
             else:
                 st.markdown(category_icon_svg(cat, "", 18), unsafe_allow_html=True)
         with cols[1]:
@@ -523,7 +523,7 @@ for cat in route_categories:
     base_color = ROUTE_COLORS.get(cat, DEFAULT_ROUTE_COLOR)
     is_pipeline = "Pipelines" in cat
     is_waterway = cat == "Inland Waterways"
-    is_hub = cat == "Pricing Hubs"
+    is_hub = cat == "Pricing Hubs and Benchmarks"
     group = folium.FeatureGroup(name=cat, show=True)
     for line in (l for l in data["lines"] if l["category"] == cat and keep(l)):
         name = line["name"]
