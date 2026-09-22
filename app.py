@@ -75,6 +75,7 @@ ROUTE_COLORS = {
     "Product Pipelines": "#fdd835",
     "Maritime Routes": "#2dc0fb",
     "Inland Waterways": "#00897b",
+    "Crude-by-Rail Corridors": "#6d4c41",   # rail brown — crude moved by unit train, not pipe
     "Pricing Hubs and Benchmarks": "#c9a227",   # gold rings — market zones, not physical routes
 }
 DEFAULT_ROUTE_COLOR = "#2dc0fb"
