@@ -11,6 +11,22 @@ from kml_parser import parse_kml, get_field
 
 st.set_page_config(page_title="Commodities Trading Map", layout="wide")
 
+# --- full-screen map styling: strip default padding so the map fills the viewport ---
+st.markdown(
+    """
+    <style>
+      /* remove Streamlit's default top/side padding on the main block */
+      .block-container { padding-top: 1rem; padding-bottom: 0rem;
+                         padding-left: 1rem; padding-right: 1rem; max-width: 100%; }
+      /* let the folium iframe stretch to the full container width */
+      iframe { width: 100% !important; }
+      /* tighten the header so the map sits higher on the page */
+      header[data-testid="stHeader"] { height: 0rem; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 KML_PATH = "Commodities_Trading.kml"
 
 
@@ -62,6 +78,21 @@ ROUTE_COLORS = {
     "Pricing Hubs and Benchmarks": "#c9a227",   # gold rings — market zones, not physical routes
 }
 DEFAULT_ROUTE_COLOR = "#2dc0fb"
+
+# Pricing Hubs and Benchmarks are one KML category but four distinct kinds of asset,
+# separated by SUB-SECTION. Colour each sub-section differently so physical, financial
+# and spread instruments are visually distinct. Falls back to deep gold if unmatched.
+PRICING_SUBSECTION_COLORS = {
+    "Major Energy Hubs":              "#f9a825",   # deep gold — broad physical market zones
+    "Physical Price Assessments":    "#d32f2f",   # red — physical, cargo-based price discovery
+    "Financial Derivatives & Futures": "#00897b", # teal — paper contracts, no physical cargo
+    "Inter-Benchmark Spreads":       "#8e24aa",   # purple — arbitrage relationships, not locations
+}
+PRICING_CATEGORY = "Pricing Hubs and Benchmarks"
+PRICING_DEFAULT_COLOR = "#f9a825"
+
+def pricing_color(subsection):
+    return PRICING_SUBSECTION_COLORS.get(subsection, PRICING_DEFAULT_COLOR)
 CASING_COLOR = "#37474f"
 
 STAGE_LABELS = {
@@ -218,6 +249,8 @@ def icon_size_for(category, subsection):
 
 
 def color_for(category, subsection):
+    if category == PRICING_CATEGORY:
+        return pricing_color(subsection)
     c = CATEGORY_COLORS.get(category, DEFAULT_COLOR)
     if category == "Refineries" and subsection == MEGA_SUBSECTION:
         return "#5d4037"   # darker brown for mega
@@ -268,6 +301,8 @@ def line_swatch(color, dashed=False, casing=False):
 # DESCRIPTION FORMATTING
 # ---------------------------------------------------------------------------
 DESCRIPTION_LABELS = [
+    # pricing/benchmark structured fields (added so benchmark descriptions render with bold field headers)
+    "Role in the Brent-Dubai EFS", "Relationship to other benchmarks", "What this circle encompasses", "Why it matters globally", "Relationship to the map", "Also at this location", "Benchmark instruments", "Relationship to Brent", "What this line means", "Why it matters", "Physical basis", "Market position", "Execution detail", "Historic note", "Track record", "What CARBOB is", "How it moves", "Why widened", "Why merged", "Why here", "Mechanism", "Function", "History", "Example", "Grade",
     "Latitude / Longitude", "Coordinate confidence", "Connected infrastructure", "Industrial integration",
     "Storage infrastructure", "Energy-transition role", "Berths / vessel size", "Main export markets",
     "Operating history", "Recent development", "Recent operations", "Nearest settlement", "Crude-import role",
@@ -341,8 +376,8 @@ route_categories = [c for c in data["categories"] if c in ROUTE_COLORS and any(l
 point_categories = [c for c in data["categories"] if any(p["category"] == c for p in data["points"])]
 
 st.title("Global Energy Infrastructure Map")
-st.caption("The oil value chain — production, gateways, corridors, storage & pricing, demand & constraints — "
-           "with physical flows into the European hubs (Rotterdam / ARA).")
+st.caption("The oil value chain — production, gateways, corridors, storage & pricing, "
+           "demand & constraints — mapped worldwide across all major trade routes.")
 if kml_warning:
     st.warning(kml_warning)
 
@@ -536,7 +571,9 @@ for cat in route_categories:
         if is_pipeline and not dash:
             folium.GeoJson(geojson, style_function=lambda _f: {"color": CASING_COLOR, "weight": 6, "opacity": 0.55},
                            control=False).add_to(group)
-        style = {"color": base_color, "weight": 2.6 if is_hub else (4.2 if is_waterway else 3.2), "opacity": opacity}
+        # pricing circles/lines colour by sub-section (physical=red, financial=teal, spread=purple, hub=gold)
+        line_color = pricing_color(line["subsection"]) if is_hub else base_color
+        style = {"color": line_color, "weight": 2.6 if is_hub else (4.2 if is_waterway else 3.2), "opacity": opacity}
         if dash:
             style["dashArray"] = dash
         gj = folium.GeoJson(geojson, style_function=lambda _f, s=dict(style): s,
@@ -546,4 +583,8 @@ for cat in route_categories:
         gj.add_to(group)
     group.add_to(m)
 
-st_folium(m, width=None, height=700, returned_objects=[])
+# Full-width, tall map frame.
+# width=None lets st_folium fill its container on every library version;
+# the injected CSS (.block-container full width + iframe width:100%) forces
+# true edge-to-edge width without relying on the newer use_container_width arg.
+st_folium(m, width=None, height=820, returned_objects=[])
