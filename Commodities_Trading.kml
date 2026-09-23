@@ -684,37 +684,9 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
-	<StyleMap id="default1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#default2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="default2">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="default0">
 		<IconStyle>
-			<color>ff00a2ff</color>
+			<color>ff00c8ff</color>
 			<scale>0.7</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
@@ -762,6 +734,16 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="default1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="default101">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -795,6 +777,24 @@
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="default2">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -998,17 +998,17 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="failed61">
+	<Style id="failed6">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed601">
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
 	</Style>
 	<Style id="failed60">
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
-	<Style id="failed6">
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
@@ -1023,6 +1023,11 @@
 			<styleUrl>#failed1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="failed61">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+	</Style>
 	<Style id="failed70">
 		<LineStyle>
 			<color>ffff00ff</color>
@@ -1033,7 +1038,7 @@
 			<color>ffff00ff</color>
 		</LineStyle>
 	</Style>
-	<Style id="failed71">
+	<Style id="failed701">
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
@@ -1056,6 +1061,11 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="failed71">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+	</Style>
 	<StyleMap id="failed8">
 		<Pair>
 			<key>normal</key>
@@ -1066,10 +1076,20 @@
 			<styleUrl>#failed</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="failed9">
+	<StyleMap id="failed92">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#failed7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed601</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="failed9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed70</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1089,7 +1109,7 @@
 	<StyleMap id="failed91">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed70</styleUrl>
+			<styleUrl>#failed701</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1098,7 +1118,7 @@
 	</StyleMap>
 	<Style id="hl">
 		<IconStyle>
-			<color>ff00a2ff</color>
+			<color>ff00c8ff</color>
 			<scale>0.84</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
@@ -1113,6 +1133,18 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="hl0">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="hl1">
 		<IconStyle>
@@ -1131,18 +1163,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="hl0">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
 	</Style>
 	<Style id="hl10">
 		<IconStyle>
@@ -1180,7 +1200,13 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="hub10">
+	<Style id="hub103">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="hub101">
 		<LineStyle>
 			<color>ff0000ff</color>
 			<width>2.6</width>
@@ -1192,14 +1218,30 @@
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="hub101">
+	<StyleMap id="hub10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#hub10</styleUrl>
+			<styleUrl>#hub100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#hub100</styleUrl>
+			<styleUrl>#hub101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hub1000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="hub1010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#hub103</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hub1000</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="hub1011">
@@ -1853,6 +1895,15 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sh_volcano">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_volcano0">
 		<IconStyle>
 			<scale>0.816667</scale>
@@ -1864,17 +1915,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sh_volcano">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<Style id="sh_volcano00">
 		<IconStyle>
@@ -2216,6 +2256,15 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sn_volcano">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_volcano0">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -2227,17 +2276,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sn_volcano">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<Style id="sn_volcano10">
 		<IconStyle>
@@ -5795,6 +5833,22 @@ Risks: Arctic operating conditions; dependence on a single terminal and the Kola
 			<name>Refineries</name>
 			<Folder>
 				<name>Standard-Refineries</name>
+				<Placemark>
+					<name>ExxonMobil Joliet Refinery</name>
+					<description>Status: Operational
+Owner: ExxonMobil
+Capacity: 250,000-275,000 b/d
+Location: Joliet, Illinois, ~40 miles south-west of Chicago, near the junction of Interstate 55 and the Des Plaines River
+History: Built in 1972, making it one of the newer US refineries — designed from the outset to run CANADIAN crude, with specialised metallurgy and processing equipment for heavy, sour, diluted-bitumen blends rather than conventional domestic crude
+Feedstock: Western Canadian crude delivered by pipeline — sits directly on the Enbridge Mainline/Flanagan corridor that carries Alberta crude (including WCS) south from Superior toward Chicago and on to Cushing and the Gulf, already on this map
+Main products: Gasoline, ultra-low-sulfur diesel, LPG, asphalt, sulfur and petroleum coke — about 11 million gallons of gasoline and diesel a day, chiefly for the Midwest market
+Why it matters: One of the &quot;Chicagoland&quot; refinery trio (with BP Whiting, 440,000 b/d, and Citgo Lemont, 194,000 b/d) that anchors Midwest fuel supply and absorbs a large share of Canadian oil-sands exports — a direct downstream customer for the WCS barrels priced at Hardisty
+Risks: Severe-weather exposure (a 2024 storm-driven power outage forced a full shutdown); heavy reliance on a single crude source (Western Canada) and single delivery corridor</description>
+					<styleUrl>#default</styleUrl>
+					<Point>
+						<coordinates>-88.18479480957377,41.41306886818454,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>CNOOC Huizhou Refinery</name>
 					<description>Status: Operational (Phase 1 2009, Phase 2 2017)
@@ -14863,13 +14917,12 @@ Risks: Two-customer concentration in its purest form — if Feyzin stops refinin
 			<Placemark>
 				<name>Trans Mountain Pipeline</name>
 				<description>Status: Operational
-Route: Edmonton/Strathcona County, Alberta → Rocky Mountains → Kamloops/Merritt corridor → Burnaby, British Columbia (Westridge Marine Terminal); original ~1,150 km line, twinned by the ~980 km Trans Mountain Expansion (TMX)
-Owner/Operator: Trans Mountain Corporation — wholly owned by the Government of Canada since its 2018 purchase from Kinder Morgan
-Capacity: Original line 300,000 b/d; TMX (in service May 2024) brought total system capacity to 890,000 b/d, running near 87-95% utilisation through 2025
-Recent: TMX&apos;s new Westridge berths opened Canadian crude to Asian and US West Coast markets at scale for the first time; further debottlenecking (+200,000-300,000 b/d by decade&apos;s end) under study
-Strategic role: Canada&apos;s only crude pipeline to tidewater — the release valve for landlocked Alberta production that previously depended solely on Keystone/Enbridge routes into the US
-Risks: Near-full utilisation reopening egress-constraint debates; mountainous terrain and Indigenous-land/environmental sensitivity; the only system carrying Canadian crude to the Pacific coast</description>
-				<styleUrl>#failed9</styleUrl>
+Route: Edmonton, Alberta → Rockies → Kamloops/Merritt → Westridge Marine Terminal, Burnaby, BC
+Owner: Trans Mountain Corporation — Government of Canada (since 2018)
+Capacity: Two parallel lines — legacy (1953, 300,000 b/d) + TMX (2024, 590,000 b/d) = 890,000 b/d total, running 87-95% utilisation
+Strategic role: Canada&apos;s only crude pipeline to tidewater — opened Asian/US West Coast markets, easing dependence on US-bound Enbridge/Keystone routes
+Risks: Near-full utilisation; mountainous/Indigenous-land sensitivity; sole Pacific-coast outlet for Canadian crude</description>
+				<styleUrl>#failed92</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16259,6 +16312,25 @@ Risks: Tanker incidents (2019 precedent); anchorage congestion; dependence on AD
 			<Folder>
 				<name>Physical Price Assessments</name>
 				<Placemark>
+					<name>WCS Hardisty (Physical Assessment)</name>
+					<description>Status: Operational
+Type: Physical price assessment — Canada&apos;s benchmark heavy sour crude differential
+Function: Prices Western Canadian Select at the Hardisty blending hub — the reference point for the value of Canada&apos;s oil-sands export barrel
+Grade: WCS, ~20.9 API, ~3.5% sulfur (heavy sour), blended at Hardisty from bitumen, in-situ crude and diluent
+Mechanism: Assessed daily by Platts/Argus from real physical bids, offers and trades, quoted as a discount to the WTI Calendar Month Average (WTI CMA) — the average of WTI futures settlements over a delivery month, used because physical cargoes price for month-long delivery rather than a single day
+Why the discount moves: Widens when heavy-crude refinery demand falls (planned maintenance/turnarounds), when pipeline capacity out of Alberta is maxed out (surplus crude trapped at the hub), or when oil-sands production rises faster than takeaway capacity — all three hit at once in September 2026, pushing the discount to a two-year low near -$21/b
+Location differential — the same crude, three prices: WCS Hardisty (-$21.35 to WTI CMA, Sept 2026) is priced well below WCS Cushing (-$13/b) and WCS Nederland (-$12/b) — the gap is roughly the cost and risk of moving the barrel from the landlocked hub to the US refining markets
+Why here: Hardisty is the origin of the Enbridge Mainline and the pricing point where trapped Canadian barrels are most exposed to oversupply — the discount is effectively a live gauge of Canada&apos;s pipeline-capacity constraint
+Risks: Extreme sensitivity to Trans Mountain/Mainline apportionment and refinery-maintenance schedules; a discount that can swing over $10/b in weeks</description>
+					<styleUrl>#hub10</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-111.2701,52.86643040147968,0 -111.2118420415304,52.86364813938107,0 -111.1550404779559,52.85537091650156,0 -111.1011136596898,52.84180560463986,0 -111.0514050076418,52.82329098425036,0 -111.0071483947495,52.80028892776357,0 -110.9694368005102,52.77337243153919,0 -110.9391951037165,52.7432108515617,0 -110.9171577071604,52.71055277237313,0 -110.9038514983635,52.67620699569483,0 -110.8995844546538,52.64102217361337,0 -110.9044400104687,52.60586563113852,0 -110.9182771291303,52.57160192542445,0 -110.9407358675073,52.53907167579445,0 -110.971248094205,52.50907117225253,0 -111.0090529217271,52.48233323297151,0 -111.0532163395325,52.45950973588761,0 -111.102654485283,52.44115619837283,0 -111.1561599617283,52.42771872402891,0 -111.2124305918316,52.41952357855278,0 -111.2701,52.41676959852031,0 -111.3277694081684,52.41952357855278,0 -111.3840400382717,52.42771872402891,0 -111.437545514717,52.44115619837283,0 -111.4869836604674,52.45950973588761,0 -111.5311470782729,52.48233323297151,0 -111.568951905795,52.50907117225253,0 -111.5994641324927,52.53907167579445,0 -111.6219228708697,52.57160192542445,0 -111.6357599895313,52.60586563113852,0 -111.6406155453462,52.64102217361337,0 -111.6363485016365,52.67620699569483,0 -111.6230422928396,52.71055277237313,0 -111.6010048962835,52.7432108515617,0 -111.5707631994897,52.77337243153919,0 -111.5330516052505,52.80028892776357,0 -111.4887949923582,52.82329098425036,0 -111.4390863403102,52.84180560463986,0 -111.385159522044,52.85537091650156,0 -111.3283579584696,52.86364813938107,0 -111.2701,52.86643040147968,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
 					<name>Los Angeles CARBOB Assessment</name>
 					<description>Status: Operational
 Type: Physical price assessment — the US West Coast gasoline benchmark
@@ -16269,7 +16341,7 @@ Why here: The Los Angeles basin — the largest California fuel market, ringed b
 Why it matters: CARBOB is the pricing embodiment of California&apos;s isolation. Because the fuel spec is unique to the state and the West Coast has no pipeline link to Gulf Coast refineries, LA CARBOB can spike violently when a single local refinery trips — the same island dynamic that explains why the region has no mega-refinery. It is the product-market counterpart to ANS: the West Coast prices its crude off Brent and its gasoline off a spec nobody else uses
 Relationship to other benchmarks: The LA 3-2-1 crack spread is built from ANS crude, LA CARBOB gasoline and CARB diesel — the standard measure of West Coast refining profitability
 Risks: Extreme price volatility on refinery outages; structural gasoline-demand decline; a shrinking refinery base that thins the physical market behind the assessment</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16289,7 +16361,7 @@ Why merged: Mars is the anchor component of ASCI — they are the same medium-so
 Why it matters: This is how Saudi Arabia, Iraq and Kuwait set their Official Selling Prices (OSPs) for crude exported to the US — their US-bound barrels are benchmarked against ASCI, an American index
 Why here: Clovelly, Louisiana — the LOOP onshore delivery and storage hub for Mars pipeline crude
 Risks: Declining Gulf of Mexico medium-sour output shrinking the physical base; competition from light-sweet AGS/WTI Houston markers</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16307,7 +16379,7 @@ Mechanism: Assessed by Argus (Argus Houston WTI / AGS Marker) and Platts (WTI ME
 Why here: Magellan East Houston terminal on the Houston Ship Channel, where Permian pipelines (BridgeTex, Longhorn, Wink-to-Webster) land unblended WTI in segregated tankage
 Relationship to other benchmarks: The Cushing-to-Houston spread is pipeline economics made visible; WTI Houston removed the basis risk of pricing coastal barrels off the distant Cushing or Louisiana LLS markers
 Risks: Hurricane/ship-channel disruption; competition among MEH, ECHO and other terminals for the pricing point</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16325,7 +16397,7 @@ Mechanism: Assessed by Platts and Argus, typically as a differential to Dated Br
 Why here: The Valdez Marine Terminal, southern end of the Trans-Alaska Pipeline (TAPS) — already on this map — where ANS loads onto tankers for the US West Coast
 Why it matters: Represents a genuinely separate US pricing region; ANS trades on Brent-linked economics while everything else on the US map trades off WTI, making it the clearest illustration of how isolated the West Coast market is
 Risks: Declining North Slope output; TAPS minimum-throughput concerns; a shrinking, isolated West Coast refining base</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16343,7 +16415,7 @@ Mechanism: Assessed by Argus and Platts from physical spot trades at Midland-are
 Why it matters globally: Since 2023, WTI Midland delivered CIF Rotterdam is a deliverable component of Dated Brent — the first time a US grade entered the Brent basket. This is the physical link that ties the Permian directly to the European benchmark, and a big reason Permian export economics now move with the Brent-WTI spread
 Why here: The Midland-area terminals in the heart of the Permian, upstream of the Gulf coast pricing points, already mapped on this map as the Midland and Delaware basins
 Risks: Pipeline takeaway constraints from the Permian; quality-bank disputes as light Permian barrels dilute other streams</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16361,7 +16433,7 @@ Mechanism: Assessed by Argus and Platts from physical spot trades basis the St. 
 Market position: Argus describes it as the &quot;waning light sweet benchmark&quot; — it has lost ground to WTI Houston (MEH) as the export era pushed price discovery toward the Houston Ship Channel, but it remains the reference for Louisiana refinery and export barrels
 Why here: The St. James, Louisiana terminal complex, the physical delivery basis of the assessment
 Risks: Eroding liquidity as WTI Houston takes share; dependent on a shrinking pool of light-sweet trade at St. James</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16378,7 +16450,7 @@ Mechanism: Assessed daily by S&amp;P Global Platts from real loading programmes 
 What this circle encompasses: The North Sea fields and loading terminals underpinning the assessment — Brent/Ninian via Sullom Voe (Shetland), Forties via Hound Point/Dalmeny, Oseberg via Sture, Troll via Mongstad, and Ekofisk — all already mapped individually within this ring
 Why widened: The original Brent field is nearly exhausted; the basket has been progressively broadened (Forties 2002, Oseberg 2007, Ekofisk 2007, Troll 2018, WTI Midland 2023) to keep enough physical liquidity behind the benchmark — the same structural fix later applied to Dubai
 Risks: North Sea output decline; growing dependence on WTI Midland cargoes to maintain volume</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -16394,7 +16466,7 @@ Function: Prices Middle East sour crude sold to Asia — the region&apos;s oldes
 Mechanism: Assessed daily by S&amp;P Global Platts through the Market-on-Close process. Originally based only on Dubai&apos;s own Fateh field; since 2016 the deliverable basket has widened to five grades — Dubai, Oman, Upper Zakum, Al-Shaheen and Murban
 Why here: Fateh remains the symbolic and historical home of the assessment, even though the physical barrels behind it now mostly come from elsewhere
 Risks: A benchmark whose namesake field barely produces; credibility now rests entirely on the four other grades in the basket</description>
-					<styleUrl>#hub101</styleUrl>
+					<styleUrl>#hub1010</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
