@@ -684,6 +684,62 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="default0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="default00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default01">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="default010">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="default1">
 		<IconStyle>
 			<color>ff00ccff</color>
@@ -702,6 +758,16 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<StyleMap id="default10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl01</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="default2">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -713,75 +779,7 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="default0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#default2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="default">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#default1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="default01">
-		<IconStyle>
-			<color>ff00ff00</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="default00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#default010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hl00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="default010">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="default10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#default01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hl01</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="default3">
 		<Pair>
 			<key>normal</key>
@@ -802,6 +800,18 @@
 			<styleUrl>#hl2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="default5">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/water.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="default50">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -819,20 +829,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="default5">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/water.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<StyleMap id="failed">
 		<Pair>
 			<key>normal</key>
@@ -843,24 +839,6 @@
 			<styleUrl>#failed0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed1">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="failed0">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -889,6 +867,24 @@
 			<styleUrl>#failed2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="failed1">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="failed10">
 		<LineStyle>
 			<color>e6ff0000</color>
@@ -959,20 +955,6 @@
 			<styleUrl>#failed320</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed30">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="failed3">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -990,6 +972,18 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="failed30">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="failed300">
 		<IconStyle>
@@ -1077,20 +1071,6 @@
 			<color>ff00aa55</color>
 		</LineStyle>
 	</Style>
-	<Style id="hl0">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="hl">
 		<IconStyle>
 			<color>ff00ccff</color>
@@ -1109,6 +1089,30 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="hl0">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="hl00">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="hl01">
 		<IconStyle>
 			<color>ff00ff00</color>
@@ -1123,18 +1127,6 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="hl00">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="hl2">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -1146,8 +1138,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="hl20">
 		<IconStyle>
@@ -1216,26 +1206,6 @@
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="hub1024">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#hub10282</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hub10393</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="hub1022">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#hub10283</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hub10390</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="hub102">
 		<Pair>
 			<key>normal</key>
@@ -1244,16 +1214,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#hub10392</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="hub1021">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#hub10280</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hub1039</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="hub1020">
@@ -1266,12 +1226,42 @@
 			<styleUrl>#hub10391</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="hub1021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#hub10280</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hub1039</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="hub1022">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#hub10283</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hub10390</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="hub1023">
 		<LineStyle>
 			<color>ff27a2c9</color>
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="hub1024">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#hub10282</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hub10393</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="hub1027">
 		<LineStyle>
 			<color>ff27a2c9</color>
@@ -1284,25 +1274,25 @@
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
-	<Style id="hub10281">
-		<LineStyle>
-			<color>ff98c91b</color>
-			<width>2.6</width>
-		</LineStyle>
-	</Style>
-	<Style id="hub10283">
-		<LineStyle>
-			<color>ff98c91b</color>
-			<width>2.6</width>
-		</LineStyle>
-	</Style>
 	<Style id="hub10280">
 		<LineStyle>
 			<color>ff98c91b</color>
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
+	<Style id="hub10281">
+		<LineStyle>
+			<color>ff98c91b</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
 	<Style id="hub10282">
+		<LineStyle>
+			<color>ff98c91b</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="hub10283">
 		<LineStyle>
 			<color>ff98c91b</color>
 			<width>2.6</width>
@@ -1358,12 +1348,6 @@
 			<styleUrl>#hub1030</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="hub10391">
-		<LineStyle>
-			<color>ff98c91b</color>
-			<width>2.6</width>
-		</LineStyle>
-	</Style>
 	<Style id="hub1039">
 		<LineStyle>
 			<color>ff98c91b</color>
@@ -1371,6 +1355,12 @@
 		</LineStyle>
 	</Style>
 	<Style id="hub10390">
+		<LineStyle>
+			<color>ff98c91b</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="hub10391">
 		<LineStyle>
 			<color>ff98c91b</color>
 			<width>2.6</width>
@@ -1408,16 +1398,6 @@
 			<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mfailed20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="mfailed2">
 		<Pair>
 			<key>normal</key>
@@ -1426,6 +1406,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mfailed20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_airports000">
@@ -1898,8 +1888,6 @@
 		<IconStyle>
 			<scale>1.2</scale>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
@@ -1968,8 +1956,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_airports000">
 		<IconStyle>
@@ -2196,8 +2182,6 @@
 		</LabelStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin">
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
@@ -2365,9 +2349,23 @@
 	</StyleMap>
 	<Folder>
 		<name>A. Production</name>
-		<open>1</open>
 		<Folder>
 			<name>Oil Fields</name>
+			<Placemark>
+				<name>Bolívar Coastal Fields (Tía Juana–Lagunillas–Bachaquero)</name>
+				<description>Status: Operational — deep legacy decline
+Crude grade: Medium-heavy blends | API: ~9-22° (varies sharply by sub-field) | Sulfur: medium-high sour
+Operator: PDVSA (nationalised 1976; originally developed by Standard Oil/Creole Petroleum, Shell and Gulf)
+Role: THE largest oil field in South America and the largest outside the Middle East — 6,000-7,000 wells strung along 35 miles of Lake Maracaibo&apos;s eastern shore. Comprises seven named sub-fields: Tía Juana, Lagunillas, Bachaquero, Ceuta, Motatán, Barua and Ambrosio
+History: Discovered 1914, production from 1922 — this single complex built modern Venezuela&apos;s oil industry and made it the world&apos;s top exporter through the mid-20th century
+Extraction note: Tía Juana crude alone runs 9-11 API, so heavy that Cyclic Steam Stimulation and later Steam-Assisted Gravity Drainage (from 1987) were needed just to produce it economically
+Export route: Gathered at the Ulé Tank Farm (Tía Juana) for the Ule-Amuay pipeline north to Paraguaná; separately, western lake crude and Boscán route via La Salina/Bajo Grande
+Risks: A century of depletion; ageing lake-bed wells and platforms; the 1981 relocation of entire camp towns (Tía Juana, Lagunillas, Bachaquero) to drill beneath them shows how mature this basin already was decades ago</description>
+				<styleUrl>#default10</styleUrl>
+				<Point>
+					<coordinates>-71.55,10.2,0</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark>
 				<name>Orinoco Belt (Faja Petrolífera del Orinoco)</name>
 				<description>Status: Operational — well below historical capacity
@@ -5833,6 +5831,21 @@ Risks: Arctic operating conditions; dependence on a single terminal and the Kola
 			<open>1</open>
 			<Folder>
 				<name>Standard-Refineries</name>
+				<Placemark>
+					<name>Bajo Grande Refinery</name>
+					<description>Status: Operational
+Owner: PDVSA (originally built 1956 by Richmond, now Chevron)
+Capacity: 16,000 b/d — dedicated specifically to ASPHALT production
+Role: The third refining unit of the Paraguaná Refinery Complex (with Amuay and Cardón), though physically located here on Lake Maracaibo&apos;s western shore in Zulia rather than on the Paraguaná Peninsula
+Feedstock: Boscán and other extra-heavy, high-vanadium crude — precisely the grade best suited to asphalt rather than fuel production
+Location: Verified at 10°30&apos;31.40&quot;N, 71°38&apos;27.40&quot;W
+Connectivity: Sits ~3.6 km inland from its own dedicated loading jetty on the coast
+Risks: Small, specialised, single-product refinery; feedstock tied to Boscán&apos;s own sanctions-affected output</description>
+					<styleUrl>#default</styleUrl>
+					<Point>
+						<coordinates>-71.6409,10.5087,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>CEPSA Gibraltar-San Roque Refinery</name>
 					<description>Status: Operational
@@ -10022,12 +10035,26 @@ Risks: Feedstock competition and cost; mandate-policy dependence; small scale ag
 	</Folder>
 	<Folder>
 		<name>B. Gateways</name>
-		<open>1</open>
 		<Folder>
 			<name>Crude Terminals (import / export)</name>
 			<open>1</open>
 			<Folder>
 				<name>Import &amp; Export Terminal</name>
+				<Placemark>
+					<name>Bajo Grande Jetty (Terminal)</name>
+					<description>Status: Operational — capacity-constrained
+Owner/Operator: PDVSA, serving the Petroboscán JV (PDVSA 60%, Chevron 40%)
+Role: The actual loading jetty for Bajo Grande — a narrow pier reaching into Lake Maracaibo with a small offshore mooring point, NOT a multi-berth port; visibly modest infrastructure matching its low throughput
+Capacity: 96,000 b/d shipping capacity; 1.345 million barrels storage
+Location: Verified at 10°30&apos;40.52&quot;N, 71°36&apos;27.92&quot;W — approximately 3.6 km east of the Bajo Grande refinery itself
+Connectivity: Receives crude via the Boscán-Bajo Grande feeder pipeline; loads small tankers (capped ~250,000 bbl by the lake channel&apos;s 9.8 m draft limit) for ship-to-ship transfer at Amuay Bay
+Why the infrastructure looks minimal: This terminal was built for asphalt-grade crude in small volumes, not for large tanker traffic — a single narrow jetty and mooring point is genuinely all the site requires
+Risks: Vapour-generation equipment shortfalls have repeatedly cut loading rates; export volume tied directly to Chevron&apos;s OFAC licence status</description>
+					<styleUrl>#mfailed20</styleUrl>
+					<Point>
+						<coordinates>-71.6078,10.5113,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>La Salina Terminal (Cabimas)</name>
 					<description>Status: Operational — underutilised (~25% utilisation per PDVSA&apos;s own reporting)
@@ -14054,7 +14081,6 @@ Risks: Cargo origin becomes hard to trace (the point for some users, a complianc
 	</Folder>
 	<Folder>
 		<name>C. Corridors</name>
-		<open>1</open>
 		<Folder>
 			<name>Crude Pipelines</name>
 			<Placemark>
@@ -16865,7 +16891,6 @@ Risks: Southern Ocean weather; bunker-price exposure; South African port congest
 	</Folder>
 	<Folder>
 		<name>D. Storage &amp; Pricing</name>
-		<open>1</open>
 		<Folder>
 			<name>Pricing Hubs and Benchmarks</name>
 			<open>1</open>
@@ -17264,7 +17289,7 @@ Risks: Newer and less liquid than Brent or WTI; competes with GME Oman and Platt
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							56.35774101963817,25.2496626512223,0 56.38424608299198,25.24381576859335,0 56.40488674016069,25.23134582961363,0 56.41711937535098,25.20905921875873,0 56.41767511638833,25.18963580468331,0 56.40903402338403,25.16045055845593,0 56.39322550314863,25.15177468975307,0 56.37094936438869,25.1466954821294,0 56.3398200922944,25.15439366254981,0 56.30166254705097,25.18366523691931,0 56.29328979029648,25.21270302876228,0 56.30306165533332,25.23153976324372,0 56.32201862698559,25.25000666339157,0 56.35774101963817,25.2496626512223,0 
+							56.35774101963817,25.2496626512223,0 56.38424608299198,25.24381576859335,0 56.40488674016069,25.23134582961363,0 56.41711937535098,25.20905921875873,0 56.41767511638833,25.18963580468331,0 56.40903402338403,25.16045055845593,0 56.39322550314863,25.15177468975307,0 56.37094936438869,25.1466954821294,0 56.33982009229441,25.15439366254981,0 56.30166254705097,25.18366523691931,0 56.29328979029648,25.21270302876228,0 56.30306165533332,25.23153976324372,0 56.32201862698559,25.25000666339157,0 56.35774101963817,25.2496626512223,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
