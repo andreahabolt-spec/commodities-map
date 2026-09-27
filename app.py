@@ -4,7 +4,6 @@ import re
 
 import streamlit as st
 import folium
-from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
 
 from kml_parser import parse_kml, get_field
@@ -107,64 +106,67 @@ STAGE_ORDER = list(STAGE_LABELS.keys())
 
 # Short explanations shown behind the ❓ icon of each stage.
 STAGE_HELP = {
-    "A. Production": (
-        "**What it shows:** where oil physically enters the system.\n\n"
-        "**Contains:** onshore and offshore oil fields, mega- and standard refineries, "
-        "renewable-fuel units.\n\n"
-        "**Why it matters:** production geography sets which crude grades exist and where; "
-        "refinery locations decide which crudes are demanded — and which products flow out."
+        "A. Production": (
+        "**What it shows:** where oil physically enters the system and where it is first "
+        "turned into something sellable.\n\n"
+        "**Contains:** oil fields; refineries split into standard and mega (above 500,000 b/d); "
+        "and biofuel production separated into HVO / SAF plants and FAME biodiesel.\n\n"
+        "**Why it matters:** production geography decides which crude grades exist and where. "
+        "Refinery configuration decides which of them anyone actually wants, a plant with a "
+        "coker can run heavy sour crude, a simple one cannot and that mismatch is what gives "
+        "each grade its discount or its premium."
     ),
     "B. Gateways": (
-        "**What it shows:** where oil changes mode between land and sea.\n\n"
-        "**Contains:** crude export/import terminals (incl. offshore SPM buoys), ports and "
-        "logistics hubs, ship-to-ship transfer zones.\n\n"
-        "**Why it matters:** gateways are where disruptions bite — a closed terminal strands "
-        "production upstream and reroutes trade downstream."
+        "**What it shows:** where oil changes mode between field and pipe, land and sea.\n\n"
+        "**Contains:** crude import and export terminals; offshore tanker loading points "
+        "crude processing and gathering hubs, where separate field streams "
+        "converge before entering a trunk line; seaports and energy ports; and ship-to-ship "
+        "transfer anchorages.\n\n"
+        "**Why it matters:** gateways are where a disruption bites hardest, a closed terminal "
+        "strands production upstream and reroutes trade downstream. They also expose the "
+        "workarounds: where the water is too shallow to load a full cargo, the barrel leaves in "
+        "small tankers and is rebuilt into a cargo offshore."
     ),
     "C. Corridors": (
-        "**What it shows:** how oil moves between the nodes — and where those flows constrict.\n\n"
-        "**Contains:** crude and product pipelines, maritime routes with grade fact sheets "
-        "(API, sulphur, pricing, transit times), inland waterways and their reference gauges, "
-        "and maritime chokepoints (straits and canals).\n\n"
-        "**Why it matters:** freight and transit costs set regional price spreads, and chokepoints "
-        "show what happens when they fail — most of the 2026 stories on this map are corridor "
-        "stories (Hormuz, Druzhba, the Rhine at Kaub)."
+        "**What it shows:** how oil moves between the nodes and where those flows constrict.\n\n"
+        "**Contains:** crude pipelines, product pipelines, crude-by-rail corridors, maritime "
+        "routes carrying grade fact sheets (API, sulphur, pricing, transit times), inland "
+        "waterways with their reference gauges, and the straits every route has to squeeze "
+        "through.\n\n"
+        "**Why it matters:** freight and transit costs set regional price spreads, and a corridor "
+        "failing reroutes an entire trade. The mode itself is often the story, rail appears "
+        "exactly where no pipeline exists (Alberta to the St. Lawrence), and most of the 2026 "
+        "disruptions on this map are corridor events: Hormuz, Bab el Mandeb, Druzhba, the Rhine at Kaub."
     ),
     "D. Storage & Pricing": (
-        "**What it shows:** where oil waits — and where its price is formed.\n\n"
-        "**Contains:** commercial depots, inland tank farms, strategic reserves, and the "
-        "locations of pricing benchmarks (delivery points such as ARA or Cushing).\n\n"
-        "**Why it matters:** storage depth decides how long a disruption can be absorbed; "
-        "pricing hubs are where paper markets touch physical barrels."
+        "**What it shows:** where oil waits and where its price is actually set.\n\n"
+        "**Storage:** independent commercial tank terminals, plus strategic petroleum "
+        "reserves (SPR) held by governments rather than traders.\n\n"
+        "**Pricing, split four ways:**\n\n"
+        "- *Major Energy Hubs* ;the broad physical trading zones (ARA, Cushing, Singapore, "
+        "Fujairah).\n"
+        "- *Physical Price Assessments* ;prices built from real cargo trades and assessed "
+        "daily by Platts or Argus (Dated Brent, WTI Midland, WCS Hardisty, CIF NWE ULSD).\n"
+        "- *Financial Derivatives & Futures* ;the paper contracts used to hedge those "
+        "physical prices (ICE Brent, NYMEX WTI, ASCI, LA CARBOB).\n"
+        "- *Inter-Benchmark Spreads* ;arbitrage relationships between two benchmarks "
+        "(WTI-Brent, Brent-Dubai EFS).\n\n"
+        "**Why it matters:** storage depth decides how long a disruption can be absorbed. On "
+        "pricing, every physical assessment here is paired with the derivative that hedges it "
+        " which is precisely where the paper market touches a physical barrel."
     ),
     "E. Demand Centres": (
-        "**What it shows:** where oil and its products are consumed at scale, as final "
-        "counterparties to the rest of the chain.\n\n"
-        "**Contains:** standalone petrochemical plants (naphtha/LPG demand) and airport "
-        "jet-fuel demand nodes — bulk, single-site consumers large enough to move a "
-        "regional balance on their own.\n\n"
-        "**Why it matters:** demand anchors explain why the corridors exist in the first place."
+        "**What it shows:** where oil and its products are finally consumed at scale, as the "
+        "end counterparties to everything upstream.\n\n"
+        "**Contains:** standalone petrochemical plants (naphtha and LPG demand) and aviation (jet demand) "
+        "separated into civil airports and military air basesbulk, single-site "
+        "consumers large enough to move a regional balance on their own.\n\n"
+        "**Why it matters:** demand anchors explain why the corridors exist at all. A "
+        "refinery's product slate is built around who is waiting at the other end of the chain."
     ),
 }
 
-STATUS_VALUES = ["Operational", "Reduced", "Offline", "Planned", "Converting"]
-
-REGION_CHOICES = ["World", "Europe & Black Sea", "Middle East & North Africa",
-                  "Africa & Indian Ocean", "Americas", "Asia-Pacific"]
-
-def region_of(lat, lon):
-    """Approximate market region from coordinates (bounding boxes, checked in order)."""
-    if lon < -30:
-        return "Americas"
-    if (lat >= 44 and -25 <= lon <= 60) or (lat >= 35.5 and -10 <= lon <= 19) \
-            or (lat >= 38 and 19 < lon <= 29.5):
-        return "Europe & Black Sea"
-    if 10 <= lat <= 44 and -10 <= lon <= 62:
-        return "Middle East & North Africa"
-    if lat <= 12 and -20 <= lon <= 60:
-        return "Africa & Indian Ocean"
-    return "Asia-Pacific"
-
+STATUS_VALUES = ["Operational", "Reduced", "Offline", "Planned", "Pending", "Converting"]
 
 
 def normalize_status(raw):
@@ -182,6 +184,8 @@ def normalize_status(raw):
         return "Reduced"
     if any(k in s for k in ("planned", "proposed", "under construction", "construction")):
         return "Planned"
+    if any(k in s for k in ("pending", "awaiting", "on hold")):
+        return "Pending"
     if any(k in s for k in ("convert", "transform", "repurpos")):
         return "Converting"
     return "Operational"
@@ -231,15 +235,91 @@ GLYPHS = {
         "<path d='M3 20c2-1.6 4-1.6 6 0s4 1.6 6 0 4-1.6 6 0' stroke='{c}' stroke-width='1.8' fill='none'/>",
 }
 # sub-section glyph overrides
-GLYPH_OFFSHORE = "<circle cx='12' cy='12' r='6.2' fill='none' stroke='{c}' stroke-width='4.2'/>"
+# Offshore SPM buoy: ring + a short mooring mast, reads as a floating buoy, not just a circle
+GLYPH_OFFSHORE = (
+    "<circle cx='12' cy='13.5' r='5.6' fill='none' stroke='{c}' stroke-width='3.6'/>"
+    "<path d='M12 7.9V3.2' stroke='{c}' stroke-width='2.2' stroke-linecap='round'/>"
+    "<circle cx='12' cy='3.2' r='1.5' fill='{c}'/>"
+)
+# Ship-to-ship transfer: two vessel hulls side by side with a connecting transfer line
+GLYPH_STS = (
+    "<path d='M2.5 15.5h6.6l-1.1 3.4H3.6z' fill='{c}'/>"
+    "<path d='M14.9 15.5h6.6l-1.1 3.4h-4.4z' fill='{c}'/>"
+    "<path d='M9.3 15.9h5.4' stroke='{c}' stroke-width='2' stroke-linecap='round'/>"
+    "<circle cx='9.3' cy='15.9' r='1.1' fill='{c}'/><circle cx='14.7' cy='15.9' r='1.1' fill='{c}'/>"
+)
+
+# --- Mega-refinery: twin stacks + wide plant body, visibly bigger than Standard ---
+GLYPH_MEGA_REFINERY = (
+    "<path d='M2.5 20.5V11l4.6 2.6V11l4.6 2.6V11l4.6 2.6V6.5h4.2v14z' fill='{c}'/>"
+    "<rect x='6.4' y='2.5' width='1.9' height='5' fill='{c}'/>"
+    "<rect x='10.2' y='1.2' width='1.9' height='6.3' fill='{c}'/>"
+)
+# --- Gathering hub: several inbound streams converging into one outbound line ---
+GLYPH_GATHERING = (
+    "<path d='M3 5.5L11 12M3 18.5L11 12M11 12h9.5' stroke='{c}' stroke-width='2.1' "
+    "fill='none' stroke-linecap='round'/>"
+    "<circle cx='11' cy='12' r='3.1' fill='{c}'/>"
+    "<circle cx='3' cy='5.5' r='1.5' fill='{c}'/><circle cx='3' cy='18.5' r='1.5' fill='{c}'/>"
+)
+# --- SPR: tank buried BELOW a ground line — strategic reserve, not commercial storage ---
+GLYPH_SPR = (
+    "<path d='M1.5 8.5h21' stroke='{c}' stroke-width='2' stroke-linecap='round'/>"
+    "<path d='M3.2 6.2l1.6-2.4M8 6.2l1.6-2.4M12.8 6.2l1.6-2.4M17.6 6.2l1.6-2.4' "
+    "stroke='{c}' stroke-width='1.3' stroke-linecap='round'/>"
+    "<rect x='5.5' y='11' width='13' height='9' rx='1.4' fill='{c}'/>"
+    "<ellipse cx='12' cy='11' rx='6.5' ry='2.2' fill='{c}' stroke='white' stroke-width='0.9'/>"
+)
+# --- FAME biodiesel: droplet (esterified oil) vs the HVO/SAF leaf ---
+GLYPH_FAME = (
+    "<path d='M12 2.8c3.6 4.6 5.6 7.6 5.6 10.3a5.6 5.6 0 0 1-11.2 0c0-2.7 2-5.7 5.6-10.3z' fill='{c}'/>"
+    "<path d='M9.4 13.6a2.6 2.6 0 0 0 2.6 2.6' stroke='white' stroke-width='1.2' fill='none' "
+    "stroke-linecap='round'/>"
+)
+# --- Military air base: swept-wing jet, distinct from the civil airliner glyph ---
+GLYPH_MIL_AIR = (
+    "<path d='M12 2.2l1.5 6.4 7.8 4.6v2.1l-7.6-2.3v3.6l2.4 2v1.6L12 19.4l-4.1.8v-1.6l2.4-2v-3.6"
+    "l-7.6 2.3v-2.1l7.8-4.6z' fill='{c}'/>"
+    "<circle cx='12' cy='21.3' r='1.3' fill='{c}'/>"
+)
 
 DEFAULT_ICON_SIZE = 21
 MEGA_ICON_SIZE = 30
 
 
+STS_SUBSECTION = "STS / anchorage transfer zones"
+
+# Every sub-section gets its OWN recognisable glyph so sibling sub-folders are never
+# confused with one another. Keyed by exact sub-section name as it appears in the KML.
+# Sub-sections that legitimately inherit their parent's glyph (because the parent icon
+# already depicts that exact thing) are listed explicitly rather than left to fall
+# through, so the mapping is auditable.
+SUBSECTION_GLYPHS = {
+    # A. Production
+    "Standard-Refineries":              lambda: GLYPHS["Refineries"],
+    "Mega-refineries":                  lambda: GLYPH_MEGA_REFINERY,
+    "HVO / SAF plants":                 lambda: GLYPHS["Biofuel & Low-Carbon Production"],
+    "FAME biodiesel plants":            lambda: GLYPH_FAME,
+    # B. Gateways
+    "Import & Export Terminal":         lambda: GLYPHS["Crude Terminals (import / export)"],
+    "Offshore Tanker Loading":          lambda: GLYPH_OFFSHORE,
+    "Crude Processing & Gathering Hubs": lambda: GLYPH_GATHERING,
+    "Seaports & energy ports":          lambda: GLYPHS["Ports & Logistics Hubs"],
+    "STS / anchorage transfer zones":   lambda: GLYPH_STS,
+    # C. Corridors (point assets living inside corridor folders)
+    "Gauge / reference points":         lambda: GLYPHS["Inland Waterways"],
+    # D. Storage & Pricing
+    "Independent Storage Terminals":    lambda: GLYPHS["Storage & Depots"],
+    "SPR":                              lambda: GLYPH_SPR,
+    # E. Demand Centres
+    "Civil airports":                   lambda: GLYPHS["Aviation Fuel Demand"],
+    "Military air bases":               lambda: GLYPH_MIL_AIR,
+}
+
+
 def glyph_for(category, subsection):
-    if category == "Crude Terminals (import / export)" and subsection == OFFSHORE_SUBSECTION:
-        return GLYPH_OFFSHORE
+    if subsection in SUBSECTION_GLYPHS:
+        return SUBSECTION_GLYPHS[subsection]()
     return GLYPHS.get(category, "<circle cx='12' cy='12' r='7' fill='{c}'/>")
 
 
@@ -371,14 +451,13 @@ data = load_data(kml_file, os.path.getmtime(kml_file))
 all_items = data["points"] + data["lines"]
 for it in all_items:
     it["status"] = normalize_status(get_field(it["description"], "Status"))
-    it["renewables"] = get_field(it["description"], "Renewables")
 
 route_categories = [c for c in data["categories"] if c in ROUTE_COLORS and any(l["category"] == c for l in data["lines"])]
 point_categories = [c for c in data["categories"] if any(p["category"] == c for p in data["points"])]
 
-st.title("Global Energy Infrastructure Map")
-st.caption("The oil value chain — production, gateways, corridors, storage & pricing, "
-           "demand & constraints — mapped worldwide across all major trade routes.")
+st.title("Global Oil Infrastructure Map")
+st.caption("The oil value chain mapped worldwide.")
+
 if kml_warning:
     st.warning(kml_warning)
 
@@ -415,7 +494,6 @@ def _toggle_everything():
                 st.session_state[f"sub_{cat}_{s}"] = True
     if turn_on:
         st.session_state["status_pick"] = list(STATUS_VALUES)
-        st.session_state["renew_only"] = False
 
 _toggle_label = "🚫 Disable all layers" if _all_layers_on() else "🌐 Enable all layers"
 st.sidebar.button(
@@ -425,19 +503,6 @@ st.sidebar.button(
     help="One switch for the whole map: turns every layer off for a clean start, "
          "or everything back on (sections, sub-sections, statuses) for the full picture. "
          "The label follows the current state.",
-)
-
-region_pick = st.sidebar.selectbox(
-    "🌍 Region", REGION_CHOICES, key="region_pick",
-    help="Isolate one market region. Boundaries are approximate trading-region "
-         "buckets (e.g. Türkiye's Mediterranean coast counts as Middle East & North "
-         "Africa, the Black Sea as Europe). The map zooms to the selected region.",
-)
-cluster_on = st.sidebar.checkbox(
-    "🔬 Group nearby assets", value=True, key="cluster_on",
-    help="Collapses dense clusters (ARA, the Gulf, Sicily…) into numbered bubbles "
-         "at low zoom — zoom in or click a bubble to expand it. Turn off to always "
-         "see every individual marker.",
 )
 
 def _stage_header(stage):
@@ -458,6 +523,18 @@ def _stage_header(stage):
                     unsafe_allow_html=True,
                 )
 
+def _swatch(cat, subsection, is_route):
+    """Legend mark for one row: a line swatch for corridor/pricing rows, otherwise
+    the glyph. Pricing sub-sections colour their own swatch (gold/red/teal/purple)."""
+    if is_route:
+        colour = (pricing_color(subsection) if cat == PRICING_CATEGORY and subsection
+                  else ROUTE_COLORS.get(cat, DEFAULT_ROUTE_COLOR))
+        return line_swatch(colour,
+                           dashed=(cat == PRICING_CATEGORY),
+                           casing=("Pipelines" in cat))
+    return category_icon_svg(cat, subsection, 18)
+
+
 for stage in STAGE_ORDER:
     cats_in_stage = [c for c in data["categories"] if data["stages"].get(c) == stage]
     if not cats_in_stage:
@@ -467,50 +544,62 @@ for stage in STAGE_ORDER:
         n_pts = sum(1 for p in data["points"] if p["category"] == cat)
         n_lns = sum(1 for l in data["lines"] if l["category"] == cat)
         is_route = cat in ROUTE_COLORS and n_lns > 0
-        cols = st.sidebar.columns([0.13, 0.87])
-        with cols[0]:
-            if is_route:
-                st.markdown(line_swatch(ROUTE_COLORS[cat], dashed=(cat == "Pricing Hubs and Benchmarks"), casing=("Pipelines" in cat)), unsafe_allow_html=True)
-            else:
-                st.markdown(category_icon_svg(cat, "", 18), unsafe_allow_html=True)
-        with cols[1]:
-            count = n_pts + n_lns
+        count = n_pts + n_lns
+
+        # Sub-sections that actually hold assets. Empty ones are hidden so they
+        # never show a row with a (0) next to it.
+        subs = [s for s in subsections_of(cat)
+                if any(it["category"] == cat and it["subsection"] == s for it in all_items)]
+
+        # The icon lives on the sub-folder rows. Only a category with no populated
+        # sub-folders keeps its own icon, otherwise it would have no mark at all.
+        cat_is_leaf = not subs
+
+        if cat_is_leaf:
+            cols = st.sidebar.columns([0.13, 0.87])
+            with cols[0]:
+                st.markdown(_swatch(cat, "", is_route), unsafe_allow_html=True)
+            with cols[1]:
+                label = f"{cat}  ({count})" if count else f"{cat}  (empty)"
+                checked = st.checkbox(label, value=bool(count),
+                                      key=f"cat_{cat}", disabled=not count)
+        else:
             label = f"{cat}  ({count})" if count else f"{cat}  (empty)"
-            checked = st.checkbox(label, value=bool(count), key=f"cat_{cat}", disabled=not count)
+            checked = st.sidebar.checkbox(label, value=bool(count),
+                                          key=f"cat_{cat}", disabled=not count)
+
         if is_route:
             route_visibility[cat] = checked
         if n_pts and checked:
             selected_categories.add(cat)
-        # sub-section expander (only when a section has 2+ subsections)
-        subs = subsections_of(cat)
-        if checked and len(subs) >= 2:
-            with st.sidebar.expander(f"   types in {cat.split(' (')[0]}", expanded=False):
-                chosen = set()
-                for s in subs:
-                    n = sum(1 for it in all_items if it["category"] == cat and it["subsection"] == s)
+
+        # Sub-folders: always visible (no expander), each with its own icon.
+        if subs and checked:
+            chosen = set()
+            for s in subs:
+                n = sum(1 for it in all_items
+                        if it["category"] == cat and it["subsection"] == s)
+                # a sub-folder is only "route-like" if it actually holds lines
+                sub_has_lines = any(l["category"] == cat and l["subsection"] == s
+                                    for l in data["lines"])
+                sub_cols = st.sidebar.columns([0.08, 0.13, 0.79])
+                with sub_cols[1]:
+                    st.markdown(_swatch(cat, s, is_route and sub_has_lines),
+                                unsafe_allow_html=True)
+                with sub_cols[2]:
                     if st.checkbox(f"{s} ({n})", value=True, key=f"sub_{cat}_{s}"):
                         chosen.add(s)
-                selected_subsections[cat] = chosen
+            selected_subsections[cat] = chosen
 
 st.sidebar.divider()
 st.sidebar.subheader("Filters")
 status_pick = st.sidebar.multiselect("Status", STATUS_VALUES, default=STATUS_VALUES, key="status_pick")
-renew_only = st.sidebar.checkbox("Only refineries with renewables", value=False, key="renew_only")
 search = st.sidebar.text_input("Search a location by name")
 
 def keep(it):
-    if region_pick != "World":
-        if "lat" in it:
-            if region_of(it["lat"], it["lon"]) != region_pick:
-                return False
-        else:  # line: keep if any vertex falls in the region
-            if not any(region_of(la, lo) == region_pick for (la, lo) in it["coords"]):
-                return False
     if it["category"] in selected_subsections and it["subsection"] and it["subsection"] not in selected_subsections[it["category"]]:
         return False
     if it["status"] not in status_pick:
-        return False
-    if renew_only and it["category"] == "Refineries" and (not it["renewables"] or it["renewables"].lower().startswith("none")):
         return False
     if search and search.lower() not in it["name"].lower():
         return False
@@ -523,27 +612,19 @@ st.sidebar.markdown(f"**{len(filtered_points)}** markers shown out of {len(data[
 # MAP
 # ---------------------------------------------------------------------------
 m = folium.Map(location=[30, 15], zoom_start=3, min_zoom=2, max_bounds=True, tiles=None)
-folium.TileLayer(tiles="OpenStreetMap",name="OpenStreetMap",no_wrap=True,control=False).add_to(m)
-m.get_root().html.add_child(folium.Element("<style>.svg-marker{background:transparent;border:none;}</style>"))
+# Reverted to the original, proven-stable base layer after three broken attempts
+# at an English-labelled alternative (CartoDB: API-key wall; Esri Light Gray: no
+# colour; Esri Terrain: "Map data not yet available" gaps at deep zoom). Plain
+# OpenStreetMap renders reliably everywhere; the English-label problem needs a
+# properly verified fix rather than another guess.
+folium.TileLayer(tiles="OpenStreetMap", name="OpenStreetMap", no_wrap=True, control=False).add_to(m)
 
-if region_pick != "World":
-    _pts = [(p["lat"], p["lon"]) for p in filtered_points]
-    for l in data["lines"]:
-        if route_visibility.get(l["category"], True) and keep(l):
-            _pts.extend(l["coords"])
-    if _pts:
-        _lats = [a for a, _ in _pts]; _lons = [b for _, b in _pts]
-        m.fit_bounds([[min(_lats), min(_lons)], [max(_lats), max(_lons)]], padding=(30, 30))
+m.get_root().html.add_child(folium.Element("<style>.svg-marker{background:transparent;border:none;}</style>"))
 
 for cat in point_categories:
     if cat not in selected_categories:
         continue
-    if cluster_on:
-        group = MarkerCluster(name=cat, options={
-            "disableClusteringAtZoom": 7, "maxClusterRadius": 45,
-            "showCoverageOnHover": False, "spiderfyOnMaxZoom": True})
-    else:
-        group = folium.FeatureGroup(name=cat, show=True)
+    group = folium.FeatureGroup(name=cat, show=True)
     for p in (x for x in filtered_points if x["category"] == cat):
         folium.Marker(
             location=[p["lat"], p["lon"]],
