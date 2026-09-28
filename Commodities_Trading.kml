@@ -684,6 +684,11 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
+	<Style id="default">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+	</Style>
 	<StyleMap id="default0">
 		<Pair>
 			<key>normal</key>
@@ -691,7 +696,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#hl0</styleUrl>
+			<styleUrl>#hl01</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="default00">
@@ -750,6 +755,16 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="default1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="default10">
 		<Pair>
 			<key>normal</key>
@@ -757,7 +772,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#hl01</styleUrl>
+			<styleUrl>#hl010</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="default2">
@@ -767,7 +782,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#hl</styleUrl>
+			<styleUrl>#hl0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="default20">
@@ -886,18 +901,6 @@
 			<styleUrl>#failed320</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed301">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="failed30">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -927,6 +930,18 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="failed301">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="failed32">
 		<LineStyle>
@@ -1000,18 +1015,14 @@
 		<IconStyle>
 			<scale>1.2</scale>
 		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
 	</Style>
 	<Style id="hl0">
 		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<scale>1.2</scale>
 		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
 	</Style>
 	<Style id="hl00">
 		<IconStyle>
@@ -1038,6 +1049,18 @@
 		</LabelStyle>
 	</Style>
 	<Style id="hl01">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="hl010">
 		<IconStyle>
 			<color>ff00ff00</color>
 			<scale>0.84</scale>
@@ -1193,16 +1216,6 @@
 			<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mfailed20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed301</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin500</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="mfailed2">
 		<Pair>
 			<key>normal</key>
@@ -1211,6 +1224,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mfailed20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin500</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_airports000">
@@ -1393,16 +1416,6 @@
 			<styleUrl>#sh_volcano00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -1413,34 +1426,14 @@
 			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
+	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin001">
@@ -1451,6 +1444,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10">
@@ -1473,6 +1476,16 @@
 			<styleUrl>#sh_ylw-pushpin000</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
@@ -1481,6 +1494,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin30">
@@ -1728,8 +1751,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -1748,8 +1769,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
@@ -1791,49 +1810,8 @@
 	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
-			<color>ff00ccff</color>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin4">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin3">
-		<IconStyle>
 			<scale>1.2</scale>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
@@ -1911,11 +1889,56 @@
 	</Style>
 	<Style id="sh_ylw-pushpin2">
 		<IconStyle>
-			<scale>1.2</scale>
+			<color>ff00ccff</color>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<color>ff00ccff</color>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin50">
 		<IconStyle>
@@ -2144,8 +2167,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -2164,8 +2185,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
@@ -2205,38 +2224,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin1">
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin3">
-		<IconStyle>
-			<color>ff00ccff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -2248,8 +2235,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
@@ -2286,6 +2271,11 @@
 			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -2320,6 +2310,42 @@
 	<Style id="sn_ylw-pushpin20">
 	</Style>
 	<Style id="sn_ylw-pushpin200">
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<color>ff00ccff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<color>ff00ccff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="style1000">
 		<LineStyle>
@@ -8263,18 +8289,17 @@ Recent: Under EU, US, UK, Swiss, Canadian and Ukrainian sanctions since 2022; 20
 Strategic role: One of Belarus&apos;s two major refineries (with Naftan) — national fuel self-sufficiency and continued Russian-crude processing
 Risks: Sanctions; loss of Western markets; proximity to the war; Druzhba dependence; parts and equipment access</description>
 					<LookAt>
-						<longitude>29.25</longitude>
-						<latitude>52.018</latitude>
+						<longitude>29.24739482553392</longitude>
+						<latitude>51.90864515307543</latitude>
 						<altitude>0</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>5000</range>
-						<altitudeMode>absolute</altitudeMode>
+						<heading>0.2589097729314493</heading>
+						<tilt>1.400291970756585</tilt>
+						<range>38610.0326274674</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<styleUrl>#msn_ylw-pushpin11</styleUrl>
 					<Point>
-						<coordinates>29.25,52.018,130</coordinates>
+						<coordinates>29.32442826177664,51.89238508069394,130</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="3C25956D108FB1189A11">
@@ -8349,7 +8374,7 @@ Risks: Rail-logistics dependence; margin exposure without upstream production; P
 					</Camera>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<Point>
-						<coordinates>86.14077696836429,56.12396329095866,233</coordinates>
+						<coordinates>86.14077696836429,56.12396329095867,233</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="84EE0B6A38381F792A47">
@@ -12651,7 +12676,7 @@ Strategic role: Gives Timan-Pechora crude an export route that bypasses the Tran
 Risks: Arctic ice and weather; dependence on a small ice-class shuttle fleet and the Kola Bay transshipment link</description>
 					<styleUrl>#mfailed2</styleUrl>
 					<Point>
-						<coordinates>58.09970998858309,68.92457494561121,0</coordinates>
+						<coordinates>58.0997099885831,68.92457494561121,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13082,7 +13107,7 @@ Why it matters: Tatarstan&apos;s heavy, high-sulfur crude entering here is a pri
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
 					<styleUrl>#msn_ylw-pushpin</styleUrl>
 					<Point>
-						<coordinates>52.21859866303819,54.92358404998185,0</coordinates>
+						<coordinates>52.2185986630382,54.92358404998185,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14602,6 +14627,42 @@ Risks: Cargo origin becomes hard to trace (the point for some users, a complianc
 		<Folder>
 			<name>Crude Pipelines</name>
 			<Placemark>
+				<name>Druzhba Northern Branch (Mozyr–Adamowo, Belarus–Poland)</name>
+				<description>Status: Offline since 25 February 2023 — infrastructure intact, no crude flowing
+Route: Mozyr junction, Belarus (where Druzhba splits north and south) → Pinsk → Kobryn → Brest → crosses the Belarus-Poland border into the Adamowo tank farm (already on this map)
+Owner/Operator: Transneft (Russian system) / Gomeltransneft Druzhba (Belarusian section); hands over to PERN at the Polish border
+Role: The international leg that physically delivered Russian and Kazakh crude INTO Poland — the missing upstream half of the Przyjazn Leg 1 (Adamowo-Plock) line already on this map, which previously began at the border with nothing behind it
+Why it stopped: Russia itself halted deliveries to Poland on 25 February 2023, the day after the first anniversary of the full invasion. This was NOT an EU sanction — Druzhba was deliberately exempted to protect landlocked Hungary, Slovakia and the Czech Republic. By then Russian crude was already only ~10% of PKN Orlen&apos;s supply, under a Tatneft contract
+What replaced it: Seaborne imports through Naftoport/Gdansk, plus the 2022 Saudi Aramco deal supplying ~45% of Orlen&apos;s national crude requirement
+Why keep it mapped: A precisely dated example of a major European crude corridor going to zero while the steel stays in the ground — the northern Druzhba branch is stranded, not dismantled, and could resume if relations changed
+Risks: Politically stranded asset; no resumption in prospect</description>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						29.27,52.04999999999999,0 26.1,52.12,0 24.36,52.22,0 23.7,52.1,0 23.13337540371309,52.36289550670644,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Druzhba Ventspils Branch (Polotsk–Ventspils, Belarus–Latvia)</name>
+				<description>Status: Offline since January 2003 — over 20 years, and unrelated to the current war
+Route: Polotsk/Novopolotsk junction, Belarus → across eastern Latvia (Daugavpils, Jekabpils region) → Ventspils Terminal on the Baltic coast (already on this map)
+Owner/Operator: Historically Transneft; the Latvian section run by LatRosTrans. Infrastructure remains in place but carries no crude
+Role: Once fed the SECOND-LARGEST oil export terminal for Russian crude in the world, after Novorossiysk — Ventspils was the largest port in the Baltics on the back of this single pipeline
+Why it stopped: In January 2003 Transneft unilaterally cut supply — widely read as a strong-arm tactic to force Latvia to sell the terminal cheaply, timed with Russia&apos;s own new port at Primorsk coming online as its preferred outlet. Latvia refused to sell at a discount and the pipeline was never restored
+What happened next: Vitol led Ventspils&apos; reinvention as an independent products storage and blending terminal, handling seaborne cargoes instead of pipeline crude — infrastructure outliving its original purpose
+Why keep it mapped: Together with the Mozyr-Adamowo branch, this shows Russia using pipeline access as leverage TWICE against two different neighbours, twenty years apart — 2003 as a commercial power play, 2023 as a wartime decision
+Risks: Permanently stranded after two decades; no sign of restoration</description>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						28.53322781403883,55.5043754425809,0 26.54,55.88,0 25.86,56.5,0 24.1,56.95,0 23.12918115732129,56.95536699967849,0 21.55193512769464,57.40176777298985,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
 				<name>Odesa-Brody Pipeline</name>
 				<description>Status: Dormant since 2023 — proposed for revival, January 2026
 Route: Pivdennyi/Yuzhny Terminal, Black Sea (already on this map) → Brody, connecting into the Druzhba system toward Europe; built 2001
@@ -14610,7 +14671,7 @@ History: Built as an anti-Russia route to carry Caspian crude north to Europe. U
 Current twist: After Russia&apos;s own attack damaged Druzhba in January 2026, Ukraine proposed to the EU using Odesa-Brody as a replacement route to Hungary and Slovakia — a response from Brussels is still pending
 Why it matters: A pipeline built to escape Russian control, hijacked for Russian use, now possibly reclaiming its original purpose only because the war damaged its rival
 Risks: Active war-zone infrastructure; EU decision pending</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14628,7 +14689,7 @@ History: Originally designed for BOTH import and export, giving Lithuania flexib
 Context — the pipeline that died: A separate branch of Druzhba itself, the Polotsk-Birzai-Mazeikiai line (225.5 km in Lithuania, built 1979, 16 million tonnes/year capacity), has NOT operated since July 2006 due to a &quot;reported technical malfunction&quot; — widely viewed as a political decision by Russia, the same pattern as the Adamowo-Poland and Ventspils-Latvia pipeline cutoffs already on this map
 Why it matters: This single pipeline is now the ENTIRE crude supply chain for the only refinery in the Baltic states — every barrel Mazeikiai processes arrives via this exact 92 km line
 Risks: Total dependence on one pipeline and one offshore buoy; no remaining pipeline link to Russian crude at all</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14644,7 +14705,7 @@ Owner/Operator: PERN Przyjazn SA
 Role: The historic eastern crude artery — carries Russian and Kazakh crude arriving via Belarus straight to Poland&apos;s largest refinery
 Chain position: LEG 1 of the Przyjazn system — continues north-west to the German border as Leg 2
 Risks: Politically sensitive route; volumes have fallen sharply as Poland diversifies toward seaborne crude via Naftoport</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14661,7 +14722,7 @@ Role: Extends the same Druzhba crude past Poland into eastern Germany — histor
 Chain position: LEG 2 of the Przyjazn system, following directly from Leg 1
 Why it matters: Ties this whole Polish eastern corridor directly to a refinery already on this map in Germany — showing the full path of Russian pipeline crude from the Belarus border to a German refinery gate
 Risks: Schwedt has had to diversify supply since 2022 as this route&apos;s political reliability came into question; the same crude source now competes with seaborne alternatives via Rostock and Gdansk/Naftoport</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14679,7 +14740,7 @@ Role: UNIQUE among this map&apos;s pipelines for being genuinely bi-directional 
   - COASTAL (Plock → Gdansk): domestic or transit crude reaches Naftoport for export or onward shipment to Germany
 Why it matters: This single reversible pipeline is the physical mechanism behind Poland&apos;s entire diversification strategy — the same infrastructure that once only received eastern pipeline crude can now just as easily move seaborne crude inland, without needing new construction
 Risks: A single line carrying the full weight of Poland&apos;s supply-flexibility strategy; capacity constraints if import volumes keep rising post-2022</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14697,7 +14758,7 @@ Role: Italy&apos;s WESTERN international crude corridor — the Tyrrhenian-side 
 Why here: Directly explains why Genoa/Multedo (already on this map) matters beyond just supplying domestic Italian refineries — it is also an international export gateway toward Bavaria
 Historic context: Completed in 1966 after high costs, delays and environmental disputes — a sister project to TAL (completed 1967), both built to diversify southern Germany&apos;s crude supply away from a single source
 Risks: A 60-year-old international pipeline; shares the same strategic role as TAL, so the two together define how landlocked Central Europe gets seaborne crude</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14714,7 +14775,7 @@ Role: SPAIN&apos;S MAIN CRUDE OIL PIPELINE — the only route by which crude rea
 Why it matters: Without this line, Puertollano would have no crude supply at all — every barrel it processes first passes through Cartagena&apos;s coastal import terminal
 Recent: A 2025 fuel-theft attack ruptured the line, spilling oil across 5 km2 of public woodland and causing over €4 million in damage — a rare case of a European pipeline suffering the kind of theft-driven attacks more commonly seen in Mexico or Nigeria on this map
 Risks: Sole crude artery for an entire refinery; demonstrated vulnerability to theft and sabotage even in a stable European context</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14731,7 +14792,7 @@ Role: Carries crude from wells across the Bolívar Coastal Fields to the Ulé Ta
 Why it matters: Completes the physical link between production and gathering — crude does not reach Ulé by any other route; this line is the missing connective segment between the field and the tank farm already on this map
 Export route: From Ulé, continues via the Ule-Amuay Pipeline to the Paraguaná Refining Center
 Risks: A century-old producing basin&apos;s entire gathering flow concentrated on this one short corridor</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14748,7 +14809,7 @@ Basis for this line: NOT a specifically-named confirmed pipeline. Drawn from two
 Role: Represents La Salina&apos;s stated role handling &quot;a broad range of lake crudes&quot; — consistent with a multi-source terminal fed by the surrounding coastal fields, distinct from Bajo Grande&apos;s single-dedicated-grade (Boscán) model
 Why marked inferred: Unlike the Ulé link or the Boscán-Bajo Grande feeder, no specific named pipeline documentation was found for this exact route — treat this line as geographically reasonable but not independently verified
 Risks: Same ageing lake-basin infrastructure affecting the whole eastern shore system; La Salina itself runs at only ~25% utilisation per PDVSA&apos;s own reporting</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14765,7 +14826,7 @@ Basis for this line: NOT a specifically-named confirmed pipeline. Mesa 30&apos;s
 Why NOT the same corridor: The Faja-Jose Corridor&apos;s own southbound leg carries refined NAPHTHA back to the wellhead for field-level dilution — a different mechanism from Mesa 30, which is a light CRUDE blended directly into Merey at the Jose tank farms, travelling north like the Orinoco crude itself rather than south as field diluent
 Why it matters: Every barrel of Mesa 30 diverted here is one NOT available for domestic refining — a direct trade-off between export blending and Venezuela&apos;s chronic domestic fuel shortages
 Risks: Same underinvestment and infrastructure decay affecting the whole eastern Venezuelan system</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14782,7 +14843,7 @@ Role: The short connecting link bringing Galeota Mix ashore from the offshore Tr
 Why the chain is this short: Trinidad closed its only refinery (Pointe-à-Pierre, 168,000 b/d) in 2018 and pivoted entirely to raw crude export — there is no domestic refining step in this chain at all. Field, pipeline, terminal, tanker: that is the complete sequence
 Export route: From Galeota Point Terminal, Galeota Mix loads directly onto tankers, priced against WTI and Dated Brent
 Risks: A small, maturing offshore production base; national output has fallen to ~59,000-63,000 b/d, about half the 2006 level</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14799,7 +14860,7 @@ Role: Carries Boscán&apos;s extremely viscous, high-vanadium heavy crude the sh
 Why Bajo Grande specifically: A small terminal purpose-built for Boscán and asphalt-grade crude — 96,000 b/d shipping capacity, 1.345 million barrels storage — distinct from the larger La Salina terminal nearby, which handles other lake crudes and products
 Technical note: Boscán&apos;s viscosity requires active vapour generation to keep it flowing at the terminal; equipment shortfalls here have repeatedly cut loading rates
 Risks: Export volumes swing directly with Chevron&apos;s US OFAC licence status — suspended, reinstated, and renegotiated multiple times since 2019</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14818,7 +14879,7 @@ Why it starts here, precisely: Ulé is a specific named tank farm at Tía Juana 
 Distinction from Boscán&apos;s route: This pipeline carries Bolívar Coastal Fields crude only; Boscán exports separately via La Salina/Bajo Grande and ship-to-ship transfer off Amuay — the two systems do not share this line
 Recent: Multiple ruptures in 2020-2021 cut state output, reflecting the same maintenance collapse affecting the fields and refineries at both ends
 Risks: A single 230 km line for the historic heart of Venezuelan production; age and rupture history; throughput mirrors the decline at both the field and refinery ends</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14836,7 +14897,7 @@ Diameter: 18 inches (Caño Limón-Banadía) widening to 24 inches (Ayacucho-Cove
 Why it&apos;s a separate system: This pipeline has NO connection to OCENSA or the Casanare/Meta cluster — it is a fully independent corridor from a different producing region, and the two systems only meet at the shared export terminal, Coveñas
 History: Over 1.5 billion barrels transported since 1986; among the most frequently attacked pipelines in the world during the FARC/ELN conflict era — a 2015 attack shut it for 67 straight days, Colombia&apos;s longest-ever outage of the line, and contributed to the country missing its 1 million b/d production target that year
 Risks: Chronic guerrilla/paramilitary attack exposure; long remote corridor through conflict-affected departments</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14852,7 +14913,7 @@ Owner/Operator: Ecopetrol / Cenit
 Role: The short physical link at the HEAD of the OCENSA system. Cusiana-Cupiagua is where OCENSA&apos;s own trunk line begins; Monterrey Station, immediately next door, is where the separate ODL pipeline (carrying Rubiales/Quifa/Pirirí crude from Meta) ties into that same trunk
 Why it matters: Confirms that Cusiana-Cupiagua and Monterrey are not two unrelated points on the map — they&apos;re neighbouring parts of ONE origin complex. OCENSA effectively gathers two crude streams (its own Cusiana-Cupiagua feed and the ODL/Rubiales feed) within this single 37 km cluster before heading north as one combined trunk
 Risks: A concentrated origin point — any disruption here affects both the OCENSA and ODL crude streams simultaneously</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14869,7 +14930,7 @@ Capacity: 305,000 b/d, up from an initial 60,000 b/d at start-up
 Role: Carries heavy diluted crude from Rubiales, Quifa and Pirirí fields directly to Monterrey, where it ties into OCENSA for the run to Coveñas
 Why it matters: Built specifically because Rubiales&apos; heavy crude could not reach the coast any other way — described at the time as Colombia&apos;s largest transport infrastructure project in a decade
 Risks: Affected by regional protests (2021); a single line for the whole Rubiales-Quifa-Pirirí production area</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14885,7 +14946,7 @@ Owner/Operator: Ecopetrol
 Role: The feeder line for Castilla Blend, Colombia&apos;s other major heavy Llanos stream (alongside Rubiales) — crude is diluted with naphtha at Apiay before moving
 Why it matters: Industry literature identifies this as the MAIN BOTTLENECK in Ecopetrol&apos;s entire Llanos crude-evacuation system — insufficient dilution capacity has repeatedly capped how much Castilla crude can actually be moved
 Risks: Chronic underinvestment relative to Castilla&apos;s production growth; viscosity/dilution engineering constraints limit throughput more than raw pipe capacity does</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14903,7 +14964,7 @@ Capacity: Historically moved over 100,000 b/d in its 1979-81 peak; far lower tod
 Chronic disruption: Repeatedly shut down for months at a time — sabotage and illegal tapping (11+ attacks recorded in one 18-month stretch), oil spills, and indigenous-community disputes over access for repairs (one 2022-23 shutdown of the Ramal Norte branch lasted over 85 days). Bayóvar&apos;s onshore tank stock exists specifically to buffer these outages
 Why it matters: The physical link that makes Peru&apos;s own crude production relevant at all — without it, jungle oil could not reach any refinery or export point on the coast
 Risks: Chronic sabotage and community-access disruption; a single pipeline for the entire country&apos;s domestic crude output</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14919,7 +14980,7 @@ Owner/Operator: PAE / Terminales Marítimas Patagónicas (Termap)
 Role: Delivers Escalante crude directly from the field to its dedicated coastal export terminal — the Golfo San Jorge basin exports independently of the Oldelval/VMOS system, since its fields sit right on the Patagonian coast
 Why it matters: Shows that not every Argentine crude flow needs a long trunk pipeline — Golfo San Jorge&apos;s chain is short and local because geography puts field and port side by side, unlike landlocked Vaca Muerta
 Risks: A mature, high-water-cut basin under cost pressure; a single short line for the Escalante export stream</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14935,7 +14996,7 @@ Owner/Operator: Field operators (including CGC, since acquiring former Sinopec c
 Role: Delivers Cañadón Seco crude directly from the field to its adjacent coastal export terminal, completing Golfo San Jorge&apos;s second, independent export chain
 Why it matters: Confirms the pattern seen at Escalante — Golfo San Jorge&apos;s basin sits directly on the coast, so its value chain is field-to-port in a few kilometres, structurally different from the long inland-to-coast systems needed for Vaca Muerta
 Risks: Mature field in a basin facing rising extraction costs relative to international crude prices</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14952,7 +15013,7 @@ Capacity: Argentina&apos;s LARGEST crude pipeline system, 1,700 km of pipe; expa
 Role: The backbone artery of the Vaca Muerta shale boom — carries nearly all Neuquén Basin oil to Argentina&apos;s main export gateway at Puerto Rosales
 Why it matters: Vaca Muerta&apos;s production has grown faster than this pipeline could expand — Oldelval has run at or near capacity for years, triggering successive expansion projects just to keep pace with drilling
 Risks: Chronic capacity constraints; production growth consistently outrunning pipeline buildout</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14969,7 +15030,7 @@ Capacity: Targeting 180,000 b/d by H2 2026, rising toward much higher volumes as
 Role: A NEW export route built because Puerto Rosales cannot berth the largest tankers efficiently — Punta Colorada is designed as a genuine deepwater terminal able to load VLCCs directly, unlike the shallower Bahía Blanca approach
 Why it matters: Represents Argentina&apos;s bet that Vaca Muerta will need a second, larger export gateway beyond Oldelval/Puerto Rosales — diversifying away from a single export corridor
 Risks: Major construction project still ramping up; cost overrun and schedule risk on a first-of-its-kind Argentine deepwater oil terminal</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -14987,7 +15048,7 @@ Cost: $1.4 billion, commissioned September 2003
 Role: Carries the NAPO grade — and it was built precisely to pull heavy crude OUT of SOTE so that Oriente could recover its former 27-28° API quality
 Strategic role: A pipeline built as a blend-protection measure. Ecuador chose to create a second, lower-value grade rather than let heavy barrels keep degrading its main one
 Risks: Chronically underused as foreign producers&apos; expansion plans never materialised; several original shareholders have left Ecuador</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15004,7 +15065,7 @@ Role: The main gathering line bringing Mexico&apos;s flagship offshore crude —
 Why it matters for exports: This is the physical link between Mexico&apos;s largest offshore fields and its main Gulf export terminal — the crude that eventually loads at Cayo Arcas or Dos Bocas travels this route first
 Recent: Reported leaks (2025) briefly halted flow and caused a shoreline spill near Paraiso, Tabasco, underscoring the pipeline&apos;s central and singular role
 Risks: Ageing subsea infrastructure; a single gathering line for Mexico&apos;s most important offshore crude</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15021,7 +15082,7 @@ Capacity: Two parallel lines, 240,000 b/d (30-inch) + 500,000 b/d (48-inch) — 
 Role: THE route that lets Gulf-side crude (Isthmus light and Maya heavy) reach Mexico&apos;s only Pacific refinery — without it, Salina Cruz would have no crude supply, since no oilfields sit near the Pacific coast
 Why it matters for exports: Salina Cruz also exports Isthmus and Maya crude directly to the US West Coast and, at times, Asia — so this landline is what turns Gulf-side production into a Pacific export stream, avoiding the long sea route around the Yucatan and Panama
 Risks: A single overland corridor for all Pacific-side supply; the origin area overlaps a dense pipeline network prone to leaks and illegal tapping</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15037,7 +15098,7 @@ Owner/Operator: Pemex Logistica
 Role: Carries Gulf-gathered crude inland to Tula, Mexico&apos;s largest-capacity refinery (340,000 b/d) and the main fuel supplier to the Mexico City metropolitan area
 Why it matters: Represents the DOMESTIC-consumption side of Mexico&apos;s crude flow — this barrel is refined for Mexico City rather than exported, the counterpart to the Salina Cruz export/Pacific-refining route
 Risks: A long inland corridor historically targeted by illegal tapping (&quot;huachicoleo&quot;), a chronic Pemex security and loss issue</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15054,7 +15115,7 @@ Role: The SECOND branch of Cantarell/KMZ&apos;s offshore gathering system — se
 Why it matters for exports: This is the pipeline that makes Cayo Arcas function — Mexico&apos;s single largest crude export point (12.4 million tonnes in six months in one recent period), moving Maya and Isthmus crude onto VLCCs up to 290,000 DWT that could never dock at an onshore Mexican port
 Terminal note: Cayo Arcas itself is pure open water — two Single Point Mooring buoys plus an FSO (Ta&apos;Kuntah, 357,600-tonne capacity) that buffers crude during hurricane shutdowns; no storage tanks, no land, nothing visible above the sea but the buoys
 Risks: Subsea pipeline integrity; the terminal closes entirely during storms (as in 2014, 2017), backing up flow along this line</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15071,7 +15132,7 @@ Owner/Operator: Enbridge (Mainline / Lakehead), ~3.1 million b/d across parallel
 Role: Carries the Western Canadian crude slate east to the Superior terminal, the pivot point where crude bound for Quebec transfers onto Line 5
 Note: This is the same Enbridge Mainline mapped elsewhere; shown here as the first leg so the chain to Montreal is gapless
 Next leg: at Superior, crude for Quebec moves onto Line 5</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15088,7 +15149,7 @@ Owner/Operator: Enbridge
 Role: The Great Lakes link — carries light crude, synthetic and NGLs from Superior to Sarnia. Without this leg, Line 9 (leg 3) has no crude source
 Next leg: at Sarnia, crude for Quebec transfers onto Line 9
 Risks: Straits of Mackinac shutdown risk; a tunnel replacement is planned</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15107,7 +15168,7 @@ Sub-sections: Line 9A (Sarnia → North Westover, near Hamilton) + Line 9B (Nort
 Role: The final delivery leg — feeds Suncor&apos;s Montreal refinery (137,000 b/d) directly, and Valero&apos;s Jean-Gaulin refinery at Lévis (235,000 b/d) via marine vessel onward up the St. Lawrence from Montreal
 IMPORTANT: Line 9 ENDS at Montreal. It is an import/refinery-supply line, NOT an export line — it does not continue to any Atlantic export port
 Risks: Runs through Canada&apos;s most densely populated corridor; spill-response scrutiny</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15125,7 +15186,7 @@ Role: Carries imported crude from Wilhelmshaven — Germany&apos;s only deep-wat
 Why it matters (2026 low-Rhine story): This pipeline is the reason Gelsenkirchen is insulated from the Rhine low-water crisis — it delivers crude to the Scholven tank farm by pipe rather than by river barge, unlike refineries that depend on the Rhine for crude or feedstock movement
 Connectivity: From the NWO Wilhelmshaven tanker pier and 11-million-bbl tank farm, with salt-cavern storage at Wilhelmshaven and Wittmund held by Germany&apos;s EBV stockpiling agency
 Risks: A single strategic corridor supplying much of western Germany&apos;s refining; the deep-water intake at Wilhelmshaven is the country&apos;s key crude entry point</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15142,7 +15203,7 @@ Role: The trunk gathering network that carries light sweet Western Desert Blend 
 Note: This is a REPRESENTATIVE trunk line — the real system is a branching gathering network from many fields converging on El-Hamra, not a single pipeline; the drawn route approximates the overall south-to-coast flow rather than an exact alignment
 Capacity: Feeds a terminal now able to ship up to 1 million b/d
 Risks: Multiple small fields feeding one export chain; ageing Western Desert infrastructure</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15159,7 +15220,7 @@ Capacity: 90,000 b/d at start-up, ramping toward 110,000 b/d — a ~$7 billion C
 Role: The ONLY export route for landlocked Niger&apos;s crude — it turned a 20,000 b/d domestic-only producer into an exporter overnight, one of the longest crude pipelines in Africa
 Why it matters: Like South Sudan and Chad, Niger&apos;s entire oil-export economy depends on one pipeline crossing a neighbour to reach the sea — and it launched amid a bitter Niger-Benin border feud after the 2023 coup, resolved only with Chinese mediation
 Risks: Cross-border political disputes (border closed after the coup); militant and anti-government attacks; a single line for the whole export stream</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15177,7 +15238,7 @@ Role: The ONLY export route for landlocked Chad&apos;s crude — a $2.2-4.2 bill
 Fee structure: Chad receives royalties metered at Kribi after a ~$10/barrel pipeline deduction — the transit country and pipeline take a large slice before Chad is paid
 Why it matters: Like South Sudan, Chad&apos;s entire oil economy hinges on one pipeline crossing a neighbour to reach the sea
 Risks: Single point of failure for 96% of national exports; historic World Bank disputes over revenue use; regional security</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15193,7 +15254,7 @@ Owner/Operator: Petrodar / DPOC (Chinese-led)
 Role: The export lifeline for Dar Blend — but it runs through the Khartoum refinery area, so fighting there since February 2024 has repeatedly cut ~100,000 b/d
 Why it matters: South Sudan is landlocked and depends on oil for over 90% of government revenue, yet every barrel must cross Sudan to reach the sea — a textbook case of a producer held hostage by transit-country politics
 Risks: Active war zone; ruptures, blockages and the bombed Khartoum refinery on the route</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15209,7 +15270,7 @@ Owner/Operator: GNPOC / Petrodar systems (Chinese-led)
 Role: The older of the two export lines and the one that kept South Sudan&apos;s exports alive — because it takes a different path from Petrodar, Nile Blend continued flowing when Dar Blend was shut by fighting
 Why it matters: The existence of two separate pipelines is exactly why one grade survived and the other didn&apos;t — routing, not geology, decided which barrels reached market
 Risks: Transit through Sudan; ageing infrastructure; conflict exposure</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15228,7 +15289,7 @@ Engineering: Runs half above ground on 78,000 supports to protect permafrost, wi
 History: Built 1974-77 after the 1973 oil crisis made Prudhoe Bay economic; has carried over 17 billion barrels. Prudhoe Bay, discovered 1967, was the largest oil field ever found in North America (~9.6 billion barrels)
 Why it matters: Physically isolates ANS as a West Coast grade priced off Brent — the pipeline that makes the entire US West Coast a separate crude market
 Risks: Declining throughput approaching minimum operating levels; permafrost thaw; seismic exposure; a single line for an entire state&apos;s production</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15246,7 +15307,7 @@ Role: One of four dedicated Permian-to-Corpus pipelines (with Cactus I, Gray Oak
 Why it matters: Corpus Christi became the top US crude export gateway precisely because of these direct lines — crude reaches tanker terminals (Ingleside, South Texas Gateway) without ever touching Cushing. Trafigura alone contracted 300,000 b/d on this line to feed its Corpus export terminal
 Pricing link: Line-fill of Cactus II and EPIC in 2019 pulled so hard on Midland barrels that it moved the WTI Midland differential — the same terminal-basis sensitivity noted on the Enterprise and Plains Midland terminal entries
 Risks: Permian takeaway is periodically maxed out; the four Corpus lines have repeatedly run at or above combined nameplate capacity</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15264,7 +15325,7 @@ Role: Feeds the Houston and Beaumont refining complex directly from the oilfield
 Destinations on this map: Connects the Midland/Delaware fields to the Houston Ship Channel refineries, Texas City, and the Beaumont/Port Arthur cluster — the US Gulf Coast refining heartland
 Why it matters: Alongside the Corpus-bound lines (Cactus II, Gray Oak, EPIC), this completes the two-directional Permian export picture — south to Corpus for tanker export, east to Houston/Beaumont for refining and Ship Channel docks
 Risks: Permian takeaway periodically maxed out; quality segregation needed at origin to keep Midland-grade WTI unblended</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15281,7 +15342,7 @@ Capacity: Carries roughly 450,000 b/d of gas condensate
 Role: The link that turns South Pars gas condensate into Iranian gasoline — without it, the Persian Gulf Star refinery has no feedstock and the condensate would have to be exported raw
 Strategic role: Creates a self-contained southern fuel chain — offshore gas field, onshore separation at Assaluyeh, pipeline, condensate refinery, domestic fuel. Every step sits inside Iran, which matters under sanctions
 Risks: A single line carrying the feedstock for 45% of national fuel supply; runs along an exposed coastal corridor</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15299,7 +15360,7 @@ Role: The lifeline of Bahrain&apos;s refining industry — it carries the Saudi 
 History: Succeeds the original 1945 Dammam-Bahrain crude line, which was at the time the largest commercial underwater pipeline in the world
 Strategic role: Built specifically to enable the Sitra refinery expansion; without it Bahrain&apos;s main export industry would have no feedstock
 Risks: A single cross-border pipeline on which an entire national industry depends</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15316,7 +15377,7 @@ Capacity: 615,000 b/d, historically running well below that
 Role: Colombia&apos;s main export artery, carrying both Vasconia and Castilla Blend north to Coveñas — around 90% of the crude it delivers has gone to the United States
 Connectivity: Collects the Rubiales line at Monterrey and the blended streams at Vasconia
 Risks: Guerrilla and criminal attacks on pipeline infrastructure have been a recurring problem; underutilisation as Cusiana output declines</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15333,7 +15394,7 @@ Capacity: 360,000-400,000 b/d, built 1970
 Role: Carries the ORIENTE grade. Which pipeline a barrel enters is what determines its grade in Ecuador — SOTE crude becomes Oriente, OCP crude becomes Napo
 Recent: Ruptured by Andean landslides in 2003 and on later occasions, forcing force majeure and emergency use of the OCP line
 Risks: Crosses seismically active, landslide-prone Andean slopes; a single corridor for the state&apos;s entire export stream</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15351,7 +15412,7 @@ Key feature: Runs in REVERSE-AVERSE CYCLIC MODE — it can flow in either direct
 Strategic role: Physically the switch by which Kazakhstan chooses Russia or China as its outlet. With CPC under drone attack through 2025-26, this bidirectionality is the country&apos;s most practical hedge
 Risks: Modest capacity relative to CPC&apos;s 55 million t/yr; reversal is not instantaneous and requires line preparation
 Alignment: schematic — endpoints and route are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15369,7 +15430,7 @@ Throughput: 52 million tonnes moved in its first decade — 24 million for expor
 Role: THE integrating pipeline. It joined Kazakhstan&apos;s previously separate western and eastern systems into one national network
 Why it matters: Two consequences followed. West Kazakh crude gained access to the Shymkent and Pavlodar refineries for the first time, and Kazakhstan gained a complete pipeline corridor to China that avoids Russia entirely
 Alignment: schematic — endpoints and route are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15387,7 +15448,7 @@ Onward routes: Also delivers Russian transit crude into the Atasu junction, wher
 Strategic role: Explains Kazakhstan&apos;s export paradox — the country ships over 70 million t/yr abroad from the west while importing Russian crude in the north, because the Soviet network was built to move oil out of the region, not around it
 Risks: Dependence on Russian crude supply and on Russian export policy for refineries serving Kazakh domestic demand
 Alignment: schematic — endpoints and route are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15404,7 +15465,7 @@ Role: Collects Mangystau production — chiefly Uzen, plus Zhetybai and Buzachi-
 Technical note: Operates in hot-pumping mode. Mangyshlak crude has a pour point up to +30°C and Buzachi crude is highly viscous with a pour point as low as −21°C, so continuous heating is required along the whole route. KazTransOil ran a 2021-26 programme optimising crude intake along the Zhetybai–Uzen–Atyrau section to manage these mixed properties
 Strategic role: The origin leg of KEBCO — the grade begins its journey here
 Alignment: schematic — endpoints and route are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15421,7 +15482,7 @@ Capacity: Almetyevsk–Gorky rated at 49.7 million t/yr across its three lines
 Role: Carries Romashkino and Volga-Urals crude north-west to Yaroslavl, the head of the Baltic Pipeline System
 Why it matters: This is the SOUTHERN feed for BPS-1. Without it, Primorsk could only be supplied by Timan-Pechora crude through Ukhta — far too little to fill a 76.5 million t/yr system. Most Urals loaded at Primorsk arrives this way
 Alignment: schematic — endpoints and route cities are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15438,7 +15499,7 @@ Capacity: ~17 million t/yr maximum; 8.8 million t shipped in 2024, running at ro
 Strategic role: Kazakhstan&apos;s second-largest export route and the largest unused alternative to CPC — but it carries crude INTO the Russian system, where Kazakh barrels are commingled and sold as Urals rather than as a Kazakh grade
 Recent: Volumes increased by 232,000 t above plan during the 2025 CPC disruption
 Risks: Trades one form of Russian dependence for another; Kazakh crude loses its identity and price premium once blended into Urals</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15458,7 +15519,7 @@ Feeds: East Siberian fields (Vankor via Purpe, Verkhnechonskoye, Talakan) tie in
 Branches: The China spur leaves the trunk at Skovorodino — the main line itself does NOT enter China; a further branch supplies the Komsomolsk refinery
 Strategic role: The line that gave Russia a second export identity. Transneft deliberately routes low-sulfur East Siberian barrels here to hold ESPO&apos;s specification, which is the direct cause of Urals quality degrading in Europe
 Risks: Single very long corridor across permafrost; Asian sales concentrated among few buyers; sanctions exposure</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15475,7 +15536,7 @@ Capacity: 300,000 b/d under the 20-year oil-for-loan agreement between Transneft
 Role: The overland branch of the ESPO system, delivering crude straight into China&apos;s northern refining network at Daqing
 Strategic role: The only major Russian crude export route with no seaborne leg at all — immune to tanker sanctions, insurance restrictions and maritime interdiction, which has made it strategically central since 2022
 Risks: Single-customer dependence on China, which holds the pricing power; cross-border tariff and contract renegotiation risk</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15493,7 +15554,7 @@ Throughput: Badly underused — 1.2 million t in 2024, planned at 1.0 million t 
 Recent: In December 2025, Kashagan crude was sent east through this line for the FIRST time, after a drone strike damaged CPC&apos;s Black Sea moorings — CNPC taking ~30,000 t and Inpex ~20,000 t
 Strategic role: Kazakhstan&apos;s only export corridor that avoids both Russia and the Black Sea; the eastern escape valve, tested live during the 2025-26 CPC crisis
 Risks: Capacity far exceeds committed volumes; reaches only one buyer market; cannot absorb more than a fraction of CPC&apos;s 55 million t/yr</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15510,11 +15571,11 @@ Role: The westward continuation from Omsk, carrying West Siberian crude to the V
 Onward routes: At Samara the stream divides toward the Baltic, the Black Sea or Druzhba
 Why it matters: The trunk that physically links Russia&apos;s main producing basin to its European export outlets — the spine of the Urals system
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						73.23074663731339,55.06217857086239,0 68,55.2,0 62,55.00000000000001,0 56,54.2,0 49.9720457692537,53.07487143378465,0 
+						73.23074663731339,55.0621785708624,0 68,55.2,0 62,55.00000000000001,0 56,54.2,0 49.9720457692537,53.07487143378465,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -15526,7 +15587,7 @@ Owner/Operator: Transneft
 Role: The physical link that lets WEST Siberian crude reach the EASTERN export system — without it, ESPO would depend solely on East Siberian fields, which cannot fill it
 Strategic role: This is the junction where Russia chooses east or west. Barrels arriving at Taishet can go to Kozmino and China, or stay in the western grid and be sold as Urals. Diverting the sweeter West Siberian streams eastward is what has degraded Urals quality for European refiners
 Risks: A single connector carrying the flexibility of the entire export system; any outage forces crude back into the western market</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15542,7 +15603,7 @@ Owner/Operator: Transneft
 Role: Connects the Arctic Zapolyarye–Purpe line into the main Transneft trunk network at Samotlor, from where crude can travel west to the Baltic and Black Sea or east via Omsk–Taishet into ESPO
 Strategic role: The missing link in the Arctic chain — Zapolyarye–Purpe brings far-northern crude south, but only this segment puts it into the grid where it becomes part of Urals or ESPO
 Risks: Permafrost construction; a single corridor carrying the whole northern Yamal onshore stream</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15560,7 +15621,7 @@ Onward routes: Seaborne export through the Bosphorus, plus a branch to the Tuaps
 Recent: A 2013 rupture near Volgograd halted Novorossiysk crude exports entirely until repairs were completed, showing how much depends on this single corridor
 Why it matters: Without this line, Sheskharis and the Novorossiysk export complex have no crude supply — it was the missing link between Russia&apos;s producing regions and its Black Sea outlet
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15576,7 +15637,7 @@ Owner/Operator: Transneft Siberia
 Role: Closes the link between the Samotlor production area and the Ust-Balyk collection junction — the segment that lets both Samotlor crude and everything arriving from the Arctic via Purpe continue into the Ust-Balyk–Omsk trunk
 Why it matters: Without this leg the Arctic chain dead-ends at Samotlor. With it, crude from Zapolyarnoye and Vankor can reach Omsk and from there either the European outlets or ESPO
 Alignment: schematic — the connection is documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15593,7 +15654,7 @@ Role: A direct West Siberia to Belarus trunk, separate from the Druzhba corridor
 Why it matters: Explains how Naftan is fed. Belarus has two refineries served by two different routes: Mozyr from Druzhba via Unecha, and Naftan from West Siberia via this line. Transneft has confirmed that while parallel corridors were converted to diesel service, Surgut–Polotsk continues pumping crude for export
 Recent: Transit to the Baltic states via this corridor ceased in 2006; the line now serves Belarus
 Alignment: schematic — endpoints and route cities are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15610,7 +15671,7 @@ Role: Carries West Siberian crude out of the Nefteyugansk–Samotlor production 
 Onward routes: From Omsk, crude can go west toward Samara and the European outlets, or east on the Omsk–Taishet line into ESPO
 Why it matters: One of the oldest and most heavily used Soviet-era trunk lines, and the first leg of the journey for most Urals-bound crude
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15627,7 +15688,7 @@ Handles: Brent crude, blended with Ninian volumes at Sullom Voe into Brent/Ninia
 Connectivity: Also carries third-party volumes from surrounding East Shetland Basin fields as Brent&apos;s own output has collapsed
 Strategic role: The line that carried the crude the global benchmark is named after; Brent field output is now around 23,000 b/d, roughly one cargo a month
 Risks: Throughput now depends largely on third-party tie-ins rather than the namesake field; Brent platform decommissioning under way</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15643,7 +15704,7 @@ Owner/Operator: CNOOC International
 Handles: Buzzard crude at ~32.6° API and 1.44% sulfur — heavier and markedly sourer than the Forties stream it joins
 Strategic role: The single most consequential tie-in on the UK shelf for benchmark quality. INEOS publishes a live table showing Forties Blend ranging from 43.3° API / 0.29% sulfur at 0% Buzzard content to 36.6° API / 1.01% sulfur at 60% — so the flow through this short connector changes the specification of a Dated Brent basket grade week to week
 Risks: Buzzard outages are directly visible in Dated Brent quality and pricing</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15659,7 +15720,7 @@ Owner/Operator: BP
 Handles: Clair crude — heavy at ~23° API, kept as its own assessed grade rather than blended into BNB
 Strategic role: Connects the Atlantic margin, where the UK&apos;s remaining reserve base sits, back to the mature Shetland terminal infrastructure built for the Brent era
 Risks: Harsh Atlantic-margin conditions; long-term reliance on an ageing terminal designed for a different production profile</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15676,7 +15737,7 @@ Capacity: Around 500,000 b/d
 Handles: Grane Blend — a heavier, more sulphurous Norwegian stream (~27° API, 0.67% sulfur) than the basket grades, kept separate from Oseberg at Sture
 Connectivity: Shares the Sture Terminal with the Oseberg system, which is why Sture loads two distinct grades
 Risks: Heavy-crude economics; shared terminal dependence with Oseberg</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15693,7 +15754,7 @@ Capacity: Sized for the field&apos;s full plateau, toward 755,000 b/d
 Handles: Johan Sverdrup crude — the largest single North Sea stream, medium sour at ~28° API and 0.81% sulfur, deliberately excluded from the Dated Brent basket
 Strategic role: The pipeline that physically delivered the North Sea&apos;s shift from light sweet to medium sour; its volumes now rival major OPEC grades into Asia
 Risks: Single-line dependence for the region&apos;s biggest field; Mongstad terminal concentration</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15709,7 +15770,7 @@ Owner/Operator: CNR International
 Handles: Ninian crude, commingled with Brent at Sullom Voe to form Brent/Ninian Blend
 Strategic role: As Brent&apos;s own volumes have declined, Ninian has become essential to keeping BNB cargoes at viable size — which is why Platts names the assessed grade after both fields
 Risks: Mature field base; the viability of the whole BNB stream depends on combined Brent and Ninian throughput</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15726,7 +15787,7 @@ Capacity: Design capacity around 900,000 b/d; onstream since 1975
 Handles: Ekofisk Blend, gathering the Greater Ekofisk Area — Ekofisk, Eldfisk, Embla and Tor — plus third-party tie-ins
 Strategic role: The only major Norwegian crude stream that reaches market by pipeline to another country rather than by tanker from a Norwegian terminal — Norwegian crude landing on UK soil
 Risks: Single-corridor dependence for the whole Ekofisk area; ageing line in service five decades; cross-border regulatory exposure</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15744,7 +15805,7 @@ Handles: Oseberg Blend — a Dated Brent (BFOET) basket grade, so this line carr
 Connectivity: Also receives third-party volumes from surrounding Norwegian fields before landfall at Sture
 Strategic role: One of the physical arteries feeding the Dated Brent basket; the Norwegian counterpart to the UK&apos;s Forties Pipeline System
 Risks: Concentrates a benchmark-setting grade on one line and one terminal</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15761,7 +15822,7 @@ Handles: Troll Blend — at ~0.13% sulfur the sweetest grade in the Dated Brent 
 Connectivity: Lands at Mongstad, which also receives Johan Sverdrup, making that terminal the loading point for two very different grades — one ultra-sweet light, one medium sour
 Strategic role: Carries the oil produced from Troll&apos;s thin oil rim beneath the gas cap, drained by long horizontal wells
 Risks: Oil-rim depletion as gas production continues; shares Mongstad&apos;s terminal concentration</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15777,7 +15838,7 @@ Owner/Operator: Petroleum Development Oman
 Handles: The southern half of Omani production — heavy and medium streams that, blended with the lighter northern crudes, define the Oman Blend quality
 Strategic role: The reason Oman has one export system, not two — every southern barrel travels ~800 km north to reach water at Muscat; the geographic inefficiency the planned Ras Markaz link exists to fix
 Risks: Single-corridor evacuation for the entire south; long-haul pumping economics; blend-quality management</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15794,7 +15855,7 @@ Capacity: To be fixed by the storage-hub study — sized as a second export line
 Recent: Under conceptual development — the Ras Markaz terminal was completed with no overland connection, so Omani crude for Duqm still travels by coastal tanker from Mina al-Fahal
 Strategic role: The line that would complete Oman&apos;s geography — turning Ras Markaz from a sea-fed storage park into a true second export terminal on the open Indian Ocean, and giving the southern fields a southern exit for the first time
 Risks: Financing and final investment decision; competition for capital with other OQ projects; the tanker shuttle works well enough to blunt urgency</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15811,7 +15872,7 @@ Capacity: Sized for PDO&apos;s full production — the single evacuation spine o
 Handles: The Oman Export Blend — the commingled stream of light, medium and heavy interior crudes that prices the DME Oman futures contract
 Strategic role: The country&apos;s one artery — everything PDO produces crosses the mountains through this line to a coast that lies entirely outside the Strait of Hormuz
 Risks: Single-trunkline concentration; mountain-crossing exposure; blend-quality management across dozens of input streams</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15827,7 +15888,7 @@ Owner/Operator: OTTCO / OQ8 system
 Handles: The refinery&apos;s full crude diet — Kuwaiti and Omani grades landed at the SPM and stored at Ras Markaz, delivered on refinery demand
 Strategic role: The line that makes Duqm work — an outside-the-strait refinery fed from an outside-the-strait terminal, the only link in its supply chain that touches no chokepoint at all
 Risks: Single feed line for a 230,000 b/d plant; remote-corridor maintenance; upstream dependence on the tanker shuttle until the national grid connection exists</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15844,7 +15905,7 @@ Capacity: Nameplate up to 1.6 million b/d; currently running at roughly 15%, con
 Recent: Shut March 2023 when the ICC ordered Türkiye to pay Iraq ~$1.5bn — the only major line closed by court order rather than conflict; restarted September 2025, resumed March 2026 after a pause. Türkiye terminated the 1973 agreement on 27 July 2026 with a twelve-month wind-down while a replacement framework is negotiated; flows expected to continue through expiry
 Strategic role: Iraq&apos;s Hormuz hedge — its only Mediterranean outlet, sharing Ceyhan with BTC and stacking two countries&apos; contingency plans on one coastline
 Risks: Treaty vacuum after July 2026 and tariff renegotiation from Turkish strength; southeastern Anatolia security; seismic exposure (the 2023 Kahramanmaraş quake suspended loadings); terminal concentration</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15861,7 +15922,7 @@ Capacity: Limited — historically able to load the refinery at roughly half its
 Recent: Became Schwedt&apos;s lifeline after Germany ended Russian pipeline crude imports in January 2023
 Strategic role: The substitute artery for the Druzhba supply that fed Schwedt for five decades — seaborne barrels landed at Rostock reach the Berlin fuel market through this line
 Risks: Capacity bottleneck versus refinery nameplate; dependence on Baltic tanker deliveries and port logistics</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15888,7 +15949,7 @@ Risks: Chronic schedule slippage; Nineveh and Salahaddin security; funding and c
 					<range>15074.4970188383</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						44.33474759149754,35.5451810771893,0 43.4951408465128,35.00766179438595,0 43.08336590020788,36.35289993742235,0 42.37788406566046,37.06792066428955,0 
@@ -15914,7 +15975,7 @@ Risks: Militia drone strikes upstream (Tawke installations hit three times in 20
 					<range>18677.42480114568</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						43.74906965403268,35.91722813772751,0 43.97011261459917,36.26161849000645,0 43.87505058118854,36.73273675766753,0 42.97508234516481,36.86081837989593,0 42.38166639082129,37.06737164631899,0 
@@ -15930,7 +15991,7 @@ Capacity: ~200,000 b/d usable (~10 Mt/yr design); with TAL-PLUS live since 2025,
 Recent: In March 2025 the Czech Republic completed its switch away from Russian Druzhba deliveries; TAL-PLUS raised TAL throughput from 6,400 to 7,500 m³/hour
 Strategic role: The western supply route that made Czech independence from Russian pipeline crude possible — Trieste → Alps → Ingolstadt → Prague region
 Risks: Full dependence on the Trieste/TAL corridor now that Druzhba flows have ended; capacity sized close to national demand</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15947,7 +16008,7 @@ Capacity: ~8 Mt/yr (up to ~11 Mt technical); crude takes about three days Triest
 Recent: The planned Bratislava–Schwechat link to the Druzhba system (BSP, 62 km) was abandoned in March 2022 after 20 years without Slovak permits
 Strategic role: Austria&apos;s sole crude artery — the Austrian counterpart of the Bavarian and Czech branches of the same TAL system, all hanging off one Adriatic port
 Risks: Single-corridor dependence on Trieste/TAL; mountain terrain and pump-station reliability; no fallback route now that BSP is dead</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15963,7 +16024,7 @@ Owner/Operator: Waha Oil Company — Libya&apos;s NOC 59.2%, TotalEnergies 16.3%
 Capacity: ~20 million t/yr nameplate; carries the Gialo, Samah and Dahra field streams that make up Libya&apos;s Es Sider benchmark grade
 Recent: Repeated leaks and shutdowns — an 18 km section replaced in 2019; a 2021 leak cut Gialo output by 60,000-70,000 b/d; Waha&apos;s fields typically run 280,000-300,000 b/d into an Es Sider export stream of roughly 260,000-350,000 b/d
 Risks: Ageing, war-affected infrastructure; recurring leaks and maintenance shutdowns; single-corridor dependence for Waha&apos;s output reaching Es Sider</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15981,7 +16042,7 @@ Handles: Russian Urals for Slovakia; the Czech branch stopped taking Russian cru
 Recent: Flows to Slovakia stopped 27 January 2026 after the Brody drone strike; Slovakia declared an oil emergency 18 February and released 250,000 t of reserves; flows resumed ~23 April when Ukrtransnafta lifted force majeure
 Strategic role: Slovnaft&apos;s main artery — Slovakia is almost entirely dependent on this line, which is why the outage hit it harder than Hungary; the flashpoint of the Kyiv–Bratislava dispute
 Risks: War exposure on Ukrainian territory; the EU exemption for Russian pipeline crude is time-limited; the Adria route is the only fallback, still being expanded</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -15999,7 +16060,7 @@ Handles: Russian Urals — Hungary is one of the last two EU states still receiv
 Recent: Halted 27 January – 23 April 2026 after the Brody strike (MOL drew strategic reserves and arranged seaborne cargoes via Croatia); earlier interruptions August 2025 and March 2026 from strikes on Russian pumping stations
 Strategic role: MOL Danube&apos;s primary feed and the centre of Hungary&apos;s energy politics — the outage was met with Hungarian vetoes on EU aid to Ukraine and a diesel-export ban
 Risks: War-zone transit; the EU exemption is expected to end; over-reliance turns every strike into a national supply event</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16015,7 +16076,7 @@ Owner/Operator: Transpetrol / MOL
 Handles: Crude in either direction between the two southern Druzhba lines — Slovak and Hungarian supply can back each other up
 Strategic role: The reason the two lines behave as one system — crude reaching Hungary via Adria/JANAF can flow up to Slovakia through Százhalombatta and Šahy, the route that supplied Slovnaft during the 2026 outage; MOL&apos;s plan to run Százhalombatta, Bratislava and Pančevo as one network rests on links like this
 Risks: Limited capacity relative to full refinery demand; both ends depend on the same Adria fallback</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16032,7 +16093,7 @@ Capacity: ~30 Mt/yr; ~400,000 b/d northbound and up to ~1.2 million b/d in rever
 Recent: Built 1968 as a covert 50/50 Israeli–Iranian venture via Liechtenstein shells; arbitration after 1979 awarded Iran over $1bn — never paid. The 2020 UAE MED-RED land-bridge MOU was frozen by the &quot;Zero Additional Risk&quot; policy (Nov 2021); EAPC is diversifying, incl. a 260 km fibre-optic corridor
 Strategic role: The only Suez-bypass land bridge under a single state&apos;s control, reversible between Red Sea and Mediterranean tanker markets
 Risks: War exposure at both ends (Gaza rocket range at Ashkelon, Red Sea crisis at Eilat); environmental veto on growth — the 2014 Arava spill remains one of Israel&apos;s worst; opacity of actual flows</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16050,7 +16111,7 @@ Handles: Urals — Russia&apos;s flagship export grade, since 2022 shipped large
 Recent: Ukrainian long-range drones forced the first loading suspension at Primorsk in September 2025, with renewed strikes in March and May 2026; at the peak, roughly 40% of Russia&apos;s oil export capacity was assessed offline
 Strategic role: Built to bypass the Baltic transit states and concentrate exports at a Russian-controlled port — the single most important outlet for seaborne Urals
 Risks: Primary target of the Ukrainian deep-strike campaign; sanctions and price-cap enforcement; Gulf of Finland winter ice; single-corridor concentration</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16067,7 +16128,7 @@ Capacity: Nominal ~575,000–610,000 b/d; carries liquids from ~85 UK and Norweg
 Handles: Stabilised Forties Blend delivered at Hound Point (a Dated Brent benchmark grade); gas liquids to Grangemouth
 Strategic role: The upstream leg of the Forties chain on this map — wellhead to Hound Point loading to Rotterdam; a single-system chokepoint for a large share of UK production
 Risks: Single-system concentration — outages at Kinneil or on the main line ripple directly into the Dated Brent benchmark; ageing infrastructure; declining North Sea throughput</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16084,7 +16145,7 @@ Capacity: ~5 million b/d nameplate (one line spent years in gas service before r
 Recent: Since the March 2026 Hormuz closure, the kingdom&apos;s primary export artery — Saudi Arabia held 57% of its 2025 export rate in May (UAE 82%, Iraq 8%), lifting Suez flows ~30%; after the July Houthi threat to Saudi ports, Yanbu barrels route north into SUMED — 1.8 million b/d in late July, 46% of Yanbu exports
 Strategic role: The reason Saudi Arabia has options and Iraq has none — first link of the only chain (Petroline → Yanbu → SUMED → Sidi Kerir → Cape) avoiding both chokepoints
 Risks: 5 million b/d ceiling versus far larger Gulf-coast production; desert pumping stations already struck by drones (2019); Yanbu now inside the Houthi threat perimeter; downstream links Aramco does not control</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16111,7 +16172,7 @@ Risks: Unproven sustained throughput; monopoly-pricing dispute in Brussels&apos;
 					<range>9210.575506064342</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						14.53513269792746,45.21889665414806,0 14.44116927479243,45.32783869025283,0 16.37218449263825,45.48819008561012,0 16.98913806621053,46.06941856474209,0 17.05950749505125,46.19793017893215,0 18.89344451856273,47.28189983112755,0 18.8938765966986,48.09955658444144,0 
@@ -16137,7 +16198,7 @@ Risks: Drone and naval attack at the loading zone; war-risk premiums and berthin
 					<range>56667.48451243155</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						37.84819165789175,44.70776846911444,0 39.73729883594243,45.6458886952411,0 43.53375679844635,44.7093247800702,0 48.0893279255278,46.38305507577343,0 51.86997634522836,47.16455831254383,0 53.40677921822671,46.15949522517931,0 
@@ -16163,7 +16224,7 @@ Risks: Aktau port and shuttle-tanker bottleneck; commercial dependence on Azerba
 					<range>5832.583173390012</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						49.47895908056742,40.19397207348265,0 47.14712328482333,40.61143453007453,0 46.35978091087933,40.69055924844518,0 45.12919889883766,41.37755172107329,0 44.81703479322612,41.71587945414381,0 43.39737074215103,41.83743430943995,0 42.75982501181274,41.54796570466853,0 43.09633406581796,40.60381228423965,0 41.24055449530074,39.90770014326324,0 39.49460103452531,39.7589376072257,0 37.00346419455616,39.76985625716755,0 35.45765603225085,38.75200882869947,0 35.38141258332312,37.01972442499936,0 35.98229425859964,36.91881977422849,0 
@@ -16189,7 +16250,7 @@ Risks: Hormuz as single point of failure; tanker strikes at the loading zone; Fa
 					<range>75320.69187439978</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						44.32687766769802,35.52830776446496,0 43.49542794529953,35.00734139409213,0 42.36186393132665,34.0702185650199,0 44.08046924407459,32.37046985496429,0 44.48625366380889,30.88319538185899,0 47.66742819577102,30.449485045301,0 47.88766120465856,30.18069907419827,0 47.8935998513963,30.15922693330585,0 
@@ -16215,7 +16276,7 @@ Risks: Demand-side decline as captive refineries convert or close; concentration
 					<range>16877.12535258383</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						4.137409820052738,51.94509293269365,0 4.282228515040885,51.87508908739839,0 6.17508815568244,51.37277578836751,0 7.05321813066935,51.53416003942817,0 6.974812076765177,50.83930619871892,0 
@@ -16241,7 +16302,7 @@ Risks: Two-customer concentration in its purest form — if Feyzin stops refinin
 					<range>840530.9162601829</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						4.92557948620727,43.43825690609796,0 5.118449866937858,45.61475136882601,0 6.144605842394435,47.24561129173847,0 7.033156232720252,47.03991812889477,0 
@@ -16256,7 +16317,7 @@ Owner: Trans Mountain Corporation — Government of Canada (since 2018)
 Capacity: Two parallel lines — legacy (1953, 300,000 b/d) + TMX (2024, 590,000 b/d) = 890,000 b/d total, running 87-95% utilisation
 Strategic role: Canada&apos;s only crude pipeline to tidewater — opened Asian/US West Coast markets, easing dependence on US-bound Enbridge/Keystone routes
 Risks: Near-full utilisation; mountainous/Indigenous-land sensitivity; sole Pacific-coast outlet for Canadian crude</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16283,7 +16344,7 @@ Risks: Utilisation near the ceiling; the Yanbu→Ain Sokhna leg is itself within
 					<range>60827.07518829033</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						29.67384348728239,31.03842348580901,0 32.34013685664577,29.6632277127853,0 
@@ -16299,7 +16360,7 @@ Capacity: ~43 Mt/yr design (~850,000 b/d), ~37 Mt actual; covers 100% of souther
 Recent: TAL-PLUS (completed April 2025, ~€44m of pump upgrades, no new pipe) raised Czech deliveries to 8 Mt/yr as Druzhba imports ended; in 2026, every barrel prices off the disrupted Mediterranean pool — freight and war-risk premiums set a thousand kilometres south
 Strategic role: VAROPreem&apos;s umbilical — both Bayernoil sites sit at the eastern terminus; Europe&apos;s quiet single point of dependence
 Risks: No substitute for three countries&apos; refining if Trieste stops; allocation tension as Czech volumes push utilisation toward the ceiling; Alpine transit; a trusteed Russian stake in the shareholder room</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16316,7 +16377,7 @@ Capacity: ~1.5 million b/d; loads Murban — the underlying of the IFAD futures 
 Recent: The reason the UAE outperformed every Gulf producer in 2026 — 82% of its 2025 export rate in May (Saudi 57%, Iraq 8%), plus a shuttle service to STS transfers off Oman; a second Fujairah line is planned to double capacity outside Hormuz
 Strategic role: The cleanest chokepoint solution on the map — Saudi barrels need a three-link chain to escape both straits, Emirati barrels need one pipe; Fujairah&apos;s storage and futures infrastructure compounds the edge
 Risks: 1.5 million b/d ceiling — everything above it still needs Hormuz; single corridor and terminal zone (Fujairah attacked 2019); congestion as the region&apos;s diverted volumes converge; the Gulf of Oman is beyond the strait but not beyond Iranian reach</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16333,7 +16394,7 @@ Handles: Sakhalin Blend — light, sweet, attractive to Asian refiners; produced
 Recent: Japan retains a specific US/G7 sanctions exemption for Sakhalin-related crude and LNG — Japanese utilities depend on the LNG, Mitsui and Mitsubishi hold minority stakes, and halting the crude would disrupt the whole chain
 Strategic role: The sanctions carve-out of the Pacific — oil that keeps flowing because gas depends on it
 Risks: Sanctions-policy change; single-complex concentration at Prigorodnoye; Far East winter operations</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16350,7 +16411,7 @@ Handles: Saharan Blend — light, sweet, ~0.1% sulphur, among the highest-qualit
 Recent: Pump-station extension and renovation to raise capacity; in 2026, Algerian barrels are among the most logistics-advantaged in the basin — no strait, no canal, a two-day sail to Europe
 Strategic role: The quiet winner of the map — field to Mediterranean water entirely within one country, in a year when the market prices routes over reserves
 Risks: Ageing steel (sister OB1 needed 164 km rebuilt); single dispatch hub; mature Hassi Messaoud decline rates; desert transit security; domestic-refinery vs export allocation</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16376,10 +16437,10 @@ Risks: Contested-attribution war damage; ageing Soviet steel; a &quot;temporary&
 					<range>11924.52108772472</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
-						52.21755616829461,54.92379020024675,0 49.97118604510176,53.07508390534375,0 32.67618021154117,52.84012386232368,0 29.21733433700696,52.03704679591238,0 25.12070272207665,50.0683307387039,0 22.28998353156627,48.61991228708972,0 
+						52.21755616829461,54.92379020024675,0 49.97118604510176,53.07508390534375,0 32.67618021154117,52.84012386232368,0 29.26613104915953,51.92329748891363,0 25.12070272207665,50.0683307387039,0 22.28998353156627,48.61991228708972,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -16392,7 +16453,7 @@ Capacity: Commissioned 1981 at 2.9 million t/yr, upgraded to ~6 million t/yr (~1
 Role: Pakistan&apos;s main crude artery — feeds PARCO&apos;s Mid-Country Refinery at Mahmoodkot from crude landed at Karachi
 Connectivity: The crude counterpart to PAPCO&apos;s own White Oil Pipeline, which runs the same corridor carrying refined product
 Risks: Single-line dependence for Mid-Country Refinery&apos;s crude supply; over 40 years in service; security along the Sindh-Punjab corridor</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16409,7 +16470,7 @@ Capacity: The Waha fields can pump ~300,000 b/d (recently ~285,000); the line, n
 Recent: NOC describes the line as dilapidated — leaks, no maintenance budget, blockades (2020, 2022), emergency repair shutdowns (2021, 2022); in 2026 every outage tightens the Med light sweet pool Europe leans on
 Strategic role: An onshore chokepoint — one corroded 32-inch pipe in the desert moves a fifth of a country&apos;s production
 Risks: Mechanical failure as the base case; militia and PFG action at both ends; force-majeure frequency; underinvestment locked in by fiscal chaos; the Gulf of Sirte cluster can be blockaded as a unit</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16426,7 +16487,7 @@ Capacity: Built in two phases (2012, 2013) to ~38 million t/yr delivered to Ust-
 Recent: Built explicitly to bypass Belarus, Poland and Ukraine after the 2007 Russia-Belarus transit tariff dispute; constructed 2009-2013 at a cost of roughly $4 billion
 Strategic role: Russia&apos;s second Baltic export route alongside BPS-1/Primorsk — together the two systems let Russia route the same crude either overland via Druzhba or seaborne via the Baltic, shifting flows to manage transit-country leverage
 Risks: Drone-attack exposure at the Ust-Luga terminus (2026 strikes); routing decisions subject to geopolitics rather than pure economics; shares BPS-1&apos;s exposure profile</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						32.67547313853481,52.84038680766856,0 32.85,53.95,0 32.3,55.5,0 32.03,56.65000000000001,0 30.8,57.9,0 29.6,58.89999999999999,0 28.38,59.66,0 
@@ -16442,7 +16503,7 @@ Role: Diverts part of BPS-2&apos;s crude inland to feed Kirishi refinery rather 
 Capacity: Allocated roughly 12 million t/yr of BPS-2&apos;s total throughput
 Strategic role: Shows BPS-2 is not purely an export pipeline — it also functions as a domestic supply line, letting Transneft balance flows between refining (Kirishi) and export (Ust-Luga) from the same source
 Risks: Shares BPS-2&apos;s exposure to attack and geopolitical routing decisions; a single spur whose failure would cut this supply route to Kirishi, though Kirishi also receives crude via the older Sever/BPS-1 corridor</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						29.6,58.89999999999999,0 32.056,59.485,0 
@@ -16458,7 +16519,7 @@ Role: Carries Timan-Pechora crude, gathered via the upstream Usa-Ukhta line, int
 Recent: LUKOIL noted in 2012 that this line and the upstream Usa-Ukhta segment were running at full capacity, prompting new interfield pipelines to relieve pressure on both
 Strategic role: Without this line, the Baltic Pipeline System has no visible upstream source — this is what actually feeds it
 Risks: Ageing Soviet-era infrastructure; sub-zero winter operating conditions; capacity constraints already flagged by operators over a decade ago</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<coordinates>
 						53.7226,63.5754,0 39.74744950480158,57.57853917415782,0 
@@ -16474,7 +16535,7 @@ Capacity: Sized for the upgraders&apos; intake; utilisation follows Faja output
 Crude grades: Diluted extra-heavy (DCO) northbound; naphtha southbound
 Role &amp; connections: The physical spine of the entire export model — no corridor, no Merey; every incremental Faja barrel under the new framework must pass here or justify new lines
 Source: Industry data; corridor drawn schematically — refine on imagery</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16490,7 +16551,7 @@ Owner/Operator: Conpet SA — Romania&apos;s state pipeline carrier, which also 
 Handles: Imported seaborne crude inland to Petrobrazi and (when it runs) Petrotel; domestic crude within the same national network
 Strategic role: The line that connects the sea to the birthplace — imported barrels travelling to the town where refining was invented; its Petrotel deliveries stopped with the sanctions freeze
 Risks: Ageing state infrastructure; throughput collapse when a customer refinery dies; tariff dependence on few shippers</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16508,7 +16569,7 @@ Handles: Canadian heavy and Bakken barrels flowing SOUTH to the Gulf — the exa
 Recent: The reversal is the quiet twin of Seaway&apos;s — the second great US artery to flip direction as domestic production replaced imports; it re-linked the Hardisty/Cushing world to the Louisiana refining row
 Strategic role: The Mississippi valley&apos;s crude spine — its flow direction is a one-line history of US oil
 Risks: Utilisation ramp economics; competition with other heavy-crude routes; river-crossing integrity</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16525,7 +16586,7 @@ Capacity: Sized for the LOOP system&apos;s full throughput
 Handles: Imported and offshore-Gulf crude from the LOOP caverns into the onshore hub, refineries and Capline interconnection — and export barrels the other way
 Strategic role: The short pipe that connects America&apos;s only VLCC port to its Louisiana pricing point — the last link between a supertanker at sea and an LLS quote at St. James
 Risks: Single-corridor dependence for the LOOP system; wetland routing and integrity</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16543,7 +16604,7 @@ Handles: Canadian light, synthetic and heavy grades — the Hardisty barrel&apos
 Connectivity: At Flanagan the Mainline also launches Flanagan South toward Cushing — one junction, two southbound choices
 Strategic role: The link that lets Western Canadian Select reach St. James and the Louisiana refining row — Hardisty to the Mississippi in one connected system on this map
 Risks: Mainline apportionment upstream; competition with Flanagan South and ETCOP for the same barrels</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16560,7 +16621,7 @@ Capacity: ~585,000 b/d
 Handles: Canadian heavy and light from the Enbridge Mainline into the WTI hub&apos;s tanks — one of Cushing&apos;s principal inbound lines
 Strategic role: The second Canadian route into Cushing (beside Keystone) — the reason the benchmark&apos;s tanks hold Alberta barrels, and the western leg of the Flanagan junction&apos;s two-way choice
 Risks: Mainline dependence upstream; heavy-light quality management in shared tanks; competition with the Patoka route for Canadian flows</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16577,7 +16638,7 @@ Capacity: ~345,000 b/d after expansion
 Handles: Cushing-stored crude — WTI-quality light and Canadian grades — to Midwest refining
 Strategic role: The benchmark&apos;s eastern outlet — with the short Woodpat link onward it connects Cushing&apos;s tanks to the Patoka hub and thus, since the reversal, to Capline itself: a barrel can now run Cushing → Wood River → Patoka → St. James entirely by pipe
 Risks: Utilisation competition; refinery-outage demand swings at Wood River</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16593,7 +16654,7 @@ Owner/Operator: Marathon Pipe Line
 Handles: Crude interchange between the two Illinois hubs — the short link that stitches the Cushing/Ozark system into the Patoka junction
 Strategic role: Eighty kilometres that connect two worlds — WTI-priced barrels from Oklahoma meeting Bakken and Canadian streams at Patoka
 Risks: Small-line dependence for a big interconnection role</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16610,7 +16671,7 @@ Capacity: ~1.2 million b/d — the highest-capacity crude oil pipeline in North 
 Handles: The Mainline slate southbound — the trunk that feeds both Flanagan South (to Cushing) and the Southern Access Extension (to Patoka)
 Strategic role: The busiest single crude pipe on the continent, and almost nobody has heard of it — the definition of invisible criticality
 Risks: Concentration of Canadian export flow in one line; expansion permitting battles fought over decades</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16627,7 +16688,7 @@ Capacity: ~670,000 b/d
 Handles: Canadian heavy and light for the Great Lakes refineries — the supply line of the Midwest&apos;s largest plant
 Strategic role: The answer to how Whiting eats — the refinery on the lake is fed from the tank farm in the north woods, not from any local source
 Risks: Urban-corridor routing at the Chicago end; the 2010 Line 6B Marshall spill on the sister line remains the reference accident of the system</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16645,7 +16706,7 @@ Handles: Cushing-stored crude southbound to Gulf refineries and export docks
 Recent: The 2012 flow reversal is the hub&apos;s defining modern event — built to carry imports north, turned around to drain the shale glut south; it re-priced WTI against Brent and created the Cushing–Gulf spread trade
 Strategic role: The main southbound valve of the benchmark — when Seaway and Marketlink run full, Cushing drains and WTI firms
 Risks: Tariff and capacity competition; leak incidents; dependence of hub balance on two southbound systems</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16662,7 +16723,7 @@ Capacity: ~700,000+ b/d
 Handles: Cushing barrels — including Canadian heavy delivered by Keystone — to the largest US refining concentration
 Strategic role: The second southbound valve, pairing with Seaway to connect the paper hub to Gulf physical demand; the reason Canadian crude priced at Hardisty can end up in a Port Arthur coker
 Risks: Shared-system exposure with Keystone upstream; tariff competition with Seaway; Gulf Coast demand cycles</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16680,7 +16741,7 @@ Handles: Canadian heavy and synthetic crude into the hub&apos;s tanks — the no
 Recent: The December 2022 Mill Creek rupture in Kansas — the largest US onshore spill in a decade — happened on this segment, cutting deliveries and briefly moving the WTI market
 Strategic role: The pipe that makes Cushing a continental hub rather than a Texan one — Alberta barrels priced against Oklahoma paper
 Risks: Spill history and regulatory pressure; upstream dependence on one mainline; heavy-light quality management in shared tanks</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16698,7 +16759,7 @@ Handles: West Texas Intermediate in the literal sense — Permian barrels moving
 Recent: The shale era inverted its importance: most Permian growth now flows straight to Corpus Christi and Houston, making Basin the optional route and the Cushing–Midland spread the signal of which path pays
 Strategic role: The historic artery between the basin and the benchmark — WTI&apos;s own supply line
 Risks: Structural competition from Permian-to-Gulf pipelines; utilisation swings; ageing infrastructure</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -16716,7 +16777,7 @@ Handles: Western Canadian Select and synthetic grades from the Hardisty blending
 Recent: April 2025 — rupture at Fort Ransom, North Dakota (~3,500 barrels), another entry in the system&apos;s spill record after the 2022 Kansas rupture; the Keystone XL shortcut (Hardisty–Steele City direct) was cancelled in 2021, leaving this the system&apos;s only northern leg
 Strategic role: Canada&apos;s main southbound crude artery before TMX — the pipe that ties Alberta&apos;s discount barrel to Oklahoma&apos;s benchmark
 Risks: Spill history and regulatory scrutiny; single-mainline dependence for the whole system; heavy-crude demand cycles at the far end</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#default1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>

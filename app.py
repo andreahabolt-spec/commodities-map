@@ -178,7 +178,7 @@ def normalize_status(raw):
     for v in STATUS_VALUES:
         if first.startswith(v.lower()[:4]):
             return v
-    if any(k in s for k in ("offline", "shut", "halted", "closed", "idle", "suspend", "not operational", "non-operational")):
+    if any(k in s for k in ("offline", "Inactive", "shut", "halted", "closed", "idle", "suspend", "not operational", "non-operational")):
         return "Offline"
     if any(k in s for k in ("reduced", "record low", "disrupt", "constrain", "limited", "partial", "low water", "hot standby")):
         return "Reduced"
