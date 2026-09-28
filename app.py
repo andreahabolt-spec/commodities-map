@@ -456,7 +456,7 @@ route_categories = [c for c in data["categories"] if c in ROUTE_COLORS and any(l
 point_categories = [c for c in data["categories"] if any(p["category"] == c for p in data["points"])]
 
 st.title("Global Oil Infrastructure Map")
-st.caption("The oil value chain mapped worldwide.")
+st.caption("Every asset verified. Every price paired with the physical barrel behind it.")
 
 if kml_warning:
     st.warning(kml_warning)
