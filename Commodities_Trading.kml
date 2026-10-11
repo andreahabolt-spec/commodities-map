@@ -684,10 +684,28 @@
 			<displayName>Précision (m)</displayName>
 		</SimpleField>
 	</Schema>
-	<StyleMap id="default">
+	<Style id="default">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="default0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#default1</styleUrl>
+			<styleUrl>#default</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -731,6 +749,16 @@
 			<color>ff00aa55</color>
 		</LineStyle>
 	</Style>
+	<StyleMap id="default2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="default20">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -765,27 +793,67 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="failed">
+	<Style id="failed8">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="failed0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#failed2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed0</styleUrl>
+			<styleUrl>#failed3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="failed3">
+	<Style id="failed3">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed6">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed2">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="failed7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed22</styleUrl>
+			<styleUrl>#failed5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed00</styleUrl>
+			<styleUrl>#failed</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed1">
+	<Style id="failed5">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="failed1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed11">
 		<IconStyle>
 			<color>ff00b7ff</color>
 			<scale>0.7</scale>
@@ -800,60 +868,6 @@
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="failed0">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="failed00">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="failed11">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -874,12 +888,12 @@
 			<color>e6ff0000</color>
 		</LineStyle>
 	</Style>
-	<Style id="failed2">
+	<Style id="failed12">
 		<IconStyle>
-			<color>ff0000ff</color>
+			<color>ff00b7ff</color>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -888,25 +902,7 @@
 		</LabelStyle>
 		<ListStyle>
 			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="failed22">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -1030,6 +1026,24 @@
 		</ListStyle>
 	</Style>
 	<Style id="hl">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="hl0">
 		<IconStyle>
 			<scale>1.2</scale>
 		</IconStyle>
@@ -1195,20 +1209,20 @@
 			<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mfailed">
+	<StyleMap id="mfailed0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#failed11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+			<styleUrl>#sh_ylw-pushpin01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mfailed0">
+	<StyleMap id="mfailed00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed1</styleUrl>
+			<styleUrl>#failed12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1243,6 +1257,26 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin5000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_R">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_R0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_R</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_R0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_airports000">
@@ -1395,6 +1429,16 @@
 			<styleUrl>#sh_marina</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_pink-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_volcano">
 		<Pair>
 			<key>normal</key>
@@ -1425,24 +1469,14 @@
 			<styleUrl>#sh_volcano00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
+	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
@@ -1455,26 +1489,6 @@
 			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin001">
 		<Pair>
 			<key>normal</key>
@@ -1483,6 +1497,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10">
@@ -1515,6 +1539,16 @@
 			<styleUrl>#sh_ylw-pushpin001</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
@@ -1543,6 +1577,9 @@
 				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 		<LineStyle>
 			<color>e600aaff</color>
 			<width>0.8</width>
@@ -1556,10 +1593,53 @@
 				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 		<LineStyle>
 			<color>e600aaff</color>
 			<width>0.8</width>
 		</LineStyle>
+	</Style>
+	<Style id="sh_R">
+		<IconStyle>
+			<color>ff00b7ff</color>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_R0">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sh_airports000">
 		<IconStyle>
@@ -1765,6 +1845,25 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_pink-blank">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sh_volcano">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -1809,57 +1908,11 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-		<LineStyle>
-			<color>ffffaaaa</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin4">
-		<IconStyle>
-			<color>ff00ff00</color>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin0">
 		<IconStyle>
@@ -1873,8 +1926,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
@@ -1893,11 +1944,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin001">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin000">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1911,12 +1957,17 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin11">
+	<Style id="sh_ylw-pushpin001">
 		<IconStyle>
-			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin01">
+		<IconStyle>
+			<color>ff00b7ff</color>
 			<scale>0.84</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1925,9 +1976,17 @@
 		</LabelStyle>
 		<ListStyle>
 			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin10">
 		<IconStyle>
@@ -1962,6 +2021,26 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin50">
 		<IconStyle>
@@ -1998,6 +2077,46 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sn_R0">
+		<IconStyle>
+			<color>ff00b7ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_R">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sn_airports000">
 		<IconStyle>
@@ -2221,6 +2340,25 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sn_pink-blank">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_volcano">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -2254,44 +2392,7 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin3">
-		<IconStyle>
-			<color>ff00ff00</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<BalloonStyle>
-		</BalloonStyle>
+	<Style id="sn_ylw-pushpin">
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
@@ -2313,18 +2414,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin">
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin00">
-		<LineStyle>
-			<color>ffffaaaa</color>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin000">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2336,6 +2425,23 @@
 		<LineStyle>
 			<color>ffc80154</color>
 		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
@@ -2362,9 +2468,26 @@
 			<width>1.5</width>
 		</LineStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin20">
 	</Style>
 	<Style id="sn_ylw-pushpin200">
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="style1000">
 		<LineStyle>
@@ -8217,19 +8340,18 @@ Recent: ~€550m invested over ten years in safety, quality and performance, inc
 Strategic role: One of TotalEnergies&apos; three crude refineries in metropolitan France; integrated inland refining-petrochemical complex south of Lyon
 Risks: Dependence on the Fos–Feyzin crude pipeline; outages; pipeline disruptions; labour; fires; environmental restrictions; energy and carbon costs; declining road-fuel demand</description>
 					<LookAt>
-						<longitude>4.847133199999999</longitude>
-						<latitude>45.6737966</latitude>
+						<longitude>4.844553030264263</longitude>
+						<latitude>45.67261648574242</latitude>
 						<altitude>0</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>1695.744047812515</range>
-						<altitudeMode>relativeToGround</altitudeMode>
+						<heading>-18.06047981292101</heading>
+						<tilt>9.204137245164876</tilt>
+						<range>4419.691774540118</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed0</styleUrl>
+					<styleUrl>#msn_R</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
-						<coordinates>4.8471332,45.6737966,0</coordinates>
+						<coordinates>4.842233925728294,45.67354991021541,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="0429F90FA83F7ED8A192">
@@ -8244,19 +8366,18 @@ Recent: Horizon modernisation (~€400m) for low-sulphur fuels and competitivene
 Strategic role: One of TotalEnergies&apos; three operating refineries in metropolitan France — key fuel supplier to western France
 Risks: Atlantic marine logistics; outages; labour; fires; energy and carbon costs; environmental constraints; regional demand</description>
 					<LookAt>
-						<longitude>-2.0673946</longitude>
-						<latitude>47.3163875</latitude>
+						<longitude>-2.065519347134876</longitude>
+						<latitude>47.30468348639172</latitude>
 						<altitude>0</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>1636.92020139366</range>
-						<altitudeMode>relativeToGround</altitudeMode>
+						<heading>-0.6275310914178838</heading>
+						<tilt>3.306782579172817</tilt>
+						<range>5246.793138657391</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed0</styleUrl>
+					<styleUrl>#msn_R</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
-						<coordinates>-2.0674723,47.3163743,0</coordinates>
+						<coordinates>-2.063241494703271,47.31307554472855,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="026F5C12253F7F2E7513">
@@ -9407,7 +9528,7 @@ Capacity: ~15 Mt/yr (~300,000 b/d) — Germany&apos;s largest refinery
 Feedstock: Diverse imported crudes from Trieste via the Transalpine Pipeline (TAL); ~730,000 m³ of crude storage in 19 tanks
 Main products: Gasoline, diesel, heating oil, jet components, LPG, propylene, bitumen, sulphur, petrochemical feedstocks
 Markets: Baden-Württemberg, Bavaria and the Upper Rhine — supplies ~10 million people; about one-third of German gasoline originates here
-Strategic role: The largest node of the TAL corridor and the fuel anchor of south-west Germany
+Strategic role: The largest node of the TAL corridor and the fuel anchor of south-west Germany, also SERVES as the real substitute source for Strasbourg and Basel when the Kaub chokepoint (already on this map) blocks northern-origin barges.
 Risks: TAL dependence; unit outages; Rhine logistics; European energy and carbon costs; sanctions-related ownership uncertainty</description>
 					<LookAt>
 						<longitude>8.3364487</longitude>
@@ -9419,7 +9540,7 @@ Risks: TAL dependence; unit outages; Rhine logistics; European energy and carbon
 						<range>1573.597768357931</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed0</styleUrl>
+					<styleUrl>#mfailed00</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>8.336358799999999,49.0530041,0</coordinates>
@@ -9966,6 +10087,27 @@ Risks: Very small scale; largely superseded for national fuel supply</descriptio
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>114.3439739945475,4.618959196742356,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Fos-sur-Mer refinery </name>
+					<description>Status: Operational
+Role: Crude oil refining into petroleum products at Fos-sur-Mer on the French Mediterranean coast.
+Owner / Operator: Rhône Energies
+Risks: Seveso high-threshold industrial site.</description>
+					<LookAt>
+						<longitude>4.934934374654978</longitude>
+						<latitude>43.44536398493667</latitude>
+						<altitude>0</altitude>
+						<heading>-2.623782270179317</heading>
+						<tilt>4.035498846423411</tilt>
+						<range>4197.208036202906</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>4.92575599990267,43.44588262428451,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -10588,6 +10730,48 @@ Risks: Renewable-fuel oversupply and margin volatility; feedstock cost, availabi
 						<coordinates>4.023487501747187,51.96433935715067,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Raffinerie TotalEnergies de Grandpuits</name>
+					<description>Status: Operational site; SAF biorefinery under construction, with start-up planned for 2026. Conventional crude refining stopped in March 2021.
+Role: Production of sustainable aviation fuel (SAF), with road biofuels and bionaphtha also planned.
+Owner / Operator: TotalEnergies Raffinage France; SAF project developed with SARIA through TESSAF.
+Risks: Seveso high-threshold industrial site; major-accident risk.</description>
+					<Camera>
+						<longitude>2.929401682522228</longitude>
+						<latitude>48.58838590340994</latitude>
+						<altitude>4385.123964008561</altitude>
+						<heading>4.611045521889965</heading>
+						<tilt>4.269095145810163</tilt>
+						<roll>3.238739748904639</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.94546340905214,48.5899774938753,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>La Mède Biorefinery — TotalEnergies</name>
+					<description>Status: Operational
+Role: HVO biofuel production at a former crude-oil refinery converted into a biorefinery.
+Owner / Operator: TotalEnergies Raffinage France
+Risks: Seveso high-threshold industrial site.</description>
+					<LookAt>
+						<longitude>5.060440315838386</longitude>
+						<latitude>43.38800225426528</latitude>
+						<altitude>0</altitude>
+						<heading>-0.3473981935800314</heading>
+						<tilt>2.517183197062874</tilt>
+						<range>11802.76358040157</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>5.101226141554466,43.39593511316791,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>FAME biodiesel plants</name>
@@ -10615,9 +10799,22 @@ Risks: Feedstock competition and cost; mandate-policy dependence; small scale ag
 		<name>B. Gateways</name>
 		<Folder>
 			<name>Crude Terminals (import / export)</name>
-			<open>1</open>
 			<Folder>
 				<name>Import &amp; Export Terminal</name>
+				<Placemark>
+					<name>Slagen Terminal</name>
+					<description>Status: Operational AS A TERMINAL — refining stopped June 2021
+Owner: ExxonMobil (Esso Norge)
+Former role: Refinery, ~116,000-120,000 b/d (6 million t/yr), opened 1961 near Åsgårdstrand, Tønsberg — Norway&apos;s oldest refinery; closed to refining in 2021
+Current role: Imports finished fuel products, including from ExxonMobil&apos;s other European refineries, and redistributes them along the coast to Esso terminals in Fredrikstad, Bergen and Trondheim
+Why reclassified as a terminal, not a refinery: No crude is processed here anymore — this site now does the opposite job, receiving and distributing already-refined product
+Why it matters: Its conversion left Mongstad as Norway&apos;s only refinery and cut Norway&apos;s net product exports sharply; also shows how a former refinery site&apos;s existing tankage and logistics can be repurposed rather than abandoned
+Risks: Norway&apos;s emergency crude stockholding rules needed revision after this closure, per IEA review</description>
+					<styleUrl>#default0</styleUrl>
+					<Point>
+						<coordinates>10.51324670599564,59.32116257455574,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Shinas Marine Fuels &amp; Oil Terminals (SMFOT) — Planned</name>
 					<description>Status: PLANNED — no tanks or terminal built yet; Phase 1 engineering underway
@@ -10630,7 +10827,7 @@ Why it matters: Described by Bilfinger as a &quot;modern and sustainable marine 
 Current interim service: Shinas already offers basic TRUCK-delivered bunkering (O Bunkering supplies MGO by road, agreement from November 2025) — a simpler, already-operating service, separate from this planned tank terminal
 Context: Part of a broader expansion of Shinas Port&apos;s role as a logistics hub — the port handled 813,155 tonnes of cargo in 2025 (mostly imports); a separate ship-recycling project is also under consideration for the site
 Risks: Still pre-construction; no confirmed completion date; two separate contractors (design vs. build) need to coordinate successfully for the project to proceed on schedule</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>56.46924686891592,24.74845862357457,0</coordinates>
 					</Point>
@@ -10645,7 +10842,7 @@ History: For years mostly handled Russian crude in the REVERSE direction instead
 Recent: Named directly in Ukraine&apos;s January 2026 proposal to the EU as part of an alternative routing option for European crude supply, after Russian attacks damaged the Druzhba pipeline
 Why it matters: The physical gateway behind Ukraine&apos;s decades-long, still-unresolved attempt to become a non-Russian oil transit corridor for Europe
 Risks: Black Sea war-zone exposure; a terminal whose strategic purpose has flip-flopped for over 20 years depending on who controls the flow</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>31.0494352535626,46.61571647104757,0</coordinates>
 					</Point>
@@ -10659,7 +10856,7 @@ History: Completed 1999, built specifically to give Lithuania an alternative to 
 Capacity: 14 million tonnes/year design; additional tanks added over the years to reduce weather-related loading delays (rough seas historically stopped the offshore pump station 12-15 times a year)
 Current role: Since 2006, operates as an IMPORT-ONLY terminal — crude flows in from tankers via the offshore buoy, none flows back out for export
 Risks: Weather-dependent offshore loading; the whole facility is Lithuania&apos;s sole crude entry point</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>21.10753786286299,56.05992215927822,0</coordinates>
 					</Point>
@@ -10674,7 +10871,7 @@ Role: The single most important crude entry/exit point in Poland — handles imp
 Connectivity: Feeds into the PERN pipeline network via the adjacent Gdansk/Krakowiec tank farm; linked to Plock (inland refinery) via the bi-directional Pomeranian Pipeline
 Why it matters: Built in the 1990s specifically to give Poland an alternative to total dependence on Russian pipeline crude — the same terminal that could, if needed, scale toward 50 million tonnes/year if the Druzhba pipeline were ever shut down entirely
 Risks: A single dominant national gateway; historically also handled Russian crude via Kaliningrad transits, an ongoing point of scrutiny</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>18.6938202781512,54.39985882116169,0</coordinates>
 					</Point>
@@ -10689,7 +10886,7 @@ Throughput: ~15 million tonnes of petroleum products unloaded annually
 Connectivity: Pipelines from here feed the major inland refineries of Northern Italy — SARPOM Trecate and Eni Sannazzaro de&apos; Burgondi, both already on this map — as well as depots across the region
 Why it matters: The crude-import gateway that makes Italy&apos;s whole Piedmont/Lombardy inland refining cluster possible, the same functional role as Trieste/SIOT plays for the TAL pipeline system further east
 Risks: Congestion given dense urban surroundings; periodic redevelopment plans (a breakwater-based platform has been proposed to relocate berths)</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>8.831327389218275,44.42404420391078,0</coordinates>
 					</Point>
@@ -10702,7 +10899,7 @@ Role: Despite SAMIR&apos;s closure, Mohammedia REMAINS one of Morocco&apos;s top
 Capacity note: Holds over 70% of Morocco&apos;s national BUTANE storage specifically, and is one of the three locations (with Tangier and Jorf Lasfar) accounting for ~80% of the country&apos;s total liquid fuel storage
 Why it matters: Demonstrates that a refinery and its surrounding terminal infrastructure can outlive the refinery itself — the same tanks and port once built to receive crude for SAMIR now receive finished products instead
 Risks: Ageing infrastructure originally built for a different purpose (crude receipt for refining, not pure product storage)</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-7.418460059368467,33.69321294477429,0</coordinates>
 					</Point>
@@ -10715,7 +10912,7 @@ Role: A major industrial and energy port 100 km south of Casablanca, near El Jad
 Recent: Also the site of Morocco&apos;s planned LNG import terminal (gas, separate from this map&apos;s scope), reflecting the port&apos;s broader role as the country&apos;s main energy-diversification hub
 Why it matters: Completes the trio of terminals that together define where almost all of Morocco&apos;s imported fuel physically enters the country
 Risks: Concentration of both liquid fuel and (planned) gas import infrastructure at one site</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-8.613960912308883,33.119818105771,0</coordinates>
 					</Point>
@@ -10728,7 +10925,7 @@ Role: Portugal&apos;s PRIMARY crude oil import gateway — directly connected to
 Throughput: 17 million tonnes annually (2019)
 Why it matters: Along with Leixões (now product-only), this was one of only two ports through which ALL Portuguese crude imports passed — now, with Matosinhos closed, effectively the sole crude gateway for the entire country
 Risks: Total national crude-import dependence on one terminal</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-8.88319723072909,37.95279877542374,0</coordinates>
 					</Point>
@@ -10740,7 +10937,7 @@ Owner/Operator: CLC (Companhia Logística de Combustíveis) — Galp 65%, BP Por
 Location: Aveiras de Cima, a small town (pop. ~4,762) in Azambuja municipality, Lisbon district, directly on the A1 motorway
 Role: The storage and dispatch terminal at the end of the Sines-Aveiras pipeline — receives all seven products the line carries (diesel, butane, propane, jet fuel, three gasoline grades) and distributes them onward by road/rail to central Portugal and greater Lisbon
 Why here: CLC&apos;s own description confirms this exact site handles both the pipeline terminus AND the storage/dispatch function — this is not a symbolic endpoint, it is the named, physical facility</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-8.93036238518318,39.16990455059528,0</coordinates>
 					</Point>
@@ -10755,7 +10952,7 @@ Location: Verified at 10°30&apos;40.52&quot;N, 71°36&apos;27.92&quot;W — app
 Connectivity: Receives crude via the Boscán-Bajo Grande feeder pipeline; loads small tankers (capped ~250,000 bbl by the lake channel&apos;s 9.8 m draft limit) for ship-to-ship transfer at Amuay Bay
 Why the infrastructure looks minimal: This terminal was built for asphalt-grade crude in small volumes, not for large tanker traffic — a single narrow jetty and mooring point is genuinely all the site requires
 Risks: Vapour-generation equipment shortfalls have repeatedly cut loading rates; export volume tied directly to Chevron&apos;s OFAC licence status</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-71.6078,10.5113,0</coordinates>
 					</Point>
@@ -10770,7 +10967,7 @@ Role: Handles a broad range of lake crudes and refined products, distinct from B
 Location: Cabimas, on Lake Maracaibo&apos;s eastern shore — geographically separate from Bajo Grande on the western shore
 Recent: PDVSA&apos;s own internal reporting flagged the Substation 40-L electrical supply as obsolete, and 14 storage tanks overdue for major maintenance — a terminal running at a quarter of its rated capacity due to infrastructure decay rather than lack of crude
 Risks: Ageing electrical and storage infrastructure; a large terminal running far below its designed throughput</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-71.45659960786662,10.38271260235905,0</coordinates>
 					</Point>
@@ -10782,7 +10979,7 @@ Owner/Operator: Various, serving Repsol&apos;s adjacent La Pampilla refinery and
 Role: Peru&apos;s main crude and product IMPORT gateway — as domestic jungle production has declined relative to demand, Peru increasingly imports foreign crude here to keep La Pampilla and the Lima market supplied
 Why it matters: The clearest evidence that Peru&apos;s refining system is import-dependent, not export-oriented — this terminal brings crude IN, the opposite direction from Bayóvar
 Risks: Exposure to international freight and crude-price volatility; concentrates import supply at one port serving the capital</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-77.12926312339569,-12.03965260091957,0</coordinates>
 					</Point>
@@ -10796,7 +10993,7 @@ Facilities: Can berth tankers up to 250,000 dwt; four hydraulic arms load up to 
 History: The tanker Trompeteros made the first-ever shipment from here to La Pampilla on 7 June 1977
 Function: Receives ONP crude, stores it, and loads it onto coastal tankers for La Pampilla and other refineries — also holds enough stock (~30 days) to keep refineries supplied during the ONP&apos;s frequent shutdowns
 Risks: Entirely dependent on the ONP for its crude supply; stock buffer is finite when the pipeline is down for extended repairs</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-81.06361127241121,-5.805070207129226,0</coordinates>
 					</Point>
@@ -10810,7 +11007,7 @@ Facilities: Six tanks of 120,000 m3 each (82 m diameter, 35 m tall, ~10 storeys)
 Why here: Selected over Bahía Blanca, Quequén and Comodoro Rivadavia specifically for water depth and metocean conditions that allow VLCC access, and for being ~600 km from the Vaca Muerta core — comparable to Bahía Blanca but far less congested
 Strategic role: Designed to handle up to 550,000 b/d, positioning Punta Colorada as Argentina&apos;s largest crude export infrastructure
 Risks: Major greenfield construction project on an accelerated schedule; first-of-its-kind scale for Argentina</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-65.02901931678909,-41.69615914575756,0</coordinates>
 					</Point>
@@ -10824,7 +11021,7 @@ Role: A key Gulf-coast crude export and import terminal in Tabasco, adjacent to 
 Connectivity: Receives crude from the southern offshore fields and the Chiapas-Tabasco onshore fields; historically a major loading point for Isthmus and Maya crude
 Note: As the Olmeca refinery ramps up, more crude that once exported from here is intended to be refined domestically instead
 Risks: Weather exposure on the Gulf; shifting role as refining absorbs more crude</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-93.17478491115122,18.43702255375515,0</coordinates>
 					</Point>
@@ -10837,7 +11034,7 @@ Type: Onshore crude and petrochemical terminal/port — tanks and docks in the C
 Role: Handles crude, products and petrochemical feedstocks, linked to the southern refining and petrochemical cluster
 Connectivity: Serves the Minatitlan refinery and the Coatzacoalcos petrochemical complex; a historic export and cabotage point
 Risks: Ageing infrastructure; a 2016 petrochemical-plant explosion nearby highlighted safety concerns</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-94.40383787103563,18.11999824519047,0</coordinates>
 					</Point>
@@ -10851,7 +11048,7 @@ Connectivity: A massive tank farm receiving oil-sands and conventional crude by 
 Why it matters: This is where the Enbridge export system BEGINS. Every Enbridge junction on this map — Superior, Flanagan, Cushing, the Gulf, and the eastern route to Montreal — traces back to crude entering here and at Hardisty
 Twin hub: Works alongside the Hardisty terminal (~200 km south-east); Edmonton is the northern gathering point closest to the oil-sands upgraders, Hardisty the blending hub for WCS
 Risks: Concentration of the nation&apos;s export pipeline origin at the Edmonton/Hardisty pair; apportionment when volumes exceed pipeline space</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-113.3647551720659,53.54410726842255,0</coordinates>
 					</Point>
@@ -10865,7 +11062,7 @@ Landmark cargo: In 2014 Suncor railed ~700,000 barrels of WCS to Kildair and loa
 Why it matters: Because Canada has no eastern crude-export PIPELINE (Energy East was cancelled in 2017), the eastern route to Europe runs by RAIL to a St. Lawrence terminal, then tanker — smaller-scale and costlier than the western Trans Mountain pipeline chain, but the genuine Canada-to-Europe path
 Connectivity: Alberta oil-sands by rail → Kildair storage → Aframax tanker → St. Lawrence → Atlantic → Rotterdam / Mediterranean refineries
 Risks: Rail cost and capacity; St. Lawrence winter ice and draft limits (Aframax, not VLCC); a marginal route that widens/narrows with the WCS-Brent spread</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-73.16347048006234,45.99936500136825,0</coordinates>
 					</Point>
@@ -10881,7 +11078,7 @@ Why it matters: This is the head of the chain that keeps western Germany&apos;s 
 Throughput: The NWO pipeline system carries roughly 16 million t/yr of crude inland from this terminal
 Distinction: Separate from the neighbouring HES Wilhelmshaven Tank Terminal (independent product storage) — this is the dedicated crude-import gateway feeding the NWO pipeline
 Risks: A single deep-water crude entry point for much of western Germany; Jade-channel and North Sea weather exposure</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>8.149299932834897,53.55407493353481,0</coordinates>
 					</Point>
@@ -10894,7 +11091,7 @@ Role: The Mediterranean export terminal for Western Desert Blend — receives li
 Distinction: Separate from Egypt&apos;s Gulf of Suez export chain (Ras Shukheir for Suez Blend, Wadi Feiran for Belayim) — the Western Desert has its own dedicated northern outlet on the Mediterranean, which is why Western Desert Blend stays a distinct grade
 Strategic note: Western Desert crude is Egypt&apos;s main genuinely-exported grade; the sour Gulf of Suez blends are largely refined domestically
 Risks: Ties the region&apos;s export solely to this terminal; declining upstream volumes</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>28.83090089144327,30.92870431138604,0</coordinates>
 					</Point>
@@ -10907,7 +11104,7 @@ Role: The coastal export terminal for Rabi Export Blend — receives Rabi and Ga
 Connectivity: Fed by the 135 km pipeline from Rabi-Kounga plus the local Gamba/Ivinga field
 Note: Gabon&apos;s other main stream, Mandji (a sour grade marketed as a rough equivalent to Alaskan North Slope), exports separately via the Cap Lopez terminal near Port-Gentil
 Risks: Ageing infrastructure serving declining fields; labour and reliability disruptions</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>8.711179552027041,-0.62994767853691,0</coordinates>
 					</Point>
@@ -10920,7 +11117,7 @@ Role: The single Red Sea export outlet for ALL South Sudanese crude — both Nil
 Throughput: Averaged ~130,000 b/d in 2023; fell to ~65,000 b/d after the Petrodar disruption from February 2024
 Why it matters: A foreign country&apos;s terminal is the only way landlocked South Sudan can sell its oil — the ultimate expression of transit dependence
 Risks: Located in a country at civil war; South Sudan has no control over its own export gateway</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>37.29427720864038,19.38430562983066,0</coordinates>
 					</Point>
@@ -10934,7 +11131,7 @@ Facilities: Built by Total in 1972; can accommodate VLCCs, with typical cargo si
 Connectivity: Receives crude from the offshore fields (Moho-Bilondo, Moho Nord, N&apos;Kossa and others) and supplies the local Pointe-Noire refinery
 Recent: TotalEnergies is examining plans to solarize the terminal; the government sought unsuccessfully to nationalize it before the 2020 concession renewal
 Risks: A single national export point — any disruption halts the country&apos;s crude exports; ageing 1972 infrastructure</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>11.9345554987072,-4.915502291507291,0</coordinates>
 					</Point>
@@ -10948,7 +11145,7 @@ Connectivity: Receives unblended Midland-quality WTI from the Permian via the Br
 Function: From here crude either feeds the 4.4 million b/d Houston-area refinery network or moves to Ship Channel docks for export by tanker
 Why it matters: Active spot trading at this single terminal is what allows WTI Houston to exist as a benchmark — roughly 500,000 b/d of physical trade, giving the Gulf coast its own light-sweet price marker instead of relying on distant Cushing or Louisiana LLS
 Risks: Ship Channel congestion and closures; hurricane exposure; competition with the neighbouring ECHO terminal for the pricing point</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-95.20426186564896,29.74771496697278,0</coordinates>
 					</Point>
@@ -10962,7 +11159,7 @@ Facilities: Eight docks (an eighth added ~2020), one able to load a Suezmax — 
 Connectivity: Fed by Enterprise&apos;s crude system from the Permian (Wink-to-Webster) and its ECHO terminal; a major outlet for US crude and NGL exports
 Why it matters: This is where a large share of US crude and LPG physically leaves the country — the dock end of the Permian-to-export chain
 Risks: Ship Channel congestion and draft limits (Suezmax is the max); hurricane exposure</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-95.09478135904769,29.7466208049515,0</coordinates>
 					</Point>
@@ -10976,7 +11173,7 @@ Connectivity: Connected to Aoshan and Zhenhai through submarine and onshore crud
 Strategic role: Major transfer point between Zhoushan&apos;s deep-water terminals and the East China refinery network
 Benchmark role: A Sinopec-operated INE-designated delivery warehouse for Shanghai crude oil futures (SC) — one of several Zhoushan-area facilities (alongside Sinochem and Dading Storage sites) accepted for physical settlement of the contract
 Risks: Subsea-pipeline damage, shipping-channel restrictions, typhoons and berth congestion.</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>121.9385308734072,30.07404355783176,0</coordinates>
 					</Point>
@@ -10991,7 +11188,7 @@ Throughput: Handles up to 900,000 b/d of crude, out of Oman&apos;s total nationa
 Why it matters for GME Oman: PDO&apos;s headquarters is also based at this site, and PDO is the party that physically handles delivery matching for the GME (formerly DME) Oman Crude Oil Futures Contract — the administrative link between this location and the benchmark itself
 Recent: A 2026 drone attack struck between single-buoy mooring berths SBM 1 and 2, briefly suspending loading before PDO confirmed operations continuing normally
 Risks: Cyclone exposure (closed for days during Cyclone Gonu); near-total national export dependence on one site; a demonstrated drone-attack vulnerability</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>58.5258736302051,23.61101903985487,0</coordinates>
 					</Point>
@@ -11005,7 +11202,7 @@ Capacity: 2 million m3 of storage; tankers up to 300,000 dwt, 22 m draft
 Connectivity: Feeds the São Sebastião–Vale do Paraíba pipeline to the REPLAN and REVAP refineries; also used for pre-salt export transshipment
 History: Commissioned 1969 under Brazil&apos;s energy self-sufficiency programme
 Risks: Single-terminal concentration for over half the country&apos;s fuel supply; environmental sensitivity in a shared tourism channel</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-45.40187463298714,-23.79802428265652,0</coordinates>
 					</Point>
@@ -11017,7 +11214,7 @@ Owner/Operator: Transpetro
 Role: Petrobras&apos; second main pre-salt export terminal, on the Rio de Janeiro coast, alongside TEBAR
 Recent: A 2012 expansion was blocked by the state government; Petrobras resumed community consultations in 2025-26 as a first step toward an Ibama licence
 Risks: Long-standing opposition from environmentalists and fishing communities</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-44.24061860214902,-23.05326814801387,0</coordinates>
 					</Point>
@@ -11030,7 +11227,7 @@ Role: The export terminal for Lavan Blend, on Lavan Island in the southern Persi
 Strategic role: Iran&apos;s second crude export outlet after Kharg. Having a separate terminal is precisely what allows Lavan Blend to be sold as its own grade instead of being commingled into Iranian Light
 Connectivity: Also hosts a small refinery supplying the southern region
 Risks: Sanctions restrict the buyer pool; a small terminal far from Iran&apos;s main export infrastructure</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>53.34038519157474,26.80210859034889,0</coordinates>
 					</Point>
@@ -11043,7 +11240,7 @@ Role: The export outlet for South Pars condensate on the Persian Gulf coast, alo
 Connectivity: Feeds the Persian Gulf Star refinery at Bandar Abbas by pipeline, ships condensate cargoes for export, and supplies the diluent used to blend heavy Soroush crude
 Strategic role: Handles Iran&apos;s ultra-light liquids stream, a completely separate chain from the crude grades loading at Kharg
 Risks: Sanctions targeting condensate cargoes specifically; volumes tied to gas output rather than oil demand</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>52.62982998191485,27.46720396800975,0</coordinates>
 					</Point>
@@ -11056,7 +11253,7 @@ Role: Bahrain&apos;s product export terminal, adjoining the Sitra refinery — t
 Connectivity: Refrigerated LPG is exported in cooperation with Banagas; gasoline blending and trading is handled through the Bahrain Gasoline affiliate
 Strategic role: This is where Bahrain&apos;s actual export business happens. Its crude grade loads at Ras Tanura in Saudi Arabia, so Sitra Wharf handles the refined products that make up about 75% of national exports
 Risks: A single terminal carrying the bulk of the country&apos;s export earnings</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>50.62419618322034,26.14473377647734,0</coordinates>
 					</Point>
@@ -11071,7 +11268,7 @@ Throughput: A tanker arrives roughly every two days to lift one or two cargoes; 
 History: Opened 1972. Before that, Brunei had exported crude for more than forty years by piping it to neighbouring Sarawak for tanker loading — this terminal was what let the country export directly for the first time
 Markets: Japan and South Korea take the bulk under term contracts, valuing Brunei&apos;s light sweet grades as reliable baseload supply from outside the Middle East; smaller volumes go to Australia, China, India and the Philippines
 Risks: Open-sea mooring exposed to weather; a single terminal handling every Brunei grade</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>114.344223316379,4.622582986072888,0</coordinates>
 					</Point>
@@ -11084,7 +11281,7 @@ Role: The onshore receiving and stabilisation terminal for India&apos;s western 
 Connectivity: Fed by the 261 km oil trunk line from Mumbai High, plus the Neelam, Heera and Bassein satellite fields; stabilised crude then moves to the Mumbai-area refineries
 Strategic role: The single landing point for the field group that supplies most of India&apos;s domestic crude — and the last stop before it enters a refining system otherwise running on imported Middle East and Russian barrels
 Risks: Concentrates India&apos;s western offshore output at one terminal; ageing infrastructure serving a mature field group</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>72.92831766171126,18.86009023539627,0</coordinates>
 					</Point>
@@ -11097,7 +11294,7 @@ Role: The loading point for Galeota Mix on Trinidad&apos;s south-east coast, ser
 Context: Since the Pointe-à-Pierre refinery closed in 2018, Trinidad exports its crude and imports refined products instead — Heritage was created that year to take over Petrotrin&apos;s upstream assets and market the crude itself
 Strategic note: The country historically imported crude (Urals, Brazilian Lula and Roncador, Colombian Vasconia) to feed that refinery; with it shut, those flows ended
 Risks: Modest throughput; dependent on a small and maturing offshore production base</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-60.99548893107414,10.14264578549114,0</coordinates>
 					</Point>
@@ -11110,7 +11307,7 @@ Role: Colombia&apos;s principal crude export terminal, on the Caribbean coast so
 Volumes: Colombia has exported roughly 13-14 million barrels a month through here, split between the two grades
 Routing: Cargoes reach Asia and the US Gulf directly, or cross to the Pacific through the Panama Canal or the Petroterminal de Panamá pipeline, where much of the volume is stored and re-exported to the US West Coast
 Risks: Single-terminal dependence for most Colombian exports; arbitrage to the US West Coast has narrowed as Vasconia&apos;s discount to Alaska North Slope tightened</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-75.69617320918636,9.40367847710357,0</coordinates>
 					</Point>
@@ -11122,7 +11319,7 @@ Owner/Operator: Termap
 Role: The export terminal for Escalante crude, on the Chubut coast near Comodoro Rivadavia — one of two Termap loading points in the Golfo San Jorge, each dedicated to a different grade
 Connectivity: Increasingly used as a second loading stop for Suezmaxes that have already lifted Medanito further north, letting one vessel carry both grades in separate segregations
 Risks: Exposed South Atlantic coast; dependent on declining Chubut production</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-67.37,-45.75,0</coordinates>
 					</Point>
@@ -11134,7 +11331,7 @@ Owner/Operator: Termap
 Role: The export terminal for Cañadón Seco crude, on the Santa Cruz coast — the second of Termap&apos;s two Golfo San Jorge loading points
 Strategic role: Having a separate terminal is what lets Cañadón Seco be sold as its own grade instead of being commingled with Escalante
 Risks: Mature basin supply; weather-exposed loading</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-67.52,-46.44,0</coordinates>
 					</Point>
@@ -11147,7 +11344,7 @@ Role: The Atlantic outlet for Medanito crude arriving from Vaca Muerta by the Ol
 Capacity: The Trafigura truck-unloading facility alone handles up to 150,000 m³ a month across six bays
 Limitation: Cannot take VLCCs, so cargoes load in smaller parcels; this is the constraint the Vaca Muerta Sur pipeline and Punta Colorada port are being built to remove
 Risks: Loading size caps export economics until Punta Colorada opens</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-62.04813195341639,-38.92452163312979,0</coordinates>
 					</Point>
@@ -11160,7 +11357,7 @@ Role: Ecuador&apos;s main oil export terminal on the Pacific, receiving both the
 Connectivity: Balao cannot take VLCCs, so Oriente historically loaded in several small parcels. A 2021 SOTE extension linked Balao to the deeper Punta Gorda terminal, letting a single VLCC load both Oriente and Napo in one shipment
 Recent: PetroChina paid a $2/b premium over indexed Oriente for VLCC cargoes lifted at Punta Gorda, and Ecuador has used the link to push crude into Asian markets
 Risks: Dependent on two pipelines that both cross unstable Andean terrain; loading economics constrained by berth depth at Balao itself</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-79.69760767283168,0.9369654063575377,0</coordinates>
 					</Point>
@@ -11174,7 +11371,7 @@ Capacity: ~15 million t/yr of handling capacity; throughput has fallen far below
 Strategic role: A rare case of one country owning export infrastructure inside another — Kazakhstan&apos;s state pipeline operator controls a Georgian Black Sea outlet, giving it a route independent of both CPC and BTC
 Connectivity: Fed by rail from Baku and by the Trans-Caspian route from Aktau; flexible enough to handle multiple grades and products
 Risks: Chronic underutilisation; competes directly with Kulevi and Supsa on the same short stretch of coast; Bosphorus transit for outbound cargoes</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>41.66355308165178,41.64318595986848,0</coordinates>
 					</Point>
@@ -11188,7 +11385,7 @@ Capacity: Around 12 million t/yr, with onshore storage feeding a single point mo
 Recent: Loadings collapsed after Exxon&apos;s 2022 withdrawal, at one point falling to a single shipment in months; India has since become the main destination for Sokol cargoes
 Strategic role: Keeps Sakhalin-1 crude entirely separate from the Transneft system, preserving Sokol as a distinct light sweet grade
 Risks: Severe winter ice requiring icebreaker support; sanctions restricting buyers and shipping</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>140.8344539346138,51.49248633123793,0</coordinates>
 					</Point>
@@ -11203,7 +11400,7 @@ Connectivity: Fed by the 4,700 km ESPO trunk line from Taishet; the alternative 
 Strategic role: Kozmino is why ESPO exists as a grade — a Pacific outlet that reaches Chinese, Japanese, Korean and Indian buyers without touching Europe
 Recent: Became central to Russia&apos;s post-2022 export reorientation, with ESPO cargoes flowing overwhelmingly to China and India
 Risks: Sanctions and shipping restrictions; heavy dependence on a small number of Asian buyers</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>133.0215324087906,42.70663676024022,0</coordinates>
 					</Point>
@@ -11217,7 +11414,7 @@ Capacity: Matched to the pipeline&apos;s ~145,000 b/d
 Recent: Mothballed when Azeri volumes shifted to BTC; retained as standby capacity rather than decommissioned
 Strategic role: Represents held-in-reserve export capacity — infrastructure that exists, works, and simply has nothing to carry
 Risks: Prolonged idleness raises maintenance and restart costs; Bosphorus transit limits its appeal against BTC&apos;s Mediterranean outlet</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>41.76845228147842,42.02331455462606,0</coordinates>
 					</Point>
@@ -11230,7 +11427,7 @@ Role: The export terminal for Oseberg Blend and Grane Blend on the Norwegian wes
 Facilities: Crude and condensate storage in underground rock caverns, with jetties for crude loading and an LPG/naphtha export capability
 Connectivity: Handles one of the five Dated Brent basket grades (Oseberg), making it one of the physical points where the global benchmark is actually loaded — the Norwegian counterpart to Sullom Voe and Hound Point
 Risks: Concentrates two significant Norwegian streams on a single terminal; North Sea weather affecting loading windows</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>4.85,60.63000000000001,0</coordinates>
 					</Point>
@@ -11243,7 +11440,7 @@ Role: Crude buffer between the Forties Pipeline System and the Hound Point jetty
 Storage capacity: Six floating-roof tanks, ~3 million barrels; fed from Kinneil by a 19 km, 30-inch line; linked to Hound Point by 48- and 40-inch loading lines (~5 km)
 Handles: Stabilised Forties Blend
 Risks: Modest storage against flows of several hundred thousand b/d — limited slack if liftings are delayed</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-3.368154699929478,55.97520269802826,0</coordinates>
 					</Point>
@@ -11256,7 +11453,7 @@ Role: Deep-water export terminal — the loading point of Forties Blend (~38–4
 Berths / vessel size: Two deep-water jetties on an offshore island structure, tankers to ~350,000 dwt — one of the few UK terminals able to load VLCCs; ~200 vessels/yr; 8,000 m³/hour per berth; vapour recovery; escort tugs
 Connectivity: Wellhead → FPS → Kinneil → Dalmeny → Hound Point → sea
 Risks: Benchmark sensitivity — outages feed straight into Dated Brent assessments; Firth weather and tides</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-3.359,56.005,0</coordinates>
 					</Point>
@@ -11277,7 +11474,7 @@ Risks: Declining connected-field production; ageing infrastructure and high fixe
 						<range>8533.042945420613</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-1.280222998215436,60.46613627599504,0</coordinates>
@@ -11292,7 +11489,7 @@ Capacity: 375,000 b/d nameplate; averaging around 100,000 b/d in recent years, a
 Connectivity: Fed by a 210 km subsea pipeline from the Flotta catchment — Piper, Claymore, Tartan and Golden Eagle, plus Scapa, Tweedsmuir, Highlander, Duart, Petronella and Galley
 Recent: Faced closure a decade ago as volumes declined, then was given a new lease of life when Golden Eagle came onstream in 2014 and roughly doubled throughput; now expected to run to around 2030
 Risks: Long-term volume decline as the catchment matures; a single terminal supporting an entire distinct crude grade</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-3.10667,58.83944,0</coordinates>
 					</Point>
@@ -11307,7 +11504,7 @@ Connectivity: Still linked to the Forties Pipeline System via the neighbouring K
 Why it closed: Losing around $500,000 a day and uncompetitive against larger, newer refineries in the Middle East, Africa and Asia; headcount cut from 475 to 75
 Market impact: Removes a long-standing Forties customer — Grangemouth took as much as 80,000 b/d of Forties in 2016, down to roughly 23,000 b/d before closure — and ends UK light-sweet crude demand at this site
 Risks: Scotland now depends entirely on imported transport fuels; part of a wider wave of European refinery closures alongside Shell&apos;s Wesseling conversion</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-3.69,56.013,0</coordinates>
 					</Point>
@@ -11321,7 +11518,7 @@ Throughput before closure: Around 108,000 b/d of predominantly light sweet crude
 Current role: Being converted into a diesel import facility to feed the Grangemouth fuels terminal
 Connectivity: Linked to Grangemouth by cross-country pipeline across central Scotland, giving the site access to both the Atlantic and North Sea coasts
 Risks: Loch Long&apos;s deepwater access is an asset, but the terminal&apos;s role now depends entirely on the import economics of the Grangemouth hub</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-4.83,56.11,0</coordinates>
 					</Point>
@@ -11333,7 +11530,7 @@ Owner/Operator: ExxonMobil Asia Pacific
 Role: ExxonMobil&apos;s fuels storage and distribution terminal on the Singapore mainland — the site of Mobil&apos;s original 1966 refinery (Pioneer Road), which was converted to a dedicated terminal after refining consolidated onto the Jurong Island site following the 1999 Exxon-Mobil merger
 Connectivity: Distinct from, but logistically linked to, the integrated ExxonMobil Singapore Refinery on Jurong Island already on this map (592,000 b/d, largest refinery in ExxonMobil&apos;s global network)
 Risks: Legacy site infrastructure; concentrated within ExxonMobil&apos;s broader Singapore footprint, which represents over S$20 billion in fixed assets</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>103.6907518274682,1.309755867356723,0</coordinates>
 					</Point>
@@ -11347,7 +11544,7 @@ Capacity: Handles over 1 billion litres of petroleum and chemical products annua
 Facilities: A marine jetty for loading/discharging by vessel, a 12-bay road tanker loading gantry, and an adjacent Bitumen Terminal with its own blending plant and top-loading bays
 Connectivity: Downstream link from the Bukom refining/terminal complex to Singapore&apos;s retail and commercial fuel customers
 Risks: Concentrates a large share of Singapore&apos;s retail/commercial fuel distribution on one mainland site</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>103.7446362894279,1.299591855146161,0</coordinates>
 					</Point>
@@ -11361,7 +11558,7 @@ Capacity: ~12.5 million t/yr; 354,000 m³ of shore tank storage, general-purpose
 Connectivity: Historically fed by a Transneft products pipeline from the Kirishi refinery (Surgutneftegas) as well as by rail; the pipeline has faced repeated technical shutdowns (e.g. 2011), pushing more volume onto rail
 Recent: Hit by Ukrainian drone strikes in 2026 as part of the same campaign against Baltic export infrastructure, with fires reported at the site
 Risks: Ageing pipeline link to Kirishi; drone-attack exposure; general-purpose tanks mean an outage affects multiple product streams at once</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>30.17208344018984,59.88179961597486,0</coordinates>
 					</Point>
@@ -11382,7 +11579,7 @@ Risks: Dependence on the Trans-Sakhalin pipeline and a single offshore loading s
 						<range>1909.294393465354</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>142.9232633395623,46.62698869079724,0</coordinates>
@@ -11397,7 +11594,7 @@ Berths / vessel size: Deep-water berths and moorings up to VLCC-scale crude deli
 Connectivity: Pipeline-linked into the three-site ISAB complex and its tank farms
 Strategic role: The heavy-lift entrance of Italy&apos;s largest refinery — the point where a fifth of the country&apos;s crude intake touches land
 Risks: Single-terminal dependence for ISAB&apos;s largest deliveries; exposed-bay weather; spill sensitivity on a tourist coast</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>15.25793616711022,37.10856487298696,0</coordinates>
 					</Point>
@@ -11412,7 +11609,7 @@ Connectivity: The origin of the Keystone Mainline and a major feed of the Enbrid
 Recent: The WCS–WTI differential assessed at Hardisty is Canada&apos;s most-watched price — it widens whenever pipelines fill and narrows since TMX opened a Pacific exit in 2024
 Strategic role: The pricing point of a landlocked barrel — the mirror image of Cushing at the other end of the Keystone system, and the fifth national gathering hinge on this map after Abqaiq, Habshan, Haoud El Hamra and Saih Nihayda
 Risks: Pipeline-capacity dependence (the discount is the symptom); diluent supply economics; concentration of Canada&apos;s export system in one town</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-111.270083510404,52.64156129550192,0</coordinates>
 					</Point>
@@ -11427,7 +11624,7 @@ Connectivity: Marine import/export via SPM; pipeline link toward the Duqm refine
 Recent: 2026 made its pitch for it — storage that no blockade, strait or convoy schedule can touch; exactly the product the region&apos;s traders suddenly wanted
 Strategic role: The physical expression of the lesson every 2026 fiche on this map teaches — location relative to chokepoints is the asset
 Risks: Phased build-out economics; remote-site costs; competition from established hubs (Fujairah) for third-party customers</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>57.7445697750924,19.17015049337974,0</coordinates>
 					</Point>
@@ -11442,7 +11639,7 @@ Connectivity: Subsea pipelines from the surrounding fields; sister island Zirku 
 Recent: 2026 — like Zirku, an in-Gulf loading point on the wrong side of the strait: liftings moved under escorted transits and STS workarounds while pipeline-served Murban flowed freely from Fujairah
 Strategic role: Fifty years of offshore logistics on one island — and half of the demonstration (with Zirku) of why ADNOC built ADCOP for the onshore barrels
 Risks: Hormuz dependence; island concentration of crude and LNG; ageing first-generation infrastructure</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>52.87,25.15,0</coordinates>
 					</Point>
@@ -11456,7 +11653,7 @@ Storage capacity: Large tank farms buffering the Khuzestan pipeline inflow — f
 Recent: The defining asset of the 2026 war — 13 March: US raid on 90+ military sites, oil plant deliberately spared; 13 April–29 May: naval blockade, first prolonged loading halt, storage saturating; June window: 40–70 million barrels shipped in three weeks; blockade reimposed mid-July, berths empty from 31 July; limited western-jetty restart 12 August; repeated oil slicks offshore
 Strategic role: Leverage made physical — spared as a bargaining chip, blockaded as a tourniquet; the purest demonstration on this map that access, not infrastructure, is what gets switched off
 Risks: Strike or seizure escalation; blockade reimposition; environmental incidents from distressed tanker operations; total national dependence on one island</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>50.31,29.245,0</coordinates>
 					</Point>
@@ -11471,7 +11668,7 @@ Connectivity: Gathering centres from all Kuwaiti fields converge here; Al Zour t
 Recent: 2026 — Kuwait&apos;s exports throttled by the Hormuz closure with no pipeline alternative; the complex is the country&apos;s entire export capacity in one place
 Strategic role: Kuwait&apos;s Abqaiq and Ras Tanura combined — blending hub, tank farm and export terminal on one ridge and shoreline
 Risks: Absolute single-point concentration; Hormuz dependence; industrial and drone exposure; the 1991 precedent of deliberate infrastructure destruction</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>48.14,29.06,0</coordinates>
 					</Point>
@@ -11486,7 +11683,7 @@ Connectivity: Subsea pipelines from Upper Zakum; sister island Das serves the Lo
 Recent: 2026 — as an in-Gulf terminal it sat on the wrong side of the strait: liftings depended on escorted transits and STS workarounds off Oman, unlike Fujairah-loaded Murban
 Strategic role: The offshore half of the UAE export system — and the demonstration of why ADNOC is planning a second pipeline outside Hormuz
 Risks: Hormuz dependence; island-terminal concentration; regional naval and drone incidents</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>53.07,24.88,0</coordinates>
 					</Point>
@@ -11500,7 +11697,7 @@ Berths / vessel size: Tankers up to ~350,000 dwt (VLCC-capable); oil jetty withi
 Storage capacity: Up to ~1.4 million m³
 Recent: Constrained by the Environment Ministry&apos;s &quot;Zero Additional Risk&quot; policy (Nov 2021) protecting the Gulf&apos;s coral reefs — froze the UAE Red-Med ramp-up; the Red Sea shipping crisis since late 2023 further curtailed calls
 Risks: A single spill next to a fragile coral ecosystem — EAPC caused the 2014 Arava spill and a 2016 coral-damage case; Bab el-Mandeb security; regulatory cap on growth</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>34.93477390244553,29.52766276554422,0</coordinates>
 					</Point>
@@ -11514,7 +11711,7 @@ Berths / vessel size: Offshore moorings; tankers up to ~250,000 dwt
 Storage capacity: ~2.3 million m³ of crude plus ~410,000 m³ of products across two product terminals
 Crude flows: Azeri BTC and Kazakh CPC grades prominent among imports; potential reverse flows toward Eilat
 Risks: ~10 km from Gaza — loadings interrupted in May 2021, precautionary measures after October 2023; war-risk insurance costs; single-point concentration of Israeli crude imports</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>34.543,31.642,0</coordinates>
 					</Point>
@@ -11528,7 +11725,7 @@ Berths / vessel size: Six berths for vessels up to ~100,000 t (Aframax scale); d
 Storage capacity: ~700,000 m³; rail loading (7 tracks), automated truck loading; ~200,000 t/yr biodiesel plant on site
 Recent: ~6 Mt/yr of crude pumped into the Schwedt pipeline since Germany ended Russian pipeline imports — securing eastern Germany&apos;s and Berlin&apos;s fuel supply
 Risks: Berth cap at Aframax scale; throughput bottleneck versus Schwedt&apos;s nameplate; Baltic weather; single-corridor dependence</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>12.14519945455248,54.14954764676539,0</coordinates>
 					</Point>
@@ -11541,7 +11738,7 @@ Role: Crude buffer between the Forties Pipeline System and the Hound Point jetty
 Storage capacity: Six floating-roof tanks, ~3 million barrels; fed from Kinneil by a 19 km, 30-inch line; linked to Hound Point by 48- and 40-inch loading lines (~5 km)
 Handles: Stabilised Forties Blend
 Risks: Modest storage against flows of several hundred thousand b/d — limited slack if liftings are delayed</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-3.38,55.99,0</coordinates>
 					</Point>
@@ -11554,7 +11751,7 @@ Role: Crude import head of the TAL system — the sea gate of the Alpine corrido
 Capacity: ~37 Mt/yr received, ~400 tankers a year
 Berths / vessel size: Marine piers with tanker berths — first Suezmax berthed May 2025 after the Fincantieri revamp; tank farm feeding the TAL pipeline
 Risks: Corridor concentration — an outage at Trieste ripples into refineries in four countries; Adriatic weather and port constraints</description>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>13.76228349369942,45.64661359195608,0</coordinates>
 					</Point>
@@ -11578,7 +11775,7 @@ Risks: Strait congestion; collisions and spills; berth outages; severe thunderst
 						<range>6459.415970871923</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>103.7450915580899,1.235462070826827,3.704244327194541</coordinates>
 					</Point>
@@ -11597,7 +11794,7 @@ Operator:SPSE</description>
 						<range>11513.31548162729</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.912289359287117,43.45863683908951,0</coordinates>
@@ -11621,7 +11818,7 @@ Risks: Draft and tidal limits through Vancouver Harbour&apos;s Second Narrows; h
 						<range>2584.723897560875</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-122.9538833088552,49.28900761066111,0</coordinates>
@@ -11644,7 +11841,7 @@ Risks: Dense urban interface on Burnaby Mountain (full fire-protection and emerg
 						<range>3568.651648474527</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-122.9294342714177,49.26977697679428,0</coordinates>
@@ -11665,7 +11862,7 @@ Role: Deep-water storage terminal — large tank farms, tanker jetties, blending
 						<range>3613.133342857473</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>103.5351680670497,1.349556947913845,4.193988666707633</coordinates>
 					</Point>
@@ -11685,7 +11882,7 @@ Connectivity: Ain Sukhna + Sidi Kerir are the two ends of one &quot;detour pipe&
 						<range>2159.751833661487</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>29.6719218,31.0374431,0</coordinates>
@@ -11706,7 +11903,7 @@ Role: Storage, blending and import/export for the Pengerang / RAPID complex</des
 						<range>8605.38724881015</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>104.1819971036788,1.344458901664911,2.970455479897451</coordinates>
 					</Point>
@@ -11731,7 +11928,7 @@ Risks: Disruptions here move a significant share of Russian seaborne exports —
 						<range>7890.417272374034</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#__managed_schema00">
 							<SimpleData name="0A686630D63F2360CAA3">0</SimpleData>
@@ -11759,7 +11956,7 @@ Strategic role: The logistics buffer of the Novorossiysk export complex</descrip
 						<range>5930.788330664509</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#__managed_schema00">
 							<SimpleData name="07CB78FB7C3F23629A63">0</SimpleData>
@@ -11788,7 +11985,7 @@ Risks: War-related attack and blockage risk; single-corridor dependence for most
 						<range>15313.09946442023</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#__managed_schema00">
 							<SimpleData name="07CFE706053F23645018">0</SimpleData>
@@ -11819,7 +12016,7 @@ Risks: Dependence on Iraq–Türkiye pipeline politics; utilisation far under ca
 						<range>11152.58242627024</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#__managed_schema00">
 							<SimpleData name="039A63B3463F2D0D4069">0</SimpleData>
@@ -11850,7 +12047,7 @@ Risks: Single-corridor dependence on the Azerbaijan–Georgia–Türkiye transit
 						<range>7571.767927960027</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#__managed_schema00">
 							<SimpleData name="003F5D15A33F2D0EA8F5">0</SimpleData>
@@ -11879,7 +12076,7 @@ Risks: Exposed to Cushing/Permian supply swings; competition from newer Corpus C
 						<range>5637.609870001324</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-95.18297718190327,29.61418322687845,11.48587133223509</coordinates>
 					</Point>
@@ -11903,7 +12100,7 @@ Risks: Repeated drone-attack exposure; central role in Russia&apos;s &quot;shado
 						<range>3623.704182373476</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>28.72205088671118,60.33991086572199,46.51861622035126</coordinates>
 					</Point>
@@ -11925,7 +12122,7 @@ Risks: Repeatedly struck by Ukrainian drone attacks since 2024, with loading sus
 						<range>3955.055107042372</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>28.43268973320071,59.71010072589305,0.5303039684784627</coordinates>
 					</Point>
@@ -11944,7 +12141,7 @@ Role: Adriatic deep-water crude terminal on Krk island, Croatia — seaborne cru
 						<range>14891.64541449398</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>14.53429138844205,45.21817548052175,20.86324727075943</coordinates>
 					</Point>
@@ -11967,7 +12164,7 @@ Risks: Seveso high-threshold site — incident and pollution risk; concentrates 
 						<range>1774.580562634262</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>4.8928764,43.4204139,0</coordinates>
@@ -11991,7 +12188,7 @@ Risks: Dependence on a single subsea import line; ageing infrastructure as conne
 						<range>10162.32116241124</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-1.166645189471853,54.61107030415113,5.678885366906616</coordinates>
 					</Point>
@@ -12014,7 +12211,7 @@ Risks: Concentrates a large share of Norwegian state-linked crude exports on one
 						<range>3901.259457701817</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>5.031485608870081,60.81532178571573,12.73050171949453</coordinates>
 					</Point>
@@ -12036,7 +12233,7 @@ Risks: Harsh North Atlantic weather; single-site dependence for all Grand Banks 
 						<range>9605.853158531982</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-54.00016554845473,47.78721988677749,0</coordinates>
@@ -12060,7 +12257,7 @@ Risks: Hurricane exposure; channel-draft limits forcing partial VLCC loading off
 						<range>8075.648938041413</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>-97.43805172032799,27.80986235338777,12.18912578746996</coordinates>
 					</Point>
@@ -12083,7 +12280,7 @@ Risks: Tank fires, vapour release, spills, overfilling and cascading incidents i
 						<range>5045.080083596493</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.946337962101885,36.8805841519012,0</coordinates>
@@ -12103,7 +12300,7 @@ Operator: Waha Oil Co / NOC</description>
 						<roll>55.43042773308764</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>18.34965819337705,30.62876828330338,0</coordinates>
@@ -12126,7 +12323,7 @@ Risks: Dependence on the two feeder trunklines; Niger Delta operating environmen
 						<range>2911.857564424163</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.160021945461112,4.419963160069129,0</coordinates>
@@ -12151,7 +12348,7 @@ Risks: Sanctions scrutiny; spill history; rail-logistics dependence</description
 						<range>6000</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<coordinates>41.64,42.27,4.999999999999999</coordinates>
 					</Point>
@@ -12175,7 +12372,7 @@ Risks: EU sanctions on Nayara via the Rosneft stake — shadow-fleet logistics, 
 						<range>60202.05664683969</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>69.7276281862008,22.40079188475431,0</coordinates>
@@ -12198,7 +12395,7 @@ Risks: Sanctions opacity; Arctic ice; rail dependence; import pricing disputes h
 						<range>6011.758783748465</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>32.30003652066684,67.08175339588146,0</coordinates>
@@ -12223,7 +12420,7 @@ Risks: Hormuz dependence; drone and missile exposure; regional conflict</descrip
 						<range>49283.03103410581</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>50.10895927883966,26.63170639897436,0</coordinates>
@@ -12247,7 +12444,7 @@ Risks: Single-outlet dependence on TAPS; Prince William Sound marine risk (exten
 						<roll>1.660349619167724</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-146.381315872125,61.080818669636,0</coordinates>
@@ -12273,7 +12470,7 @@ Risks: Inside the Houthi threat perimeter since July 2026; Bab el-Mandeb insecur
 						<range>10772.1959340994</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.24907429950143,23.97014674049278,0</coordinates>
@@ -12297,7 +12494,7 @@ Risks: Berth congestion, tanker delays, typhoons and pipeline interruption.</des
 						<range>5167.815198314297</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9848366005775,29.92818113873642,0</coordinates>
@@ -12320,7 +12517,7 @@ Risks: Subsea-pipeline damage, shipping-channel restrictions, typhoons and berth
 						<range>3960.944844625148</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.8048464227522,29.95678452094295,0</coordinates>
@@ -12343,7 +12540,7 @@ Risks: U.S. sanctions exposure, Iranian-crude compliance risk, typhoons and pipe
 						<range>4276.812819402498</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>122.3244053247878,30.51515597160266,0</coordinates>
@@ -12368,7 +12565,7 @@ Strategic role: Major storage buffer between Zhoushan’s crude-import terminals
 						<range>2649.969513501096</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9615505039114,30.13523807093591,0</coordinates>
@@ -12393,7 +12590,7 @@ Strategic role: Critical feedstock buffer protecting one of China’s largest re
 						<range>1772.756485867799</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9730461398409,30.11858683256618,0</coordinates>
@@ -12418,7 +12615,7 @@ Strategic role: Major VLCC gateway and storage buffer supporting crude imports a
 						<range>4893.295057058378</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9660824468795,30.0567109711654,0</coordinates>
@@ -12450,7 +12647,7 @@ Risks: Concentration of large storage volumes and marine-transfer operations; th
 						<range>5076.564514729941</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9051305165223,38.96812517255272,0</coordinates>
@@ -12482,7 +12679,7 @@ Risks: Dependence on imported crude, exposure to shipping-channel disruption and
 						<range>11203.18694116811</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.3164603517722,39.5800652176806,0</coordinates>
@@ -12512,7 +12709,7 @@ Risks: A disruption at the captive terminal would immediately affect refinery cr
 						<range>6281.741345973648</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.2707338542033,39.5690941459487,0</coordinates>
@@ -12537,7 +12734,7 @@ Risks: Merchant-storage utilisation; port and manifold dependence; concentrated 
 						<range>3316.239105905522</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.3554614376213,25.20738236867208,0</coordinates>
@@ -12562,7 +12759,7 @@ Risks: Single-corridor dependence; concentration of export infrastructure; offsh
 						<range>2879.528933827699</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.35511573614188,25.19558164779194,0</coordinates>
@@ -12587,7 +12784,7 @@ Risks: Corporate-integration and expansion execution; port connectivity; coastal
 						<range>1656.620757227781</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.3552324904653,25.20126644624276,0</coordinates>
@@ -12612,7 +12809,7 @@ Risks: Commercial-storage utilisation; common-port connectivity; coastal industr
 						<range>1430.21016467974</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.34872151498884,25.18854950195348,0</coordinates>
@@ -12637,7 +12834,7 @@ Risks: Pipeline sabotage and theft; militant or community disruption; spills; ag
 						<range>5104.742794189449</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.1884981156285,5.610818373615682,0</coordinates>
@@ -12659,7 +12856,7 @@ Risks: Fire, spill and tank-integrity incidents; disruption to maritime access, 
 						<range>4859.774202049975</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.206881550760107,51.90991660761272,0</coordinates>
@@ -12681,7 +12878,7 @@ Risks: Crude spills, fires and tank-integrity incidents; disruption to deep-wate
 						<range>4899.204090558115</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.056877369852304,51.97460048780439,0</coordinates>
@@ -12704,7 +12901,7 @@ Risks: Also targeted in the 2026 drone campaign against Baltic export infrastruc
 						<range>3955.055107042372</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>28.43216794192092,59.7006389354553,0</coordinates>
@@ -12727,7 +12924,7 @@ Risks: Same drone-attack exposure as the crude side; a smaller, more concentrate
 						<range>4806.120751191989</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>28.75259041874167,60.33729016810721,0</coordinates>
@@ -12750,7 +12947,7 @@ Risks: Dependent on cross-Caspian tanker shuttle trade and Central Asian supplie
 						<roll>0.6769772078426248</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#mfailed</styleUrl>
+					<styleUrl>#default0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.4708475114311,40.12913566888046,0</coordinates>
@@ -13884,6 +14081,23 @@ Risks: A waypoint along a long, multi-country pipeline corridor — precise func
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>71.61500865777744,48.65116587704765,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sud europeen tank farm </name>
+					<LookAt>
+						<longitude>6.15388672927319</longitude>
+						<latitude>47.2459208478468</latitude>
+						<altitude>0</altitude>
+						<heading>-1.094680579689413</heading>
+						<tilt>13.41614949927096</tilt>
+						<range>4365.682579649443</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-blank</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>6.144742945375663,47.24567175657437,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -15064,7 +15278,7 @@ Risks: A single trunk line for multiple producers&apos; output between Fort McMu
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						-111.4800437076461,57.00300108922877,0 -110.9086008605657,56.26195091883854,0 -111.3,55.4,0 -111.2691164676185,52.6432932514261,0 
+						-111.4800437076461,57.00300108922876,0 -110.9086008605657,56.26195091883854,0 -111.3,55.4,0 -111.2691164676185,52.6432932514261,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -15111,7 +15325,7 @@ Risks: A single dedicated pipeline for the entire mine complex&apos;s output</de
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						-111.5080744325642,57.25583778743092,0 -112.4,55.8,0 -112.9,54.2,0 -113.0976035485054,53.80247106311197,0 
+						-111.5080744325642,57.25583778743092,0 -112.4,55.8,0 -112.9,54.2,0 -113.0976035485054,53.80247106311198,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -15128,7 +15342,7 @@ Risks: Sole gathering pipeline for Imperial&apos;s entire Cold Lake output</desc
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						-110.3474697563316,54.72428114485987,0 -111.2,53.8,0 -113.3466141324374,53.5563195485358,0 
+						-110.3474697563316,54.72428114485988,0 -111.2,53.8,0 -113.3466141324374,53.5563195485358,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -15145,7 +15359,7 @@ Risks: Pre-construction; Indigenous consultation and environmental review still 
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						-113.351417712274,53.5567714366526,0 -116.4067700358121,53.56338757721144,0 -117.5139728554877,53.37410583011806,0 -118.0208914669343,53.02521720739187,0 -118.0466251748024,52.85164678859407,0 -118.41838841654,52.85209678297964,0 -118.5946649700716,52.82029767749425,0 -119.2122057445714,53.00713669036394,0 -119.3155685788902,52.95283122174224,0 -119.0547721383184,52.62985826952406,0 -119.6550528642381,50.96346476675528,0 -120.1595400027592,50.40901924513871,0 -121.320754652538,49.74472319460158,0 -121.4022525673654,49.38069395671787,0 -122.0678535247423,49.13524568549622,0 -123.0333102845814,49.08853563485831,0 -123.1147036121361,49.05655254558523,0 -123.1511235280542,49.03064647105893,0 -123.1609912068095,49.01981180708469,0 
+						-113.351417712274,53.5567714366526,0 -116.4067700358121,53.56338757721144,0 -117.5139728554877,53.37410583011806,0 -118.0208914669343,53.02521720739187,0 -118.0466251748024,52.85164678859407,0 -118.41838841654,52.85209678297964,0 -118.5946649700716,52.82029767749425,0 -119.2122057445714,53.00713669036394,0 -119.3155685788902,52.95283122174224,0 -119.0547721383184,52.62985826952406,0 -119.6550528642381,50.96346476675528,0 -120.1595400027592,50.40901924513871,0 -121.320754652538,49.74472319460159,0 -121.4022525673654,49.38069395671787,0 -122.0678535247423,49.13524568549622,0 -123.0333102845814,49.08853563485831,0 -123.1147036121361,49.05655254558523,0 -123.1511235280542,49.03064647105893,0 -123.1609912068095,49.01981180708469,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -17211,9 +17425,7 @@ Capacity: ~585,000 b/d
 Why it matters: The missing link connecting your existing Flanagan and Cushing pins — without it, Cushing was an isolated point with no actual feed shown
 Handles: Canadian heavy and light from the Enbridge Mainline into the WTI hub&apos;s tanks — one of Cushing&apos;s principal inbound lines
 Strategic role: The second Canadian route into Cushing (beside Keystone) — the reason the benchmark&apos;s tanks hold Alberta barrels, and the western leg of the Flanagan junction&apos;s two-way choice
-Risks: Mainline dependence upstream; heavy-light quality management in shared tanks; competition with the Patoka route for Canadian flows
-
-</description>
+Risks: Mainline dependence upstream; heavy-light quality management in shared tanks; competition with the Patoka route for Canadian flows</description>
 				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -17300,10 +17512,7 @@ Handles: Cushing-stored crude southbound to Gulf refineries and export docks
 Recent: The 2012 flow reversal is the hub&apos;s defining modern event — built to carry imports north, turned around to drain the shale glut south; it re-priced WTI against Brent and created the Cushing–Gulf spread trade
 Strategic role: The main southbound valve of the benchmark — when Seaway and Marketlink run full, Cushing drains and WTI firms
 Why it matters: The final leg giving the entire Enbridge Mainline system genuine tidewater access at the US Gulf Coast — completes the Edmonton-to-Gulf-Coast chain alongside Flanagan South, already on this map
-Risks: Shared capacity with Flanagan South; a key route for Canadian and Bakken crude reaching Gulf refineries and export docks
-
-
-</description>
+Risks: Shared capacity with Flanagan South; a key route for Canadian and Bakken crude reaching Gulf refineries and export docks</description>
 				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -17390,32 +17599,13 @@ Risks: Spill history and regulatory scrutiny; single-mainline dependence for the
 		<Folder>
 			<name>Rail Corridors</name>
 			<Placemark>
-				<name>Rheintalbahn Rail Corridor (Karlsruhe-Basel)</name>
-				<description>Status: Operational — but the Rastatt tunnel section remains under construction, full commissioning targeted end of 2026
-Cargo: General freight by rail, including chemicals and refined products — the parallel/substitute mode to Rhine barge traffic along this exact stretch of river
-Route: Karlsruhe -&gt; Rastatt -&gt; Freiburg -&gt; Basel, running alongside the Rhine through the Upper Rhine Valley, connecting North Sea ports (Rotterdam, Antwerp) to Switzerland and Italy
-Why it matters as a Rhine substitute: When Rhine water levels are too low (or too high) for barges to run fully loaded, this corridor is the main rail alternative for moving the same chemical and refined-product cargo south toward Basel and the Swiss/southern German industrial belt — the two modes act as each other&apos;s backup
-The 2017 disaster, still relevant context: On 12 August 2017, construction of a new ~4,300m twin-tube tunnel under Rastatt (part of the broader Karlsruhe-Basel expansion) caused a water/soil breach, making the existing tracks above sink. The ENTIRE corridor was closed for ~7 weeks — a route normally carrying ~200 freight trains/day. Cost to freight railways alone: ~EUR12 million/week, not counting shippers, receivers or infrastructure damage. The closure coincided with high Rhine water also constraining barge traffic, leaving the region with no good alternative in either mode simultaneously
-Current status (2026): The new Rastatt tunnel is still not fully operational — DB InfraGO has been conducting ongoing overhead-line work throughout H1 2026 specifically to prepare for the tunnel&apos;s commissioning, targeted for end of 2026
-Longer-term context: This is one piece of a multi-billion-euro, DECADES-LONG expansion — full four-track capacity is not planned until 2035, and the entire Rheintalbahn upgrade project is not scheduled to finish until 2041
-Why it matters for this map: A concrete, well-documented case of two different transport modes (river barge and rail) serving as mutual backups for the exact same chemical/refined-product corridor — and a reminder that even a &quot;substitute&quot; route can itself be disrupted for months by its own infrastructure project
-Risks: The Rastatt section remains construction-sensitive even post-tunnel; the broader corridor won&apos;t reach full planned capacity for another decade</description>
-				<styleUrl>#default</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						8.333342113766111,49.05179631837219,0 8.210000000000001,48.86,0 7.95,48.49,0 7.85,47.99,0 7.606994379158422,47.56932149623106,0 7.611044329982586,47.56241549776318,0 7.615821292808809,47.55578513678145,0 7.616347741031124,47.55418178288241,0 7.616364369537796,47.55249295809593,0 7.615613780844916,47.55018004171519,0 7.614830801101615,47.54843137607351,0 7.614831902995891,47.54604040062998,0 7.616411687122286,47.54443299317629,0 7.62392829687445,47.54213311145086,0 7.630737407577746,47.54011724695583,0 7.64031984873311,47.53762829353295,0 7.656679918315785,47.53298333642827,0 7.665106448217436,47.5296063443057,0 7.675601755990797,47.52500524268317,0 7.677362361804397,47.52470728346445,0 7.680049966078048,47.52497848305313,0 7.682832066922389,47.5265869880986,0 7.68251236281722,47.52758692478849,0 7.681466432400184,47.52855536659717,0 7.679703384622454,47.52974052895678,0 7.677669492182586,47.53157335434911,0 7.670118441474356,47.53349437058817,0 7.66497048358776,47.53618538068866,0 7.662217583811623,47.53862823792392,0 7.659749665086323,47.54030216837777,0 7.656855578903881,47.54217930145055,0 7.651113438778414,47.54606887244431,0 7.647191895998628,47.54849331578653,0 7.645744128421805,47.5498745659045,0 7.644514503046585,47.55129552376811,0 7.643586402585621,47.55234164756813,0 7.641530940237413,47.554632836484,0 7.640597925539192,47.55556963698963,0 7.640115111549843,47.55613797577445,0 7.639390755693527,47.55686415143806,0 7.638555176024711,47.55738282930519,0 7.63795529622012,47.55771315156089,0 7.636717933253053,47.55819834744381,0 7.635831645927382,47.55848285925445,0 7.635011443567312,47.55864306640602,0 7.634162902978778,47.55871137732491,0 7.633288670939818,47.55869247802732,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
 				<name>Kirishi-Ust-Luga Rail Corridor (fuel oil)</name>
 				<description>Status: Operational — supply directly threatened by repeated strikes on both ends
 Cargo: Fuel oil, by RAIL (distinct from the separate Kirishi-PNT pipeline, which carries diesel)
 Route: NPS Kirishi / KINEF refinery (already on this map) -&gt; Ust-Luga Oil Products Terminal (already on this map)
 Why it matters: KINEF is explicitly confirmed as a named fuel-oil supplier to Ust-Luga&apos;s products terminal; when KINEF itself was struck in March 2026, it had to cut processing, directly easing (not worsening) the terminal&apos;s own throughput bottleneck that same month — a rare case of one disruption partly offsetting another
 Risks: Both ends of this corridor have been repeatedly struck in 2026</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17430,7 +17620,7 @@ Cargo: Refined products, by RAIL
 Route: NORSI/Kstovo refinery (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
 Why it matters: NORSI is directly named as a confirmed PNT supplier; this is one of three separate rail paths feeding the terminal from refineries spread across western and central Russia
 Risks: NORSI has been repeatedly and severely struck in 2026 (AVT-6 disabled twice within two weeks), directly threatening this specific supply line</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17445,7 +17635,7 @@ Cargo: Refined products, by RAIL
 Route: Moscow Refinery (MNPZ, Kapotnya, already on this map) -&gt; Petersburg Oil Terminal (already on this map)
 Why it matters: MNPZ is directly named as a confirmed PNT supplier — a separate rail path from NORSI&apos;s and TANECO&apos;s, feeding the same terminal
 Risks: MNPZ has been the single most heavily struck refinery on this map in 2026 (hit June 16, June 18, September 20), directly threatening this supply line</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17460,7 +17650,7 @@ Cargo: Refined products, by RAIL
 Route: TANECO Refinery, Nizhnekamsk (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
 Why it matters: TANECO is directly named as a confirmed PNT supplier — the longest of the three refinery rail paths feeding the terminal, originating in Tatarstan rather than western Russia
 Risks: Longest single supply line of the three, crossing the most territory</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17476,7 +17666,7 @@ Route: Vitino terminal (Arctic, already on this map) -&gt; inland via the Kola r
 Why Moscow: Same logic as the separate Belarus-Russia rail corridor already on this map — both import flows exist to cover the same national fuel shortage, so both are shown converging on the country&apos;s biggest consumption centre
 Why it matters: Shows the full journey of an imported barrel — ship arrives at Vitino, cargo moves straight onto rail tank cars, and travels inland to reach the domestic market
 Risks: Single rail corridor for all Arctic-import volume; same pricing disputes already noted at Vitino can delay cargoes before they even reach this line</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17493,7 +17683,7 @@ Why MNPZ specifically: Not a generic city-level guess — MNPZ supplies up to ha
 Why it exists: Belarus&apos;s two refineries process Russian crude on a tolling basis, then ship the resulting gasoline and diesel back into Russia to cover the shortfall these exact refinery strikes cause
 Scale: Gasoline shipments reached ~866,000 tonnes January-August 2026 (23x year-on-year); diesel ~570,000 tonnes (5.4x)
 Risks: Entirely dependent on continued Belarusian output and rail capacity; a stopgap, not a structural fix for Russia&apos;s refining losses</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17510,7 +17700,7 @@ Why it exists: Canada has NO crude-export pipeline to its east coast (Energy Eas
 Landmark: The 2014 Suncor cargo — ~700,000 bbl of WCS railed to Kildair and shipped on the Aframax Minerva Gloria to a Sardinian refinery — moved along this corridor
 Economics: All-in rail cost from Alberta runs in the mid-to-high teens $/bbl; the route only opens when the WCS-Brent discount is wide enough to pay for it
 Risks: Cost and railcar availability; winter weather across the Prairies and Shield; a marginal, arbitrage-dependent flow</description>
-				<styleUrl>#default</styleUrl>
+				<styleUrl>#default2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17522,13 +17712,195 @@ Risks: Cost and railcar availability; winter weather across the Prairies and Shi
 		<Folder>
 			<name>Product Pipelines</name>
 			<Placemark>
+				<name>DMM Donges-Melun-Metz (DECOMMISSIONED 2023)</name>
+				<description>Status: DECOMMISSIONED 2023 — no longer an active oil pipeline, kept on this map for historical/structural context only
+Network: DMM (Donges-Melun-Metz), originally built for US armed forces logistics in Europe
+Exact route, city by city: Donges depot (Loire-Atlantique) -&gt; La Ferte-Alais depot (Essonne) -&gt; Melun -&gt; Vatry depot (Marne) — the same depot where the still-active ODC Line 4, already on this map, physically connects -&gt; Saint-Baussant depot (Moselle, near Metz) -&gt; Metz
+Specs: 627 km (2015 figure) / 640 km (2022 figure, sources vary); 12-inch (323.8mm) for the 512 km Donges-Chalons-en-Champagne section, narrowing to 10-inch for the final 16km into Metz; built 1954-1956
+History: Operational from 1956. Operated by TRAPIL under license 1950s-1994. Société Francaise Donges-Metz (SFDM) took over operation 1994, continuing alone from 1999. The French State bought out SFDM&apos;s shareholders (Bollore Energy and Grand Port Maritime de Nantes-Saint-Nazaire) in January 2022 for ~EUR33 million. The pipeline itself — always state property — was formally decommissioned in 2023
+Why keep it mapped: Shows the real, dated endpoint of a NATO-origin pipeline&apos;s operational life — the same &quot;infrastructure persists even after active use ends&quot; principle already applied elsewhere on this map (Ventspils, SAMIR). Also shows the real former interconnection with ODC Line 4 at Vatry, now severed on the DMM side
+Risks: None operational — entirely historical; any future reactivation would require new investment given the formal decommissioning</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-2.063083804825015,47.31318590520231,0 2.317,48.5,0 2.947420287216131,48.58873147162202,0 4.193319967392193,48.78032112592843,0 5.798380823168355,48.8849704248719,0 6.18844591550671,49.20764356017758,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ODC-3 Le Havre-Valenciennes (via Marcoing)</name>
+				<description>Status: Operational
+Network: ODC (TRAPIL/SNOI)
+Official designation: Line 9, 12-inch, 262 km
+Exact route, city by city: Le Havre depots (Seine-Maritime), CONNECTS DIRECTLY TO THE LHP NETWORK already on this map -&gt; Marcoing depot, Nord (same hub as ODC-2, connecting Lines 4, 9 and 10) -&gt; Haulchin/Valenciennes depot (Nord)
+Cargo: Jet fuel, diesel
+Why it matters: The direct physical link between the ODC and LHP networks at Le Havre — both of your mapped Normandy pipeline systems share this exact origin point; also connects onward toward Belgium via Line 10 (Cambrai-Antwerp, not mapped here)
+Risks: Shares its origin terminal with the civilian LHP network, meaning congestion or disruption at Le Havre affects both military and civilian fuel supply simultaneously</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						0.1581676560411061,49.46806883887321,0 3.146680508491464,50.093555729112,0 3.5310509924167,50.36971251944532,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ODC-1 Mediterranean (Lavera/Fos - Langres area)</name>
+				<description>Status: Operational
+Network: ODC (Oleoducs de Defense Commune), French portion of NATO&apos;s CEPS network — owned by the French State (SNOI), operated by TRAPIL &quot;by order and on behalf of the State&quot;
+Official designation: Line 1, 12-inch, 545 km — the longest and most significant ODC line
+Exact route, city by city: Lavera refinery (Bouches-du-Rhone) -&gt; Fos-sur-Mer refinery (Bouches-du-Rhone) -&gt; Feyzin refinery (Rhone) -&gt; Gergy depot, Saone-et-Loire (closed) -&gt; Heuilley-le-Grand depot, Haute-Marne (hub connecting Lines 1, 3, 4 and 5) -&gt; Violot depot, Haute-Marne
+Cargo: Jet fuel, diesel, gasoline for NATO and French military use
+Why it matters: The southern entry point for the entire eastern French military pipeline network — connects two Mediterranean refineries directly to NATO&apos;s eastern France depot cluster
+Risks: Sole southern feed for the whole eastern ODC system; Gergy depot already closed, showing network contraction over time</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						4.998132795103782,43.38857348550937,0 4.973847908468603,43.42751916604062,0 4.928224571160678,43.44562277296427,0 4.841807640381333,45.67345828378367,0 4.94580915754407,46.87614487529197,0 5.415483069539513,47.74898537726504,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ODC-2 Dunkirk-Langres (via Vatry, connects to DMM)</name>
+				<description>Status: Operational
+Network: ODC (TRAPIL/SNOI)
+Official designation: Line 4, 8-to-10-inch, 478 km
+Exact route, city by city: Dunkerque terminal/depots (Nord) -&gt; Cambrai-Epinoy air base, now closed (Nord) -&gt; Marcoing depot, Nord (hub connecting Lines 4, 9 and 10) -&gt; Mauregny-en-Haye depot (Aisne) -&gt; Chalons-en-Champagne depots (Marne) -&gt; Bouy military fuel centre (Marne) -&gt; Vatry depot (Marne) — CONNECTS DIRECTLY TO THE DMM NETWORK, already on this map, via an 8-inch, 21km link -&gt; Saint-Dizier air base (Haute-Marne) -&gt; Autreville-la-Renne and Orges depots -&gt; Heuilley-le-Grand depot (Haute-Marne), same hub as ODC-1
+Cargo: Jet fuel, diesel for NATO and French air bases along the route
+Why it matters: The direct physical link between the ODC and DMM networks (at Vatry) — the clearest point of interconnection between two of your mapped French pipeline systems; also the line that gives Dunkirk access to the eastern depot cluster
+Risks: Passes a now-closed air base (Cambrai-Epinoy), reflecting post-Cold-War base closures; its interconnection with the now-decommissioned DMM network at Vatry means that link itself may be affected</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						2.350688625953068,51.04331729648921,0 3.151680292617118,50.21835124501718,0 3.23246435467786,50.17746421661702,0 3.146658454179208,50.0935810943197,0 3.813421150501992,49.58737886699861,0 4.364,48.957,0 4.194207004262869,48.78028558239894,0 4.910972658181809,48.62629727755773,0 5.415545583106336,47.74901739068815,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>PMR-CoteAzur (La Mede - Puget-sur-Argens)</name>
+				<description>Status: Operational
+Network: PMR (SPMR) — the Cote d&apos;Azur branch
+Route: La Mede -&gt; Puget-sur-Argens (152 km)
+History: Authorised by decree 14 February 1992; brought into service 1995 — the network&apos;s newest branch, built decades after the original 1968 system
+Cargo: Diesel, gasoline, domestic heating oil, jet fuel, serving the Var coast
+Why it matters: The only PMR branch that does NOT connect through Villette-de-Vienne — a direct, independent link from the Etang de Berre refining cluster to the Riviera
+Risks: Independent of the rest of the network&apos;s junction structure, meaning it cannot draw on Villette-de-Vienne&apos;s storage as backup</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						4.919370252751209,43.43655765776453,0 4.982442128613645,43.43432652247653,0 5.003430174580179,43.39015389089535,0 5.101015174043226,43.39455085004366,0 5.196226272330959,43.39932983637325,0 5.226117362680299,43.43947102437763,0 6.687432593654641,43.44831683050083,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>PMR-Lyon (Villette-de-Vienne - Feyzin)</name>
+				<description>Status: Operational
+Network: PMR (SPMR)
+Route: Villette-de-Vienne -&gt; Lyon (Feyzin)
+Why it matters: One of three branches radiating from the Villette-de-Vienne junction, supplying the Lyon metropolitan region directly
+Risks: Shares its origin junction with the Alpine/Geneva branch — a disruption at Villette-de-Vienne affects both simultaneously</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						4.904161560462761,45.52651086467599,0 4.843056609017067,45.67257941381911,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>PMR-Rhone (Fos-sur-Mer - Villette-de-Vienne)</name>
+				<description>Status: Operational
+Network: PMR (Pipeline Mediterranee-Rhone), owned and operated by SPMR
+Route: Fos-sur-Mer -&gt; Villette-de-Vienne — the Rhone-valley spine and the network&apos;s actual junction point
+Specs: Part of SPMR&apos;s 760-762 km total network, commissioned November 1968, minimum 80cm burial depth; ~17 pumping stations network-wide; ~9-10 Mt/yr transported
+Cargo: Diesel, gasoline, domestic heating oil, jet fuel
+Why it matters: Villette-de-Vienne, not Lyon, is where the network genuinely splits into three further branches (Lyon, Alpine/Geneva) — confirmed directly by SPMR&apos;s own corporate materials. ~100,000 m3 of the network&apos;s storage capacity sits here
+Risks: A single spine carrying all Rhone-valley-bound volume before any branching occurs</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						4.91760300812575,43.44164115334761,0 4.9,44.2,0 4.904195156002411,45.52644497017188,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>PMR-Alpine-Geneva (Villette-de-Vienne - Switzerland)</name>
+				<description>Status: Operational — the network&apos;s only cross-border leg
+Network: PMR (SPMR), interconnecting with the Swiss pipeline SAPPRO
+Route: Villette-de-Vienne -&gt; Geneva, Switzerland
+Why it matters: The sole point where the French PMR network physically connects to Swiss pipeline infrastructure, extending fuel supply into the Geneva region
+Risks: Cross-border interconnection; supply continuity depends on coordination between SPMR and SAPPRO</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						4.904327509284325,45.52624127392459,0 5.114027725100545,45.61251491439022,0 6.101424540143421,46.21583268202113,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LHP-Grandpuits (ex-refinery, low-carbon conversion)</name>
+				<description>Status: Operational pipeline; DESTINATION STATUS CHANGED — Grandpuits is no longer an active conventional refinery
+Network: LHP (TRAPIL) — historically also linked to the separate crude pipeline PLIF (Pipeline d&apos;Ile-de-France, Le Havre-Grandpuits, operated by the refinery&apos;s owner)
+Route: Paris region -&gt; Grandpuits, south-east of Paris
+Site status: TotalEnergies&apos; former Grandpuits refinery stopped conventional crude refining and is being converted into a &quot;zero-crude&quot; platform for biofuels, plastics recycling and other low-carbon production — NOT an active conventional refinery anymore, similar in spirit to Shell&apos;s Wesseling conversion already on this map
+History: Grandpuits antenna commissioned 1966 (12-inch, 45 km)
+Why it matters: A direct French parallel to the broader European pattern of refineries converting to low-carbon output rather than closing outright
+Risks: Pipeline cargo composition will shift as the site&apos;s output mix changes from conventional fuels toward biofuels and recycled feedstocks</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						2.185555325410322,48.90064565532211,0 2.944005423304927,48.59097471808619,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LHP-Gargenville-Orleans (feeding Coignieres)</name>
+				<description>Status: Operational
+Network: LHP (TRAPIL)
+Route: Gargenville (former refinery, now a TotalEnergies depot) -&gt; Vernon (former refinery site, dismantled, now a waypoint) -&gt; Orleans, with a spur feeding the Coignieres terminal
+History: Vernon-Gargenville-Orly line commissioned 1966-1968; Gargenville-Coignieres section doubled in 1985 (16-inch)
+Cargo: Multi-product, feeding depots across the Eure-et-Loir and Loiret departments
+Why it matters: Extends LHP coverage south-west of Paris toward the Loire valley, well beyond the original Le Havre-Paris corridor
+Risks: Relies on waypoints (Vernon) that no longer have any refining function of their own — purely transit infrastructure today</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						1.794505896241021,48.97688288286601,0 1.412264898096955,49.09688195098645,0 1.918230786193871,48.73672403322269,0 1.953992425701123,47.92022682705228,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LHP-Vigny-Roissy (jet fuel to CDG)</name>
+				<description>Status: Operational
+Network: LHP (TRAPIL)
+Route: Vigny -&gt; Roissy, directly serving Charles de Gaulle (CDG) airport
+Cargo: Primarily jet fuel (carburéacteur), part of LHP&apos;s multi-product slate
+Why it matters: One of two Paris airports LHP supplies directly (the other being Orly via the Villeneuve-le-Roi/Orly spur) — critical fuel security link for France&apos;s busiest airport
+Risks: A dedicated short spur; any disruption directly threatens CDG&apos;s jet fuel supply chain</description>
+				<styleUrl>#failed0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						2.185222429815092,48.90116358078507,0 2.290655730938442,48.94827558486975,0 2.549088326158599,49.03681737264477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
 				<name>Kirishi-Petersburg Oil Terminal Pipeline</name>
 				<description>Status: Operational
 Cargo: Diesel fuel, by dedicated PIPELINE
 Route: NPS Kirishi / KINEF refinery (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
 Why it matters: The one CONFIRMED pipeline-fed connection into PNT — every other refinery supplying this terminal does so by rail or summer river barge instead
 Risks: KINEF has been repeatedly struck by drones in 2026 (already noted on this map), directly threatening this specific supply line</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17547,7 +17919,7 @@ The clever engineering detail: From Yaroslavl to Primorsk, &quot;Sever&quot; doe
 Why it matters: The clearest example on this map of a crude pipeline being converted to carry products — the same physical corridor as BTS-1 crude exports, running side by side, confirming diesel and crude share the Yaroslavl-Kirishi-Primorsk route even though they are entirely separate commercial flows
 Feedstock source: Draws diesel output from the Nizhny Novgorod/Kstovo refining region, in addition to KINEF&apos;s own diesel production at Kirishi joining the line partway through its route
 Risks: Shares its physical corridor and strike exposure with BTS-1 and the Kirishi/Primorsk nodes already flagged as repeated 2025-2026 drone targets on this map</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17564,7 +17936,7 @@ Capacity: Up to 4 million tonnes/year, carrying seven products in sequence (batc
 Endpoint, precisely: Aveiras de Cima (39.138°N, -8.900°W) — verified against CLC&apos;s own operational description, not an approximate midpoint
 Role: Distributes refined products from Sines to central Portugal and greater Lisbon — a PRODUCTS pipeline, not crude; Portugal has no cross-border oil pipelines and no dedicated crude pipeline network
 Risks: Sole distribution artery for central Portugal; product supply chain deeply concentrated on Sines and this one line</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17580,7 +17952,7 @@ Owner/Operator: OQ (with the Al Jifnain terminal as the central distribution nod
 Handles: Gasoline, diesel and jet fuel between the country&apos;s two northern refineries; jet supply toward Muscat International Airport
 Strategic role: Connects Oman&apos;s two refining centres into one products system and cut thousands of tanker-truck movements off the coastal highway
 Risks: Single products corridor for the capital region; coastal infrastructure exposure</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17597,7 +17969,7 @@ Capacity: Initial 6-7 million t/yr, expandable to 10 million t/yr
 Role: Extends Pakistan&apos;s white-oil backbone north from Machike to Peshawar, with connectivity options to the Attock refinery, Chakpirana and Faqirabad — completing a continuous Karachi-to-Peshawar products corridor
 Recent: Consortium agreement signed September 2024 after a February 2024 MoU, backed by Pakistan&apos;s Special Investment Facilitation Council (SIFC); construction not yet confirmed complete as of the most recent reporting
 Risks: Project-execution and financing risk typical of large state-backed infrastructure; the Karachi-Peshawar corridor still depends on the existing WOP/MFM network until this is commissioned</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17613,7 +17985,7 @@ Owner/Operator: Pak-Arab Pipeline Company (PAPCO) — PARCO 51%, Shell Pakistan 
 Capacity: Commissioned mid-2000s at an initial ~5 million t/yr, expandable to ~12 million t/yr (a ~$480 million project)
 Role: Pakistan&apos;s main refined-product artery — moves diesel, and increasingly gasoline, from Karachi&apos;s coastal refineries and import terminals to the interior, feeding onward into the MFM and (once complete) MTT-WOP networks; accounts for a large share of national diesel consumption
 Risks: Single-corridor dependence for interior fuel supply; single-to-multi-product conversion complexity; security along the Sindh-Punjab route</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17629,7 +18001,7 @@ Owner/Operator: Pak-Arab Pipeline Company (PAPCO), part of the PARCO pipeline ne
 Role: Connects oil-carrying vessels and Port Qasim&apos;s terminal facilities directly to the Korangi tank farm, avoiding the more congested Keamari Port route
 Strategic role: A short but structurally important link that eases bottlenecks and cuts logistics costs across Karachi&apos;s crowded oil-handling zone
 Risks: Concentrated within Karachi&apos;s dense industrial/port zone — exposed to the same urban congestion and security issues it was built to route around</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17645,7 +18017,7 @@ Owner/Operator: PARCO / Pak-Arab Pipeline Company (PAPCO)
 Capacity: Commissioned 1997, designed for ~3.7 million t/yr
 Role: Extends Pakistan&apos;s white-oil backbone from the Mahmoodkot hub (fed by the KMK crude line and WOP products line) onward to Faisalabad and Machike — the current northern terminus of the continuous products corridor from Karachi, until the MTT-WOP extension to Peshawar is completed
 Risks: Single-line dependence for products reaching central Punjab; nearly 30 years in service</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17672,7 +18044,7 @@ Risks: Regulatory/tariff dispute with Transnet; the project may never have been 
 					<range>135552.9490196519</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<coordinates>
 						32.49960800162238,-25.95937431606155,0 31.94044843041256,-25.45388269156171,0 30.9658917053511,-25.47056644272303,0 29.04486522022536,-26.05031795979596,0 29.15584442063949,-26.54838320055666,0 
@@ -17683,7 +18055,7 @@ Risks: Regulatory/tariff dispute with Transnet; the project may never have been 
 				<name>NATO pipeline</name>
 				<description>Status: Operational
 Route: The Central Europe Pipeline System (CEPS) — NATO&apos;s largest fuel network, linking ports, refineries, storage depots, military bases and major civil airports across France, Belgium, Luxembourg, Germany and the Netherlands
-Owner/Operator: NATO (CEPS)
+Owner/Operator: NATO (CEPS), Multinational CEPS Programme; managed by the CEPS Programme Office within NATO’s NSPA. Carried out by national organisations. In France, TRAPIL operates the French ODC section for the French state, under the SNOI framework.
 Handles: Refined products only — jet fuel, diesel, gasoline, naphtha; normally no crude
 Strategic role: Built to secure military fuel supplies, used for civilian distribution in peacetime — a standing element of European fuel resilience and military logistics</description>
 				<LookAt>
@@ -17696,10 +18068,10 @@ Strategic role: Built to secure military fuel supplies, used for civilian distri
 					<range>1612162.811618149</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed7</styleUrl>
 				<LineString>
 					<coordinates>
-						4.921680785015545,43.43801509487142,0 5.114046333517912,45.61251176374816,0 4.848414688104381,45.67329867238519,0 6.066010544628362,47.23885261393072,0 8.337536493015334,49.05694934943841,0 4.326103875413474,51.257664035781,0 
+						4.921680785015545,43.43801509487142,0 5.114046333517912,45.61251176374816,0 4.842754066114896,45.67350698132257,0 6.064452062659045,47.24139702553536,0 7.764208323489223,48.65924148762274,0 8.335894304656097,49.05180450539396,0 4.326103875413474,51.257664035781,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -17717,10 +18089,10 @@ Refined productes pipeline (jet, diesel...)</description>
 					<range>6313.104130049469</range>
 					<altitudeMode>absolute</altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<coordinates>
-						0.161741819663912,49.46591572736156,0 0.2355659154056977,49.48538082349847,0 0.551879070832999,49.47601521049219,0 1.021912843999624,49.40774866164431,0 1.485673673829357,49.0926376897902,0 1.716009287104956,48.99004917845182,0 2.184800725864973,48.90114397102835,0 2.077315151283288,49.03583418104252,0 2.133626700165048,49.23454375113567,0 2.112985984074953,49.45884771404089,0 
+						0.161741819663912,49.46591572736156,0 0.2355659154056977,49.48538082349847,0 0.551879070832999,49.47601521049219,0 1.021912843999624,49.40774866164431,0 1.412238117820519,49.09734669072686,0 1.792827917139455,48.9756730414545,0 2.184800725864973,48.90114397102835,0 2.077315151283288,49.03583418104252,0 2.133626700165048,49.23454375113567,0 2.112985984074953,49.45884771404089,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -17734,11 +18106,21 @@ Handles: Diesel, gasoline, heating oil, jet and petrochemical feedstocks in sequ
 Recent: €100m+ modernisation with a new Godorf control centre (2025); its supply-security role grows as German crude runs decline (Wesseling shutdown); the line ends at Frankfurt/Ludwigshafen — it does NOT reach Karlsruhe, Strasbourg or Basel
 Strategic role: The counter-example to the Rhine chokepoint — pipeline-fed Frankfurt Airport and BASF held up through 2018, 2022 and 2026 while barge-only Strasbourg and Basel paid record freight; the boundary runs at Ludwigshafen
 Risks: Single-system dependence for Rhine-Main jet fuel; 1991 Dinslaken rupture precedent; no physical extension south despite rising strategic weight</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#failed0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
 						6.174867818002179,51.37953542437193,0 6.749927591934433,51.56118632689375,0 7.069443476633444,51.52963467350567,0 6.976116534255103,50.84150826881452,0 6.666817637192677,50.24101427919268,0 7.500632924231539,49.99425609593326,0 8.469313470358816,50.02423386065284,0 8.422760592683854,49.53538951499789,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Sans titre - Trajet</name>
+				<styleUrl>#failed1</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						7.76397447355065,48.65831658909372,0 7.804101239659023,48.602584193722,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -18334,7 +18716,6 @@ Risks: Southern Ocean weather; bunker-price exposure; South African port congest
 		<name>D. Storage &amp; Pricing</name>
 		<Folder>
 			<name>Pricing Hubs and Benchmarks</name>
-			<open>1</open>
 			<Folder>
 				<name>Major Energy Hubs</name>
 				<Placemark>
@@ -19513,8 +19894,27 @@ Risks: None conventional — a widening or collapsing EFS is itself a signal of 
 		</Folder>
 		<Folder>
 			<name>Storage &amp; Depots</name>
+			<open>1</open>
 			<Folder>
 				<name>Independent Storage Terminals</name>
+				<Placemark>
+					<name>SFDM storage parks at Donges</name>
+					<description>Status: Operational. Role: Storage and transfer facilities connected to the DMM system; the Donges network includes several interconnected parks. Operator: SFDM. Map this separately from the refinery’s own integrated tankage if you want the pipeline-linked depot represented.</description>
+					<LookAt>
+						<longitude>-2.08582739674277</longitude>
+						<latitude>47.31225828198231</latitude>
+						<altitude>0</altitude>
+						<heading>-0.009025459869355131</heading>
+						<tilt>21.35221120165154</tilt>
+						<range>2153.886849447229</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-2.091962640712792,47.31608404102911,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Sheremetyevo Airport Fuel Depot (TZK)</name>
 					<description>Status: Operational — has faced acute shortages during refinery outages
@@ -19523,7 +19923,7 @@ Role: On-site aviation fuel storage and filling complex (TZK) serving Sheremetye
 Feedstock: Supplied by Moscow Refinery (MNPZ, already on this map) and Ryazan Refinery, confirmed directly by Transnefteprodukt
 Why it matters: When MNPZ goes down, Sheremetyevo is historically the FIRST and WORST hit — in a past disruption it held only 3 days of reserve, the lowest of Moscow&apos;s three airports
 Risks: Thinnest fuel buffer of the three Moscow airports; direct dependence on MNPZ&apos;s uptime</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>37.42891981720268,55.96854701736124,0</coordinates>
 					</Point>
@@ -19536,7 +19936,7 @@ Role: On-site aviation fuel storage and filling complex serving Vnukovo, used fo
 Feedstock: Supplied by Moscow Refinery (MNPZ, already on this map) and Ryazan Refinery
 Why it matters: Reserves here were historically limited — only 2 days&apos; supply during a past disruption, the lowest of the three airports
 Risks: Smallest confirmed reserve buffer of Moscow&apos;s three main airports</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>37.25326676511936,55.60619768997551,0</coordinates>
 					</Point>
@@ -19549,7 +19949,7 @@ Role: On-site aviation fuel storage and filling complex serving Domodedovo, hist
 Feedstock: Supplied by Moscow Refinery (MNPZ, already on this map) and Ryazan Refinery
 Why it matters: Held the LARGEST reserve buffer of Moscow&apos;s three airports in a past disruption — roughly twice Sheremetyevo&apos;s stock — making it the most resilient of the three when MNPZ output drops
 Risks: Still ultimately dependent on the same two-refinery supply base as the other two airports</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>37.89990390596396,55.40670177141782,0</coordinates>
 					</Point>
@@ -19564,7 +19964,7 @@ Connectivity: Sea vessels (9 m draft), barges, rail and truck — a four-mode hu
 Why it matters: Hamburg handled ~12 Mt of liquid cargo in 2021, overwhelmingly product IMPORTS — Germany is structurally short of diesel, and this is where those barrels land
 Location note: Pin marks the cluster as a whole; individual operators cannot be told apart from satellite imagery
 Risks: Throughput tracks German refinery outages and import economics, not local production</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>9.961428902142512,53.49321906307817,0</coordinates>
 					</Point>
@@ -19578,7 +19978,7 @@ Why it stopped: In January 2003, Russia&apos;s Transneft unilaterally cut off pi
 Current role: Vitol led a transition into long-term storage and blending of oil PRODUCTS (not crude) — the terminal now handles seaborne cargoes rather than pipeline-fed Russian crude. Reported flows include Russian-origin ULSD trans-shipped via large tankers to the ARA hub
 Why it matters: A striking case of a major crude export terminal being deliberately stranded by a political decision, then successfully reinventing itself as independent commercial storage under a Western trading house
 Risks: A cautionary example for any pipeline-dependent terminal — infrastructure alone doesn&apos;t guarantee relevance if the supplier chooses to redirect flows elsewhere</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>21.55231353464083,57.40242023482737,0</coordinates>
 					</Point>
@@ -19591,7 +19991,7 @@ Role: Import, storage and WHOLESALE of refined petroleum products — brings fin
 Why here: Distinct from a crude-receiving terminal — this handles finished products (diesel, gasoline) rather than raw crude, reflecting Estonia&apos;s total dependence on imported refined fuel given it has no refinery of its own
 Location: Muuga Harbour, Tallinn, on the ice-free, deep-water southern shore of the Gulf of Finland
 Risks: Single-supplier dependence on Neste&apos;s Finnish refining capacity for a meaningful share of Estonian fuel supply</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>24.93582876219761,59.49757436167411,0</coordinates>
 					</Point>
@@ -19604,7 +20004,7 @@ Role: Import and marketing of BITUMEN and bitumen oils — a niche specialty pro
 Why here: Bitumen for road construction and industrial use is a genuinely separate market from motor fuels; Nynas is a globally recognised specialty player, historically linked to PDVSA (Venezuela) ownership given its naphthenic/asphaltenic crude specialisation
 Location: Muuga Harbour, Tallinn
 Risks: Niche product with a narrower customer base than mainstream fuel terminals; feedstock (naphthenic/heavy crude) sourcing can be geopolitically sensitive</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>24.93681467159268,59.49535996323129,0</coordinates>
 					</Point>
@@ -19618,7 +20018,7 @@ Facilities: Historically built as &quot;Pakterminal&quot; — 33 tanks, 305,200 
 Why here: The clearest example of true third-party independent storage at Muuga — the same global operator (Vopak) already mapped at Fujairah, ARA, Algeciras and Wilhelmshaven, now confirmed in the Baltic too
 Location: Muuga Harbour, Tallinn, in the port&apos;s customs-free zone
 Risks: Shared exposure to Baltic product-flow shifts since 2022 sanctions reduced legitimate Russian-origin transshipment through the region</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>24.94576875969164,59.49314357009255,0</coordinates>
 					</Point>
@@ -19632,7 +20032,7 @@ Capacity: Up to 800,000 m3 potential storage for crude oil, refined products and
 Role: Uses Naftoport&apos;s own jetty capacity next door for discharging/loading, while offering commercial services (blending, heating, additivation, consolidation) to outside customers — the same independent-storage model as Vopak at Fujairah/ARA/Algeciras, now replicated in the Baltic
 Why here: The clearest example of INDEPENDENT (non-captive) storage in Poland — everything else in the country&apos;s tank network is owned by the state via PERN
 Risks: Shared reliance on Naftoport&apos;s jetty infrastructure; a joint-venture structure balancing state and private commercial interests</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>18.75302384157919,54.35743039859646,0</coordinates>
 					</Point>
@@ -19646,7 +20046,7 @@ Role: Positioned at the entrance to the Mediterranean, where some 70,000 ships a
 Recent: A further $66 million, 300,000 m3 expansion was announced by Horizon in 2026, with 60% of new capacity dedicated to ship bunkering — part of a wider $1.6 billion plan to develop Tangier into a major international port
 Why it matters: One of only THREE locations holding roughly 80% of Morocco&apos;s entire liquid fuel storage capacity — the others are Mohammedia and Jorf Lasfar
 Risks: Competes directly with a similar bunkering facility across the strait in the Spanish exclave of Ceuta</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-5.51,35.88,0</coordinates>
 					</Point>
@@ -19659,7 +20059,7 @@ Role: The first INDEPENDENT (third-party) oil storage terminal in Algeciras — 
 Capacity: 403,000 m3 across 22 tanks, with a jetty able to take vessels up to 225,000 dwt
 Why here: Independent commercial storage, the same category as Vopak&apos;s other global terminals on this map (Fujairah, ARA) — capitalising on Algeciras&apos;s position as a major bunkering and transhipment hub at the Strait of Gibraltar
 Risks: Competitive independent-storage market; exposure to regional bunker-fuel demand cycles</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-5.431727484320962,36.12491376876909,0</coordinates>
 					</Point>
@@ -19673,7 +20073,7 @@ Connectivity: Pipeline-connected to Kinder Morgan&apos;s existing Edmonton stora
 Role in the chain: Commercial storage and blending flexibility at the pipeline-origin hub — where shippers stage crude before it enters the Mainline, Trans Mountain or rail systems
 Why here: Part of the dense Edmonton/Strathcona tank-farm cluster (with the Trans Mountain, Enbridge, Suncor and Keyera terminals) that is the staging yard for Canada&apos;s entire crude-export system
 Risks: Serves a single concentrated hub; storage-margin cycles</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-113.3472050893587,53.54533359502748,0</coordinates>
 					</Point>
@@ -19688,7 +20088,7 @@ Processing twist: Retains a 2.5 million t/yr LOW-SULFUR FUEL OIL (LSFO) producti
 Distinction: Separate from the neighbouring NWO crude terminal (which feeds the Gelsenkirchen pipeline) — Wilhelmshaven hosts multiple large tank terminals side by side
 Why here: Independent (fee-based) storage with berths, the same category as Vopak, BOSTCO and Zenith elsewhere on this map
 Risks: European storage-margin and bunker-demand cycles; a converted refinery site</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>8.096727237568906,53.6133738663608,0</coordinates>
 					</Point>
@@ -19701,7 +20101,7 @@ Role: The pipeline-connected crude and product tank farm serving the Scholven re
 Why it matters (2026 low-Rhine story): S&amp;P Global Energy CERA notes that while other Rhine refineries struggle when water levels hit critical lows, GELSENKIRCHEN can still access crude through this nearby, PIPELINE-CONNECTED Scholven tank facility — it is supplied by pipe, not by river barge, so it is insulated from the Rhine low-water disruption that cripples barge-dependent sites
 Connectivity: Receives crude via the NWO (Nord-West Oelleitung) pipeline from the Wilhelmshaven deep-water import terminal on the North Sea
 Risks: Depends on the single NWO pipeline corridor; ageing storage infrastructure</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>7.030541583447141,51.60287769240855,0</coordinates>
 					</Point>
@@ -19716,7 +20116,7 @@ Connectivity: About 50 miles of bi-directional pipeline linking the three termin
 Why here: Independent (fee-based, third-party) storage — rented tankage, distinct from the refinery-owned tanks; the same category as Vopak and BOSTCO
 Strategic role: The commercial storage flexibility that lets traders and refiners balance supply in an isolated, import-dependent market; increasingly positioned for low-carbon/renewable fuels too
 Risks: Serves a contracting refinery base; earthquake exposure in the LA basin</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-118.2510770681252,33.84309154403542,0</coordinates>
 					</Point>
@@ -19730,7 +20130,7 @@ Capacity: Part of Kinder Morgan&apos;s West Coast terminal system totalling near
 Connectivity: Connected to numerous pipelines and facilities across the LA area, giving customers flexibility to respond quickly to market conditions; storage arranged mainly on 1-5 year term contracts
 Why here: Third-party rented storage, distinct from refinery-owned tankage
 Risks: Serves a shrinking refinery base; competition from other LA-basin independents (Vopak, Zenith)</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-118.2328251138873,33.80108239824262,0</coordinates>
 					</Point>
@@ -19743,7 +20143,7 @@ Role: The principal independent storage and distribution terminal in Northern Ca
 Connectivity: San Francisco Bay marine access; serves the Northern California market alongside the Chevron Richmond refinery nearby
 Why here: Third-party fee-based storage, distinct from the adjacent refinery
 Risks: Bay-area environmental scrutiny; niche chemical/specialty focus</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-122.3688432580145,37.91733375506814,0</coordinates>
 					</Point>
@@ -19757,7 +20157,7 @@ Capacity: Over 7 million barrels across large above-ground tanks, with deep-wate
 Function: Rented tankage for traders and refiners — storage and blending of heavy products and fuel oil, not a producer-owned facility
 Why here: Third-party commercial storage, the same category as Vopak and the ARA independent tank farms — distinct from the captive terminals attached to refineries
 Risks: Ship Channel congestion; product-market demand swings for residual fuel</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-95.02844857330044,29.60972051644727,0</coordinates>
 					</Point>
@@ -19771,7 +20171,7 @@ Capacity: Over 5 million barrels of storage, two ship docks and truck-loading fa
 Function: Independent third-party products storage and distribution — gasoline, diesel and related refined products
 Why here: Commercial rented storage, same category as BOSTCO and Vopak
 Risks: Ship Channel congestion; refined-product demand cycles</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-95.15992215642453,29.73187137620948,0</coordinates>
 					</Point>
@@ -19784,7 +20184,7 @@ Role: An independent third-party storage terminal at Deer Park on the Houston Sh
 Function: Rented tankage and distribution for traders, refiners and petrochemical producers — the classic independent-storage model Vopak runs worldwide (also on this map at Fujairah, ARA and elsewhere)
 Why here: Third-party commercial storage, distinct from the refinery-owned tankage nearby
 Risks: Ship Channel congestion; chemical-market demand swings</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-95.12,29.73,0</coordinates>
 					</Point>
@@ -19797,7 +20197,7 @@ Role: A liquids storage and marine terminal at Pasadena on the Houston Ship Chan
 Function: Independent third-party tankage with dock and pipeline connectivity into the Houston refining and distribution network
 Why here: Commercial rented storage, same category as MVP, BOSTCO and Vopak
 Risks: Ship Channel congestion; a 2019 fire at a nearby Pasadena-area terminal (ITC Deer Park) underscored the fire risk of dense liquids storage in this corridor</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-95.20181877561835,29.73051894019735,0</coordinates>
 					</Point>
@@ -19810,7 +20210,7 @@ Role: A refined-products storage and distribution terminal at Pasadena on the Ho
 Function: Tankage and loading for gasoline, diesel and other clean products moving into the regional distribution system and for marine movement
 Why here: Product storage/distribution on the Ship Channel; classified as independent-style storage rather than an export gateway or refinery
 Risks: Ship Channel congestion; product-demand cycles</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-95.17548308477703,29.71715166972506,0</coordinates>
 					</Point>
@@ -19819,7 +20219,7 @@ Risks: Ship Channel congestion; product-demand cycles</description>
 					<name>Machike Terminal (Sheikhupura)</name>
 					<description>Status: Operational
 Role: Major oil storage and distribution hub of the Lahore region — northern end of the MFM pipeline and origin of the planned MTT-WOP toward Peshawar</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>73.98999999999999,31.65,0</coordinates>
 					</Point>
@@ -19828,7 +20228,7 @@ Role: Major oil storage and distribution hub of the Lahore region — northern e
 					<name>Mahmoodkot Storage &amp; Pipeline Hub</name>
 					<description>Status: Operational
 Role: Pakistan&apos;s inland pipeline junction — KMK and WOP end here, MFM starts here; PARCO refinery tanks, PAPCO terminal and strategic product storage side by side</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>70.92767383942596,30.16252815377668,0</coordinates>
 					</Point>
@@ -19849,7 +20249,7 @@ Risks: A dense urban population sits directly next to this Seveso high-threshold
 						<range>1374.209322501265</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>6.101515340222317,46.21589967767904,409.7536698553555</coordinates>
 					</Point>
@@ -19870,7 +20270,7 @@ Risks: Ageing infrastructure (PLIF dates to 1968, with a multi-month outage in 2
 						<range>12446.22251956026</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>0.1591582776677547,49.4651087863507,8.434378666648374</coordinates>
 					</Point>
@@ -19891,13 +20291,13 @@ Risks: This is a generalised regional marker rather than a single named facility
 						<range>3566.298645962379</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>2.185023301465163,48.90105116833551,25.9229733781971</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Strasbourg oil terminal</name>
+					<name>SES terminal</name>
 					<description>Status: Operational
 Owner/Operator: Seven Seveso high-threshold sites run by independent storage companies (incl. Bolloré Energy, Tepsa) within the Port Autonome de Strasbourg
 Role: Inland refined-products storage and distribution hub — France&apos;s second river port; diesel, gasoline, heating oil, jet — no crude; dedicated oil basin (1920s, rebuilt post-war) with barge berths, rail and truck loading
@@ -19914,7 +20314,7 @@ Risks: Rhine navigability (2018, 2022, 2026); Seveso sites 100 m from housing (c
 						<range>3728.000555799524</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.803447355785695,48.60168919049215,0</coordinates>
@@ -19938,7 +20338,7 @@ Risks: Total dependence on Rhine navigability (2018, 2022, record 2026); landloc
 						<range>1840.506306391863</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.637289037624486,47.55480931641503,0</coordinates>
@@ -19962,7 +20362,7 @@ Risks: Rhine low water; Seveso-class constraints in a dense urban area; national
 						<range>1800.782002598348</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.658912232872749,47.54331506122355,0</coordinates>
@@ -19986,7 +20386,7 @@ Risks: One airport&apos;s fuel supply concentrated on a few depots and pipes; RM
 						<range>2240.367061950285</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>8.470888570319858,50.02471829397918,0</coordinates>
@@ -20001,7 +20401,7 @@ Storage capacity: Tens of millions of barrels across eight caverns and surface t
 Connectivity: Subsea pipeline from the marine terminal; LOCAP onward to St. James; Mars and other offshore Gulf grades also land in this system
 Strategic role: The cavern buffer that makes VLCC economics work on the US Gulf — and a delivery point in the Gulf sour crude market alongside St. James
 Risks: Hurricane corridor; cavern-integrity management; dependence on the single offshore terminal upstream</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-90.26957160699486,29.44742710537982,0</coordinates>
 					</Point>
@@ -20015,7 +20415,7 @@ Storage capacity: ~20 million barrels within the hub&apos;s ~90 million total wo
 Connectivity: Manifolded into the hub&apos;s inbound lines (Keystone, Basin, Flanagan South, White Cliffs) and outbound systems (Seaway, Marketlink, Ozark to Wood River)
 Strategic role: Where a large share of the barrels that settle NYMEX WTI physically sit — the tanks behind the world&apos;s most-watched Wednesday inventory number
 Risks: Basis blowouts when inbound exceeds outbound capacity (the April 2020 lesson); tornado alley weather; contract-storage cycle swings</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-96.75,35.94,0</coordinates>
 					</Point>
@@ -20029,7 +20429,7 @@ Storage capacity: ~20 million barrels of floating-roof tankage
 Connectivity: Inbound from the Basin pipeline (Permian barrels) among others; outbound to the Gulf systems; Diamond pipeline (Plains–Valero JV, 200,000 b/d to the Memphis refinery) departs the hub
 Strategic role: The Permian&apos;s traditional inland parking lot — Plains connects wellhead gathering in Texas to the paper market in Oklahoma
 Risks: Storage-contract renewal cycles; the structural shift of Permian barrels flowing straight to Houston instead of via Cushing</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-96.72458171451837,35.95998675420457,0</coordinates>
 					</Point>
@@ -20043,7 +20443,7 @@ Storage capacity: ~20+ million barrels combined across the independent and midst
 Connectivity: Fully manifolded into the hub — any tank can in principle serve any pipeline, which is what makes WTI delivery frictionless
 Strategic role: The competitive depth behind the benchmark — multiple operators quoting storage is why the delivery mechanism is trusted
 Risks: Consolidation reducing operator diversity; ageing tankage; utilisation swings between contango and backwardation</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-96.75158953706269,36.00946085727618,0</coordinates>
 					</Point>
@@ -20066,7 +20466,7 @@ Risks: Concentrated coastal exposure; actual inventory levels are not publicly d
 						<range>1000.000000001726</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.6472,30.0036,0</coordinates>
@@ -20089,7 +20489,7 @@ Risks: Coastal concentration, typhoons, marine disruption and undisclosed utilis
 						<range>5634.099007278747</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>122.1454121725612,29.95587153941617,0</coordinates>
@@ -20119,7 +20519,7 @@ Risks: Geographic concentration beside other large oil terminals and tank farms,
 						<range>4277.491061172929</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.8814535379665,38.97495677287652,0</coordinates>
@@ -20132,7 +20532,7 @@ Owner/Operator: Jurong Port (a JTC-owned port operator) — this is Jurong Port&
 Role: Independent liquid bulk storage at the southern tip of Jurong Island, part of Jurong Port&apos;s diversification beyond core port/cargo-handling operations into oil and liquid storage services
 Connectivity: Located in the same Pulau Damar Laut area as Universal Terminal — worth confirming in Earth Pro whether these are neighbouring but distinct sites or the same site referenced under two labels
 Risks: Ownership overlap with Universal Terminal (same parent operator) means a shared exposure to any Jurong Port-wide operational issue</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>103.7135599221718,1.301410230438414,0</coordinates>
 					</Point>
@@ -20145,7 +20545,7 @@ Role: The largest independent petroleum storage terminal in Asia-Pacific — a t
 Capacity: ~2.33-2.5 million m³ across 15 jetties, including two VLCC berths and nine bunker barge berths; also holds exclusive access to Southeast Asia&apos;s first underground rock-cavern oil storage facility
 Recent: Restructured in 2021 after former major shareholder Hin Leong Trading collapsed with roughly $4 billion in debt; connected to neighbouring Horizon Singapore Terminals by a new fuel-oil and clean-products pipeline completed in 2024
 Risks: Concentrated ownership among a small group of investors following the Hin Leong collapse; a single point of failure for a large share of Singapore&apos;s merchant storage capacity</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>103.6825107381667,1.235672474234837,0</coordinates>
 					</Point>
@@ -20158,7 +20558,7 @@ Role: A dedicated fuel-oil and gasoil blending and bunkering hub on its own isla
 Capacity: Roughly 1.3 million m³ (8.4 million barrels) across 83 tanks, with 9 vessel berths and a 17.6 m draught allowing vessels up to 210,000 DWT
 Connectivity: Offers concurrent bunkering — vessels can receive bunkers while simultaneously loading or discharging cargo — to speed up vessel turnaround
 Risks: Standalone-island logistics entirely dependent on ferry/barge access; concentrates a large share of fuel-oil blending activity in one location</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>103.7956105591172,1.205110387288129,0</coordinates>
 					</Point>
@@ -20171,7 +20571,7 @@ Role: A combined oil, chemicals and LPG storage terminal on Jurong Island — So
 Capacity: Over 535,000 m³ for oil and chemicals, plus a dedicated ~80,000 m³ LPG facility (an 80/20 joint venture with SK Gas)
 Connectivity: Two jetties able to berth vessels up to 120,000 DWT
 Risks: LPG storage adds a distinct hazard profile alongside conventional oil and chemical tanks on the same site</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>103.6804343113651,1.26448706096277,0</coordinates>
 					</Point>
@@ -20184,7 +20584,7 @@ Role: An independent fuel-oil and clean-products storage terminal on Jurong Isla
 Capacity: Over 1.2 million m³
 Connectivity: Directly linked to the neighbouring Universal Terminal since 2024 by a dedicated 24-inch fuel-oil and 20-inch clean-products pipeline, cutting inter-terminal transfer times and costs for shared customers
 Risks: Reliance on a single neighbouring terminal for pipeline-based product transfers</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>103.6866343784178,1.249463748028738,0</coordinates>
 					</Point>
@@ -20215,7 +20615,7 @@ Risks: Dependence on common port infrastructure, terminal utilization, refined-p
 						<range>1775.404544777587</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.35024506498836,25.1853626147726,0</coordinates>
@@ -20225,7 +20625,7 @@ Risks: Dependence on common port infrastructure, terminal utilization, refined-p
 					<name>PSO Zulfiqarabad Oil Terminal (ZOT)</name>
 					<description>Status: Operational
 Role: Pakistan&apos;s largest oil storage facility (~450,000 t of products) — PSO&apos;s principal coastal tank farm at Pipri, under expansion</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>67.30377660265292,24.82195395640225,0</coordinates>
 					</Point>
@@ -20248,7 +20648,7 @@ Risks: Recurring regional blockades and protests have forced throughput cuts; a 
 						<range>5752.594125845936</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-73.88462355019486,7.073652529560514,73.42292414192707</coordinates>
 					</Point>
@@ -20261,7 +20661,7 @@ Role: Turkey&apos;s Mediterranean products-import cluster — seaborne gasoline,
 Connectivity: No pipeline serves this coast — when the ATAŞ refinery closed in 2004, the region&apos;s fuel had to come 485 km by road from Kırıkkale, and the logistics haven&apos;t fundamentally changed
 Strategic role: The demand-side mirror of Ceyhan next door — one bay exports crude the country doesn&apos;t refine, the other imports products the country doesn&apos;t produce
 Risks: Full seaborne dependence; road-distribution bottlenecks; transit-trade compliance exposure</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>34.68769017933675,36.82386007525118,0</coordinates>
 					</Point>
@@ -20275,7 +20675,7 @@ Storage capacity: 577,000 m³ of gasoline, diesel, fuel oil and biofuel componen
 Recent: August 2026 — the MR tanker Wendrix loaded gasoline here bound for Russia, the first identified Turkey-to-Russia seaborne gasoline route of the sanctions era; Mersin port sits on Ukraine&apos;s sanctions list over suspected Russian links
 Strategic role: A trader-owned Mediterranean blending and re-export platform — where stored molecules change direction when the market flips, as Russia&apos;s 2026 switch from fuel exporter to importer demonstrated
 Risks: Sanctions-compliance exposure on re-export flows; earthquake vulnerability of the tank farm; single-coast products dependence for the region since refining ended</description>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>34.70087210231715,36.8193020811484,0</coordinates>
 					</Point>
@@ -20296,7 +20696,7 @@ Strategic role: A reminder that Serbia went from two refineries to one — why t
 						<range>3708.395036660953</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.86391819970226,45.27467057240916,0</coordinates>
@@ -20320,7 +20720,7 @@ Risks: Seveso high-threshold site; single-corridor dependence on the SPSE pipeli
 						<range>1697.810766376264</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>5.1149018,45.6155196,0</coordinates>
@@ -20342,7 +20742,7 @@ Risks: Small-scale, single-site operation entirely dependent on Frankfurt Airpor
 						<range>7605.346087014842</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>8.551432732563446,50.04215642947278,0</coordinates>
@@ -20367,7 +20767,7 @@ Risks: Fire and contamination; product-segregation requirements; Rhine and port 
 						<range>23013.69924402796</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>4.2828162,51.8913455,0.2735449984056348</coordinates>
 					</Point>
@@ -20386,7 +20786,7 @@ Role: One of Amsterdam&apos;s largest fuel-storage areas — Vopak and other ter
 						<range>3000</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>4.786598134495219,52.41053286954726,2</coordinates>
 					</Point>
@@ -20405,7 +20805,7 @@ Role: One of Europe&apos;s largest oil-storage zones — the deep-water crude an
 						<range>15750.88389459299</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>4.141333829543958,51.94799525328288,12.57155851531995</coordinates>
 					</Point>
@@ -20428,7 +20828,7 @@ Risks: ARA-region storage competition and margin pressure; safety requirements o
 						<range>2243.808004093299</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>4.354385179949142,51.24937599132093,2.513679747653361</coordinates>
 					</Point>
@@ -20448,7 +20848,7 @@ Role: Independent storage and processing terminal in the Port of Antwerp</descri
 						<range>1914.193430132582</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>4.369067045891983,51.25177384885958,3.305894788988312</coordinates>
 					</Point>
@@ -20467,7 +20867,7 @@ Role: Main fuel storage and distribution terminal of Mauritius — gasoline, die
 						<range>1845.695836351079</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>57.48908302397544,-20.14461293115252,6.373579975660162</coordinates>
 					</Point>
@@ -20487,7 +20887,7 @@ Strategic role: A secondary hub for Indian Ocean flows — when Singapore econom
 						<range>3620.237184350844</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>57.4947021908326,-20.14141803191107,4.18707365313888</coordinates>
 					</Point>
@@ -20507,7 +20907,7 @@ Strategic role: A regional distribution hub — cargoes are redirected here when
 						<range>3241.859351807507</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>32.56336455789477,-25.96982451454338,5.677996084971806</coordinates>
 					</Point>
@@ -20527,7 +20927,7 @@ Connectivity: Inland markets — South Africa, Zimbabwe and the wider region</de
 						<range>1718.658487156208</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>32.49949090624551,-25.95965481985363,5.284837326036451</coordinates>
 					</Point>
@@ -20547,7 +20947,7 @@ Strategic role: A distribution node of South Africa&apos;s inland fuel supply �
 						<range>2519.468649739575</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>29.04438675583706,-26.05027122129684,1586.762756987893</coordinates>
 					</Point>
@@ -20571,7 +20971,7 @@ Risks: Gulf hurricanes; fractionation and cavern outages; export-dock congestion
 						<range>12456.51559872553</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>-94.89773417913777,29.84779574732718,26.72588759351757</coordinates>
 					</Point>
@@ -20594,7 +20994,7 @@ Risks: Import dependence on Gulf shipping; storage capacity and specifications t
 						<range>898.5032577756459</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>47.88729410000001,30.1783967,0</coordinates>
@@ -20618,7 +21018,7 @@ Risks: Same Bab el-Mandeb exposure as neighbouring Eilat (freight and insurance 
 						<range>1927.914198111976</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>34.96799563995901,29.38178999956056,33.40967143232309</coordinates>
 					</Point>
@@ -20639,7 +21039,7 @@ Risks: Syria&apos;s refining and storage infrastructure has been repeatedly affe
 						<range>5785.393581093522</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>35.96653381958463,35.22235976149776,36.24013392066996</coordinates>
 					</Point>
@@ -20659,7 +21059,7 @@ Risks: This is a generalised regional marker rather than a single named facility
 						<range>3588.519052646456</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>52.20729307743104,54.92289616284774,135.0925367481317</coordinates>
 					</Point>
@@ -20680,7 +21080,7 @@ Risks: War-related infrastructure risk; this is a generalised regional marker ra
 						<range>9675.352873814827</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>25.11907848753025,50.06856969147943,225.7785784856151</coordinates>
 					</Point>
@@ -20703,7 +21103,7 @@ Risks: Seveso high-threshold site; concentrates a large share of southern France
 						<range>1774.084589935238</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>4.916040499999999,43.434797,0</coordinates>
@@ -20725,7 +21125,7 @@ Risks: Ruhr-area industrial and logistics congestion; dependent on the regional 
 						<range>2851.57249787153</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<coordinates>7.070367879298738,51.52976345771804,33.83028083796033</coordinates>
 					</Point>
@@ -20749,7 +21149,7 @@ Risks: Dependence on common port infrastructure; bunker-market exposure; operati
 						<range>1000.000000002008</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.35333229885505,25.18773829290274,0</coordinates>
@@ -20767,7 +21167,7 @@ Risks: Dependence on common port infrastructure; bunker-market exposure; operati
 						<range>1452.597999184393</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.35460358270666,25.17986258073205,0</coordinates>
@@ -20799,7 +21199,7 @@ Risks: Concentration within a shared terminal cluster, dependence on port pipeli
 						<range>693.8581080240888</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.35497522127955,25.18463438558502,0</coordinates>
@@ -20831,7 +21231,7 @@ Risks: Moderate scale compared with Fujairah’s principal merchant terminals, d
 						<range>693.8581080240888</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.35379060685292,25.18597791196687,0</coordinates>
@@ -20863,7 +21263,7 @@ Risks: Regional security exposure, dependence on common port and marine infrastr
 						<range>1117.762034413201</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>56.3467390996607,25.18378824325715,0</coordinates>
@@ -20895,7 +21295,7 @@ Risks: Seveso industrial exposure, fire and spill hazards, Seine navigation cons
 						<range>3641.76528579662</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>1.019307071881963,49.40962384629833,0</coordinates>
@@ -20927,7 +21327,7 @@ Risks: Seveso industrial exposure, pipeline and river-supply dependence, fire an
 						<range>5577.35110000968</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>1.024869630258678,49.37389051597515,0</coordinates>
@@ -20949,7 +21349,7 @@ Risks: Hazardous-material and operational incidents; European refining and chemi
 						<range>2328.636732525234</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.29469739829069,51.31033966830277,0</coordinates>
@@ -20971,7 +21371,7 @@ Risks: European refined-products demand and margin volatility; hazardous-materia
 						<range>2053.810005169731</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.297824320566379,51.32198142883507,0</coordinates>
@@ -20993,7 +21393,7 @@ Risks: Refined-product demand and margin volatility; fire, contamination and env
 						<range>2430.130904655019</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.340742619494533,51.29099131513723,0</coordinates>
@@ -21015,7 +21415,7 @@ Risks: Commissioning and further construction delays following the former develo
 						<range>2540.362724123757</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.067185232370147,51.93562516211333,0</coordinates>
@@ -21037,7 +21437,7 @@ Risks: Fire and toxic-release exposure from alcohol fuels; contamination between
 						<range>2438.356556126187</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.192822143013332,51.925460434622,0</coordinates>
@@ -21059,7 +21459,7 @@ Risks: Fire and spill exposure; contamination during multi-product handling and 
 						<range>1632.091197880247</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.358054050889876,51.89245142921073,0</coordinates>
@@ -21081,7 +21481,7 @@ Risks: Cross-contamination across a highly diversified product slate; fire and c
 						<range>551.0464434074511</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.341138473958042,51.8906776536413,0</coordinates>
@@ -21103,7 +21503,7 @@ Risks: Fire, explosion and VOC emissions; contamination during multi-product ble
 						<range>3247.025847545319</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.768432317222102,52.40792903349439,0</coordinates>
@@ -21125,7 +21525,7 @@ Risks: Fire, explosion, spills and VOC emissions; product contamination during b
 						<range>1862.643960019305</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.768508582559128,52.40092548262763,0</coordinates>
@@ -21147,7 +21547,7 @@ Risks: Fire, spill and VOC exposure; blending and cross-contamination risk; depe
 						<range>1760.685316196086</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.743592199425395,52.41204673373733,0</coordinates>
@@ -21169,7 +21569,7 @@ Risks: Fire, explosion, spills and VOC emissions; contamination across multiple 
 						<range>2724.612858806634</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.780582162101825,52.41634671966804,0</coordinates>
@@ -21191,7 +21591,7 @@ Risks: Fire, explosion, spills and VOC emissions; cross-contamination during com
 						<range>1778.519974073607</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.849701426752173,52.41103106162502,0</coordinates>
@@ -21213,7 +21613,7 @@ Risks: Fire, spills and VOC emissions; blending and product-contamination risk; 
 						<range>1000.000000000525</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.82544000000003,52.40403000000001,0</coordinates>
@@ -21235,7 +21635,7 @@ Risks: Fire, spills and product contamination; limited scale and berth depth; de
 						<range>1504.433405891425</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.832343992240034,52.41158487364986,0</coordinates>
@@ -21257,10 +21657,217 @@ Risks: Fire, spills and product contamination; limited scale and berth depth; de
 						<range>1657.795818369771</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed3</styleUrl>
+					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.859708322117637,52.41169474579144,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>SOGEPP dépôt pétrolier de Gennevilliers</name>
+					<description>Petroleum products storage and distribution depot at the Port of Gennevilliers, connected to the Le Havre–Paris (LHP) pipeline network operated by TRAPIL.</description>
+					<LookAt>
+						<longitude>2.292250531442559</longitude>
+						<latitude>48.94695826033306</latitude>
+						<altitude>0</altitude>
+						<heading>9.844277027077885</heading>
+						<tilt>13.51091347192914</tilt>
+						<range>1378.340307635409</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.289255313071652,48.94844078444814,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dépôts de Pétrole d’Orléans </name>
+					<description>Status: Operational
+Role: Petroleum products storage and distribution depot serving the Orléans area; supplied by the TRAPIL pipeline network.
+Owner / Operator: Dépôts de Pétrole d’Orléans (DPO)
+Risks: Seveso high-threshold site; industrial hazards include thermal effects and overpressure.</description>
+					<LookAt>
+						<longitude>1.954992165496992</longitude>
+						<latitude>47.91419028079948</latitude>
+						<altitude>0</altitude>
+						<heading>10.64335942535545</heading>
+						<tilt>0</tilt>
+						<range>9374.807815527069</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>1.954165028696,47.92002154710388,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dépôt coignières </name>
+					<description>Status: Operational
+Role: Petroleum products depot connected to the TRAPIL pipeline network.
+Owner / Operator: TRAPIL
+Risks: Seveso low-threshold site; industrial risk. The nearby Raffinerie du Midi depot is a separate, high-threshold Seveso facility.</description>
+					<LookAt>
+						<longitude>1.922360369188431</longitude>
+						<latitude>48.74005770297469</latitude>
+						<altitude>0</altitude>
+						<heading>0.08473372830390687</heading>
+						<tilt>0</tilt>
+						<range>11079.22936276547</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>1.91853372982761,48.73611533790408,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dépôt Total Énergie </name>
+					<description>Status: Operational
+Role: Petroleum products storage and distribution depot; former refinery, with crude distillation discontinued in 1983.
+Owner / Operator: TotalEnergies Raffinage France
+Risks: Seveso high-threshold site; industrial hazards include thermal effects and overpressure.</description>
+					<LookAt>
+						<longitude>1.796692320786615</longitude>
+						<latitude>48.98133790137088</latitude>
+						<altitude>0</altitude>
+						<heading>-0.009290645399831458</heading>
+						<tilt>4.87930112642431</tilt>
+						<range>6012.233715051891</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>1.795059337422125,48.97648329018791,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Total Raffinage Marketing</name>
+					<description>Status: Operational
+Role: Bulk storage and distribution of petroleum products, including gasoline, diesel, jet fuel and heating oil.
+Owner / Operator: DPCA (Dépôt Pétrolier de la Côte d’Azur) operates the depot; TotalEnergies Marketing France handles fuel supply and marketing.
+Risks: Seveso high-threshold site; major industrial accident risk.</description>
+					<LookAt>
+						<longitude>6.684621997930185</longitude>
+						<latitude>43.44900356403922</latitude>
+						<altitude>0</altitude>
+						<heading>0.05661211819488467</heading>
+						<tilt>15.19442156891614</tilt>
+						<range>2103.99116372299</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>6.687460583285274,43.4484654268385,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TEPSA Dunkerque – UNICAN</name>
+					<description>Status: Operational
+Role: Petroleum products storage and distribution depot. Stores fuels, ethanol and additives; receives products by pipeline and dispatches them by road tanker.
+Owner / Operator: Operator: TEPSA ST Dunkerque (formerly Rubis Terminal Dunkerque).
+Risks: Seveso high-threshold site; principal risks include fire and explosion.</description>
+					<LookAt>
+						<longitude>2.354365869815798</longitude>
+						<latitude>51.03991383700412</latitude>
+						<altitude>0</altitude>
+						<heading>-4.831651073971845</heading>
+						<tilt>19.11733754387964</tilt>
+						<range>1762.743591427756</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.357827709967499,51.03830686836324,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TEPSA Dunkerque – Môle 5</name>
+					<description>Status: Operational
+Role: Multimodal liquid bulk storage terminal for petroleum products, chemicals, and agrifood products. Has vessel and barge access, with pipeline, rail and road connections.
+Owner / Operator: Operator: TEPSA ST Dunkerque (formerly Rubis Terminal Dunkerque).
+Risks: Seveso high-threshold site; principal risks include fire and explosion.</description>
+					<LookAt>
+						<longitude>2.354291219930364</longitude>
+						<latitude>51.04012793945169</latitude>
+						<altitude>0</altitude>
+						<heading>-4.831709085659832</heading>
+						<tilt>19.11733754387971</tilt>
+						<range>1762.743591423994</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.350185599585708,51.0431538389433,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>SFDM Saint-Baussant petroleum depot</name>
+					<description>Status: Operational.
+Role: Receives, stores and distributes petroleum fuels; supplies include gasoline, diesel and aviation fuel.
+Owner / operator: SFDM, a French state-owned company.
+Risks: Bulk storage and handling of flammable fuels; fire, spill and pipeline-incident hazards.</description>
+					<LookAt>
+						<longitude>5.803736537433529</longitude>
+						<latitude>48.88874719757033</latitude>
+						<altitude>0</altitude>
+						<heading>8.609150522358018</heading>
+						<tilt>7.680503077658011</tilt>
+						<range>3943.26464900554</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>5.7970805256691,48.88544005332545,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hauconcourt petroleum depot</name>
+					<description>Status: Operational.
+Role: Stores and distributes petroleum products, including diesel and domestic heating oil.
+Owner / operator: SPLRL, within Raffinerie du Midi’s depot network.
+Risks: Seveso upper-tier site; principal hazards include fire, leaks and other incidents involving flammable products.</description>
+					<LookAt>
+						<longitude>6.195672156554473</longitude>
+						<latitude>49.20948659172925</latitude>
+						<altitude>0</altitude>
+						<heading>0.05916286858171979</heading>
+						<tilt>9.203327950843775</tilt>
+						<range>3558.973527794301</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>6.188623184794619,49.20865105689334,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Wagram Terminal petroleum</name>
+					<description>Status: Operational.
+Role: Stores and transfers fuel products; the Strasbourg site is supplied by Rhine barges and connected by pipeline to the SES Strasbourg site.
+Owner / operator: Wagram Terminal, operated by TEPSA.
+Risks: Seveso upper-tier site; flammable-liquid storage creates fire and spill hazards.</description>
+					<LookAt>
+						<longitude>7.763706099217234</longitude>
+						<latitude>48.65795612758917</latitude>
+						<altitude>0</altitude>
+						<heading>0.3819769121174309</heading>
+						<tilt>12.64293557875261</tilt>
+						<range>1419.579569369261</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>7.763315633977612,48.65882373746587,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -21382,6 +21989,27 @@ Risks: Cavern maintenance backlog; refill economics above the price cap; the pol
 					<styleUrl>#msn_ylw-pushpin10</styleUrl>
 					<Point>
 						<coordinates>-91.30880945651951,30.31751225264369,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dépôt Pétrolier de la Côte d’Opale</name>
+					<description>Status: Operational as a storage and logistics site; conventional refinery offline since 2010.
+Role: Strategic petroleum products storage and distribution, including fuel stocks at Mardyck and Gravelines.
+Owner / Operator: TotalEnergies Raffinage France.
+Risks: Seveso high-threshold site; major industrial risks include fire, explosion and product release.</description>
+					<LookAt>
+						<longitude>2.252972745622017</longitude>
+						<latitude>51.01584109750819</latitude>
+						<altitude>0</altitude>
+						<heading>-4.816650932257783</heading>
+						<tilt>4.781002060984253</tilt>
+						<range>2753.448195314544</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin10</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.259490205233157,51.02017134454508,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -21647,7 +22275,6 @@ Risks: Naphtha/LPG price exposure; energy costs vs US and Middle East crackers; 
 		</Folder>
 		<Folder>
 			<name>Aviation Fuel Demand</name>
-			<open>1</open>
 			<Folder>
 				<name>Civil airports</name>
 				<open>1</open>
