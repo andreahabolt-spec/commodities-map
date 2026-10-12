@@ -793,7 +793,7 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="failed8">
+	<Style id="failed">
 		<LineStyle>
 			<color>ffffaaaa</color>
 		</LineStyle>
@@ -808,36 +808,6 @@
 			<styleUrl>#failed3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed3">
-		<LineStyle>
-			<color>ffffaaaa</color>
-		</LineStyle>
-	</Style>
-	<Style id="failed6">
-		<LineStyle>
-			<color>ffffaaaa</color>
-		</LineStyle>
-	</Style>
-	<Style id="failed2">
-		<LineStyle>
-			<color>ffffaaaa</color>
-		</LineStyle>
-	</Style>
-	<StyleMap id="failed7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed5">
-		<LineStyle>
-			<color>ffffaaaa</color>
-		</LineStyle>
-	</Style>
 	<StyleMap id="failed1">
 		<Pair>
 			<key>normal</key>
@@ -848,9 +818,21 @@
 			<styleUrl>#failed8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed">
+	<Style id="failed10">
 		<LineStyle>
-			<color>ffffaaaa</color>
+			<color>e6ff0000</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed100">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>e6ff0000</color>
 		</LineStyle>
 	</Style>
 	<Style id="failed11">
@@ -871,40 +853,10 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="failed10">
+	<Style id="failed2">
 		<LineStyle>
-			<color>e6ff0000</color>
+			<color>ffffaaaa</color>
 		</LineStyle>
-	</Style>
-	<Style id="failed100">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6ff0000</color>
-		</LineStyle>
-	</Style>
-	<Style id="failed12">
-		<IconStyle>
-			<color>ff00b7ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<StyleMap id="failed20">
 		<Pair>
@@ -936,6 +888,11 @@
 			<styleUrl>#failed320</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="failed3">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
 	<Style id="failed30">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -1024,6 +981,31 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="failed5">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed6">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="failed7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed8">
+		<LineStyle>
+			<color>ffffaaaa</color>
+		</LineStyle>
 	</Style>
 	<Style id="hl">
 		<IconStyle>
@@ -1219,16 +1201,6 @@
 			<styleUrl>#sh_ylw-pushpin01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mfailed00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed12</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="mfailed2">
 		<Pair>
 			<key>normal</key>
@@ -1257,16 +1229,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin5000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_R">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_R0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_R</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_R0">
@@ -1499,16 +1461,6 @@
 			<styleUrl>#sh_ylw-pushpin12</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
@@ -1601,26 +1553,6 @@
 			<width>0.8</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_R">
-		<IconStyle>
-			<color>ff00b7ff</color>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_R0">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -1633,8 +1565,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
@@ -1856,8 +1786,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
@@ -1911,24 +1839,6 @@
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<color>ff00b7ff</color>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -2034,14 +1944,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin50">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -2078,26 +1980,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_R0">
-		<IconStyle>
-			<color>ff00b7ff</color>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/R-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_R">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -2110,8 +1992,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
@@ -2351,8 +2231,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
@@ -2466,11 +2344,6 @@
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<LineStyle>
-			<color>ffff00ff</color>
 		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin20">
@@ -6155,6 +6028,58 @@ Risks: Arctic operating conditions; dependence on a single terminal and the Kola
 					<coordinates>55.00000000000001,68.5,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark>
+				<name>Tamsag XXI oil field</name>
+				<description>Status: Operational
+Operator: PetroChina Daqing Tamsag LLC
+Location: Khalkhgol soum, Dornod aimag, eastern Mongolia
+Area: Approximately 209.2 km²
+Production: MRPAM reported about 743 tonnes per day in 2025
+Crude: Density 875 kg/m³; sulfur 0.17%; viscosity 18.9 mPa·s
+Markets: Crude has been exported to China. The field is also named as a future feedstock source for the Mongol Oil Refinery once the refinery and connecting pipeline are operational.
+Strategic role: A major producing field in eastern Mongolia and a planned source of crude for the country’s refinery project.
+Risks: Production may change over time; exports currently depend on the China route, while the shift to domestic refining depends on the refinery and pipeline becoming operational.</description>
+				<LookAt>
+					<longitude>116.9923746007923</longitude>
+					<latitude>47.65218202531193</latitude>
+					<altitude>0</altitude>
+					<heading>0.5452735129719941</heading>
+					<tilt>6.599435040171198</tilt>
+					<range>3481.378982087053</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>116.9857252489928,47.65150165015542,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Toson-Uul XIX oil field</name>
+				<description>Status: Operational
+Operator: PetroChina Daqing Tamsag LLC
+Location: Matad soum, Dornod aimag, eastern Mongolia
+Area: Approximately 650 km²
+Production: MRPAM reported about 676 tonnes per day in 2025
+Crude: Density 836 kg/m³; sulfur 0.10%; viscosity 5.75 mPa·s
+Markets: Crude has been exported to China. The field is also named as a future feedstock source for the Mongol Oil Refinery once the refinery and connecting pipeline are operational.
+Strategic role: One of Mongolia’s established domestic crude-producing fields and a planned source of feedstock for domestic refining.
+Risks: Production may change over time; exports currently depend on the China route, while the shift to domestic refining depends on the refinery and pipeline becoming operational.</description>
+				<LookAt>
+					<longitude>116.2540073013649</longitude>
+					<latitude>46.96228550621769</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00622224126915405</heading>
+					<tilt>0</tilt>
+					<range>1869.185389803532</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>116.2540073013649,46.96228550621769,0</coordinates>
+				</Point>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>Refineries</name>
@@ -8348,7 +8273,7 @@ Risks: Dependence on the Fos–Feyzin crude pipeline; outages; pipeline disrupti
 						<range>4419.691774540118</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_R</styleUrl>
+					<styleUrl>#mfailed0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>4.842233925728294,45.67354991021541,0</coordinates>
@@ -8374,7 +8299,7 @@ Risks: Atlantic marine logistics; outages; labour; fires; energy and carbon cost
 						<range>5246.793138657391</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_R</styleUrl>
+					<styleUrl>#mfailed0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>-2.063241494703271,47.31307554472855,0</coordinates>
@@ -9540,7 +9465,7 @@ Risks: TAL dependence; unit outages; Rhine logistics; European energy and carbon
 						<range>1573.597768357931</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#mfailed00</styleUrl>
+					<styleUrl>#mfailed0</styleUrl>
 					<Point>
 						<altitudeMode>relativeToGround</altitudeMode>
 						<coordinates>8.336358799999999,49.0530041,0</coordinates>
@@ -10090,7 +10015,7 @@ Risks: Very small scale; largely superseded for national fuel supply</descriptio
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Fos-sur-Mer refinery </name>
+					<name>Fos-sur-Mer refinery</name>
 					<description>Status: Operational
 Role: Crude oil refining into petroleum products at Fos-sur-Mer on the French Mediterranean coast.
 Owner / Operator: Rhône Energies
@@ -10104,10 +10029,36 @@ Risks: Seveso high-threshold industrial site.</description>
 						<range>4197.208036202906</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_R</styleUrl>
+					<styleUrl>#mfailed0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.92575599990267,43.44588262428451,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Altanshiree refinery</name>
+					<description>Status: Planned - targeted for 2028
+Owner: Mongol Oil Refinery LLC, a state-owned company
+Capacity: 1.5 million tonnes of crude oil per year, approximately 30,000 b/d
+Feedstock: Domestic crude oil; a dedicated 527 km crude pipeline is part of the supply infrastructure
+Main products: Diesel, gasoline, aviation fuel, LPG and furnace fuel
+Markets: Mongolian domestic market; designed to meet around 50–55% of domestic fuel demand
+Recent: Construction was reported at about 60% in October 2026; the government says commissioning is planned for 2028
+Strategic role: First major domestic refinery project, intended to reduce reliance on imported petroleum products
+Risks: Construction and commissioning schedule; securing sufficient crude supply and completing the associated pipeline and logistics</description>
+					<LookAt>
+						<longitude>110.344619459634</longitude>
+						<latitude>44.9978220622348</latitude>
+						<altitude>0</altitude>
+						<heading>1.373439273333636</heading>
+						<tilt>16.18350047360909</tilt>
+						<range>2200.441331500108</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>110.3477051184189,44.99952928760929,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -14084,7 +14035,7 @@ Risks: A waypoint along a long, multi-country pipeline corridor — precise func
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Sud europeen tank farm </name>
+					<name>Sud europeen tank farm</name>
 					<LookAt>
 						<longitude>6.15388672927319</longitude>
 						<latitude>47.2459208478468</latitude>
@@ -15952,7 +15903,7 @@ Owner/Operator: Enbridge (Mainline / Lakehead), ~3.1 million b/d across parallel
 Role: Carries the Western Canadian crude slate east to the Superior terminal, the pivot point where crude bound for Quebec transfers onto Line 5
 Note: This is the same Enbridge Mainline mapped elsewhere; shown here as the first leg so the chain to Montreal is gapless
 Next leg: at Superior, crude for Quebec moves onto Line 5</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -17592,6 +17543,24 @@ Risks: Spill history and regulatory scrutiny; single-mainline dependence for the
 					</coordinates>
 				</LineString>
 			</Placemark>
+			<Placemark>
+				<name>Dornod–Sainshand crude oil pipeline</name>
+				<description>Status: Planned- reported more than 90% complete in August 2026. 
+Type: Underground crude oil trunk pipeline
+Owner / project developer: Mongol Refinery State-Owned LLC
+Route: From the Tamsag Basin oil fields near Matad soum, Dornod aimag, to the Mongol Oil Refinery in Altanshiree soum, Dornogovi aimag. The planned route crosses nine soums in three aimags. 
+Length: Approximately 527 km; commonly rounded to 530 km. 
+Role: Designed to transport Mongolian crude from the eastern oil fields to the refinery, supporting domestic processing instead of exporting that crude.
+Strategic importance: The first long-distance crude oil pipeline in Mongolia and a key link in the country’s refinery project.
+Risks: The pipeline is not yet in service; its value depends on completion and commissioning of the pipeline and refinery, plus reliable crude supply from the fields.</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						116.984954501701,47.65037758731844,0 116.2537004717877,46.96238404077577,0 110.3484834613915,44.99951442286584,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
 			<Folder>
 				<name>Trunk lines</name>
 			</Folder>
@@ -17741,7 +17710,7 @@ Risks: Shares its origin terminal with the civilian LHP network, meaning congest
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						0.1581676560411061,49.46806883887321,0 3.146680508491464,50.093555729112,0 3.5310509924167,50.36971251944532,0 
+						0.1581676560411061,49.46806883887321,0 3.146680508491464,50.093555729112,0 3.5310509924167,50.36971251944533,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -17873,7 +17842,7 @@ Risks: Relies on waypoints (Vernon) that no longer have any refining function of
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						1.794505896241021,48.97688288286601,0 1.412264898096955,49.09688195098645,0 1.918230786193871,48.73672403322269,0 1.953992425701123,47.92022682705228,0 
+						1.794505896241021,48.97688288286601,0 1.412264898096955,49.09688195098645,0 1.918230786193871,48.73672403322269,0 1.953992425701123,47.92022682705229,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -21682,7 +21651,7 @@ Risks: Fire, spills and product contamination; limited scale and berth depth; de
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Dépôts de Pétrole d’Orléans </name>
+					<name>Dépôts de Pétrole d’Orléans</name>
 					<description>Status: Operational
 Role: Petroleum products storage and distribution depot serving the Orléans area; supplied by the TRAPIL pipeline network.
 Owner / Operator: Dépôts de Pétrole d’Orléans (DPO)
@@ -21703,7 +21672,7 @@ Risks: Seveso high-threshold site; industrial hazards include thermal effects an
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Dépôt coignières </name>
+					<name>Dépôt coignières</name>
 					<description>Status: Operational
 Role: Petroleum products depot connected to the TRAPIL pipeline network.
 Owner / Operator: TRAPIL
@@ -21724,7 +21693,7 @@ Risks: Seveso low-threshold site; industrial risk. The nearby Raffinerie du Midi
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Dépôt Total Énergie </name>
+					<name>Dépôt Total Énergie</name>
 					<description>Status: Operational
 Role: Petroleum products storage and distribution depot; former refinery, with crude distillation discontinued in 1983.
 Owner / Operator: TotalEnergies Raffinage France
@@ -21783,7 +21752,7 @@ Risks: Seveso high-threshold site; principal risks include fire and explosion.</
 					<styleUrl>#msn_R0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>2.357827709967499,51.03830686836324,0</coordinates>
+						<coordinates>2.357827709967499,51.03830686836325,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
