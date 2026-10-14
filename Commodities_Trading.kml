@@ -1431,16 +1431,6 @@
 			<styleUrl>#sh_volcano00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -1449,6 +1439,26 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin00">
@@ -1835,6 +1845,20 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff5b3d3d</color>
+		</LineStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -1908,6 +1932,11 @@
 			<color>ffff00ff</color>
 		</LineStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin11">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1915,11 +1944,6 @@
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin12">
 		<IconStyle>
@@ -2288,14 +2312,23 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin">
+	<Style id="sn_ylw-pushpin2">
 		<LineStyle>
 			<color>ffff00ff</color>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin1">
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<LineStyle>
-			<color>ffff00ff</color>
+			<color>ff5b3d3d</color>
 		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin0">
@@ -2327,22 +2360,10 @@
 			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin11">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
+	<Style id="sn_ylw-pushpin1">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
@@ -2368,6 +2389,23 @@
 			<color>e6c80154</color>
 			<width>1.5</width>
 		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin20">
 	</Style>
@@ -10086,7 +10124,7 @@ Risks: Construction and commissioning schedule; securing sufficient crude supply
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Volgograd refinery </name>
+					<name>Volgograd refinery</name>
 					<description>Status: offline — reported to have halted refining after equipment was damaged in a drone attack on 2 October 2026. ukrinform.net
 Owner: LUKOIL
 Capacity: ~14.8 Mt/yr (~295,000–300,000 b/d) ЛУКОЙЛ
@@ -15273,6 +15311,7 @@ Risks: Cargo origin becomes hard to trace (the point for some users, a complianc
 	</Folder>
 	<Folder>
 		<name>C. Corridors</name>
+		<open>1</open>
 		<Folder>
 			<name>Crude Pipelines</name>
 			<Placemark>
@@ -17642,119 +17681,6 @@ Risks: The pipeline is not yet in service; its value depends on completion and c
 			</Folder>
 		</Folder>
 		<Folder>
-			<name>Rail Corridors</name>
-			<Placemark>
-				<name>Kirishi-Ust-Luga Rail Corridor (fuel oil)</name>
-				<description>Status: Operational — supply directly threatened by repeated strikes on both ends
-Cargo: Fuel oil, by RAIL (distinct from the separate Kirishi-PNT pipeline, which carries diesel)
-Route: NPS Kirishi / KINEF refinery (already on this map) -&gt; Ust-Luga Oil Products Terminal (already on this map)
-Why it matters: KINEF is explicitly confirmed as a named fuel-oil supplier to Ust-Luga&apos;s products terminal; when KINEF itself was struck in March 2026, it had to cut processing, directly easing (not worsening) the terminal&apos;s own throughput bottleneck that same month — a rare case of one disruption partly offsetting another
-Risks: Both ends of this corridor have been repeatedly struck in 2026</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						32.06140351179582,59.47482396825172,0 30.2,59.55,0 28.43469940429325,59.69924849691562,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>NORSI-Petersburg Rail Corridor</name>
-				<description>Status: Operational
-Cargo: Refined products, by RAIL
-Route: NORSI/Kstovo refinery (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
-Why it matters: NORSI is directly named as a confirmed PNT supplier; this is one of three separate rail paths feeding the terminal from refineries spread across western and central Russia
-Risks: NORSI has been repeatedly and severely struck in 2026 (AVT-6 disabled twice within two weeks), directly threatening this specific supply line</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						44.13609278338431,56.11958450920937,0 40,57,0 35,58.5,0 30.17227899121917,59.88121742399031,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>Moscow Refinery-Petersburg Rail Corridor</name>
-				<description>Status: Operational
-Cargo: Refined products, by RAIL
-Route: Moscow Refinery (MNPZ, Kapotnya, already on this map) -&gt; Petersburg Oil Terminal (already on this map)
-Why it matters: MNPZ is directly named as a confirmed PNT supplier — a separate rail path from NORSI&apos;s and TANECO&apos;s, feeding the same terminal
-Risks: MNPZ has been the single most heavily struck refinery on this map in 2026 (hit June 16, June 18, September 20), directly threatening this supply line</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						37.81750153188369,55.65026409664597,0 34.5,57,0 30.16996627575055,59.88124580921897,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>TANECO-Petersburg Rail Corridor</name>
-				<description>Status: Operational
-Cargo: Refined products, by RAIL
-Route: TANECO Refinery, Nizhnekamsk (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
-Why it matters: TANECO is directly named as a confirmed PNT supplier — the longest of the three refinery rail paths feeding the terminal, originating in Tatarstan rather than western Russia
-Risks: Longest single supply line of the three, crossing the most territory</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						51.91195550821436,55.5631009173466,0 44,57.49999999999999,0 36,59,0 30.17352267249615,59.88299872578708,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>Vitino-Moscow Import Rail Corridor</name>
-				<description>Status: Operational
-Cargo: Imported gasoline and diesel (Morocco, India) — moving INTO Russia, not out
-Route: Vitino terminal (Arctic, already on this map) -&gt; inland via the Kola rail line -&gt; Moscow, Russia&apos;s largest fuel market
-Why Moscow: Same logic as the separate Belarus-Russia rail corridor already on this map — both import flows exist to cover the same national fuel shortage, so both are shown converging on the country&apos;s biggest consumption centre
-Why it matters: Shows the full journey of an imported barrel — ship arrives at Vitino, cargo moves straight onto rail tank cars, and travels inland to reach the domestic market
-Risks: Single rail corridor for all Arctic-import volume; same pricing disputes already noted at Vitino can delay cargoes before they even reach this line</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						32.2947291826265,67.08441294438107,0 34,62.99999999999999,0 36,59,0 37.81800305186751,55.64999318479157,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>Belarus-Russia Fuel Rail Corridor (Naftan/Mozyr to MNPZ, Moscow)</name>
-				<description>Status: Operational — volumes at record highs through 2026
-Cargo: REFINED PRODUCTS — gasoline and diesel, by RAIL
-Route: Naftan refinery (Novopolotsk, already on this map) and Mozyr refinery (already on this map) -&gt; Moscow, ending at the Moscow Refinery (MNPZ, Kapotnya, already on this map) as the precise, documented reference point
-Why MNPZ specifically: Not a generic city-level guess — MNPZ supplies up to half of Moscow&apos;s own fuel and has been repeatedly and severely disabled by drone strikes in 2026 (worst: 20 Sep, nearly 100% of capacity down). Its outages are the direct, documented reason Moscow needs this import corridor at all
-Why it exists: Belarus&apos;s two refineries process Russian crude on a tolling basis, then ship the resulting gasoline and diesel back into Russia to cover the shortfall these exact refinery strikes cause
-Scale: Gasoline shipments reached ~866,000 tonnes January-August 2026 (23x year-on-year); diesel ~570,000 tonnes (5.4x)
-Risks: Entirely dependent on continued Belarusian output and rail capacity; a stopgap, not a structural fix for Russia&apos;s refining losses</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						28.57136890051516,55.49934675132911,0 32,55.4,0 36.5,55.6,0 37.81724875739363,55.6500108292559,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>Crude-by-Rail Corridor (Hardisty–Sorel-Tracy)</name>
-				<description>Status: Operational (spread-driven)
-Route: Hardisty Rail Terminal, Alberta → across the Prairies (Regina, Winnipeg) → northern Ontario (Thunder Bay, Sudbury) → Montreal → Kildair terminal, Sorel-Tracy, Quebec; ~3,600 km on the Canadian National (CN) and Canadian Pacific (CP) main lines
-Cargo: Western Canadian Select and diluted bitumen in unit trains (up to 120 railcars), railed to tidewater on the St. Lawrence for export to Europe
-Why it exists: Canada has NO crude-export pipeline to its east coast (Energy East was cancelled in 2017), so oil-sands crude bound for Europe travels this rail corridor to reach a St. Lawrence tanker terminal — the physical reason the eastern export route is rail, not pipe
-Landmark: The 2014 Suncor cargo — ~700,000 bbl of WCS railed to Kildair and shipped on the Aframax Minerva Gloria to a Sardinian refinery — moved along this corridor
-Economics: All-in rail cost from Alberta runs in the mid-to-high teens $/bbl; the route only opens when the WCS-Brent discount is wide enough to pay for it
-Risks: Cost and railcar availability; winter weather across the Prairies and Shield; a marginal, arbitrage-dependent flow</description>
-				<styleUrl>#default2</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						-111.2680035623265,52.64286630097997,0 -104.62,50.45,0 -97.13999999999999,49.9,0 -89.25,48.4,0 -84.34999999999999,46.49,0 -79.47,46.29999999999999,0 -75.7,45.42,0 -73.55181148840569,45.48445050648548,0 -73.51067458090645,45.49790554809303,0 -73.4866531596828,45.50508264965492,0 -73.46094818211201,45.50653742281345,0 -73.43637602562801,45.50718234274368,0 -73.38619124093596,45.51060127098712,0 -73.33648044694779,45.51431607211471,0 -73.30970798359867,45.52248371824093,0 -73.25878567121161,45.5370628628077,0 -73.21381575095636,45.54979962362319,0 -73.16118639732869,46.00077866618359,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>Product Pipelines</name>
 			<Placemark>
 				<name>DMM Donges-Melun-Metz (DECOMMISSIONED 2023)</name>
@@ -18166,6 +18092,137 @@ Risks: Single-system dependence for Rhine-Main jet fuel; 1991 Dinslaken rupture 
 					<tessellate>1</tessellate>
 					<coordinates>
 						7.76397447355065,48.65831658909372,0 7.804101239659023,48.602584193722,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Rail Corridors</name>
+			<Placemark>
+				<name>Kirishi-Ust-Luga Rail Corridor (fuel oil)</name>
+				<description>Status: Operational — supply directly threatened by repeated strikes on both ends
+Cargo: Fuel oil, by RAIL (distinct from the separate Kirishi-PNT pipeline, which carries diesel)
+Route: NPS Kirishi / KINEF refinery (already on this map) -&gt; Ust-Luga Oil Products Terminal (already on this map)
+Why it matters: KINEF is explicitly confirmed as a named fuel-oil supplier to Ust-Luga&apos;s products terminal; when KINEF itself was struck in March 2026, it had to cut processing, directly easing (not worsening) the terminal&apos;s own throughput bottleneck that same month — a rare case of one disruption partly offsetting another
+Risks: Both ends of this corridor have been repeatedly struck in 2026</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						32.06140351179582,59.47482396825172,0 30.2,59.55,0 28.43469940429325,59.69924849691562,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>NORSI-Petersburg Rail Corridor</name>
+				<description>Status: Operational
+Cargo: Refined products, by RAIL
+Route: NORSI/Kstovo refinery (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
+Why it matters: NORSI is directly named as a confirmed PNT supplier; this is one of three separate rail paths feeding the terminal from refineries spread across western and central Russia
+Risks: NORSI has been repeatedly and severely struck in 2026 (AVT-6 disabled twice within two weeks), directly threatening this specific supply line</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						44.13609278338431,56.11958450920937,0 40,57,0 35,58.5,0 30.17227899121917,59.88121742399031,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Moscow Refinery-Petersburg Rail Corridor</name>
+				<description>Status: Operational
+Cargo: Refined products, by RAIL
+Route: Moscow Refinery (MNPZ, Kapotnya, already on this map) -&gt; Petersburg Oil Terminal (already on this map)
+Why it matters: MNPZ is directly named as a confirmed PNT supplier — a separate rail path from NORSI&apos;s and TANECO&apos;s, feeding the same terminal
+Risks: MNPZ has been the single most heavily struck refinery on this map in 2026 (hit June 16, June 18, September 20), directly threatening this supply line</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.81750153188369,55.65026409664597,0 34.5,57,0 30.16996627575055,59.88124580921897,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TANECO-Petersburg Rail Corridor</name>
+				<description>Status: Operational
+Cargo: Refined products, by RAIL
+Route: TANECO Refinery, Nizhnekamsk (already on this map) -&gt; Petersburg Oil Terminal (already on this map)
+Why it matters: TANECO is directly named as a confirmed PNT supplier — the longest of the three refinery rail paths feeding the terminal, originating in Tatarstan rather than western Russia
+Risks: Longest single supply line of the three, crossing the most territory</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						51.91195550821436,55.5631009173466,0 44,57.49999999999999,0 36,59,0 30.17352267249615,59.88299872578708,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Vitino-Moscow Import Rail Corridor</name>
+				<description>Status: Operational
+Cargo: Imported gasoline and diesel (Morocco, India) — moving INTO Russia, not out
+Route: Vitino terminal (Arctic, already on this map) -&gt; inland via the Kola rail line -&gt; Moscow, Russia&apos;s largest fuel market
+Why Moscow: Same logic as the separate Belarus-Russia rail corridor already on this map — both import flows exist to cover the same national fuel shortage, so both are shown converging on the country&apos;s biggest consumption centre
+Why it matters: Shows the full journey of an imported barrel — ship arrives at Vitino, cargo moves straight onto rail tank cars, and travels inland to reach the domestic market
+Risks: Single rail corridor for all Arctic-import volume; same pricing disputes already noted at Vitino can delay cargoes before they even reach this line</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						32.2947291826265,67.08441294438107,0 34,62.99999999999999,0 36,59,0 37.81800305186751,55.64999318479157,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Belarus-Russia Fuel Rail Corridor (Naftan/Mozyr to MNPZ, Moscow)</name>
+				<description>Status: Operational — volumes at record highs through 2026
+Cargo: REFINED PRODUCTS — gasoline and diesel, by RAIL
+Route: Naftan refinery (Novopolotsk, already on this map) and Mozyr refinery (already on this map) -&gt; Moscow, ending at the Moscow Refinery (MNPZ, Kapotnya, already on this map) as the precise, documented reference point
+Why MNPZ specifically: Not a generic city-level guess — MNPZ supplies up to half of Moscow&apos;s own fuel and has been repeatedly and severely disabled by drone strikes in 2026 (worst: 20 Sep, nearly 100% of capacity down). Its outages are the direct, documented reason Moscow needs this import corridor at all
+Why it exists: Belarus&apos;s two refineries process Russian crude on a tolling basis, then ship the resulting gasoline and diesel back into Russia to cover the shortfall these exact refinery strikes cause
+Scale: Gasoline shipments reached ~866,000 tonnes January-August 2026 (23x year-on-year); diesel ~570,000 tonnes (5.4x)
+Risks: Entirely dependent on continued Belarusian output and rail capacity; a stopgap, not a structural fix for Russia&apos;s refining losses</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						28.57136890051516,55.49934675132911,0 32,55.4,0 36.5,55.6,0 37.81724875739363,55.6500108292559,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Crude-by-Rail Corridor (Hardisty–Sorel-Tracy)</name>
+				<description>Status: Operational (spread-driven)
+Route: Hardisty Rail Terminal, Alberta → across the Prairies (Regina, Winnipeg) → northern Ontario (Thunder Bay, Sudbury) → Montreal → Kildair terminal, Sorel-Tracy, Quebec; ~3,600 km on the Canadian National (CN) and Canadian Pacific (CP) main lines
+Cargo: Western Canadian Select and diluted bitumen in unit trains (up to 120 railcars), railed to tidewater on the St. Lawrence for export to Europe
+Why it exists: Canada has NO crude-export pipeline to its east coast (Energy East was cancelled in 2017), so oil-sands crude bound for Europe travels this rail corridor to reach a St. Lawrence tanker terminal — the physical reason the eastern export route is rail, not pipe
+Landmark: The 2014 Suncor cargo — ~700,000 bbl of WCS railed to Kildair and shipped on the Aframax Minerva Gloria to a Sardinian refinery — moved along this corridor
+Economics: All-in rail cost from Alberta runs in the mid-to-high teens $/bbl; the route only opens when the WCS-Brent discount is wide enough to pay for it
+Risks: Cost and railcar availability; winter weather across the Prairies and Shield; a marginal, arbitrage-dependent flow</description>
+				<styleUrl>#default2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-111.2680035623265,52.64286630097997,0 -104.62,50.45,0 -97.13999999999999,49.9,0 -89.25,48.4,0 -84.34999999999999,46.49,0 -79.47,46.29999999999999,0 -75.7,45.42,0 -73.55181148840569,45.48445050648548,0 -73.51067458090645,45.49790554809303,0 -73.4866531596828,45.50508264965492,0 -73.46094818211201,45.50653742281345,0 -73.43637602562801,45.50718234274368,0 -73.38619124093596,45.51060127098712,0 -73.33648044694779,45.51431607211471,0 -73.30970798359867,45.52248371824093,0 -73.25878567121161,45.5370628628077,0 -73.21381575095636,45.54979962362319,0 -73.16118639732869,46.00077866618359,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Truck Corridors</name>
+			<Placemark>
+				<name>Iraq–Syria–Baniyas Road Tanker </name>
+				<description>Status: Operational for Iraqi fuel-oil exports and gasoline imports; crude-oil exports by truck are planned, but were not yet confirmed as operating as of 14 October 2026. noonpost.com
+Route: Iraqi fuel oil is trucked from refineries across Iraq through the al-Waleed–al-Tanf crossing and Syria to Baniyas, where it is transferred to tankers for export. In the reverse direction, imported gasoline—including US-origin cargoes—arrives by ship at Baniyas and is trucked inland to Iraq. Planned crude exports would use this overland corridor as well.
+Markets: Baniyas links Iraqi petroleum exports to Mediterranean and international buyers while providing Iraq with an alternative route for imported gasoline.
+Economics: A Syrian economic expert estimated overland transport at $5–10/b and transit fees at $1.50–$3/b. Applying the fee estimate to the cited 100,000–125,000 b/d corridor-flow estimate gives $150,000–$375,000 per day in potential transit-fee revenue. These are estimates, not confirmed official rates or reported Syrian receipts; Reuters reported that the actual fee amount was not determined. noonpost.com
+Strategic role: Baniyas acts as the transfer point between road tankers and Mediterranean shipping, earning Syria transit and service revenue while giving Iraq another export and import route.</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						35.96748658627471,35.22195091229948,0 36.71451290164371,34.73201825372914,0 38.27117751600152,34.54949226642265,0 38.65824314768648,33.48950111889871,0 38.66070784644215,33.48934033659695,0 38.66432660585632,33.48935995476912,0 38.66944161643605,33.49012255347144,0 38.67653672704465,33.49092536771997,0 38.6833286080622,33.49176120134153,0 38.68796074780229,33.49173390998666,0 38.69239283160255,33.49161289045204,0 38.6983491834666,33.49061574881085,0 38.70359876209296,33.48909988895548,0 38.7087107673068,33.48690600642404,0 38.71454356078883,33.48356642939783,0 38.71984659075829,33.48014869694669,0 38.7247125179696,33.47743966942252,0 38.73373946112596,33.47268033377382,0 38.74042417430901,33.46982760206575,0 38.75049314198973,33.46517372416356,0 38.7631403494662,33.45971668771188,0 38.77688055733542,33.45372264156525,0 38.78717925604231,33.44917920939648,0 38.7999621254104,33.44422308913033,0 38.80838663999261,33.44205430243721,0 38.8187122229833,33.43979679103837,0 38.82897491092786,33.43822829465733,0 38.84044096596977,33.43653500857496,0 38.85236886994122,33.43538000069818,0 38.86625719303127,33.43434762324891,0 38.8907492164495,33.4346823879028,0 38.90545670444014,33.43410225317797,0 38.91186745577425,33.43428173551469,0 38.91900716182658,33.43422061730192,0 38.92539543256462,33.43402007865257,0 38.93120419259506,33.43381600515986,0 38.94056220462193,33.43265361247655,0 38.94622690609922,33.43103413782516,0 38.95088298512793,33.42895804751308,0 38.95346946107888,33.42728422514494,0 38.95786106457003,33.42376853316279,0 38.96223331082445,33.41979114552269,0 40.28141108819548,33.03662322184013,0 43.26846645585459,33.43645998432727,0 43.77863939838079,33.34556250716916,0 44.42369544936733,33.2778684058509,0 
 					</coordinates>
 				</LineString>
 			</Placemark>

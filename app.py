@@ -72,6 +72,7 @@ OFFSHORE_SUBSECTION = "Offshore Tanker Loading"
 ROUTE_COLORS = {
     "Crude Pipelines": "#e65100",
     "Product Pipelines": "#fdd835",
+    "Truck Corridors": "#7e57c2",
     "Maritime Routes": "#2dc0fb",
     "Inland Waterways": "#00897b",
     "Rail Corridors": "#6d4c41",   # rail brown — crude moved by unit train, not pipe
