@@ -1398,6 +1398,16 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#sh_pink-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_pink-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#sh_pink-blank</styleUrl>
 		</Pair>
 	</StyleMap>
@@ -1441,16 +1451,6 @@
 			<styleUrl>#sh_ylw-pushpin11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -1479,6 +1479,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10">
@@ -1812,6 +1822,25 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sh_pink-blank0">
+		<IconStyle>
+			<scale>0.84</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sh_volcano">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -1845,20 +1874,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff5b3d3d</color>
-		</LineStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -1875,6 +1890,18 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff5b3d3d</color>
+		</LineStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin00">
 		<IconStyle>
@@ -2262,6 +2289,23 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sn_pink-blank0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_pink-blank">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -2273,6 +2317,8 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
@@ -2312,11 +2358,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2325,8 +2366,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ff5b3d3d</color>
 		</LineStyle>
@@ -2406,6 +2445,11 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin20">
 	</Style>
@@ -6144,7 +6188,6 @@ Risks: Production may change over time; exports currently depend on the China ro
 		</Folder>
 		<Folder>
 			<name>Refineries</name>
-			<open>1</open>
 			<Folder>
 				<name>Standard-Refineries</name>
 				<Placemark>
@@ -10175,6 +10218,161 @@ Risks: Drone attacks, fires, damage to refinery and utility units, sanctions-rel
 						<coordinates>55.89828130133586,53.4019122307196,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Saratov refinery</name>
+					<description>Status: Reduced
+Capacity: ~7 Mt/yr (~135,000–140,000 b/d). Reuters
+Feedstock: Urals crude, oil from the Saratov and Orenburg fields, supplied by pipeline.
+Main products: Gasoline, diesel and fuel oil; the refinery also produces other petroleum products, including bitumen. Reuters
+Markets: Saratov and other Russian regions; products are shipped mainly by rail, as well as by river and road. rosneft.com
+Recent: In 2024, it processed about 5.8 Mt of crude, producing around 1.2 Mt of gasoline, 1.9 Mt of diesel and 1.0 Mt of fuel oil. Processing stopped on 11 September 2026 after strikes caused equipment damage and fires. A further attack was alleged on 14 October, but the claim was disputed and damage to the refinery was not confirmed.
+Strategic role: A key regional supplier of fuels in the Volga region and a significant Rosneft refinery.
+Risks: Drone attacks and fires; extended unit outages; sanctions-related equipment constraints; pipeline and rail or river logistics disruptions.</description>
+					<LookAt>
+						<longitude>45.93529815977134</longitude>
+						<latitude>51.45623992690147</latitude>
+						<altitude>0</altitude>
+						<heading>4.13579946170178</heading>
+						<tilt>12.72713814203096</tilt>
+						<range>2813.482071635608</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>45.93695598752548,51.45814968799265,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ryazan refinery</name>
+					<description>Status: Reduced 
+Owner: Rosneft
+Capacity: ~17–18.8 Mt/yr (roughly 340,000–375,000 b/d, depending on the capacity figure and conversion used). Rosneft’s refinery site lists a design capacity of 18.8 Mt/yr; S&amp;P Global reports 342,000 b/d. rnpk-rosneft.ru
+Feedstock: Mixed crude supplied by the main oil-pipeline network. rosneft.com
+Main products: Gasoline, diesel, jet fuel, fuel oil, marine fuel, LPG, road and construction bitumen, and petrochemical feedstocks. rosneft.com
+Markets: Moscow and the Moscow region, plus central Russia; products move by pipeline, rail and road. rosneft.com
+Recent: In 2024, it processed about 13.1 Mt of crude, producing around 2.3 Mt of gasoline, 3.4 Mt of diesel, 4.2 Mt of fuel oil and 1.0 Mt of jet fuel. The October 2026 fire followed earlier drone-related unit shutdowns; its latest operating impact remains unclear. Reuters
+Strategic role: A major supplier of transport fuels to Moscow and central Russia, including jet fuel for the capital’s airports. rosneft.com
+Risks: Drone attacks and fires; outages at major crude-distillation units; sanctions-related equipment constraints; pipeline and product-logistics disruption.</description>
+					<LookAt>
+						<longitude>39.76990347243433</longitude>
+						<latitude>54.55413733917019</latitude>
+						<altitude>0</altitude>
+						<heading>0.01729128006088052</heading>
+						<tilt>10.80293987444026</tilt>
+						<range>7424.859019322276</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.74569097403921,54.56320503913461,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ao &quot;Nznp&quot; - Raffinerie de pétrole</name>
+					<description>Status: Offline 
+Owner: AO NZNP; its sole shareholder is OOO Yug Energo. interfax.ru
+Capacity: ~5.6 Mt/yr (~110,000 b/d); some sources cite a higher design figure of 7.5 Mt/yr. energybase.ru
+Feedstock: Crude oil delivered through the Transneft pipeline system. oil-nznp.ru
+Main products: Naphtha, gasoline, gasoil and diesel fractions, fuel oil, bitumen and LPG. nznp-nznp.ru
+Markets: Russian domestic market and exports; the plant has access to rail and a product terminal in Rostov-on-Don.
+Recent: The plant’s modernization added gasoline and diesel-treatment facilities in 2024. Its September 2026 shutdown followed a reported drone strike. nznp-nznp.ru
+Strategic role: A major independent fuel supplier in southern Russia and the only refinery in Rostov Oblast.
+Risks: Drone attacks and fires; uncertain restart timing; constraints on equipment and logistics.</description>
+					<LookAt>
+						<longitude>39.85831098361125</longitude>
+						<latitude>47.8314550871746</latitude>
+						<altitude>0</altitude>
+						<heading>1.017663881635728</heading>
+						<tilt>11.31105899448837</tilt>
+						<range>2028.930639899533</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.85831098361125,47.83145508717462,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ooo &quot;Afipskiy Npz&quot; - Raffinerie de pétrole</name>
+					<description>Status: Operational 
+Owner: OOO Afipsky NPZ; reported ownership is 92% Oil Technologies and 8% Sberbank Investments. energybase.ru
+Capacity: Crude-distillation capacity ~6.25 Mt/yr (~125,000 b/d). Following a hydrocracker project, total complex capacity has also been reported at ~9.1 Mt/yr; the figures measure different parts of the processing system. ukrinform.net
+Feedstock: Urals crude supplied by pipeline. S&amp;P Global
+Main products: Gasoline, diesel, naphtha, LPG, fuel gas and sulphur; the hydrocracker processes vacuum gasoil into lighter products. en.promfinstroy.ru
+Markets: Primarily export markets, with some domestic sales; products move through southern Russian port and logistics infrastructure. MarketScreener
+Recent: The refinery processed about 7.2 Mt in 2024. A fire was reported after the August 2026 strike; its operating status was later listed as operational. MarketScreener
+Strategic role: A major southern refinery with export exposure and expanded secondary-processing capacity.
+Risks: Drone attacks and fires; port and pipeline disruptions; complex capacity figures reflect the distinction between crude distillation and downstream processing.</description>
+					<LookAt>
+						<longitude>38.83265555110288</longitude>
+						<latitude>44.88448785140664</latitude>
+						<altitude>0</altitude>
+						<heading>0.09661634977263475</heading>
+						<tilt>6.510181701635668</tilt>
+						<range>2354.70529835581</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.8268447672921,44.88363891895185,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Neftebitum-Kngk - Raffinerie de pétrole</name>
+					<description>Status: Unclear
+Owner: Reported as part of KNGK Group. Дела Кубани
+Capacity: Small-scale plant — older published specifications describe crude-processing units of about 30,000 and 120,000 tonnes/yr combined (~3,000 b/d), plus a bitumen unit. These are not recent verified throughput figures. Дела Кубани
+Feedstock: Crude oil and residual fuel oil; the plant’s bitumen process uses hot residual fuel oil. Дела Кубани
+Main products: Road and construction bitumen, naphtha/light gasoline fractions, heating fuel, diesel fraction, marine fuel and fuel oil. Дела Кубани
+Markets: Regional buyers in Krasnodar Krai; products have been loaded into road tankers for distribution.
+Recent: Publicly available technical descriptions are dated and do not establish present throughput or operating status.
+Strategic role: A small regional processor focused on bitumen and fuel fractions, rather than a large integrated refinery.
+Risks: Limited public operating data; small scale; dependence on feedstock supply and regional road logistics.</description>
+					<LookAt>
+						<longitude>38.53499461154713</longitude>
+						<latitude>44.8197017532784</latitude>
+						<altitude>0</altitude>
+						<heading>-0.02432887281859705</heading>
+						<tilt>21.08887681973328</tilt>
+						<range>1301.085409076177</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.53190428251921,44.81950810441106,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Slavyansk refinery</name>
+					<description>Status: Reduced 
+Owner: Slavyansk-ECO LLC, a private operator.
+Capacity: Reported at ~4–5.2 Mt/yr; the company profile gives 4 Mt/yr, while 2026 reporting cites about 5.2 Mt/yr. slaveco.ru
+Feedstock: Purchased crude oil and other hydrocarbon feedstock; the plant does not have its own crude-production base. militarnyi.com
+Main products: Gasoline, diesel, jet fuel, fuel oil and vacuum gasoil. ukrinform.net
+Markets: Russian domestic market and exports. Slavyansk-ECO operates a marine terminal in Temryuk and has its own rail access. interfax.ru
+Recent: The September 2026 strike caused a refinery fire and reportedly serious damage; repairs were still underway in mid-October. sabid.ru
+Strategic role: A large independent refinery in the Krasnodar region with access to Black Sea and Azov Sea export logistics.
+Risks: Drone attacks and fires; repair delays; dependence on purchased feedstock and regional port infrastructure.</description>
+					<LookAt>
+						<longitude>38.13822762319197</longitude>
+						<latitude>45.22376058993767</latitude>
+						<altitude>0</altitude>
+						<heading>0.005574126144262542</heading>
+						<tilt>0</tilt>
+						<range>3583.999398729224</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.13167285552066,45.21939927171845,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Mega-refineries</name>
@@ -10864,6 +11062,7 @@ Risks: Feedstock competition and cost; mandate-policy dependence; small scale ag
 		<name>B. Gateways</name>
 		<Folder>
 			<name>Crude Terminals (import / export)</name>
+			<open>1</open>
 			<Folder>
 				<name>Import &amp; Export Terminal</name>
 				<Placemark>
@@ -13842,9 +14041,9 @@ Onward routes: West to Novorossiysk and the Sheskharis terminal for seaborne exp
 Connectivity: Also the point where the Baku–Novorossiysk line carrying Azeri, and more recently Turkmen, crude joins the Russian system
 Why it matters: The last junction before Russia&apos;s main Black Sea outlet — everything shipped from Novorossiysk passes through here
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
-					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<styleUrl>#msn_pink-blank</styleUrl>
 					<Point>
-						<coordinates>40.13,45.85,0</coordinates>
+						<coordinates>40.1827478353156,45.84390307371083,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14159,7 +14358,7 @@ Risks: A waypoint along a long, multi-country pipeline corridor — precise func
 						<range>4365.682579649443</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_pink-blank</styleUrl>
+					<styleUrl>#msn_pink-blank0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.144742945375663,47.24567175657437,0</coordinates>
@@ -15311,7 +15510,6 @@ Risks: Cargo origin becomes hard to trace (the point for some users, a complianc
 	</Folder>
 	<Folder>
 		<name>C. Corridors</name>
-		<open>1</open>
 		<Folder>
 			<name>Crude Pipelines</name>
 			<Placemark>
@@ -16494,7 +16692,7 @@ Alignment: schematic — the junction and its connections are documented, the dr
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						49.97016710607552,53.07391770181864,0 46.50000000000001,51,0 44.61271530910791,48.4973713344601,0 42,46.8,0 40.13,45.85,0 37.84750096792315,44.70848344382962,0 
+						49.97016710607552,53.07391770181864,0 45.94510836442021,51.44980250085342,0 44.61271530910791,48.4973713344601,0 42,46.8,0 40.18253453683641,45.84325024962189,0 37.84750096792315,44.70848344382962,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -18212,7 +18410,7 @@ Risks: Cost and railcar availability; winter weather across the Prairies and Shi
 		<Folder>
 			<name>Truck Corridors</name>
 			<Placemark>
-				<name>Iraq–Syria–Baniyas Road Tanker </name>
+				<name>Iraq–Syria–Baniyas Road Tanker</name>
 				<description>Status: Operational for Iraqi fuel-oil exports and gasoline imports; crude-oil exports by truck are planned, but were not yet confirmed as operating as of 14 October 2026. noonpost.com
 Route: Iraqi fuel oil is trucked from refineries across Iraq through the al-Waleed–al-Tanf crossing and Syria to Baniyas, where it is transferred to tankers for export. In the reverse direction, imported gasoline—including US-origin cargoes—arrives by ship at Baniyas and is trucked inland to Iraq. Planned crude exports would use this overland corridor as well.
 Markets: Baniyas links Iraqi petroleum exports to Mediterranean and international buyers while providing Iraq with an alternative route for imported gasoline.
