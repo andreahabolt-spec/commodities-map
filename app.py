@@ -5,7 +5,6 @@ import re
 
 import streamlit as st
 import folium
-from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
 
 from kml_parser import parse_kml, get_field
@@ -629,21 +628,11 @@ m.get_root().html.add_child(folium.Element("<style>.svg-marker{background:transp
 for cat in point_categories:
     if cat not in selected_categories:
         continue
-    # Regroupement léger, zoom-dépendant — pas le clustering serré d'avant.
-    # maxClusterRadius large: peu de grosses bulles régionales à faible zoom,
-    # chacune avec un compte clair. disableClusteringAtZoom=6: les icônes
-    # détaillées apparaissent une fois zoomé au niveau pays (ex: les USA).
-    # spiderfyOnMaxZoom: même à zoom max, des marqueurs superposés restent
-    # cliquables individuellement plutôt que de se chevaucher silencieusement.
-    group = MarkerCluster(
-        name=cat,
-        options={
-            "maxClusterRadius": 100,
-            "disableClusteringAtZoom": 6,
-            "spiderfyOnMaxZoom": True,
-            "showCoverageOnHover": False,
-        },
-    )
+    # REVERTED: MarkerCluster retiré — dépendance CDN externe supplémentaire
+    # (Leaflet.markercluster), cause probable d'une régression vers l'erreur
+    # originale de chargement de composant sur Streamlit Cloud. Retour à
+    # FeatureGroup, confirmé fonctionner de façon fiable en production.
+    group = folium.FeatureGroup(name=cat, show=True)
     for p in (x for x in filtered_points if x["category"] == cat):
         folium.Marker(
             location=[p["lat"], p["lon"]],
