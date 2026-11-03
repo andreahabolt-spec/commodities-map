@@ -486,8 +486,8 @@ def _all_layers_on():
     """True when every non-empty section is currently enabled."""
     cats = [c for c in data["categories"]
             if any(it["category"] == c for it in all_items)]
-    # unset keys mean the checkbox default (enabled) is in force
-    return all(st.session_state.get(f"cat_{c}", True) for c in cats)
+    # unset keys mean the checkbox default (now: empty on first load) is in force
+    return all(st.session_state.get(f"cat_{c}", False) for c in cats)
 
 def _toggle_everything():
     turn_on = not _all_layers_on()
@@ -559,17 +559,22 @@ for stage in STAGE_ORDER:
         # sub-folders keeps its own icon, otherwise it would have no mark at all.
         cat_is_leaf = not subs
 
+        # La carte démarre entièrement vide: rien à construire au premier
+        # rendu, donc aucun risque de dépassement de délai au tout premier
+        # chargement. Le bouton "Enable all layers" (déjà existant) ou les
+        # cases à cocher individuelles déclenchent le rendu explicitement.
+        default_on = False
         if cat_is_leaf:
             cols = st.sidebar.columns([0.13, 0.87])
             with cols[0]:
                 st.markdown(_swatch(cat, "", is_route), unsafe_allow_html=True)
             with cols[1]:
                 label = f"{cat}  ({count})" if count else f"{cat}  (empty)"
-                checked = st.checkbox(label, value=bool(count),
+                checked = st.checkbox(label, value=default_on,
                                       key=f"cat_{cat}", disabled=not count)
         else:
             label = f"{cat}  ({count})" if count else f"{cat}  (empty)"
-            checked = st.sidebar.checkbox(label, value=bool(count),
+            checked = st.sidebar.checkbox(label, value=default_on,
                                           key=f"cat_{cat}", disabled=not count)
 
         if is_route:
@@ -591,7 +596,7 @@ for stage in STAGE_ORDER:
                     st.markdown(_swatch(cat, s, is_route and sub_has_lines),
                                 unsafe_allow_html=True)
                 with sub_cols[2]:
-                    if st.checkbox(f"{s} ({n})", value=True, key=f"sub_{cat}_{s}"):
+                    if st.checkbox(f"{s} ({n})", value=False, key=f"sub_{cat}_{s}"):
                         chosen.add(s)
             selected_subsections[cat] = chosen
 
@@ -680,5 +685,5 @@ for cat in route_categories:
 try:
     st_folium(m, width=None, height=820, returned_objects=[])
 except Exception:
-    st.error("Interactive web app is having some loading issues."
-             "Please refresh the page or try again in a few moments.")
+    st.error("The interactive web app has issue loading"
+             "Please refresh the page (F5) or try again in a few moments.")
