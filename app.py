@@ -1,9 +1,11 @@
+import functools
 import glob
 import os
 import re
 
 import streamlit as st
 import folium
+from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
 
 from kml_parser import parse_kml, get_field
@@ -339,6 +341,7 @@ def color_for(category, subsection):
     return c
 
 
+@functools.lru_cache(maxsize=None)
 def category_icon_svg(category, subsection="", size=DEFAULT_ICON_SIZE, status="Operational"):
     """Inline SVG glyph with white halo. Offline/Planned/Converting get a status ring."""
     color = color_for(category, subsection)
@@ -420,6 +423,7 @@ def format_description(text):
     return re.sub(r"^\s*<br>\s*", "", formatted).strip()
 
 
+@functools.lru_cache(maxsize=None)
 def popup_html(name, description, category="", subsection=""):
     status = normalize_status(get_field(description, "Status"))
     col, label = STATUS_BADGE.get(status.lower(), ("#2e7d32", status))
@@ -625,7 +629,21 @@ m.get_root().html.add_child(folium.Element("<style>.svg-marker{background:transp
 for cat in point_categories:
     if cat not in selected_categories:
         continue
-    group = folium.FeatureGroup(name=cat, show=True)
+    # Regroupement léger, zoom-dépendant — pas le clustering serré d'avant.
+    # maxClusterRadius large: peu de grosses bulles régionales à faible zoom,
+    # chacune avec un compte clair. disableClusteringAtZoom=6: les icônes
+    # détaillées apparaissent une fois zoomé au niveau pays (ex: les USA).
+    # spiderfyOnMaxZoom: même à zoom max, des marqueurs superposés restent
+    # cliquables individuellement plutôt que de se chevaucher silencieusement.
+    group = MarkerCluster(
+        name=cat,
+        options={
+            "maxClusterRadius": 100,
+            "disableClusteringAtZoom": 6,
+            "spiderfyOnMaxZoom": True,
+            "showCoverageOnHover": False,
+        },
+    )
     for p in (x for x in filtered_points if x["category"] == cat):
         folium.Marker(
             location=[p["lat"], p["lon"]],
@@ -673,5 +691,5 @@ for cat in route_categories:
 try:
     st_folium(m, width=None, height=820, returned_objects=[])
 except Exception:
-    st.error("La carte interactive rencontre un problème de chargement temporaire. "
-             "Merci de rafraîchir la page (F5) ou de réessayer dans quelques instants.")
+    st.error("Interactive web app is having some loading issues."
+             "Please refresh the page or try again in a few moments.")
