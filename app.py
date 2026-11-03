@@ -670,4 +670,8 @@ for cat in route_categories:
 # width=None lets st_folium fill its container on every library version;
 # the injected CSS (.block-container full width + iframe width:100%) forces
 # true edge-to-edge width without relying on the newer use_container_width arg.
-st_folium(m, width=None, height=820, returned_objects=[])
+try:
+    st_folium(m, width=None, height=820, returned_objects=[])
+except Exception:
+    st.error("La carte interactive rencontre un problème de chargement temporaire. "
+             "Merci de rafraîchir la page (F5) ou de réessayer dans quelques instants.")
