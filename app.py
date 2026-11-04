@@ -681,5 +681,6 @@ for cat in route_categories:
 try:
     st_folium(m, width=None, height=820, returned_objects=[])
 except Exception:
-    st.error("La carte interactive rencontre un problème de chargement temporaire. "
-             "Merci de rafraîchir la page (F5) ou de réessayer dans quelques instants.")
+    st.error("My apologies..." 
+             "The interactive web app is running into loading issues."
+             "Please refresh the page or try again in a few moments.")

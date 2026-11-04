@@ -893,18 +893,6 @@
 			<color>ffffaaaa</color>
 		</LineStyle>
 	</Style>
-	<Style id="failed30">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="failed300">
 		<IconStyle>
 			<color>ff000000</color>
@@ -922,18 +910,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="failed301">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
 	</Style>
 	<Style id="failed3010">
 		<IconStyle>
@@ -1201,16 +1177,6 @@
 			<styleUrl>#sh_ylw-pushpin01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mfailed2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin50</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="mfailed20">
 		<Pair>
 			<key>normal</key>
@@ -1219,16 +1185,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin500</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="mfailed200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed301</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5000</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_R0">
@@ -1291,64 +1247,24 @@
 			<styleUrl>#sh_airports2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40101</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4011">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=401000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4011</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=410</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=420">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4020</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4100</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4400000">
@@ -1381,40 +1297,10 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=42011</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_marina">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_marina</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_marina</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_pink-blank">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_pink-blank</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_pink-blank0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_pink-blank0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_pink-blank0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_pink-blank</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_volcano">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano0</styleUrl>
+			<styleUrl>#sn_volcano</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1424,31 +1310,11 @@
 	<StyleMap id="msn_volcano0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_volcano</styleUrl>
+			<styleUrl>#sn_volcano0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_volcano</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_volcano300">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_volcano10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_volcano00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin11</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
@@ -1471,16 +1337,6 @@
 			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin12</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
@@ -1499,16 +1355,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin000</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin101">
@@ -1654,6 +1500,8 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1670,70 +1518,8 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=40100">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4011">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4100">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=420">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1793,78 +1579,23 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_marina">
+	<Style id="sh_volcano0">
 		<IconStyle>
 			<scale>0.84</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_pink-blank">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_pink-blank0">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
 		<BalloonStyle>
 		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<Style id="sh_volcano">
 		<IconStyle>
 			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_volcano0">
-		<IconStyle>
-			<scale>0.816667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_volcano00">
-		<IconStyle>
-			<scale>0.816667</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
 			</Icon>
@@ -1915,19 +1646,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin000">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin001">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1964,26 +1682,6 @@
 			<scale>1.2</scale>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin11">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin12">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffc80154</color>
-		</LineStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin3">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -2013,31 +1711,7 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin50">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin500">
-		<IconStyle>
-			<scale>0.84</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin5000">
 		<IconStyle>
 			<scale>0.84</scale>
 			<Icon>
@@ -2112,24 +1786,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<IconStyle>
 			<Icon>
@@ -2140,6 +1796,8 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -2148,7 +1806,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=401000">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<IconStyle>
 			<Icon>
 				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
@@ -2158,60 +1816,8 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40101">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4020">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=410">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -2277,63 +1883,6 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_marina">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_pink-blank0">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_pink-blank">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_volcano">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sn_volcano0">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -2346,7 +1895,7 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_volcano10">
+	<Style id="sn_volcano">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
@@ -2357,6 +1906,8 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
@@ -2387,23 +1938,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin000">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffc80154</color>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin1">
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -2415,19 +1949,6 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin100">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin11">
 		<IconStyle>
@@ -2467,138 +1988,6 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="style1000">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1110">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1500">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1600">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1700">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1800">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style1900">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style2000">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style240">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style400">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style500">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="style900">
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="stylemap_id0200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style400</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id2000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style1000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style500</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id2100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style1700</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style1800</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id2200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style1500</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style1600</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id2400">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style1900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style2000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id250">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style240</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style1110</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>A. Production</name>
 		<Folder>
@@ -10401,7 +9790,7 @@ Markets: US Gulf and Midwest systems; chemical exports
 Recent: Capacity trimmed from ~540,000 in the 2020s as the site optimised toward chemicals — the American mirror of the fuels-to-chemicals shift your Asian refineries show
 Strategic role: The upriver anchor of the Louisiana refining row — a century-old complex that turned into a chemistry campus
 Risks: Mississippi flood and hurricane exposure; urban interface; ageing-unit management at scale</description>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>-91.18000000000002,30.48,0</coordinates>
 					</Point>
@@ -10417,7 +9806,7 @@ Markets: US domestic and exports through the Houston complex
 Recent: A 2025 explosion at the olefins plant underscored the risk side of extreme integration; a large low-carbon hydrogen project has been planned for the site
 Strategic role: ExxonMobil&apos;s home-base flagship — refinery, chemicals and research on one fence line inside the Houston pricing ring
 Risks: Industrial incidents at integrated scale; hurricane and channel exposure; petrochemical margin weakness</description>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>-95.01000000000001,29.74,0</coordinates>
 					</Point>
@@ -10443,7 +9832,7 @@ Risks: Chronic equipment failure; power outages; fires; sanctions; spare-parts a
 						<range>6459.276534434175</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>-70.22578419359186,11.63155965959824,21.0681920978475</coordinates>
 					</Point>
@@ -10469,7 +9858,7 @@ Risks: Crude-supply constraints; unit outages; logistics bottlenecks; regulatory
 						<range>5524.058916901122</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>4.01895141048376,6.455546218835619,16.41382754321085</coordinates>
 					</Point>
@@ -10494,7 +9883,7 @@ Risks: Hurricanes and flooding; outages; pipeline/marine disruption; regulation;
 						<range>1000.000000000311</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-94.07299999999998,30.067,0</coordinates>
@@ -10520,7 +9909,7 @@ Risks: Hurricanes; Mississippi logistics disruption; outages; flooding; regulati
 						<range>8956.616388362769</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-90.59575235303197,30.05976522535071,0</coordinates>
@@ -10547,7 +9936,7 @@ Risks: Imported-crude dependence; Hormuz and Asian shipping disruption; weak pet
 						<range>13283.53273852548</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>126.3655634051624,37.00010505273524,0</coordinates>
@@ -10573,7 +9962,7 @@ Risks: Imported-crude dependence; Hormuz disruption; typhoons and port closures;
 						<range>12101.46074460528</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>120.1928759574278,23.79623271130031,0</coordinates>
@@ -10599,7 +9988,7 @@ Risks: Hormuz disruption; drone/missile attacks; regional conflict; terminal shu
 						<range>11857.98789791042</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>50.09664256528943,26.69494080188317,0</coordinates>
@@ -10626,7 +10015,7 @@ Risks: Hormuz closure; drone/missile attacks; marine-export disruption; outages;
 						<range>21699.63097092463</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>52.71984146568987,24.13048759325198,15.71163098468269</coordinates>
 					</Point>
@@ -10652,7 +10041,7 @@ Risks: Hurricanes and flooding; industrial outages; marine/pipeline disruption; 
 						<range>10164.76723353728</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>-93.96036743564372,29.87960021734543,1.593709217031947</coordinates>
 					</Point>
@@ -10678,7 +10067,7 @@ Risks: Hurricanes and storm surge; process-safety legacy; scale concentration on
 						<range>19076.807843016</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>-94.91822445037437,29.3740854621725,6.977861871635184</coordinates>
 					</Point>
@@ -10704,7 +10093,7 @@ Risks: Hormuz disruption; regional conflict; outages; heavy-crude processing iss
 						<range>26897.64781631995</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>48.33404623647145,28.71461908901462,5.571952574035597</coordinates>
 					</Point>
@@ -10729,7 +10118,7 @@ Risks: Imported-crude dependence; Malacca congestion; South China Sea disruption
 						<range>1742.042715453268</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>103.7009447754495,1.277704800541307,6.231730153402672</coordinates>
 					</Point>
@@ -10754,7 +10143,7 @@ Risks: Imported-crude dependence; Hormuz disruption; sanctions/trade restriction
 						<range>15928.4312793083</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>69.87071606560934,22.33986913786702,65.70027103610086</coordinates>
 					</Point>
@@ -10780,7 +10169,7 @@ Risks: Imported-crude dependence; Hormuz and Malacca disruption; outages; weak A
 						<range>11037.38716156106</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>129.3374113962711,35.4938004454673,21.70874728906801</coordinates>
 					</Point>
@@ -10806,7 +10195,7 @@ Risks: Imported-crude dependence; Hormuz and Malacca disruption; outages; typhoo
 						<range>19544.71944394056</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>127.7171367410682,34.88195143771404,30.7218130058324</coordinates>
 					</Point>
@@ -10832,7 +10221,7 @@ Risks: Middle East crude dependence; Hormuz disruption; typhoons; outages; weak 
 						<range>7897.530755748739</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>129.3485984299735,35.43280280980805,13.98351357031621</coordinates>
 					</Point>
@@ -10858,7 +10247,7 @@ Risks: Imported-crude dependence; Hormuz and Malacca disruption; Ningbo port con
 						<range>18863.75638296828</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#__managed_schema0002">
 							<SimpleData name="1EA10E865E3F337D9842">0</SimpleData>
@@ -10887,7 +10276,7 @@ Risks: Hormuz and Malacca exposure, typhoons, refinery margins and petrochemical
 						<range>10265.39389321644</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.9531479864752,30.31535462643456,0</coordinates>
@@ -10903,9 +10292,35 @@ Crude grades: Venezuelan and imported light/medium when available
 Role &amp; connections: Domestic fuel supply above all — gasoline shortages track its breakdowns; Ule pipeline feed; own marine terminal
 Recent: The 2012 explosion (55 dead) remains the emblem of its decline; flaring imagery from Jan 2026 accompanied this week&apos;s agreement coverage
 Source: AP 30 Aug 2026 (imagery); EIA nameplate; run-rate estimates industry-derived</description>
-					<styleUrl>#msn_volcano300</styleUrl>
+					<styleUrl>#msn_volcano0</styleUrl>
 					<Point>
 						<coordinates>-70.19162604485098,11.73941375069358,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Yulong Petrochemical</name>
+					<description>Status: Operating (Phase I; both crude units online since 2024–2025)
+Owner/Operator: Shandong Yulong Petrochemical Co. — 51% Nanshan Group (private), 46.1% Shandong Energy Group (state-backed); Saudi Aramco in talks for a 10% stake tied to a crude supply deal
+Capacity: 20 Mt/yr crude refining (2 × 200,000 b/d CDUs), Phase I ≈ 400,000 b/d. Phase II planned to reach 40 Mt/yr, roughly 800,000 b/d total
+Feedstock: Diversifying — West African grades (Girassol, Dalia, Plutonio), Nigerian Nemba, Russian ESPO Blend, with Saudi crude expected once the Aramco supply deal is finalised
+Main products: Gasoline, diesel, jet fuel, ethylene, paraxylene and other petrochemical feedstocks
+Connectivity: Consolidated the import quotas of 10 smaller Shandong independent refiners it replaced. Crude arrives via a 105 km pipeline from Yantai Port&apos;s West Port Area (Xigang District) — VLCCs unload there, not at Yulong Island itself
+Strategic role: China&apos;s newest and largest single refining-petrochemical project since 2018, built to consolidate Shandong&apos;s fragmented &quot;teapot&quot; refining sector into one modern complex
+Why here: Phase I capacity sits below the 500,000 b/d mega line — Standard tier for now. Reclassify to Mega-refineries once Phase II brings it past ~800,000 b/d
+Risks: Sanctioned by the UK and EU (both October 2025) over Russian energy ties; dependent on a single long-distance crude pipeline; exposed to China&apos;s broader refining overcapacity and weak domestic fuel demand</description>
+					<LookAt>
+						<longitude>120.2779178048575</longitude>
+						<latitude>37.60097536873357</latitude>
+						<altitude>0</altitude>
+						<heading>-1.584644484981324</heading>
+						<tilt>6.076383590101379</tilt>
+						<range>8300.490961652889</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_volcano</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>120.2765747767473,37.61254166380642,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -11062,7 +10477,6 @@ Risks: Feedstock competition and cost; mandate-policy dependence; small scale ag
 		<name>B. Gateways</name>
 		<Folder>
 			<name>Crude Terminals (import / export)</name>
-			<open>1</open>
 			<Folder>
 				<name>Import &amp; Export Terminal</name>
 				<Placemark>
@@ -12010,14 +11424,15 @@ Risks: Modest storage against flows of several hundred thousand b/d — limited 
 				<Placemark id="ADDSIOT0000000000001">
 					<name>SIOT Trieste Marine Terminal</name>
 					<description>Status: Operational
-Owner/Operator: SIOT / TAL Group (OMV, Shell, Eni, ExxonMobil, MERO ČR, Gunvor, TotalEnergies, Phillips 66, Rosneft)
-Role: Crude import head of the TAL system — the sea gate of the Alpine corridor to Bavaria (Bayernoil, Gunvor Ingolstadt), Karlsruhe (MiRO), Austria (AWP branch) and Czechia (IKL)
-Capacity: ~37 Mt/yr received, ~400 tankers a year
-Berths / vessel size: Marine piers with tanker berths — first Suezmax berthed May 2025 after the Fincantieri revamp; tank farm feeding the TAL pipeline
-Risks: Corridor concentration — an outage at Trieste ripples into refineries in four countries; Adriatic weather and port constraints</description>
+Operator: SIOT (Società Italiana per l&apos;Oleodotto Transalpino S.p.A.)
+Role: Unloading jetty in the Bay of Muggia — the starting point of the TAL system; crude is discharged here and moved by transfer line to the San Dorligo della Valle Tank Farm, not stored on site
+Vessels: Aframax and Suezmax; over 20,000 tankers received since 1967, when the first ship (Daphnella) berthed
+Connectivity: Short onshore transfer lines to [[SIOT San Dorligo della Valle Tank Farm]] — no other storage or processing happens at the jetty itself
+Why it matters: The single entry point for all seaborne crude feeding the Trans-Alpine Pipeline to Austria, Czechia and southern Germany
+Risks: Adjacent to residential Muggia/San Dorligo area; any Marine Terminal outage stops the whole TAL system at its source</description>
 					<styleUrl>#default0</styleUrl>
 					<Point>
-						<coordinates>13.76228349369942,45.64661359195608,0</coordinates>
+						<coordinates>13.77524430145506,45.61310772418864,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="0E3910379A3EAF1571E4">
@@ -13217,6 +12632,31 @@ Risks: Dependent on cross-Caspian tanker shuttle trade and Central Asian supplie
 						<coordinates>49.4708475114311,40.12913566888046,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Yantai Port West Port Area Crude Oil Terminal</name>
+					<description>Status: Operational (first VLCC berth since November 2016; a second 300,000-dwt berth added more recently, northwest of the first)
+Operator: CNOOC Yantai Port Oil Terminal Co. — joint venture between CNOOC and Shandong Port Group&apos;s Yantai Port
+Berths: Two 300,000-dwt (VLCC) berths plus five 100,000-dwt berths
+Capacity: ~16.25 Mt/yr design throughput per VLCC berth (14.7 Mt unloading, 1.55 Mt loading)
+Role: Primary seaborne crude entry point feeding central Shandong&apos;s refining cluster
+Connectivity: Short transfer line to [[Yantai West Port Area Crude Oil Tank Farm]]; onward via the 450 km Yanzi pipeline to Dongying/Zibo/Binzhou, and the newer dedicated line to Yulong Petrochemical
+Why it matters: Branded by its operator as China&apos;s only port running berth, tank farm and pipeline as one fully integrated system
+Risks: Shared, multi-user terminal — an outage here affects several refineries and petrochemical complexes at once, not one buyer</description>
+					<LookAt>
+						<longitude>121.1358952255025</longitude>
+						<latitude>37.71529776288893</latitude>
+						<altitude>0</altitude>
+						<heading>0.1325210000997488</heading>
+						<tilt>26.27497360007921</tilt>
+						<range>2658.722708325866</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#default0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>121.13664535487,37.71518630156893,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Offshore Tanker Loading</name>
@@ -13387,7 +12827,7 @@ Role: A floating storage and offloading vessel permanently moored in Kola Bay ne
 Strategic role: The hinge of the Russian Arctic export chain — without this ship-to-ship consolidation point, Arctic crude would have to reach market in small, expensive ice-class parcels
 Connectivity: Receives Novy Port, YK Blend/Varandey and other Arctic grades; Murmansk is ice-free year round despite its latitude
 Risks: A single floating asset serving multiple Arctic streams; sanctions targeting shadow-fleet transshipment activity</description>
-					<styleUrl>#msn_marina</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>33.52207228982743,69.21309975945621,0</coordinates>
 					</Point>
@@ -13401,7 +12841,7 @@ Capacity: 12 million t/yr; fed by a 158 km pipeline from the Yuzhno-Khylchuyu fi
 Connectivity: Loads 70,000 dwt ice-class shuttle tankers, which carry crude to a floating storage vessel in Kola Bay near Murmansk for transfer into larger tankers
 Strategic role: Gives Timan-Pechora crude an export route that bypasses the Transneft system entirely — so it keeps its own grade identity instead of disappearing into Urals
 Risks: Arctic ice and weather; dependence on a small ice-class shuttle fleet and the Kola Bay transshipment link</description>
-					<styleUrl>#mfailed2</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>58.0997099885831,68.92457494561121,0</coordinates>
 					</Point>
@@ -13414,7 +12854,7 @@ Role: The floating production, storage and offloading vessel that serves as the 
 Capacity: Up to 130,000 b/d processing, 800,000 barrels of storage; 270 m long, the world&apos;s largest harsh-water FPSO
 Recent: Built in South Korea and towed to the field in 2016 as the centrepiece of BP&apos;s Quad 204 redevelopment, extending field life toward 2035
 Risks: Severe Atlantic-margin weather limiting offloading windows; no pipeline alternative if the vessel is offline</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>-3.92452965954539,60.36027007847061,0</coordinates>
 					</Point>
@@ -13427,7 +12867,7 @@ Role: The floating production and loading facility for the Kraken heavy-oil fiel
 Capacity: Around 50,000 b/d
 Connectivity: Cargoes are frequently consolidated by ship-to-ship transfer at the Scapa Flow anchorage before sailing to US Gulf Coast heavy-crude refiners
 Risks: Heavy, viscous crude requiring heated storage and handling; single-vessel dependence</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>1.613043449974534,61.41393450336123,0</coordinates>
 					</Point>
@@ -13440,7 +12880,7 @@ Role: The floating storage unit alongside the Mariner A platform in UK Quadrant 
 Connectivity: Loads directly to shuttle tankers; no pipeline connection to shore exists for this field
 Recent: Onstream 2019 after decades of stalled attempts to commercialise Quadrant 9&apos;s viscous heavy oil
 Risks: Narrow buyer pool for heavy sour crude; single-point storage and loading</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>1.766898751454158,61.50566217520526,0</coordinates>
 					</Point>
@@ -13453,7 +12893,7 @@ Role: The floating production and loading facility for the Captain heavy-oil fie
 Connectivity: Loads shuttle tankers directly; cargoes regularly sail to St James, Louisiana, often consolidated by ship-to-ship transfer at Scapa Flow
 Strategic role: One of the few North Sea grades with an established transatlantic route to US Gulf Coast heavy-crude refiners
 Risks: Transatlantic economics depend on the North Sea premium over WTI staying narrow</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>-1.683341974568208,58.36888584175327,0</coordinates>
 					</Point>
@@ -13465,7 +12905,7 @@ Owner/Operator: Equinor
 Role: Single-point mooring buoys serving the Statfjord A, B and C platforms — the export mechanism for Statfjord Blend, loading shuttle tankers directly at the field
 Strategic role: Statfjord straddles the UK-Norway median line, so this is the loading point for one of the few genuinely cross-jurisdiction North Sea developments
 Risks: Weather-exposed open-sea mooring; ageing infrastructure after more than four decades of service</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>1.904072146789166,61.26338497777348,0</coordinates>
 					</Point>
@@ -13477,7 +12917,7 @@ Owner/Operator: Equinor
 Role: Offshore loading facilities serving the three Gullfaks concrete gravity-base platforms, exporting Gullfaks Blend directly to shuttle tankers
 Connectivity: No pipeline link to shore for crude — unlike neighbouring Troll and Oseberg, which pipe to Mongstad and Sture
 Risks: High fixed cost of ageing gravity-base infrastructure; weather-dependent loading windows</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>2.216349505624111,61.21761126355318,0</coordinates>
 					</Point>
@@ -13501,7 +12941,7 @@ Owner/Operator: Equinor
 Role: The oil-producing FPSO of the Åsgard complex on Haltenbanken in the Norwegian Sea, loading the very light Åsgard Blend (~47.5° API) to shuttle tankers
 Connectivity: Part of a wider Åsgard development that also includes a semi-submersible gas platform and subsea templates
 Risks: Harsh Norwegian Sea conditions; very light condensate-rich quality suits a narrower refinery set</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>6.761778929740776,65.17148243955701,0</coordinates>
 					</Point>
@@ -13512,7 +12952,7 @@ Risks: Harsh Norwegian Sea conditions; very light condensate-rich quality suits 
 Owner/Operator: Equinor
 Role: Offshore loading serving the Heidrun floating concrete tension-leg platform in the Norwegian Sea — one of the few TLPs of its kind — exporting one of the heaviest Norwegian streams (~24° API)
 Risks: Exposed Norwegian Sea conditions; heavy-crude discount limiting buyer options</description>
-					<styleUrl>#mfailed200</styleUrl>
+					<styleUrl>#mfailed20</styleUrl>
 					<Point>
 						<coordinates>7.348530877369861,65.41133745942696,0</coordinates>
 					</Point>
@@ -13685,6 +13125,31 @@ Risks: Subsea-pipeline or loading-hose failure; collision and mooring incidents;
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.987845101757151,5.505300174011429,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Girassol Export Buoy (CALM)</name>
+					<description>Status: Operational
+Type: SPM CALM (Catenary Anchor Leg Mooring) buoy — single-point mooring, not a fixed terminal
+Operator: TotalEnergies (Block 17 operator)
+Location: ~1 nautical mile, bearing 020°T from the Girassol FPSO
+Role: Primary export point for Girassol Blend — the tanker moors at the buoy rather than alongside the FPSO, connected by flexible subsea hose to the FPSO&apos;s storage tanks
+Connectivity: Linked to the Girassol FPSO by subsea flowline; FPSO tandem offloading serves as the backup mode if the buoy is unavailable
+Why it matters: Lets the tanker weathervane independently of the FPSO, reducing collision risk in rough weather compared with tandem mooring — the reason CALM buoys are used at several Angolan deepwater fields alongside tandem systems
+Risks: Single point of failure for the field&apos;s exports if the buoy itself needs maintenance; Gulf of Guinea piracy exposure during the loading window</description>
+					<LookAt>
+						<longitude>11.57828368398741</longitude>
+						<latitude>-8.348618890591741</latitude>
+						<altitude>0</altitude>
+						<heading>-17.20866706248719</heading>
+						<tilt>0</tilt>
+						<range>192691.1040407309</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed20</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>11.26736933072669,-8.074953912808143,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -14041,7 +13506,7 @@ Onward routes: West to Novorossiysk and the Sheskharis terminal for seaborne exp
 Connectivity: Also the point where the Baku–Novorossiysk line carrying Azeri, and more recently Turkmen, crude joins the Russian system
 Why it matters: The last junction before Russia&apos;s main Black Sea outlet — everything shipped from Novorossiysk passes through here
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
-					<styleUrl>#msn_pink-blank</styleUrl>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
 					<Point>
 						<coordinates>40.1827478353156,45.84390307371083,0</coordinates>
 					</Point>
@@ -14358,10 +13823,58 @@ Risks: A waypoint along a long, multi-country pipeline corridor — precise func
 						<range>4365.682579649443</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_pink-blank0</styleUrl>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.144742945375663,47.24567175657437,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>SIOT San Dorligo della Valle Tank Farm</name>
+					<description>Status: Operational
+Operator: SIOT (Società Italiana per l&apos;Oleodotto Transalpino S.p.A.)
+Type: Crude storage and consolidation park — not a refinery; blends and holds different crude grades before they enter the pipeline
+Capacity: 32 tanks with double-seal floating roofs, combined capacity over 2 million m³; more than 200 different crude types handled across 50+ years of operation
+Role: Receives crude via transfer line from the Marine Terminal, then feeds the Trans-Alpine Pipeline (TAL) onward to the Lenting Tank Farm in Germany, which splits toward Bayernoil (Neustadt) and MIRO (Karlsruhe)
+Historic note: Site of a major 1972 fire and explosion (Black September attack) that burned for four days
+Risks: Seveso-classified major-hazard site; any TAL disruption here cuts off Austria&apos;s single largest oil supply route (roughly half of Austria&apos;s crude imports move through this depot)</description>
+					<LookAt>
+						<longitude>13.83858490913545</longitude>
+						<latitude>45.60515409363584</latitude>
+						<altitude>0</altitude>
+						<heading>6.204589664979939</heading>
+						<tilt>14.06088514495709</tilt>
+						<range>5637.468578720132</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.83767717524,45.60112407876493,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Yantai West Port Area Crude Oil Tank Farm</name>
+					<description>Status: Operational (latest 3 million m³ phase approved and launched January 2025)
+Operator: CNOOC Yantai Port Oil Terminal Co. / Shandong Port Yantai Port Pipeline Co.
+Type: Crude storage, blending and consolidation park — no distillation or cracking units; this is NOT a refinery
+Capacity: 8.73 million m³ combined tank storage
+Role: Receives crude from the VLCC berths, blends and holds it, then feeds it onward by pipeline to refineries in Dongying, Zibo and Binzhou, and to Yulong Petrochemical
+Why it matters: Branded &quot;China&apos;s largest crude oil blending base&quot; — the inland buffer for the entire West Port Area crude system
+Risks: Single concentrated storage point for multiple downstream refineries — contamination or outage here has knock-on effects across several refining hubs at once</description>
+					<LookAt>
+						<longitude>121.1041838398534</longitude>
+						<latitude>37.70484449157609</latitude>
+						<altitude>0</altitude>
+						<heading>0.1131348690745979</heading>
+						<tilt>26.27711801438858</tilt>
+						<range>5900.077700942375</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>121.0932723990625,37.70705994808583,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -16688,11 +16201,11 @@ Onward routes: Seaborne export through the Bosphorus, plus a branch to the Tuaps
 Recent: A 2013 rupture near Volgograd halted Novorossiysk crude exports entirely until repairs were completed, showing how much depends on this single corridor
 Why it matters: Without this line, Sheskharis and the Novorossiysk export complex have no crude supply — it was the missing link between Russia&apos;s producing regions and its Black Sea outlet
 Alignment: schematic — the junction and its connections are documented, the drawn corridor is indicative</description>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						49.97016710607552,53.07391770181864,0 45.94510836442021,51.44980250085342,0 44.61271530910791,48.4973713344601,0 42,46.8,0 40.18253453683641,45.84325024962189,0 37.84750096792315,44.70848344382962,0 
+						49.97016710607552,53.07391770181864,0 45.9451083644202,51.44980250085342,0 44.61271530910791,48.4973713344601,0 42,46.8,0 40.18253453683641,45.84325024962189,0 37.84750096792315,44.70848344382962,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -17431,7 +16944,7 @@ Risks: No substitute for three countries&apos; refining if Trieste stops; alloca
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						13.76228349369942,45.64661359195608,0 13.85767312847591,45.61548374646001,0 13.26435795224233,46.07259942907043,0 12.96374937533919,46.67711969847841,0 12.11198020719152,47.60071153174676,0 11.4715556770973,48.79648019899382,0 8.339070075605893,49.05576611100012,0 
+						13.77550098273485,45.61319827315029,0 13.77727374525369,45.61370141930723,0 13.78240217065374,45.61178204791898,0 13.78412050415679,45.6133972613861,0 13.78529699639504,45.6163076833726,0 13.81102752110636,45.6142247580168,0 13.83615959171304,45.60167180829905,0 13.74052183269972,45.70851231053821,0 13.26435795224233,46.07259942907043,0 12.96374937533919,46.67711969847841,0 12.11198020719152,47.60071153174676,0 11.4715556770973,48.79648019899382,0 8.339070075605893,49.05576611100012,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -17874,9 +17387,23 @@ Risks: The pipeline is not yet in service; its value depends on completion and c
 					</coordinates>
 				</LineString>
 			</Placemark>
-			<Folder>
-				<name>Trunk lines</name>
-			</Folder>
+			<Placemark>
+				<name>Yulong Crude Oil Pipeline</name>
+				<description>Status: Operational (construction began March 2023 — worth confirming current completion status, since mid-2025 reporting still described it as under construction)
+Owner/Operator: Supporting infrastructure for Shandong Yulong Petrochemical, built jointly with Yantai Port Group
+Route: Yantai West Port Area crude terminal/tank farm -&gt; Shandong Yulong Petrochemical, Yulong Island
+Capacity: 20 Mt/yr; 711mm diameter, 8 MPa design pressure
+Infrastructure: Two crude oil transmission (pump) stations and six pipeline valve chambers along the route
+Why it matters: The only link between Yulong&apos;s refinery and the sea — without it, VLCC cargoes landing at Yantai would have no way to reach Yulong Island
+Risks: Single pipeline for the site&apos;s entire seaborne crude supply; construction timeline has slipped before</description>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						121.1365714794521,37.71555610613889,0 121.1356550023814,37.71246429020434,0 121.1352369065054,37.71239631850787,0 121.1346886474759,37.71201717161075,0 121.1344276071515,37.71132397420992,0 121.1347888803355,37.71104020631847,0 121.1347278342646,37.7107944264105,0 121.1327931547359,37.70735376651475,0 121.0947749656446,37.70773401250116,0 121.041536119808,37.70015892132843,0 120.8702576250984,37.80106729349484,0 120.5508733682651,37.73857744705739,0 120.2975147717809,37.65824238074141,0 120.2768630736867,37.61394971011441,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>Product Pipelines</name>
@@ -18512,29 +18039,29 @@ Risks: Third major low-water shock since 2018; heat and low soil moisture across
 			<Folder>
 				<name>Crude-grade delivery routes</name>
 				<Placemark>
-					<name>Cold Lake Blend route</name>
+					<name>Cold Lake Blend route to China</name>
 					<description>Status: Operational
 Crude: Cold Lake Blend
 API: ~19.5–20°
 Sulfur: ~3.5–3.9%
 Type: Heavy, sour diluted bitumen
-Origin: Cold Lake oil sands, Alberta — in-situ steam recovery, blended with diluent and moved toward Edmonton and the Trans Mountain system
-Markets: Canada and the US; growing exports to the US West Coast and Asia via Westridge; Rotterdam is a representative route rather than the grade&apos;s primary destination
+Origin: Cold Lake oil sands, Alberta — in-situ steam recovery, blended with diluent and moved via the Trans Mountain Pipeline to the Westridge Marine Terminal, Burnaby
+Markets: Mainly Asia — more than 65% of Westridge-loaded cargoes head there, China first, plus South Korea, Japan and India; the balance to the US West Coast
 Used for: Heavy fuel components, asphalt feedstock and diesel in coker-equipped refineries
-Pricing: Discount to WTI and Brent — density, sulphur and conversion costs; varies with pipeline space, freight and heavy-crude demand
-Vessels: Aframax from Westridge; larger onward cargoes may need transshipment
-Transit: ~30–40 days to Rotterdam via the Pacific, Panama, the Atlantic and the Channel
-Risks: Pipeline congestion; diluent costs; Alberta wildfires; Vancouver loading limits; Panama delays; dense Channel traffic</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40100</styleUrl>
+Pricing: Discount to WTI and Brent for density, sulphur and conversion costs; the discount has narrowed since Trans Mountain opened direct access to Asian buyers
+Vessels: Aframax loaded at Westridge — Burrard Inlet&apos;s Second Narrows limits vessel size, so some cargoes top up via ship-to-ship transfer offshore before the Pacific crossing
+Transit: ~18–24 days to Ningbo across the Pacific
+Risks: Trans Mountain pipeline apportionment/congestion; diluent costs; Alberta wildfires; Second Narrows draft limits</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							-122.9503306837298,49.29256052822069,0 -122.9886787385938,49.297363373236,0 -123.03867969983,49.2945775599874,0 -123.1187771943973,49.30589433897714,0 -123.1461637179374,49.31678433038616,0 -123.3157237715666,49.29462827299921,0 -123.2464980090907,48.9980098556422,0 -122.7697388353561,48.77715346944888,0 -122.7262533890443,48.69318431566241,0 -122.7134233520914,48.64643781797013,0 -122.766813022603,48.60091286685455,0 -122.7448458719561,48.53580390159445,0 -122.7373946143586,48.46699870806302,0 -122.788949949047,48.37171004490007,0 -123.0738597137385,48.33852394621379,0 -123.6104329313314,48.21781843142938,0 -124.0226665501809,48.35882185193474,0 -124.8090046430334,48.49600452868943,0 -125.2559730440532,48.26864082113483,0 -124.9326941105553,43.25181559241435,0 -124.7298321360843,40.163632354479,0 -122.9891383352414,37.00777096312046,0 -121.1287351728574,34.0633036882848,0 -117.4796883128919,29.44701438068472,0 -113.5211494032913,24.44472706662589,0 -107.0012034434513,19.59265022955412,0 -99.55112964775307,16.21758790174492,0 -87.10416373764498,10.32904596717877,0 -81.84052082323973,6.910295955756708,0 -79.59441931371289,7.359359932307432,0 -79.39524412936809,8.49029399803949,0 -79.4695248540765,8.826030363233176,0 -79.51415873696435,8.880494748965363,0 -79.55894336755554,8.93668172027769,0 -79.56938900059953,8.949286554964212,0 -79.57131316453609,8.959602902474249,0 -79.57831828088172,8.971542480614055,0 -79.579988999511,8.980367983594668,0 -79.58344163249321,8.987693764917999,0 -79.58739403370637,8.993059078282316,0 -79.59182247435021,8.997079887036765,0 -79.59506934176406,9.000536286687664,0 -79.59734424778377,9.003243009184835,0 -79.60909088608125,9.014619458158132,0 -79.61054184414083,9.015402436572746,0 -79.61532422751816,9.019631849710239,0 -79.61765986322773,9.02178552777554,0 -79.62443328994713,9.025415008336486,0 -79.63293310583747,9.030791961886621,0 -79.6460599472026,9.041791602843256,0 -79.65862361248809,9.057312624870752,0 -79.67120068072187,9.068384158906449,0 -79.67781727868753,9.084156803372364,0 -79.68521064903999,9.097238479051525,0 -79.69160699741002,9.10686183948004,0 -79.70690233273524,9.114544448471269,0 -79.72880815802462,9.118780993741067,0 -79.74096714017257,9.120136587097305,0 -79.75094291740935,9.120895631887679,0 -79.76759732081263,9.115254755267697,0 -79.78161023468159,9.115739766057384,0 -79.80074069662993,9.120883678854696,0 -79.81329537941834,9.158103017485466,0 -79.82924064031904,9.175834266943784,0 -79.84104988967144,9.180545168661736,0 -79.84842589321721,9.18384084584538,0 -79.86232209927955,9.180804418826627,0 -79.88150987018969,9.189138949607367,0 -79.92315739342499,9.208923759716733,0 -79.92717351133284,9.233883456898416,0 -79.91050165982203,9.258714994413181,0 -79.91145478572123,9.265342129012668,0 -79.9130138124865,9.275865701709527,0 -79.91416143674375,9.283239129480517,0 -79.91548973236067,9.294067108574552,0 -79.91818445091312,9.323335490004402,0 -79.92052325692561,9.356054579522455,0 -79.91950705847452,9.387813465055899,0 -79.92371560742274,9.41122932776959,0 -75.43236281736988,17.8767968824456,0 -74.9145212339552,19.24660738961969,0 -73.20034219854234,20.47780946294285,0 -72.48892828571009,21.25510505572491,0 -72.70170199067319,21.99337795317785,0 -71.46748249382223,22.88127491368434,0 -42.29183723660715,46.95777899961297,0 -5.164429356850181,49.53607404515451,0 0.9447864265318651,50.74476889792429,0 4.132942043834631,51.94370740681838,0 
+							-122.9503306837298,49.29256052822069,0 -122.9886787385938,49.297363373236,0 -123.03867969983,49.2945775599874,0 -123.1187771943973,49.30589433897714,0 -123.1461637179374,49.31678433038616,0 -123.3157237715666,49.29462827299921,0 -123.2464980090907,48.9980098556422,0 -122.7697388353561,48.77715346944888,0 -122.7262533890443,48.69318431566241,0 -122.7134233520914,48.64643781797013,0 -122.766813022603,48.60091286685455,0 -122.7448458719561,48.53580390159445,0 -122.7373946143586,48.46699870806302,0 -122.788949949047,48.37171004490007,0 -123.0738597137385,48.33852394621379,0 -123.6104329313314,48.21781843142938,0 -124.0226665501809,48.35882185193474,0 -124.8090046430334,48.49600452868943,0 -125.2559730440532,48.26864082113483,0 -144.111421126951,40.94675348696524,0 162.0372321191775,36.08294539986126,0 143.351676212895,31.92845103785041,0 131.4636296233113,31.029058077897,0 130.6362670588787,30.9010405749671,0 129.8281701941333,31.0217835445011,0 128.6813603906386,30.90837707576751,0 122.5035758668214,29.99227390285078,0 122.4204759221562,29.98078435712917,0 122.3904714097123,29.96806409197257,0 122.3597389509263,29.96907944977009,0 122.3345767217875,29.9591065296179,0 122.3141373275814,29.92308582634765,0 122.2611894904067,29.90681121734877,0 122.1623675076437,29.91885744112878,0 122.0729286917206,29.91452390905194,0 122.0153050326203,29.92913611640222,0 121.9902855801144,29.92808609043361,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
 				<Placemark id="0DBB3F106040213031C4">
-					<name>Ekofisk crude route</name>
+					<name>Ekofisk crude route to the Netherlands </name>
 					<description>Status: Operational
 Crude: Ekofisk Blend
 API: ~38.8°
@@ -18565,7 +18092,7 @@ Risks: North Sea weather, Norpipe or terminal outages, loading delays and conges
 					</LineString>
 				</Placemark>
 				<Placemark id="0CE1A26CAC402138B5D4">
-					<name>Forties route</name>
+					<name>Forties route to the Netherlands </name>
 					<description>Status: Operational
 Crude: Forties Blend
 API: ~42.1°
@@ -18588,7 +18115,7 @@ Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading de
 						<range>40011.55875130557</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4100</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<coordinates>
 							-3.356181009372454,56.0072756934243,0 -3.143069616519386,56.01630370323091,0 -2.501747590983237,56.15451260494337,0 4.130799410605411,51.94944354803467,0 
@@ -18596,7 +18123,7 @@ Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading de
 					</LineString>
 				</Placemark>
 				<Placemark id="0D1381C8C640213F3148">
-					<name>Johan Sverdrup route</name>
+					<name>Johan Sverdrup route to the Netherlands </name>
 					<description>Status: Operational
 Crude: Johan Sverdrup
 API: ~28.0–28.7°
@@ -18619,7 +18146,7 @@ Risks: North Sea weather, pipeline or terminal outages, loading delays and conge
 						<range>43446.99073781725</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<coordinates>
 							5.017424123675614,60.82295319523157,0 4.989643776075658,60.83530221912016,0 4.932523943601581,60.84191638586307,0 4.836817720843445,60.84157951314158,0 4.635550344100561,60.71376640080043,0 4.135001774504474,51.94943400494363,0 
@@ -18627,7 +18154,7 @@ Risks: North Sea weather, pipeline or terminal outages, loading delays and conge
 					</LineString>
 				</Placemark>
 				<Placemark id="0256BA5DAA40214A3860">
-					<name>WTI Midland route</name>
+					<name>WTI Midland route to the Netherlands </name>
 					<description>Status: Operational
 Crude: WTI Midland
 API: 40–44°
@@ -18650,7 +18177,7 @@ Risks: Permian pipeline constraints, Gulf Coast hurricanes, terminal congestion,
 						<range>105387.8634237126</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4011</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<coordinates>
 							-94.79619732647615,29.35565974678772,0 -94.70674939873602,29.34160401425848,0 -81.45740385683968,23.43847136242035,0 -51.29572388033871,45.01403269393709,0 -5.283560155080528,49.6212484646782,0 0.9590478230107591,50.76923381833073,0 4.134642877007093,51.94239082545266,0 
@@ -18658,7 +18185,7 @@ Risks: Permian pipeline constraints, Gulf Coast hurricanes, terminal congestion,
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Azeri light route</name>
+					<name>Azeri light route to France</name>
 					<description>Status: Operational
 Crude: Azeri Light
 API: ~35.3–35.6°
@@ -18672,7 +18199,7 @@ Vessels: Typically Aframax or Suezmax loaded at Ceyhan
 Connectivity: Route to Cressier — Ceyhan → Fos-sur-Mer → SPSE → Jura line → Cressier (VAROPreem); alternatively by sea via Gibraltar and the Channel to Rotterdam
 Transit: ~5–7 days to Fos-sur-Mer; ~12–16 days to Rotterdam
 Risks: BTC outages; Ceyhan loading disruption; Turkish and Mediterranean geopolitics; Gibraltar and Channel congestion; crude-quality contamination</description>
-					<styleUrl>#msn_ylw-pushpin100</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18681,29 +18208,29 @@ Risks: BTC outages; Ceyhan loading disruption; Turkish and Mediterranean geopoli
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>CPC blend route</name>
+					<name>CPC blend route to Italy</name>
 					<description>Status: Operational
 Crude: CPC Blend
 API: ~45.3°
 Sulfur: ~0.56%
 Type: Very light, sweet crude
 Origin: Mainly Kazakhstan; transported by the CPC pipeline and exported from the CPC Marine Terminal near Novorossiysk, Russia
-Markets: Mainly Mediterranean and Northwest European refiners; also Turkey and selected Asian buyers
+Markets: Trieste is CPC Blend&apos;s single largest destination worldwide. Non-Russian origin keeps it outside the EU&apos;s ban on Russian seaborne crude. Most volume doesn&apos;t stay in Italy — it feeds the Trans-Alpine Pipeline (TAL) onward to Austria, Czechia and southern Germany; Eni holds stakes in both CPC and TAL
 Used for: Gasoline, naphtha, jet fuel, diesel and petrochemical feedstocks
-Pricing: Usually trades at a variable differential to Dated Brent, depending on Mediterranean demand, freight and Black Sea supply conditions
-Vessels: Typically Aframax or Suezmax tankers loaded through offshore single-point moorings
-Transit: Around 10–14 days to Rotterdam via the Bosporus, Dardanelles, Mediterranean, Gibraltar and English Channel
-Risks: Black Sea security, sanctions exposure, CPC pipeline or terminal outages, weather-related loading delays and congestion in the Turkish Straits</description>
-					<styleUrl>#msn_ylw-pushpin100</styleUrl>
+Pricing: Variable differential to Dated Brent, depending on Mediterranean demand, freight and Black Sea supply conditions
+Vessels: Aframax or Suezmax, loaded at the CPC Marine Terminal, discharging at Trieste&apos;s offshore buoy into the TAL system
+Transit: ~5–7 days via the Bosphorus, the Aegean and the Adriatic to Trieste
+Risks: Bosphorus/Dardanelles congestion and weather closures; CPC pipeline or Tengiz field maintenance; elevated war-risk insurance for vessels calling Russian-flagged ports, even for non-Russian-origin cargo; any future EU move to extend sanctions to non-Russian oil moving via Russian ports</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							37.83866262542833,44.70172183363285,0 37.78233206841498,44.62130735726012,0 29.16342885802764,41.26035180641154,0 29.09344075427948,41.18601197034901,0 29.05598115851148,41.15618596463646,0 29.08097648963082,41.12382241387383,0 29.06179810080314,41.10211276718537,0 29.06084926141548,41.08193506502225,0 29.0511086413556,41.07422035782206,0 29.0474337731847,41.05947319055024,0 29.02326277409781,41.03908594398175,0 28.99822475370595,41.02061494435501,0 28.97805425703837,40.98067354185026,0 27.45316023524605,40.71773285671058,0 26.76220272304491,40.43183618333448,0 26.68122661061559,40.387410381305,0 26.60481524815661,40.30827823231867,0 26.54197509455605,40.2807856651187,0 26.42831540067805,40.21246964918598,0 26.38376083024646,40.19799563117036,0 26.38874226979294,40.15525530186876,0 26.38285513368857,40.12142273290456,0 26.34803359634338,40.10227127483115,0 26.24591903070059,40.03196636562739,0 26.13234267820692,40.02329856409648,0 25.80818711183345,39.94311138978203,0 24.57044421667583,37.88268901932735,0 24.16102201452669,37.59292177151861,0 23.25186021693145,36.05883499954927,0 21.97655649699625,35.74861942367946,0 14.66385890180048,36.18289084899617,0 7.715136497917452,37.95882191503702,0 -5.603384900478875,35.96805290473436,0 -9.532116124433026,37.07871577959747,0 -10.19872497839157,40.53489472586042,0 -9.424093093846599,43.88303426596605,0 -4.594376652480006,49.38497170888705,0 0.9338252200021091,50.69135324681216,0 4.126426013151128,51.94546062464889,0 
+							37.83866262542833,44.70172183363285,0 37.78233206841498,44.62130735726012,0 29.16342885802764,41.26035180641154,0 29.09344075427948,41.18601197034901,0 29.05598115851148,41.15618596463646,0 29.08097648963082,41.12382241387383,0 29.06179810080314,41.10211276718537,0 29.06084926141548,41.08193506502225,0 29.0511086413556,41.07422035782206,0 29.0474337731847,41.05947319055024,0 29.02326277409781,41.03908594398175,0 28.99822475370595,41.02061494435501,0 28.97805425703837,40.98067354185026,0 27.45316023524605,40.71773285671058,0 26.76220272304491,40.43183618333448,0 26.68122661061559,40.387410381305,0 26.60481524815661,40.30827823231867,0 26.54197509455605,40.2807856651187,0 26.42831540067805,40.21246964918598,0 26.38376083024646,40.19799563117036,0 26.38874226979294,40.15525530186876,0 26.38285513368857,40.12142273290456,0 26.34803359634338,40.10227127483115,0 26.24591903070059,40.03196636562739,0 26.13234267820692,40.02329856409648,0 25.80818711183345,39.94311138978203,0 24.57044421667583,37.88268901932735,0 24.16102201452669,37.59292177151861,0 23.25186021693145,36.05883499954927,0 21.97655649699625,35.74861942367946,0 19.19253595223976,37.45782229233757,0 18.98181632850758,40.13498547798529,0 17.44792469305663,41.76968981472564,0 15.52898698076275,42.57680683144718,0 13.98040341514141,44.35299522373106,0 13.19726158770322,45.29973084368765,0 13.42227665491008,45.56351624793179,0 13.66463201801409,45.63024496551826,0 13.77383815783728,45.61307818296437,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Sakhalin Blend route</name>
+					<name>Sakhalin Blend route to Japan</name>
 					<description>Status: Operational
 Crude: Sakhalin Blend
 API: ~45.5°
@@ -18716,16 +18243,16 @@ Pricing: Usually assessed against Dubai/Oman or regional Asia-Pacific light-crud
 Vessels: Typically loaded on Aframax tankers at Prigorodnoye
 Transit: Around 4–7 days to northern Japan, depending on destination and weather
 Risks: Ice, severe winter weather, sanctions, payment restrictions and navigation constraints around Sakhalin and northern Japan</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							142.9006456742749,46.61873747316218,0 141.5623691943156,45.49276719485507,0 141.3827071167546,45.03869695117476,0 139.4721651446526,42.60092986480934,0 140.0151955553191,41.32495482742858,0 140.6021420849281,41.44741676103369,0 140.8071754312673,41.61090640265814,0 141.6654629314855,41.56036331282692,0 142.2561649694888,39.7629968487598,0 142.0127049640764,38.39255839523572,0 141.1780298573978,35.63681179304683,0 139.9655120818732,34.78751613795448,0 139.6450273583489,34.95764014411917,0 139.7472986431494,35.21080849318149,0 139.77140697677,35.27834299979333,0 139.7433003865024,35.34031154840779,0 139.9907621055193,35.49544581553457,0 
+							142.9006456742749,46.61873747316218,0 141.5623691943156,45.49276719485507,0 141.3827071167546,45.03869695117476,0 139.4721651446526,42.60092986480934,0 140.0151955553191,41.32495482742858,0 140.6021420849281,41.44741676103369,0 140.8071754312673,41.61090640265814,0 141.6654629314855,41.56036331282692,0 142.2561649694888,39.7629968487598,0 142.0127049640764,38.39255839523572,0 141.1780298573978,35.63681179304683,0 139.9655120818732,34.78751613795448,0 139.6450273583489,34.95764014411917,0 139.7472986431494,35.21080849318149,0 139.77140697677,35.27834299979333,0 139.7433003865024,35.34031154840779,0 139.9749286541638,35.48359240578024,0 140.0067431477358,35.48020543651261,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Arab Light &amp; Arab Super Light route</name>
+					<name>Arab Light &amp; Arab Super Light route to the Netherlands </name>
 					<description><![CDATA[Status: Operational
 Crude: Arab Light & Arab Super Light
 API: 32–36° / >40°
@@ -18738,7 +18265,7 @@ Pricing: Monthly Aramco OSPs — European cargoes vs ICE Brent, Asian cargoes vs
 Vessels: Usually VLCC; Suezmax depending on cargo size and routing
 Transit: ~25–35 days to Rotterdam via the Red Sea and Suez; longer around the Cape
 Risks: Hormuz disruption; Red Sea and Bab el-Mandeb security; Suez congestion; war-risk premiums; Cape rerouting]]></description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=420</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18747,7 +18274,7 @@ Risks: Hormuz disruption; Red Sea and Bab el-Mandeb security; Suez congestion; w
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Hebron crude route</name>
+					<name>Hebron crude route to the Netherlands </name>
 					<description>Status: Operational
 Crude: Hebron
 API: 20.4–21.2°
@@ -18759,7 +18286,7 @@ Pricing: Variable discount to Dated Brent
 Vessels: Ice-strengthened Aframax shuttle tanker, then Aframax/Suezmax to Rotterdam
 Transit: 9–12 days
 Risks: Icebergs, Atlantic storms, loading delays and Dover Strait congestion</description>
-					<styleUrl>#msn_ylw-pushpin001</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18768,7 +18295,7 @@ Risks: Icebergs, Atlantic storms, loading delays and Dover Strait congestion</de
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Saharan Blend route</name>
+					<name>Saharan Blend route to France</name>
 					<description>Status: Operational
 Crude: Saharan Blend — a commingled export blend, not a single field
 API: ~45°
@@ -18781,7 +18308,7 @@ Pricing: Monthly Sonatrach OSP as a differential to Dated Brent, frequently at a
 Vessels: Usually Aframax; Suezmax for larger cargoes
 Transit: ~2 days / ~450 nm from Skikda to Fos-sur-Mer; ~5–6 days to Rotterdam via Gibraltar
 Risks: Low — no major chokepoints; Gulf of Lion mistral weather, port congestion, occasional Algerian loading or pipeline disruptions</description>
-					<styleUrl>#stylemap_id0200</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18790,7 +18317,7 @@ Risks: Low — no major chokepoints; Gulf of Lion mistral weather, port congesti
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Es Sider route</name>
+					<name>Es Sider route to France</name>
 					<description>Status: Operational
 Crude: Es Sider — a commercial export blend named after its terminal, fed by several Sirte Basin fields
 API: ~37°
@@ -18803,7 +18330,7 @@ Pricing: Monthly NOC/Waha OSP as a differential to Dated Brent, with a Libyan po
 Vessels: Usually Suezmax or Aframax, loaded offshore at the SBMs
 Transit: ~5–6 days / ~1,300–1,450 nm to Fos-sur-Mer via the Strait of Sicily; ~7–9 days to Rotterdam via Gibraltar
 Risks: Libyan political instability — field shutdowns, port blockades and force majeure at the terminal; militia risk; Strait of Sicily traffic</description>
-					<styleUrl>#stylemap_id250</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18812,7 +18339,7 @@ Risks: Libyan political instability — field shutdowns, port blockades and forc
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Girassol route</name>
+					<name>Girassol route to Netherlands </name>
 					<description>Status: Operational
 Crude: Girassol Blend — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO
 API: ~30°
@@ -18825,7 +18352,7 @@ Pricing: Variable differential to Dated Brent, in line with West African OSPs
 Vessels: Suezmax to Europe; VLCC for Asia — vessel size drives the discharge port via draft limits
 Transit: ~20–24 days / ~6,400–6,900 nm up the Atlantic to Lysekil; longer to Asia via the Cape
 Risks: Gulf of Guinea piracy at loading; Atlantic and North Sea weather; VLCC draft limits. No Suez, Hormuz or Gibraltar transit</description>
-					<styleUrl>#stylemap_id2400</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18834,29 +18361,29 @@ Risks: Gulf of Guinea piracy at loading; Atlantic and North Sea weather; VLCC dr
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Dalia crude route</name>
+					<name>Dalia crude route to the Netherlands </name>
 					<description>Status: Operational
-Crude: Dalia
-API: 23.3–23.7°
-Sulfur: 0.49–0.51%
-Type: Heavy, sweet offshore crude
-Origin: Dalia Field, Block 17, offshore Angola
-Markets: Mainly China; also Spain, France and the Netherlands
-Used for: Low-sulfur fuel oil, middle distillates and heavy refinery products
-Pricing: Traded at a variable differential to Dated Brent; premium or discount depends on Asian demand, freight and refinery margins
-Vessels: Loaded offshore from the Dalia FPSO, typically on Suezmax or VLCC tankers; Suezmax is suitable for Rotterdam
-Transit: Approximately 17–21 days to Rotterdam
-Risks: Offshore-loading delays, Atlantic weather, piracy risk in the Gulf of Guinea, and congestion in the English Channel and Dover Strait</description>
-					<styleUrl>#stylemap_id2200</styleUrl>
+Crude: Girassol Blend — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO
+API: ~30°
+Sulfur: ~0.34%
+Type: Medium, sweet
+Origin: Angola, deepwater Block 17 — exported directly offshore via a CALM buoy; no onshore terminal or pipeline
+Markets: Secondary market — Europe takes a minority share, mainly Spain and the Netherlands; China is the grade&apos;s dominant buyer (see the Asia-bound route)
+Used for: Good gasoil and middle-distillate yield with low sulphur — suits complex NW European cracking refineries
+Pricing: Variable differential to Dated Brent, in line with West African OSPs
+Vessels: Suezmax or VLCC, loaded via CALM buoy transfer from the Girassol FPSO
+Transit: ~17–21 days to Rotterdam
+Risks: FPSO offloading weather windows; Gulf of Guinea piracy exposure; cheaper US and North Sea grades compete for Europe&apos;s remaining call on Angolan barrels</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							11.76544131761719,-7.681535226026257,0 4.536441809271747,-2.835720222568552,0 -1.614842598021807,0.2763960812980644,0 -12.00129151352508,2.551203955325124,0 -17.70786186250704,6.581071791601223,0 -19.82995782259071,9.839589195019903,0 -21.61931288423892,23.43855453158856,0 -19.53481159370532,30.67855054242659,0 -17.52297741361756,38.04926625872795,0 -4.761200990858232,49.43662018052165,0 0.9701809793403537,50.74199319155846,0 4.131082550290229,51.9482318168594,0 
+							11.26704651702892,-8.066518233474815,0 4.536441809271747,-2.835720222568552,0 -1.614842598021807,0.2763960812980644,0 -12.00129151352508,2.551203955325124,0 -17.70786186250704,6.581071791601223,0 -19.82995782259071,9.839589195019903,0 -21.61931288423892,23.43855453158856,0 -19.53481159370532,30.67855054242659,0 -17.52297741361756,38.04926625872795,0 -4.761200990858232,49.43662018052165,0 0.9701809793403537,50.74199319155846,0 4.131082550290229,51.9482318168594,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Liza route</name>
+					<name>Liza route to the Netherlands </name>
 					<description>Status: Operational
 Crude: Liza — a single-development stream from the Liza Destiny FPSO (distinct from Unity Gold and Payara Gold)
 API: ~32°
@@ -18869,7 +18396,7 @@ Pricing: Differential to Dated Brent (the &quot;Latin Dated Brent&quot; strip), 
 Vessels: Usually Suezmax; some Aframax, loaded offshore via tandem transfer
 Transit: ~13–16 days / ~4,400–4,800 nm transatlantic to Lysekil via the Channel or north-about Scotland
 Risks: North Atlantic and North Sea weather; Channel traffic density; the Skagerrak approach; offshore-loading weather windows. No piracy or chokepoint exposure</description>
-					<styleUrl>#stylemap_id2000</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18878,7 +18405,7 @@ Risks: North Atlantic and North Sea weather; Channel traffic density; the Skager
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Bonny light route</name>
+					<name>Bonny light routeto the Netherlands </name>
 					<description>Status: Operational
 Crude: Bonny Light
 API: ~32.9°
@@ -18891,11 +18418,99 @@ Pricing: Usually priced at a premium or discount to Dated Brent; during the Marc
 Vessels: Typically loaded in standard cargoes of about 950,000 barrels, generally on Suezmax tankers
 Transit: Around 14–18 days from Bonny Terminal to Rotterdam
 Risks: Pipeline theft and sabotage, loading disruptions, Niger Delta security, Gulf of Guinea piracy, Atlantic weather and congestion in the English Channel</description>
-					<styleUrl>#stylemap_id2100</styleUrl>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
 							7.23601612836013,4.186051310318629,0 -2.029843047285954,2.486752225410701,0 -13.7248869146074,5.009875575122981,0 -17.12158071933448,8.2025552059473,0 -19.52891200513968,13.01695271688328,0 -19.9207342979282,20.26835459409283,0 -17.76730771128898,34.63708845652644,0 -16.97752476503559,38.14051706520546,0 -4.88973458264132,49.31169483701833,0 1.013132019619878,50.74425844742829,0 4.129293757455152,51.94558585600767,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Girassole route to China</name>
+					<description>Status: Operational
+Crude: Girassol Blend — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO
+API: ~30°
+Sulfur: ~0.34%
+Type: Medium, sweet
+Origin: Angola, deepwater Block 17 — exported directly offshore via a CALM buoy; no onshore terminal or pipeline
+Markets: Primary market — China takes over half of Angola&apos;s total crude exports. Shandong&apos;s refiners, including newly consolidated mega-refiner Yulong Petrochemical, are confirmed direct Girassol buyers, alongside state majors Sinopec, PetroChina and CNOOC
+Used for: Good gasoil and middle-distillate yield with low sulphur — well suited to China&apos;s large Shandong refining cluster
+Pricing: Variable differential to Dated Brent, in line with West African OSPs; competes directly with Russian ESPO Blend for the same Shandong buyers
+Vessels: VLCC, loaded via CALM buoy transfer from the Girassol FPSO
+Transit: ~35–40 days via the Cape of Good Hope and the Strait of Malacca &amp; Singapore Strait
+Risks: FPSO offloading weather windows; Gulf of Guinea piracy exposure; Yulong Petrochemical sanctioned by the UK and EU (Oct 2025) over Russian energy ties; passes through the Strait of Malacca &amp; Singapore Strait, one of the world&apos;s most concentrated shipping chokepoints</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							11.2653174449557,-8.076742223740878,0 10.81975580175713,-18.99944958994419,0 14.80406740566737,-30.98739558591099,0 18.17355302499479,-35.00399288348186,0 23.37865522340299,-36.31970087861347,0 41.69130240160886,-34.35081788461549,0 44.89841389019669,-33.74741018232838,0 67.11788151303614,-25.31573025842344,0 87.70619083512814,0.8892568508603993,0 94.06568363288427,6.379148517560592,0 95.75054254264244,6.98016649167917,0 100.8723843407467,2.92681667041189,0 102.9170638450204,1.408358148854839,0 103.5065429540714,1.145202201211242,0 103.6988481734789,1.108328741818493,0 103.8946296668218,1.220218811177622,0 104.2208509101919,1.263023762941089,0 104.3901344336628,1.386795417926294,0 105.0675664016301,3.135188584480742,0 109.7980589966798,10.15635217573082,0 113.7442715709893,16.65763227795392,0 117.7635869113658,20.9362179748123,0 119.2171379728269,23.95064631647308,0 121.5163735680541,26.84805869926113,0 122.9161442376522,28.59961786713573,0 123.6594440906286,32.97450353506709,0 123.1889896181156,37.66554675073584,0 121.7882720384125,37.89544060163919,0 121.1978528683809,37.75903493965704,0 121.1369857959815,37.71588538917756,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>WTI Midland to South Korea </name>
+					<description>Status: Operational
+Crude: WTI Midland
+API: 40–44°
+Sulfur: Below 0.20%, typically around 0.08–0.13%
+Type: Light, sweet U.S. crude
+Origin: Permian Basin, mainly the Midland Basin in West Texas; transported by pipeline to Gulf Coast export terminals
+Markets: South Korea — Asia&apos;s largest and most consistent US crude buyer. SK Energy (Ulsan) and GS Caltex are the leading purchasers; the Hormuz crisis sharply accelerated Korean buying of non-Middle East barrels in 2026. China is not a realistic market for this leg — US crude purchases there have collapsed since 2025 under retaliatory tariffs
+Used for: Gasoline, naphtha, jet fuel, diesel and petrochemical feedstocks — Ulsan is SK Energy&apos;s flagship complex, among the world&apos;s largest single refining sites
+Pricing: Traded against WTI Houston and Dated Brent, at a freight-adjusted premium for the long Pacific voyage
+Vessels: Suezmax — smaller vessels are used specifically to take the faster Panama Canal route rather than the longer Cape of Good Hope/Atlantic alternative used for larger cargoes
+Transit: ~33–38 days via the Panama Canal and a direct Pacific crossing
+Risks: Panama Canal transit caps and drought restrictions (renewed El Niño risk heading into the Dec 2026–April 2027 dry season, after record transit-slot auction prices in 2026); South Korean demand is itself tariff-policy-sensitive and could shift again</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-94.79570668085051,29.35059750795379,0 -94.71309080127878,29.33735150529797,0 -94.48308010125702,29.2365635003273,0 -86.03743255941066,21.59121710768539,0 -82.55180492587233,17.64524209769067,0 -81.32552360717004,14.20041097180411,0 -80.12679498772711,12.23870453985508,0 -79.91933610908013,9.399936119927302,0 -79.91814396654004,9.384350644974138,0 -79.9206383933513,9.352817070063983,0 -79.91872908896183,9.313501667425465,0 -79.92085449513492,9.288888169606212,0 -79.92223707339372,9.280056653054956,0 -79.92268300079992,9.276773167287585,0 -79.92379436083013,9.268450759078656,0 -79.92470645527743,9.261503896214601,0 -79.92160526826457,9.236415558391551,0 -79.92655297464357,9.213510372122109,0 -79.897167055502,9.195124143836416,0 -79.86095097379902,9.180385296097491,0 -79.84390263310563,9.183711703852454,0 -79.83378966896493,9.176858364245943,0 -79.81787078005705,9.174622931563503,0 -79.80954621120043,9.16746412589316,0 -79.81030510323048,9.140027379778399,0 -79.80578265821265,9.123880943972896,0 -79.79357998372869,9.117135173512342,0 -79.78003134018613,9.115977463222363,0 -79.76816424952941,9.112571374100531,0 -79.75263589282618,9.121232320437672,0 -79.71379230754803,9.116300144326264,0 -79.7024534211107,9.113051145917376,0 -79.69161445245926,9.107165975562536,0 -79.68302542781879,9.093652918786372,0 -79.67872638251802,9.086667575735575,0 -79.67119478089079,9.068885406873184,0 -79.65754302866699,9.056972882998277,0 -79.64328954234475,9.038525168030969,0 -79.62411396694466,9.024645926705345,0 -79.61723354946903,9.020506703681994,0 -79.61483009505575,9.018606318686123,0 -79.60815755211731,9.012461550601499,0 -79.5967326566555,9.001259746837153,0 -79.59497930119247,8.999628214825455,0 -79.58863732265675,8.993129590440718,0 -79.58173137189331,8.98435029317274,0 -79.57825713292598,8.971897970026049,0 -79.57213123509179,8.960206490539587,0 -79.56838302066132,8.947703171193517,0 -79.56207971589454,8.939962105446723,0 -79.54079973554306,8.915717771605708,0 -79.51000501626072,8.872853951039385,0 -79.48419733214659,8.826453870945647,0 -79.3806718935834,8.306234299482677,0 -79.47492703034924,7.222367364012789,0 -81.34208401958549,5.868750637811083,0 -85.07868507602508,7.004739905637378,0 -88.82101470707266,9.618871368866108,0 -99.24732980257977,13.46189270281827,0 -113.4689006818705,17.86621146249744,0 -138.9705241897136,24.85167544887576,0 -162.1618603953721,29.38850786268411,0 -210.434622547762,30.24804998524946,0 136.5228227303276,30.42579358672251,0 131.4465436630453,30.78630632867244,0 131.1274590336385,30.88643764598343,0 130.6886013091325,30.82495100217093,0 129.0242664934314,31.6400771640011,0 127.7725154444615,33.14668241696527,0 129.3676370133393,33.9963225023645,0 129.8770471792495,34.40505450091219,0 129.487721543563,35.33807085139335,0 129.4118187934602,35.4098028273831,0 129.3836533689347,35.44610634896355,0 129.3723841285159,35.44964288449123,0 129.3644160821556,35.4510585951731,0 129.3597129751119,35.45084119981959,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Murban route to Japan</name>
+					<description>Status: Operational
+Crude: Murban
+API: ~40°
+Sulfur: ~0.8% — notably lighter and sweeter than most Gulf grades
+Type: Light, low-sulfur
+Origin: Onshore Abu Dhabi fields; moved via the Habshan–Fujairah pipeline, entirely bypassing the Strait of Hormuz
+Markets: Japan — one of the UAE&apos;s largest and most consistent long-term crude buyers; explicitly targeted by ADNOC&apos;s 2026 Hormuz-bypass marketing alongside India and China
+Used for: Gasoline, naphtha, jet fuel and diesel — a premium light grade suited to Japan&apos;s complex refineries
+Pricing: Murban trades as its own benchmark on ICE Futures Abu Dhabi (IFAD) since 2021, rather than purely as a Dubai/Oman differential
+Vessels: VLCC, loaded directly at Fujairah — no Hormuz transit required at any point on this route
+Transit: ~22–24 days via the Indian Ocean and the Strait of Malacca &amp; Singapore Strait
+Risks: Fujairah port has itself been struck during the war (March 2026); Strait of Malacca &amp; Singapore Strait chokepoint exposure on the onward leg</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							56.37044103874027,25.20816969374436,0 62.22759241616721,24.12404702988748,0 75.05440822497269,7.672536312611703,0 79.25227289337418,5.170129707375537,0 83.03926832329721,5.440971048891424,0 94.02679296648027,6.528033393301436,0 95.79162868956513,7.208602736395229,0 97.03515716536788,6.277016451271535,0 100.2023480102023,3.634986661648221,0 102.1301482401975,2.079328051896921,0 102.9967995362643,1.453152006845768,0 103.5144528087599,1.18547443084473,0 103.7069534688808,1.149731414659364,0 103.7957632696827,1.177902535414891,0 103.8916828675244,1.227085227144721,0 104.2150378278522,1.274317829953395,0 104.3762952498463,1.39769128280299,0 104.9150427360645,3.208532568262145,0 113.5695135996429,16.66455172276128,0 117.5145878966358,21.02223386912769,0 119.0357988895846,23.98617322747002,0 122.9721460015803,27.37652309584299,0 129.7729733713538,30.20453598868419,0 130.5784384000385,30.12356751313957,0 132.9130984814194,30.3484555335335,0 139.8547335078117,33.8273058283115,0 139.8444843638686,34.3693915276567,0 139.6081272887614,34.94874400552074,0 139.7121915413732,35.15510315732013,0 139.7595161596297,35.27171395834135,0 139.7253426261248,35.31902841137668,0 139.762904741797,35.42004679620028,0 139.7870455326375,35.48347473466173,0 139.7859788660748,35.48631711948092,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Urals Blend route to India</name>
+					<description>Status: Operational
+Crude: Urals Blend
+API: ~31–32°
+Sulfur: ~1.3–1.5%
+Type: Medium, sour
+Origin: Russian Baltic terminals (Primorsk, Ust-Luga), fed by the Transneft pipeline system from West Siberian and Volga-Urals fields
+Markets: India — Urals accounts for roughly three-quarters of India&apos;s Russian crude imports. Nayara Energy (Rosneft-linked) is the most directly connected Indian buyer; the broader flow has been highly volatile through 2026, swinging with each new round of US/EU sanctions
+Used for: Diesel, gasoil, fuel oil and other middle-distillate-heavy refinery products
+Pricing: Trades at a discount to Dated Brent, historically widened by sanctions and insurance costs; the discount narrows or widens sharply with each sanctions escalation
+Vessels: Operated largely by the &quot;shadow fleet&quot; — older tankers outside Western insurance and classification frameworks. Ship-to-ship transfers are common on this route, both for vessel upsizing partway through the long voyage and for final approach into shallow Indian terminals
+Transit: ~7,000 nautical miles, around 25–30 days via Suez; meaningfully longer if rerouted via the Cape of Good Hope
+Risks: Sanctions and insurance exposure for the shadow fleet; Red Sea/Bab el-Mandeb war risk forcing conditional Cape of Good Hope reroutes; demand itself is politically volatile — India&apos;s Russian crude intake has swung sharply up and down through 2026 depending on the sanctions environment</description>
+					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.69788354304522,60.33662487691984,0 28.74164736129767,60.30726331172613,0 28.75337970226894,60.27009797667868,0 28.705643133054,60.22527426746359,0 27.77265163461847,60.11847450251807,0 26.8441055385007,60.16115890502717,0 25.31465340508842,59.88258617252434,0 23.97612461192963,59.68542439690044,0 21.21055660636278,58.8921508204986,0 19.94565568518717,57.3441281691543,0 17.9113048354674,55.99172399905331,0 14.96737171437295,55.46349920389373,0 13.94758914851234,55.08812848526475,0 11.56517986455116,54.42348085169464,0 10.86193100544259,54.70797579217289,0 10.91392950068833,54.92486749297488,0 11.03654344677504,55.15592878025359,0 10.91817759823418,55.50416425559704,0 10.75055026731204,55.78700998425951,0 11.39717014263453,56.3608649979841,0 11.2653215718558,56.76711581979875,0 11.39727225486258,57.31665448990724,0 10.74156972948671,57.88879537118264,0 5.183743568392201,57.61356796230228,0 -2.296805937654407,59.5003604322884,0 -3.705175885229642,59.49668109146375,0 -6.499612965041385,58.72019767153552,0 -8.777575980443565,57.23130035871564,0 -11.17921427658724,53.2368606439392,0 -10.69192877680118,37.84027632451059,0 -9.62254511648036,36.72539370316293,0 -5.731092373097805,35.92500460889041,0 -5.351439986113846,35.96265899306417,0 -4.988703854598889,36.01599991016119,0 -0.1812633346157799,36.80782805313746,0 2.958828627290158,37.36417221027511,0 7.675866618583416,37.86553626864271,0 8.816323642719745,37.76524546611851,0 10.36281051329814,37.33788304682341,0 11.36878685305457,37.04853285638722,0 12.18674692533858,36.55651819553592,0 15.62298978891052,35.23530646191048,0 21.64107177332351,33.89891033310622,0 30.94276373272098,32.03034810275467,0 32.19038078521681,31.66648150124729,0 32.33710368909063,31.32171238891038,0 32.34664592828486,31.2373273940816,0 32.30949154212625,31.09731136586218,0 32.31910687983718,30.80941442133504,0 32.33655753086966,30.74541326494375,0 32.33976004135364,30.73855244836373,0 32.3435868868401,30.72976043152767,0 32.34263459252234,30.71799111137832,0 32.34239671061109,30.69282946827859,0 32.33616116798729,30.66709498621785,0 32.32953768159839,30.6387540213705,0 32.32586141911659,30.62346141143972,0 32.31945619227599,30.60807056913239,0 32.31035775027306,30.59280436526991,0 32.30504917358243,30.57902851558856,0 32.30326060231,30.56546201399155,0 32.3099022058473,30.54899992323459,0 32.32753409496213,30.52791598428635,0 32.33514140872246,30.51699062933437,0 32.34199598161067,30.49226031160856,0 32.35167084038791,30.44727485439329,0 32.35729337144171,30.41728512681613,0 32.36009808015159,30.40607865576971,0 32.36724616176772,30.37162731497754,0 32.42303867674742,30.2959246786038,0 32.44075057237529,30.27888986338077,0 32.47386108551238,30.26711362925111,0 32.50255754144033,30.26114588872805,0 32.52178293194576,30.25104286665833,0 32.5420883544643,30.23528094514602,0 32.55488542977793,30.21365662123179,0 32.56321712376673,30.19812861792562,0 32.56890788130428,30.17521024611768,0 32.57117186594007,30.06516623938954,0 32.57590189910491,30.03557683796508,0 32.58270645016325,29.99800913481868,0 32.58550210578859,29.98150666978051,0 32.58538195094332,29.96504457815495,0 32.58279153422291,29.95816546173917,0 32.57896761129844,29.94946829888058,0 32.56773303408528,29.93750922829656,0 32.56256352387979,29.93315586605149,0 32.55551109266871,29.92880689952966,0 32.54842800443383,29.90934792696106,0 32.56362803257986,29.55622342360807,0 32.66218169017753,29.32767820885298,0 32.9720648200568,28.65525925758355,0 33.66618809527333,27.88413632586666,0 34.00640814558879,27.61890697857182,0 34.36020417423872,27.36504069773071,0 36.76915238864596,24.269645616836,0 40.38706822707191,17.66428963026266,0 42.33788073755145,14.09210330591261,0 42.48661721664737,13.44690766628224,0 42.53314199263526,13.31242351114616,0 43.04283158236347,13.13555404019362,0 43.35248984659678,12.61258450154766,0 43.66170186200042,12.48865035200745,0 45.89340726710096,12.56998343281225,0 50.38886700545719,14.12176221806121,0 62.1478633124613,19.07141368543746,0 67.91933240880066,22.17467189542249,0 69.30069314644527,22.64808519881185,0 69.62933141963121,22.5596772154731,0 69.78867075466135,22.5105418840597,0 69.81739738338774,22.50933033855345,0 69.8358726943661,22.50008703990072,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
@@ -20194,7 +19809,6 @@ Risks: None conventional — a widening or collapsing EFS is itself a signal of 
 		</Folder>
 		<Folder>
 			<name>Storage &amp; Depots</name>
-			<open>1</open>
 			<Folder>
 				<name>Independent Storage Terminals</name>
 				<Placemark>
@@ -22168,6 +21782,30 @@ Risks: Seveso upper-tier site; flammable-liquid storage creates fire and spill h
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.763315633977612,48.65882373746587,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Depositi Costieri di Trieste</name>
+					<description>Status: Operational
+Operator: Seastock S.r.l. (Tosto Group) — took over the historic Depositi Costieri Trieste concession
+Type: Refined-product and marine bunker fuel storage and blending terminal — NOT crude; handles gasoil, fuel oil, biodiesel, jet fuel and gasoline
+Capacity: ~95,000 m³, with expansion underway toward ~140,000 m³
+Role: Supplies bunker fuel to ships calling at the Port of Trieste, separate from and unconnected to SIOT&apos;s crude operations
+Why it matters: Shows the port hosts two entirely separate oil businesses side by side — crude transit (SIOT) and refined marine-fuel supply (Seastock) — worth mapping distinctly rather than as one site
+Risks: Ownership/compliance issues (a 2017 acquisition led to a tax-fraud investigation and court-ordered administration of the company)</description>
+					<LookAt>
+						<longitude>13.7890255937031</longitude>
+						<latitude>45.61617495726618</latitude>
+						<altitude>0</altitude>
+						<heading>6.210041147863643</heading>
+						<tilt>23.16008526379337</tilt>
+						<range>2949.281511460925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.787685290846,45.61481218486774,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
