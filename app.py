@@ -658,22 +658,25 @@ for cat in route_categories:
         dash = "8, 8" if status.startswith("off") else ("2, 6" if status.startswith("plan") else ("5, 9" if is_hub else None))
         opacity = 0.55 if status.startswith("red") else (0.85 if is_waterway else 0.95)
         tooltip_text = name + (f" — {line['status']}" if line["status"] != "Operational" else "")
-        for seg_coords in split_at_antimeridian(line["coords"]):
-            geojson = {"type": "Feature", "properties": {},
-                       "geometry": {"type": "LineString", "coordinates": [[lon, lat] for (lat, lon) in seg_coords]}}
-            if is_pipeline and not dash:
-                folium.GeoJson(geojson, style_function=lambda _f: {"color": CASING_COLOR, "weight": 6, "opacity": 0.55},
-                               control=False).add_to(group)
-            # pricing circles/lines colour by sub-section (physical=red, financial=teal, spread=purple, hub=gold)
-            line_color = pricing_color(line["subsection"]) if is_hub else base_color
-            style = {"color": line_color, "weight": 2.6 if is_hub else (4.2 if is_waterway else 3.2), "opacity": opacity}
-            if dash:
-                style["dashArray"] = dash
-            gj = folium.GeoJson(geojson, style_function=lambda _f, s=dict(style): s,
-                                highlight_function=lambda _f: {"weight": 7, "opacity": 1.0})
-            gj.add_child(folium.Tooltip(tooltip_text))
-            gj.add_child(folium.Popup(popup_html(name, line.get("description", ""), cat, line["subsection"]), max_width=340))
-            gj.add_to(group)
+        line_color = pricing_color(line["subsection"]) if is_hub else base_color
+        base_weight = 2.6 if is_hub else (4.2 if is_waterway else 3.2)
+
+        segments = split_at_antimeridian(line["coords"])
+        multi_coords = [[[lon, lat] for (lat, lon) in seg] for seg in segments]
+        geojson = {"type": "Feature", "properties": {},
+                   "geometry": {"type": "MultiLineString", "coordinates": multi_coords}}
+
+        if is_pipeline and not dash:
+            folium.GeoJson(geojson, style_function=lambda _f: {"color": CASING_COLOR, "weight": 6, "opacity": 0.55},
+                           control=False).add_to(group)
+        style = {"color": line_color, "weight": base_weight, "opacity": opacity}
+        if dash:
+            style["dashArray"] = dash
+        gj = folium.GeoJson(geojson, style_function=lambda _f, s=dict(style): s,
+                            highlight_function=lambda _f: {"weight": 7, "opacity": 1.0})
+        gj.add_child(folium.Tooltip(tooltip_text))
+        gj.add_child(folium.Popup(popup_html(name, line.get("description", ""), cat, line["subsection"]), max_width=340))
+        gj.add_to(group)
     group.add_to(m)
 
 # Full-width, tall map frame.
