@@ -1197,66 +1197,6 @@
 			<styleUrl>#sh_R0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_airports000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_airports01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports010</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_airports10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_airports20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports02</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_airports3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<Pair>
 			<key>normal</key>
@@ -1267,34 +1207,14 @@
 			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4400000">
+	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=430001</styleUrl>
+			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=420100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=44000000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4300010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4201000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=440001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4300000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=42011</styleUrl>
+			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_volcano">
@@ -1447,51 +1367,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_airports000">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_airports010">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_airports02">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_airports10">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_airports2">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -1500,8 +1375,6 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1518,8 +1391,6 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1528,58 +1399,7 @@
 			<color>40ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=420100">
-		<IconStyle>
-			<scale>0.816667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4201000">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=42011">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_volcano0">
+	<Style id="sh_volcano">
 		<IconStyle>
 			<scale>0.84</scale>
 			<Icon>
@@ -1590,10 +1410,8 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
-	<Style id="sh_volcano">
+	<Style id="sh_volcano0">
 		<IconStyle>
 			<scale>0.84</scale>
 			<Icon>
@@ -1741,50 +1559,23 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_airports000">
+	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
 		<IconStyle>
-			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-	</Style>
-	<Style id="sn_airports01">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_airports10">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_airports20">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_airports3">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>e6c80154</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40ffffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
 		<IconStyle>
@@ -1796,8 +1587,6 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>e6c80154</color>
 			<width>1.5</width>
@@ -1805,95 +1594,6 @@
 		<PolyStyle>
 			<color>40ffffff</color>
 		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4300000">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>4</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=430001">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>4</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4300010">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2dc0fb</color>
-			<width>4</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_volcano0">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
 	</Style>
 	<Style id="sn_volcano">
 		<IconStyle>
@@ -1906,8 +1606,18 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
+	</Style>
+	<Style id="sn_volcano0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
@@ -9762,6 +9472,29 @@ Risks: Drone attacks and fires; repair delays; dependence on purchased feedstock
 						<coordinates>38.13167285552066,45.21939927171845,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Jinling Petrochemical Company</name>
+					<description>Status: Operational
+Operator: Sinopec (China Petroleum &amp; Chemical Corporation)
+Capacity: 13.5 Mt/yr crude processing (~270,000 b/d)
+Connectivity: Supplies naphtha by dedicated pipeline to BASF-YPC, the Sinopec-BASF joint-venture cracker in Luhe District — roughly 65% of Jinling&apos;s naphtha output goes directly there
+Why it matters: The confirmed refinery feedstock source behind one of China&apos;s largest foreign-JV petrochemical complexes
+Risks: BASF-YPC&apos;s cracker economics are directly exposed to any disruption at this single refinery</description>
+					<LookAt>
+						<longitude>118.9194405911596</longitude>
+						<latitude>32.16213285835383</latitude>
+						<altitude>0</altitude>
+						<heading>-0.06488714933442354</heading>
+						<tilt>13.17562625955864</tilt>
+						<range>5120.108358931225</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mfailed0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>118.9208724387098,32.16290942549477,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Mega-refineries</name>
@@ -10324,6 +10057,312 @@ Risks: Sanctioned by the UK and EU (both October 2025) over Russian energy ties;
 					</Point>
 				</Placemark>
 			</Folder>
+		</Folder>
+		<Folder>
+			<name>Petrochemical Plants</name>
+			<Placemark>
+				<name>Nouri Petrochemical Plant (Borzouyeh), Assaluyeh</name>
+				<description>Status: Operational
+Owner: National Petrochemical Company 76.5%, Social Security Investment Company 17%, State Pension Fund Investment Company 6.5%
+Capacity: 4.5 million t/yr of aromatics — one of the largest aromatics producers in the world, built as the &quot;Aromatic IV&quot; project at a cost of about $624 million
+Feedstock: 100,000 b/d of GAS CONDENSATE, roughly 4.5 million t/yr, drawn from the South Pars gas refineries — the plant is physically connected to eleven of them, which is why it rarely has supply problems
+Main products: Paraxylene, benzene, orthoxylene, raffinate, heavy aromatics, LPG and pentane across eleven process units; record output of 792,723 t of paraxylene and 476,342 t of benzene in a single year
+Secondary role: Also one of six Iranian petrochemical plants that produce gasoline, at around 6 million litres a day, used to support national fuel supply
+Markets: Roughly 60% exported, the rest sold domestically or passed on as feedstock to the Tondgouyan and Jam petrochemical plants
+Strategic role: The downstream end of the South Pars condensate chain — the same liquid that feeds the Persian Gulf Star refinery is split here into aromatics for polyester, plastics and pharmaceuticals instead of into fuels
+Risks: Sanctions restrict export markets and catalyst supply, though over 80% of catalysts and chemicals are now sourced domestically; paraxylene margins are exposed to Asian oversupply</description>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<coordinates>52.55555366971549,27.55095865452529,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lülsdorf chemical site</name>
+				<description>Status: Operational
+Owner/Operator: International Chemical Investors Group (ICIG) since June 2023, ex-Evonik; KFS Biodiesel operates the on-site biodiesel unit; 600+ employees
+Main products: Cyanuric chloride (crop-protection intermediates), potassium derivatives, sodium/potassium alkoxides — the transesterification catalysts of the biodiesel industry, produced exclusively for Evonik until 2027; FAME biodiesel
+Connectivity: Rhine barge access on the right bank, opposite Wesseling; road and rail
+Recent: Divested by Evonik in 2023 as the first step of its Performance Materials exit; ICIG committed to invest, with no operational redundancies until 2032
+Strategic role: The right-bank half of the Wesseling cluster — and a quiet link between Rhine chemistry and the biodiesel value chain
+Risks: Rhine dependence; ownership transition; niche-product demand</description>
+				<LookAt>
+					<longitude>7.02437347916173</longitude>
+					<latitude>50.82751034400295</latitude>
+					<altitude>0</altitude>
+					<heading>0.03002718415569789</heading>
+					<tilt>25.26520116472778</tilt>
+					<range>6247.887296874514</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.021277066441063,50.82532377608872,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rompetrol Petrochemicals Năvodari</name>
+				<description>Status: Operational
+Owner: Rompetrol Rafinare (KMG International), on the Petromidia platform
+Configuration: Romania&apos;s only petrochemical producer — polypropylene and low-density polyethylene lines fed directly by the refinery next door
+Main feedstocks: Propylene and other streams from Petromidia — the classic platform integration
+Main products: PP and LDPE polymers for Romanian and regional converters
+Markets: Romania and southeast Europe — the domestic plastics industry&apos;s sole local source
+Strategic role: The demand-side of the Năvodari platform — the reason Petromidia&apos;s naphtha and LPG have a home on site; a national monopoly by default, since every competitor closed
+Risks: Single-site national dependence for polymers; petrochemical margin cycles; platform interdependence with the refinery&apos;s turnarounds</description>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<coordinates>28.6431447951377,44.34213864754286,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LyondellBasell Wesseling</name>
+				<description>Status: Operational
+Owner/Operator: LyondellBasell (plants operated with Basell Polyolefine); in operation since 1953, 2.7 km², own 470 MW power plant; Knapsack sub-site ~10 miles away
+Configuration: Two steam crackers (~1.04 Mt/yr ethylene combined), four HDPE, two LDPE and three PP plants plus an advanced-polyolefins unit — &gt;2.2 Mt/yr of polyolefins
+Main feedstocks: Naphtha by pipeline from the neighbouring Shell Rheinland refineries plus external imports; trials of Neste bio-based hydrocarbons for partly bio-based PE/PP
+Connectivity: Pipeline-linked to Godorf/Wesseling and Dormagen; olefin lines toward Ludwigshafen, Antwerp and Chemelot; Rhine barge access
+Recent: The end of Shell Wesseling crude distillation (2025) removed a local naphtha source — the cluster&apos;s three crackers need ~3 Mt/yr; LyondellBasell is building its first commercial-scale MoReTec chemical-recycling plant here; 2024 European footprint review amid ethylene overcapacity
+Strategic role: The demand-side half of the Cologne cluster — the reason the Rhineland naphtha balance matters
+Risks: Naphtha supply as regional refining shrinks; European overcapacity; Rhine low water; energy-cost gap versus US and Middle East crackers</description>
+				<LookAt>
+					<longitude>7.005447645998057</longitude>
+					<latitude>50.84226741789946</latitude>
+					<altitude>0</altitude>
+					<heading>0.005919220212794063</heading>
+					<tilt>1.79464545559259</tilt>
+					<range>11804.49933446533</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>7.002894992897522,50.8164512557096,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BASF Ludwigshafen</name>
+				<description>Status: Operational
+Owner/Operator: BASF SE (headquarters on site)
+Configuration: The world&apos;s largest integrated chemical complex (Verbund) — two steam crackers and several hundred interconnected plants on ~10 km², each unit feeding the next with by-products and heat; supplied by naphtha, LPG and natural gas
+Main products: Ethylene, propylene and the full downstream chain — plastics, plasticisers, coatings, agro and pharma intermediates, ammonia, fertilisers
+Connectivity: Rhine barge harbour; southern terminus of the RMR products pipeline (connected at Oppau); MIDAL gas pipeline; dense rail; river water for cooling
+Recent: August 2026 — force majeure declared on DINP and DPHP plasticisers citing extreme weather and severe Rhine logistics constraints, with a switch to shallow-draft vessels; 2018 and 2022 low water also forced output cuts
+Strategic role: The demand anchor of the Rhine chemical corridor — pipeline-protected for products (RMR) yet river-dependent for cooling and feedstock logistics
+Risks: Rhine low water (cooling and barges); European gas and energy costs; deep plant-network interdependence</description>
+				<LookAt>
+					<longitude>8.450823352850181</longitude>
+					<latitude>49.53131678747764</latitude>
+					<altitude>0</altitude>
+					<heading>0.02021009179859431</heading>
+					<tilt>31.5785025023715</tilt>
+					<range>7292.518746099889</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>8.421289375773636,49.52744511654924,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="00C02568723EB7B9A5C6">
+				<name>MOL Petrochemicals Tiszaújváros</name>
+				<description>Status: Operational
+Owner/Operator: MOL Petrochemicals (MOL Group); the synthetic-rubber unit is a JV with Japan&apos;s ENEOS
+Configuration: Two steam crackers (~660,000 t/yr ethylene, ~130,000 t/yr butadiene), five polymer units (~765,000 t/yr PE+PP), a 200,000 t/yr polyether-polyol complex, and an SSBR rubber unit; a 100,000 t/yr propylene (OCT) unit due on stream in 2026 after delays
+Main feedstocks: Naphtha and LPG piped from MOL&apos;s Duna refinery and Slovnaft Bratislava, plus imports; first ISCC PLUS-certified circular feedstock processed September 2025
+Main products: Olefins, HDPE, LDPE, PP, polyether polyols, propylene glycol, hydrogen peroxide, solution SBR
+Markets: Hungary and Central Europe
+Strategic role: The petrochemical arm of the MOL system — the downstream customer of the Duna and Bratislava refineries on this map
+Risks: Feedstock dependence on two refineries (and thus on their crude supply); European petrochemical margins; project delays</description>
+				<LookAt>
+					<longitude>21.0491307468206</longitude>
+					<latitude>47.89381560823652</latitude>
+					<altitude>91.84558328701513</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>35</gx:fovy>
+					<range>6673.615556481527</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<coordinates>21.02832293073626,47.89420784451342,93.98698311388492</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="0C008C1AB53EB8584258">
+				<name>Dow Terneuzen</name>
+				<description>Status: Operational
+Owner/Operator: Dow Benelux (Dow Inc.)
+Configuration: Three steam crackers (LHC1–3) — ~1.8 Mt/yr ethylene, ~900,000 t/yr propylene, 240,000 t/yr butadiene, 900,000 t/yr aromatics; 16 plants and ~800 products, with Trinseo and Olin co-located
+Main feedstocks: Naphtha and LPG in roughly equal shares by pipeline from Rotterdam and Antwerp, plus ship and rail; small volumes of bio-naphtha and pyrolysis oil
+Markets: NW European converter and specialty-chemicals industry
+Recent: The 600,000 t/yr LHC3 cracker was idled from June 2025 on weak European demand and restarted in June 2026 as polyethylene and polyurethane chains tightened
+Strategic role: The Netherlands&apos; largest cracker site — the Scheldt-side counterpart of the Antwerp cluster
+Risks: European demand weakness; energy costs; cracker overcapacity; single-site concentration for Dow in Europe</description>
+				<LookAt>
+					<longitude>3.787764908666296</longitude>
+					<latitude>51.34081760073316</latitude>
+					<altitude>3.924655696200103</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>35</gx:fovy>
+					<range>7707.195568123134</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<coordinates>3.786962797359981,51.34445943366449,3.911769979405457</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="0467A13A993EB8752C2C">
+				<name>INEOS Antwerp</name>
+				<description>Status: Operational
+Owner/Operator: INEOS — Oxide at Zwijndrecht, Phenol at Doel, Olefins Belgium for Project ONE at Lillo/Zandvliet
+Configuration: INEOS Phenol ~680,000 t/yr (historically the world&apos;s largest single phenol plant) with co-product acetone; INEOS Oxide ethylene oxide and derivatives plus ENB and its own CHP plant; Project ONE under construction — a 1.45 Mt/yr ethane cracker plus a propane-dehydrogenation unit
+Main feedstocks: Imported US ethane by dedicated gas carriers for Project ONE; propane for the PDH; benzene, propylene and ethylene by pipeline and the deep-sea ethylene terminal
+Markets: European polymers, engineering plastics, coatings, surfactants, pharma intermediates
+Strategic role: Europe&apos;s biggest cracker investment in a generation — betting US ethane economics against naphtha-based rivals
+Risks: Project ONE execution and its permitting history; ethane freight exposure; European demand; energy costs</description>
+				<LookAt>
+					<longitude>4.273925657437596</longitude>
+					<latitude>51.36379448949879</latitude>
+					<altitude>5.888479591567424</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>35</gx:fovy>
+					<range>6042.380869329209</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<coordinates>4.262152203735479,51.36047499017207,7.21164629532076</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RAPID Petrochemical Complex</name>
+				<description>Status: Operational
+Owner/Operator: PRefChem (Petronas) for the cracker; downstream JVs with LyondellBasell, BASF, Evonik, Itochu and PTT Global Chemical
+Configuration: Mixed-feed steam cracker of ~3 Mt/yr olefins feeding ~4.5 Mt/yr of petrochemicals — 900,000 t/yr PP, PE lines, MEG, isononanol, 1-butene, hydrogen peroxide; 1.22 GW cogeneration and air-separation units on site
+Main feedstocks: Naphtha and refinery streams from the RAPID refinery next door, plus imported LPG and ethane-range feed
+Markets: Malaysia, SE Asia and export
+Strategic role: The petrochemical half of Pengerang — integrated with the 300,000 b/d refinery inside one 2,000-hectare footprint, competing with Singapore&apos;s Jurong hub
+Risks: Shared-site exposure to refinery outages; Asian petrochemical overcapacity; margin weakness</description>
+				<LookAt>
+					<longitude>104.173959524285</longitude>
+					<latitude>1.369043572799601</latitude>
+					<altitude>0</altitude>
+					<heading>0.00404357389608191</heading>
+					<tilt>8.021265484862365</tilt>
+					<range>12044.48650734411</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>104.1730854479987,1.371470785966274,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="05EE12FD073EB86434EF">
+				<name>BASF Antwerp</name>
+				<description>Status: Operational
+Owner/Operator: BASF Antwerpen (BASF SE)
+Configuration: ~50 plants in ~15 integrated value chains on ~6 km² — the Verbund model; steam cracker of ~1.1 Mt/yr ethylene plus propylene and C4s; ethylene-oxide capacity expanded by ~400,000 t/yr in 2023
+Main feedstocks: Naphtha and LPG sourced globally by ship, plus natural gas; some pyrolysis-oil co-processing
+Main products: Olefins, ethylene oxide and glycols, acrylic acid and superabsorbents, amines, aniline, caprolactam, MDI, surfactants
+Recent: October 2025 — structural cost-cutting target raised from €100m to €150m by end-2028, with ~600 job cuts (about one position in six)
+Strategic role: Europe&apos;s second-largest chemical complex, inside the Antwerp port cluster
+Risks: European energy costs; demand weakness; restructuring execution; port and Scheldt dependence</description>
+				<LookAt>
+					<longitude>4.27482130396456</longitude>
+					<latitude>51.36300578009773</latitude>
+					<altitude>6.864890533245029</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>35</gx:fovy>
+					<range>4850.543096734327</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<coordinates>4.267771448412327,51.36534927375749,19.10874670620181</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stenungsund petrochemical cluster</name>
+				<description>Status: Operational
+Owner/Operator: Borealis (cracker + polyethylene, majority OMV), INEOS Inovyn (PVC, caustic soda), Perstorp (specialities + Scandinavia&apos;s largest RME biodiesel plant), Nouryon; ~2,500 direct jobs
+Role: Sweden&apos;s largest chemical cluster and its only steam-cracker site
+Main feedstocks: Naphtha and LPG delivered by sea; growing share of renewable and recycled feeds
+Main products: Ethylene, propylene, polyethylene (incl. cable-grade XLPE), PVC, speciality chemicals, RME biodiesel
+Recent: Borealis cracker revamp completed, XLPE expansion by 2027; ~SEK 10bn cluster decarbonisation plan (−1 Mt CO₂/yr); Project Air renewable methanol
+Strategic role: The main light-feedstock customer on Sweden&apos;s west coast, sitting between the Lysekil and Gothenburg refineries
+Risks: Naphtha/LPG price exposure; energy costs vs US and Middle East crackers; one cracker for the whole country</description>
+				<LookAt>
+					<longitude>11.82943450000002</longitude>
+					<latitude>58.06783879999998</latitude>
+					<altitude>0</altitude>
+					<heading>1.590277340731758e-14</heading>
+					<tilt>0</tilt>
+					<range>8768.886561946525</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>11.81839682497015,58.08188838771623,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sadara petrochemical plant</name>
+				<description>Status: Operational (first plant online December 2015; full complex operational by ~2017)
+Operator: Sadara Chemical Company — joint venture, Saudi Aramco 65%, Dow Chemical 35%
+Type: Integrated petrochemicals complex, 26 world-scale manufacturing units — not a crude refinery, no CDU on site
+Capacity: ~8 million tonnes/year combined, across a 6 km² site; billed as the largest single-phase chemical complex ever built
+Location: Jubail Industrial City II — a distinct, newer extension of Jubail, separate from the original Jubail Industrial City (where SASREF, PETROKEMYA, Tasnee, S-Chem and the other facilities you screenshotted sit)
+Products: A wide specialty-chemicals slate — LLDPE (its first product), amines, butyl glycol ether, and 14 of the 26 units producing chemicals never previously made in Saudi Arabia
+Connectivity: Naphtha and refinery off-gases supplied by [[SATORP Jubail Refinery]]; ethane, dry gas and natural gasoline supplied separately by Saudi Aramco&apos;s gas-processing network — the only GCC petrochemical complex able to switch between gas and liquid feedstock depending on which is more economical
+Risks: Feedstock-source concentration — naphtha supply depends specifically on SATORP; any disruption there has a direct knock-on effect on Sadara&apos;s cracker economics</description>
+				<LookAt>
+					<longitude>49.48901472071858</longitude>
+					<latitude>26.94313341614089</latitude>
+					<altitude>0</altitude>
+					<heading>0.0008000450514906817</heading>
+					<tilt>9.535567665974513</tilt>
+					<range>7570.734672714842</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.48017885308465,26.94221663772437,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BASF-YPC</name>
+				<description>Status: Operational
+Operator: BASF-YPC Co., Ltd. — 50-50 joint venture between BASF and Sinopec (via its subsidiary Yangzi Petrochemical)
+Type: Integrated petrochemicals complex — steam cracker plus downstream chemical units; no crude distillation on site
+Capacity: ~3 million tonnes/yr of chemicals and polymers for the Chinese market; expanded in phases since 2005
+Feedstock: Naphtha, piped in from Sinopec&apos;s Jinling refinery (Qixia District) — confirmed, dedicated pipeline supply
+Connectivity: Sits within NCIP alongside Yangzi Petrochemical, its Sinopec partner, enabling shared infrastructure and feedstock logistics
+Why it matters: One of the largest Western petrochemical joint ventures in China — a concrete example of the naphtha-pipeline link between a Sinopec refinery and a foreign-partnered cracker
+Risks: Feedstock dependent on a single refinery (Jinling); exposed to China&apos;s broader ethylene/polyethylene overcapacity pressuring margins</description>
+				<LookAt>
+					<longitude>118.8141145743758</longitude>
+					<latitude>32.25061797565733</latitude>
+					<altitude>0</altitude>
+					<heading>-0.136871945894085</heading>
+					<tilt>12.10986045435208</tilt>
+					<range>11468.52413813343</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#failed20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>118.7900158508285,32.26052882001279,0</coordinates>
+				</Point>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>Biofuel &amp; Low-Carbon Production</name>
@@ -18061,7 +18100,7 @@ Risks: Trans Mountain pipeline apportionment/congestion; diluent costs; Alberta 
 					</LineString>
 				</Placemark>
 				<Placemark id="0DBB3F106040213031C4">
-					<name>Ekofisk crude route to the Netherlands </name>
+					<name>Ekofisk crude route to the Netherlands</name>
 					<description>Status: Operational
 Crude: Ekofisk Blend
 API: ~38.8°
@@ -18092,7 +18131,7 @@ Risks: North Sea weather, Norpipe or terminal outages, loading delays and conges
 					</LineString>
 				</Placemark>
 				<Placemark id="0CE1A26CAC402138B5D4">
-					<name>Forties route to the Netherlands </name>
+					<name>Forties route to the Netherlands</name>
 					<description>Status: Operational
 Crude: Forties Blend
 API: ~42.1°
@@ -18123,7 +18162,7 @@ Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading de
 					</LineString>
 				</Placemark>
 				<Placemark id="0D1381C8C640213F3148">
-					<name>Johan Sverdrup route to the Netherlands </name>
+					<name>Johan Sverdrup route to the Netherlands</name>
 					<description>Status: Operational
 Crude: Johan Sverdrup
 API: ~28.0–28.7°
@@ -18154,7 +18193,7 @@ Risks: North Sea weather, pipeline or terminal outages, loading delays and conge
 					</LineString>
 				</Placemark>
 				<Placemark id="0256BA5DAA40214A3860">
-					<name>WTI Midland route to the Netherlands </name>
+					<name>WTI Midland route to the Netherlands</name>
 					<description>Status: Operational
 Crude: WTI Midland
 API: 40–44°
@@ -18252,7 +18291,7 @@ Risks: Ice, severe winter weather, sanctions, payment restrictions and navigatio
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Arab Light &amp; Arab Super Light route to the Netherlands </name>
+					<name>Arab Light &amp; Arab Super Light route to the Netherlands</name>
 					<description><![CDATA[Status: Operational
 Crude: Arab Light & Arab Super Light
 API: 32–36° / >40°
@@ -18274,7 +18313,7 @@ Risks: Hormuz disruption; Red Sea and Bab el-Mandeb security; Suez congestion; w
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Hebron crude route to the Netherlands </name>
+					<name>Hebron crude route to the Netherlands</name>
 					<description>Status: Operational
 Crude: Hebron
 API: 20.4–21.2°
@@ -18339,7 +18378,7 @@ Risks: Libyan political instability — field shutdowns, port blockades and forc
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Girassol route to Netherlands </name>
+					<name>Girassol route to Netherlands</name>
 					<description>Status: Operational
 Crude: Girassol Blend — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO
 API: ~30°
@@ -18361,7 +18400,7 @@ Risks: Gulf of Guinea piracy at loading; Atlantic and North Sea weather; VLCC dr
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Dalia crude route to the Netherlands </name>
+					<name>Dalia crude route to the Netherlands</name>
 					<description>Status: Operational
 Crude: Girassol Blend — the commingled Girassol + Jasmim + Rosa stream processed on the Girassol FPSO
 API: ~30°
@@ -18383,7 +18422,7 @@ Risks: FPSO offloading weather windows; Gulf of Guinea piracy exposure; cheaper 
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Liza route to the Netherlands </name>
+					<name>Liza route to the Netherlands</name>
 					<description>Status: Operational
 Crude: Liza — a single-development stream from the Liza Destiny FPSO (distinct from Unity Gold and Payara Gold)
 API: ~32°
@@ -18405,7 +18444,7 @@ Risks: North Atlantic and North Sea weather; Channel traffic density; the Skager
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>Bonny light routeto the Netherlands </name>
+					<name>Bonny light routeto the Netherlands</name>
 					<description>Status: Operational
 Crude: Bonny Light
 API: ~32.9°
@@ -18449,7 +18488,7 @@ Risks: FPSO offloading weather windows; Gulf of Guinea piracy exposure; Yulong P
 					</LineString>
 				</Placemark>
 				<Placemark>
-					<name>WTI Midland to South Korea </name>
+					<name>WTI Midland to South Korea</name>
 					<description>Status: Operational
 Crude: WTI Midland
 API: 40–44°
@@ -18510,7 +18549,7 @@ Risks: Sanctions and insurance exposure for the shadow fleet; Red Sea/Bab el-Man
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							28.69788354304522,60.33662487691984,0 28.74164736129767,60.30726331172613,0 28.75337970226894,60.27009797667868,0 28.705643133054,60.22527426746359,0 27.77265163461847,60.11847450251807,0 26.8441055385007,60.16115890502717,0 25.31465340508842,59.88258617252434,0 23.97612461192963,59.68542439690044,0 21.21055660636278,58.8921508204986,0 19.94565568518717,57.3441281691543,0 17.9113048354674,55.99172399905331,0 14.96737171437295,55.46349920389373,0 13.94758914851234,55.08812848526475,0 11.56517986455116,54.42348085169464,0 10.86193100544259,54.70797579217289,0 10.91392950068833,54.92486749297488,0 11.03654344677504,55.15592878025359,0 10.91817759823418,55.50416425559704,0 10.75055026731204,55.78700998425951,0 11.39717014263453,56.3608649979841,0 11.2653215718558,56.76711581979875,0 11.39727225486258,57.31665448990724,0 10.74156972948671,57.88879537118264,0 5.183743568392201,57.61356796230228,0 -2.296805937654407,59.5003604322884,0 -3.705175885229642,59.49668109146375,0 -6.499612965041385,58.72019767153552,0 -8.777575980443565,57.23130035871564,0 -11.17921427658724,53.2368606439392,0 -10.69192877680118,37.84027632451059,0 -9.62254511648036,36.72539370316293,0 -5.731092373097805,35.92500460889041,0 -5.351439986113846,35.96265899306417,0 -4.988703854598889,36.01599991016119,0 -0.1812633346157799,36.80782805313746,0 2.958828627290158,37.36417221027511,0 7.675866618583416,37.86553626864271,0 8.816323642719745,37.76524546611851,0 10.36281051329814,37.33788304682341,0 11.36878685305457,37.04853285638722,0 12.18674692533858,36.55651819553592,0 15.62298978891052,35.23530646191048,0 21.64107177332351,33.89891033310622,0 30.94276373272098,32.03034810275467,0 32.19038078521681,31.66648150124729,0 32.33710368909063,31.32171238891038,0 32.34664592828486,31.2373273940816,0 32.30949154212625,31.09731136586218,0 32.31910687983718,30.80941442133504,0 32.33655753086966,30.74541326494375,0 32.33976004135364,30.73855244836373,0 32.3435868868401,30.72976043152767,0 32.34263459252234,30.71799111137832,0 32.34239671061109,30.69282946827859,0 32.33616116798729,30.66709498621785,0 32.32953768159839,30.6387540213705,0 32.32586141911659,30.62346141143972,0 32.31945619227599,30.60807056913239,0 32.31035775027306,30.59280436526991,0 32.30504917358243,30.57902851558856,0 32.30326060231,30.56546201399155,0 32.3099022058473,30.54899992323459,0 32.32753409496213,30.52791598428635,0 32.33514140872246,30.51699062933437,0 32.34199598161067,30.49226031160856,0 32.35167084038791,30.44727485439329,0 32.35729337144171,30.41728512681613,0 32.36009808015159,30.40607865576971,0 32.36724616176772,30.37162731497754,0 32.42303867674742,30.2959246786038,0 32.44075057237529,30.27888986338077,0 32.47386108551238,30.26711362925111,0 32.50255754144033,30.26114588872805,0 32.52178293194576,30.25104286665833,0 32.5420883544643,30.23528094514602,0 32.55488542977793,30.21365662123179,0 32.56321712376673,30.19812861792562,0 32.56890788130428,30.17521024611768,0 32.57117186594007,30.06516623938954,0 32.57590189910491,30.03557683796508,0 32.58270645016325,29.99800913481868,0 32.58550210578859,29.98150666978051,0 32.58538195094332,29.96504457815495,0 32.58279153422291,29.95816546173917,0 32.57896761129844,29.94946829888058,0 32.56773303408528,29.93750922829656,0 32.56256352387979,29.93315586605149,0 32.55551109266871,29.92880689952966,0 32.54842800443383,29.90934792696106,0 32.56362803257986,29.55622342360807,0 32.66218169017753,29.32767820885298,0 32.9720648200568,28.65525925758355,0 33.66618809527333,27.88413632586666,0 34.00640814558879,27.61890697857182,0 34.36020417423872,27.36504069773071,0 36.76915238864596,24.269645616836,0 40.38706822707191,17.66428963026266,0 42.33788073755145,14.09210330591261,0 42.48661721664737,13.44690766628224,0 42.53314199263526,13.31242351114616,0 43.04283158236347,13.13555404019362,0 43.35248984659678,12.61258450154766,0 43.66170186200042,12.48865035200745,0 45.89340726710096,12.56998343281225,0 50.38886700545719,14.12176221806121,0 62.1478633124613,19.07141368543746,0 67.91933240880066,22.17467189542249,0 69.30069314644527,22.64808519881185,0 69.62933141963121,22.5596772154731,0 69.78867075466135,22.5105418840597,0 69.81739738338774,22.50933033855345,0 69.8358726943661,22.50008703990072,0 
+							28.69788354304522,60.33662487691984,0 28.74164736129767,60.30726331172613,0 28.75337970226894,60.27009797667868,0 28.705643133054,60.22527426746359,0 27.77265163461847,60.11847450251807,0 26.8441055385007,60.16115890502717,0 25.31465340508842,59.88258617252434,0 23.97612461192963,59.68542439690044,0 21.21055660636278,58.8921508204986,0 19.94565568518717,57.3441281691543,0 17.9113048354674,55.99172399905331,0 14.96737171437295,55.46349920389373,0 13.94758914851234,55.08812848526475,0 11.56517986455116,54.42348085169464,0 10.86193100544259,54.70797579217289,0 10.91392950068833,54.92486749297488,0 11.03654344677504,55.15592878025359,0 10.91817759823418,55.50416425559704,0 10.75055026731204,55.78700998425951,0 11.39717014263453,56.3608649979841,0 11.2653215718558,56.76711581979875,0 11.39727225486258,57.31665448990724,0 10.74156972948671,57.88879537118264,0 5.183743568392201,57.61356796230228,0 -2.296805937654407,59.5003604322884,0 -3.705175885229642,59.49668109146375,0 -6.499612965041386,58.72019767153552,0 -8.777575980443565,57.23130035871564,0 -11.17921427658724,53.2368606439392,0 -10.69192877680118,37.84027632451059,0 -9.62254511648036,36.72539370316293,0 -5.731092373097805,35.92500460889041,0 -5.351439986113846,35.96265899306417,0 -4.988703854598889,36.01599991016119,0 -0.1812633346157799,36.80782805313746,0 2.958828627290158,37.36417221027511,0 7.675866618583416,37.86553626864271,0 8.816323642719745,37.76524546611851,0 10.36281051329814,37.33788304682341,0 11.36878685305457,37.04853285638722,0 12.18674692533858,36.55651819553592,0 15.62298978891052,35.23530646191048,0 21.64107177332351,33.89891033310622,0 30.94276373272098,32.03034810275467,0 32.19038078521681,31.66648150124729,0 32.33710368909063,31.32171238891038,0 32.34664592828486,31.2373273940816,0 32.30949154212625,31.09731136586218,0 32.31910687983718,30.80941442133503,0 32.33655753086966,30.74541326494375,0 32.33976004135364,30.73855244836373,0 32.3435868868401,30.72976043152767,0 32.34263459252234,30.71799111137832,0 32.34239671061109,30.69282946827859,0 32.33616116798729,30.66709498621785,0 32.32953768159839,30.6387540213705,0 32.32586141911659,30.62346141143972,0 32.31945619227599,30.60807056913239,0 32.31035775027306,30.59280436526991,0 32.30504917358243,30.57902851558856,0 32.30326060231,30.56546201399155,0 32.3099022058473,30.54899992323459,0 32.32753409496213,30.52791598428635,0 32.33514140872246,30.51699062933437,0 32.34199598161067,30.49226031160856,0 32.35167084038791,30.44727485439329,0 32.35729337144171,30.41728512681613,0 32.36009808015159,30.40607865576971,0 32.36724616176772,30.37162731497754,0 32.42303867674742,30.2959246786038,0 32.44075057237529,30.27888986338077,0 32.47386108551238,30.26711362925111,0 32.50255754144033,30.26114588872805,0 32.52178293194576,30.25104286665833,0 32.5420883544643,30.23528094514602,0 32.55488542977793,30.21365662123179,0 32.56321712376673,30.19812861792562,0 32.56890788130428,30.17521024611768,0 32.57117186594007,30.06516623938954,0 32.57590189910491,30.03557683796508,0 32.58270645016325,29.99800913481868,0 32.58550210578859,29.98150666978051,0 32.58538195094332,29.96504457815495,0 32.58279153422291,29.95816546173917,0 32.57896761129844,29.94946829888058,0 32.56773303408528,29.93750922829656,0 32.56256352387979,29.93315586605149,0 32.55551109266871,29.92880689952966,0 32.54842800443383,29.90934792696106,0 32.56362803257986,29.55622342360807,0 32.66218169017753,29.32767820885298,0 32.9720648200568,28.65525925758354,0 33.66618809527333,27.88413632586666,0 34.00640814558879,27.61890697857182,0 34.36020417423872,27.36504069773071,0 36.76915238864596,24.269645616836,0 40.38706822707191,17.66428963026266,0 42.33788073755145,14.09210330591261,0 42.48661721664737,13.44690766628224,0 42.53314199263526,13.31242351114616,0 43.04283158236347,13.13555404019362,0 43.35248984659678,12.61258450154766,0 43.66170186200042,12.48865035200745,0 45.89340726710096,12.56998343281225,0 50.38886700545719,14.12176221806121,0 62.14786331246129,19.07141368543746,0 67.91933240880066,22.17467189542249,0 69.30069314644527,22.64808519881185,0 69.62933141963121,22.5596772154731,0 69.78867075466135,22.5105418840597,0 69.81739738338774,22.50933033855345,0 69.8358726943661,22.50008703990072,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
@@ -21808,6 +21847,31 @@ Risks: Ownership/compliance issues (a 2017 acquisition led to a tax-fraud invest
 						<coordinates>13.787685290846,45.61481218486774,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Vopak Terminal Freeport</name>
+					<description>Status: Operational
+Operator: Vopak Industrial Infrastructure Americas (VIIA) — 50/50 joint venture between Royal Vopak and BlackRock&apos;s Global Energy &amp; Power Infrastructure Fund
+Type: Independent bulk liquid storage terminal — formerly Dow-owned, acquired by VIIA in 2020 for $620M as part of a three-terminal Gulf Coast package
+Capacity: 53 tanks; 140,000 m³ at acquisition (2020) — current Vopak listing shows a larger figure, worth verifying directly against their site before quoting precisely
+Products: Petroleum products, chemicals, biofuels, base oils and lubricants
+Access: Barge, pipeline, rail, truck and vessel — 8 barge berths, 4 vessel berths
+Why it matters: One of the few Gulf Coast terminals storing petroleum products alongside chemicals rather than chemicals only — confirmed relevant to your project, unlike the adjacent Dow production complex
+Risks: Long-term service agreements tie much of its throughput to Dow&apos;s adjacent production — not a fully open-market terminal</description>
+					<Camera>
+						<longitude>-95.30741701927596</longitude>
+						<latitude>28.94604126622289</latitude>
+						<altitude>1554.446374660711</altitude>
+						<heading>-62.98199768620366</heading>
+						<tilt>12.52921531821236</tilt>
+						<roll>-1.826591506917823</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#msn_R0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-95.30974317371188,28.94377140431981,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>SPR</name>
@@ -21950,760 +22014,29 @@ Risks: Seveso high-threshold site; major industrial risks include fire, explosio
 						<coordinates>2.259490205233157,51.02017134454508,0</coordinates>
 					</Point>
 				</Placemark>
-			</Folder>
-		</Folder>
-	</Folder>
-	<Folder>
-		<name>E. Demand Centres</name>
-		<Folder>
-			<name>Petrochemical Plants</name>
-			<Placemark>
-				<name>Nouri Petrochemical Plant (Borzouyeh), Assaluyeh</name>
-				<description>Status: Operational
-Owner: National Petrochemical Company 76.5%, Social Security Investment Company 17%, State Pension Fund Investment Company 6.5%
-Capacity: 4.5 million t/yr of aromatics — one of the largest aromatics producers in the world, built as the &quot;Aromatic IV&quot; project at a cost of about $624 million
-Feedstock: 100,000 b/d of GAS CONDENSATE, roughly 4.5 million t/yr, drawn from the South Pars gas refineries — the plant is physically connected to eleven of them, which is why it rarely has supply problems
-Main products: Paraxylene, benzene, orthoxylene, raffinate, heavy aromatics, LPG and pentane across eleven process units; record output of 792,723 t of paraxylene and 476,342 t of benzene in a single year
-Secondary role: Also one of six Iranian petrochemical plants that produce gasoline, at around 6 million litres a day, used to support national fuel supply
-Markets: Roughly 60% exported, the rest sold domestically or passed on as feedstock to the Tondgouyan and Jam petrochemical plants
-Strategic role: The downstream end of the South Pars condensate chain — the same liquid that feeds the Persian Gulf Star refinery is split here into aromatics for polyester, plastics and pharmaceuticals instead of into fuels
-Risks: Sanctions restrict export markets and catalyst supply, though over 80% of catalysts and chemicals are now sourced domestically; paraxylene margins are exposed to Asian oversupply</description>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<coordinates>52.55555366971549,27.55095865452529,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Lülsdorf chemical site</name>
-				<description>Status: Operational
-Owner/Operator: International Chemical Investors Group (ICIG) since June 2023, ex-Evonik; KFS Biodiesel operates the on-site biodiesel unit; 600+ employees
-Main products: Cyanuric chloride (crop-protection intermediates), potassium derivatives, sodium/potassium alkoxides — the transesterification catalysts of the biodiesel industry, produced exclusively for Evonik until 2027; FAME biodiesel
-Connectivity: Rhine barge access on the right bank, opposite Wesseling; road and rail
-Recent: Divested by Evonik in 2023 as the first step of its Performance Materials exit; ICIG committed to invest, with no operational redundancies until 2032
-Strategic role: The right-bank half of the Wesseling cluster — and a quiet link between Rhine chemistry and the biodiesel value chain
-Risks: Rhine dependence; ownership transition; niche-product demand</description>
-				<LookAt>
-					<longitude>7.02437347916173</longitude>
-					<latitude>50.82751034400295</latitude>
-					<altitude>0</altitude>
-					<heading>0.03002718415569789</heading>
-					<tilt>25.26520116472778</tilt>
-					<range>6247.887296874514</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>7.021277066441063,50.82532377608872,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Rompetrol Petrochemicals Năvodari</name>
-				<description>Status: Operational
-Owner: Rompetrol Rafinare (KMG International), on the Petromidia platform
-Configuration: Romania&apos;s only petrochemical producer — polypropylene and low-density polyethylene lines fed directly by the refinery next door
-Main feedstocks: Propylene and other streams from Petromidia — the classic platform integration
-Main products: PP and LDPE polymers for Romanian and regional converters
-Markets: Romania and southeast Europe — the domestic plastics industry&apos;s sole local source
-Strategic role: The demand-side of the Năvodari platform — the reason Petromidia&apos;s naphtha and LPG have a home on site; a national monopoly by default, since every competitor closed
-Risks: Single-site national dependence for polymers; petrochemical margin cycles; platform interdependence with the refinery&apos;s turnarounds</description>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<coordinates>28.6431447951377,44.34213864754286,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>LyondellBasell Wesseling</name>
-				<description>Status: Operational
-Owner/Operator: LyondellBasell (plants operated with Basell Polyolefine); in operation since 1953, 2.7 km², own 470 MW power plant; Knapsack sub-site ~10 miles away
-Configuration: Two steam crackers (~1.04 Mt/yr ethylene combined), four HDPE, two LDPE and three PP plants plus an advanced-polyolefins unit — &gt;2.2 Mt/yr of polyolefins
-Main feedstocks: Naphtha by pipeline from the neighbouring Shell Rheinland refineries plus external imports; trials of Neste bio-based hydrocarbons for partly bio-based PE/PP
-Connectivity: Pipeline-linked to Godorf/Wesseling and Dormagen; olefin lines toward Ludwigshafen, Antwerp and Chemelot; Rhine barge access
-Recent: The end of Shell Wesseling crude distillation (2025) removed a local naphtha source — the cluster&apos;s three crackers need ~3 Mt/yr; LyondellBasell is building its first commercial-scale MoReTec chemical-recycling plant here; 2024 European footprint review amid ethylene overcapacity
-Strategic role: The demand-side half of the Cologne cluster — the reason the Rhineland naphtha balance matters
-Risks: Naphtha supply as regional refining shrinks; European overcapacity; Rhine low water; energy-cost gap versus US and Middle East crackers</description>
-				<LookAt>
-					<longitude>7.005447645998057</longitude>
-					<latitude>50.84226741789946</latitude>
-					<altitude>0</altitude>
-					<heading>0.005919220212794063</heading>
-					<tilt>1.79464545559259</tilt>
-					<range>11804.49933446533</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>7.002894992897522,50.8164512557096,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>BASF Ludwigshafen</name>
-				<description>Status: Operational
-Owner/Operator: BASF SE (headquarters on site)
-Configuration: The world&apos;s largest integrated chemical complex (Verbund) — two steam crackers and several hundred interconnected plants on ~10 km², each unit feeding the next with by-products and heat; supplied by naphtha, LPG and natural gas
-Main products: Ethylene, propylene and the full downstream chain — plastics, plasticisers, coatings, agro and pharma intermediates, ammonia, fertilisers
-Connectivity: Rhine barge harbour; southern terminus of the RMR products pipeline (connected at Oppau); MIDAL gas pipeline; dense rail; river water for cooling
-Recent: August 2026 — force majeure declared on DINP and DPHP plasticisers citing extreme weather and severe Rhine logistics constraints, with a switch to shallow-draft vessels; 2018 and 2022 low water also forced output cuts
-Strategic role: The demand anchor of the Rhine chemical corridor — pipeline-protected for products (RMR) yet river-dependent for cooling and feedstock logistics
-Risks: Rhine low water (cooling and barges); European gas and energy costs; deep plant-network interdependence</description>
-				<LookAt>
-					<longitude>8.450823352850181</longitude>
-					<latitude>49.53131678747764</latitude>
-					<altitude>0</altitude>
-					<heading>0.02021009179859431</heading>
-					<tilt>31.5785025023715</tilt>
-					<range>7292.518746099889</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>8.421289375773636,49.52744511654924,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="00C02568723EB7B9A5C6">
-				<name>MOL Petrochemicals Tiszaújváros</name>
-				<description>Status: Operational
-Owner/Operator: MOL Petrochemicals (MOL Group); the synthetic-rubber unit is a JV with Japan&apos;s ENEOS
-Configuration: Two steam crackers (~660,000 t/yr ethylene, ~130,000 t/yr butadiene), five polymer units (~765,000 t/yr PE+PP), a 200,000 t/yr polyether-polyol complex, and an SSBR rubber unit; a 100,000 t/yr propylene (OCT) unit due on stream in 2026 after delays
-Main feedstocks: Naphtha and LPG piped from MOL&apos;s Duna refinery and Slovnaft Bratislava, plus imports; first ISCC PLUS-certified circular feedstock processed September 2025
-Main products: Olefins, HDPE, LDPE, PP, polyether polyols, propylene glycol, hydrogen peroxide, solution SBR
-Markets: Hungary and Central Europe
-Strategic role: The petrochemical arm of the MOL system — the downstream customer of the Duna and Bratislava refineries on this map
-Risks: Feedstock dependence on two refineries (and thus on their crude supply); European petrochemical margins; project delays</description>
-				<LookAt>
-					<longitude>21.0491307468206</longitude>
-					<latitude>47.89381560823652</latitude>
-					<altitude>91.84558328701513</altitude>
-					<heading>0</heading>
-					<tilt>0</tilt>
-					<gx:fovy>35</gx:fovy>
-					<range>6673.615556481527</range>
-					<altitudeMode>absolute</altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<coordinates>21.02832293073626,47.89420784451342,93.98698311388492</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="0C008C1AB53EB8584258">
-				<name>Dow Terneuzen</name>
-				<description>Status: Operational
-Owner/Operator: Dow Benelux (Dow Inc.)
-Configuration: Three steam crackers (LHC1–3) — ~1.8 Mt/yr ethylene, ~900,000 t/yr propylene, 240,000 t/yr butadiene, 900,000 t/yr aromatics; 16 plants and ~800 products, with Trinseo and Olin co-located
-Main feedstocks: Naphtha and LPG in roughly equal shares by pipeline from Rotterdam and Antwerp, plus ship and rail; small volumes of bio-naphtha and pyrolysis oil
-Markets: NW European converter and specialty-chemicals industry
-Recent: The 600,000 t/yr LHC3 cracker was idled from June 2025 on weak European demand and restarted in June 2026 as polyethylene and polyurethane chains tightened
-Strategic role: The Netherlands&apos; largest cracker site — the Scheldt-side counterpart of the Antwerp cluster
-Risks: European demand weakness; energy costs; cracker overcapacity; single-site concentration for Dow in Europe</description>
-				<LookAt>
-					<longitude>3.787764908666296</longitude>
-					<latitude>51.34081760073316</latitude>
-					<altitude>3.924655696200103</altitude>
-					<heading>0</heading>
-					<tilt>0</tilt>
-					<gx:fovy>35</gx:fovy>
-					<range>7707.195568123134</range>
-					<altitudeMode>absolute</altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<coordinates>3.786962797359981,51.34445943366449,3.911769979405457</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="05EE12FD073EB86434EF">
-				<name>BASF Antwerp</name>
-				<description>Status: Operational
-Owner/Operator: BASF Antwerpen (BASF SE)
-Configuration: ~50 plants in ~15 integrated value chains on ~6 km² — the Verbund model; steam cracker of ~1.1 Mt/yr ethylene plus propylene and C4s; ethylene-oxide capacity expanded by ~400,000 t/yr in 2023
-Main feedstocks: Naphtha and LPG sourced globally by ship, plus natural gas; some pyrolysis-oil co-processing
-Main products: Olefins, ethylene oxide and glycols, acrylic acid and superabsorbents, amines, aniline, caprolactam, MDI, surfactants
-Recent: October 2025 — structural cost-cutting target raised from €100m to €150m by end-2028, with ~600 job cuts (about one position in six)
-Strategic role: Europe&apos;s second-largest chemical complex, inside the Antwerp port cluster
-Risks: European energy costs; demand weakness; restructuring execution; port and Scheldt dependence</description>
-				<LookAt>
-					<longitude>4.27482130396456</longitude>
-					<latitude>51.36300578009773</latitude>
-					<altitude>6.864890533245029</altitude>
-					<heading>0</heading>
-					<tilt>0</tilt>
-					<gx:fovy>35</gx:fovy>
-					<range>4850.543096734327</range>
-					<altitudeMode>absolute</altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<coordinates>4.267771448412327,51.36534927375749,19.10874670620181</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="0467A13A993EB8752C2C">
-				<name>INEOS Antwerp</name>
-				<description>Status: Operational
-Owner/Operator: INEOS — Oxide at Zwijndrecht, Phenol at Doel, Olefins Belgium for Project ONE at Lillo/Zandvliet
-Configuration: INEOS Phenol ~680,000 t/yr (historically the world&apos;s largest single phenol plant) with co-product acetone; INEOS Oxide ethylene oxide and derivatives plus ENB and its own CHP plant; Project ONE under construction — a 1.45 Mt/yr ethane cracker plus a propane-dehydrogenation unit
-Main feedstocks: Imported US ethane by dedicated gas carriers for Project ONE; propane for the PDH; benzene, propylene and ethylene by pipeline and the deep-sea ethylene terminal
-Markets: European polymers, engineering plastics, coatings, surfactants, pharma intermediates
-Strategic role: Europe&apos;s biggest cracker investment in a generation — betting US ethane economics against naphtha-based rivals
-Risks: Project ONE execution and its permitting history; ethane freight exposure; European demand; energy costs</description>
-				<LookAt>
-					<longitude>4.273925657437596</longitude>
-					<latitude>51.36379448949879</latitude>
-					<altitude>5.888479591567424</altitude>
-					<heading>0</heading>
-					<tilt>0</tilt>
-					<gx:fovy>35</gx:fovy>
-					<range>6042.380869329209</range>
-					<altitudeMode>absolute</altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<coordinates>4.262152203735479,51.36047499017207,7.21164629532076</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>RAPID Petrochemical Complex</name>
-				<description>Status: Operational
-Owner/Operator: PRefChem (Petronas) for the cracker; downstream JVs with LyondellBasell, BASF, Evonik, Itochu and PTT Global Chemical
-Configuration: Mixed-feed steam cracker of ~3 Mt/yr olefins feeding ~4.5 Mt/yr of petrochemicals — 900,000 t/yr PP, PE lines, MEG, isononanol, 1-butene, hydrogen peroxide; 1.22 GW cogeneration and air-separation units on site
-Main feedstocks: Naphtha and refinery streams from the RAPID refinery next door, plus imported LPG and ethane-range feed
-Markets: Malaysia, SE Asia and export
-Strategic role: The petrochemical half of Pengerang — integrated with the 300,000 b/d refinery inside one 2,000-hectare footprint, competing with Singapore&apos;s Jurong hub
-Risks: Shared-site exposure to refinery outages; Asian petrochemical overcapacity; margin weakness</description>
-				<LookAt>
-					<longitude>104.173959524285</longitude>
-					<latitude>1.369043572799601</latitude>
-					<altitude>0</altitude>
-					<heading>0.00404357389608191</heading>
-					<tilt>8.021265484862365</tilt>
-					<range>12044.48650734411</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>104.1730854479987,1.371470785966274,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Stenungsund petrochemical cluster</name>
-				<description>Status: Operational
-Owner/Operator: Borealis (cracker + polyethylene, majority OMV), INEOS Inovyn (PVC, caustic soda), Perstorp (specialities + Scandinavia&apos;s largest RME biodiesel plant), Nouryon; ~2,500 direct jobs
-Role: Sweden&apos;s largest chemical cluster and its only steam-cracker site
-Main feedstocks: Naphtha and LPG delivered by sea; growing share of renewable and recycled feeds
-Main products: Ethylene, propylene, polyethylene (incl. cable-grade XLPE), PVC, speciality chemicals, RME biodiesel
-Recent: Borealis cracker revamp completed, XLPE expansion by 2027; ~SEK 10bn cluster decarbonisation plan (−1 Mt CO₂/yr); Project Air renewable methanol
-Strategic role: The main light-feedstock customer on Sweden&apos;s west coast, sitting between the Lysekil and Gothenburg refineries
-Risks: Naphtha/LPG price exposure; energy costs vs US and Middle East crackers; one cracker for the whole country</description>
-				<LookAt>
-					<longitude>11.82943450000002</longitude>
-					<latitude>58.06783879999998</latitude>
-					<altitude>0</altitude>
-					<heading>1.590277340731758e-14</heading>
-					<tilt>0</tilt>
-					<range>8768.886561946525</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#failed20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>11.81839682497015,58.08188838771623,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>Aviation Fuel Demand</name>
-			<Folder>
-				<name>Civil airports</name>
-				<open>1</open>
-				<Folder>
-					<name>Major global hubs</name>
-					<Placemark id="0A13A17C423F60CC8404">
-						<name>Aéroport de Francfort</name>
-						<description>Status: Operational
-Role: Germany&apos;s largest airport and Lufthansa&apos;s main hub — one of Europe&apos;s top long-haul and cargo airports
-Fuel relevance: Supplied via the Mainz-Gustavsburg depot already on this map, fed by pipeline from the Rhine-Main network; also linked to the RMR products pipeline from the ARA refining hub
-Connectivity: Sits at the centre of the same Rhine corridor as RMR, the NATO pipeline and Gustavsburg
-Risks: Concentrated dependence on a small number of pipeline-fed depots for a very high daily fuel burn</description>
-						<LookAt>
-							<longitude>8.576477350000001</longitude>
-							<latitude>50.04138315</latitude>
-							<altitude>0</altitude>
-							<heading>0</heading>
-							<tilt>0</tilt>
-							<gx:fovy>35</gx:fovy>
-							<range>16155.05371856183</range>
-							<altitudeMode>relativeToGround</altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<altitudeMode>relativeToGround</altitudeMode>
-							<coordinates>8.559255799999999,50.0377252,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark id="0CFDF2A4BB3F60CCF64F">
-						<name>Amsterdam Airport Schiphol</name>
-						<description>Status: Operational
-Role: The Netherlands&apos; main hub and Air France-KLM&apos;s principal base — one of Europe&apos;s busiest cargo and passenger airports
-Fuel relevance: Draws directly on the ARA (Amsterdam-Rotterdam-Antwerp) refining and storage hub already on this map — one of the shortest crude-to-wingtip supply chains of any major airport
-Connectivity: Vopak and other Amsterdam-area storage terminals feed the airport by pipeline
-Risks: Dutch aviation-tax and capacity-cap policy debates affecting long-term throughput</description>
-						<LookAt>
-							<longitude>4.76376725</longitude>
-							<latitude>52.30836884999999</latitude>
-							<altitude>0</altitude>
-							<heading>0</heading>
-							<tilt>0</tilt>
-							<gx:fovy>35</gx:fovy>
-							<range>7689.862848302019</range>
-							<altitudeMode>relativeToGround</altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<altitudeMode>relativeToGround</altitudeMode>
-							<coordinates>4.7401699,52.31278660000001,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Charles de Gaulle aireport</name>
-						<description>Status: Operational
-Role: France&apos;s largest airport and Air France&apos;s main hub — one of the world&apos;s ten busiest airports
-Fuel relevance: Supplied via the TRAPIL Le Havre-Paris (LHP) pipeline network already on this map, built in part to serve Roissy/CDG and Orly
-Connectivity: Directly tied to the Paris-region storage depots and Le Havre tank farms already mapped
-Risks: Single-pipeline-network dependence for a large share of national jet-fuel demand</description>
-						<LookAt>
-							<longitude>2.586182828293779</longitude>
-							<latitude>48.99997207435537</latitude>
-							<altitude>0</altitude>
-							<heading>46.31055763860077</heading>
-							<tilt>0</tilt>
-							<range>17160.34693415708</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>2.570549718845594,49.00648307635816,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Changi airport</name>
-						<description>Status: Operational
-Role: Singapore&apos;s flagship hub and one of the world&apos;s busiest long-haul and transfer airports
-Fuel relevance: Directly served by the Singapore/Jurong Island refining and storage complex and the Singapore Pricing Hub (MOPS) already on this map — one of the tightest refinery-to-airport links in Asia
-Connectivity: Jurong Island refineries and bunkering terminals feed the airport
-Risks: Concentrated dependence on Singapore&apos;s own refining and storage capacity</description>
-						<LookAt>
-							<longitude>103.9929111407713</longitude>
-							<latitude>1.348576402136079</latitude>
-							<altitude>0</altitude>
-							<heading>0.003626816218004209</heading>
-							<tilt>4.847087304208334</tilt>
-							<range>10084.79888756686</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>103.9884301503658,1.356693114772583,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Hartsfield-Jackson Atlanta International Airport</name>
-						<description>Status: Operational
-Role: The world&apos;s busiest airport by passenger traffic; Delta Air Lines&apos; primary hub
-Fuel relevance: Supplied by US Gulf Coast refining capacity via pipeline and rail — the largest single concentration of jet-fuel demand tied to the Gulf Coast refining row already on this map
-Connectivity: The Colonial Pipeline system is the primary jet-fuel artery from the Gulf Coast to Atlanta
-Risks: Heavy reliance on one pipeline corridor for the bulk of its fuel supply</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>-84.4281,33.6367,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Dubai International Airport</name>
-						<description>Status: Operational
-Role: The world&apos;s busiest airport by international passenger traffic; Emirates&apos; hub and a global long-haul transfer point
-Fuel relevance: Directly tied to the Fujairah bunkering and storage cluster already on this map, one of the world&apos;s largest bunker-fuel hubs
-Connectivity: Fed by pipeline and truck from Jebel Ali and Fujairah-area storage terminals
-Risks: Regional Gulf tension affecting shipping and supply routes into the Emirates</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>55.36569999999999,25.2532,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>London Heathrow Airport</name>
-						<description>Status: Operational
-Role: The UK&apos;s largest airport and Europe&apos;s busiest by passenger numbers; British Airways&apos; main hub
-Fuel relevance: Supplied via the UK Oil Pipelines Organisation (UKOP) network from Thames/Essex refining and import terminals, also drawing on North Sea-linked product flows
-Connectivity: A dedicated pipeline links coastal import terminals directly to the airport
-Risks: Concentrated dependence on a small number of UK import terminals; long-running capacity and expansion constraints</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>-0.4543,51.47,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Los Angeles International Airport</name>
-						<description>Status: Operational
-Role: The main gateway airport for the US West Coast and a major Pacific long-haul hub
-Fuel relevance: Supplied by California&apos;s own refining capacity — a genuinely separate refining and pricing region from the US Gulf Coast, not otherwise represented on this map
-Connectivity: Fed by local California refineries and marine imports via the Los Angeles/Long Beach port complex
-Risks: California&apos;s shrinking refining capacity has raised import dependence for West Coast jet fuel</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>-118.4085,33.9416,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Tokyo Haneda Airport</name>
-						<description>Status: Operational
-Role: Japan&apos;s primary domestic and increasingly international hub, alongside Narita
-Fuel relevance: Represents North Asian jet-fuel demand, partly supplied by Japanese refineries already on this map (Idemitsu, ENEOS, Cosmo) and partly by imports, including the Sakhalin-linked crude chain
-Connectivity: Tokyo Bay-area refineries and terminals feed the airport
-Risks: Japan&apos;s refining capacity has consolidated in recent years, concentrating supply among fewer plants</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>139.7798,35.5494,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Chicago O&apos;Hare International Airport</name>
-						<description>Status: Operational
-Role: A major US inland hub — United and American Airlines both operate large hubs here
-Fuel relevance: Represents US Midwest jet-fuel demand, supplied via pipeline from the Chicago-area refineries and the Patoka/Wood River hub already on this map (BP Whiting, Phillips 66 Wood River)
-Connectivity: Tied to the same Midwest pipeline network as Whiting and Wood River refineries
-Risks: Landlocked, pipeline-dependent supply chain, distinct from coastal airports&apos; import options</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>-87.90730000000001,41.9742,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Beijing Capital International Airport</name>
-						<description>Status: Operational
-Role: China&apos;s flagship northern hub, alongside the newer Daxing airport
-Fuel relevance: Represents North China jet-fuel demand, tied to the Bohai Bay refining cluster already on this map (Dalian-area refineries and terminals)
-Connectivity: Supplied via China&apos;s domestic pipeline and rail products network from Northeast China refineries
-Risks: State-directed allocation of jet fuel supply; limited visibility into exact supply routes</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>116.6031,40.0799,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Shanghai Pudong International Airport</name>
-						<description>Status: Operational
-Role: China&apos;s principal international gateway and a major cargo hub
-Fuel relevance: Tied to the Zhejiang/Zhoushan refining and storage cluster already on this map — one of China&apos;s largest refining and crude-storage concentrations
-Connectivity: Supplied via coastal shipping and pipeline from the Zhoushan-area terminals
-Risks: Concentration of supply in one coastal refining cluster</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>121.8083,31.1443,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Istanbul Airport</name>
-						<description>Status: Operational
-Role: Turkey&apos;s main hub and Turkish Airlines&apos; base — one of the fastest-growing long-haul transfer hubs globally
-Fuel relevance: Sits at the crossroads of the Bosphorus chokepoint already on this map, through which a large share of Black Sea and Russian crude and product exports transit
-Connectivity: Supplied via Turkish domestic refining (Tüpraş) and imports arriving through Bosphorus/Marmara terminals
-Risks: Geopolitically sensitive location; regional conflict risk affecting Black Sea supply routes</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>28.7519,41.2753,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Hong Kong International Airport</name>
-						<description>Status: Operational
-Role: One of the world&apos;s busiest cargo airports and a major long-haul passenger hub
-Fuel relevance: Represents South China/regional demand, supplied largely by imports since Hong Kong has no domestic refining capacity
-Connectivity: Fed by marine imports, including flows from the Singapore and Chinese refining hubs already on this map
-Risks: Total import dependence for jet fuel, unlike most other major hubs on this map</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>113.9185,22.308,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Doha Hamad International Airport</name>
-						<description>Status: Operational
-Role: Qatar&apos;s hub and Qatar Airways&apos; base — a major Gulf long-haul transfer point
-Fuel relevance: Directly tied to Qatar&apos;s Ras Laffan industrial complex already on this map, one of the world&apos;s largest integrated gas-to-liquids and condensate processing hubs
-Connectivity: Supplied via pipeline and truck from Ras Laffan and Mesaieed
-Risks: Concentrated dependence on Qatari domestic supply infrastructure</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>51.60809999999999,25.2731,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Indira Gandhi International Airport</name>
-						<description>Status: Operational
-Role: India&apos;s busiest airport and a fast-growing South Asian hub
-Fuel relevance: Represents South Asian jet-fuel demand growth, supplied via pipeline from India&apos;s northern refining cluster
-Connectivity: Fed by Indian Oil Corporation and other domestic refiners via cross-country products pipelines
-Risks: Rapid demand growth outpacing some domestic pipeline capacity, forcing rail and road supplementation</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>77.09999999999999,28.5562,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Dallas-Fort Worth International Airport</name>
-						<description>Status: Operational
-Role: A major US hub — American Airlines&apos; largest base — and a key inland Texas gateway
-Fuel relevance: Represents US South-Central demand, supplied from the same Gulf Coast/Permian-linked refining and pipeline network as the Houston/Corpus Christi complex already on this map
-Connectivity: Fed via Texas products pipelines from Gulf Coast refineries
-Risks: Same Gulf Coast hurricane and refinery-outage exposure that affects the broader Texas system</description>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=440001</styleUrl>
-						<Point>
-							<coordinates>-97.0403,32.8998,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
-				<Folder>
-					<name>Regional airports</name>
-					<Placemark>
-						<name>Airport Beauvais Paris</name>
-						<description>Status: Operational
-Role: A secondary, low-cost-carrier airport serving the greater Paris region
-Fuel relevance: Minor by volume compared with CDG/Orly; included here for regional completeness rather than global market weight
-Risks: Limited strategic significance to the physical oil market at a global scale</description>
-						<LookAt>
-							<longitude>2.117111164112455</longitude>
-							<latitude>49.4589658701825</latitude>
-							<altitude>0</altitude>
-							<heading>-9.103155176311535</heading>
-							<tilt>15.50642489538724</tilt>
-							<range>1033.032044548523</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000000</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>2.112999806139586,49.45889362701349,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark id="03F5DE74B53F60CD68D5">
-						<name>Brussels Airport</name>
-						<description>Status: Operational
-Role: Belgium&apos;s main hub, serving Brussels Airlines and a range of European carriers
-Fuel relevance: Draws on the same ARA-region refining and storage infrastructure as Antwerp and Rotterdam, already extensively mapped
-Risks: A mid-sized European hub rather than a global demand driver</description>
-						<LookAt>
-							<longitude>4.486484449999999</longitude>
-							<latitude>50.90044155</latitude>
-							<altitude>0</altitude>
-							<heading>0</heading>
-							<tilt>0</tilt>
-							<gx:fovy>35</gx:fovy>
-							<range>7932.079709198912</range>
-							<altitudeMode>relativeToGround</altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000000</styleUrl>
-						<Point>
-							<altitudeMode>relativeToGround</altitudeMode>
-							<coordinates>4.4859439,50.90024,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark id="0A281DA7373F60CDCD71">
-						<name>Aéroport international de Zurich</name>
-						<description>Status: Operational
-Role: Switzerland&apos;s largest airport and Swiss International Air Lines&apos; hub
-Fuel relevance: Supplied via Swiss inland distribution, drawing on the same Rhine-fed Basel/Muttenz tank farms already mapped, plus the Cressier refinery
-Risks: Landlocked supply chain fully dependent on the Rhine barge and rail logistics documented elsewhere on this map</description>
-						<LookAt>
-							<longitude>8.558360149999999</longitude>
-							<latitude>47.4556824</latitude>
-							<altitude>0</altitude>
-							<heading>0</heading>
-							<tilt>0</tilt>
-							<gx:fovy>35</gx:fovy>
-							<range>8504.22362764342</range>
-							<altitudeMode>relativeToGround</altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000000</styleUrl>
-						<Point>
-							<altitudeMode>relativeToGround</altitudeMode>
-							<coordinates>8.550859899999999,47.4617142,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Marseille airport</name>
-						<description>Status: Operational
-Role: Southern France&apos;s main airport, serving the Provence region
-Fuel relevance: Draws on the same Fos-sur-Mer refining and storage cluster already extensively mapped
-Risks: Regional rather than global significance</description>
-						<LookAt>
-							<longitude>5.203902826188582</longitude>
-							<latitude>43.46101201027555</latitude>
-							<altitude>0</altitude>
-							<heading>0.049410225637598</heading>
-							<tilt>0</tilt>
-							<range>28819.78486148693</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=44000000</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>5.21707365311721,43.43171227922502,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Basel Mulhouse Freiburg Airport</name>
-						<description>Status: Operational
-Role: A tri-national airport serving Switzerland, France and Germany
-Fuel relevance: Supplied from the same Basel-area Rhine port tank farms (Birsfelden, Muttenz) already mapped in detail
-Risks: Regional significance only; fully dependent on the Rhine corridor&apos;s own well-documented risks</description>
-						<LookAt>
-							<longitude>7.53879858684955</longitude>
-							<latitude>47.59573707537173</latitude>
-							<altitude>0</altitude>
-							<heading>-1.378633825595211</heading>
-							<tilt>21.30472851113158</tilt>
-							<range>5044.230350961614</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_airports000</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>7.529745611359258,47.59912742107864,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Cologne airport</name>
-						<description>Status: Operational
-Role: A secondary German hub, notably a major European air-freight (cargo) airport
-Fuel relevance: Supplied via the Rhine-Ruhr pipeline network (NWO/RMR) already mapped
-Risks: Regional rather than globally significant demand volume</description>
-						<Camera>
-							<longitude>7.130277558053908</longitude>
-							<latitude>50.85367056460566</latitude>
-							<altitude>10186.66164587584</altitude>
-							<heading>1.699551770571844</heading>
-							<tilt>7.397840968673264</tilt>
-							<roll>0.8422261733692127</roll>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</Camera>
-						<styleUrl>#msn_airports10</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>7.129666912335358,50.871260706672,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Dusseldorf airport</name>
-						<description>Status: Operational
-Role: A major regional German airport serving North Rhine-Westphalia
-Fuel relevance: Same Rhine-Ruhr supply network as Cologne and the Gelsenkirchen-area terminals already mapped
-Risks: Regional significance only</description>
-						<LookAt>
-							<longitude>6.816861289018535</longitude>
-							<latitude>51.2832029844156</latitude>
-							<altitude>0</altitude>
-							<heading>0.0426936706476377</heading>
-							<tilt>20.49039903992008</tilt>
-							<range>18531.42834390487</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_airports10</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>6.766428997963374,51.2879007935403,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Geneva airport</name>
-						<description>Status: Operational
-Role: Switzerland&apos;s second-largest airport, serving the Lake Geneva region
-Fuel relevance: Directly fed by the Vernier tank farm cluster already mapped in detail — one of the most direct links between a mapped storage site and an airport on this map
-Risks: Same Seveso-site and single-pipeline risks already documented for the Vernier depot</description>
-						<LookAt>
-							<longitude>6.097967555578751</longitude>
-							<latitude>46.22869430875269</latitude>
-							<altitude>0</altitude>
-							<heading>-5.859524415229509</heading>
-							<tilt>2.987847676010799</tilt>
-							<range>9044.528560199982</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_airports01</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>6.110798858228748,46.2339543113842,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Muscat airport</name>
-						<description>Status: Operational
-Role: Oman&apos;s main international gateway
-Fuel relevance: Supplied domestically from Omani refining capacity (Mina al-Fahal, Sohar, Duqm) already mapped
-Risks: Regional significance rather than a top-tier global demand node</description>
-						<Camera>
-							<longitude>58.2923061996456</longitude>
-							<latitude>23.53647364187227</latitude>
-							<altitude>8036.167572588221</altitude>
-							<heading>0.3265927306445093</heading>
-							<tilt>41.86923187806013</tilt>
-							<roll>0.8106460287606966</roll>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</Camera>
-						<styleUrl>#msn_airports20</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>58.28461070875992,23.59934694291435,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Airport of Strasbourg</name>
-						<description>Status: Operational
-Role: Regional airport serving Strasbourg and the Alsace region (Strasbourg-Entzheim), with scheduled domestic and European routes and Air France regional connections
-Fuel relevance: A very minor demand node globally — likely supplied by truck from the Strasbourg oil terminal depot already on this map, rather than by dedicated pipeline
-Risks: Negligible strategic significance to global jet-fuel markets; included here for regional completeness rather than market weight</description>
-						<LookAt>
-							<longitude>7.623030025751185</longitude>
-							<latitude>48.5339499663562</latitude>
-							<altitude>0</altitude>
-							<heading>-0.001738568673851758</heading>
-							<tilt>6.322077763396327</tilt>
-							<range>6817.205091353322</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#msn_airports3</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>7.624985821169163,48.54095424011365,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
-			</Folder>
-			<Folder>
-				<name>Military air bases</name>
-				<Placemark id="07A2E4942F3F60CB6ECD">
-					<name>Ramstein Air Base</name>
-					<description>Status: Operational
-Role: The largest US Air Force base outside the United States — a key logistics and refuelling hub for US military operations across Europe, the Middle East and Africa
-Fuel relevance: Represents military jet-fuel demand, generally separate from commercial supply chains — typically supplied via the NATO pipeline system already mapped
-Connectivity: Directly tied to the NATO pipeline network on this map, built during the Cold War specifically to supply US and allied air bases in Germany
-Risks: Strategic/security sensitivity; fuel logistics tied to military rather than commercial market dynamics</description>
-					<LookAt>
-						<longitude>7.596436599999999</longitude>
-						<latitude>49.4398562</latitude>
-						<altitude>0</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<gx:fovy>35</gx:fovy>
-						<range>1559.343537544582</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4400000</styleUrl>
+				<Placemark>
+					<name>Bryan Mound Strategic Petroleum Reserve</name>
+					<description>Status: Operational (Strategic Petroleum Reserve)
+Operator: US Department of Energy
+Type: Underground salt-cavern crude storage, 19 caverns
+Location: Brazoria County, TX, ~3 miles SW of Freeport
+Capacity: 247.1 million barrels — largest of the four US SPR sites
+Current fill: ~142.5 million barrels (57.7%) as of Aug 2026 — nearly half of all SPR oil
+Why it matters: Heavily drawn down in 2026 for emergency releases during the Iran war; SPR levels are at their lowest since the early 1980s
+Risks: Fill level is a fast-moving snapshot, not stable</description>
+					<Camera>
+						<longitude>-95.31576329418176</longitude>
+						<latitude>28.92147631351952</latitude>
+						<altitude>14442.38867912921</altitude>
+						<heading>-62.20767340724571</heading>
+						<tilt>21.09533081290771</tilt>
+						<roll>-1.095951362375641</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#msn_ylw-pushpin10</styleUrl>
 					<Point>
-						<altitudeMode>relativeToGround</altitudeMode>
-						<coordinates>7.5964366,49.4398562,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-95.37771719656354,28.9183659806759,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
