@@ -1157,6 +1157,16 @@
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="m_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
@@ -1197,26 +1207,6 @@
 			<styleUrl>#sh_R0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_icon?color=1976d2&amp;id=2000&amp;scale=40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_volcano">
 		<Pair>
 			<key>normal</key>
@@ -1237,6 +1227,16 @@
 			<styleUrl>#sh_volcano</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -1244,7 +1244,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin00">
@@ -1260,7 +1260,7 @@
 	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1317,6 +1317,18 @@
 			<styleUrl>#sh_ylw-pushpin10</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffc80154</color>
+		</LineStyle>
+	</Style>
 	<Style id="s_ylw-pushpin20">
 		<IconStyle>
 			<color>ff7f00ff</color>
@@ -1331,6 +1343,18 @@
 		<LineStyle>
 			<color>e600aaff</color>
 			<width>0.8</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl6">
@@ -1367,38 +1391,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=4">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_icon?color=1976d2&amp;id=2000&amp;scale=40">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_volcano">
 		<IconStyle>
 			<scale>0.84</scale>
@@ -1422,6 +1414,20 @@
 		<LabelStyle>
 			<scale>0.7</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffc80154</color>
+		</LineStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
@@ -1487,7 +1493,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin1">
+	<Style id="sh_ylw-pushpin11">
 		<IconStyle>
 			<scale>1.2</scale>
 		</IconStyle>
@@ -1559,42 +1565,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=4">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_icon?color=1976d2&amp;id=2000&amp;scale=40">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>e6c80154</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>40ffffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sn_volcano">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -1619,7 +1589,7 @@
 			<scale>0.7</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin">
+	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1629,6 +1599,20 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff5b3d3d</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffc80154</color>
 		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin0">
@@ -12696,6 +12680,30 @@ Risks: Shared, multi-user terminal — an outage here affects several refineries
 						<coordinates>121.13664535487,37.71518630156893,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>CNOOC Mabian Island Crude Oil Terminal</name>
+					<description>Status: Operational
+Owner/Operator: CNOOC — a CNOOC-Shell joint venture and Huade Petrochemical operate separate berths on the same island
+Role: Dedicated offshore crude unloading island supporting CNOOC Huizhou Refinery&apos;s entire crude supply
+Berth capacity: VLCC-capable, 300,000 dwt; ~1.8 million tonnes/year
+Connectivity: Subsea pipeline to CNOOC Huizhou Refinery on the mainland — the only route crude can reach the refinery by
+Recent news: Built alongside the refinery&apos;s original 2008 construction; the refinery&apos;s capacity has since grown to 240,000+ b/d
+Strategic role: The single physical chokepoint for Huizhou&apos;s crude supply — shared with other operators, so disruption here can affect several companies at once, not just CNOOC</description>
+					<Camera>
+						<longitude>114.647184285967</longitude>
+						<latitude>22.64894921253674</latitude>
+						<altitude>9191.671769273358</altitude>
+						<heading>17.33200307511765</heading>
+						<tilt>16.19648033899999</tilt>
+						<roll>2.794144496399261</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#default0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>114.6462289767297,22.66984982908974,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Offshore Tanker Loading</name>
@@ -18075,8 +18083,31 @@ Risks: Third major low-water shock since 2018; heat and low soil moisture across
 		</Folder>
 		<Folder>
 			<name>Maritime Routes</name>
+			<open>1</open>
 			<Folder>
 				<name>Crude-grade delivery routes</name>
+				<Placemark>
+					<name>Búzios Route to China</name>
+					<description>Status: Operational
+Crude: Búzios
+API: ~28.4°
+Sulfur: ~0.31%
+Type: Medium, sweet
+Origin: Búzios Field, Santos Basin pre-salt, ~180 km offshore Rio de Janeiro; Petrobras-operated (90%), with CNOOC and CNPC holding a combined minority equity stake
+Markets: China was taking the majority of Brazil&apos;s crude exports through much of 2026 — as high as 54% in H1 2026 — as the Hormuz crisis pushed Asian refiners toward non-Gulf supply. More recent reporting (September 2026) shows some of that shift reversing toward Europe, though CNOOC&apos;s direct equity stake in Búzios continues to anchor this specific route regardless of the broader trend
+Used for: Diesel and jet fuel — Brazilian pre-salt grades yield well for IMO-compliant low-sulphur fuel oil, a major draw for Asian buyers since 2020
+Pricing: Trades at a differential to Dated Brent; historically a small discount to Tupi (flat to ~30¢/bbl)
+Vessels: VLCC, loaded via dynamically-positioned (DP) shuttle tanker from the FPSO
+Transit: ~50 days via the Cape of Good Hope and the Strait of Malacca &amp; Singapore Strait
+Risks: Brazil&apos;s short-term production flexibility is limited, so it can&apos;t fully substitute for Gulf supply; seasonal competition from Russian Arctic cargoes to China; the long voyage ties up tanker capacity in an already strained freight market; China&apos;s overall appetite for Brazilian crude has started softening since mid-2026, a trend worth watching</description>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-42.04991214549232,-24.64996237477508,0 -40.76888922409051,-27.31719760165893,0 -36.88012638490006,-30.92808920412098,0 -29.08213929921159,-35.63225064995859,0 -10.31624940229591,-40.26967752823034,0 4.391407951814379,-39.7416022043933,0 12.53656892167292,-38.62882159429837,0 23.66139304308823,-37.39021499441051,0 35.11188939453572,-36.59553139196462,0 63.00580221055205,-28.01548329905014,0 68.05162368639378,-25.6124015170144,0 88.31336976605327,0.7542343988866348,0 94.38936300113936,6.168950843465188,0 95.72441868103385,6.741843685882771,0 102.9063889226828,1.365318546049779,0 103.4567753009941,1.173284924512908,0 103.6870305179918,1.115782232310867,0 103.8995520968967,1.200554666420193,0 104.2178767165052,1.251469260689805,0 104.4180183573708,1.378604217999154,0 105.2222565955106,3.096980107337597,0 110.0885929950125,10.17629686298678,0 113.9044923469411,16.48179847543374,0 114.7742356388834,22.34758233054838,0 114.6998396107223,22.58238090009812,0 114.6815022713538,22.67030348204063,0 114.6508620823335,22.67788913013468,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
 				<Placemark>
 					<name>Cold Lake Blend route to China</name>
 					<description>Status: Operational
@@ -18091,7 +18122,7 @@ Pricing: Discount to WTI and Brent for density, sulphur and conversion costs; th
 Vessels: Aframax loaded at Westridge — Burrard Inlet&apos;s Second Narrows limits vessel size, so some cargoes top up via ship-to-ship transfer offshore before the Pacific crossing
 Transit: ~18–24 days to Ningbo across the Pacific
 Risks: Trans Mountain pipeline apportionment/congestion; diluent costs; Alberta wildfires; Second Narrows draft limits</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18123,7 +18154,7 @@ Risks: North Sea weather, Norpipe or terminal outages, loading delays and conges
 						<range>28671.90825181548</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<coordinates>
 							-1.15874721239563,54.6206749971646,0 -1.151613038877648,54.63599377465301,0 -1.140965254938063,54.65784362001222,0 -1.060442868721545,54.64491783741576,0 -0.5042670893951451,54.59658029033355,0 4.128721617829996,51.9504775526802,0 
@@ -18154,7 +18185,7 @@ Risks: North Sea storms, Forties Pipeline System outages, Hound Point loading de
 						<range>40011.55875130557</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<coordinates>
 							-3.356181009372454,56.0072756934243,0 -3.143069616519386,56.01630370323091,0 -2.501747590983237,56.15451260494337,0 4.130799410605411,51.94944354803467,0 
@@ -18185,7 +18216,7 @@ Risks: North Sea weather, pipeline or terminal outages, loading delays and conge
 						<range>43446.99073781725</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<coordinates>
 							5.017424123675614,60.82295319523157,0 4.989643776075658,60.83530221912016,0 4.932523943601581,60.84191638586307,0 4.836817720843445,60.84157951314158,0 4.635550344100561,60.71376640080043,0 4.135001774504474,51.94943400494363,0 
@@ -18216,7 +18247,7 @@ Risks: Permian pipeline constraints, Gulf Coast hurricanes, terminal congestion,
 						<range>105387.8634237126</range>
 						<altitudeMode>absolute</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<coordinates>
 							-94.79619732647615,29.35565974678772,0 -94.70674939873602,29.34160401425848,0 -81.45740385683968,23.43847136242035,0 -51.29572388033871,45.01403269393709,0 -5.283560155080528,49.6212484646782,0 0.9590478230107591,50.76923381833073,0 4.134642877007093,51.94239082545266,0 
@@ -18238,7 +18269,7 @@ Vessels: Typically Aframax or Suezmax loaded at Ceyhan
 Connectivity: Route to Cressier — Ceyhan → Fos-sur-Mer → SPSE → Jura line → Cressier (VAROPreem); alternatively by sea via Gibraltar and the Channel to Rotterdam
 Transit: ~5–7 days to Fos-sur-Mer; ~12–16 days to Rotterdam
 Risks: BTC outages; Ceyhan loading disruption; Turkish and Mediterranean geopolitics; Gibraltar and Channel congestion; crude-quality contamination</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18260,7 +18291,7 @@ Pricing: Variable differential to Dated Brent, depending on Mediterranean demand
 Vessels: Aframax or Suezmax, loaded at the CPC Marine Terminal, discharging at Trieste&apos;s offshore buoy into the TAL system
 Transit: ~5–7 days via the Bosphorus, the Aegean and the Adriatic to Trieste
 Risks: Bosphorus/Dardanelles congestion and weather closures; CPC pipeline or Tengiz field maintenance; elevated war-risk insurance for vessels calling Russian-flagged ports, even for non-Russian-origin cargo; any future EU move to extend sanctions to non-Russian oil moving via Russian ports</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18282,7 +18313,7 @@ Pricing: Usually assessed against Dubai/Oman or regional Asia-Pacific light-crud
 Vessels: Typically loaded on Aframax tankers at Prigorodnoye
 Transit: Around 4–7 days to northern Japan, depending on destination and weather
 Risks: Ice, severe winter weather, sanctions, payment restrictions and navigation constraints around Sakhalin and northern Japan</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18304,7 +18335,7 @@ Pricing: Monthly Aramco OSPs — European cargoes vs ICE Brent, Asian cargoes vs
 Vessels: Usually VLCC; Suezmax depending on cargo size and routing
 Transit: ~25–35 days to Rotterdam via the Red Sea and Suez; longer around the Cape
 Risks: Hormuz disruption; Red Sea and Bab el-Mandeb security; Suez congestion; war-risk premiums; Cape rerouting]]></description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18325,7 +18356,7 @@ Pricing: Variable discount to Dated Brent
 Vessels: Ice-strengthened Aframax shuttle tanker, then Aframax/Suezmax to Rotterdam
 Transit: 9–12 days
 Risks: Icebergs, Atlantic storms, loading delays and Dover Strait congestion</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18347,7 +18378,7 @@ Pricing: Monthly Sonatrach OSP as a differential to Dated Brent, frequently at a
 Vessels: Usually Aframax; Suezmax for larger cargoes
 Transit: ~2 days / ~450 nm from Skikda to Fos-sur-Mer; ~5–6 days to Rotterdam via Gibraltar
 Risks: Low — no major chokepoints; Gulf of Lion mistral weather, port congestion, occasional Algerian loading or pipeline disruptions</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18369,7 +18400,7 @@ Pricing: Monthly NOC/Waha OSP as a differential to Dated Brent, with a Libyan po
 Vessels: Usually Suezmax or Aframax, loaded offshore at the SBMs
 Transit: ~5–6 days / ~1,300–1,450 nm to Fos-sur-Mer via the Strait of Sicily; ~7–9 days to Rotterdam via Gibraltar
 Risks: Libyan political instability — field shutdowns, port blockades and force majeure at the terminal; militia risk; Strait of Sicily traffic</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18391,7 +18422,7 @@ Pricing: Variable differential to Dated Brent, in line with West African OSPs
 Vessels: Suezmax to Europe; VLCC for Asia — vessel size drives the discharge port via draft limits
 Transit: ~20–24 days / ~6,400–6,900 nm up the Atlantic to Lysekil; longer to Asia via the Cape
 Risks: Gulf of Guinea piracy at loading; Atlantic and North Sea weather; VLCC draft limits. No Suez, Hormuz or Gibraltar transit</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18413,7 +18444,7 @@ Pricing: Variable differential to Dated Brent, in line with West African OSPs
 Vessels: Suezmax or VLCC, loaded via CALM buoy transfer from the Girassol FPSO
 Transit: ~17–21 days to Rotterdam
 Risks: FPSO offloading weather windows; Gulf of Guinea piracy exposure; cheaper US and North Sea grades compete for Europe&apos;s remaining call on Angolan barrels</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18435,7 +18466,7 @@ Pricing: Differential to Dated Brent (the &quot;Latin Dated Brent&quot; strip), 
 Vessels: Usually Suezmax; some Aframax, loaded offshore via tandem transfer
 Transit: ~13–16 days / ~4,400–4,800 nm transatlantic to Lysekil via the Channel or north-about Scotland
 Risks: North Atlantic and North Sea weather; Channel traffic density; the Skagerrak approach; offshore-loading weather windows. No piracy or chokepoint exposure</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18457,7 +18488,7 @@ Pricing: Usually priced at a premium or discount to Dated Brent; during the Marc
 Vessels: Typically loaded in standard cargoes of about 950,000 barrels, generally on Suezmax tankers
 Transit: Around 14–18 days from Bonny Terminal to Rotterdam
 Risks: Pipeline theft and sabotage, loading disruptions, Niger Delta security, Gulf of Guinea piracy, Atlantic weather and congestion in the English Channel</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18479,11 +18510,11 @@ Pricing: Variable differential to Dated Brent, in line with West African OSPs; c
 Vessels: VLCC, loaded via CALM buoy transfer from the Girassol FPSO
 Transit: ~35–40 days via the Cape of Good Hope and the Strait of Malacca &amp; Singapore Strait
 Risks: FPSO offloading weather windows; Gulf of Guinea piracy exposure; Yulong Petrochemical sanctioned by the UK and EU (Oct 2025) over Russian energy ties; passes through the Strait of Malacca &amp; Singapore Strait, one of the world&apos;s most concentrated shipping chokepoints</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=40</styleUrl>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							11.2653174449557,-8.076742223740878,0 10.81975580175713,-18.99944958994419,0 14.80406740566737,-30.98739558591099,0 18.17355302499479,-35.00399288348186,0 23.37865522340299,-36.31970087861347,0 41.69130240160886,-34.35081788461549,0 44.89841389019669,-33.74741018232838,0 67.11788151303614,-25.31573025842344,0 87.70619083512814,0.8892568508603993,0 94.06568363288427,6.379148517560592,0 95.75054254264244,6.98016649167917,0 100.8723843407467,2.92681667041189,0 102.9170638450204,1.408358148854839,0 103.5065429540714,1.145202201211242,0 103.6988481734789,1.108328741818493,0 103.8946296668218,1.220218811177622,0 104.2208509101919,1.263023762941089,0 104.3901344336628,1.386795417926294,0 105.0675664016301,3.135188584480742,0 109.7980589966798,10.15635217573082,0 113.7442715709893,16.65763227795392,0 117.7635869113658,20.9362179748123,0 119.2171379728269,23.95064631647308,0 121.5163735680541,26.84805869926113,0 122.9161442376522,28.59961786713573,0 123.6594440906286,32.97450353506709,0 123.1889896181156,37.66554675073584,0 121.7882720384125,37.89544060163919,0 121.1978528683809,37.75903493965704,0 121.1369857959815,37.71588538917756,0 
+							11.2653174449557,-8.076742223740878,0 10.81975580175713,-18.99944958994419,0 14.80406740566737,-30.98739558591099,0 18.17355302499479,-35.00399288348186,0 23.37865522340299,-36.31970087861347,0 41.69130240160886,-34.35081788461549,0 44.89841389019669,-33.74741018232838,0 67.11788151303614,-25.31573025842344,0 87.70619083512814,0.8892568508603993,0 94.06568363288427,6.379148517560592,0 95.75054254264244,6.98016649167917,0 100.9142840346753,2.946326100028653,0 102.9170638450204,1.408358148854839,0 103.4995494461788,1.179771975098951,0 103.6961339427369,1.136492157575075,0 103.8949534996323,1.208978199261956,0 104.2208509101919,1.263023762941089,0 104.3901344336628,1.386795417926294,0 105.0675664016301,3.135188584480742,0 109.7980589966798,10.15635217573082,0 113.7442715709893,16.65763227795392,0 117.7635869113658,20.9362179748123,0 119.2171379728269,23.95064631647308,0 121.5163735680541,26.84805869926113,0 122.9161442376522,28.59961786713573,0 123.6594440906286,32.97450353506709,0 123.1889896181156,37.66554675073584,0 121.7882720384125,37.89544060163919,0 121.1978528683809,37.75903493965704,0 121.1369857959815,37.71588538917756,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
@@ -18501,7 +18532,7 @@ Pricing: Traded against WTI Houston and Dated Brent, at a freight-adjusted premi
 Vessels: Suezmax — smaller vessels are used specifically to take the faster Panama Canal route rather than the longer Cape of Good Hope/Atlantic alternative used for larger cargoes
 Transit: ~33–38 days via the Panama Canal and a direct Pacific crossing
 Risks: Panama Canal transit caps and drought restrictions (renewed El Niño risk heading into the Dec 2026–April 2027 dry season, after record transit-slot auction prices in 2026); South Korean demand is itself tariff-policy-sensitive and could shift again</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
@@ -18523,11 +18554,11 @@ Pricing: Murban trades as its own benchmark on ICE Futures Abu Dhabi (IFAD) sinc
 Vessels: VLCC, loaded directly at Fujairah — no Hormuz transit required at any point on this route
 Transit: ~22–24 days via the Indian Ocean and the Strait of Malacca &amp; Singapore Strait
 Risks: Fujairah port has itself been struck during the war (March 2026); Strait of Malacca &amp; Singapore Strait chokepoint exposure on the onward leg</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
-							56.37044103874027,25.20816969374436,0 62.22759241616721,24.12404702988748,0 75.05440822497269,7.672536312611703,0 79.25227289337418,5.170129707375537,0 83.03926832329721,5.440971048891424,0 94.02679296648027,6.528033393301436,0 95.79162868956513,7.208602736395229,0 97.03515716536788,6.277016451271535,0 100.2023480102023,3.634986661648221,0 102.1301482401975,2.079328051896921,0 102.9967995362643,1.453152006845768,0 103.5144528087599,1.18547443084473,0 103.7069534688808,1.149731414659364,0 103.7957632696827,1.177902535414891,0 103.8916828675244,1.227085227144721,0 104.2150378278522,1.274317829953395,0 104.3762952498463,1.39769128280299,0 104.9150427360645,3.208532568262145,0 113.5695135996429,16.66455172276128,0 117.5145878966358,21.02223386912769,0 119.0357988895846,23.98617322747002,0 122.9721460015803,27.37652309584299,0 129.7729733713538,30.20453598868419,0 130.5784384000385,30.12356751313957,0 132.9130984814194,30.3484555335335,0 139.8547335078117,33.8273058283115,0 139.8444843638686,34.3693915276567,0 139.6081272887614,34.94874400552074,0 139.7121915413732,35.15510315732013,0 139.7595161596297,35.27171395834135,0 139.7253426261248,35.31902841137668,0 139.762904741797,35.42004679620028,0 139.7870455326375,35.48347473466173,0 139.7859788660748,35.48631711948092,0 
+							56.37044103874027,25.20816969374436,0 62.22759241616721,24.12404702988748,0 75.05440822497269,7.672536312611703,0 79.25227289337418,5.170129707375537,0 83.03926832329721,5.440971048891424,0 94.02679296648027,6.528033393301436,0 95.79162868956513,7.208602736395229,0 97.03515716536788,6.277016451271535,0 100.2023480102023,3.634986661648221,0 102.1301482401975,2.079328051896921,0 102.9967995362643,1.453152006845768,0 103.5144528087599,1.18547443084473,0 103.7035012624311,1.14985313575984,0 103.7960403697944,1.183816495326548,0 103.8936069256027,1.220953709473025,0 104.2150378278522,1.274317829953395,0 104.3762952498463,1.39769128280299,0 104.9150427360645,3.208532568262145,0 113.5695135996429,16.66455172276128,0 117.5145878966358,21.02223386912769,0 119.0357988895846,23.98617322747002,0 122.9721460015803,27.37652309584299,0 129.7729733713538,30.20453598868419,0 130.5784384000385,30.12356751313957,0 132.9130984814194,30.3484555335335,0 139.8547335078117,33.8273058283115,0 139.8444843638686,34.3693915276567,0 139.6081272887614,34.94874400552074,0 139.7121915413732,35.15510315732013,0 139.7595161596297,35.27171395834135,0 139.7253426261248,35.31902841137668,0 139.762904741797,35.42004679620028,0 139.7870455326375,35.48347473466173,0 139.7859788660748,35.48631711948092,0 
 						</coordinates>
 					</LineString>
 				</Placemark>
@@ -18545,7 +18576,7 @@ Pricing: Trades at a discount to Dated Brent, historically widened by sanctions 
 Vessels: Operated largely by the &quot;shadow fleet&quot; — older tankers outside Western insurance and classification frameworks. Ship-to-ship transfers are common on this route, both for vessel upsizing partway through the long voyage and for final approach into shallow Indian terminals
 Transit: ~7,000 nautical miles, around 25–30 days via Suez; meaningfully longer if rerouted via the Cape of Good Hope
 Risks: Sanctions and insurance exposure for the shadow fleet; Red Sea/Bab el-Mandeb war risk forcing conditional Cape of Good Hope reroutes; demand itself is politically volatile — India&apos;s Russian crude intake has swung sharply up and down through 2026 depending on the sanctions environment</description>
-					<styleUrl>#msn_icon?color=1976d2&amp;id=2000&amp;scale=4</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
